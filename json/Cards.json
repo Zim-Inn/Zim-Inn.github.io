@@ -215,6 +215,14 @@
                 "card_name":{
                     "english":"Bristleback"
                 },
+                "lore":{
+                    "text": {
+                        "english": "I never went to some fancy military school to learn how to beat a man half to death... that's what bars were for."
+                    },
+                    "tag": {
+                        "english":  "Bristleback, Barfly"
+                    }
+                },
                 "set": 1,
                 "rarity": 1,
                 "colour": "R",
@@ -234,6 +242,14 @@
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Bristleback"
+                },
+                "lore":{
+                    "text": {
+                        "english": "I never went to some fancy military school to learn how to beat a man half to death... that's what bars were for."
+                    },
+                    "tag": {
+                        "english": "Bristleback, Barfly"
+                    }
                 },
                 "set": 1,
                 "rarity": 1,
@@ -261,6 +277,14 @@
                 "card_name":{
                     "english":"Viscous Nasal Goo"
                 },
+                "lore":{
+                    "text": {
+                        "english": "It's not gonna score points with the ladies, but when it comes to winning a fight I'll take every advantage I can get."
+                    },
+                    "tag": {
+                        "english": "Bristleback, Dirty Fighter"
+                    }
+                },
                 "set": 1,
                 "rarity": 1,
                 "colour": "R",
@@ -285,6 +309,14 @@
                 "card_name":{
                     "english":"Treant Protector"
                 },
+                "lore":{
+                    "text": {
+                        "english": "My feelings on the war in roseleaf are... complicated. Neither the bronze legion nor the red mist are threats to my people, and yet my cousins willingly intercede on the Vhoul's behalf. Their fondness for such frail creatures is strange to me, but none the less they call for my aid, and I am compelled to answer."
+                    },
+                    "tag": {
+                        "english": "Rooftrellen, the Treant Protector"
+                    }
+                },
                 "set": 1,
                 "rarity": 1,
                 "colour": "G",
@@ -304,6 +336,14 @@
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Treant Protector"
+                },
+                "lore":{
+                    "text": {
+                        "english": "My feelings on the war in roseleaf are... complicated. Neither the bronze legion nor the red mist are threats to my people, and yet my cousins willingly intercede on the Vhoul's behalf. Their fondness for such frail creatures is strange to me, but none the less they call for my aid, and I am compelled to answer."
+                    },
+                    "tag": {
+                        "english": "Rooftrellen, the Treant Protector"
+                    }
                 },
                 "set": 1,
                 "rarity": 4,
@@ -330,6 +370,14 @@
                 "card_name":{
                     "english":"Roseleaf Druid"
                 },
+                "lore":{
+                    "text": {
+                        "english": "To fight alongside Rooftrellen is a great honor. With his help I have no doubt that these trespassers will be removed in no time. But even still, sometimes I am filled with doubt. Today it is the Red Mist and Bronze Legion. Tomorrow it will be the keen. When will the despoiling of our home ever end..."
+                    },
+                    "tag": {
+                        "english": "Aubgraw, Roseleaf Druid"
+                    }
+                },
                 "set": 1,
                 "rarity": 1,
                 "colour": "G",
@@ -352,6 +400,14 @@
                 "card_type":"Creep",
                 "card_name":{
                     "english":"Roseleaf Druid"
+                },
+                "lore":{
+                    "text": {
+                        "english": "To fight alongside Rooftrellen is a great honor. With his help I have no doubt that these trespassers will be removed in no time. But even still, sometimes I am filled with doubt. Today it is the Red Mist and Bronze Legion. Tomorrow it will be the keen. When will the despoiling of our home ever end..."
+                    },
+                    "tag": {
+                        "english": "Aubgraw, Roseleaf Druid"
+                    }
                 },
                 "set": 1,
                 "rarity": 4,
@@ -381,6 +437,14 @@
                 "card_name":{
                     "english":"Bounty Hunter"
                 },
+                "lore":{
+                    "text": {
+                        "english": "Lord Sunbreeze is willing to pay handsomely to anyone who was able to return his daughter to him alive... which is somewhat unfortunate because 'Dead' is significantly easier for me. Oh well, the customer is always right. Looks like it's time to hunt a fairy."
+                    },
+                    "tag": {
+                        "english": "Gondar, the Bounty Hunter"
+                    }
+                },
                 "set": 1,
                 "rarity": 2,
                 "colour": "B",
@@ -400,6 +464,14 @@
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Bounty Hunter"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Lord Sunbreeze is willing to pay handsomely to anyone who was able to return his daughter to him alive... which is somewhat unfortunate because 'Dead' is significantly easier for me. Oh well, the customer is always right. Looks like it's time to hunt a fairy."
+                    },
+                    "tag": {
+                        "english": "Gondar, the Bounty Hunter"
+                    }
                 },
                 "set": 1,
                 "rarity": 5,
@@ -426,6 +498,14 @@
                 "card_type":"Spell",
                 "card_name":{
                     "english":"Track"
+                },
+                "lore":{
+                    "text": {
+                        "english": "It's not always honest work, but it's certainly lucrative."
+                    },
+                    "tag": {
+                        "english": "Bounty Hunter, Professional Tracker"
+                    }
                 },
                 "set": 1,
                 "rarity": 1,
@@ -475,6 +555,14 @@
                 "card_name":{
                     "english":"Timbersaw"
                 },
+                "lore":{
+                    "text": {
+                        "english": "I know they think I'm crazy... and that's ok... they didn't see what I saw... see what the trees did. 'Ohh it's nature, look at the beauty of the forest.' Lies. That's not a tranquil jungle... that's a sleeping army. And unless we are prepared when that forest starts to march it will be the end of everybody."
+                    },
+                    "tag": {
+                        "english": "Rizzrack, the Timbersaw"
+                    }
+                },
                 "set": 1,
                 "rarity": 2,
                 "colour": "R",
@@ -494,6 +582,14 @@
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Timbersaw"
+                },
+                "lore":{
+                    "text": {
+                        "english": "I know they think I'm crazy... and that's ok... they didn't see what I saw... see what the trees did. 'Ohh it's nature, look at the beauty of the forest.' Lies. That's not a tranquil jungle... that's a sleeping army. And unless we are prepared when that forest starts to march it will be the end of everybody."
+                    },
+                    "tag": {
+                        "english": "Rizzrack, the Timbersaw"
+                    }
                 },
                 "set": 1,
                 "rarity": 4,
@@ -520,6 +616,14 @@
                 "card_type":"Spell",
                 "card_name":{
                     "english":"Whirling Death"
+                },
+                "lore":{
+                    "text": {
+                        "english": "I was nervous about following the Society of Likeminded Keenfolk to Roseleaf... Sniper had a lot of rules. Rules like 'we can't stop to cut down every tree'. But when he saw the Treants marching towards us, he quickly made an exception."
+                    },
+                    "tag": {
+                        "english": "Timbersaw, Crazed Lumberjack"
+                    }
                 },
                 "set": 1,
                 "rarity": 2,
@@ -570,6 +674,14 @@
                 "card_name":{
                     "english":"Debbi the Cunning"
                 },
+                "lore":{
+                    "text": {
+                        "english": "Kobold's aren't born with names. We take them from the first person we kill. In retrospect I should have considered that before I shoved that baker into her oven. On the other hand - I kind of look like a Debbi."
+                    },
+                    "tag": {
+                        "english": "Debbi, the Kobold Saboteur"
+                    }
+                },
                 "set": 0,
                 "rarity": 0,
                 "colour": "B",
@@ -589,6 +701,14 @@
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Debbi the Cunning"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Kobold's aren't born with names. We take them from the first person we kill. In retrospect I should have considered that before I shoved that baker into her oven. On the other hand - I kind of look like a Debbi."
+                    },
+                    "tag": {
+                        "english": "Debbi, the Kobold Saboteur"
+                    }
                 },
                 "set": 1,
                 "rarity": 4,
@@ -615,6 +735,14 @@
                 "card_name":{
                     "english":"No Accident"
                 },
+                "lore":{
+                    "text": {
+                        "english": "Ever since I heard about the Jasper Circle I wanted to be a part of it, but a group like that... you don't ask to join, you have to be approached... which means you need to make a name for yourself. Six months I shadowed Sunbreeze. Six months of watching that stupid fairy do stupid merchant fairy things. Finally I had a plan. Then the Veiled Sisterhood went and assassinated Kwerthias which ruined everything. Sure I could have killed Sunbreeze, but then people would have given the Sisterhood the credit, so I just said to hell with it and scrapped everything."
+                    },
+                    "tag": {
+                        "english": "Debbi, Foiled Assassin"
+                    }
+                },
                 "set": 0,
                 "rarity": 0,
                 "colour": "B",
@@ -633,6 +761,14 @@
                 "card_type":"Spell",
                 "card_name":{
                     "english":"No Accident"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Ever since I heard about the Jasper Circle I wanted to be a part of it, but a group like that... you don't ask to join, you have to be approached... which means you need to make a name for yourself. Six months I shadowed Sunbreeze. Six months of watching that stupid fairy do stupid merchant fairy things. Finally I had a plan. Then the Veiled Sisterhood went and assassinated Kwerthias which ruined everything. Sure I could have killed Sunbreeze, but then people would have given the Sisterhood the credit, so I just said to hell with it and scrapped everything. "
+                    },
+                    "tag": {
+                        "english": "Debbi, Foiled Assassin"
+                    }
                 },
                 "set": 1,
                 "rarity": 4,
@@ -658,6 +794,14 @@
                 "card_name":{
                     "english":"Keefe the Bold"
                 },
+                "lore":{
+                    "text": {
+                        "english": "Fighting is like crushing someone's skull with a tree trunk. That's an analogy!"
+                    },
+                    "tag": {
+                        "english": "Keefe Treekiller, the Ogre Bruiser"
+                    }
+                },
                 "set": 0,
                 "rarity": 0,
                 "colour": "R",
@@ -676,6 +820,14 @@
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Keefe the Bold"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Fighting is like crushing someone's skull with a tree trunk. That's an analogy!"
+                    },
+                    "tag": {
+                        "english": "Keefe Treekiller, the Ogre Bruiser"
+                    }
                 },
                 "set": 1,
                 "rarity": 4,
@@ -702,6 +854,14 @@
                 "card_type":"Spell",
                 "card_name":{
                     "english":"Fighting Instinct"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Life is a series of people trying to kill you. Kill them first."
+                    },
+                    "tag": {
+                        "english": "Keefe imparts wisdom to his 4 year old daughter"
+                    }
                 },
                 "set": 0,
                 "rarity": 0,
@@ -751,6 +911,14 @@
                 "card_name":{
                     "english":"Farvhan the Dreamer"
                 },
+                "lore":{
+                    "text": {
+                        "english": "Magnus brought the child to us for safe keeping. He didn't say why but he didn't have to. I knew who she was, and who she could become."
+                    },
+                    "tag": {
+                        "english": "Farvhan, the Prowler Shaman"
+                    }
+                },
                 "set": 0,
                 "rarity": 0,
                 "colour": "G",
@@ -770,6 +938,14 @@
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Farvhan the Dreamer"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Magnus brought the child to us for safe keeping. He didn't say why but he didn't have to. I knew who she was, and who she could become."
+                    },
+                    "tag": {
+                        "english": "Farvhan, the Prowler Shaman"
+                    }
                 },
                 "set": 1,
                 "rarity": 4,
@@ -796,6 +972,14 @@
                 "card_name":{
                     "english":"Prowler Vanguard"
                 },
+                "lore":{
+                    "text": {
+                        "english": "I don't know why the child is important... all I know is that we have been charged with her protection, and we won't let The Shaman down. "
+                    },
+                    "tag": {
+                        "english": "The Prowler Vanguard take in Ilexa"
+                    }
+                },
                 "set": 0,
                 "rarity": 0,
                 "colour": "G",
@@ -818,6 +1002,14 @@
                 "card_type":"Creep",
                 "card_name":{
                     "english":"Prowler Vanguard"
+                },
+                "lore":{
+                    "text": {
+                        "english": "I don't know why the child is important... all I know is that we have been charged with her protection, and we won't let The Shaman down. "
+                    },
+                    "tag": {
+                        "english": "The Prowler Vanguard take in Ilexa"
+                    }
                 },
                 "set": 1,
                 "rarity": 4,
@@ -847,6 +1039,14 @@
                 "card_name":{
                     "english":"J'Muy the Wise"
                 },
+                "lore":{
+                    "text": {
+                        "english": "The people I lead are small in number but vast in potential... and I will not see them slaughtered as the forest burns. The time has come for us to leave our ancestral home; and so I will lead my tribe to Weeping Rose... there our magicks will be celebrated, not feared."
+                    },
+                    "tag": {
+                        "english": "The Dark Troll Chieftain on his people's exodus"
+                    }
+                },
                 "set": 0,
                 "rarity": 0,
                 "colour": "U",
@@ -866,6 +1066,14 @@
                 "card_type":"Hero",
                 "card_name":{
                     "english":"J'Muy the Wise"
+                },
+                "lore":{
+                    "text": {
+                        "english": "The people I lead are small in number but vast in potential... and I will not see them slaughtered as the forest burns. The time has come for us to leave our ancestral home; and so I will lead my tribe to Weeping Rose... there our magicks will be celebrated, not feared."
+                    },
+                    "tag": {
+                        "english": "The Dark Troll Chieftain on his people's exodus"
+                    }
                 },
                 "set": 1,
                 "rarity": 4,
@@ -892,6 +1100,14 @@
                 "card_type":"Spell",
                 "card_name":{
                     "english":"Battlefield Control"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Sometimes the simplest of spells can be the most effective."
+                    },
+                    "tag": {
+                        "english": "J'muy, The Dark Troll Chieftain"
+                    }
                 },
                 "set": 0,
                 "rarity": 0,
@@ -1115,6 +1331,14 @@
                 "card_name":{
                     "english":"Phase Boots"
                 },
+                "lore":{
+                    "text": {
+                        "english": "To many this pair of boots seems like a lesser magical item... but in the right hands these can turn the tide of any battle."
+                    },
+                    "tag": {
+                        "english": "Jolixia, The Card Faun"
+                    }
+                },
                 "set": 1,
                 "rarity": 2,
                 "image": "200037_0",
@@ -1138,6 +1362,14 @@
                 "card_subtype": "Accessory",
                 "card_name":{
                     "english":"Phase Boots"
+                },
+                "lore":{
+                    "text": {
+                        "english": "To many this pair of boots seems like a lesser magical item... but in the right hands these can turn the tide of any battle."
+                    },
+                    "tag": {
+                        "english": "Jolixia, The Card Faun"
+                    }
                 },
                 "set": 1,
                 "rarity": 4,
@@ -1168,6 +1400,14 @@
                 "card_name":{
                     "english":"Claszureme Hourglass"
                 },
+                "lore":{
+                    "text": {
+                        "english": "It was Pierpont who helped broker the Claszureme Treaty, ensuring that Faceless Void would not wreak havoc with our time stream. In exchange, the Sapphire Conclave agreed to enforce a strict crackdown on Chronomancy. Most hourglasses on this plane were confiscated, but every now and again one turns up... usually in the possession of a wizard too foolish to understand the consequences of his actions."
+                    },
+                    "tag": {
+                        "english": "Jolixia, The Card Faun"
+                    }
+                },
                 "set": 1,
                 "rarity": 2,
                 "image": "200038_0",
@@ -1191,6 +1431,14 @@
                 "card_subtype": "Accessory",
                 "card_name":{
                     "english":"Claszureme Hourglass"
+                },
+                "lore":{
+                    "text": {
+                        "english": "It was Pierpont who helped broker the Claszureme Treaty, ensuring that Faceless Void would not wreak havoc with our time stream. In exchange, the Sapphire Conclave agreed to enforce a strict crackdown on Chronomancy. Most hourglasses on this plane were confiscated, but every now and again one turns up... usually in the possession of a wizard too foolish to understand the consequences of his actions."
+                    },
+                    "tag": {
+                        "english": "Jolixia, The Card Faun"
+                    }
                 },
                 "set": 1,
                 "rarity": 7,
@@ -1221,6 +1469,14 @@
                 "card_name":{
                     "english":"Nyctasha's Guard"
                 },
+                "lore":{
+                    "text": {
+                        "english": "Legend has it that the God of Fear herself forged this shield, and that no enemy of its wielder can dare to stand its presence."
+                    },
+                    "tag": {
+                        "english": "Jolixia, The Card Faun"
+                    }
+                },
                 "set": 1,
                 "rarity": 2,
                 "image": "200039_0",
@@ -1244,6 +1500,14 @@
                 "card_subtype": "Armor",
                 "card_name":{
                     "english":"Nyctasha's Guard"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Legend has it that the God of Fear herself forged this shield, and that no enemy of its wielder can dare to stand its presence."
+                    },
+                    "tag": {
+                        "english": "Jolixia, The Card Faun"
+                    }
                 },
                 "set": 1,
                 "rarity": 6,
@@ -1273,6 +1537,14 @@
                 "card_name":{
                     "english":"Prellex"
                 },
+                "lore":{
+                    "text": {
+                        "english": "Brothers and sisters, The Ancient is coming. With every passing day my visions grow stronger: A violet sky. A sundered moon. And an Ancient voice that whispers 'Prepare for my arrival.' Prepare. Such a simple word that does no justice to the work that lies before us... We must be heralds; walking testimonies to the benevolence of The Ancient. Spreading the word of its glorious arrival, no matter if that message is received with joy or scorn. We must be architects; building not just this monastery for those who believe what I have seen, but an entire world that is worthy of the Ancient's splendor. We must be zealots; willing to lay down our lives in defense of this sacred space, because rest assured we are at war. Kanna and her heretics will stop at nothing to undo the work that we've accomplished, and that is why we must return in kind."
+                    },
+                    "tag": {
+                        "english": "Prellex, Priestess of the Radiant"
+                    }
+                },
                 "set": 1,
                 "rarity": 2,
                 "colour": "U",
@@ -1292,6 +1564,14 @@
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Prellex"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Brothers and sisters, The Ancient is coming. With every passing day my visions grow stronger: A violet sky. A sundered moon. And an Ancient voice that whispers 'Prepare for my arrival.' Prepare. Such a simple word that does no justice to the work that lies before us... We must be heralds; walking testimonies to the benevolence of The Ancient. Spreading the word of its glorious arrival, no matter if that message is received with joy or scorn. We must be architects; building not just this monastery for those who believe what I have seen, but an entire world that is worthy of the Ancient's splendor. We must be zealots; willing to lay down our lives in defense of this sacred space, because rest assured we are at war. Kanna and her heretics will stop at nothing to undo the work that we've accomplished, and that is why we must return in kind."
+                    },
+                    "tag": {
+                        "english": "Prellex, Priestess of the Radiant"
+                    }
                 },
                 "set": 1,
                 "rarity": 4,
@@ -1319,6 +1599,14 @@
                 "card_name":{
                     "english":"Barracks"
                 },
+                "lore":{
+                    "text": {
+                        "english": "More of the faithful come by the day... and they will need a home to house them."
+                    },
+                    "tag": {
+                        "english": "Prellex, Bringer of the Faithful"
+                    }
+                },
                 "set": 1,
                 "rarity": 2,
                 "colour": "U",
@@ -1338,6 +1626,14 @@
                 "improvement_type":"Reactive",
                 "card_name":{
                     "english":"Barracks"
+                },
+                "lore":{
+                    "text": {
+                        "english": ""
+                    },
+                    "tag": {
+                        "english": ""
+                    }
                 },
                 "set": 1,
                 "rarity": 4,
@@ -1392,6 +1688,40 @@
                 "card_name":{
                     "english":"Axe"
                 },
+                "lore":{
+                    "text": {
+                        "english": "Axe is a man of many talents. Well one talent. The murder talent. However that seems to be enough for Axe to attract a legion of devoted fans that follow his adventures. It also probably helps that Axe's bard, Goodkind is good at what she calls 'embellishment'. Axe is unsure what the word means, but it's probably a good thing."
+                    },
+                    "tag": {
+                        "english": "Axe, Adventurer and Murder Machine"
+                    }
+                },
+                "set": 1,
+                "rarity": 3,
+                "colour": "R",
+                "image": "200043_0",
+                "miniimage": "200043_0",
+                "icon": "200043_0",
+                "attack": 7,
+                "armour": 2,
+                "hp": 11,
+                "abilities": [],
+                "signature": "200044_0"
+            },
+            {
+                "release_date":"2018-12-20",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Axe"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Axe is a man of many talents. Well one talent. The murder talent. However that seems to be enough for Axe to attract a legion of devoted fans that follow his adventures. It also probably helps that Axe's bard, Goodkind is good at what she calls 'embellishment'. Axe is unsure what the word means, but it's probably a good thing."
+                    },
+                    "tag": {
+                        "english": "Axe, Adventurer and Murder Machine"
+                    }
+                },
                 "set": 1,
                 "rarity": 3,
                 "colour": "R",
@@ -1409,6 +1739,14 @@
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Axe"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Axe is a man of many talents. Well one talent. The murder talent. However that seems to be enough for Axe to attract a legion of devoted fans that follow his adventures. It also probably helps that Axe's bard, Goodkind is good at what she calls 'embellishment'. Axe is unsure what the word means, but it's probably a good thing."
+                    },
+                    "tag": {
+                        "english": "Axe, Adventurer and Murder Machine"
+                    }
                 },
                 "set": 1,
                 "rarity": 5,
@@ -1435,6 +1773,14 @@
                 "card_type":"Spell",
                 "card_name":{
                     "english":"Berserker's Call"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Axe doesn't look back on his time in the Red Mist with particular fondness, but he acknowledges that he learned a lot about violence."
+                    },
+                    "tag": {
+                        "english": "Axe, Former Khan of the Red Mist"
+                    }
                 },
                 "set": 1,
                 "rarity": 3,
@@ -1484,6 +1830,14 @@
                 "card_name":{
                     "english":"Ogre Magi"
                 },
+                "lore":{
+                    "text": {
+                        "english": "'It's not easy being the smartest ogre in the world. There's lots of jealous people out there.'<br>'Think about how many people you know with one head.'<br>'I bet it's a lot.'<br>'Now realize that every single one of them is half as smart as us. Do you know how lonely it is to walk this earth, never finding an intellectual eq-'<br>'WE LIKE ROCKS!'<br>'Yes...yes we do.' "
+                    },
+                    "tag": {
+                        "english": "Aggron Stonebreak, the Ogre Magi"
+                    }
+                },
                 "set": 1,
                 "rarity": 1,
                 "colour": "U",
@@ -1501,6 +1855,14 @@
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Ogre Magi"
+                },
+                "lore":{
+                    "text": {
+                        "english": "'It's not easy being the smartest ogre in the world. There's lots of jealous people out there.'<br>'Think about how many people you know with one head.'<br>'I bet it's a lot.'<br>'Now realize that every single one of them is half as smart as us. Do you know how lonely it is to walk this earth, never finding an intellectual eq-'<br>'WE LIKE ROCKS!'<br>'Yes...yes we do.' "
+                    },
+                    "tag": {
+                        "english": "Aggron Stonebreak, the Ogre Magi"
+                    }
                 },
                 "set": 1,
                 "rarity": 6,
@@ -1528,6 +1890,14 @@
                 "card_name":{
                     "english":"Ignite"
                 },
+                "lore":{
+                    "text": {
+                        "english": "'I think we're probably the first person to figure out that fire can be used not just to cook meat. But also light people on fire.'<br>'If not the first, definitely in the top five.' "
+                    },
+                    "tag": {
+                        "english": "Ogre Magi, Innovator"
+                    }
+                },
                 "set": 1,
                 "rarity": 1,
                 "colour": "U",
@@ -1546,6 +1916,14 @@
                 "card_type":"Spell",
                 "card_name":{
                     "english":"Ignite"
+                },
+                "lore":{
+                    "text": {
+                        "english": "'I think we're probably the first person to figure out that fire can be used not just to cook meat. But also light people on fire.'<br>'If not the first, definitely in the top five.' "
+                    },
+                    "tag": {
+                        "english": "Ogre Magi, Innovator"
+                    }
                 },
                 "set": 1,
                 "rarity": 6,
@@ -1596,6 +1974,14 @@
                 "card_name":{
                     "english":"Phantom Assassin"
                 },
+                "lore":{
+                    "text": {
+                        "english": "The Veiled Sisterhood gave me everything. My life. My skills. My family... My very purpose. So when the Veiled Oracles provide me a list of names, I never question what it is I need to do. "
+                    },
+                    "tag": {
+                        "english": "Mortred, the Phantom Assassin"
+                    }
+                },
                 "set": 1,
                 "rarity": 1,
                 "colour": "B",
@@ -1613,6 +1999,14 @@
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Phantom Assassin"
+                },
+                "lore":{
+                    "text": {
+                        "english": "The Veiled Sisterhood gave me everything. My life. My skills. My family... My very purpose. So when the Veiled Oracles provide me a list of names, I never question what it is I need to do. "
+                    },
+                    "tag": {
+                        "english": "Mortred, the Phantom Assassin"
+                    }
                 },
                 "set": 1,
                 "rarity": 4,
@@ -1639,6 +2033,14 @@
                 "card_name":{
                     "english":"Coup de Grace"
                 },
+                "lore":{
+                    "text": {
+                        "english": "I'm immoral, not a sadist. If I am asked to kill you it will be clean and quick."
+                    },
+                    "tag": {
+                        "english": "Phantom Assassin, Efficient Killer"
+                    }
+                },
                 "set": 1,
                 "rarity": 1,
                 "colour": "B",
@@ -1657,6 +2059,14 @@
                 "card_type":"Spell",
                 "card_name":{
                     "english":"Coup de Grace"
+                },
+                "lore":{
+                    "text": {
+                        "english": "I'm immoral, not a sadist. If I am asked to kill you it will be clean and quick."
+                    },
+                    "tag": {
+                        "english": "Phantom Assassin, Efficient Killer"
+                    }
                 },
                 "set": 1,
                 "rarity": 4,
@@ -1682,6 +2092,14 @@
                 "card_name":{
                     "english":"Dark Seer"
                 },
+                "lore":{
+                    "text": {
+                        "english": "The Red Mist slowly marches to Stonehall. The Bronze Legion plans an ambush in Roseleaf. But the denizens of that Vhoul city do not take kindly to occupation and have sparked an insurrection. Three factions. One battlefield. And not a strategic mind between them. I will defeat these charlatans of war. And in doing so, prove my brilliance."
+                    },
+                    "tag": {
+                        "english": "Ish'kafel, the Dark Seer"
+                    }
+                },
                 "set": 1,
                 "rarity": 1,
                 "colour": "G",
@@ -1699,6 +2117,14 @@
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Dark Seer"
+                },
+                "lore":{
+                    "text": {
+                        "english": "The Red Mist slowly marches to Stonehall. The Bronze Legion plans an ambush in Roseleaf. But the denizens of that Vhoul city do not take kindly to occupation and have sparked an insurrection. Three factions. One battlefield. And not a strategic mind between them. I will defeat these charlatans of war. And in doing so, prove my brilliance."
+                    },
+                    "tag": {
+                        "english": "Ish'kafel, the Dark Seer"
+                    }
                 },
                 "set": 1,
                 "rarity": 5,
@@ -1726,6 +2152,14 @@
                 "card_name":{
                     "english":"Ion Shell"
                 },
+                "lore":{
+                    "text": {
+                        "english": "A thug knows only how to swing a sword... he gives no thought into the consequences... this predictable behavior is easily exploited."
+                    },
+                    "tag": {
+                        "english": "Dark Seer, Master Tactician"
+                    }
+                },
                 "set": 1,
                 "rarity": 1,
                 "colour": "G",
@@ -1750,6 +2184,14 @@
                 "card_name":{
                     "english":"Luna"
                 },
+                "lore":{
+                    "text": {
+                        "english": "Once I was like Sorla Khan... a warlord that did as she pleased. Strong and immortal I knew that no man or beast was my equal... until my hubris cost me everything. It was there at my lowest that Selemene found me. Tested me. And showed me the moon lit path. Much time has passed since that day, and I find purpose and pride in protecting the Nightsilver Woods with other members of the Dark Moon. But word has spread of Sorla Khan's march, and while we have never met I understand her all too well. And so I travel to Roseleaf to defeat her, and save her from herself."
+                    },
+                    "tag": {
+                        "english": "Luna, the Moon Rider"
+                    }
+                },
                 "set": 1,
                 "rarity": 2,
                 "colour": "U",
@@ -1767,6 +2209,14 @@
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Luna"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Once I was like Sorla Khan... a warlord that did as she pleased. Strong and immortal I knew that no man or beast was my equal... until my hubris cost me everything. It was there at my lowest that Selemene found me. Tested me. And showed me the moon lit path. Much time has passed since that day, and I find purpose and pride in protecting the Nightsilver Woods with other members of the Dark Moon. But word has spread of Sorla Khan's march, and while we have never met I understand her all too well. And so I travel to Roseleaf to defeat her, and save her from herself."
+                    },
+                    "tag": {
+                        "english": "Luna, the Moon Rider"
+                    }
                 },
                 "set": 1,
                 "rarity": 5,
@@ -1793,6 +2243,14 @@
                 "card_type":"Spell",
                 "card_name":{
                     "english":"Eclipse"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Selemene has rewarded my faith in her with terrible power, and I have taken a vow never to misuse it."
+                    },
+                    "tag": {
+                        "english": "Luna, Servant of Selemene"
+                    }
                 },
                 "set": 1,
                 "rarity": 2,
@@ -1841,6 +2299,14 @@
                 "card_name":{
                     "english":"Sven"
                 },
+                "lore":{
+                    "text": {
+                        "english": "I've given myself to the Vigil Knights. I will train with them. Learn their ways. Become the best... and ultimately: destroy them from within."
+                    },
+                    "tag": {
+                        "english": "Sven, Knight of the Vigil"
+                    }
+                },
                 "set": 1,
                 "rarity": 1,
                 "colour": "R",
@@ -1858,6 +2324,14 @@
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Sven"
+                },
+                "lore":{
+                    "text": {
+                        "english": "I've given myself to the Vigil Knights. I will train with them. Learn their ways. Become the best... and ultimately: destroy them from within."
+                    },
+                    "tag": {
+                        "english": "Sven, Knight of the Vigil"
+                    }
                 },
                 "set": 1,
                 "rarity": 4,
@@ -1885,6 +2359,14 @@
                 "card_name":{
                     "english":"God's Strength"
                 },
+                "lore":{
+                    "text": {
+                        "english": "I am not yet strong enough to avenge my father's execution. But in time... I will be."
+                    },
+                    "tag": {
+                        "english": "Sven, Preparing for Vengeance"
+                    }
+                },
                 "set": 1,
                 "rarity": 1,
                 "colour": "R",
@@ -1909,6 +2391,14 @@
                 "card_name":{
                     "english":"Crystal Maiden"
                 },
+                "lore":{
+                    "text": {
+                        "english": "'Warden of Icewrack.' It's a fancy title. In theory it means I'm responsible for maintaining law and order, collaborating with the Sapphire Conclave on magical crimes, and protecting the weak from all manners of nasty things. In practice I help farmers fix fences. So I decided to go on a little sabbatical. Besides... I couldn't stay in Icewrack. It's cold. It's boring. And I heard my sister was planning on visiting so I definitely had to get the hell outta there."
+                    },
+                    "tag": {
+                        "english": "Rylai, the Crystal Maiden"
+                    }
+                },
                 "set": 1,
                 "rarity": 1,
                 "colour": "U",
@@ -1926,6 +2416,14 @@
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Crystal Maiden"
+                },
+                "lore":{
+                    "text": {
+                        "english": "'Warden of Icewrack.' It's a fancy title. In theory it means I'm responsible for maintaining law and order, collaborating with the Sapphire Conclave on magical crimes, and protecting the weak from all manners of nasty things. In practice I help farmers fix fences. So I decided to go on a little sabbatical. Besides... I couldn't stay in Icewrack. It's cold. It's boring. And I heard my sister was planning on visiting so I definitely had to get the hell outta there."
+                    },
+                    "tag": {
+                        "english": "Rylai, the Crystal Maiden"
+                    }
                 },
                 "set": 1,
                 "rarity": 4,
@@ -1953,6 +2451,14 @@
                 "card_name":{
                     "english":"Frostbite"
                 },
+                "lore":{
+                    "text": {
+                        "english": "Unlike Lina, I like to try to find solutions that don't involve killing everyone."
+                    },
+                    "tag": {
+                        "english": "Crystal Maiden, Less Destructive Sister"
+                    }
+                },
                 "set": 1,
                 "rarity": 1,
                 "colour": "U",
@@ -1977,6 +2483,14 @@
                 "card_name":{
                     "english":"Drow Ranger"
                 },
+                "lore":{
+                    "text": {
+                        "english": "Power is a funny thing. It's something we all want but are taught to be ashamed to seek. But power is neither good nor evil. It's freedom. It's the ability to live the life you choose, on the terms that you want. People like to criticize where that power came from but in time, history forgets... and only remembers what you chose to do with it. People can judge me for helping Kanna. But in time they will understand."
+                    },
+                    "tag": {
+                        "english": "Traxex, the Drow Ranger"
+                    }
+                },
                 "set": 1,
                 "rarity": 3,
                 "colour": "G",
@@ -1995,6 +2509,14 @@
                 "card_name":{
                     "english":"Drow Ranger"
                 },
+                "lore":{
+                    "text": {
+                        "english": "Power is a funny thing. It's something we all want but are taught to be ashamed to seek. But power is neither good nor evil. It's freedom. It's the ability to live the life you choose, on the terms that you want. People like to criticize where that power came from but in time, history forgets... and only remembers what you chose to do with it. People can judge me for helping Kanna. But in time they will understand."
+                    },
+                    "tag": {
+                        "english": "Traxex, the Drow Ranger"
+                    }
+                },
                 "set": 1,
                 "rarity": 3,
                 "colour": "G",
@@ -2012,6 +2534,14 @@
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Drow Ranger"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Power is a funny thing. It's something we all want but are taught to be ashamed to seek. But power is neither good nor evil. It's freedom. It's the ability to live the life you choose, on the terms that you want. People like to criticize where that power came from but in time, history forgets... and only remembers what you chose to do with it. People can judge me for helping Kanna. But in time they will understand."
+                    },
+                    "tag": {
+                        "english": "Traxex, the Drow Ranger"
+                    }
                 },
                 "set": 1,
                 "rarity": 4,
@@ -2039,6 +2569,14 @@
                 "card_name":{
                     "english":"Gust"
                 },
+                "lore":{
+                    "text": {
+                        "english": "Never take victory for granted... the moment you assume there's nothing an enemy can do to stop you, is the moment you're most likely to lose."
+                    },
+                    "tag": {
+                        "english": "Drow Ranger, Spoiler"
+                    }
+                },
                 "set": 1,
                 "rarity": 3,
                 "colour": "G",
@@ -2057,6 +2595,14 @@
                 "card_type":"Spell",
                 "card_name":{
                     "english":"Gust"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Never take victory for granted... the moment you assume there's nothing an enemy can do to stop you, is the moment you're most likely to lose."
+                    },
+                    "tag": {
+                        "english": "Drow Ranger, Spoiler"
+                    }
                 },
                 "set": 1,
                 "rarity": 3,
@@ -2082,6 +2628,14 @@
                 "card_name":{
                     "english":"Bloodseeker"
                 },
+                "lore":{
+                    "text": {
+                        "english": "My homeland is a place of beauty and grace... of crystal streams and bountiful harvest...it is undeniably a gift from the gods. But when such a gift is bestowed upon you, it is right to give thanks... and there is only one way to show gratitude to the Flayed Twins. With blood."
+                    },
+                    "tag": {
+                        "english": "Strygwyr, the Bloodseeker"
+                    }
+                },
                 "set": 1,
                 "rarity": 1,
                 "colour": "B",
@@ -2100,6 +2654,14 @@
                 "card_name":{
                     "english":"Bloodseeker"
                 },
+                "lore":{
+                    "text": {
+                        "english": "My homeland is a place of beauty and grace... of crystal streams and bountiful harvest...it is undeniably a gift from the gods. But when such a gift is bestowed upon you, it is right to give thanks... and there is only one way to show gratitude to the Flayed Twins. With blood."
+                    },
+                    "tag": {
+                        "english": "Strygwyr, the Bloodseeker"
+                    }
+                },
                 "set": 1,
                 "rarity": 1,
                 "colour": "B",
@@ -2117,6 +2679,14 @@
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Bloodseeker"
+                },
+                "lore":{
+                    "text": {
+                        "english": "My homeland is a place of beauty and grace... of crystal streams and bountiful harvest...it is undeniably a gift from the gods. But when such a gift is bestowed upon you, it is right to give thanks... and there is only one way to show gratitude to the Flayed Twins. With blood."
+                    },
+                    "tag": {
+                        "english": "Strygwyr, the Bloodseeker"
+                    }
                 },
                 "set": 1,
                 "rarity": 5,
@@ -2142,6 +2712,14 @@
                 "card_name":{
                     "english":"Blood Rage"
                 },
+                "lore":{
+                    "text": {
+                        "english": "My role is a sacred one. The holy blades and armor I wield allows me to be a conduit to the Flayed Ones... and the blood I spill in combat becomes tribute, given in the name of my people."
+                    },
+                    "tag": {
+                        "english": "Bloodseeker, Servant of the Flayed Ones"
+                    }
+                },
                 "set": 1,
                 "rarity": 1,
                 "colour": "B",
@@ -2160,6 +2738,14 @@
                 "card_type":"Spell",
                 "card_name":{
                     "english":"Blood Rage"
+                },
+                "lore":{
+                    "text": {
+                        "english": "My role is a sacred one. The holy blades and armor I wield allows me to be a conduit to the Flayed Ones... and the blood I spill in combat becomes tribute, given in the name of my people."
+                    },
+                    "tag": {
+                        "english": "Bloodseeker, Servant of the Flayed Ones"
+                    }
                 },
                 "set": 1,
                 "rarity": 1,
@@ -2185,6 +2771,14 @@
                 "card_name":{
                     "english":"Skywrath Mage"
                 },
+                "lore":{
+                    "text": {
+                        "english": "I empathize with Rix. It's not easy following the orders of a leader you despise. But I don't have the luxury of staging a rebellion...the stakes are too high, and so I must bide my time... and wait to be reunited with my beloved."
+                    },
+                    "tag": {
+                        "english": "Dragonus, the Skywrath Mage"
+                    }
+                },
                 "set": 1,
                 "rarity": 1,
                 "colour": "U",
@@ -2202,6 +2796,14 @@
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Skywrath Mage"
+                },
+                "lore":{
+                    "text": {
+                        "english": "I empathize with Rix. It's not easy following the orders of a leader you despise. But I don't have the luxury of staging a rebellion...the stakes are too high, and so I must bide my time... and wait to be reunited with my beloved."
+                    },
+                    "tag": {
+                        "english": "Dragonus, the Skywrath Mage"
+                    }
                 },
                 "set": 1,
                 "rarity": 4,
@@ -2227,6 +2829,14 @@
                 "card_name":{
                     "english":"Mystic Flare"
                 },
+                "lore":{
+                    "text": {
+                        "english": "I dedicated my life to the pursuit of the mystic arts...But while my head was buried in books, my beloved was betrayed and cast out of the Ghastly Eyrie. I was unable to save her then... but at least I have the power to save her now."
+                    },
+                    "tag": {
+                        "english": "Skywrath Mage, Guilt-Wrecked"
+                    }
+                },
                 "set": 1,
                 "rarity": 1,
                 "colour": "U",
@@ -2251,6 +2861,14 @@
                 "card_name":{
                     "english":"Sniper"
                 },
+                "lore":{
+                    "text": {
+                        "english": "For too long the Keenfolk have been fractured. Little colonies spread across the world each coveting their own research... but as we kept to our workshops the world around us changed. Stonehall rose to power. The nation of Revtel was born. The Quroum of Weeping Rose grew bolder... and what did we do? We toiled and tinkered. We built wondrous machines and used them for petty tasks. This cannot continue. The Keenfolk clans need to unite, and show the world what we're capable of."
+                    },
+                    "tag": {
+                        "english": "Kardel, the Sniper"
+                    }
+                },
                 "set": 1,
                 "rarity": 2,
                 "colour": "B",
@@ -2268,6 +2886,14 @@
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Sniper"
+                },
+                "lore":{
+                    "text": {
+                        "english": "For too long the Keenfolk have been fractured. Little colonies spread across the world each coveting their own research... but as we kept to our workshops the world around us changed. Stonehall rose to power. The nation of Revtel was born. The Quroum of Weeping Rose grew bolder... and what did we do? We toiled and tinkered. We built wondrous machines and used them for petty tasks. This cannot continue. The Keenfolk clans need to unite, and show the world what we're capable of."
+                    },
+                    "tag": {
+                        "english": "Kardel, the Sniper"
+                    }
                 },
                 "set": 1,
                 "rarity": 5,
@@ -2292,6 +2918,14 @@
                 "card_name":{
                     "english":"Assassinate"
                 },
+                "lore":{
+                    "text": {
+                        "english": "Don't get me wrong I'm impressed with what these young Keen are able to dream up, but lasers and robots take away the artistry of killing a man. In my day you had to have skill and patience to assassinate someone at range. Now they just set off an explosion."
+                    },
+                    "tag": {
+                        "english": "Sniper reminisces about the good old days"
+                    }
+                },
                 "set": 1,
                 "rarity": 2,
                 "colour": "B",
@@ -2310,6 +2944,14 @@
                 "card_type":"Spell",
                 "card_name":{
                     "english":"Assassinate"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Don't get me wrong I'm impressed with what these young Keen are able to dream up, but lasers and robots take away the artistry of killing a man. In my day you had to have skill and patience to assassinate someone at range. Now they just set off an explosion."
+                    },
+                    "tag": {
+                        "english": "Sniper reminisces about the good old days"
+                    }
                 },
                 "set": 1,
                 "rarity": 5,
@@ -2335,6 +2977,14 @@
                 "card_name":{
                     "english":"Legion Commander"
                 },
+                "lore":{
+                    "text": {
+                        "english": "I know these people think me a monster. I don't blame them. No one wants to be occupied, but it's in their best interests! If we weren't here in Roseleaf the Red Mist would have slaughtered them all... today the Vhoul see us as villains, but after we defeat Sorla Khan... The Bronze Legion will be heralded as the heroes we are."
+                    },
+                    "tag": {
+                        "english": "Tresdin, Legion Commander"
+                    }
+                },
                 "set": 1,
                 "rarity": 2,
                 "colour": "R",
@@ -2352,6 +3002,14 @@
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Legion Commander"
+                },
+                "lore":{
+                    "text": {
+                        "english": "I know these people think me a monster. I don't blame them. No one wants to be occupied, but it's in their best interests! If we weren't here in Roseleaf the Red Mist would have slaughtered them all... today the Vhoul see us as villains, but after we defeat Sorla Khan... The Bronze Legion will be heralded as the heroes we are."
+                    },
+                    "tag": {
+                        "english": "Tresdin, Legion Commander"
+                    }
                 },
                 "set": 1,
                 "rarity": 5,
@@ -2377,6 +3035,14 @@
                 "card_name":{
                     "english":"Duel"
                 },
+                "lore":{
+                    "text": {
+                        "english": "How many more of our people need to die? Let's just end this here and now."
+                    },
+                    "tag": {
+                        "english": "Legion Commander, The battle of Roseleaf"
+                    }
+                },
                 "set": 1,
                 "rarity": 2,
                 "colour": "R",
@@ -2401,6 +3067,14 @@
                 "card_name":{
                     "english":"Enchantress"
                 },
+                "lore":{
+                    "text": {
+                        "english": "Rix. Tresdin. Sorla Khan. You ask any one of them and they will spin you a story about why their cause is just; and every single one of them is wrong. This war is senseless, its cost will be immeasurable, and the only people who will profit are the future historians who'll sell books about the massacre. I can't stop this war from happening... but I will do whatever I can to minimize the damage."
+                    },
+                    "tag": {
+                        "english": "Aiustha, the Enchantress"
+                    }
+                },
                 "set": 1,
                 "rarity": 1,
                 "colour": "G",
@@ -2418,6 +3092,14 @@
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Enchantress"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Rix. Tresdin. Sorla Khan. You ask any one of them and they will spin you a story about why their cause is just; and every single one of them is wrong. This war is senseless, its cost will be immeasurable, and the only people who will profit are the future historians who'll sell books about the massacre. I can't stop this war from happening... but I will do whatever I can to minimize the damage."
+                    },
+                    "tag": {
+                        "english": "Aiustha, the Enchantress"
+                    }
                 },
                 "set": 1,
                 "rarity": 5,
@@ -2442,6 +3124,14 @@
                 "improvement_type": "Passive",
                 "card_name":{
                     "english":"Verdant Refuge"
+                },
+                "lore":{
+                    "text": {
+                        "english": "I'm not a fighter. I'm a protector. It's not too late for you to walk away, but if you try to hurt these people, I promise it will not go well for you."
+                    },
+                    "tag": {
+                        "english": "Enchantress takes a stand"
+                    }
                 },
                 "set": 1,
                 "rarity": 1,
@@ -2486,6 +3176,14 @@
                 "card_name":{
                     "english":"Lycan"
                 },
+                "lore":{
+                    "text": {
+                        "english": "My father was good man. A regent over the lands of Slom, he ruled the small folk with fairness and justice. My mother was the picture of patience and compassion, a woman beloved by her people as if they were her children. And my siblings? Gods we were trouble. I remember the day we found Father's collection of ancient maps, Tressa thought it would be funny if we- it doesn't matter now. They're all dead."
+                    },
+                    "tag": {
+                        "english": "Banehallow, the Lycan"
+                    }
+                },
                 "set": 1,
                 "rarity": 1,
                 "colour": "G",
@@ -2503,6 +3201,14 @@
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Lycan"
+                },
+                "lore":{
+                    "text": {
+                        "english": "My father was good man. A regent over the lands of Slom, he ruled the small folk with fairness and justice. My mother was the picture of patience and compassion, a woman beloved by her people as if they were her children. And my siblings? Gods we were trouble. I remember the day we found Father's collection of ancient maps, Tressa thought it would be funny if we- it doesn't matter now. They're all dead."
+                    },
+                    "tag": {
+                        "english": "Banehallow, the Lycan"
+                    }
                 },
                 "set": 1,
                 "rarity": 5,
@@ -2527,6 +3233,14 @@
                 "card_type":"Creep",
                 "card_name":{
                     "english":"Savage Wolf"
+                },
+                "lore":{
+                    "text": {
+                        "english": "My family was taken from me; but in my solitude I found a new family... and they will help me have my revenge."
+                    },
+                    "tag": {
+                        "english": "Lycan, Pack Leader"
+                    }
                 },
                 "set": 1,
                 "rarity": 1,
@@ -2555,6 +3269,14 @@
                 "card_name":{
                     "english":"Rix"
                 },
+                "lore":{
+                    "text": {
+                        "english": "I was conscripted to the Bronze Legion when I was a pup. They marched through my village with their shiny armor and promises of glory and I couldn't sign on fast enough. I smiled when they put the conscript mark on my arm cause I knew that if I worked hard enough, if I followed orders, if I showed valor and skill in battle I would make something of myself and become more than just a stupid savage from redmaw. And so I followed. And fought. And killed. And with every town we occupied, every insurrection we quelled, every voice of dissent I silenced, the words 'for the glory of Stonehall' grew hollower, and that bronzed mark I took pride in became heavier. So now we march through Roseleaf to intercept the Red Mist Horde, and again my Commander has asked me to 'speak to my savage people'... well speak to them I shall... and when I do, they'll understand that I will fight beside them until every soldier is sent back to Stonehall in a bronzed coffin."
+                    },
+                    "tag": {
+                        "english": "Rix, Leader of the Vhoul Rebellion"
+                    }
+                },
                 "set": 1,
                 "rarity": 2,
                 "colour": "G",
@@ -2572,6 +3294,14 @@
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Rix"
+                },
+                "lore":{
+                    "text": {
+                        "english": "I was conscripted to the Bronze Legion when I was a pup. They marched through my village with their shiny armor and promises of glory and I couldn't sign on fast enough. I smiled when they put the conscript mark on my arm cause I knew that if I worked hard enough, if I followed orders, if I showed valor and skill in battle I would make something of myself and become more than just a stupid savage from redmaw. And so I followed. And fought. And killed. And with every town we occupied, every insurrection we quelled, every voice of dissent I silenced, the words 'for the glory of Stonehall' grew hollower, and that bronzed mark I took pride in became heavier. So now we march through Roseleaf to intercept the Red Mist Horde, and again my Commander has asked me to 'speak to my savage people'... well speak to them I shall... and when I do, they'll understand that I will fight beside them until every soldier is sent back to Stonehall in a bronzed coffin."
+                    },
+                    "tag": {
+                        "english": "Rix, Leader of the Vhoul Rebellion"
+                    }
                 },
                 "set": 1,
                 "rarity": 5,
@@ -2597,6 +3327,14 @@
                 "card_name":{
                     "english":"Act of Defiance"
                 },
+                "lore":{
+                    "text": {
+                        "english": "The powerful would have the weak be silent. To accept the status quo. To bend the knee. To accept their lot in life. For too long I was complicit in Stonehall’s grab for power. It ends today. I will be a voice for my people, and I will not be silenced."
+                    },
+                    "tag": {
+                        "english": "Rix, Ex-Bronze Legion"
+                    }
+                },
                 "set": 1,
                 "rarity": 2,
                 "colour": "G",
@@ -2621,6 +3359,14 @@
                 "card_name":{
                     "english":"Ogre Corpse Tosser"
                 },
+                "lore":{
+                    "text": {
+                        "english": "Friends said throwing dead bodies was hobby, not real job. Who's laughing now? Not friends. I kill them for not supporting my dream."
+                    },
+                    "tag": {
+                        "english": "Lommett, Ogre Corpse Tosser"
+                    }
+                },
                 "set": 1,
                 "rarity": 3,
                 "colour": "R",
@@ -2642,6 +3388,14 @@
                 "card_type":"Creep",
                 "card_name":{
                     "english":"Ogre Corpse Tosser"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Friends said throwing dead bodies was hobby, not real job. Who's laughing now? Not friends. I kill them for not supporting my dream."
+                    },
+                    "tag": {
+                        "english": "Lommett, Ogre Corpse Tosser"
+                    }
                 },
                 "set": 1,
                 "rarity": 4,
@@ -2698,6 +3452,14 @@
                 "card_name":{
                     "english":"Claymore"
                 },
+                "lore":{
+                    "text": {
+                        "english": "You can kill a whole lotta people with this thing."
+                    },
+                    "tag": {
+                        "english": "Jolixia, The Card Faun"
+                    }
+                },
                 "set": 1,
                 "rarity": 2,
                 "image": "200078_0",
@@ -2720,6 +3482,14 @@
                 "card_subtype": "Weapon",
                 "card_name":{
                     "english":"Claymore"
+                },
+                "lore":{
+                    "text": {
+                        "english": "You can kill a whole lotta people with this thing."
+                    },
+                    "tag": {
+                        "english": "Jolixia, The Card Faun"
+                    }
                 },
                 "set": 1,
                 "rarity": 4,
@@ -2857,6 +3627,14 @@
                 "card_name":{
                     "english":"Thunderhide Pack"
                 },
+                "lore":{
+                    "text": {
+                        "english": "When hunting Thunderhides, you always come home with new scars...if you come home at all."
+                    },
+                    "tag": {
+                        "english": "Warrunner warns his hunters"
+                    }
+                },
                 "set": 1,
                 "rarity": 1,
                 "colour": "G",
@@ -2879,6 +3657,14 @@
                 "card_name":{
                     "english":"Thunderhide Pack"
                 },
+                "lore":{
+                    "text": {
+                        "english": "When hunting Thunderhides, you always come home with new scars...if you come home at all."
+                    },
+                    "tag": {
+                        "english": "Warrunner warns his hunters"
+                    }
+                },
                 "set": 0,
                 "rarity": 0,
                 "colour": "G",
@@ -2886,7 +3672,7 @@
                 "miniimage": "200083_0",
                 "cost": "#",
                 "text":{
-                    "english":" /n /n Siege 7."
+                    "english":" /n /n Siege 7. /n /n Mana cost unknown."
                 },
                 "attack": 8,
                 "armour": 0,
@@ -2906,6 +3692,14 @@
                 "card_subtype": "Accessory",
                 "card_name":{
                     "english":"Horn of the Alpha"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Every year, a group of centaurs from the Marrowfell Tribe are chosen to go on 'The Great Hunt'. The goal of this expedition is to test the skill and endurance of the tribe's finest trackers. To these men and women, there is no glory greater than claiming the horn of a Thunderhide Alpha for their own."
+                    },
+                    "tag": {
+                        "english": "Jolixia, The Card Faun"
+                    }
                 },
                 "set": 1,
                 "rarity": 3,
@@ -2929,6 +3723,14 @@
                 "card_subtype": "Accessory",
                 "card_name":{
                     "english":"Horn of the Alpha"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Every year, a group of centaurs from the Marrowfell Tribe are chosen to go on 'The Great Hunt'. The goal of this expedition is to test the skill and endurance of the tribe's finest trackers. To these men and women, there is no glory greater than claiming the horn of a Thunderhide Alpha for their own."
+                    },
+                    "tag": {
+                        "english": "Jolixia, The Card Faun"
+                    }
                 },
                 "set": 0,
                 "rarity": 0,
@@ -3038,6 +3840,14 @@
                 "card_name":{
                     "english":"Legion Standard Bearer"
                 },
+                "lore":{
+                    "text": {
+                        "english": "As a boy I dreamed of being a member of the Stonehall Elite... to be trained by Belasanno himself in the ways of war... but the sad truth is that I have no gift for combat. I am no soldier. But I am a believer. In our emperor. In our country. In our mission. I may not be a swordsman, but I am proud to carry the bullsnake into battle."
+                    },
+                    "tag": {
+                        "english": "Pololo, Standard Bearer of the Bronze Legion"
+                    }
+                },
                 "set": 1,
                 "rarity": 2,
                 "colour": "R",
@@ -3059,6 +3869,14 @@
                 "card_type":"Creep",
                 "card_name":{
                     "english":"Legion Standard Bearer"
+                },
+                "lore":{
+                    "text": {
+                        "english": "As a boy I dreamed of being a member of the Stonehall Elite... to be trained by Belasanno himself in the ways of war... but the sad truth is that I have no gift for combat. I am no soldier. But I am a believer. In our emperor. In our country. In our mission. I may not be a swordsman, but I am proud to carry the bullsnake into battle."
+                    },
+                    "tag": {
+                        "english": "Pololo, Standard Bearer of the Bronze Legion"
+                    }
                 },
                 "set": 1,
                 "rarity": 4,
@@ -3087,6 +3905,14 @@
                 "card_name":{
                     "english":"Oglodi Vandal"
                 },
+                "lore":{
+                    "text": {
+                        "english": "Besiege Stonehall. I've seen Khan's over thrown for even suggesting it. But when Sorla gave the order, not one of us batted an eye. Not because she's the strongest. Not because we fear her cruelty. But because we knew that she would die before she failed her people. And so The Red Mist marches... and may the gods have mercy on whoever stands in our way."
+                    },
+                    "tag": {
+                        "english": "Seguri, Red Mist Vandal"
+                    }
+                },
                 "set": 1,
                 "rarity": 1,
                 "colour": "B",
@@ -3108,6 +3934,14 @@
                 "card_type":"Creep",
                 "card_name":{
                     "english":"Oglodi Vandal"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Besiege Stonehall. I've seen Khan's over thrown for even suggesting it. But when Sorla gave the order, not one of us batted an eye. Not because she's the strongest. Not because we fear her cruelty. But because we knew that she would die before she failed her people. And so The Red Mist marches... and may the gods have mercy on whoever stands in our way."
+                    },
+                    "tag": {
+                        "english": "Seguri, Red Mist Vandal"
+                    }
                 },
                 "set": 1,
                 "rarity": 4,
@@ -3137,6 +3971,14 @@
                 "card_name":{
                     "english":"Blade of the Vigil"
                 },
+                "lore":{
+                    "text": {
+                        "english": "The Knights of the Vigil were renowned for their skill in battle. The stories of Sven, Geeta the Wildblade, and Klemens have captured the imagination of so many... you can't throw a rock in the Gardens of Freth without hitting a group of school kids recreating their adventures. But playing a knight is easy... wielding one of their swords is far more challenging."
+                    },
+                    "tag": {
+                        "english": "Jolixia, The Card Faun"
+                    }
+                },
                 "set": 1,
                 "rarity": 1,
                 "image": "200090_0",
@@ -3159,6 +4001,14 @@
                 "card_subtype": "Weapon",
                 "card_name":{
                     "english":"Blade of the Vigil"
+                },
+                "lore":{
+                    "text": {
+                        "english": "The Knights of the Vigil were renowned for their skill in battle. The stories of Sven, Geeta the Wildblade, and Klemens have captured the imagination of so many... you can't throw a rock in the Gardens of Freth without hitting a group of school kids recreating their adventures. But playing a knight is easy... wielding one of their swords is far more challenging."
+                    },
+                    "tag": {
+                        "english": "Jolixia, The Card Faun"
+                    }
                 },
                 "set": 1,
                 "rarity": 4,

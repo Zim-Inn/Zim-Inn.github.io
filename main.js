@@ -590,7 +590,7 @@ function CardViewer_SelectCard(CardIDV) {
         HTMLLoreTextLeftPanel = '<div id="CardViewerPageCardLoreTextBody">'+ThisCard['lore']['text']['english']+'</div>\
         <div id="CardViewerPageCardLoreTextTag">'+ThisCard['lore']['tag']['english']+'</div>';
     } else {
-        HTMLLoreTextLeftPanel = '<div id="CardViewerPageCardLoreTextBody">This card has no lore :(</div>';
+        HTMLLoreTextLeftPanel = '<div id="CardViewerPageCardLoreTextBody">The lore for this card is currently unknown.</div>';
     }
 
     document.getElementById('SigAbilityRelated_Container').innerHTML = "";
