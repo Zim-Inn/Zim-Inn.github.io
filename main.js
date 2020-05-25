@@ -78,6 +78,7 @@ function CardViewer_AbilityTextFormatting(Text) {
     Text = Text.replace(/(\[TG\])/g,"");
     Text = Text.replace(/(\[TRed\])/g,"");
     Text = Text.replace(/(\[ET\])/g,"");
+    Text = Text.replace(/(\[UC\])/g," <span class=\"CardViewerAbilityTextUnconfirmed\">UNCONFIRMED</span>");
     return Text;
 }
 

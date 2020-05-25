@@ -224,6 +224,12 @@ body {
     background-color: rgba(0,0,0,0.3);
     border-radius: 0 0 10px 10px;
 }
+.CardViewerAbilityTextUnconfirmed {
+    border: 1px solid black;
+    background: rgba(0,0,0,0.4);
+    color: #ee8;
+    font-size: 11pt;
+}
 #CardViewerPageSignatureContainer {
     cursor: pointer;
     margin-top: 10px;
