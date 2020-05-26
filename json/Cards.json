@@ -4455,5 +4455,61 @@
                 "quick": false
             }
         ]
+    },
+    {
+        "card_id":200169,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Creep",
+                "card_name":{
+                    "english":"Shattered Terrapin"
+                },
+                "set": 1,
+                "rarity": 3,
+                "colour": "G",
+                "image": "200169_0",
+                "miniimage": "PH",
+                "cost": 1,
+                "text":{
+                    "english":" /n [TG]Play Effect:[ET] Shattered Terrapin starts with 2 damage. /n When healed, transform Shattered Terrapin into Terrapin Greatshell."
+                },
+                "attack": 3,
+                "armour": 0,
+                "hp": 5,
+                "abilities": [ ],
+                "crosslane": false,
+                "quick": false,
+                "related_cards": ["200170_0"]
+            }
+        ]
+    },
+    {
+        "card_id":200170,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Creep",
+                "card_name":{
+                    "english":"Terrapin Greatshell"
+                },
+                "set": 1,
+                "rarity": 3,
+                "colour": "G",
+                "image": "200170_0",
+                "miniimage": "PH",
+                "cost": 1,
+                "text":{
+                    "english":" /n [TG]Aura:[ET] Terrapin Greatshell's neighbors are Untargetable."
+                },
+                "attack": 1,
+                "armour": 0,
+                "hp": 1,
+                "abilities": [ ],
+                "crosslane": false,
+                "quick": false,
+                "related_cards": ["200170_0"]
+            }
+        ]
     }
 ]
