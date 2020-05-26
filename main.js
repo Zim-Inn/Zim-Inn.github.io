@@ -78,7 +78,6 @@ function CardViewer_AbilityTextFormatting(Text) {
     Text = Text.replace(/(\[TG\])/g,"");
     Text = Text.replace(/(\[TRed\])/g,"");
     Text = Text.replace(/(\[ET\])/g,"");
-    Text = Text.replace(/(\[UC\])/g," <span class=\"CardViewerAbilityTextUnconfirmed\">UNCONFIRMED</span>");
     return Text;
 }
 
@@ -478,35 +477,38 @@ function CardViewer_SelectCard(CardIDV) {
                                             <div class="CardViewerPageAbilityText">This hero\'s Signature Card has not yet been revealed!</div>\
                                         </div>';
         } else {
-            SigCardIDV = ThisCard['signature'];
-            SigCardIDV = SigCardIDV.split("_");
-            SigCardID = SigCardIDV[0];
-            SigCardVersion = SigCardIDV[1];
-            SigCardArrayIndex = "";
-            for (s = 0; s < CardJSON.length; s++) {
-                if ((CardJSON[s]['card_id']) == SigCardID) {
-                    SigCardArrayIndex = s;
-                    break;
+            HTMLSignatureCardLeftPanel = "";
+            for (sc = 0; sc < ThisCard['signature'].length; sc++) {
+                SigCardIDV = ThisCard['signature'][sc];
+                SigCardIDV = SigCardIDV.split("_");
+                SigCardID = SigCardIDV[0];
+                SigCardVersion = SigCardIDV[1];
+                SigCardArrayIndex = "";
+                for (s = 0; s < CardJSON.length; s++) {
+                    if ((CardJSON[s]['card_id']) == SigCardID) {
+                        SigCardArrayIndex = s;
+                        break;
+                    }
                 }
-            }
-            SigCardMiniImage = CardJSON[SigCardArrayIndex]['versions'][SigCardVersion]['miniimage'];
-            SigCardName = CardJSON[SigCardArrayIndex]['versions'][SigCardVersion]['card_name']['english'];
-            SigCardType = CardJSON[SigCardArrayIndex]['versions'][SigCardVersion]['card_type'];
-            SigCardText = CardViewer_AbilityTextFormatting(CardJSON[SigCardArrayIndex]['versions'][SigCardVersion]['text']['english']);
-            SigCardColour = CardJSON[SigCardArrayIndex]['versions'][SigCardVersion]['colour'];
-    
-            HTMLSignatureCardLeftPanel = '<div class="CursorPointer CardViewerPageSingleAbilityContainer CardViewerPageSignatureContainer'+SigCardColour+'" onmousemove="CardViewerCardPreviewTooltip(\''+SigCardID+'_'+SigCardVersion+'\',1);" onmouseout="CardViewerCardPreviewTooltip(0,0);" onmouseup="CardViewer_SelectCard(\''+SigCardID+'_'+SigCardVersion+'\')"> \
-                                            <div class="CardViewerPageAbilityTop"> \
-                                                <div class="CardViewerPageAbilityIcon"><img src="Images/Cards/MiniImage/'+SigCardMiniImage+'.jpg"></div> \
-                                                <div class="CardViewerPageAbilityTopText"> \
-                                                    <div class="CardViewerPageAbilityName">'+SigCardName.toUpperCase()+'</div> \
-                                                    <div class="CardViewerPageSigCardText CardViewerPageSigCardText'+SigCardColour+'">SIGNATURE CARD</div> \
+                SigCardMiniImage = CardJSON[SigCardArrayIndex]['versions'][SigCardVersion]['miniimage'];
+                SigCardName = CardJSON[SigCardArrayIndex]['versions'][SigCardVersion]['card_name']['english'];
+                SigCardType = CardJSON[SigCardArrayIndex]['versions'][SigCardVersion]['card_type'];
+                SigCardText = CardViewer_AbilityTextFormatting(CardJSON[SigCardArrayIndex]['versions'][SigCardVersion]['text']['english']);
+                SigCardColour = CardJSON[SigCardArrayIndex]['versions'][SigCardVersion]['colour'];
+        
+                HTMLSignatureCardLeftPanel += '<div class="CursorPointer CardViewerPageSingleAbilityContainer CardViewerPageSignatureContainer'+SigCardColour+'" onmousemove="CardViewerCardPreviewTooltip(\''+SigCardID+'_'+SigCardVersion+'\',1);" onmouseout="CardViewerCardPreviewTooltip(0,0);" onmouseup="CardViewer_SelectCard(\''+SigCardID+'_'+SigCardVersion+'\')"> \
+                                                <div class="CardViewerPageAbilityTop"> \
+                                                    <div class="CardViewerPageAbilityIcon"><img src="Images/Cards/MiniImage/'+SigCardMiniImage+'.jpg"></div> \
+                                                    <div class="CardViewerPageAbilityTopText"> \
+                                                        <div class="CardViewerPageAbilityName">'+SigCardName.toUpperCase()+'</div> \
+                                                        <div class="CardViewerPageSigCardText CardViewerPageSigCardText'+SigCardColour+'">SIGNATURE CARD</div> \
+                                                    </div> \
+                                                    <div class="clear"></div> \
                                                 </div> \
-                                                <div class="clear"></div> \
-                                            </div> \
-                                            <div class="CardViewerPageAbilityText">'+SigCardText+'</div>\
-                                        </div>';
-        }
+                                                <div class="CardViewerPageAbilityText">'+SigCardText+'</div>\
+                                            </div>';
+            }
+        }      
     } else {
         HTMLSignatureCardLeftPanel = "";
     }
@@ -885,9 +887,10 @@ function GenerateCard(Container,CardIDV) {
             CardHTML += '<div class="CardContainer_Error"></div>'
             break;
     }              
-    var img = new Image();
-    img.onload = function() {document.getElementById(Container).innerHTML = CardHTML; } // Wait until at least the main image has downloaded before showing the card. If the image can't be found, no card will be loaded at all.
-    img.src = 'Images/Cards/CardArt/'+CardImage+'.jpg';
+    //var img = new Image();
+    //img.onload = function() {document.getElementById(Container).innerHTML = CardHTML; } // Wait until at least the main image has downloaded before showing the card. If the image can't be found, no card will be loaded at all.
+    //img.src = 'Images/Cards/CardArt/'+CardImage+'.jpg';
+    document.getElementById(Container).innerHTML = CardHTML;
 }
 
 CardViewerCardPreviewTooltipCurrentCardIDV = "";
