@@ -236,15 +236,6 @@
 .CardBottomIconSet1-5 {
     background-image: url('../Images/SetIcons/1-5.png'), url('../Images/Cards/Styling/CardSetIconTexture.png');
 }
-.CardBottomIconSet1-6 {
-    background-image: url('../Images/SetIcons/1-6.png'), url('../Images/Cards/Styling/CardSetIconTexture.png');
-}
-.CardBottomIconSet1-7 {
-    background-image: url('../Images/SetIcons/1-7.png'), url('../Images/Cards/Styling/CardSetIconTexture.png');
-}
-.CardBottomIconSet1-8 {
-    background-image: url('../Images/SetIcons/1-8.png'), url('../Images/Cards/Styling/CardSetIconTexture.png');
-}
 .CardStatsPer {
     width: 100%;
     margin-top: -4.8%;
