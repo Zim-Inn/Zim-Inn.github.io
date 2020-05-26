@@ -2371,16 +2371,16 @@
                 "release_date":"2020-05-21",
                 "card_type":"Creep",
                 "card_name":{
-                    "english":"Boar Creep"
+                    "english":"Wild Boar"
                 },
-                "set": 0,
-                "rarity": 0,
+                "set": 1,
+                "rarity": 1,
                 "colour": "R",
                 "image": "200087_0",
                 "miniimage": "PH",
-                "cost": 0,
+                "cost": 2,
                 "text":{
-                    "english":" /n Creep effect is currently unknown."
+                    "english":" /n Wild Boar deals +2 damage when attacking a unit."
                 },
                 "attack": 2,
                 "armour": 0,
