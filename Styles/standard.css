@@ -19,17 +19,14 @@
 html, body {
     margin: 0;
     padding: 0;
-    /*background-color: #0c0d0f;*/
 }
 body {
     background-image: url('../Images/Styles/PageBG.jpg');
-    /*background-image: url('Images/Styles/PageBG2.png');*/
     background-position: top center;
     background-repeat: no-repeat;
     padding-bottom: 20px;
     display: block;
     background-color: #0e0c10;
-    /*background-color: #000;*/
 }
 #SiteHeader {
     position: relative;
@@ -84,7 +81,6 @@ body {
     background-color: rgba(65, 46, 77, 0.45);
     background-image: url('../Images/Styles/SiteHeaderButtonActive_190px.png');
     text-shadow: 0 0 20px white;
-    /*border: 3px outset grey;*/
     height: 37px;
     padding-top: 13px;
 }
@@ -121,12 +117,6 @@ body {
 #PageHeaderTitle {
     color: #eee;
     font-size: 32pt;
-    font-weight: 700;
-    text-shadow: 2px 2px 5px black;
-}
-#PageHeaderSubtitle {
-    color: #eee;
-    font-size: 18pt;
     font-weight: 700;
     text-shadow: 2px 2px 5px black;
 }
@@ -230,12 +220,6 @@ body {
     background-color: rgba(0,0,0,0.3);
     border-radius: 0 0 10px 10px;
 }
-.CardViewerAbilityTextUnconfirmed {
-    border: 1px solid black;
-    background: rgba(0,0,0,0.4);
-    color: #ee8;
-    font-size: 11pt;
-}
 #CardViewerPageSignatureContainer {
     cursor: pointer;
     margin-top: 10px;
@@ -255,6 +239,9 @@ body {
 .CardViewerPageSignatureContainerB {
     background-color: rgba(20,20,20,0.6);
 }
+.CardViewerPageSignatureContainerC {
+    background-color: rgba(120,120,120,0.6);
+}
 .CardViewerPageSigCardText {
     font-size: 14pt;
 }
@@ -269,6 +256,9 @@ body {
 }
 .CardViewerPageSigCardTextG {
     color: #aca;
+}
+.CardViewerPageSigCardTextC {
+    color: #bbb;
 }
 #CardViewerPageCardLore {
     display: block;
@@ -302,11 +292,9 @@ body {
     cursor: pointer;
 }
 .CardListItemContainerR {
-    /*background: linear-gradient(90deg, #430f0f 10%, #7b191b);*/
     background-image: url('../Images/Styles/CardList_FactionRed_1000px.png'), linear-gradient(170deg, rgba(59,8,16,0.8) 20%, rgb(103,14,28,0.3));
     background-position: top right;
     background-size: 500px 100%;
-    /*background: linear-gradient(170deg, rgba(59,8,16,0.8) 20%, rgb(103,14,28,0.3));*/
 }
 .CardListItemContainerB {
     background-image: url('../Images/Styles/CardList_FactionBlack_1000px.png'), linear-gradient(170deg, rgba(42,41,47,0.8) 20%, rgba(28,27,32,0.3));
@@ -330,9 +318,7 @@ body {
     background: linear-gradient(170deg, rgba(56, 62, 55,0.8) 20%, rgba(56, 62, 55,0.3));
 }
 .CardListItemContainerR:hover {
-    /*background: linear-gradient(170deg, #4c1921 20%, #670e1c);*/
     background-image: url('../Images/Styles/CardList_FactionRed_1000px.png'), linear-gradient(170deg, rgba(59,8,16,0.9) 20%, rgb(103,14,28,0.6));
-    /*background: linear-gradient(170deg, rgba(59,8,16,0.9) 20%, rgb(103,14,28,0.6));*/
 }
 .CardListItemContainerB:hover {
     background-image: url('../Images/Styles/CardList_FactionBlack_1000px.png'), linear-gradient(170deg, rgba(47,46,52,0.9) 20%, rgba(33,32,37,0.6));
@@ -462,7 +448,6 @@ body {
     color: #aaa;
     font-size: 11pt;
     padding: 4px 8px;
-    /*background-color: rgba(0,0,0,0.3);*/
 }
 
 #CVOptions {
@@ -764,7 +749,6 @@ body {
         box-shadow: 1px 1px 5px black;
     }
     .CardListItemContainerR {
-        /*background: linear-gradient(90deg, #430f0f 10%, #7b191b);*/
         background-image: url('../Images/Styles/CardList_FactionRed_1000px.png'), linear-gradient(170deg, rgba(59,8,16,0.8) 20%, rgb(103,14,28,0.3));
         background-size: 1000px 100%;
     }

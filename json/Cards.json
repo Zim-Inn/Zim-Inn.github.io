@@ -725,9 +725,9 @@
                 "armour": 0,
                 "hp": 0,
                 "abilities": [],
-                "related_cards": [],
                 "crosslane": false,
-                "quick": false
+                "quick": false,
+                "related_cards": ["200171_0"]
             }
         ]
     },
@@ -1012,9 +1012,7 @@
                 "attack": 2,
                 "armour": 0,
                 "hp": 4,
-                "abilities": [
-                    "210014_0"
-                ],
+                "abilities": ["210014_0"],
                 "signature": ["200041_0"]
             }   
         ]
@@ -4509,6 +4507,1373 @@
                 "crosslane": false,
                 "quick": false,
                 "related_cards": ["200170_0"]
+            }
+        ]
+    },
+    {
+        "card_id": 200171,
+        "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Summon",
+                "card_name": {
+                    "english": "Revtel Mercenary"
+                },
+                "set": 1,
+                "rarity": 2,
+                "image": "200171_0",
+                "miniimage": "PH",
+                "cost": 2,
+                "text": {
+                    "english": ""
+                },
+                "attack": 2,
+                "armour": 0,
+                "hp": 1,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false,
+                "related_cards": ["200031_0"]
+            }
+        ]
+    },
+    {
+        "card_id": 200172,
+        "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Item",
+                "card_subtype": "Weapon",
+                "card_name": {
+                    "english": "Healing Blade"
+                },
+                "set": 1,
+                "rarity": 1,
+                "image": "200172_0",
+                "miniimage": "PH",
+                "cost": 1,
+                "gcost": 10,
+                "text": {
+                    "english": "/n [TG]+2[ATT]/nPlay Effect:[ET] Heal 4"
+                },
+                "attack": 2,
+                "armour": 0,
+                "hp": 0,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id": 200173,
+        "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Item",
+                "card_subtype": "Armor",
+                "card_name": {
+                    "english": "Helm of the Dominator"
+                },
+                "set": 1,
+                "rarity": 2,
+                "image": "200173_0",
+                "miniimage": "200173_0",
+                "cost": 1,
+                "gcost": 20,
+                "text": {
+                    "english": "/n [TG]+2[AR]/n Active 2[AC], 1 Mana:[ET] Steal an enemy creep."
+                },
+                "attack": 0,
+                "armour": 2,
+                "hp": 0,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id": 200174,
+        "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Item",
+                "card_subtype": "Accessory",
+                "card_name": {
+                    "english": "Hero's Cape"
+                },
+                "set": 1,
+                "rarity": 1,
+                "image": "200174_0",
+                "miniimage": "200174_0",
+                "cost": 1,
+                "gcost": 20,
+                "text": {
+                    "english": "/n /n[TG]+12[HP]"
+                },
+                "attack": 0,
+                "armour": 0,
+                "hp": 12,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id": 200175,
+        "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Item",
+                "card_subtype": "Accessory",
+                "card_name": {
+                    "english": "Holy Locket"
+                },
+                "set": 1,
+                "rarity": 2,
+                "image": "200175_0",
+                "miniimage": "PH",
+                "cost": 1,
+                "gcost": 25,
+                "text": {
+                    "english": "/n +9[HP]/n When an enemy plays an ability or card from this lane, restore 1 Mana./n[TG]Aura:[ET] Allies have doubled Healing and Regeneration."
+                },
+                "attack": 0,
+                "armour": 0,
+                "hp": 9,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id": 200176,
+        "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Item",
+                "card_subtype": "Accessory",
+                "card_name": {
+                    "english": "Infernal Amulet"
+                },
+                "set": 1,
+                "rarity": 3,
+                "image": "200176_0",
+                "miniimage": "PH",
+                "cost": 1,
+                "gcost": 15,
+                "text": {
+                    "english": "/n +6[HP]/n[TG]Round Start:[ET] Deal 1 piercing damage to adjacent enemies."
+                },
+                "attack": 0,
+                "armour": 0,
+                "hp": 6,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id": 200177,
+        "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Item",
+                "card_subtype": "Weapon",
+                "card_name": {
+                    "english": "Jasper Daggers"
+                },
+                "set": 1,
+                "rarity": 5,
+                "image": "200177_0",
+                "miniimage": "200177_0",
+                "cost": 1,
+                "gcost": 15,
+                "text": {
+                    "english": "/n +2[ATT], Pierce/n[TG]Play Effect:[ET] Purge your opponent's effects from equipped hero."
+                },
+                "attack": 2,
+                "armour": 0,
+                "hp": 0,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id": 200178,
+        "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Item",
+                "card_subtype": "Weapon",
+                "card_name": {
+                    "english": "Main Gauche"
+                },
+                "set": 1,
+                "rarity": 2,
+                "image": "200178_0",
+                "miniimage": "PH",
+                "cost": 1,
+                "gcost": 15,
+                "text": {
+                    "english": "/n +2[ATT]/n/nDoes not use an item slot./n/nWhen you buy Main Gauche, get another one."
+                },
+                "attack": 2,
+                "armour": 0,
+                "hp": 0,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id": 200179,
+        "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Item",
+                "card_subtype": "Armor",
+                "card_name": {
+                    "english": "Midas Greaves"
+                },
+                "set": 1,
+                "rarity": 1,
+                "image": "200179_0",
+                "miniimage": "PH",
+                "cost": 1,
+                "gcost": 10,
+                "text": {
+                    "english": "/n /n +1[ATT], +5 Income"
+                },
+                "attack": 1,
+                "armour": 0,
+                "hp": 0,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id": 200180,
+        "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Item",
+                "card_subtype": "Weapon",
+                "card_name": {
+                    "english": "Mjolnir"
+                },
+                "set": 1,
+                "rarity": 3,
+                "image": "200180_0",
+                "miniimage": "PH",
+                "cost": 1,
+                "gcost": 25,
+                "text": {
+                    "english": "/n +5[ATT]/n After battling a unit, deal 3 damage to it. Repeat 3 more times: [RP] Deal 3 damage to a random unit to its left or right."
+                },
+                "attack": 5,
+                "armour": 0,
+                "hp": 0,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id": 200181,
+            "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Item",
+                "card_subtype": "Weapon",
+                "card_name": {
+                    "english": "Mortred's Dagger"
+                },
+                "set": 1,
+                "rarity": 2,
+                "image": "200181_0",
+                "miniimage": "PH",
+                "cost": 1,
+                "gcost": 20,
+                "text": {
+                    "english": "/n /n +5[ATT], Quickstrike"
+                },
+                "attack": 5,
+                "armour": 0,
+                "hp": 0,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id": 200182,
+        "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Item",
+                "card_subtype": "Armor",
+                "card_name": {
+                    "english": "Nullifier"
+                },
+                "set": 1,
+                "rarity": 5,
+                "image": "200182_0",
+                "miniimage": "PH",
+                "cost": 1,
+                "gcost": 20,
+                "text": {
+                    "english": "/n +2[AR], +2 Regeneration/n[TG]Active 3[AC], 1 Mana:[ET] Purge opponent's effects from an enemy unit."
+                },
+                "attack": 0,
+                "armour": 2,
+                "hp": 0,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id": 200183,
+        "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Item",
+                "card_subtype": "Weapon",
+                "card_name": {
+                    "english": "Orchid"
+                },
+                "set": 1,
+                "rarity": 5,
+                "image": "200183_0",
+                "miniimage": "PH",
+                "cost": 1,
+                "gcost": 20,
+                "text": {
+                    "english": "/n +2[AR]/n[TG]Active 3[AC], 1 Mana:[ET] Silence an enemy and give it -3[AR]."
+                },
+                "attack": 0,
+                "armour": 2,
+                "hp": 0,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id": 200184,
+        "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Item",
+                "card_subtype": "Weapon",
+                "card_name": {
+                    "english": "Radiance"
+                },
+                "set": 1,
+                "rarity": 1,
+                "image": "200184_0",
+                "miniimage": "PH",
+                "cost": 1,
+                "gcost": 30,
+                "text": {
+                    "english": "/n +10[ATT]/n [TG]Round Start:[ET] Deal 2 piercing damage to enemy units."
+                },
+                "attack": 10,
+                "armour": 0,
+                "hp": 0,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id": 200185,
+        "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Item",
+                "card_subtype": "Weapon",
+                "card_name": {
+                    "english": "Red Mist Maul"
+                },
+                "set": 1,
+                "rarity": 2,
+                "image": "200185_0",
+                "miniimage": "200185_0",
+                "cost": 1,
+                "gcost": 15,
+                "text": {
+                    "english": "/n /n +2[ATT], +3 Siege"
+                },
+                "attack": 2,
+                "armour": 0,
+                "hp": 0,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id": 200186,
+        "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Item",
+                "card_subtype": "Accessory",
+                "card_name": {
+                    "english": "Refresher Orb"
+                },
+                "set": 1,
+                "rarity": 2,
+                "image": "200186_0",
+                "miniimage": "PH",
+                "cost": 1,
+                "gcost": 30,
+                "text": {
+                    "english": "/n +6[HP] /n [TG]Active 2[AC], 1 Mana:[ET] Refresh all cooldowns on equipped hero. Draw a card. Restore 3 mana."
+                },
+                "attack": 0,
+                "armour": 0,
+                "hp": 6,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id": 200187,
+        "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Item",
+                "card_subtype": "Accessory",
+                "card_name": {
+                    "english": "Ring of Tarrasque"
+                },
+                "set": 1,
+                "rarity": 1,
+                "image": "200187_0",
+                "miniimage": "200187_0",
+                "cost": 1,
+                "gcost": 15,
+                "text": {
+                    "english": "/n /n +3[HP], +3 Regeneration."
+                },
+                "attack": 0,
+                "armour": 0,
+                "hp": 3,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id": 200188,
+        "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Item",
+                "card_subtype": "Armor",
+                "card_name": {
+                    "english": "Ristul Emblem"
+                },
+                "set": 1,
+                "rarity": 1,
+                "image": "200188_0",
+                "miniimage": "200188_0",
+                "cost": 1,
+                "gcost": 15,
+                "text": {
+                    "english": "/n /n +3[AR] /n [TG]Aura:[ET] Adjacent enemies have -2[AR]."
+                },
+                "attack": 0,
+                "armour": 2,
+                "hp": 0,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id": 200189,
+        "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Item",
+                "card_subtype": "Weapon",
+                "card_name": {
+                    "english": "Silver Edge"
+                },
+                "set": 1,
+                "rarity": 5,
+                "image": "200189_0",
+                "miniimage": "PH",
+                "cost": 1,
+                "gcost": 25,
+                "text": {
+                    "english": "+5[ATT] /n [TG]Active 2[AC], 1 Mana:[ET] Disable passive abilities on an enemy in any lane. Battle that enemy. /n [TG]Cross Lane[ET]"
+                },
+                "attack": 5,
+                "armour": 0,
+                "hp": 0,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id": 200190,
+        "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Item",
+                "card_subtype": "Weapon",
+                "card_name": {
+                    "english": "Sorla Khan's Spear"
+                },
+                "set": 1,
+                "rarity": 4,
+                "image": "200190_0",
+                "miniimage": "PH",
+                "cost": 1,
+                "gcost": 20,
+                "text": {
+                    "english": " /n +2[ATT], +2 Siege /n Scheme: +2[ATT] and +2 Siege."
+                },
+                "attack": 2,
+                "armour": 0,
+                "hp": 0,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id": 200191,
+        "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Item",
+                "card_subtype": "Accessory",
+                "card_name": {
+                    "english": "Spirit Vessel"
+                },
+                "set": 1,
+                "rarity": 5,
+                "image": "200191_0",
+                "miniimage": "PH",
+                "cost": 1,
+                "gcost": 25,
+                "text": {
+                    "english": " +9[HP], +1 Mana /n After a hero dies, add a charge. /n [TG]Active 0[AC], 1 Mana[ET]: Spend a charge. Give an enemy +4 Decay or an ally +4 Regeneration."
+                },
+                "attack": 0,
+                "armour": 0,
+                "hp": 9,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id": 200192,
+        "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Item",
+                "card_subtype": "Accessory",
+                "card_name": {
+                    "english": "Stonehall Cloak"
+                },
+                "set": 1,
+                "rarity": 1,
+                "image": "200192_0",
+                "miniimage": "200192_0",
+                "cost": 1,
+                "gcost": 10,
+                "text": {
+                    "english": " /n +3[HP] /n [TG]After Combat:[ET] Increase Health by 1."
+                },
+                "attack": 0,
+                "armour": 0,
+                "hp": 3,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id": 200193,
+        "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Item",
+                "card_subtype": "Armor",
+                "card_name": {
+                    "english": "Vanguard"
+                },
+                "set": 1,
+                "rarity": 2,
+                "image": "200193_0",
+                "miniimage": "PH",
+                "cost": 1,
+                "gcost": 20,
+                "text": {
+                    "english": " /n +5[AR], +3[HP], +3 Regeneration"
+                },
+                "attack": 0,
+                "armour": 5,
+                "hp": 3,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id": 200194,
+        "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Item",
+                "card_subtype": "Armor",
+                "card_name": {
+                    "english": "Vesture of the Tyrant"
+                },
+                "set": 1,
+                "rarity": 2,
+                "image": "200194_0",
+                "miniimage": "200194_0",
+                "cost": 1,
+                "gcost": 20,
+                "text": {
+                    "english": " /n +3[AR], Rapid Deployment. /n Your tower has +3[AR]."
+                },
+                "attack": 0,
+                "armour": 3,
+                "hp": 0,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id": 200195,
+        "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Item",
+                "card_subtype": "Armor",
+                "card_name": {
+                    "english": "Vladmir's Offering"
+                },
+                "set": 1,
+                "rarity": 3,
+                "image": "200195_0",
+                "miniimage": "PH",
+                "cost": 1,
+                "gcost": 25,
+                "text": {
+                    "english": " /n [TG]Aura:[ET] Allied units have +4[AR] and Lifesteal."
+                },
+                "attack": 0,
+                "armour": 4,
+                "hp": 0,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id": 200196,
+        "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Item",
+                "card_subtype": "Accessory",
+                "card_name": {
+                    "english": "Warhorn"
+                },
+                "set": 1,
+                "rarity": 1,
+                "image": "200196_0",
+                "miniimage": "PH",
+                "cost": 1,
+                "gcost": 15,
+                "text": {
+                    "english": " /n +6[HP] /n [TG]Play Effect:[ET] Give allies +2[ATT]."
+                },
+                "attack": 0,
+                "armour": 0,
+                "hp": 6,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id": 200197,
+        "versions": [
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Item",
+                "card_subtype": "Weapon",
+                "card_name": {
+                    "english": "Wingfall Hammer"
+                },
+                "set": 1,
+                "rarity": 1,
+                "image": "200197_0",
+                "miniimage": "200197_0",
+                "cost": 1,
+                "gcost": 20,
+                "text": {
+                    "english": " /n [TG]Aura:[ET] You and your neighbors have +2[ATT] and +2 Regeneration."
+                },
+                "attack": 2,
+                "armour": 0,
+                "hp": 6,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id":200198,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Arc Warden"
+                },
+                "set": 1,
+                "rarity": 4,
+                "colour": "U",
+                "image": "200198_0",
+                "miniimage": "PH",
+                "icon": "200198_0",
+                "attack": 3,
+                "armour": 0,
+                "hp": 4,
+                "abilities": ["210069_0"],
+                "signature": ["200199_0"]
+            }   
+        ]
+    },
+    {
+        "card_id":200199,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Creep",
+                "card_name":{
+                    "english":"Spark Wraith"
+                },
+                "set": 1,
+                "rarity": 4,
+                "colour": "U",
+                "image": "200199_0",
+                "miniimage": "PH",
+                "cost": 2,
+                "text":{
+                    "english":" /n Whenever an adjacent enemy enters this lane, deal 3 damage to it and disarm it, then slay Spark Wraith."
+                },
+                "attack": 0,
+                "armour": 0,
+                "hp": 1,
+                "abilities": [ ],
+                "crosslane": false,
+                "quick": false,
+                "is_signature": "200198_0"
+            }
+        ]
+    },
+    {
+        "card_id":200200,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Earthshaker"
+                },
+                "set": 1,
+                "rarity": 3,
+                "colour": "U",
+                "image": "200200_0",
+                "miniimage": "200200_0",
+                "icon": "200200_0",
+                "attack": 5,
+                "armour": 0,
+                "hp": 5,
+                "abilities": ["210070_0","210071_0"],
+                "signature": ["200144_0"],
+                "related_cards": ["200202_0"]
+            }   
+        ]
+    },
+    {
+        "card_id":200201,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Spell",
+                "card_name":{
+                    "english":"Echo Slam"
+                },
+                "set": 1,
+                "rarity": 3,
+                "colour": "U",
+                "image": "200201_0",
+                "miniimage": "200201_0",
+                "cost": 6,
+                "text":{
+                    "english":" /n Deal damage to each enemy equal to the number of enemies."
+                },
+                "crosslane": false,
+                "quick": false,
+                "is_signature": "200200_0"
+            }
+        ]
+    },
+    {
+        "card_id":200202,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Summon",
+                "card_name":{
+                    "english":"Rock"
+                },
+                "set": 1,
+                "rarity": 2,
+                "colour": "U",
+                "cost": 1,
+                "image": "200202_0",
+                "miniimage": "PH",
+                "text":{
+                    "english":" /n /n Blocker /n Removed after combat."
+                },
+                "attack": 0,
+                "armour": 0,
+                "hp": 1,
+                "abilities": [ ],
+                "crosslane": false,
+                "quick": false,
+                "related_cards": ["200200_0"]
+            }
+        ]
+    },
+    {
+        "card_id":200203,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Imperia"
+                },
+                "set": 1,
+                "rarity": 5,
+                "colour": "U",
+                "image": "200203_0",
+                "miniimage": "PH",
+                "icon": "PH",
+                "attack": 2,
+                "armour": 0,
+                "hp": 6,
+                "abilities": ["210072_0"],
+                "signature": ["200204_0"]
+            }   
+        ]
+    },
+    {
+        "card_id":200204,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Creep",
+                "card_name":{
+                    "english":"Conspiracy of Ravens"
+                },
+                "set": 1,
+                "rarity": 5,
+                "colour": "U",
+                "image": "200204_0",
+                "miniimage": "PH",
+                "cost": 1,
+                "text":{
+                    "english":" /n Devour, Feeble. /n When Conspiracy of Ravens is dealt damage, reveal a random card in the opponent's hand."
+                },
+                "attack": 0,
+                "armour": 0,
+                "hp": 2,
+                "abilities": [ ],
+                "crosslane": false,
+                "quick": false,
+                "is_signature": "200203_0"
+            }
+        ]
+    },
+    {
+        "card_id":200205,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Kanna"
+                },
+                "set": 1,
+                "rarity": 4,
+                "colour": "U",
+                "image": "200205_0",
+                "miniimage": "200205_0",
+                "icon": "200205_0",
+                "attack": 1,
+                "armour": 0,
+                "hp": 7,
+                "abilities": ["210073_0","210074_0"],
+                "signature": ["200206_0"],
+                "related_cards": ["200207_0"]
+            }   
+        ]
+    },
+    {
+        "card_id":200206,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Spell",
+                "card_name":{
+                    "english":"Diabolic Conclusion"
+                },
+                "set": 1,
+                "rarity": 4,
+                "colour": "U",
+                "image": "200206_0",
+                "miniimage": "200206_0",
+                "cost": 1,
+                "text":{
+                    "english":" /n Give caster Trample. Disarm your creeps and give their Attack to the caster."
+                },
+                "crosslane": false,
+                "quick": false,
+                "is_signature": "200205_0"
+            }
+        ]
+    },
+    {
+        "card_id":200207,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Summon",
+                "card_name":{
+                    "english":"Hound of War"
+                },
+                "set": 1,
+                "rarity": 2,
+                "colour": "B",
+                "cost": 1,
+                "image": "200207_0",
+                "miniimage": "200207_0",
+                "text":{
+                    "english":" /n /n Devour. Trample."
+                },
+                "attack": 2,
+                "armour": 0,
+                "hp": 0,
+                "abilities": [ ],
+                "crosslane": false,
+                "quick": false,
+                "related_cards": ["200205_0"]
+            }
+        ]
+    },
+    {
+        "card_id":200208,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Lina"
+                },
+                "set": 1,
+                "rarity": 3,
+                "colour": "U",
+                "image": "200208_0",
+                "miniimage": "PH",
+                "icon": "200208_0",
+                "attack": 2,
+                "armour": 0,
+                "hp": 5,
+                "abilities": ["210075_0"],
+                "signature": ["200209_0","200210_0","200211_0"]
+            }   
+        ]
+    },
+    {
+        "card_id":200209,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Spell",
+                "card_name":{
+                    "english":"Light Strike Array"
+                },
+                "set": 1,
+                "rarity": 3,
+                "colour": "U",
+                "image": "200209_0",
+                "miniimage": "PH",
+                "cost": 2,
+                "text":{
+                    "english":" /n /n Stun and deal 1 damage to a unit."
+                },
+                "crosslane": false,
+                "quick": false,
+                "is_signature": "200208_0"
+            }
+        ]
+    },
+    {
+        "card_id":200210,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Spell",
+                "card_name":{
+                    "english":"Dragon Slave"
+                },
+                "set": 1,
+                "rarity": 3,
+                "colour": "U",
+                "image": "200210_0",
+                "miniimage": "PH",
+                "cost": 3,
+                "text":{
+                    "english":" /n Deal 3 piercing damage to an enemy and 1 piercing damage to its allied neighbors."
+                },
+                "crosslane": false,
+                "quick": false,
+                "is_signature": "200208_0"
+            }
+        ]
+    },
+    {
+        "card_id":200211,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Spell",
+                "card_name":{
+                    "english":"Laguna Blade"
+                },
+                "set": 1,
+                "rarity": 3,
+                "colour": "U",
+                "image": "200211_0",
+                "miniimage": "PH",
+                "cost": 4,
+                "text":{
+                    "english":" /n /n Deal 5 piercing damage to a unit."
+                },
+                "crosslane": false,
+                "quick": false,
+                "is_signature": "200208_0"
+            }
+        ]
+    },
+    {
+        "card_id":200212,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Meepo"
+                },
+                "set": 1,
+                "rarity": 4,
+                "colour": "U",
+                "image": "200212_0",
+                "miniimage": "200212_0",
+                "icon": "200212_0",
+                "attack": 3,
+                "armour": 0,
+                "hp": 4,
+                "abilities": ["210076_0","210077_0"],
+                "signature": ["200213_0"]
+            }   
+        ]
+    },
+    {
+        "card_id":200213,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Spell",
+                "card_name":{
+                    "english":"Divided We Stand"
+                },
+                "set": 1,
+                "rarity": 4,
+                "colour": "U",
+                "image": "200213_0",
+                "miniimage": "200213_0",
+                "cost": 3,
+                "text":{
+                    "english":" /n /n Summon a Meepo."
+                },
+                "crosslane": false,
+                "quick": false,
+                "is_signature": "200212_0"
+            }
+        ]
+    },
+    {
+        "card_id":200214,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Chen"
+                },
+                "set": 1,
+                "rarity": 3,
+                "colour": "G",
+                "image": "200214_0",
+                "miniimage": "200214_0",
+                "icon": "200214_0",
+                "attack": 3,
+                "armour": 0,
+                "hp": 7,
+                "abilities": ["210078_0"],
+                "signature": ["200215_0"]
+            }   
+        ]
+    },
+    {
+        "card_id":200215,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Spell",
+                "card_name":{
+                    "english":"Hand of God"
+                },
+                "set": 1,
+                "rarity": 3,
+                "colour": "G",
+                "image": "200215_0",
+                "miniimage": "200215_0",
+                "cost": 5,
+                "text":{
+                    "english":" /n Give allied heroes in all lanes +4 temporary health. /n [TG]Cross Lane[ET]"
+                },
+                "crosslane": true,
+                "quick": false,
+                "is_signature": "200214_0"
+            }
+        ]
+    },
+    {
+        "card_id":200216,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Dazzle"
+                },
+                "set": 1,
+                "rarity": 4,
+                "colour": "G",
+                "image": "200216_0",
+                "miniimage": "PH",
+                "icon": "200216_0",
+                "attack": 2,
+                "armour": 0,
+                "hp": 6,
+                "abilities": ["210079_0"],
+                "signature": ["200217_0"]
+            }   
+        ]
+    },
+    {
+        "card_id":200217,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Improvement",
+                "improvement_type":"Passive",
+                "card_name":{
+                    "english":"Weave"
+                },
+                "set": 1,
+                "rarity": 4,
+                "colour": "G",
+                "image": "200217_0",
+                "miniimage": "PH",
+                "cost": 5,
+                "text":{
+                    "english":"/n Enchant Tower /n [TG]Aura:[ET] Allies of +1[AR] per round and enemies have -1[AR] per round. Dispel after 3 rounds."
+                },
+                "crosslane": false,
+                "quick": false,
+                "is_signature": "200216_0"
+            }
+        ]
+    },
+    {
+        "card_id":200218,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Dragon Knight"
+                },
+                "set": 1,
+                "rarity": 5,
+                "colour": "G",
+                "image": "200218_0",
+                "miniimage": "PH",
+                "icon": "200218_0",
+                "attack": 2,
+                "armour": 0,
+                "hp": 6,
+                "abilities": ["210080_0","210081_0"],
+                "signature": ["200219_0"],
+                "related_cards": ["200218_0"]
+            }   
+        ]
+    },
+    {
+        "card_id":200219,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Spell",
+                "card_name":{
+                    "english":"Dragon Tail"
+                },
+                "set": 1,
+                "rarity": 5,
+                "colour": "G",
+                "image": "200219_0",
+                "miniimage": "PH",
+                "cost": 2,
+                "text":{
+                    "english":" /n Deal 2 damage and stun an adajent enemy."
+                },
+                "crosslane": false,
+                "quick": false,
+                "is_signature": "200218_0"
+            }
+        ]
+    },
+    {
+        "card_id":200220,
+        "hide_from_card_list": true,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Improvement",
+                "improvement_type":"Passive",
+                "card_name":{
+                    "english":"Corrosive Breath"
+                },
+                "set": 1,
+                "rarity": 2,
+                "colour": "G",
+                "image": "200220_0",
+                "miniimage": "PH",
+                "cost": 4,
+                "text":{
+                    "english":"/n Enchant Tower /n +3 Decay. /n Dispel after 3 rounds."
+                },
+                "crosslane": false,
+                "quick": false,
+                "related_cards": ["200218_0"]
+            }
+        ]
+    },
+    {
+        "card_id":200221,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Lady Anshu"
+                },
+                "set": 1,
+                "rarity": 3,
+                "colour": "G",
+                "image": "200221_0",
+                "miniimage": "PH",
+                "icon": "PH",
+                "attack": 4,
+                "armour": 0,
+                "hp": 4,
+                "abilities": ["210082_0"],
+                "signature": ["200222_0"]
+            }   
+        ]
+    },
+    {
+        "card_id":200222,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Spell",
+                "card_name":{
+                    "english":"Hymn of St. Crella"
+                },
+                "set": 1,
+                "rarity": 3,
+                "colour": "G",
+                "image": "200222_0",
+                "miniimage": "PH",
+                "cost": 3,
+                "text":{
+                    "english":" /n Slay Caster. /n [RP] Deploy heroes in your fountain to the first empty positions in this lane."
+                },
+                "crosslane": false,
+                "quick": false,
+                "is_signature": "200221_0"
             }
         ]
     }

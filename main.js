@@ -137,7 +137,7 @@ function GenerateCardViewerPage(Filter) {
         }
     }
 
-    const colorIndex = {R: 1,U: 2,B: 3,G: 4,};
+    const colorIndex = {R:1, U:2, B:3, G:4, C:5};
 
     A2Heroes = A2Heroes.sort((Card1, Card2) => {
         c1 = Card1.versions[Card1.versions.length-1];

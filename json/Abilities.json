@@ -441,16 +441,16 @@
         "card_type":"Ability",
         "versions":[
             {
-                "release_date":"2020-05-25",
-                "ability_type":"Continuous Effect",
+                "release_date":"2018-11-28",
+                "ability_type":"Passive",
                 "ability_name":{
-                    "english":"Thirst"
+                    "english":"Blood Bath"
                  },
                 "cooldown": 0,
                 "image": "210029_0",
                 "cost": 0,
                 "text":{
-                    "english":"Bloodseeker has +Attack equal to the highest missing Health from an enemy hero in any lane. [TG]Cross Lane[ET]"
+                    "english":"Fully heal Bloodseeker after a unit blocking it dies. [UC]"
                 }
             }
         ]
@@ -1154,6 +1154,272 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 2[AC], 1 Mana:[ET] +3[ATT]. Move up to 3 slots. Give +2 Decay to each enemy passed."
+                }
+            }
+        ]
+    },
+    {
+        "card_id":210069,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Tempest Double"
+                 },
+                "cooldown": 3,
+                "image": "210069_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Clone Arc Warden and its equipment for two rounds. /n /n The clone cannot make additional clones, does not redploy when it does and have no bounty if it expires."
+                }
+            }
+        ]
+    },
+    {
+        "card_id":210070,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"After Shock"
+                 },
+                "cooldown": 0,
+                "image": "210070_0",
+                "cost": 0,
+                "text":{
+                    "english":"Stun Earthshaker's adjacent enemies for one action after you play a blue spell or enchantment from this lane."
+                }
+            }
+        ]
+    },
+    {
+        "card_id":210071,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Fissure"
+                 },
+                "cooldown": 3,
+                "image": "210071_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Bounce allies in a line up to 3 slots away and summon Rocks in their place."
+                }
+            }
+        ]
+    },
+    {
+        "card_id":210072,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Skullduggery"
+                 },
+                "cooldown": 2,
+                "image": "210072_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Choose a non-item card in your opponent's hand. They discard it then draw 1. /n Give Imperia +Attack equal to the discarded card's Mana cost."
+                }
+            }
+        ]
+    },
+    {
+        "card_id":210073,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Bringer of Conquest"
+                 },
+                "cooldown": 0,
+                "image": "210073_0",
+                "cost": 0,
+                "text":{
+                    "english":"[TG]After Combat:[ET] If you have three empty slots, your lane creeps are all deployed into this lane."
+                }
+            }
+        ]
+    },
+    {
+        "card_id":210074,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Prey on the Weak"
+                 },
+                "cooldown": 0,
+                "image": "210074_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever a creep enters this lane under your control, summon a Hound of War to devour it."
+                }
+            }
+        ]
+    },
+    {
+        "card_id":210075,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Fiery Soul"
+                 },
+                "cooldown": 0,
+                "image": "210075_0",
+                "cost": 0,
+                "text":{
+                    "english":"The first time you play a blue spell or enchantment from this lane, deal damage to Lina's combat target equal to the number of charges on Fiery Soul and add 1 charge to Fiery Soul."
+                }
+            }
+        ]
+    },
+    {
+        "card_id":210076,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"United We Fall"
+                 },
+                "cooldown": 0,
+                "image": "210076_0",
+                "cost": 0,
+                "text":{
+                    "english":"Soulbound. (If one Meepo dies, all your Meepos die)"
+                }
+            }
+        ]
+    },
+    {
+        "card_id":210077,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Poof"
+                 },
+                "cooldown": 2,
+                "image": "210077_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Move Meepo to the first empty position in any Meepo's kane (including this one). Deal 2 damage to the new adjacent enemies. /n [TG][QU]Quickcast[ET]"
+                }
+            }
+        ]
+    },
+    {
+        "card_id":210078,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Holy Persuasion"
+                 },
+                "cooldown": 3,
+                "image": "210078_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Steal an enemy creep."
+                }
+            }
+        ]
+    },
+    {
+        "card_id":210079,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Shadow Wave"
+                 },
+                "cooldown": 2,
+                "image": "210079_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Repeat 4 times: [RP] Heal a damaged ally 1 and deal 1 damage to the closest adajent enemy. Jump left or right to a damaged ally."
+                }
+            }
+        ]
+    },
+    {
+        "card_id":210080,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Dragon Form"
+                 },
+                "cooldown": 3,
+                "image": "210080_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Transform to a Dragon for one round. /n When you deal battle damage to towers or units in dragon form, give them +3 Decay for 3 rounds."
+                }
+            }
+        ]
+    },
+    {
+        "card_id":210081,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Dragon Blood"
+                 },
+                "cooldown": 0,
+                "image": "210081_0",
+                "cost": 0,
+                "text":{
+                    "english":"+2 Regeneration"
+                }
+            }
+        ]
+    },
+    {
+        "card_id":210082,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Devoted Disciple"
+                 },
+                "cooldown": 0,
+                "image": "210082_0",
+                "cost": 0,
+                "text":{
+                    "english":"Rapid Deployment. /n [TG]Death Effect:[ET] Give your allies +2[HP] permanently."
                 }
             }
         ]
