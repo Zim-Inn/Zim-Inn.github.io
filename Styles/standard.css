@@ -120,6 +120,12 @@ body {
     font-weight: 700;
     text-shadow: 2px 2px 5px black;
 }
+#PageHeaderSubtitle {
+    color: #eee;
+    font-size: 18pt;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px black;
+}
 #CardViewerPage_Left {
     float: left;
     width: calc(53% - 170px);
