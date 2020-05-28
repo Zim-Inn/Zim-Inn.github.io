@@ -1073,7 +1073,7 @@
                 "armour": 0,
                 "hp": 3,
                 "abilities": [ ],
-                "related_cards": ["200041_0"],
+                "related_cards": ["200040_0"],
                 "crosslane": false,
                 "quick": false
             }
