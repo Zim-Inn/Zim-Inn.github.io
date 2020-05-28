@@ -9028,29 +9028,6 @@
             ]
     },
     {
-        "card_id":201116,
-            "versions":[
-                {
-                    "release_date":"2020-05-25",
-                    "card_type":"Spell",
-                    "card_name":{
-                        "english":"Veteran's Insight"
-                    },
-                    "set": 1,
-                    "rarity": 1,
-                    "colour": "R",
-                    "image": "PH2",
-                    "miniimage": "PH",
-                    "cost": 3,
-                    "text":{
-                        "english":"This card is currently missing information but will be updated soon."
-                    },
-                    "crosslane": false,
-                    "quick": false
-                }
-            ]
-    },
-    {
         "card_id":201117,
             "versions":[
                 {
@@ -9387,29 +9364,6 @@
                     "image": "PH2",
                     "miniimage": "PH",
                     "cost": 3,
-                    "text":{
-                        "english":"This card is currently missing information but will be updated soon."
-                    },
-                    "crosslane": false,
-                    "quick": false
-                }
-            ]
-    },
-    {
-        "card_id":201133,
-            "versions":[
-                {
-                    "release_date":"2020-05-25",
-                    "card_type":"Spell",
-                    "card_name":{
-                        "english":"Insidious Plot"
-                    },
-                    "set": 1,
-                    "rarity": 1,
-                    "colour": "B",
-                    "image": "PH2",
-                    "miniimage": "PH",
-                    "cost": 4,
                     "text":{
                         "english":"This card is currently missing information but will be updated soon."
                     },
@@ -10369,29 +10323,6 @@
                     "card_type":"Spell",
                     "card_name":{
                         "english":"Springgan Mischief"
-                    },
-                    "set": 1,
-                    "rarity": 1,
-                    "colour": "G",
-                    "image": "PH2",
-                    "miniimage": "PH",
-                    "cost": 3,
-                    "text":{
-                        "english":"This card is currently missing information but will be updated soon."
-                    },
-                    "crosslane": false,
-                    "quick": false
-                }
-            ]
-    },
-    {
-        "card_id":201174,
-            "versions":[
-                {
-                    "release_date":"2020-05-25",
-                    "card_type":"Spell",
-                    "card_name":{
-                        "english":"Steal Strength"
                     },
                     "set": 1,
                     "rarity": 1,
