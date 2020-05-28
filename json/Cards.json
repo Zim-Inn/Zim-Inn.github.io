@@ -7989,5 +7989,2606 @@
                     "quick": false
                 }
             ]
+    },
+    {
+        "card_id":201075,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Burning Oil"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "R",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 1,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    }, 
+    {
+        "card_id":201076,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Nether Ward"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "R",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 2,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    }, 
+    {
+        "card_id":201077,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Path of the Bold"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "R",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 2,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    }, 
+    {
+        "card_id":201078,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Temple of War"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "R",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    }, 
+    {
+        "card_id":201079,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"The Omexe Arena"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "R",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201080,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Fractured Timeline"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 1,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201081,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Path of the Wise"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 2,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201082,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Watchtower"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 2,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201083,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Aghanim's Sanctum"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 4,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201084,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Conflagration"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 5,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201085,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Glyph of Confusion"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 5,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201086,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Bitter Enemies"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "B",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 1,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "attack": 0,
+                    "armour": 0,
+                    "hp": 0,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201087,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Trebuchets"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "B",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 1,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "attack": 0,
+                    "armour": 0,
+                    "hp": 0,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201088,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Escape Route"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "B",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 1,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "attack": 0,
+                    "armour": 0,
+                    "hp": 0,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201089,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Path of the Cunning"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "B",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 2,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "attack": 0,
+                    "armour": 0,
+                    "hp": 0,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201090,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Revtel Investments"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "B",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 2,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "attack": 0,
+                    "armour": 0,
+                    "hp": 0,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201091,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"The Oath"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "B",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 2,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "attack": 0,
+                    "armour": 0,
+                    "hp": 0,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201092,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Burning Pitch"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "B",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "attack": 0,
+                    "armour": 0,
+                    "hp": 0,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201093,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Keenfolk Turret"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "B",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "attack": 0,
+                    "armour": 0,
+                    "hp": 0,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201094,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"The Tyler Estate"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "B",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "attack": 0,
+                    "armour": 0,
+                    "hp": 0,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201095,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Ironfog Goldmine"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "B",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 4,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "attack": 0,
+                    "armour": 0,
+                    "hp": 0,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201096,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Steam Cannon"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "B",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 6,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "attack": 0,
+                    "armour": 0,
+                    "hp": 0,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201097,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Path of the Dreamer"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 2,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "attack": 0,
+                    "armour": 0,
+                    "hp": 0,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201098,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Unearthed Secrets"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 2,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "attack": 0,
+                    "armour": 0,
+                    "hp": 0,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201099,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Altar of the Mad Moon"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "attack": 0,
+                    "armour": 0,
+                    "hp": 0,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201100,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Cheating Death"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "attack": 0,
+                    "armour": 0,
+                    "hp": 0,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201101,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Homefield Advantage"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "attack": 0,
+                    "armour": 0,
+                    "hp": 0,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201102,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Summoning Circle"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "attack": 0,
+                    "armour": 0,
+                    "hp": 0,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201103,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Mist of Avernus"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 4,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "attack": 0,
+                    "armour": 0,
+                    "hp": 0,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201104,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Selemene's Favor"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 6,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "attack": 0,
+                    "armour": 0,
+                    "hp": 0,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201106,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Fighting Words"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "R",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 1,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201107,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Flesh of Iron"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "R",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 1,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201108,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Into the Fray"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "R",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 1,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201109,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Poised to Strike"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "R",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 1,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201110,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Heroic Resolve"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "R",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 2,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201111,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Smash Their Defense!"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "R",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 2,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201112,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Throw Down"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "R",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 2,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201113,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Unbreakable Column"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "R",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 2,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201114,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Clear the Deck"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "R",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201115,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Iron Sharpens Iron"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "R",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201116,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Veteran's Insight"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "R",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201117,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Punch It!"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "R",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 4,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201118,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Raze"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "R",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 4,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201119,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Back for More"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "R",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 5,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201120,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Team Fight"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "R",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 6,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201121,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Spring the Trap"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "R",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 7,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201122,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Time of Triumph"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "R",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 9,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201124,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Killer Instinct"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "B",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 1,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201125,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Relentless Pursuit"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "B",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 1,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201126,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Slay"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "B",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 2,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201127,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"A Thousand Cuts"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "B",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201128,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Beyond the Veil"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "B",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201129,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Gank"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "B",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201130,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Hip Fire"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "B",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201131,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Murder Plot"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "B",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201132,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Pick Off"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "B",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201133,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Insidious Plot"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "B",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 4,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201134,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Knights of the Dark"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "B",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 4,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201135,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Cover of the Night"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "B",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 5,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201136,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Tower Explosion"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "B",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 5,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201148,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Grazing Shot"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "B",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 1,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201137,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Arc Bolt"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 1,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201138,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Cunning Plan"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 1,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201139,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Lightning Bolt"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 1,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201140,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Ramp Bolt"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 1,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201141,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Ventriloquy"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 1,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201142,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Compel"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 2,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201143,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Better Late Than Never"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 2,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201144,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Howling Mind"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 2,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201145,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Leading from Behind"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 2,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201146,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Tower Barrage"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 2,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201147,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Whispers of Madness"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 2,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201148,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Arcane Assault"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201149,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"At Any Cost"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201150,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Fog of War"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201151,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Foresight"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201152,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Objective Vision"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201153,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"...And One For Me"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 4,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201154,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Mana Short"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 4,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201154,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Mimicry"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 4,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201155,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Call the Reserves"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 5,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201156,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Friendly Fire"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 5,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201157,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Remote Detonation"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 5,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201158,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Sonic Bubble"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 5,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201159,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Thunderstorm"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 5,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201160,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Wave of Madness"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 5,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201161,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Anihilation"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 6,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201162,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Bolt of Damocles"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 10,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201163,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Bellow"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 1,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201164,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Defend the Weak"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 1,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201165,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Juke"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 1,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201166,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Stars Align"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 1,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201167,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Living Armor"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 2,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201168,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Rumusque Blessing"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 2,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201169,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Arm the Rebellion"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201170,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Caught Unprepared"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201171,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Intimidation"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201172,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Soul of Spring"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201173,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Springgan Mischief"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201174,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Steal Strength"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201175,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Steal Strength"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201176,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Divine Intervention"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 4,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201177,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Leech Seed"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 4,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201178,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Ironwood Heart"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 4,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201179,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Restoration Effort"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 4,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201180,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Shifting Loyalties"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 4,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201181,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Corrosive Mist"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 5,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201182,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Divine Purpose"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 6,
+                    "text":{
+                        "english":"This card is currently missing information but will be updated soon."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
     }
 ]
