@@ -1013,7 +1013,8 @@
                 "armour": 0,
                 "hp": 4,
                 "abilities": ["210014_0"],
-                "signature": ["200041_0"]
+                "signature": ["200041_0"],
+                "related_cards": ["200042_0"]
             }   
         ]
     },
@@ -1044,7 +1045,6 @@
                 "text":{
                     "english":"/n Enchant Tower /n [TG]Aura:[ET] Your creeps have +1[ATT]/+1[HP]."
                 },
-                "related_cards": ["200042_0"],
                 "crosslane": false,
                 "quick": false,
                 "is_signature": "200040_0"
