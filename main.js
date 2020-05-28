@@ -567,9 +567,12 @@ function CardViewer_SelectCard(CardIDV) {
                 RelCardMiniImage = CardJSON[RelCardArrayIndex]['versions'][RelCardVersion]['miniimage'];
                 RelCardName = CardJSON[RelCardArrayIndex]['versions'][RelCardVersion]['card_name']['english'];
                 RelCardType = CardJSON[RelCardArrayIndex]['versions'][RelCardVersion]['card_type'];
-                RelCardText = CardViewer_AbilityTextFormatting(CardJSON[RelCardArrayIndex]['versions'][RelCardVersion]['text']['english']);
+                if ("text" in CardJSON[RelCardArrayIndex]['versions'][RelCardVersion]) {
+                    RelCardText = CardViewer_AbilityTextFormatting(CardJSON[RelCardArrayIndex]['versions'][RelCardVersion]['text']['english']);
+                } else {
+                    RelCardText = "";
+                }
                 RelCardColour = CardJSON[RelCardArrayIndex]['versions'][RelCardVersion]['colour'];
-        
                 HTMLRelatedCardsLeftPanel += '<div class="CursorPointer CardViewerPageSingleAbilityContainer CardViewerPageSignatureContainer'+RelCardColour+'" onmousemove="CardViewerCardPreviewTooltip(\''+RelCardID+'_'+RelCardVersion+'\',1);" onmouseout="CardViewerCardPreviewTooltip(0,0);" onmouseup="CardViewer_SelectCard(\''+RelCardID+'_'+RelCardVersion+'\')"> \
                                                 <div class="CardViewerPageAbilityTop"> \
                                                     <div class="CardViewerPageAbilityIcon"><img src="Images/Cards/MiniImage/'+RelCardMiniImage+'.jpg"></div> \
