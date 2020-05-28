@@ -8003,13 +8003,12 @@
                     "set": 1,
                     "rarity": 1,
                     "colour": "R",
-                    "image": "PH2",
+                    "image": "201075_0",
                     "miniimage": "201075_0",
                     "cost": 1,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n +2 Retaliate"
                     },
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8026,15 +8025,14 @@
                         "english":"Nether Ward"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 4,
                     "colour": "R",
-                    "image": "PH2",
+                    "image": "201076_0",
                     "miniimage": "201076_0",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n When your opponent plays a card from this lane, deal 1 piercing damage to their tower and burn 1 of their mana."
                     },
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8051,15 +8049,14 @@
                         "english":"Path of the Bold"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 5,
                     "colour": "R",
-                    "image": "PH2",
+                    "image": "201077_0",
                     "miniimage": "201077_0",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n Your blocked heroes have +1[ATT] per charge. Add a charge after you play a [TRed]red card[ET]."
                     },
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8076,15 +8073,14 @@
                         "english":"Temple of War"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 4,
                     "colour": "R",
-                    "image": "PH2",
+                    "image": "201078_0",
                     "miniimage": "201078_0",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n [TG]Active 1[AC], 1 Mana:[ET] Equip an allied hero with basic items."
                     },
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8101,15 +8097,14 @@
                         "english":"The Omexe Arena"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "R",
-                    "image": "PH2",
+                    "image": "201079_0",
                     "miniimage": "201079_0",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n Draw a card after a hero dies."
                     },
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8126,15 +8121,14 @@
                         "english":"Fractured Timeline"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 4,
                     "colour": "U",
-                    "image": "PH2",
+                    "image": "201080_0",
                     "miniimage": "201080_0",
                     "cost": 1,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n Disable Round Start and After Combat effects. [TG]Active 1[AC], 1 Mana:[ET] Trigger the disabled effects."
                     },
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8151,15 +8145,14 @@
                         "english":"Path of the Wise"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 5,
                     "colour": "U",
-                    "image": "PH2",
+                    "image": "201081_0",
                     "miniimage": "201081_0",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n After you play a blue card, deal 1 piercing damage to a random enemy with the least health."
                     },
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8176,15 +8169,14 @@
                         "english":"Watchtower"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 3,
                     "colour": "U",
-                    "image": "PH2",
+                    "image": "201082_0",
                     "miniimage": "201082_0",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n When the enemy casts a tower enchantment, draw a card. /n [TG]Play Effect:[ET] If the enemy tower has no enchantments, draw a card."
                     },
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8203,13 +8195,12 @@
                     "set": 1,
                     "rarity": 1,
                     "colour": "U",
-                    "image": "PH2",
+                    "image": "201083_0",
                     "miniimage": "201083_0",
                     "cost": 4,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n The first time you play a card from this lane each round, restore 3 Mana."
                     },
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8226,15 +8217,14 @@
                         "english":"Conflagration"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "U",
-                    "image": "PH2",
+                    "image": "201084_0",
                     "miniimage": "201084_0",
                     "cost": 5,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n [TG]Round Start:[ET] Deal 2 damage to each enemy."
                     },
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8251,15 +8241,14 @@
                         "english":"Glyph of Confusion"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 4,
                     "colour": "U",
-                    "image": "PH2",
+                    "image": "201085_0",
                     "miniimage": "201085_0",
                     "cost": 5,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n Whenever any unit enters this lane, stun it."
                     },
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8276,18 +8265,14 @@
                         "english":"Bitter Enemies"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 5,
                     "colour": "B",
-                    "image": "PH2",
+                    "image": "201086_0",
                     "miniimage": "201086_0",
                     "cost": 1,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n /n [TG]Combat:[ET] Deal 1 damage to bother towers for each charge then add a charge."
                     },
-                    "attack": 0,
-                    "armour": 0,
-                    "hp": 0,
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8304,18 +8289,14 @@
                         "english":"Trebuchets"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "B",
-                    "image": "PH2",
+                    "image": "201087_0",
                     "miniimage": "201087_0",
                     "cost": 1,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n /n [TG]Combat:[ET] Deal 2 piercing damage to the enemy tower."
                     },
-                    "attack": 0,
-                    "armour": 0,
-                    "hp": 0,
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8332,18 +8313,14 @@
                         "english":"Escape Route"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 3,
                     "colour": "B",
-                    "image": "PH2",
+                    "image": "201088_0",
                     "miniimage": "201088_0",
                     "cost": 1,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n [TG]Active 1[AC], 1 Mana:[ET] Move one of your heroes to an adjacent lane."
                     },
-                    "attack": 0,
-                    "armour": 0,
-                    "hp": 0,
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8360,18 +8337,14 @@
                         "english":"Path of the Cunning"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "B",
-                    "image": "PH2",
+                    "image": "201089_0",
                     "miniimage": "201089_0",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n The enemy tower has -1[AR] per charge. /n Add a charge after you play a black card."
                     },
-                    "attack": 0,
-                    "armour": 0,
-                    "hp": 0,
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8388,18 +8361,14 @@
                         "english":"Revtel Investments"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 3,
                     "colour": "B",
-                    "image": "PH2",
+                    "image": "201090_0",
                     "miniimage": "201090_0",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n [TG]Round Start:[ET] Get 1 gold for every 5 gold in your bank."
                     },
-                    "attack": 0,
-                    "armour": 0,
-                    "hp": 0,
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8416,18 +8385,14 @@
                         "english":"The Oath"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 5,
                     "colour": "B",
-                    "image": "PH2",
+                    "image": "201091_0",
                     "miniimage": "201091_0",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n Your units are silenced and have +3[ATT]."
                     },
-                    "attack": 0,
-                    "armour": 0,
-                    "hp": 0,
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8450,12 +8415,8 @@
                     "miniimage": "PH",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n /n [TG]Combat:[ET] Deal 4 piercing damage to the enemy tower and 2 piercing damage to your tower."
                     },
-                    "attack": 0,
-                    "armour": 0,
-                    "hp": 0,
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8472,18 +8433,14 @@
                         "english":"Keenfolk Turret"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 3,
                     "colour": "B",
-                    "image": "PH2",
+                    "image": "201093_0",
                     "miniimage": "201093_0",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n [TG]Active 1[AC], 1 Mana:[ET] Deal 2 piercing damage to a unit."
                     },
-                    "attack": 0,
-                    "armour": 0,
-                    "hp": 0,
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8500,18 +8457,14 @@
                         "english":"The Tyler Estate"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 4,
                     "colour": "B",
-                    "image": "PH2",
+                    "image": "201094_0",
                     "miniimage": "201094_0",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n After a player plays a card from this lane, burn 2 of their Mana."
                     },
-                    "attack": 0,
-                    "armour": 0,
-                    "hp": 0,
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8530,16 +8483,12 @@
                     "set": 1,
                     "rarity": 1,
                     "colour": "B",
-                    "image": "PH2",
+                    "image": "201095_0",
                     "miniimage": "201095_0",
                     "cost": 4,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n +5 Income."
                     },
-                    "attack": 0,
-                    "armour": 0,
-                    "hp": 0,
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8556,19 +8505,15 @@
                         "english":"Steam Cannon"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "B",
-                    "image": "PH2",
+                    "image": "201096_0",
                     "miniimage": "201096_0",
                     "cost": 6,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n [TG]Active 1[AC], 1 Mana:[ET] Deal 4 piercing damage to a unit in any lane. /n [TG]Cross Lane[ET]"
                     },
-                    "attack": 0,
-                    "armour": 0,
-                    "hp": 0,
-                    "abilities": [],
-                    "crosslane": false,
+                    "crosslane": true,
                     "quick": false
                 }
             ]
@@ -8584,18 +8529,14 @@
                         "english":"Path of the Dreamer"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "G",
-                    "image": "PH2",
+                    "image": "201097_0",
                     "miniimage": "201097_0",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n After you play a green card, give this tower +2[HP] permanently."
                     },
-                    "attack": 0,
-                    "armour": 0,
-                    "hp": 0,
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8614,16 +8555,12 @@
                     "set": 1,
                     "rarity": 1,
                     "colour": "G",
-                    "image": "PH2",
+                    "image": "201098_0",
                     "miniimage": "201098_0",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n /n [TG]After Combat:[ET] Draw a card if your tower took damage this round."
                     },
-                    "attack": 0,
-                    "armour": 0,
-                    "hp": 0,
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8642,16 +8579,12 @@
                     "set": 1,
                     "rarity": 1,
                     "colour": "G",
-                    "image": "PH2",
+                    "image": "201099_0",
                     "miniimage": "201099_0",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n [TG]Aura:[ET] Your creeps have +1 Regeneration."
                     },
-                    "attack": 0,
-                    "armour": 0,
-                    "hp": 0,
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8668,18 +8601,14 @@
                         "english":"Cheating Death"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 5,
                     "colour": "G",
-                    "image": "PH2",
+                    "image": "201100_0",
                     "miniimage": "201100_0",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n [TG]Active 1[AC], 1 Mana:[ET] Give a unit a Death Shield."
                     },
-                    "attack": 0,
-                    "armour": 0,
-                    "hp": 0,
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8696,18 +8625,14 @@
                         "english":"Homefield Advantage"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 3,
                     "colour": "G",
-                    "image": "PH2",
+                    "image": "201101_0",
                     "miniimage": "201101_0",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n [TG]Round Start:[ET] Disarm the rightmost enemy."
                     },
-                    "attack": 0,
-                    "armour": 0,
-                    "hp": 0,
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8724,18 +8649,14 @@
                         "english":"Summoning Circle"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 4,
                     "colour": "G",
                     "image": "PH2",
                     "miniimage": "PH",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n [TG]Active 2[AC], 1 Mana:[ET] Spend all your Mana. Summon an Ozkavosh Horror with +1[ATT]/+1[HP] for each Mana spent."
                     },
-                    "attack": 0,
-                    "armour": 0,
-                    "hp": 0,
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8754,16 +8675,12 @@
                     "set": 1,
                     "rarity": 1,
                     "colour": "G",
-                    "image": "PH2",
+                    "image": "201103_0",
                     "miniimage": "201103_0",
                     "cost": 4,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n [TG]Round Start:[ET] Give allies +1[ATT] permanently."
                     },
-                    "attack": 0,
-                    "armour": 0,
-                    "hp": 0,
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8782,16 +8699,12 @@
                     "set": 1,
                     "rarity": 1,
                     "colour": "G",
-                    "image": "PH2",
+                    "image": "201104_0",
                     "miniimage": "201104_0",
                     "cost": 6,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Tower /n [TG]Round Start:[ET] +1 Max Mana for each of your heroes in your lane."
                     },
-                    "attack": 0,
-                    "armour": 0,
-                    "hp": 0,
-                    "abilities": [],
                     "crosslane": false,
                     "quick": false
                 }
