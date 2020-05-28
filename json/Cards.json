@@ -2342,20 +2342,20 @@
                 "release_date":"2020-05-25",
                 "card_type":"Creep",
                 "card_name":{
-                    "english":"Quicksprout Sapling"
+                    "english":"Quicksap Sproutling"
                 },
-                "set": 0,
-                "rarity": 0,
+                "set": 1,
+                "rarity": 1,
                 "colour": "G",
                 "image": "200086_0",
                 "miniimage": "PH",
-                "cost": 0,
+                "cost": 1,
                 "text":{
                     "english":" /n [TG]After Combat:[ET] Gain +1[ATT]/+1[HP] permanently."
                 },
-                "attack": 3,
-                "armour": 1,
-                "hp": 3,
+                "attack": 1,
+                "armour": 0,
+                "hp": 1,
                 "abilities": [ ],
                 "crosslane": false,
                 "quick": false
@@ -2446,7 +2446,7 @@
                 "colour": "B",
                 "image": "200089_0",
                 "miniimage": "200089_0",
-                "cost": 3,
+                "cost": 4,
                 "text":{
                     "english":" /n [TG]Play Effect:[ET] Deal 2 damage to the enemy tower."
                 },
@@ -3142,7 +3142,7 @@
                 "abilities": [ ],
                 "crosslane": false,
                 "quick": false,
-                "related_cards": ["200116_0"]
+                "related_cards": ["200116_0", "201048_0"]
             } 
         ]
     },
@@ -6831,7 +6831,7 @@
             "versions":[
                 {
                     "release_date":"2020-05-25",
-                    "card_type":"Creep",
+                    "card_type":"Spell",
                     "card_name":{
                         "english":"Essence Font"
                     },
@@ -6842,11 +6842,8 @@
                     "miniimage": "PH",
                     "cost": 6,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Unit /n Restore 1 Mana after you spend Mana in any lane."
                     },
-                    "attack": 0,
-                    "armour": 0,
-                    "hp": 0,
                     "abilities": [],
                     "crosslane": false,
                     "quick": false
@@ -6863,17 +6860,17 @@
                         "english":"Gaseous Greevil"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 3,
                     "colour": "B",
-                    "image": "PH1",
+                    "image": "201036_0",
                     "miniimage": "PH",
                     "cost": 1,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n [TG]Death Effect:[ET] Deal 1 damage to adjacent units on both teams."
                     },
-                    "attack": 0,
+                    "attack": 1,
                     "armour": 0,
-                    "hp": 0,
+                    "hp": 1,
                     "abilities": [],
                     "crosslane": false,
                     "quick": false
@@ -6890,17 +6887,17 @@
                         "english":"Ravenous Mass"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 3,
                     "colour": "B",
-                    "image": "PH1",
+                    "image": "201037_0",
                     "miniimage": "PH",
                     "cost": 1,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"[TG]Play Effect:[ET] Devour. Activate Ravenous Mass. /n [TG]Active 0[AC], 1 Mana:[ET] Devour Ravenous Mass's neighbors. /n [TG][QU]Quickcast[ET]"
                     },
-                    "attack": 0,
+                    "attack": 1,
                     "armour": 0,
-                    "hp": 0,
+                    "hp": 1,
                     "abilities": [],
                     "crosslane": false,
                     "quick": false
@@ -6917,17 +6914,17 @@
                         "english":"Thieving Greevil"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "B",
-                    "image": "PH1",
+                    "image": "201038_0",
                     "miniimage": "PH",
                     "cost": 1,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Your Greevils in all lanes have Pillager."
                     },
-                    "attack": 0,
+                    "attack": 1,
                     "armour": 0,
-                    "hp": 0,
+                    "hp": 1,
                     "abilities": [],
                     "crosslane": false,
                     "quick": false
@@ -6944,20 +6941,21 @@
                         "english":"Archlight Elemental"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 5,
                     "colour": "B",
-                    "image": "PH1",
+                    "image": "201039_0",
                     "miniimage": "PH",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"Feeble, Pierce /n [TG]Active 1[AC], 1 Mana:[ET] Bounce Arclight Elemental and give it +1[ATT] until end of its next combat phase. Summon an Arc Remnant into this position."
                     },
-                    "attack": 0,
+                    "attack": 2,
                     "armour": 0,
-                    "hp": 0,
+                    "hp": 1,
                     "abilities": [],
                     "crosslane": false,
-                    "quick": false
+                    "quick": false,
+                    "related_cards": ["201078_0"]
                 }
             ]
     },
@@ -6971,17 +6969,17 @@
                         "english":"Assassin's Apprentice"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "B",
-                    "image": "PH1",
+                    "image": "201040_0",
                     "miniimage": "PH",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n [TG]Play Effect:[ET] Give Assassin's Apprentice quickstrike until it battles."
                     },
-                    "attack": 0,
+                    "attack": 2,
                     "armour": 0,
-                    "hp": 0,
+                    "hp": 2,
                     "abilities": [],
                     "crosslane": false,
                     "quick": false
@@ -6998,17 +6996,17 @@
                         "english":"Commited Rebel"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "B",
-                    "image": "PH1",
+                    "image": "201041_0",
                     "miniimage": "PH",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n [TG]Death Effect:[ET] Deal 3 piercing damage to the enemy tower."
                     },
-                    "attack": 0,
+                    "attack": 2,
                     "armour": 0,
-                    "hp": 0,
+                    "hp": 1,
                     "abilities": [],
                     "crosslane": false,
                     "quick": false
@@ -7025,17 +7023,17 @@
                         "english":"Disciple of Nevermore"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "B",
-                    "image": "PH1",
+                    "image": "201042_0",
                     "miniimage": "PH",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n [TG]Aura:[ET] Disciple of Nevermore's allies have +1[ATT] and -1[AR]"
                     },
-                    "attack": 0,
-                    "armour": 0,
-                    "hp": 0,
+                    "attack": 3,
+                    "armour": -1,
+                    "hp": 3,
                     "abilities": [],
                     "crosslane": false,
                     "quick": false
@@ -7052,17 +7050,17 @@
                         "english":"Infernal Ally"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 5,
                     "colour": "B",
-                    "image": "PH1",
+                    "image": "201043_0",
                     "miniimage": "PH",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n /n [TG]Play Effect:[ET] Trigger neighbor Death Effects."
                     },
-                    "attack": 0,
+                    "attack": 2,
                     "armour": 0,
-                    "hp": 0,
+                    "hp": 2,
                     "abilities": [],
                     "crosslane": false,
                     "quick": false
@@ -7079,17 +7077,17 @@
                         "english":"Oglodi Catapult"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 3,
                     "colour": "B",
-                    "image": "PH1",
+                    "image": "201044_0",
                     "miniimage": "PH",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n /n +1 Siege. /n Scheme: +1 Siege."
                     },
                     "attack": 0,
                     "armour": 0,
-                    "hp": 0,
+                    "hp": 4,
                     "abilities": [],
                     "crosslane": false,
                     "quick": false
@@ -7108,15 +7106,15 @@
                     "set": 1,
                     "rarity": 1,
                     "colour": "B",
-                    "image": "PH1",
+                    "image": "201045_0",
                     "miniimage": "PH",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":""
                     },
-                    "attack": 0,
+                    "attack": 3,
                     "armour": 0,
-                    "hp": 0,
+                    "hp": 1,
                     "abilities": [],
                     "crosslane": false,
                     "quick": false
@@ -7135,15 +7133,15 @@
                     "set": 1,
                     "rarity": 1,
                     "colour": "B",
-                    "image": "PH1",
+                    "image": "201046_0",
                     "miniimage": "PH",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n /n [TG]Death Effect:[ET] Draw a card."
                     },
-                    "attack": 0,
+                    "attack": 3,
                     "armour": 0,
-                    "hp": 0,
+                    "hp": 1,
                     "abilities": [],
                     "crosslane": false,
                     "quick": false
@@ -7162,15 +7160,15 @@
                     "set": 1,
                     "rarity": 1,
                     "colour": "B",
-                    "image": "PH1",
+                    "image": "201047_0",
                     "miniimage": "PH",
                     "cost": 4,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n After a neighbor dies: Gain +3[ATT] permanently. "
                     },
-                    "attack": 0,
+                    "attack": 1,
                     "armour": 0,
-                    "hp": 0,
+                    "hp": 6,
                     "abilities": [],
                     "crosslane": false,
                     "quick": false
@@ -7187,20 +7185,21 @@
                         "english":"Sister of the Void"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "B",
-                    "image": "PH1",
+                    "image": "201048_0",
                     "miniimage": "PH",
                     "cost": 4,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"After an ally dies: Summon an Eidolon and remove a charge. /n /n [TG]Charges: 5[ET]"
                     },
-                    "attack": 0,
+                    "attack": 2,
                     "armour": 0,
-                    "hp": 0,
+                    "hp": 3,
                     "abilities": [],
                     "crosslane": false,
-                    "quick": false
+                    "quick": false,
+                    "related_cards": ["200117_0"]
                 }
             ]
     },
@@ -7214,17 +7213,17 @@
                         "english":"Tyler Estate Censor"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 5,
                     "colour": "B",
-                    "image": "PH1",
+                    "image": "201049_0",
                     "miniimage": "PH",
                     "cost": 4,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n After opponent plays a card from this lane, burn 1 of their remaining Mana."
                     },
-                    "attack": 0,
+                    "attack": 1,
                     "armour": 0,
-                    "hp": 0,
+                    "hp": 6,
                     "abilities": [],
                     "crosslane": false,
                     "quick": false
@@ -7241,17 +7240,17 @@
                         "english":"Berserker of the Abyssm"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 4,
                     "colour": "B",
-                    "image": "PH1",
+                    "image": "201050_0",
                     "miniimage": "PH",
                     "cost": 5,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"Devour /n [TG]Play Effect:[ET] Deal damage equal to Berserker of the Abyssm's Health to the unit blocking it."
                     },
-                    "attack": 0,
+                    "attack": 3,
                     "armour": 0,
-                    "hp": 0,
+                    "hp": 2,
                     "abilities": [],
                     "crosslane": false,
                     "quick": false
@@ -7268,17 +7267,17 @@
                         "english":"Ravenhook"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 4,
                     "colour": "B",
-                    "image": "PH1",
+                    "image": "201051_0",
                     "miniimage": "PH",
                     "cost": 5,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"[TG]Active 1[AC], 1 Mana:[ET] Choose a hero adjacent to Ravenhook. Destory a random item equipped by that hero. Gain gold equal to the base cost of that item."
                     },
-                    "attack": 0,
+                    "attack": 2,
                     "armour": 0,
-                    "hp": 0,
+                    "hp": 4,
                     "abilities": [],
                     "crosslane": false,
                     "quick": false
@@ -7295,17 +7294,17 @@
                         "english":"Abyssm Flesh Renderer"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 5,
                     "colour": "B",
-                    "image": "PH1",
+                    "image": "201052_0",
                     "miniimage": "PH",
                     "cost": 6,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n [TG]Play Effect:[ET] Deal 1 damage to adjacent units on both teams."
                     },
-                    "attack": 0,
+                    "attack": 8,
                     "armour": 0,
-                    "hp": 0,
+                    "hp": 8,
                     "abilities": [],
                     "crosslane": false,
                     "quick": false
@@ -7322,17 +7321,17 @@
                         "english":"Assassin's Shadow"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "B",
-                    "image": "PH1",
+                    "image": "201053_0",
                     "miniimage": "PH",
                     "cost": 6,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n [TG]Play Effect:[ET] Give Assassin's Shadow quickstrike until it battles."
                     },
-                    "attack": 0,
+                    "attack": 6,
                     "armour": 0,
-                    "hp": 0,
+                    "hp": 5,
                     "abilities": [],
                     "crosslane": false,
                     "quick": false
@@ -7960,6 +7959,34 @@
                     "crosslane": false,
                     "quick": false,
                     "related_cards": ["201029_0"]
+                }
+            ]
+    },
+    {
+        "card_id":201078,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Summon",
+                    "card_name":{
+                        "english":"Arc Remnant"
+                    },
+                    "set": 1,
+                    "rarity": 2,
+                    "colour": "B",
+                    "image": "201078_0",
+                    "miniimage": "PH",
+                    "cost": 2,
+                    "text":{
+                        "english":"Feeble, Pierce"
+                    },
+                    "attack": 2,
+                    "armour": 0,
+                    "hp": 1,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false,
+                    "related_cards": "201039_0"
                 }
             ]
     }
