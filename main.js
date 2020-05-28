@@ -546,6 +546,47 @@ function CardViewer_SelectCard(CardIDV) {
         HTMLHeroCardLeftPanel = "";
     }
 
+    //SHOW RELATED CARDS DETAILS ON LEFT
+    if ("related_cards" in ThisCard) { 
+        if (ThisCard['related_cards'] == 0) {
+            HTMLRelatedCardsLeftPanel = "";
+        } else {
+            HTMLRelatedCardsLeftPanel = "";
+            for (rc = 0; rc < ThisCard['related_cards'].length; rc++) {
+                RelCardIDV = ThisCard['related_cards'][rc];
+                RelCardIDV = RelCardIDV.split("_");
+                RelCardID = RelCardIDV[0];
+                RelCardVersion = RelCardIDV[1];
+                RelCardArrayIndex = "";
+                for (r = 0; r < CardJSON.length; r++) {
+                    if ((CardJSON[r]['card_id']) == RelCardID) {
+                        RelCardArrayIndex = r;
+                        break;
+                    }
+                }
+                RelCardMiniImage = CardJSON[RelCardArrayIndex]['versions'][RelCardVersion]['miniimage'];
+                RelCardName = CardJSON[RelCardArrayIndex]['versions'][RelCardVersion]['card_name']['english'];
+                RelCardType = CardJSON[RelCardArrayIndex]['versions'][RelCardVersion]['card_type'];
+                RelCardText = CardViewer_AbilityTextFormatting(CardJSON[RelCardArrayIndex]['versions'][RelCardVersion]['text']['english']);
+                RelCardColour = CardJSON[RelCardArrayIndex]['versions'][RelCardVersion]['colour'];
+        
+                HTMLRelatedCardsLeftPanel += '<div class="CursorPointer CardViewerPageSingleAbilityContainer CardViewerPageSignatureContainer'+RelCardColour+'" onmousemove="CardViewerCardPreviewTooltip(\''+RelCardID+'_'+RelCardVersion+'\',1);" onmouseout="CardViewerCardPreviewTooltip(0,0);" onmouseup="CardViewer_SelectCard(\''+RelCardID+'_'+RelCardVersion+'\')"> \
+                                                <div class="CardViewerPageAbilityTop"> \
+                                                    <div class="CardViewerPageAbilityIcon"><img src="Images/Cards/MiniImage/'+RelCardMiniImage+'.jpg"></div> \
+                                                    <div class="CardViewerPageAbilityTopText"> \
+                                                        <div class="CardViewerPageAbilityName">'+RelCardName.toUpperCase()+'</div> \
+                                                        <div class="CardViewerPageSigCardText CardViewerPageSigCardText'+RelCardColour+'">RELATED CARD</div> \
+                                                    </div> \
+                                                    <div class="clear"></div> \
+                                                </div> \
+                                                <div class="CardViewerPageAbilityText">'+RelCardText+'</div>\
+                                            </div>';
+            }
+        }      
+    } else {
+        HTMLRelatedCardsLeftPanel = "";
+    }
+
     //SHOW ABILITY DETAILS ON LEFT
     if ("abilities" in ThisCard) { 
         HTMLCardAbilitiesLeftPanel = "";
@@ -598,6 +639,7 @@ function CardViewer_SelectCard(CardIDV) {
     document.getElementById('SigAbilityRelated_Container').innerHTML = "";
     document.getElementById('SigAbilityRelated_Container').innerHTML += HTMLHeroCardLeftPanel;
     document.getElementById('SigAbilityRelated_Container').innerHTML += HTMLSignatureCardLeftPanel;
+    document.getElementById('SigAbilityRelated_Container').innerHTML += HTMLRelatedCardsLeftPanel;
     document.getElementById('SigAbilityRelated_Container').innerHTML += HTMLCardAbilitiesLeftPanel;
 
     document.getElementById('CardViewerPageCardLore').innerHTML = HTMLLoreTextLeftPanel;

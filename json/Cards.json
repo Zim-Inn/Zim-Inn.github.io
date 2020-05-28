@@ -2324,7 +2324,7 @@
                 "miniimage": "PH",
                 "cost": 4,
                 "text":{
-                    "english":" /n [TG]Minion:[ET] Honor Guard has +1[ATT] and +1[AR] per neighboring hero. /n [TG]Play Effect:[ET] Honor Guard taunts."
+                    "english":" [TG]Minion:[ET] Honor Guard has +1[ATT] and +1[AR] per neighboring hero. /n [TG]Play Effect:[ET] Honor Guard taunts."
                 },
                 "attack": 3,
                 "armour": 1,
@@ -4470,7 +4470,7 @@
                 "miniimage": "PH",
                 "cost": 3,
                 "text":{
-                    "english":" /n [TG]Play Effect:[ET] Shattered Terrapin starts with 2 damage. /n When healed, transform Shattered Terrapin into Terrapin Greatshell."
+                    "english":" [TG]Play Effect:[ET] Shattered Terrapin starts with 2 damage. /n When healed, transform Shattered Terrapin into Terrapin Greatshell."
                 },
                 "attack": 3,
                 "armour": 0,
@@ -4484,6 +4484,7 @@
     },
     {
         "card_id":200170,
+        "hide_from_card_list": true,
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -4506,7 +4507,7 @@
                 "abilities": [ ],
                 "crosslane": false,
                 "quick": false,
-                "related_cards": ["200170_0"]
+                "related_cards": ["200169_0"]
             }
         ]
     },
