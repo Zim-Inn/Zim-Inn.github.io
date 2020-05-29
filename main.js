@@ -991,10 +991,9 @@ function GenerateCard(Container,CardIDV) {
             CardHTML += '<div class="CardContainer_Error"></div>'
             break;
     }              
-    //var img = new Image();
-    //img.onload = function() {document.getElementById(Container).innerHTML = CardHTML; } // Wait until at least the main image has downloaded before showing the card. If the image can't be found, no card will be loaded at all.
-    //img.src = 'Images/Cards/CardArt/'+CardImage+'.jpg';
-    document.getElementById(Container).innerHTML = CardHTML;
+    var img = new Image();
+    img.onload = function() {document.getElementById(Container).innerHTML = CardHTML; } // Wait until at least the main image has downloaded before showing the card. If the image can't be found, no card will be loaded at all.
+    img.src = 'Images/Cards/CardArt/'+CardImage+'.jpg';
 }
 
 CardViewerCardPreviewTooltipCurrentCardIDV = "";
