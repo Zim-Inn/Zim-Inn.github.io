@@ -304,6 +304,7 @@ body {
     font-family: "Radiance", sans-serif;
     padding: 5px;
     box-shadow: 0 0 5px black;
+    display: none;
 }
 #SpecialTextTitle {
     color: #ddd;
