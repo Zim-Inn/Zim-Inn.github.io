@@ -65,7 +65,39 @@ function CardTextFormatting(CardText) {
     CardText = CardText.replace(/(\[TG\])/g,"<span class=\"TextColour_Golden\">");
     CardText = CardText.replace(/(\[TRed\])/g,"<span class=\"TextColour_Red\">");
     CardText = CardText.replace(/(\[ET\])/g,"</span>");
+    CardText = CardText.replace(/(Regeneration)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Regeneration\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Regeneration</span>");
+    CardText = CardText.replace(/(After Combat)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'After Combat\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">After Combat</span>");
+    CardText = CardText.replace(/(Aura)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Aura\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Aura</span>");
+    CardText = CardText.replace(/(Bounce)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Bounce\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Bounce</span>");
+    CardText = CardText.replace(/(Burn)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Burn\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Burn</span>");
+    CardText = CardText.replace(/(Cross Lane)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Cross Lane\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Cross Lane</span>");
+    CardText = CardText.replace(/(Cursed)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Cursed\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Cursed</span>");
+    CardText = CardText.replace(/(Decay)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Decay\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Decay</span>");
+    CardText = CardText.replace(/(Devour)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Devour\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Devour</span>");
+    CardText = CardText.replace(/(Disarm)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Disarm\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Disarm</span>");
+    CardText = CardText.replace(/(Dispel)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Dispel\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Dispel</span>");
+    CardText = CardText.replace(/(Enchant)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Enchant\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Enchant</span>");
+    CardText = CardText.replace(/(Feeble)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Feeble\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Feeble</span>");
+    CardText = CardText.replace(/(Fountain)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Fountain\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Fountain</span>");
+    CardText = CardText.replace(/(Jump)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Jump\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Jump</span>");
+    CardText = CardText.replace(/(Lifesteal)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Lifesteal\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Lifesteal</span>");
+    CardText = CardText.replace(/(Minion)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Minion\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Minion</span>");
+    CardText = CardText.replace(/(Mulch)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Mulch\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Mulch</span>");
+    CardText = CardText.replace(/(Pierce)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Pierce\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Pierce</span>");
+    CardText = CardText.replace(/(Piercing)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Piercing\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Piercing</span>");
+    CardText = CardText.replace(/(Pillager)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Pillager\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Pillager</span>");
+    CardText = CardText.replace(/(Push)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Push\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Push</span>");
+    CardText = CardText.replace(/(Quickcast)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Quickcast\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Quickcast</span>");
+    CardText = CardText.replace(/(Quickstrike)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Quickstrike\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Quickstrike</span>");
+    CardText = CardText.replace(/(Rooted)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Rooted\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Rooted</span>");
+    CardText = CardText.replace(/(Scheme)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Scheme\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Scheme</span>");
+    CardText = CardText.replace(/(Siege)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Siege\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Siege</span>");
+    CardText = CardText.replace(/(Swap)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Swap\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Swap</span>");
+    CardText = CardText.replace(/(Trample)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Trample\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Trample</span>");
+    CardText = CardText.replace(/(Untargetable)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Untargetable\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Untargetable</span>");
+
     return CardText;
+
 }
 function CardViewer_AbilityTextFormatting(Text) {
     Text = Text.replace(/\/n/g," ");
@@ -105,7 +137,7 @@ function CVChangeViewStyle(View) {
     }
 }
 
-var CardViewerFilter = {text:"repeat", set1: true, rarity1: true, rarity2: true, rarity3: true, rarity4: true, rarity5: true, quick: true, crosslane: true}
+CardViewerFilter = {text:"", set1: true, rarity1: true, rarity2: true, rarity3: true, rarity4: true, rarity5: true, quick: true, crosslane: true}
 
 function GenerateCardViewerPage(Filter) {
     CardViewerFilter['text'] = document.getElementById('CardTextFilter').value;
@@ -972,5 +1004,49 @@ function CardViewerCardPreviewTooltip(CardIDV, ShowHide) {
         document.getElementById('CardPreviewTooltip').style.display = "block";
         document.getElementById('CardPreviewTooltip').style.top = (event.clientY + window.scrollY + 10)+"px";
         document.getElementById('CardPreviewTooltip').style.left = (event.clientX + 10)+"px";
+    }
+}
+Keywords = [];
+Keywords['Regeneration'] = "The unit heals this amount during the combat phase. Regeneration is applied before checking for death.";
+Keywords['After Combat'] = "An effect that triggers after the Combat Phase.";
+Keywords['Aura'] = "An effect which applies to units when they enter a specified area and is removed when they leave.";
+Keywords['Bounce'] = "Return a unit to owners hand if a creep, or fountain if a hero.";
+Keywords['Burn'] = "Remove mana from the enemy player.";
+Keywords['Cross Lane'] = "Cross Lane cards are cast by heroes in one lane, but can target objects in a different lane.";
+Keywords['Cursed'] = "Destroyed when replaced by another item.";
+Keywords['Decay'] = "This unit will take extra damage in combat. Ignores armor entirely.";
+Keywords['Devour'] = "When this unit is placed on top of another unit, it gains that unit's Attack and Health.";
+Keywords['Disarm'] = "A disarmed unit does not attack its target during battles. Lasts until the end of round by default.";
+Keywords['Dispel'] = "Remove an enchantment.";
+Keywords['Enchant'] = "An enchantment lasts until dispelled, remaining even through death.";
+Keywords['Feeble'] = "When a unit deals Attack damage to this unit in combat, excess damage is dealt to your tower.";
+Keywords['Fountain'] = "When heroes die they are placed in the Fountain zone for a full round before becoming ready to redeploy. When heroes enter the Fountain they are fully healed and temporary effects on them are purged.";
+Keywords['Jump'] = "Select a new target for this effect.";
+Keywords['Lifesteal'] = "This unit heals equal to its Attack if it survives a combat in which it damaged another unit.";
+Keywords['Minion'] = "An effect which applies to this unit when adjacent to an allied hero.";
+Keywords['Mulch'] = "When this card is played draw a card from your deck which costs less mana.";
+Keywords['Pierce'] = "Piercing damage is not reduced by the target's armor.";
+Keywords['Piercing'] = "Piercing damage is not reduced by the target's armor.";
+Keywords['Pillager'] = "This unit steals 2 gold from the opponent whenever it damages their tower.";
+Keywords['Push'] = "Move a unit 1 slot randomly left or right to an occupied spot.";
+Keywords['Quickcast'] = "After you play this, you get the initiative coin and may immediately take another action. If you use this action to pass, you will retain initiative and may act first next round.";
+Keywords['Rooted'] = "Can't be moved.";
+Keywords['Scheme'] = "An effect which triggers when the card's owner passes.";
+Keywords['Siege'] = "During the combat phase, deal Siege damage to the enemy tower.";
+Keywords['Swap'] = "Move a unit to the targeted slot. If that slot was occupied, the unit in that space move to the original unit's position.";
+Keywords['Trample'] = "This unit deals excess Attack damage to the tower when it battles in combat.";
+Keywords['Untargetable'] = "Can't be targeted by enemy spells of abilities.";
+
+
+function ShowKeywordTooltip(ShowHide, KeyWord) {
+
+    if (ShowHide == 0) { //Hide
+        document.getElementById('SpecialTextTooltip').style.display = "none";
+    } else {
+        document.getElementById('SpecialTextTitle').innerHTML = KeyWord.toUpperCase();
+        document.getElementById('SpecialTextDesc').innerHTML = Keywords[KeyWord];
+        document.getElementById('SpecialTextTooltip').style.display = "block";
+        document.getElementById('SpecialTextTooltip').style.top = (event.clientY + window.scrollY + 10)+"px";
+        document.getElementById('SpecialTextTooltip').style.left = (event.clientX + 10)+"px";
     }
 }

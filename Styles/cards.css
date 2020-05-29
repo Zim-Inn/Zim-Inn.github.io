@@ -190,6 +190,10 @@
     color: #eee;
     text-shadow: 2px 2px 2px black;
 }
+.CardCentreKeyWordText {
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+}
 .CardCentreSplitBotText img {
     width: 6%;
 }
