@@ -12,8 +12,6 @@ function skewcard(sender,skew) {
     }
 }
 
-var CardJSON = "";
-
 function InitializeCardViewerPage() { //Load JSON and load first card
     p1 = new Promise(function(resolve, reject) {
         var req = new XMLHttpRequest();
@@ -1009,6 +1007,7 @@ function CardViewerCardPreviewTooltip(CardIDV, ShowHide) {
         document.getElementById('CardPreviewTooltip').style.left = (event.clientX + 10)+"px";
     }
 }
+
 Keywords = [];
 Keywords['Regeneration'] = "The unit heals this amount during the combat phase. Regeneration is applied before checking for death.";
 Keywords['After Combat'] = "An effect that triggers after the Combat Phase.";
@@ -1043,7 +1042,6 @@ Keywords['Swap'] = "Move a unit to the targeted slot. If that slot was occupied,
 Keywords['Tower Enchantment'] = "A tower enchantment is a spell that adds a permanent effect to a tower or lane. Tower enchantments are not units and do not occupy combat positions.";
 Keywords['Trample'] = "This unit deals excess Attack damage to the tower when it battles in combat.";
 Keywords['Untargetable'] = "Can't be targeted by enemy spells of abilities.";
-
 
 function ShowKeywordTooltip(ShowHide, KeyWord) {
 
