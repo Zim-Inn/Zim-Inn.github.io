@@ -3991,8 +3991,8 @@
                 "rarity": 2,
                 "image": "200152_0",
                 "miniimage": "PH",
+                "colour": "C",
                 "cost": 5,
-                "gcost": 0,
                 "text": {
                     "english": "/n [TG]Death Effect:[ET] Put an Artificer's Mail card into your hand"
                 },
