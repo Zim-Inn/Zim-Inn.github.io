@@ -8790,7 +8790,7 @@
                         "english":"Poised to Strike"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 3,
                     "colour": "R",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -8836,7 +8836,7 @@
                         "english":"Smash Their Defense!"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "R",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -8859,7 +8859,7 @@
                         "english":"Throw Down"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "R",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -8882,7 +8882,7 @@
                         "english":"Unbreakable Column"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 5,
                     "colour": "R",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -8905,7 +8905,7 @@
                         "english":"Clear the Deck"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "R",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -8928,7 +8928,7 @@
                         "english":"Iron Sharpens Iron"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 3,
                     "colour": "R",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -8974,7 +8974,7 @@
                         "english":"Raze"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 5,
                     "colour": "R",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9020,7 +9020,7 @@
                         "english":"Team Fight"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 4,
                     "colour": "R",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9043,7 +9043,7 @@
                         "english":"Spring the Trap"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 3,
                     "colour": "R",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9066,7 +9066,7 @@
                         "english":"Time of Triumph"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "R",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9089,7 +9089,7 @@
                         "english":"Killer Instinct"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 3,
                     "colour": "B",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9112,7 +9112,7 @@
                         "english":"Relentless Pursuit"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 3,
                     "colour": "B",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9158,7 +9158,7 @@
                         "english":"A Thousand Cuts"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 5,
                     "colour": "B",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9181,7 +9181,7 @@
                         "english":"Beyond the Veil"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 4,
                     "colour": "B",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9227,7 +9227,7 @@
                         "english":"Hip Fire"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "B",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9250,7 +9250,7 @@
                         "english":"Murder Plot"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "B",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9296,7 +9296,7 @@
                         "english":"Knights of the Dark"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 3,
                     "colour": "B",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9319,7 +9319,7 @@
                         "english":"Cover of the Night"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 5,
                     "colour": "B",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9342,7 +9342,7 @@
                         "english":"Tower Explosion"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "B",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9365,7 +9365,7 @@
                         "english":"Arc Bolt"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "U",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9388,7 +9388,7 @@
                         "english":"Cunning Plan"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "U",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9434,7 +9434,7 @@
                         "english":"Ramp Bolt"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 5,
                     "colour": "U",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9503,7 +9503,7 @@
                         "english":"Better Late Than Never"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 3,
                     "colour": "U",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9526,7 +9526,7 @@
                         "english":"Howling Mind"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 4,
                     "colour": "U",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9549,7 +9549,7 @@
                         "english":"Leading from Behind"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "U",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9595,7 +9595,7 @@
                         "english":"Whispers of Madness"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 4,
                     "colour": "U",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9641,7 +9641,7 @@
                         "english":"At Any Cost"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 4,
                     "colour": "U",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9664,7 +9664,7 @@
                         "english":"Fog of War"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 3,
                     "colour": "U",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9710,7 +9710,7 @@
                         "english":"Objective Vision"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 5,
                     "colour": "U",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9733,7 +9733,7 @@
                         "english":"...And One For Me"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "U",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9756,7 +9756,7 @@
                         "english":"Mana Short"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 5,
                     "colour": "U",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9779,7 +9779,7 @@
                         "english":"Mimicry"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 3,
                     "colour": "U",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9825,7 +9825,7 @@
                         "english":"Friendly Fire"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "U",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9848,7 +9848,7 @@
                         "english":"Remote Detonation"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 3,
                     "colour": "U",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9871,7 +9871,7 @@
                         "english":"Sonic Bubble"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 3,
                     "colour": "U",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9917,7 +9917,7 @@
                         "english":"Wave of Madness"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 3,
                     "colour": "U",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9940,7 +9940,7 @@
                         "english":"Anihilation"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 3,
                     "colour": "U",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -9963,7 +9963,7 @@
                         "english":"Bolt of Damocles"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "U",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -10009,7 +10009,7 @@
                         "english":"Defend the Weak"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "G",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -10078,7 +10078,7 @@
                         "english":"Living Armor"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "G",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -10101,7 +10101,7 @@
                         "english":"Rumusque Blessing"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "G",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -10147,7 +10147,7 @@
                         "english":"Caught Unprepared"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "G",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -10193,7 +10193,7 @@
                         "english":"Soul of Spring"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 5,
                     "colour": "G",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -10216,7 +10216,7 @@
                         "english":"Springgan Mischief"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 5,
                     "colour": "G",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -10239,7 +10239,7 @@
                         "english":"Steal Strength"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 2,
                     "colour": "G",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -10262,7 +10262,7 @@
                         "english":"Divine Intervention"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 3,
                     "colour": "G",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -10285,7 +10285,7 @@
                         "english":"Leech Seed"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 4,
                     "colour": "G",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -10308,7 +10308,7 @@
                         "english":"Ironwood Heart"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 3,
                     "colour": "G",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -10354,7 +10354,7 @@
                         "english":"Shifting Loyalties"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 4,
                     "colour": "G",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -10377,7 +10377,7 @@
                         "english":"Corrosive Mist"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 3,
                     "colour": "G",
                     "image": "PH2",
                     "miniimage": "PH",
@@ -10400,7 +10400,7 @@
                         "english":"Divine Purpose"
                     },
                     "set": 1,
-                    "rarity": 1,
+                    "rarity": 3,
                     "colour": "G",
                     "image": "PH2",
                     "miniimage": "PH",
