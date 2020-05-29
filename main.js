@@ -1042,6 +1042,7 @@ Keywords['Pillager'] = "This unit steals 2 gold from the opponent whenever it da
 Keywords['Play Effect'] = "An additional effect that is processed at the time you play this creep.";
 Keywords['Push'] = "Move a unit 1 slot randomly left or right to an occupied spot.";
 Keywords['Quickcast'] = "After you play this, you get the initiative coin and may immediately take another action. If you use this action to pass, you will retain initiative and may act first next round.";
+Keywords['Quickstrike'] = "Units with quickstrike attack before units without quickstrike. Regeneration and decay are applied at the same time as combat damage, after quickstrike damage resolves.";
 Keywords['Retaliate'] = "When attacked during a battle (even outside of the combat phase), deal this much extra damage to the attackers.";
 Keywords['Rooted'] = "Can't be moved.";
 Keywords['Scheme'] = "An effect which triggers when the card's owner passes.";
