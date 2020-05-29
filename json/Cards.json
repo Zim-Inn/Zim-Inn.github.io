@@ -120,7 +120,8 @@
                 "hp": 1,
                 "abilities": [ ],
                 "crosslane": false,
-                "quick": false
+                "quick": false,
+                "related_cards": ["200167_0"]
             }
         ]
     },
@@ -4421,7 +4422,8 @@
                 "hp": 0,
                 "abilities": [],
                 "crosslane": false,
-                "quick": false
+                "quick": false,
+                "related_cards": ["201000_0","201001_0","201002_0","201017_0","201018_0","201036_0","201038_0","200005_0","201054_0"]
             }
         ]
     },
@@ -4523,6 +4525,7 @@
                 "rarity": 2,
                 "image": "200171_0",
                 "miniimage": "PH",
+                "colour": "C",
                 "cost": 2,
                 "text": {
                     "english": ""
@@ -6012,7 +6015,8 @@
                     "hp": 1,
                     "abilities": [],
                     "crosslane": false,
-                    "quick": false
+                    "quick": false,
+                    "related_cards": ["200167_0"]
                 }
             ]
     },
@@ -6039,7 +6043,8 @@
                     "hp": 1,
                     "abilities": [],
                     "crosslane": false,
-                    "quick": false
+                    "quick": false,
+                    "related_cards": ["200167_0"]
                 }
             ]
     },
@@ -6066,7 +6071,8 @@
                     "hp": 1,
                     "abilities": [],
                     "crosslane": false,
-                    "quick": false
+                    "quick": false,
+                    "related_cards": ["200167_0"]
                 }
             ]
     },
@@ -6472,7 +6478,8 @@
                     "hp": 1,
                     "abilities": [],
                     "crosslane": false,
-                    "quick": false
+                    "quick": false,
+                    "related_cards": ["200167_0"]
                 }
             ]
     },
@@ -6499,7 +6506,8 @@
                     "hp": 1,
                     "abilities": [],
                     "crosslane": false,
-                    "quick": false
+                    "quick": false,
+                    "related_cards": ["200167_0"]
                 }
             ]
     },
@@ -6985,7 +6993,8 @@
                     "hp": 1,
                     "abilities": [],
                     "crosslane": false,
-                    "quick": false
+                    "quick": false,
+                    "related_cards": ["200167_0"]
                 }
             ]
     },
@@ -7039,7 +7048,8 @@
                     "hp": 1,
                     "abilities": [],
                     "crosslane": false,
-                    "quick": false
+                    "quick": false,
+                    "related_cards": ["200167_0"]
                 }
             ]
     },
@@ -7473,7 +7483,8 @@
                     "hp": 1,
                     "abilities": [],
                     "crosslane": false,
-                    "quick": false
+                    "quick": false,
+                    "related_cards": ["200167_0"]
                 }
             ]
     },

@@ -70,6 +70,7 @@ function CardTextFormatting(CardText) {
     CardText = CardText.replace(/(Burn)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Burn\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Burn</span>");
     CardText = CardText.replace(/(Cross Lane)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Cross Lane\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Cross Lane</span>");
     CardText = CardText.replace(/(Cursed)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Cursed\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Cursed</span>");
+    CardText = CardText.replace(/(Death Effect)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Death Effect\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Death Effect</span>");
     CardText = CardText.replace(/(Decay)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Decay\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Decay</span>");
     CardText = CardText.replace(/(Devour)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Devour\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Devour</span>");
     CardText = CardText.replace(/(Disarm)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Disarm\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Disarm</span>");
@@ -79,7 +80,7 @@ function CardTextFormatting(CardText) {
     CardText = CardText.replace(/(Fountain)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Fountain\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Fountain</span>");
     CardText = CardText.replace(/(Jump)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Jump\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Jump</span>");
     CardText = CardText.replace(/(Lifesteal)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Lifesteal\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Lifesteal</span>");
-    CardText = CardText.replace(/(Lock)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Lock\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Lock</span>");
+    CardText = CardText.replace(/(Lock)/g,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Lock\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Lock</span>");
     CardText = CardText.replace(/(Minion)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Minion\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Minion</span>");
     CardText = CardText.replace(/(Mulch)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Mulch\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Mulch</span>");
     CardText = CardText.replace(/(Pierce)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Pierce\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Pierce</span>");
@@ -98,8 +99,8 @@ function CardTextFormatting(CardText) {
     CardText = CardText.replace(/(Untargetable)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Untargetable\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Untargetable</span>");
 
     return CardText;
-
 }
+
 function CardViewer_AbilityTextFormatting(Text) {
     Text = Text.replace(/\/n/g," ");
     Text = Text.replace(/(\[ATT\])/g,"▣");
@@ -811,6 +812,11 @@ function GenerateCard(Container,CardIDV) {
             }
             CardHP = "▥"+Card['hp'];
             CardText = CardTextFormatting(Card['text']['english']);
+            if (CardText == "") {
+                TextBackgroundStyle = "";
+            } else {
+                TextBackgroundStyle = "CardCentreSplitBotBG2";
+            }
             CardAbilities = Card['abilities'];
             CardSetIconStyle = "CardBottomIconSet"+Card['set']+"-"+Card['rarity'];
 
@@ -822,7 +828,7 @@ function GenerateCard(Container,CardIDV) {
                         </div> \
                         <div class="CardCentreContainerPer" style="background-image: url(\'Images/Cards/CardArt/'+CardImage+'.jpg\')"> \
                             <div class="CardCentreTopPer"></div> \
-                            <div class="CardCentreBotPer_Stats CardCentreSplitBotBG2"> \
+                            <div class="CardCentreBotPer_Stats '+TextBackgroundStyle+'"> \
                                 <div class="CardCentreSplitBotText">'+CardText+'</div> \
                             </div> \
                         </div> \
@@ -1016,6 +1022,7 @@ Keywords['Bounce'] = "Return a unit to owners hand if a creep, or fountain if a 
 Keywords['Burn'] = "Remove mana from the enemy player.";
 Keywords['Cross Lane'] = "Cross Lane cards are cast by heroes in one lane, but can target objects in a different lane.";
 Keywords['Cursed'] = "Destroyed when replaced by another item.";
+Keywords['Death Effect'] = "An effect that is processed after this unit dies.";
 Keywords['Decay'] = "This unit will take extra damage in combat. Ignores armor entirely.";
 Keywords['Devour'] = "When this unit is placed on top of another unit, it gains that unit's Attack and Health.";
 Keywords['Disarm'] = "A disarmed unit does not attack its target during battles. Lasts until the end of round by default.";
