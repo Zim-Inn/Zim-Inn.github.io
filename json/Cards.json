@@ -748,7 +748,7 @@
                 "cost": 1,
                 "gcost": 10,
                 "text":{
-                    "english":"/n +2[ATT] /n /n [TG]Active 2[AC], 1 Mana:[ET] /n Displace a unit."
+                    "english":"/n +2[ATT] /n /n [TG]Active 2[AC], 1 Mana:[ET] /n Push a unit."
                 },
                 "attack": 2,
                 "armour": 0,
@@ -2587,7 +2587,7 @@
                 "image": "200094_0",
                 "miniimage": "200094_0",
                 "text":{
-                    "english":" /n Stun an enemy. Displace its neighbors. "
+                    "english":" /n Stun an enemy. Push its neighbors. "
                 },
                 "crosslane": false,
                 "quick": false,
@@ -3402,7 +3402,7 @@
                 "miniimage": "PH",
                 "cost": 2,
                 "text":{
-                    "english":" Deal 1 damage to an enemy and displace it with an Ice Shard. "
+                    "english":" Deal 1 damage to an enemy and Push it with an Ice Shard. "
                 },
                 "crosslane": false,
                 "quick": false,

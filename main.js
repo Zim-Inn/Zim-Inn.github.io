@@ -88,6 +88,7 @@ function CardTextFormatting(CardText) {
     CardText = CardText.replace(/(Piercing)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Piercing\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Piercing</span>");
     CardText = CardText.replace(/(Pillager)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Pillager\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Pillager</span>");
     CardText = CardText.replace(/(Push)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Push\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Push</span>");
+    CardText = CardText.replace(/(Play Effect)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Play Effect\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Play Effect</span>");
     CardText = CardText.replace(/(Quickcast)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Quickcast\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Quickcast</span>");
     CardText = CardText.replace(/(Quickstrike)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Quickstrike\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Quickstrike</span>");
     CardText = CardText.replace(/(Rooted)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Rooted\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Rooted</span>");
@@ -1031,6 +1032,7 @@ Keywords['Mulch'] = "When this card is played draw a card from your deck which c
 Keywords['Pierce'] = "Piercing damage is not reduced by the target's armor.";
 Keywords['Piercing'] = "Piercing damage is not reduced by the target's armor.";
 Keywords['Pillager'] = "This unit steals 2 gold from the opponent whenever it damages their tower.";
+Keywords['Play Effect'] = "An additional effect that is processed at the time you play this creep.";
 Keywords['Push'] = "Move a unit 1 slot randomly left or right to an occupied spot.";
 Keywords['Quickcast'] = "After you play this, you get the initiative coin and may immediately take another action. If you use this action to pass, you will retain initiative and may act first next round.";
 Keywords['Rooted'] = "Can't be moved.";
