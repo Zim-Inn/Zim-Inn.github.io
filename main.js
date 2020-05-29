@@ -146,7 +146,6 @@ CardViewerFilter = {text:"", set1: true, rarity1: true, rarity2: true, rarity3: 
 
 function GenerateCardViewerPage(Filter) {
     CardViewerFilter['text'] = document.getElementById('CardTextFilter').value;
-    console.log(document.getElementById('CardTextFilter').value);
     CardsToDisplay = new Array();
 
     A2Heroes = new Array();

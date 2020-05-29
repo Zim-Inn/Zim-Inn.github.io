@@ -2485,7 +2485,7 @@
                 "cost": 1,
                 "gcost": 15,
                 "text":{
-                    "english":" /n +2[ATT] and +3 Cleave. /n /n (Item cost is unknown)"
+                    "english":" /n +2[ATT] and +3 Cleave."
                 },
                 "attack": 10,
                 "armour": 0,
@@ -3086,7 +3086,7 @@
                 "image": "200115_0",
                 "miniimage": "PH",
                 "icon": "PH",
-                "attack": 5,
+                "attack": 1,
                 "armour": 0,
                 "hp": 7,
                 "abilities": ["210052_0"],
@@ -5334,9 +5334,9 @@
                 "image": "200200_0",
                 "miniimage": "200200_0",
                 "icon": "200200_0",
-                "attack": 5,
+                "attack": 1,
                 "armour": 0,
-                "hp": 5,
+                "hp": 6,
                 "abilities": ["210070_0","210071_0"],
                 "signature": ["200201_0"],
                 "related_cards": ["200202_0"]
