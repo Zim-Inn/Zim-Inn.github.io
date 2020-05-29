@@ -468,6 +468,7 @@ body {
 }
 .CVOptionContainer {
     padding: 5px;
+    float: left;
 }
 .CVOptionName {
     font-family: 'Radiance', sans-serif;
@@ -495,6 +496,12 @@ body {
     height: 28px;
     border: 1px solid #ddf;
     box-shadow: 0 0 4px 2px #aaf;
+}
+#CardTextFilter {
+    background-color: rgba(255,255,255,0.1);
+    font-family: "radiance", sans-serif;
+    font-size: 20pt;
+    color: #eee;
 }
 
 #CVLView {

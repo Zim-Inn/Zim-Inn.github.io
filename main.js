@@ -105,7 +105,11 @@ function CVChangeViewStyle(View) {
     }
 }
 
+var CardViewerFilter = {text:"repeat", set1: true, rarity1: true, rarity2: true, rarity3: true, rarity4: true, rarity5: true, quick: true, crosslane: true}
+
 function GenerateCardViewerPage(Filter) {
+    CardViewerFilter['text'] = document.getElementById('CardTextFilter').value;
+    console.log(document.getElementById('CardTextFilter').value);
     CardsToDisplay = new Array();
 
     A2Heroes = new Array();
@@ -117,22 +121,32 @@ function GenerateCardViewerPage(Filter) {
     for (i = 0; i < CardJSON.length; i++) {
         if (!("hide_from_card_list" in CardJSON[i])) {
             LatestCardVersion = CardJSON[i]['versions'].length - 1;
-            switch (CardJSON[i]['versions'][LatestCardVersion]["card_type"]) {
-                case 'Hero':
-                    A2Heroes.push(CardJSON[i]);
-                    break;
-                case 'Item':
-                    A2Items.push(CardJSON[i]);
-                    break;
-                case 'SpecialItem':
-                    A2SpecialItems.push(CardJSON[i]);
-                    break;
-                case 'Summon':
-                    A2Summons.push(CardJSON[i]);
-                    break;       
-                default:
-                    A2OtherCards.push(CardJSON[i]);
-                    break;
+
+            textfilter = new RegExp(CardViewerFilter['text'], "i");
+            if ("text" in CardJSON[i]['versions'][LatestCardVersion]) {
+                CardTextForFilter = CardJSON[i]['versions'][LatestCardVersion]["text"]["english"];
+            } else {
+                CardTextForFilter = "";
+            }
+
+            if (CardJSON[i]['versions'][LatestCardVersion]['card_name']['english'].search(textfilter) != -1 || CardTextForFilter.search(textfilter) != -1) {
+                switch (CardJSON[i]['versions'][LatestCardVersion]["card_type"]) {
+                    case 'Hero':
+                        A2Heroes.push(CardJSON[i]);
+                        break;
+                    case 'Item':
+                        A2Items.push(CardJSON[i]);
+                        break;
+                    case 'SpecialItem':
+                        A2SpecialItems.push(CardJSON[i]);
+                        break;
+                    case 'Summon':
+                        A2Summons.push(CardJSON[i]);
+                        break;       
+                    default:
+                        A2OtherCards.push(CardJSON[i]);
+                        break;
+                }
             }
         }
     }
