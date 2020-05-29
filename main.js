@@ -572,7 +572,11 @@ function CardViewer_SelectCard(CardIDV) {
                 } else {
                     RelCardText = "";
                 }
-                RelCardColour = CardJSON[RelCardArrayIndex]['versions'][RelCardVersion]['colour'];
+                if (CardJSON[RelCardArrayIndex]['versions'][RelCardVersion]["card_type"] == "Item") {
+                    RelCardColour = "I";
+                } else {
+                    RelCardColour = CardJSON[RelCardArrayIndex]['versions'][RelCardVersion]['colour'];
+                }
                 HTMLRelatedCardsLeftPanel += '<div class="CursorPointer CardViewerPageSingleAbilityContainer CardViewerPageSignatureContainer'+RelCardColour+'" onmousemove="CardViewerCardPreviewTooltip(\''+RelCardID+'_'+RelCardVersion+'\',1);" onmouseout="CardViewerCardPreviewTooltip(0,0);" onmouseup="CardViewer_SelectCard(\''+RelCardID+'_'+RelCardVersion+'\')"> \
                                                 <div class="CardViewerPageAbilityTop"> \
                                                     <div class="CardViewerPageAbilityIcon"><img src="Images/Cards/MiniImage/'+RelCardMiniImage+'.jpg"></div> \

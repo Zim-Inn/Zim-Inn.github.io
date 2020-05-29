@@ -8727,7 +8727,7 @@
                     "miniimage": "PH",
                     "cost": 1,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Choose one of your heroes. It taunts. Pick its combat target."
                     },
                     "crosslane": false,
                     "quick": false
@@ -8750,7 +8750,7 @@
                     "miniimage": "PH",
                     "cost": 1,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Give caster Damage Immunity."
                     },
                     "crosslane": false,
                     "quick": false
@@ -8773,7 +8773,7 @@
                     "miniimage": "PH",
                     "cost": 1,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Caster gains +2[ATT]./n[TG][QU] Quickcast[ET]"
                     },
                     "crosslane": false,
                     "quick": false
@@ -8796,7 +8796,7 @@
                     "miniimage": "PH",
                     "cost": 1,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Repeat three times: [RP] Deal 1 damage to a random enemy with the least Health."
                     },
                     "crosslane": false,
                     "quick": false
@@ -8819,7 +8819,7 @@
                     "miniimage": "PH",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Enchant Caster /n Caster has +1[ATT] per missing Health."
                     },
                     "crosslane": false,
                     "quick": false
@@ -8842,7 +8842,7 @@
                     "miniimage": "PH",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Dispel a tower enchantment./n[RP] Draw a card."
                     },
                     "crosslane": false,
                     "quick": false
@@ -8865,7 +8865,7 @@
                     "miniimage": "PH",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Bounce all items from caster and the enemy blocking them. They battle each other."
                     },
                     "crosslane": false,
                     "quick": false
@@ -8888,7 +8888,7 @@
                     "miniimage": "PH",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":"/n Enchant Caster/n[TG]Aura: [ET] Caster and neighboring creeps ignore incoming damage of two or less."
                     },
                     "crosslane": false,
                     "quick": false
@@ -8911,7 +8911,7 @@
                     "miniimage": "PH",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Give your units \"Lethal to Heroes\" and \"Lethal to Creeps\"."
                     },
                     "crosslane": false,
                     "quick": false
@@ -8934,7 +8934,7 @@
                     "miniimage": "PH",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Enchant Caster/nWhen damaged, gain +1[ATT] permanently./n[TG]Round Start: [ET]Take one piercing damage."
                     },
                     "crosslane": false,
                     "quick": false
@@ -8957,7 +8957,7 @@
                     "miniimage": "PH",
                     "cost": 4,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Choose caster and an adjacent enemy./nSwap caster in front of that enemy then battle it."
                     },
                     "crosslane": false,
                     "quick": false
@@ -8980,7 +8980,7 @@
                     "miniimage": "PH",
                     "cost": 4,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Dispel enemy tower enchantments."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9003,7 +9003,7 @@
                     "miniimage": "PH",
                     "cost": 5,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Deploy one of your heroes at random from the fountain to the first empty position."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9026,9 +9026,9 @@
                     "miniimage": "PH",
                     "cost": 6,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Choose a lane. Deploy all heroes from both Fountains to that lane./n[TG]Cross Lane[ET]"
                     },
-                    "crosslane": false,
+                    "crosslane": true,
                     "quick": false
                 }
             ]
@@ -9049,10 +9049,11 @@
                     "miniimage": "PH",
                     "cost": 7,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Summon two Centaur Poachers into any lane./n[TG]Cross Lane[ET]"
                     },
-                    "crosslane": false,
-                    "quick": false
+                    "crosslane": true,
+                    "quick": false,
+                    "related_cards": ["201188_0"]
                 }
             ]
     },
@@ -9072,7 +9073,7 @@
                     "miniimage": "PH",
                     "cost": 9,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Give your heroes +3[ATT], +3[AR], +3[HP], +3 Cleave, +3 Rtaliate, and +3 Siege permanently."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9095,10 +9096,10 @@
                     "miniimage": "PH",
                     "cost": 1,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Enchant Unit /n Scheme: +2[ATT] /n Dispel Killer Instinct on death. /n [TG][QU] Quickcast[ET]"
                     },
                     "crosslane": false,
-                    "quick": false
+                    "quick": true
                 }
             ]
     },
@@ -9118,9 +9119,9 @@
                     "miniimage": "PH",
                     "cost": 1,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Move caster to an unblocked enemy in another lane./n[RP] Deal 2 damage to that enemy./n[TG]Cross Lane[ET]"
                     },
-                    "crosslane": false,
+                    "crosslane": true,
                     "quick": false
                 }
             ]
@@ -9141,7 +9142,7 @@
                     "miniimage": "PH",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Slay a creep."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9164,7 +9165,7 @@
                     "miniimage": "PH",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Enchant Enemy /n Scheme: Take 1 damage."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9187,7 +9188,7 @@
                     "miniimage": "PH",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Slay an allied creep. Give another allied unit quickstrike permanently."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9210,9 +9211,9 @@
                     "miniimage": "PH",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Caster battles a unit in any lane. /n [TG]Cross Lane[ET]"
                     },
-                    "crosslane": false,
+                    "crosslane": true,
                     "quick": false
                 }
             ]
@@ -9233,10 +9234,10 @@
                     "miniimage": "PH",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Deal 3 Damage. /n [TG][QU] Quickcast[ET]"
                     },
                     "crosslane": false,
-                    "quick": false
+                    "quick": true
                 }
             ]
     },
@@ -9256,7 +9257,7 @@
                     "miniimage": "PH",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Caster gains +6[ATT]. Choose a combat target for it."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9279,9 +9280,9 @@
                     "miniimage": "PH",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Choose caster. Deal 2 damage to a unit in another lane or deal 4 damage to a unit in caster's lane. /n [TG]Cross Lane[ET]"
                     },
-                    "crosslane": false,
+                    "crosslane": true,
                     "quick": false
                 }
             ]
@@ -9302,7 +9303,7 @@
                     "miniimage": "PH",
                     "cost": 4,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Give a unit -3[ATT]. It battles its adjacent enemies."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9316,7 +9317,7 @@
                     "release_date":"2020-05-25",
                     "card_type":"Spell",
                     "card_name":{
-                        "english":"Cover of the Night"
+                        "english":"The Cover of the Night"
                     },
                     "set": 1,
                     "rarity": 5,
@@ -9325,10 +9326,10 @@
                     "miniimage": "PH",
                     "cost": 5,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Move caster to a empty position in any lane and give it \"Scheme: +4 Siege\"./n[TG]Cross Lane[ET]/n[TG][QU] Quickcast[ET]"
                     },
-                    "crosslane": false,
-                    "quick": false
+                    "crosslane": true,
+                    "quick": true
                 }
             ]
     },
@@ -9348,7 +9349,7 @@
                     "miniimage": "PH",
                     "cost": 5,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Deal 3 damage to a unit and deal 3 damage to the enemy tower."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9371,7 +9372,7 @@
                     "miniimage": "PH",
                     "cost": 1,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Deal 1 damage /n Repeat twice: [RP] Jump left ot right and deal 1 damage."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9394,7 +9395,7 @@
                     "miniimage": "PH",
                     "cost": 1,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Swap a unit to a neighboring position."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9408,7 +9409,7 @@
                     "release_date":"2020-05-25",
                     "card_type":"Spell",
                     "card_name":{
-                        "english":"Lightning Bolt"
+                        "english":"Lightning Strike"
                     },
                     "set": 1,
                     "rarity": 1,
@@ -9417,7 +9418,7 @@
                     "miniimage": "PH",
                     "cost": 1,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Deal 4 damage to caster's combat target. /n (Can hit towers)."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9440,7 +9441,7 @@
                     "miniimage": "PH",
                     "cost": 1,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Deal damage equal to this spell's cost to an enemy with the lowest health. /n Repeatable at +1 mana if this spell kills a unit."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9463,7 +9464,7 @@
                     "miniimage": "PH",
                     "cost": 1,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Choose unit. It taunts."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9486,7 +9487,7 @@
                     "miniimage": "PH",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Choose a unit. Choose a combat target for it. /n Draw a card."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9509,10 +9510,11 @@
                     "miniimage": "PH",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Choose caster. Summon a Terrapin Channeler to any lane. /n [TG]Cross Lane[ET]"
                     },
-                    "crosslane": false,
-                    "quick": false
+                    "crosslane": true,
+                    "quick": false,
+                    "related_cards": ["201189_0"]
                 }
             ]
     },
@@ -9532,7 +9534,7 @@
                     "miniimage": "PH",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Enchant Hero /n Players draw an extra card each round. /n Dispel Howling Mind on death."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9555,7 +9557,7 @@
                     "miniimage": "PH",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Push caster and Summon a Melee Creep in its place."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9578,7 +9580,7 @@
                     "miniimage": "PH",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Deal 2 damage to each enemy."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9601,7 +9603,7 @@
                     "miniimage": "PH",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Stun caster and adjacent units on both teams."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9624,10 +9626,10 @@
                     "miniimage": "PH",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Deal 2 damage to the enemy tower. /n Draw a card. /n [TG][QU] Quickcast[ET]"
                     },
                     "crosslane": false,
-                    "quick": false
+                    "quick": true
                 }
             ]
     },
@@ -9647,7 +9649,7 @@
                     "miniimage": "PH",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Deal 4 damage to each unit on both teams in this lane."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9670,7 +9672,7 @@
                     "miniimage": "PH",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Disarm both teams' unblocked units."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9693,7 +9695,7 @@
                     "miniimage": "PH",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Draw 2 cards."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9716,7 +9718,7 @@
                     "miniimage": "PH",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Enchant Caster/nIf there are no adjacent enemies, this hero has +Attack equal to its health."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9739,10 +9741,10 @@
                     "miniimage": "PH",
                     "cost": 4,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Choose a hero. Copy a random item from it. /n [TG][QU] Quickcast[ET]"
                     },
                     "crosslane": false,
-                    "quick": false
+                    "quick": true
                 }
             ]
     },
@@ -9762,7 +9764,7 @@
                     "miniimage": "PH",
                     "cost": 4,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Deal damage equal to the enemy player's current Mana."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9785,7 +9787,7 @@
                     "miniimage": "PH",
                     "cost": 4,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Copy a tower enchantment."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9808,9 +9810,9 @@
                     "miniimage": "PH",
                     "cost": 5,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Move caster to another lane and fill that lane with Melee Creeps. /n [TG]Cross Lane[ET]"
                     },
-                    "crosslane": false,
+                    "crosslane": true,
                     "quick": false
                 }
             ]
@@ -9831,7 +9833,7 @@
                     "miniimage": "PH",
                     "cost": 5,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Choose two enemies. They battle each other."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9854,7 +9856,7 @@
                     "miniimage": "PH",
                     "cost": 5,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Deal 5 damage to each enemy across from an empty slot."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9877,7 +9879,7 @@
                     "miniimage": "PH",
                     "cost": 5,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Silence each enemy in lane other than the target. The target takes 2 damage instead."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9900,7 +9902,7 @@
                     "miniimage": "PH",
                     "cost": 5,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Deal 3 damage to each enemy."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9923,7 +9925,7 @@
                     "miniimage": "PH",
                     "cost": 5,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Each unit on both teams battles itself."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9937,7 +9939,7 @@
                     "release_date":"2020-05-25",
                     "card_type":"Spell",
                     "card_name":{
-                        "english":"Anihilation"
+                        "english":"Annihilation"
                     },
                     "set": 1,
                     "rarity": 3,
@@ -9946,7 +9948,7 @@
                     "miniimage": "PH",
                     "cost": 6,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Slay each unit on both teams."
                     },
                     "crosslane": false,
                     "quick": false
@@ -9969,7 +9971,7 @@
                     "miniimage": "PH",
                     "cost": 10,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Revealed when drawn. /n Deal 15 damage to the caster's combat target. /n (Can hit towers)"
                     },
                     "crosslane": false,
                     "quick": false
@@ -9992,9 +9994,9 @@
                     "miniimage": "PH",
                     "cost": 1,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Move a creep to the first empty position in another lane./n[TG]Cross Lane[ET]"
                     },
-                    "crosslane": false,
+                    "crosslane": true,
                     "quick": false
                 }
             ]
@@ -10015,7 +10017,7 @@
                     "miniimage": "PH",
                     "cost": 1,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Enchant Unit /n [TG]Aura:[ET] Neighbors have +2[AR]."
                     },
                     "crosslane": false,
                     "quick": false
@@ -10038,10 +10040,10 @@
                     "miniimage": "PH",
                     "cost": 1,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Swap an ally with one of its neighbors./n [TG][QU] Quickcast[ET]"
                     },
                     "crosslane": false,
-                    "quick": false
+                    "quick": true
                 }
             ]
     },
@@ -10061,7 +10063,7 @@
                     "miniimage": "PH",
                     "cost": 1,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Gain +2 Max Mana."
                     },
                     "crosslane": false,
                     "quick": false
@@ -10084,9 +10086,9 @@
                     "miniimage": "PH",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Mulch/nGive caster and another unit in any lane +1[ATT] and +2 Regeneration./n[TG]Cross Lane[ET]"
                     },
-                    "crosslane": false,
+                    "crosslane": true,
                     "quick": false
                 }
             ]
@@ -10107,9 +10109,9 @@
                     "miniimage": "PH",
                     "cost": 2,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Give caster +2[HP] and give your units in any lane +2[HP] permanently./n[TG]Cross Lane[ET]"
                     },
-                    "crosslane": false,
+                    "crosslane": true,
                     "quick": false
                 }
             ]
@@ -10130,7 +10132,7 @@
                     "miniimage": "PH",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Give your creeps +2[ATT] and +1[AR] permanently"
                     },
                     "crosslane": false,
                     "quick": false
@@ -10153,7 +10155,7 @@
                     "miniimage": "PH",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Stun a hero until they equip an item."
                     },
                     "crosslane": false,
                     "quick": false
@@ -10176,9 +10178,9 @@
                     "miniimage": "PH",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Move an hero to the first empty position in another lane /n [TG]Cross Lane.[ET]"
                     },
-                    "crosslane": false,
+                    "crosslane": true,
                     "quick": false
                 }
             ]
@@ -10199,7 +10201,7 @@
                     "miniimage": "PH",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Enchant Hero/n After you play a green card, this hero and its neighbors gain +3 Regeneration. "
                     },
                     "crosslane": false,
                     "quick": false
@@ -10222,10 +10224,11 @@
                     "miniimage": "PH",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Bounce each item from a hero and equip it with cursed items."
                     },
                     "crosslane": false,
-                    "quick": false
+                    "quick": false,
+                    "related_cards": ["201190_0","201191_0","201192_0"]
                 }
             ]
     },
@@ -10245,7 +10248,7 @@
                     "miniimage": "PH",
                     "cost": 3,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Give a unit -3[ATT] and give another +3[ATT]"
                     },
                     "crosslane": false,
                     "quick": false
@@ -10268,7 +10271,7 @@
                     "miniimage": "PH",
                     "cost": 4,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Give allies Damage Immunity."
                     },
                     "crosslane": false,
                     "quick": false
@@ -10291,7 +10294,7 @@
                     "miniimage": "PH",
                     "cost": 4,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Mulch /n Root an enemy and give it +4 Decay. Your units adjacent to it gain +4 Regeneration."
                     },
                     "crosslane": false,
                     "quick": false
@@ -10314,7 +10317,7 @@
                     "miniimage": "PH",
                     "cost": 4,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Enchant Caster, Mulch/nGain +1[ATT]/+1[HP] permanently/n[TG]Round Start:[ET] Repeat this effect."
                     },
                     "crosslane": false,
                     "quick": false
@@ -10337,7 +10340,7 @@
                     "miniimage": "PH",
                     "cost": 4,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Mulch /n Give your tower +8 Regeneration."
                     },
                     "crosslane": false,
                     "quick": false
@@ -10360,7 +10363,7 @@
                     "miniimage": "PH",
                     "cost": 4,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Swap one of your creeps with an enemy creep."
                     },
                     "crosslane": false,
                     "quick": false
@@ -10383,7 +10386,7 @@
                     "miniimage": "PH",
                     "cost": 5,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Mulch /n Destroy all items on enemy heroes in this lane."
                     },
                     "crosslane": false,
                     "quick": false
@@ -10406,7 +10409,7 @@
                     "miniimage": "PH",
                     "cost": 6,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Give a unit Damage Immunity permanently."
                     },
                     "crosslane": false,
                     "quick": false
@@ -10429,11 +10432,251 @@
                     "miniimage": "PH",
                     "cost": 1,
                     "text":{
-                        "english":"This card is currently missing information but will be updated soon."
+                        "english":" /n Choose Caster. Deal 1 piercing damage to a unit in any lane and deal 1 damage to the next unit away from the caster./n[TG]Cross Lane[ET]"
+                    },
+                    "crosslane": true,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201184,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Veteran's Insight"
+                    },
+                    "set": 1,
+                    "rarity": 5,
+                    "colour": "R",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":" /n Enchant Caster /n [TG]Aura:[ET] Allies randomly gain +1[ATT], [AR] or [HP] after dealing battle damage."
                     },
                     "crosslane": false,
                     "quick": false
                 }
             ]
+    },
+    {
+        "card_id":201185,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Rend Armor"
+                    },
+                    "set": 1,
+                    "rarity": 3,
+                    "colour": "R",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 2,
+                    "text":{
+                        "english":" /n Give a unit -Armor equal to its current Armor value permanently."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201186,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"No Hesitation"
+                    },
+                    "set": 1,
+                    "rarity": 3,
+                    "colour": "R",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 2,
+                    "text":{
+                        "english":" /n Proceed to the combat phase in this lane."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201187,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Body Modifications"
+                    },
+                    "set": 1,
+                    "rarity": 2,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 3,
+                    "text":{
+                        "english":" /n Swap colors and items permanently between a hero in this lane and another hero in any lane./n[TG]Cross Lane[ET]"
+                    },
+                    "crosslane": true,
+                    "quick": false
+                }
+            ]
+    },
+    {
+        "card_id":201188,
+        "hide_from_card_list": true,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Summon",
+                "card_name":{
+                    "english":"Centaur Poacher"
+                },
+                "set": 1,
+                "rarity": 2,
+                "colour": "R",
+                "image": "201188_0",
+                "miniimage": "201188_0",
+                "cost": 4,
+                "text":{
+                    "english":"/n [TG]Play Effect:[ET] Repeat twice, deal 1 damage to a random enemy with the lowest health."
+                },
+                "attack": 3,
+                "armour": 0,
+                "hp": 4,
+                "abilities": [ ],
+                "related_cards": ["201121_0"],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id":201189,
+        "hide_from_card_list": true,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Summon",
+                "card_name":{
+                    "english":"Terrapin Channeler"
+                },
+                "set": 1,
+                "rarity": 1,
+                "colour": "U",
+                "image": "201189_0",
+                "miniimage": "PH",
+                "cost": 2,
+                "text":{
+                    "english":"/n Can cast spells. /n Disarm Terrapin Channeler when it enters a lane."
+                },
+                "attack": 2,
+                "armour": 0,
+                "hp": 3,
+                "abilities": [ ],
+                "related_cards": ["201143_0"],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id":201190,
+        "hide_from_card_list": true,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Item",
+                "card_subtype": "Weapon",
+                "card_name":{
+                    "english":"Transmuted Weapon"
+                },
+                "set": 1,
+                "rarity": 1,
+                "image": "PH2",
+                "miniimage": "PH",
+                "cost": 1,
+                "gcost": 0,
+                "text":{
+                    "english":" /n /n Cursed. -1[ATT]"
+                },
+                "attack": -1,
+                "armour": 0,
+                "hp": 0,
+                "abilities": [ ],
+                "crosslane": false,
+                "quick": false,
+                "related_cards": ["201173_0"]
+            }
+        ]
+    },
+    {
+        "card_id":201191,
+        "hide_from_card_list": true,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Item",
+                "card_subtype": "Armor",
+                "card_name":{
+                    "english":"Squimified-Straps"
+                },
+                "set": 1,
+                "rarity": 1,
+                "image": "PH2",
+                "miniimage": "PH",
+                "cost": 1,
+                "gcost": 0,
+                "text":{
+                    "english":" /n /n Cursed. -1[AR]"
+                },
+                "attack": 0,
+                "armour": -1,
+                "hp": 0,
+                "abilities": [ ],
+                "crosslane": false,
+                "quick": false,
+                "related_cards": ["201173_0"]
+            }
+        ]
+    },
+    {
+        "card_id":201192,
+        "hide_from_card_list": true,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Item",
+                "card_subtype": "Accessory",
+                "card_name":{
+                    "english":"Malchanted Mango"
+                },
+                "set": 1,
+                "rarity": 1,
+                "image": "PH2",
+                "miniimage": "PH",
+                "cost": 1,
+                "gcost": 0,
+                "text":{
+                    "english":" /n /n Cursed. -1 Decay"
+                },
+                "attack": 0,
+                "armour": 0,
+                "hp": 0,
+                "abilities": [ ],
+                "crosslane": false,
+                "quick": false,
+                "related_cards": ["201173_0"]
+            }
+        ]
     }
 ]

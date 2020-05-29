@@ -248,6 +248,9 @@ body {
 .CardViewerPageSignatureContainerC {
     background-color: rgba(120,120,120,0.6);
 }
+.CardViewerPageSignatureContainerI {
+    background-color: rgba(224, 201, 170, 0.3);
+}
 .CardViewerPageSigCardText {
     font-size: 14pt;
 }
@@ -265,6 +268,9 @@ body {
 }
 .CardViewerPageSigCardTextC {
     color: #bbb;
+}
+.CardViewerPageSigCardTextI {
+    color: #C29E6E;
 }
 #CardViewerPageCardLore {
     display: block;
