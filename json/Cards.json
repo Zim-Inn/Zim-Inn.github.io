@@ -9754,29 +9754,6 @@
                     "release_date":"2020-05-25",
                     "card_type":"Spell",
                     "card_name":{
-                        "english":"Mana Short"
-                    },
-                    "set": 1,
-                    "rarity": 5,
-                    "colour": "U",
-                    "image": "PH2",
-                    "miniimage": "PH",
-                    "cost": 4,
-                    "text":{
-                        "english":" /n Deal damage equal to the enemy player's current Mana."
-                    },
-                    "crosslane": false,
-                    "quick": false
-                }
-            ]
-    },
-    {
-        "card_id":201154,
-            "versions":[
-                {
-                    "release_date":"2020-05-25",
-                    "card_type":"Spell",
-                    "card_name":{
                         "english":"Mimicry"
                     },
                     "set": 1,
@@ -10677,5 +10654,28 @@
                 "related_cards": ["201173_0"]
             }
         ]
+    },
+    {
+        "card_id":201193,
+            "versions":[
+                {
+                    "release_date":"2020-05-25",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Mana Short"
+                    },
+                    "set": 1,
+                    "rarity": 5,
+                    "colour": "U",
+                    "image": "PH2",
+                    "miniimage": "PH",
+                    "cost": 4,
+                    "text":{
+                        "english":" /n Deal damage equal to the enemy player's current Mana."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                }
+            ]
     }
 ]
