@@ -4,7 +4,7 @@
         "card_type":"Ability",
         "versions":[
             {
-                "release_date":"2018-11-28",
+                "release_date":"2020-05-25",
                 "ability_type":"Active",
                 "ability_name":{
                     "english":"Leap"
@@ -23,7 +23,7 @@
         "card_type":"Ability",
         "versions": [
             {
-                "release_date":"2018-11-28",
+                "release_date":"2020-05-25",
                 "ability_type":"Reactive",
                 "ability_name":{
                     "english":"Reincarnation"
@@ -42,7 +42,7 @@
         "card_type":"Ability",
         "versions":[
             {
-                "release_date":"2020-04-13",
+                "release_date":"2020-05-25",
                 "ability_type":"Reactive",
                 "ability_name":{
                     "english":"Bristleback"
@@ -61,7 +61,7 @@
         "card_type":"Ability",
         "versions":[
             {
-                "release_date":"2020-04-13",
+                "release_date":"2020-05-25",
                 "ability_type":"Active",
                 "ability_name":{
                     "english":"Quill Spray"
@@ -80,7 +80,7 @@
         "card_type":"Ability",
         "versions":[
             {
-                "release_date":"2020-04-13",
+                "release_date":"2020-05-25",
                 "ability_type":"Continuous Effect",
                 "ability_name":{
                     "english":"Branches of Iron"
@@ -99,7 +99,7 @@
         "card_type":"Ability",
         "versions":[
             {
-                "release_date":"2018-11-28",
+                "release_date":"2020-05-25",
                 "ability_type":"Active",
                 "ability_name":{
                     "english":"Timber Chain"
@@ -118,7 +118,7 @@
         "card_type":"Ability",
         "versions":[
             {
-                "release_date":"2020-04-20",
+                "release_date":"2020-05-25",
                 "ability_type":"Reactive",
                 "ability_name":{
                     "english":"Scrapper"
@@ -137,7 +137,7 @@
         "card_type":"Ability",
         "versions":[
             {
-                "release_date":"2020-04-27",
+                "release_date":"2020-05-25",
                 "ability_type":"Active",
                 "ability_name":{
                     "english":"Stop Hittin' Yourself"
@@ -156,7 +156,7 @@
         "card_type":"Ability",
         "versions":[
             {
-                "release_date":"2020-04-27",
+                "release_date":"2020-05-25",
                 "ability_type":"Continuous Effect",
                 "ability_name":{
                     "english":"Pack Leadership"
@@ -175,7 +175,7 @@
         "card_type":"Ability",
         "versions":[
             {
-                "release_date":"2020-04-27",
+                "release_date":"2020-05-25",
                 "ability_type":"Continuous Effect",
                 "ability_name":{
                     "english":"Wisdom of the Elders"
@@ -194,7 +194,7 @@
         "card_type":"Ability",
         "versions":[
             {
-                "release_date":"2020-05-11",
+                "release_date":"2020-05-25",
                 "ability_type":"Reactive",
                 "ability_name":{
                     "english":"Gather the Faithful"
@@ -213,7 +213,7 @@
         "card_type":"Ability",
         "versions":[
             {
-                "release_date":"2020-05-11",
+                "release_date":"2020-05-25",
                 "ability_type":"Active",
                 "ability_name":{
                     "english":"Beserker's Call"
@@ -232,7 +232,7 @@
         "card_type":"Ability",
         "versions":[
             {
-                "release_date":"2020-05-11",
+                "release_date":"2020-05-25",
                 "ability_type":"Reactive",
                 "ability_name":{
                     "english":"Multicast"
@@ -251,7 +251,7 @@
         "card_type":"Ability",
         "versions":[
             {
-                "release_date":"2020-04-13",
+                "release_date":"2020-05-25",
                 "ability_type":"Reactive",
                 "ability_name":{
                     "english":"Track"
@@ -270,7 +270,7 @@
         "card_type":"Ability",
         "versions":[
             {
-                "release_date":"2020-05-21",
+                "release_date":"2020-05-25",
                 "ability_type":"Reactive",
                 "ability_name":{
                     "english":"Juxtapose"
@@ -289,7 +289,7 @@
         "card_type":"Ability",
         "versions":[
             {
-                "release_date":"2020-05-21",
+                "release_date":"2020-05-25",
                 "ability_type":"Continuous Effect",
                 "ability_name":{
                     "english":"Efficient Killer"
@@ -308,7 +308,7 @@
         "card_type":"Ability",
         "versions":[
             {
-                "release_date":"2020-05-21",
+                "release_date":"2020-05-25",
                 "ability_type":"Active",
                 "ability_name":{
                     "english":"Vacuum"
@@ -317,7 +317,7 @@
                 "image": "210022_0",
                 "cost": 0,
                 "text":{
-                    "english":"[TG]Active #, # Mana:[ET] Effect unknown."
+                    "english":"[TG]Active 3, 1 Mana:[ET] Choose a slot. Deal 1 damage to enemies in lane then pull them towards the target slot. /n [TG][QU]Quickcast[ET]"
                 }
             }
         ]
@@ -346,7 +346,7 @@
         "card_type":"Ability",
         "versions":[
             {
-                "release_date":"2020-05-21",
+                "release_date":"2020-05-25",
                 "ability_type":"Active",
                 "ability_name":{
                     "english":"Blink"
@@ -365,7 +365,7 @@
         "card_type":"Ability",
         "versions":[
             {
-                "release_date":"2020-05-21",
+                "release_date":"2020-05-25",
                 "ability_type":"Reactive",
                 "ability_name":{
                     "english":"Mana Break"
@@ -403,7 +403,7 @@
         "card_type":"Ability",
         "versions":[
             {
-                "release_date":"2020-05-21",
+                "release_date":"2020-05-25",
                 "ability_type":"Continuous Effect",
                 "ability_name":{
                     "english":"Arcane Aura"
@@ -412,7 +412,7 @@
                 "image": "210027_0",
                 "cost": 0,
                 "text":{
-                    "english":"Details of this ability are not yet known."
+                    "english":"Restore 2 mana the first time you play a spell or enchantment in any lane."
                 }
             }
         ]
@@ -422,7 +422,7 @@
         "card_type":"Ability",
         "versions":[
             {
-                "release_date":"2020-05-21",
+                "release_date":"2020-05-25",
                 "ability_type":"Continuous Effect",
                 "ability_name":{
                     "english":"Precision Aura"
@@ -431,7 +431,7 @@
                 "image": "210028_0",
                 "cost": 0,
                 "text":{
-                    "english":"Details of this ability are not yet known."
+                    "english":"Aura: Drow Ranger's allies in all lanes have +1[ATT]."
                 }
             }
         ]
@@ -441,16 +441,16 @@
         "card_type":"Ability",
         "versions":[
             {
-                "release_date":"2018-11-28",
-                "ability_type":"Passive",
+                "release_date":"2020-05-25",
+                "ability_type":"Continuous Effect",
                 "ability_name":{
-                    "english":"Blood Bath"
+                    "english":"Thirst"
                  },
                 "cooldown": 0,
                 "image": "210029_0",
                 "cost": 0,
                 "text":{
-                    "english":"Fully heal Bloodseeker after a unit blocking it dies. [UC]"
+                    "english":"Bloodseeker has +Attack equal to the highest missing Health from an enemy hero in any lane. /n Cross Lane"
                 }
             }
         ]
@@ -479,7 +479,7 @@
         "card_type":"Ability",
         "versions":[
             {
-                "release_date":"2020-05-21",
+                "release_date":"2020-05-25",
                 "ability_type":"Active",
                 "ability_name":{
                     "english":"Headshot"
@@ -498,7 +498,7 @@
         "card_type":"Ability",
         "versions":[
             {
-                "release_date":"2020-05-21",
+                "release_date":"2020-05-25",
                 "ability_type":"Continous Effect",
                 "ability_name":{
                     "english":"Moment of Courage"
@@ -517,7 +517,7 @@
         "card_type":"Ability",
         "versions":[
             {
-                "release_date":"2020-05-21",
+                "release_date":"2020-05-25",
                 "ability_type":"Continous Effect",
                 "ability_name":{
                     "english":"Feral Impulse"
@@ -526,7 +526,7 @@
                 "image": "210034_0",
                 "cost": 0,
                 "text":{
-                    "english":"Details of this ability are not yet known."
+                    "english":"Aura: Lycan's allies up to 2 slots away in this lane have +2[ATT]."
                 }
             }
         ]
@@ -555,7 +555,7 @@
         "card_type":"Ability",
         "versions":[
             {
-                "release_date":"2020-05-21",
+                "release_date":"2020-05-25",
                 "ability_type":"Active",
                 "ability_name":{
                     "english":"Horde Stryder Active"

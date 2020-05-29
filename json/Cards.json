@@ -9083,7 +9083,7 @@
                     "miniimage": "PH",
                     "cost": 9,
                     "text":{
-                        "english":" /n Give your heroes +3[ATT], +3[AR], +3[HP], +3 Cleave, +3 Rtaliate, and +3 Siege permanently."
+                        "english":" /n Give your heroes +3[ATT], +3[AR], +3[HP], +3 Cleave, +3 Retaliate, and +3 Siege permanently."
                     },
                     "crosslane": false,
                     "quick": false
