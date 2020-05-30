@@ -1411,7 +1411,7 @@
     },
     {
         "card_id":200049,
-        "searchterm": "pa",
+        "searchterm": "pa Mortred",
         "versions":[
             {
                 "release_date":"2020-05-21",
@@ -2453,7 +2453,6 @@
                 "attack": 3,
                 "armour": 0,
                 "hp": 2,
-                "abilities": ["210036_0"],
                 "crosslane": false,
                 "quick": false
             }
@@ -5333,7 +5332,7 @@
                 "cost": 1,
                 "gcost": 20,
                 "text": {
-                    "english": "/n /n +5[ATT], Quickstrike"
+                    "english": "/n /n +2[ATT], Quickstrike"
                 },
                 "attack": 5,
                 "armour": 0,
