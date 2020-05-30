@@ -150,7 +150,7 @@ function CVChangeViewStyle(View) {
         document.getElementById("CVOptionLayout1").classList.remove('CVOptionButtonUnselected');
         document.getElementById("CVOptionLayout2").classList.remove('CVOptionButtonSelected');
         document.getElementById("CVOptionLayout2").classList.add('CVOptionButtonUnselected');
-
+    
     } else if (View == 1) {
         document.getElementById('CVCView').style.display = "block";
         document.getElementById('CVLView').style.display = "none";
@@ -523,7 +523,7 @@ function CardViewer_SelectCard(CardIDV, skipHistory) {
     // Push Card to browser History
     // skipHistory is optional and defaults to null, so this won't affect existing code
     if(!skipHistory){
-        history.pushState({}, "Artifact 2 Card Viewer", "?id="+CardIDV);
+        history.pushState({}, "Artifact 2 Card Viewer", `?id=${CardIDV}&l=false`);
     }
 
     GenerateCard('CardContainerCardBrowser',CardIDV);
@@ -1112,11 +1112,18 @@ function ShowKeywordTooltip(ShowHide, KeyWord) {
 
 // This is triggered every time the user manually changes page without leaving the current URL
 window.onpopstate = (event) => {
-    const id = getURLParams(document.location.href).id
-    if(id){
-        CardViewer_SelectCard(id, true);
-    } else {
-        CardViewer_SelectCard('200043_99', true);
+    const param = getURLParams(document.location.href)
+    if(param.l === "true"){
+        CVChangeViewStyle(1);
+    }
+    else {
+        CVChangeViewStyle(0);
+        if(param.id){
+            CardViewer_SelectCard(param.id, true);
+        } else {
+            CardViewer_SelectCard('200043_99', true);
+        }
+        
     }
 };
 function ShowFilterTooltip(ShowHide, Text) {

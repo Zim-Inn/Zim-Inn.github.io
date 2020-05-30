@@ -52,8 +52,8 @@
                     <div class="CVOptionName">
                         LAYOUT
                     </div>
-                    <div id="CVOptionLayout1" class="CVOptionButton CVOptionButtonSelected" onmouseup="CVChangeViewStyle(0);"></div>
-                    <div id="CVOptionLayout2" class="CVOptionButton CVOptionButtonUnselected" onmouseup="CVChangeViewStyle(1);"></div>
+                    <div id="CVOptionLayout1" class="CVOptionButton CVOptionButtonSelected" onmouseup="history.pushState({}, 'Artifact 2 Card Viewer', `?&l=false`); CVChangeViewStyle(0);"></div>
+                    <div id="CVOptionLayout2" class="CVOptionButton CVOptionButtonUnselected" onmouseup="history.pushState({}, 'Artifact 2 Card Viewer', `?&l=true`); CVChangeViewStyle(1);"></div>
                     <div class="clear"></div>
                 </div>
                 <div class="CVOptionContainer">
