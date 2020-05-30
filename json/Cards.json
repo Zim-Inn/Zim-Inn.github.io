@@ -8734,8 +8734,8 @@
                     "set": 1,
                     "rarity": 1,
                     "colour": "R",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201106_0",
+                    "miniimage": "201106_0",
                     "cost": 1,
                     "text":{
                         "english":"/n Choose one of your heroes. It taunts. Pick its combat target."
@@ -8757,8 +8757,8 @@
                     "set": 1,
                     "rarity": 1,
                     "colour": "R",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201107_0",
+                    "miniimage": "201107_0",
                     "cost": 1,
                     "text":{
                         "english":" /n Give caster Damage Immunity."
@@ -8780,8 +8780,8 @@
                     "set": 1,
                     "rarity": 1,
                     "colour": "R",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201108_0",
+                    "miniimage": "201108_0",
                     "cost": 1,
                     "text":{
                         "english":" /n Caster gains +2[ATT]./n[TG][QU] Quickcast[ET]"
@@ -8803,8 +8803,8 @@
                     "set": 1,
                     "rarity": 3,
                     "colour": "R",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201109_0",
+                    "miniimage": "201109_0",
                     "cost": 1,
                     "text":{
                         "english":" /n Repeat three times: [RP] Deal 1 damage to a random enemy with the least Health."
@@ -8826,8 +8826,8 @@
                     "set": 1,
                     "rarity": 1,
                     "colour": "R",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201110_0",
+                    "miniimage": "201110_0",
                     "cost": 2,
                     "text":{
                         "english":" /n Enchant Caster /n Caster has +1[ATT] per missing Health."
@@ -8849,8 +8849,8 @@
                     "set": 1,
                     "rarity": 2,
                     "colour": "R",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201111_0",
+                    "miniimage": "201111_0",
                     "cost": 2,
                     "text":{
                         "english":" /n Dispel a tower enchantment./n[RP] Draw a card."
@@ -8872,8 +8872,8 @@
                     "set": 1,
                     "rarity": 2,
                     "colour": "R",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201112_0",
+                    "miniimage": "201112_0",
                     "cost": 2,
                     "text":{
                         "english":" /n Bounce all items from caster and the enemy blocking them. They battle each other."
@@ -8895,8 +8895,8 @@
                     "set": 1,
                     "rarity": 5,
                     "colour": "R",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201113_0",
+                    "miniimage": "201113_0",
                     "cost": 2,
                     "text":{
                         "english":"/n Enchant Caster/n[TG]Aura: [ET] Caster and neighboring creeps ignore incoming damage of two or less."
@@ -8918,8 +8918,8 @@
                     "set": 1,
                     "rarity": 2,
                     "colour": "R",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201114_0",
+                    "miniimage": "201114_0",
                     "cost": 3,
                     "text":{
                         "english":" /n Give your units \"Lethal to Heroes\" and \"Lethal to Creeps\"."
@@ -8941,8 +8941,8 @@
                     "set": 1,
                     "rarity": 3,
                     "colour": "R",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201115_0",
+                    "miniimage": "201115_0",
                     "cost": 3,
                     "text":{
                         "english":" /n Enchant Caster/nWhen damaged, gain +1[ATT] permanently./n[TG]Round Start: [ET]Take one piercing damage."
@@ -8964,8 +8964,8 @@
                     "set": 1,
                     "rarity": 1,
                     "colour": "R",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201117_0",
+                    "miniimage": "201117_0",
                     "cost": 4,
                     "text":{
                         "english":" /n Choose caster and an adjacent enemy./nSwap caster in front of that enemy then battle it."
@@ -8987,8 +8987,8 @@
                     "set": 1,
                     "rarity": 5,
                     "colour": "R",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201118_0",
+                    "miniimage": "201118_0",
                     "cost": 4,
                     "text":{
                         "english":" /n Dispel enemy tower enchantments."
@@ -9010,8 +9010,8 @@
                     "set": 1,
                     "rarity": 1,
                     "colour": "R",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201119_0",
+                    "miniimage": "201119_0",
                     "cost": 5,
                     "text":{
                         "english":" /n Deploy one of your heroes at random from the fountain to the first empty position."
@@ -9033,8 +9033,8 @@
                     "set": 1,
                     "rarity": 4,
                     "colour": "R",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201120_0",
+                    "miniimage": "201120_0",
                     "cost": 6,
                     "text":{
                         "english":" /n Choose a lane. Deploy all heroes from both Fountains to that lane./n[TG]Cross Lane[ET]"
@@ -9056,8 +9056,8 @@
                     "set": 1,
                     "rarity": 3,
                     "colour": "R",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201121_0",
+                    "miniimage": "201121_0",
                     "cost": 7,
                     "text":{
                         "english":" /n Summon two Centaur Poachers into any lane./n[TG]Cross Lane[ET]"
@@ -9080,8 +9080,8 @@
                     "set": 1,
                     "rarity": 2,
                     "colour": "R",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201122_0",
+                    "miniimage": "201122_0",
                     "cost": 9,
                     "text":{
                         "english":" /n Give your heroes +3[ATT], +3[AR], +3[HP], +3 Cleave, +3 Retaliate, and +3 Siege permanently."
@@ -9103,8 +9103,8 @@
                     "set": 1,
                     "rarity": 3,
                     "colour": "B",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201124_0",
+                    "miniimage": "201124_0",
                     "cost": 1,
                     "text":{
                         "english":" /n Enchant Unit /n Scheme: +2[ATT] /n Dispel Killer Instinct on death. /n [TG][QU] Quickcast[ET]"
@@ -9126,8 +9126,8 @@
                     "set": 1,
                     "rarity": 3,
                     "colour": "B",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201125_0",
+                    "miniimage": "201125_0",
                     "cost": 1,
                     "text":{
                         "english":" /n Move caster to an unblocked enemy in another lane./n[RP] Deal 2 damage to that enemy./n[TG]Cross Lane[ET]"
@@ -9149,8 +9149,8 @@
                     "set": 1,
                     "rarity": 1,
                     "colour": "B",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201126_0",
+                    "miniimage": "201126_0",
                     "cost": 2,
                     "text":{
                         "english":" /n Slay a creep."
@@ -9172,8 +9172,8 @@
                     "set": 1,
                     "rarity": 5,
                     "colour": "B",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201127_0",
+                    "miniimage": "201127_0",
                     "cost": 3,
                     "text":{
                         "english":" /n Enchant Enemy /n Scheme: Take 1 damage."
@@ -9195,8 +9195,8 @@
                     "set": 1,
                     "rarity": 4,
                     "colour": "B",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201128_0",
+                    "miniimage": "201128_0",
                     "cost": 3,
                     "text":{
                         "english":" /n Slay an allied creep. Give another allied unit quickstrike permanently."
@@ -9218,8 +9218,8 @@
                     "set": 1,
                     "rarity": 1,
                     "colour": "B",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201129_0",
+                    "miniimage": "201129_0",
                     "cost": 3,
                     "text":{
                         "english":" /n Caster battles a unit in any lane. /n [TG]Cross Lane[ET]"
@@ -9241,8 +9241,8 @@
                     "set": 1,
                     "rarity": 2,
                     "colour": "B",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201130_0",
+                    "miniimage": "201130_0",
                     "cost": 3,
                     "text":{
                         "english":" /n Deal 3 Damage. /n [TG][QU] Quickcast[ET]"
@@ -9264,8 +9264,8 @@
                     "set": 1,
                     "rarity": 2,
                     "colour": "B",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201131_0",
+                    "miniimage": "201131_0",
                     "cost": 3,
                     "text":{
                         "english":" /n Caster gains +6[ATT]. Choose a combat target for it."
@@ -9287,8 +9287,8 @@
                     "set": 1,
                     "rarity": 1,
                     "colour": "B",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201132_0",
+                    "miniimage": "201132_0",
                     "cost": 3,
                     "text":{
                         "english":" /n Choose caster. Deal 2 damage to a unit in another lane or deal 4 damage to a unit in caster's lane. /n [TG]Cross Lane[ET]"
@@ -9305,13 +9305,13 @@
                     "release_date":"2020-05-25",
                     "card_type":"Spell",
                     "card_name":{
-                        "english":"Knights of the Dark"
+                        "english":"Knives of the Dark"
                     },
                     "set": 1,
                     "rarity": 3,
                     "colour": "B",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201134_0",
+                    "miniimage": "201134_0",
                     "cost": 4,
                     "text":{
                         "english":" /n Give a unit -3[ATT]. It battles its adjacent enemies."
@@ -9328,13 +9328,13 @@
                     "release_date":"2020-05-25",
                     "card_type":"Spell",
                     "card_name":{
-                        "english":"The Cover of the Night"
+                        "english":"The Cover of Night"
                     },
                     "set": 1,
                     "rarity": 5,
                     "colour": "B",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201135_0",
+                    "miniimage": "201135_0",
                     "cost": 5,
                     "text":{
                         "english":" /n Move caster to a empty position in any lane and give it \"Scheme: +4 Siege\"./n[TG]Cross Lane[ET]/n[TG][QU] Quickcast[ET]"
@@ -9356,8 +9356,8 @@
                     "set": 1,
                     "rarity": 2,
                     "colour": "B",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201136_0",
+                    "miniimage": "201136_0",
                     "cost": 5,
                     "text":{
                         "english":" /n Deal 3 damage to a unit and deal 3 damage to the enemy tower."
@@ -9379,8 +9379,8 @@
                     "set": 1,
                     "rarity": 2,
                     "colour": "U",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201137_0",
+                    "miniimage": "201137_0",
                     "cost": 1,
                     "text":{
                         "english":" /n Deal 1 damage /n Repeat twice: [RP] Jump left ot right and deal 1 damage."
