@@ -70,6 +70,7 @@
     },
     {
         "card_id":200003,
+        "searchterm": "wk",
         "versions":[
             {
                 "release_date":"2020-04-06",
@@ -391,6 +392,7 @@
     },
     {
         "card_id":200015,
+        "searchterm": "bh",
         "versions":[
             {
                 "release_date":"2020-04-13",
@@ -1385,6 +1387,7 @@
     },
     {
         "card_id":200048,
+        "searchterm": "pl",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -1408,6 +1411,7 @@
     },
     {
         "card_id":200049,
+        "searchterm": "pa",
         "versions":[
             {
                 "release_date":"2020-05-21",
@@ -1649,6 +1653,7 @@
     },
     {
         "card_id":200055,
+        "searchterm": "am",
         "versions":[
             {
                 "release_date":"2020-05-21",
@@ -1755,6 +1760,7 @@
     },
     {
         "card_id":200058,
+        "searchterm": "cm",
         "versions":[
             {
                 "release_date":"2020-05-21",
@@ -1844,6 +1850,7 @@
     },
     {
         "card_id":200060,
+        "searchterm": "traxex",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -1907,6 +1914,7 @@
     },
     {
         "card_id":200062,
+        "searchterm": "bs",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -1962,6 +1970,7 @@
     },
     {
         "card_id":200064,
+        "searchterm": "sm swm",
         "versions":[
             {
                 "release_date":"2020-05-21",
@@ -2140,6 +2149,7 @@
     },
     {
         "card_id":200068,
+        "searchterm": "lc",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -2596,6 +2606,7 @@
     },
     {
         "card_id":200083,
+        "searchterm": "thide",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -2631,6 +2642,7 @@
     },
     {
         "card_id":200084,
+        "searchterm": "thide thunderhide pack",
         "versions":[
             {
                 "release_date":"2020-05-21",
@@ -2879,6 +2891,7 @@
     },
     {
         "card_id":200092,
+        "searchterm": "bm",
         "versions":[
             {
                 "release_date":"2020-05-21",
@@ -3039,6 +3052,7 @@
     },
     {
         "card_id":200097,
+        "searchterm": "od",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -3344,6 +3358,7 @@
     },
     {
         "card_id":200109,
+        "searchterm": "sk",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -3934,6 +3949,7 @@
     },
     {
         "card_id":200131,
+        "searchterm": "dp",
         "versions":[
             {
                 "release_date":"2020-05-21",
@@ -4142,6 +4158,7 @@
     },
     {
         "card_id":200139,
+        "searchterm": "sf",
         "versions":[
             {
                 "release_date":"2020-05-21",
@@ -4207,6 +4224,7 @@
     },
     {
         "card_id":200141,
+        "searchterm": "sk",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -4255,6 +4273,7 @@
     },
     {
         "card_id":200143,
+        "searchterm": "ss",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -4379,6 +4398,7 @@
     },
     {
         "card_id":200148,
+        "searchterm": "ww",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -5774,6 +5794,7 @@
     },
     {
         "card_id":200198,
+        "searchterm": "aw",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -5825,6 +5846,7 @@
     },
     {
         "card_id":200200,
+        "searchterm": "es",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -6051,6 +6073,7 @@
     },
     {
         "card_id":200209,
+        "searchterm": "lsa",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -6265,6 +6288,7 @@
     },
     {
         "card_id":200218,
+        "searchterm": "dk",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -8480,6 +8504,7 @@
     },
     {
         "card_id":201074,
+        "searchterm": "thide",
             "versions":[
                 {
                     "release_date":"2020-05-25",
