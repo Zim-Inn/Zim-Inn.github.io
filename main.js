@@ -138,7 +138,6 @@ function CardViewer_AbilityTextFormatting(Text) {
     return Text;
 }
 
-
 function CVChangeViewStyle(View) {
     if (View < 0 || View > 1) {
         View = 0;
@@ -162,9 +161,9 @@ function CVChangeViewStyle(View) {
     }
 }
 
-CardViewerFilter = {text:"", set1: true, rarity1: true, rarity2: true, rarity3: true, rarity4: true, rarity5: true, quick: true, crosslane: true}
+CardViewerFilter = {text:"", set1: true, rarity1: true, rarity2: true, rarity3: true, rarity4: true, rarity5: true, quick: true, crosslane: true, R: true, U: true, B: true, G: true, C: true}
 
-function GenerateCardViewerPage(Filter) {
+function GenerateCardViewerPage() {
     CardViewerFilter['text'] = document.getElementById('CardTextFilter').value;
     CardsToDisplay = new Array();
 
@@ -190,7 +189,15 @@ function GenerateCardViewerPage(Filter) {
                 SearchTermForFilter = "";
             }
 
-            if (CardJSON[i]['versions'][LatestCardVersion]['card_name']['english'].search(textfilter) != -1 || CardTextForFilter.search(textfilter) != -1 || SearchTermForFilter.search(textfilter) != -1) {
+            if (CardJSON[i]['versions'][LatestCardVersion]['card_type'] == "Item") {
+                ColourCheckPass = true;
+            } else if (CardViewerFilter[CardJSON[i]['versions'][LatestCardVersion]['colour']] == true) {
+                ColourCheckPass = true;
+            } else {
+                ColourCheckPass = false;
+            }
+
+            if ( (CardJSON[i]['versions'][LatestCardVersion]['card_name']['english'].search(textfilter) != -1 || CardTextForFilter.search(textfilter) != -1 || SearchTermForFilter.search(textfilter) != -1) && (ColourCheckPass)) {
                 switch (CardJSON[i]['versions'][LatestCardVersion]["card_type"]) {
                     case 'Hero':
                         A2Heroes.push(CardJSON[i]);
@@ -1112,3 +1119,29 @@ window.onpopstate = (event) => {
         CardViewer_SelectCard('200043_99', true);
     }
 };
+function ShowFilterTooltip(ShowHide, Text) {
+
+    if (ShowHide == 0) { //Hide
+        document.getElementById('SpecialTextTooltip').style.display = "none";
+    } else {
+        document.getElementById('SpecialTextTitle').innerHTML = "";
+        document.getElementById('SpecialTextDesc').innerHTML = Text;
+        document.getElementById('SpecialTextTooltip').style.display = "block";
+        document.getElementById('SpecialTextTooltip').style.top = (event.clientY + window.scrollY + 10)+"px";
+        document.getElementById('SpecialTextTooltip').style.left = (event.clientX + 10)+"px";
+    }
+}
+function ToggleColourFilter(Colour) {
+    if (CardViewerFilter[Colour] == true) {
+        CardViewerFilter[Colour] = false;
+        document.getElementById("ColourFilter"+Colour).classList.add('CVOptionButtonUnselected');
+        document.getElementById("ColourFilter"+Colour).classList.remove('CVOptionButtonSelected');
+        document.getElementById("CVCOuterContainer"+Colour).style.display = "none";
+    } else {
+        CardViewerFilter[Colour] = true;
+        document.getElementById("ColourFilter"+Colour).classList.add('CVOptionButtonSelected');
+        document.getElementById("ColourFilter"+Colour).classList.remove('CVOptionButtonUnselected');
+        document.getElementById("CVCOuterContainer"+Colour).style.display = "block";
+    }
+    GenerateCardViewerPage();
+}

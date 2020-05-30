@@ -537,6 +537,22 @@ body {
 #CVOptionLayout2 {
     background-image: url('../Images/Styles/ViewStyle2.png');
 }
+#ColourFilterR {
+    background-color: #7b1918;
+}
+#ColourFilterU {
+    background-color: #1f5e7f;
+}
+#ColourFilterB {
+    background-color: #26252a;
+}
+#ColourFilterG {
+    background-color: #476d36;
+}
+#ColourFilterC {
+    background-color: #79756d;
+}
+
 .CVOptionButtonSelected {
     width: 28px;
     height: 28px;
@@ -592,7 +608,7 @@ body {
     width: 20%;
     float: left;
 }
-#CVCRedOuterContainer, #CVCBlueOuterContainer,#CVCBlackOuterContainer, #CVCGreenOuterContainer {
+#CVCOuterContainerR, #CVCOuterContainerU, #CVCOuterContainerB, #CVCOuterContainerG {
     width: 100%;
 }
 .CVCCardListing {

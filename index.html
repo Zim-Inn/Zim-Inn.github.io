@@ -56,6 +56,17 @@
                     <div id="CVOptionLayout2" class="CVOptionButton CVOptionButtonUnselected" onmouseup="CVChangeViewStyle(1);"></div>
                     <div class="clear"></div>
                 </div>
+                <div class="CVOptionContainer">
+                    <div class="CVOptionName">
+                        COLOUR FILTER
+                    </div>
+                    <div id="ColourFilterR" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowFilterTooltip(1, 'Red')"; onmouseout="ShowFilterTooltip(0,0)"; onmouseup="ToggleColourFilter('R');"></div>
+                    <div id="ColourFilterU" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowFilterTooltip(1, 'Blue')"; onmouseout="ShowFilterTooltip(0,0)"; onmouseup="ToggleColourFilter('U');"></div>
+                    <div id="ColourFilterB" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowFilterTooltip(1, 'Black')"; onmouseout="ShowFilterTooltip(0,0)"; onmouseup="ToggleColourFilter('B');"></div>
+                    <div id="ColourFilterG" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowFilterTooltip(1, 'Green')"; onmouseout="ShowFilterTooltip(0,0)"; onmouseup="ToggleColourFilter('G');"></div>
+                    <div id="ColourFilterC" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowFilterTooltip(1, 'Colourless')"; onmouseout="ShowFilterTooltip(0,0)"; onmouseup="ToggleColourFilter('C');"></div>
+                    <div class="clear"></div>
+                </div>
                 <div class="CVOptionContainer floatr">
                     <div class="CVOptionName">
                         CARD NAME AND TEXT SEARCH
@@ -119,35 +130,35 @@
                 <div class="clear"></div>
 
                 <div class="CVCOuterContainer80">
-                    <div id="CVCRedOuterContainer">
+                    <div id="CVCOuterContainerR">
                         <div id="CVCRedHeroes" class="CVCInnerContainer"></div>
                         <div id="CVCRedCreeps" class="CVCInnerContainer"></div>
                         <div id="CVCRedSpells" class="CVCInnerContainer"></div>
                         <div id="CVCRedImp" class="CVCInnerContainer"></div>
                         <div class="clear"></div>
                     </div>
-                    <div id="CVCBlueOuterContainer">
+                    <div id="CVCOuterContainerU">
                         <div id="CVCBlueHeroes" class="CVCInnerContainer"></div>
                         <div id="CVCBlueCreeps" class="CVCInnerContainer"></div>
                         <div id="CVCBlueSpells" class="CVCInnerContainer"></div>
                         <div id="CVCBlueImp" class="CVCInnerContainer"></div>
                         <div class="clear"></div>
                     </div>
-                    <div id="CVCBlackOuterContainer">
+                    <div id="CVCOuterContainerB">
                         <div id="CVCBlackHeroes" class="CVCInnerContainer"></div>
                         <div id="CVCBlackCreeps" class="CVCInnerContainer"></div>
                         <div id="CVCBlackSpells" class="CVCInnerContainer"></div>
                         <div id="CVCBlackImp" class="CVCInnerContainer"></div>
                         <div class="clear"></div>
                     </div>
-                    <div id="CVCGreenOuterContainer">
+                    <div id="CVCOuterContainerG">
                         <div id="CVCGreenHeroes" class="CVCInnerContainer"></div>
                         <div id="CVCGreenCreeps" class="CVCInnerContainer"></div>
                         <div id="CVCGreenSpells" class="CVCInnerContainer"></div>
                         <div id="CVCGreenImp" class="CVCInnerContainer"></div>
                         <div class="clear"></div>
                     </div>
-                    <div id="CVCColourlessOuterContainer">
+                    <div id="CVCOuterContainerC">
                         <div id="CVCColourlessHeroes" class="CVCInnerContainer"></div>
                         <div id="CVCColourlessCreeps" class="CVCInnerContainer"></div>
                         <div id="CVCColourlessSpells" class="CVCInnerContainer"></div>
