@@ -70,7 +70,7 @@
                 "image": "210005_0",
                 "cost": 1,
                 "text":{
-                    "english":"Deal 1 combat damage to adjacent enemies."
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Deal 1 combat damage to adjacent enemies."
                 }
             }
         ]
@@ -108,7 +108,7 @@
                 "image": "210008_0",
                 "cost": 0,
                 "text":{
-                    "english":"Active ■3, 1 Mana: Move Timbersaw up to 5 slots away. Deal 1 damage to each enemy passed on the way."
+                    "english":"Active ■3, 1 Mana: Move Timbersaw up to 5 slots away. Deal 1 damage to each enemy passed on the way. /n [TG]Cross Lane[ET]"
                 }
             }
         ]
@@ -271,7 +271,7 @@
         "versions":[
             {
                 "release_date":"2020-05-25",
-                "ability_type":"Reactive",
+                "ability_type":"Passive",
                 "ability_name":{
                     "english":"Juxtapose"
                  },
@@ -279,7 +279,7 @@
                 "image": "210019_0",
                 "cost": 0,
                 "text":{
-                    "english":"Summon a Lancer Illusion into the closest position."
+                    "english":"After Combat: Summon a Lancer Illusion into the closest position."
                 }
             }
         ]
@@ -1420,6 +1420,25 @@
                 "cost": 0,
                 "text":{
                     "english":"Rapid Deployment. /n [TG]Death Effect:[ET] Give your allies +2[HP] permanently."
+                }
+            }
+        ]
+    },
+    {
+        "card_id":210083,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Inner Beast"
+                 },
+                "cooldown": 0,
+                "image": "210083_0",
+                "cost": 0,
+                "text":{
+                    "english":"Beastmaster has +2 attack per neighboring Loyal Beast."
                 }
             }
         ]

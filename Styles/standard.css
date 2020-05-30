@@ -839,6 +839,9 @@ body {
 .float {
     float: left;
 }
+.floatr {
+    float: right;
+}
 .clear {
     clear: both;
 }

@@ -64,7 +64,7 @@
                 },
                 "crosslane": true,
                 "quick": false,
-                "is_signature": "200001_0"
+                "is_signature": "200001_1"
             } 
         ]
     },
@@ -466,7 +466,7 @@
                 },
                 "crosslane": false,
                 "quick": false,
-                "is_signature": "200015_0"
+                "is_signature": "200015_1"
             } 
         ]
     },
@@ -624,7 +624,7 @@
                 },
                 "crosslane": false,
                 "quick": false,
-                "is_signature": "200021_0"
+                "is_signature": "200021_1"
             } 
         ]
     },
@@ -675,7 +675,7 @@
                 "miniimage": "200024_0",
                 "cost": 2,
                 "text":{
-                    "english":"Swap caster to a neighboring position. It taunts. /n [TG][QU] Quick[ET]"
+                    "english":"Swap caster to a neighboring position. It taunts. /n [TG][QU] Quickcast[ET]"
                 },
                 "crosslane": false,
                 "quick": true,
@@ -827,7 +827,7 @@
                 },
                 "crosslane": false,
                 "quick": false,
-                "is_signature": "200028_0"
+                "is_signature": "200028_1"
             }
         ]
     },
@@ -1203,7 +1203,7 @@
                 },
                 "crosslane": false,
                 "quick": false,
-                "is_signature": "200040_0"
+                "is_signature": "200040_1"
             }
         ]
     },
@@ -1229,7 +1229,7 @@
                 "armour": 0,
                 "hp": 3,
                 "abilities": [ ],
-                "related_cards": ["200040_0"],
+                "related_cards": ["200040_1"],
                 "crosslane": false,
                 "quick": false
             }
@@ -1379,7 +1379,7 @@
                 },
                 "crosslane": false,
                 "quick": false,
-                "is_signature": "200046_0"
+                "is_signature": "200046_1"
             }
         ]
     },
@@ -1491,7 +1491,7 @@
                 },
                 "crosslane": false,
                 "quick": false,
-                "is_signature": "200049_0"
+                "is_signature": "200049_1"
             }
         ]
     },
@@ -1643,7 +1643,7 @@
                 },
                 "crosslane": false,
                 "quick": false,
-                "is_signature": "200053_0"
+                "is_signature": "200053_1"
             }
         ]
     },
@@ -1838,7 +1838,7 @@
                 },
                 "crosslane": false,
                 "quick": false,
-                "is_signature": "200058_0"
+                "is_signature": "200058_1"
             }
         ]
     },
@@ -2045,7 +2045,7 @@
                 },
                 "crosslane": false,
                 "quick": false,
-                "is_signature": "200064_0"
+                "is_signature": "200064_1"
             }
         ]
     },
@@ -2134,7 +2134,7 @@
                 },
                 "crosslane": true,
                 "quick": false,
-                "is_signature": "200066_0"
+                "is_signature": "200066_1"
             }
         ]
     },
@@ -2873,7 +2873,7 @@
                 },
                 "crosslane": false,
                 "quick": false,
-                "is_signature": "200070_0"
+                "is_signature": "200070_1"
             }
         ]
     },
@@ -2914,7 +2914,7 @@
                 "attack": 3,
                 "armour": 0,
                 "hp": 7,
-                "abilities": ["210039_0"],
+                "abilities": ["210039_0","210083_0"],
                 "signature": ["200094_0"],
                 "related_cards": ["200093_0"]
             }
@@ -2931,12 +2931,12 @@
                 },
                 "set": 1,
                 "rarity": 1,
-                "colour": "C",
-                "cost": 0,
+                "colour": "R",
+                "cost": 2,
                 "image": "200093_0",
                 "miniimage": "200093_0",
                 "text":{
-                    "english":" /n /n +2[ATT]/+2[HP] when neighbouring Beastmaster."
+                    "english":" /n /n [TG]Minion:[ET] +2[ATT]/+2[HP] when neighbouring Beastmaster."
                 },
                 "attack": 1,
                 "armour": 0,
@@ -2944,7 +2944,7 @@
                 "abilities": [ ],
                 "crosslane": false,
                 "quick": false,
-                "related_cards": ["200092_0"]
+                "related_cards": ["200092_1"]
             }
         ]
     },
@@ -2968,7 +2968,7 @@
                 },
                 "crosslane": false,
                 "quick": false,
-                "is_signature": "200092_0"
+                "is_signature": "200092_1"
             } 
         ]
     },
@@ -3033,7 +3033,7 @@
                 },
                 "crosslane": false,
                 "quick": false,
-                "is_signature": "200095_0"
+                "is_signature": "200095_1"
             } 
         ]
     },
@@ -3243,7 +3243,7 @@
                 },
                 "crosslane": false,
                 "quick": false,
-                "is_signature": "200103_0"
+                "is_signature": "200103_1"
             } 
         ]
     },
@@ -3721,7 +3721,7 @@
                 "miniimage": "PH",
                 "cost": 3,
                 "text":{
-                    "english":" /n /n Deal 2 damage to a unit and give it -2[AR] this round."
+                    "english":" /n /n Deal 2 damage to a unit and give it -2[AR] this round. /n [TG][QU]Quickcast[ET]"
                 },
                 "crosslane": false,
                 "quick": false,
@@ -3739,7 +3739,7 @@
                     "english":"Tiny"
                 },
                 "set": 1,
-                "rarity": 3,
+                "rarity": 5,
                 "colour": "R",
                 "image": "200125_0",
                 "miniimage": "PH",
@@ -3757,7 +3757,7 @@
                     "english":"Tiny"
                 },
                 "set": 1,
-                "rarity": 3,
+                "rarity": 5,
                 "colour": "R",
                 "image": "200125_0",
                 "miniimage": "PH",
@@ -3780,17 +3780,17 @@
                     "english":"Toss"
                 },
                 "set": 1,
-                "rarity": 2,
+                "rarity": 5,
                 "colour": "R",
                 "image": "200126_0",
                 "miniimage": "PH",
                 "cost": 4,
                 "text":{
-                    "english":" Choose caster. Move another unit to an empty slot up to 5 slots away from the caster. /n Deal 1 to the new neighbors your opponent controls."
+                    "english":" Choose caster. Move another unit to an empty slot up to 5 slots away from the caster. /n Deal 1 to the new neighbors your opponent controls. /n [TG]Cross Lane[ET]"
                 },
                 "crosslane": true,
                 "quick": false,
-                "is_signature": "200125_0"
+                "is_signature": "200125_1"
             }
         ]
     },
@@ -3831,7 +3831,7 @@
                 "armour": 0,
                 "hp": 6,
                 "abilities": ["210058_0"],
-                "signature": ["200128_0"]
+                "signature": ["200128_1"]
             }   
         ]
     },
@@ -3839,7 +3839,7 @@
         "card_id":200128,
         "versions":[
             {
-                "release_date":"2020-05-25",
+                "release_date":"2020-05-21",
                 "card_type":"Spell",
                 "card_name":{
                     "english":"Ice Shards"
@@ -3851,11 +3851,31 @@
                 "miniimage": "PH",
                 "cost": 2,
                 "text":{
-                    "english":" Deal 1 damage to an enemy and Push it with an Ice Shard. "
+                    "english":" Deal 1 damage to an enemy and displace it with an Ice Shard. "
                 },
                 "crosslane": false,
                 "quick": false,
-                "is_signature": "200127_0",
+                "is_signature": "200127_1",
+                "related_cards": ["200129_0"]
+            },
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Spell",
+                "card_name":{
+                    "english":"Ice Shards"
+                },
+                "set": 1,
+                "rarity": 4,
+                "colour": "R",
+                "image": "200128_0",
+                "miniimage": "PH",
+                "cost": 2,
+                "text":{
+                    "english":" Push an enemy and Deal 1 damage to it. Summon an Ice Shard in its place."
+                },
+                "crosslane": false,
+                "quick": false,
+                "is_signature": "200127_1",
                 "related_cards": ["200129_0"]
             }
         ]
@@ -3882,7 +3902,7 @@
                 "armour": 0,
                 "hp": 1,
                 "abilities": [ ],
-                "related_cards": ["200128_0"],
+                "related_cards": ["200127_1","200128_1"],
                 "crosslane": false,
                 "quick": false
             }
@@ -3908,7 +3928,7 @@
                 },
                 "crosslane": false,
                 "quick": false,
-                "is_signature": "200055_0"
+                "is_signature": "200055_1"
             }
         ]
     },
@@ -3973,7 +3993,7 @@
                 },
                 "crosslane": false,
                 "quick": false,
-                "is_signature": "200131_0"
+                "is_signature": "200131_1"
             }
         ]
     },
@@ -4181,7 +4201,7 @@
                 },
                 "crosslane": false,
                 "quick": false,
-                "is_signature": "200139_0"
+                "is_signature": "200139_1"
             }
         ]
     },
@@ -11163,7 +11183,7 @@
                     "set": 1,
                     "rarity": 5,
                     "colour": "U",
-                    "image": "201193",
+                    "image": "201193_0",
                     "miniimage": "201193_0",
                     "cost": 4,
                     "text":{
