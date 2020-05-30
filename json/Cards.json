@@ -444,7 +444,7 @@
                 "armour": 0,
                 "hp": 5,
                 "abilities": ["210018_0"],
-                "signature": ["200017_0"]
+                "signature": ["200017_1"]
             }   
         ]
     },
@@ -453,6 +453,25 @@
         "versions":[
             {
                 "release_date":"2020-05-21",
+                "card_type":"Spell",
+                "card_name":{
+                    "english":"Shadow Walk"
+                },
+                "set": 1,
+                "rarity": 1,
+                "colour": "B",
+                "image": "200016_0",
+                "miniimage": "200016_0",
+                "cost": 2,
+                "text":{
+                    "english":"Redeploy caster if they survive combat."
+                },
+                "crosslane": false,
+                "quick": false,
+                "is_signature": "200015_0"
+            }, 
+            {
+                "release_date":"2020-05-25",
                 "card_type":"Spell",
                 "card_name":{
                     "english":"Shadow Walk"
