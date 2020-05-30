@@ -16,8 +16,8 @@
     font-size: 34pt;
 }
 .CardContainerMiniPreview {
-    width: 130px;
-    font-size: 9pt;
+    width: 170px;
+    font-size: 11pt;
 }
 .CardContainer_LoadingPlaceholder {
     width: calc(100% - 18px);
@@ -102,7 +102,6 @@
 }
 .CardHeaderCardName {
     font-family: 'RadianceCon', sans-serif;
-    /*font-family: 'PT Sans Narrow', sans-serif;*/
     letter-spacing: -0.02em;
     font-weight: 400;
     width: 72%;
@@ -124,7 +123,7 @@
     padding-bottom: 56%;
 }
 .CardCentreBotPer_NoStats {
-    padding-bottom: 73%;
+    padding-bottom: 72%;
 }
 .CardAbilityContainer {
     width: 100%;
@@ -347,7 +346,6 @@
     border-radius: 50%;
 }
 
-
 .CardEndPer {
     padding-bottom: 5%;
     border-radius: 0 0 4% 4% / 0 0 100% 100%;
@@ -359,7 +357,6 @@
 
 .CardColourR {
     background-color: #7b1918;
-    /*background: linear-gradient(90deg, #7b1918 10%, #5c1710);*/
 }
 .CardColourG {
     background-color: #476d36;
@@ -371,66 +368,8 @@
     background-color: #26252a;
 }
 .CardColourI {
-    /*background-color: #e09c42;*/
     background-color: #d68f27;
 }
 .CardColourC {
     background-color: #79756d;
-}
-
-
-
-/* --------------- TEST BITS --------------- */
-
-.TempText {
-    color: #eee;
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 20pt;
-    font-weight: 700;
-    text-decoration: underline;
-}
-
-.CardHeader100 {
-    width: 100px;
-    padding-top: 5px;
-    height: 80px;
-    font-size: 36pt;
-    border-radius: 20px 20px 0 0;
-}
-.CardHeader200 {
-    width: 200px;
-    padding-top: 5px;
-    height: 80px;
-    font-size: 36pt;
-    border-radius: 20px 20px 0 0;
-}
-.CardHeader300 {
-    width: 300px;
-    padding-top: 5px;
-    height: 80px;
-    font-size: 36pt;
-    border-radius: 20px 20px 0 0;
-}
-.CardHeader400 {
-    width: 400px;
-    padding-top: 5px;
-    height: 80px;
-    font-size: 36pt;
-    border-radius: 20px 20px 0 0;
-}
-.CardHeader500 {
-    width: 500px;
-    padding-top: 5px;
-    height: 80px;
-    font-size: 36pt;
-    border-radius: 20px 20px 0 0;
-}
-
-
-/* --------------- OLD STYLING --------------- */
-
-
-
-.CardTypeIconCreep {
-    background-image: url('../Images/Cards/CardIcons/Creep.png');
 }

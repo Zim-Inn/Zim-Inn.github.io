@@ -146,7 +146,7 @@ body {
 }
 #CardContainerCardBrowser {
     width: 320px;
-    font-size: 21pt;
+    font-size: 20pt;
     cursor: default;
 }
 
@@ -384,10 +384,33 @@ body {
     margin:11px 0 0 1px;
     height: 22px;
     float: left;
-    background-size: 100%;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .CardList_CardTypeIconHero {
     background-image: url('../Images/MiscIcons/Hero.png');
+}
+.CardList_CardTypeIconCreep {
+    background-image: url('../Images/MiscIcons/Creep.png');
+}
+.CardList_CardTypeIconSpell {
+    background-image: url('../Images/MiscIcons/Spell.png');
+}
+.CardList_CardTypeIconTE {
+    background-image: url('../Images/MiscIcons/TowerEnchantment.png');
+}
+.CardList_CardTypeIconWeapon {
+    background-image: url('../Images/MiscIcons/Weapon.png');
+}
+.CardList_CardTypeIconArmor {
+    background-image: url('../Images/MiscIcons/Armor.png');
+}
+.CardList_CardTypeIconAccessory {
+    background-image: url('../Images/MiscIcons/Accessory.png');
+}
+.CardList_CardTypeIconConsumable {
+    background-image: url('../Images/MiscIcons/Consumable.png');
 }
 .CardList_ManaCost {
     background-image: url('../Images/Styles/ManaIconCL.png');

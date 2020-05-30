@@ -98,6 +98,7 @@ function CardTextFormatting(CardText) {
     if (!CardText.includes("Swap colors")) { //Body Modifications card
         CardText = CardText.replace(/(Swap)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Swap\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Swap</span>");
     }
+    CardText = CardText.replace(/(Taunt)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Taunt\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Taunt</span>");
     CardText = CardText.replace(/(Trample)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Trample\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Trample</span>");
     CardText = CardText.replace(/(Untargetable)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Untargetable\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Untargetable</span>");
 
@@ -325,7 +326,7 @@ function GenerateCardViewerPage(Filter) {
             case "Creep":
                 CardCostToDisplay = ThisCard['versions'][LatestCardVersion]['cost'];
                 CardListCostStyle = "CardList_Cost CardList_ManaCost";
-                CardListCardTypeIconStyle = "CardList_CardTypeIcon"+CardType;
+                CardListCardTypeIconStyle = "CardList_CardTypeIconCreep";
                 CardColour = ThisCard['versions'][LatestCardVersion]['colour'];
                 switch (CardColour) {
                     case 'R':
@@ -348,7 +349,7 @@ function GenerateCardViewerPage(Filter) {
             case "Spell":
                 CardCostToDisplay = ThisCard['versions'][LatestCardVersion]['cost'];
                 CardListCostStyle = "CardList_Cost CardList_ManaCost";
-                CardListCardTypeIconStyle = "CardList_CardTypeIcon"+CardType;
+                CardListCardTypeIconStyle = "CardList_CardTypeIconSpell";
                 CardColour = ThisCard['versions'][LatestCardVersion]['colour'];
                 switch (CardColour) {
                     case 'R':
@@ -371,7 +372,7 @@ function GenerateCardViewerPage(Filter) {
             case "Improvement":
                 CardCostToDisplay = ThisCard['versions'][LatestCardVersion]['cost'];
                 CardListCostStyle = "CardList_Cost CardList_ManaCost";
-                CardListCardTypeIconStyle = "CardList_CardTypeIcon"+CardType;
+                CardListCardTypeIconStyle = "CardList_CardTypeIconTE";
                 CardColour = ThisCard['versions'][LatestCardVersion]['colour'];
                 switch (CardColour) {
                     case 'R':
@@ -394,7 +395,7 @@ function GenerateCardViewerPage(Filter) {
             case "Item":
                 CardCostToDisplay = ThisCard['versions'][LatestCardVersion]['gcost'];
                 CardListCostStyle = "CardList_Cost CardList_GoldCost";
-                CardListCardTypeIconStyle = "CardList_CardTypeIconItem";
+                CardListCardTypeIconStyle = "CardList_CardTypeIcon"+ThisCard['versions'][LatestCardVersion]['card_subtype'];
                 CardColour = "I";
                 ItemSubtype = ThisCard['versions'][LatestCardVersion]['card_subtype'];
 
@@ -1060,6 +1061,7 @@ Keywords['Siege'] = "During the combat phase, deal Siege damage to the enemy tow
 Keywords['Stun'] = "A stunned unit is silenced (cannot use any active abilities and cannot be used to play cards of its color) and disarmed (does not attack its target during battles). Lasts until the end of round by default.";
 Keywords['Swap'] = "Move a unit to the targeted slot. If that slot was occupied, the unit in that space move to the original unit's position.";
 Keywords['Tower Enchantment'] = "A tower enchantment is a spell that adds a permanent effect to a tower or lane. Tower enchantments are not units and do not occupy combat positions.";
+Keywords['Taunt'] = "When a unit taunts all of its enemy neighbors change their combat target to that unit. Targets reset after each round.";
 Keywords['Trample'] = "This unit deals excess Attack damage to the tower when it battles in combat.";
 Keywords['Untargetable'] = "Can't be targeted by enemy spells of abilities.";
 

@@ -2621,8 +2621,8 @@
                         "english": "Warrunner warns his hunters"
                     }
                 },
-                "set": 0,
-                "rarity": 0,
+                "set": 1,
+                "rarity": 1,
                 "colour": "G",
                 "image": "200083_0",
                 "miniimage": "200083_0",
@@ -2658,8 +2658,8 @@
                         "english": "Jolixia, The Card Faun"
                     }
                 },
-                "set": 0,
-                "rarity": 0,
+                "set": 1,
+                "rarity": 4,
                 "image": "200084_0",
                 "miniimage": "200084_0",
                 "cost": 1,
@@ -2686,8 +2686,8 @@
                 "card_name":{
                     "english":"Honor Guard"
                 },
-                "set": 0,
-                "rarity": 0,
+                "set": 1,
+                "rarity": 4,
                 "colour": "R",
                 "image": "200085_0",
                 "miniimage": "200085_0",
@@ -3738,7 +3738,7 @@
                     "english":" /n /n Deal 2 damage to a unit and give it -2[AR] this round. /n [TG][QU]Quickcast[ET]"
                 },
                 "crosslane": false,
-                "quick": false,
+                "quick": true,
                 "is_signature": "200123_0"
             }
         ]
@@ -4004,7 +4004,7 @@
                 "miniimage": "200132_0",
                 "cost": 7,
                 "text":{
-                    "english":" Enchant Caster. /n +3 Regeneration. /n [TG]Play Effect:[ET] Deal 12 damage evenly divided among adjacent enemies and their tower. [TG]Round Start:[ET] Repeat this effect. "
+                    "english":" Enchant Caster. /n +3 Regeneration. /n [TG]Play Effect:[ET] Deal 12 damage evenly divided among adjacent enemies and their tower. /n [TG]Round Start:[ET] Repeat this effect. "
                 },
                 "crosslane": false,
                 "quick": false,
@@ -4546,7 +4546,7 @@
                 "cost": 1,
                 "gcost": 10,
                 "text": {
-                    "english": "/n +1[AR], +2 Retaliate /n [TG]Play Effect:[ET]: Taunt"
+                    "english": "/n +1[AR], +2 Retaliate /n [TG]Play Effect:[ET] Taunt"
                 },
                 "attack": 0,
                 "armour": 0,
@@ -4602,7 +4602,7 @@
                 "cost": 1,
                 "gcost": 10,
                 "text": {
-                    "english": "/n +1[AR]/n [TG]Active 0[AC], 1 Mana:[ET]: Slay this hero and deal 5 damage to adjacent enemies"
+                    "english": "/n +1[AR]/n [TG]Active 0[AC], 1 Mana:[ET] Slay this hero and deal 5 damage to adjacent enemies"
                 },
                 "attack": 0,
                 "armour": 1,
@@ -4798,7 +4798,7 @@
                 "cost": 1,
                 "gcost": 10,
                 "text": {
-                    "english": "+2[ATT] /n Dispel a random tower enchantment when dealing battle damage to a tower."
+                    "english": " /n +2[ATT] /n /n Dispel a random tower enchantment when dealing battle damage to a tower."
                 },
                 "attack": 2,
                 "armour": 0,
@@ -4967,7 +4967,7 @@
                 "cost": 1,
                 "gcost": 25,
                 "text": {
-                    "english": "+4 [AR]/n [TG]Play Effect:[ET] Activate./n [TG]Active 2[AC], 1 Mana:[ET] Purge your opponent's effects from equipped hero. Heal each ally 4."
+                    "english": "/n +4 [AR]/n [TG]Play Effect:[ET] Activate./n [TG]Active 2[AC], 1 Mana:[ET] Purge your opponent's effects from equipped hero. Heal each ally 4."
                 },
                 "attack": 0,
                 "armour": 4,
@@ -5080,7 +5080,7 @@
                 "cost": 1,
                 "gcost": 10,
                 "text": {
-                    "english": "/n [TG]+2[ATT]/nPlay Effect:[ET] Heal 4"
+                    "english": "/n [TG]+2[ATT]/n /n Play Effect:[ET] Heal 4"
                 },
                 "attack": 2,
                 "armour": 0,
@@ -5360,7 +5360,7 @@
                 "cost": 1,
                 "gcost": 20,
                 "text": {
-                    "english": "/n +2[AR], +2 Regeneration/n[TG]Active 3[AC], 1 Mana:[ET] Purge opponent's effects from an enemy unit."
+                    "english": "/n +2[AR], +2 Regeneration /n /n [TG]Active 3[AC], 1 Mana:[ET] Purge opponent's effects from an enemy unit."
                 },
                 "attack": 0,
                 "armour": 2,
@@ -5556,7 +5556,7 @@
                 "cost": 1,
                 "gcost": 25,
                 "text": {
-                    "english": "+5[ATT] /n [TG]Active 2[AC], 1 Mana:[ET] Disable passive abilities on an enemy in any lane. Battle that enemy. /n [TG]Cross Lane[ET]"
+                    "english": "/n +5[ATT] /n /n [TG]Active 2[AC], 1 Mana:[ET] Disable passive abilities on an enemy in any lane. Battle that enemy. /n [TG]Cross Lane[ET]"
                 },
                 "attack": 5,
                 "armour": 0,
@@ -5612,7 +5612,7 @@
                 "cost": 1,
                 "gcost": 25,
                 "text": {
-                    "english": " +9[HP], +1 Mana /n After a hero dies, add a charge. /n [TG]Active 0[AC], 1 Mana[ET]: Spend a charge. Give an enemy +4 Decay or an ally +4 Regeneration."
+                    "english": " /n  +9[HP], +1 Mana /n After a hero dies, add a charge. /n /n  [TG]Active 0[AC], 1 Mana[ET]: Spend a charge. Give an enemy +4 Decay or an ally +4 Regeneration."
                 },
                 "attack": 0,
                 "armour": 0,
@@ -6971,7 +6971,7 @@
                     "miniimage": "201016_0",
                     "cost": 7,
                     "text":{
-                        "english":"/n Disarm Hellbear Smasher when unblocked. [TG]Round Start:[ET] Move to a random blocked position."
+                        "english":"/n Disarm Hellbear Smasher when unblocked. /n [TG]Round Start:[ET] Move to a random blocked position."
                     },
                     "attack": 18,
                     "armour": 0,
@@ -7548,7 +7548,7 @@
                     "hp": 1,
                     "abilities": [],
                     "crosslane": false,
-                    "quick": false
+                    "quick": true
                 }
             ]
     },
@@ -9315,7 +9315,7 @@
                         "english":" /n Caster gains +2[ATT]./n[TG][QU] Quickcast[ET]"
                     },
                     "crosslane": false,
-                    "quick": false
+                    "quick": true
                 }
             ]
     },
