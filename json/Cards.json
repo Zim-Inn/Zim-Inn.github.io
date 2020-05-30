@@ -21,6 +21,26 @@
                     "210001_0"
                 ],
                 "signature": ["200002_0"]
+            },
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Mirana"
+                },
+                "set": 1,
+                "rarity": 2,
+                "colour": "B",
+                "image": "200001_0",
+                "miniimage": "PH",
+                "icon": "200001_0",
+                "attack": 4,
+                "armour": 0,
+                "hp": 5,
+                "abilities": [
+                    "210001_0"
+                ],
+                "signature": ["200002_0"]
             }
         ]
     },
@@ -302,6 +322,34 @@
                     "210006_0"
                 ],
                 "signature": ["200013_0"]
+            },
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Treant Protector"
+                },
+                "lore":{
+                    "text": {
+                        "english": "My feelings on the war in roseleaf are... complicated. Neither the bronze legion nor the red mist are threats to my people, and yet my cousins willingly intercede on the Vhoul's behalf. Their fondness for such frail creatures is strange to me, but none the less they call for my aid, and I am compelled to answer."
+                    },
+                    "tag": {
+                        "english": "Rooftrellen, the Treant Protector"
+                    }
+                },
+                "set": 1,
+                "rarity": 1,
+                "colour": "G",
+                "image": "200012_0",
+                "miniimage": "200012_0",
+                "icon": "200012_0",
+                "attack": 2,
+                "armour": 0,
+                "hp": 8,
+                "abilities": [
+                    "210006_0"
+                ],
+                "signature": ["200013_0"]
             }   
         ]
     },
@@ -367,6 +415,32 @@
                 "attack": 4,
                 "armour": 0,
                 "hp": 4,
+                "abilities": ["210018_0"],
+                "signature": ["200017_0"]
+            },
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Bounty Hunter"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Lord Sunbreeze is willing to pay handsomely to anyone who was able to return his daughter to him alive... which is somewhat unfortunate because 'Dead' is significantly easier for me. Oh well, the customer is always right. Looks like it's time to hunt a fairy."
+                    },
+                    "tag": {
+                        "english": "Gondar, the Bounty Hunter"
+                    }
+                },
+                "set": 1,
+                "rarity": 2,
+                "colour": "B",
+                "image": "200015_0",
+                "miniimage": "200015_0",
+                "icon": "200015_0",
+                "attack": 4,
+                "armour": 0,
+                "hp": 5,
                 "abilities": ["210018_0"],
                 "signature": ["200017_0"]
             }   
@@ -487,6 +561,34 @@
                 "attack": 4,
                 "armour": 0,
                 "hp": 3,
+                "abilities": [
+                    "210010_0"
+                ],
+                "signature": ["200022_0"]
+            },
+            {
+                "release_date":"2020-04-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Debbi the Cunning"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Kobold's aren't born with names. We take them from the first person we kill. In retrospect I should have considered that before I shoved that baker into her oven. On the other hand - I kind of look like a Debbi."
+                    },
+                    "tag": {
+                        "english": "Debbi, the Kobold Saboteur"
+                    }
+                },
+                "set": 1,
+                "rarity": 1,
+                "colour": "B",
+                "image": "200021_0",
+                "miniimage": "200021_0",
+                "icon": "200021_0",
+                "attack": 4,
+                "armour": 0,
+                "hp": 4,
                 "abilities": [
                     "210010_0"
                 ],
@@ -674,6 +776,32 @@
                 "attack": 2,
                 "armour": 0,
                 "hp": 6,
+                "abilities": ["210013_0"],
+                "signature": ["200030_0"]
+            },
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"J'Muy the Wise"
+                },
+                "lore":{
+                    "text": {
+                        "english": "The people I lead are small in number but vast in potential... and I will not see them slaughtered as the forest burns. The time has come for us to leave our ancestral home; and so I will lead my tribe to Weeping Rose... there our magicks will be celebrated, not feared."
+                    },
+                    "tag": {
+                        "english": "The Dark Troll Chieftain on his people's exodus"
+                    }
+                },
+                "set": 1,
+                "rarity": 1,
+                "colour": "U",
+                "image": "200028_0",
+                "miniimage": "200028_0",
+                "icon": "200028_0",
+                "attack": 2,
+                "armour": 0,
+                "hp": 7,
                 "abilities": ["210013_0"],
                 "signature": ["200030_0"]
             }   
@@ -1016,6 +1144,33 @@
                 "abilities": ["210014_0"],
                 "signature": ["200041_0"],
                 "related_cards": ["200042_0"]
+            },
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Prellex"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Brothers and sisters, The Ancient is coming. With every passing day my visions grow stronger: A violet sky. A sundered moon. And an Ancient voice that whispers 'Prepare for my arrival.' Prepare. Such a simple word that does no justice to the work that lies before us... We must be heralds; walking testimonies to the benevolence of The Ancient. Spreading the word of its glorious arrival, no matter if that message is received with joy or scorn. We must be architects; building not just this monastery for those who believe what I have seen, but an entire world that is worthy of the Ancient's splendor. We must be zealots; willing to lay down our lives in defense of this sacred space, because rest assured we are at war. Kanna and her heretics will stop at nothing to undo the work that we've accomplished, and that is why we must return in kind."
+                    },
+                    "tag": {
+                        "english": "Prellex, Priestess of the Radiant"
+                    }
+                },
+                "set": 1,
+                "rarity": 1,
+                "colour": "U",
+                "image": "200040_0",
+                "miniimage": "200040_0",
+                "icon": "200040_0",
+                "attack": 2,
+                "armour": 0,
+                "hp": 5,
+                "abilities": ["210014_0"],
+                "signature": ["200041_0"],
+                "related_cards": ["200042_0"]
             }   
         ]
     },
@@ -1165,6 +1320,34 @@
                     "210016_0"
                 ],
                 "signature": ["200047_0"]
+            },
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Ogre Magi"
+                },
+                "lore":{
+                    "text": {
+                        "english": "'It's not easy being the smartest ogre in the world. There's lots of jealous people out there.'<br>'Think about how many people you know with one head.'<br>'I bet it's a lot.'<br>'Now realize that every single one of them is half as smart as us. Do you know how lonely it is to walk this earth, never finding an intellectual eq-'<br>'WE LIKE ROCKS!'<br>'Yes...yes we do.' "
+                    },
+                    "tag": {
+                        "english": "Aggron Stonebreak, the Ogre Magi"
+                    }
+                },
+                "set": 1,
+                "rarity": 3,
+                "colour": "U",
+                "image": "200046_0",
+                "miniimage": "200046_0",
+                "icon": "200046_0",
+                "attack": 2,
+                "armour": 2,
+                "hp": 5,
+                "abilities": [
+                    "210016_0"
+                ],
+                "signature": ["200047_0"]
             }   
         ]
     },
@@ -1249,6 +1432,32 @@
                 "attack": 4,
                 "armour": 0,
                 "hp": 5,
+                "abilities": ["210020_0"],
+                "signature": ["200050_0"]
+            },
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Phantom Assassin"
+                },
+                "lore":{
+                    "text": {
+                        "english": "The Veiled Sisterhood gave me everything. My life. My skills. My family... My very purpose. So when the Veiled Oracles provide me a list of names, I never question what it is I need to do. "
+                    },
+                    "tag": {
+                        "english": "Mortred, the Phantom Assassin"
+                    }
+                },
+                "set": 1,
+                "rarity": 1,
+                "colour": "B",
+                "image": "200049_0",
+                "miniimage": "200049_0",
+                "icon": "200049_0",
+                "attack": 4,
+                "armour": 0,
+                "hp": 6,
                 "abilities": ["210020_0"],
                 "signature": ["200050_0"]
             }   
@@ -1377,6 +1586,32 @@
                 "hp": 5,
                 "abilities": ["210023_0"],
                 "signature": ["200054_0"]
+            },
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Luna"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Once I was like Sorla Khan... a warlord that did as she pleased. Strong and immortal I knew that no man or beast was my equal... until my hubris cost me everything. It was there at my lowest that Selemene found me. Tested me. And showed me the moon lit path. Much time has passed since that day, and I find purpose and pride in protecting the Nightsilver Woods with other members of the Dark Moon. But word has spread of Sorla Khan's march, and while we have never met I understand her all too well. And so I travel to Roseleaf to defeat her, and save her from herself."
+                    },
+                    "tag": {
+                        "english": "Luna, the Moon Rider"
+                    }
+                },
+                "set": 1,
+                "rarity": 2,
+                "colour": "U",
+                "image": "200053_0",
+                "miniimage": "200053_0",
+                "icon": "200053_0",
+                "attack": 2,
+                "armour": 0,
+                "hp": 6,
+                "abilities": ["210023_0"],
+                "signature": ["200054_0"]
             }   
         ]
     },
@@ -1430,6 +1665,24 @@
                 "attack": 5,
                 "armour": 0,
                 "hp": 3,
+                "abilities": ["210024_0","210025_0"],
+                "signature": ["200130_0"]
+            },
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Anti-Mage"
+                },
+                "set": 1,
+                "rarity": 1,
+                "colour": "B",
+                "image": "200055_0",
+                "miniimage": "PH",
+                "icon": "200055_0",
+                "attack": 5,
+                "armour": 0,
+                "hp": 4,
                 "abilities": ["210024_0","210025_0"],
                 "signature": ["200130_0"]
             }  
@@ -1526,6 +1779,32 @@
                 "attack": 1,
                 "armour": 0,
                 "hp": 3,
+                "abilities": ["210027_0"],
+                "signature": ["200059_0"]
+            },
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Crystal Maiden"
+                },
+                "lore":{
+                    "text": {
+                        "english": "'Warden of Icewrack.' It's a fancy title. In theory it means I'm responsible for maintaining law and order, collaborating with the Sapphire Conclave on magical crimes, and protecting the weak from all manners of nasty things. In practice I help farmers fix fences. So I decided to go on a little sabbatical. Besides... I couldn't stay in Icewrack. It's cold. It's boring. And I heard my sister was planning on visiting so I definitely had to get the hell outta there."
+                    },
+                    "tag": {
+                        "english": "Rylai, the Crystal Maiden"
+                    }
+                },
+                "set": 1,
+                "rarity": 1,
+                "colour": "U",
+                "image": "200058_0",
+                "miniimage": "200058_0",
+                "icon": "200058_0",
+                "attack": 1,
+                "armour": 0,
+                "hp": 4,
                 "abilities": ["210027_0"],
                 "signature": ["200059_0"]
             }   
@@ -1709,6 +1988,32 @@
                 "hp": 4,
                 "abilities": ["210030_0"],
                 "signature": ["200065_0"]
+            },
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Skywrath Mage"
+                },
+                "lore":{
+                    "text": {
+                        "english": "I empathize with Rix. It's not easy following the orders of a leader you despise. But I don't have the luxury of staging a rebellion...the stakes are too high, and so I must bide my time... and wait to be reunited with my beloved."
+                    },
+                    "tag": {
+                        "english": "Dragonus, the Skywrath Mage"
+                    }
+                },
+                "set": 1,
+                "rarity": 1,
+                "colour": "U",
+                "image": "200064_0",
+                "miniimage": "200064_0",
+                "icon": "200064_0",
+                "attack": 2,
+                "armour": 0,
+                "hp": 5,
+                "abilities": ["210030_0"],
+                "signature": ["200065_0"]
             } 
         ]
     },
@@ -1770,6 +2075,32 @@
                 "attack": 3,
                 "armour": 0,
                 "hp": 4,
+                "abilities": ["210031_0"],
+                "signature": ["200067_0"]
+            },
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Sniper"
+                },
+                "lore":{
+                    "text": {
+                        "english": "For too long the Keenfolk have been fractured. Little colonies spread across the world each coveting their own research... but as we kept to our workshops the world around us changed. Stonehall rose to power. The nation of Revtel was born. The Quroum of Weeping Rose grew bolder... and what did we do? We toiled and tinkered. We built wondrous machines and used them for petty tasks. This cannot continue. The Keenfolk clans need to unite, and show the world what we're capable of."
+                    },
+                    "tag": {
+                        "english": "Kardel, the Sniper"
+                    }
+                },
+                "set": 1,
+                "rarity": 2,
+                "colour": "B",
+                "image": "200066_0",
+                "miniimage": "200066_0",
+                "icon": "200066_0",
+                "attack": 3,
+                "armour": 0,
+                "hp": 5,
                 "abilities": ["210031_0"],
                 "signature": ["200067_0"]
             } 
@@ -1874,7 +2205,7 @@
         "card_id":200070,
         "versions":[
             {
-                "release_date":"2020-05-25",
+                "release_date":"2020-05-21",
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Enchantress"
@@ -1898,7 +2229,33 @@
                 "hp": 3,
                 "abilities": ["210038_0"],
                 "signature": ["200091_0"]
-            } 
+            },
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Enchantress"
+                },
+                "lore":{
+                    "text": {
+                        "english": "Rix. Tresdin. Sorla Khan. You ask any one of them and they will spin you a story about why their cause is just; and every single one of them is wrong. This war is senseless, its cost will be immeasurable, and the only people who will profit are the future historians who'll sell books about the massacre. I can't stop this war from happening... but I will do whatever I can to minimize the damage."
+                    },
+                    "tag": {
+                        "english": "Aiustha, the Enchantress"
+                    }
+                },
+                "set": 1,
+                "rarity": 2,
+                "colour": "G",
+                "image": "200070_0",
+                "miniimage": "200070_0",
+                "icon": "200070_0",
+                "attack": 3,
+                "armour": 0,
+                "hp": 4,
+                "abilities": ["210038_0"],
+                "signature": ["200091_0"]
+            }  
         ]
     },
     {
@@ -2524,7 +2881,7 @@
         "card_id":200092,
         "versions":[
             {
-                "release_date":"2020-05-25",
+                "release_date":"2020-05-21",
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Beastmaster"
@@ -2541,14 +2898,33 @@
                 "abilities": ["210039_0"],
                 "signature": ["200094_0"],
                 "related_cards": ["200093_0"]
-            }   
+            },
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Beastmaster"
+                },
+                "set": 1,
+                "rarity": 2,
+                "colour": "R",
+                "image": "200092_0",
+                "miniimage": "200092_0",
+                "icon": "200092_0",
+                "attack": 3,
+                "armour": 0,
+                "hp": 7,
+                "abilities": ["210039_0"],
+                "signature": ["200094_0"],
+                "related_cards": ["200093_0"]
+            }
         ]
     },
     {
         "card_id":200093,
         "versions":[
             {
-                "release_date":"2020-05-25",
+                "release_date":"2020-05-21",
                 "card_type":"Summon",
                 "card_name":{
                     "english":"Loyal Beast"
@@ -2614,6 +2990,24 @@
                 "attack": 2,
                 "armour": 0,
                 "hp": 5,
+                "abilities": ["210041_0"],
+                "signature": ["200096_0"]
+            },
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Centaur Warrunner"
+                },
+                "set": 1,
+                "rarity": 2,
+                "colour": "R",
+                "image": "200095_0",
+                "miniimage": "200095_0",
+                "icon": "200095_0",
+                "attack": 3,
+                "armour": 0,
+                "hp": 9,
                 "abilities": ["210041_0"],
                 "signature": ["200096_0"]
             }   
@@ -2792,7 +3186,7 @@
         "card_id":200103,
         "versions":[
             {
-                "release_date":"2020-05-25",
+                "release_date":"2020-05-21",
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Pugna"
@@ -2806,6 +3200,24 @@
                 "attack": 3,
                 "armour": 0,
                 "hp": 9,
+                "abilities": ["210045_0"],
+                "signature": ["200104_0"]
+            },
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Pugna"
+                },
+                "set": 1,
+                "rarity": 3,
+                "colour": "R",
+                "image": "200103_0",
+                "miniimage": "200103_0",
+                "icon": "200103_0",
+                "attack": 3,
+                "armour": 0,
+                "hp": 6,
                 "abilities": ["210045_0"],
                 "signature": ["200104_0"]
             }   
@@ -3321,7 +3733,7 @@
         "card_id":200125,
         "versions":[
             {
-                "release_date":"2020-05-25",
+                "release_date":"2020-05-21",
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Tiny"
@@ -3337,7 +3749,25 @@
                 "hp": 3,
                 "abilities": ["210057_0"],
                 "signature": ["200126_0"]
-            }   
+            },
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Tiny"
+                },
+                "set": 1,
+                "rarity": 3,
+                "colour": "R",
+                "image": "200125_0",
+                "miniimage": "PH",
+                "icon": "200125_0",
+                "attack": 2,
+                "armour": 0,
+                "hp": 4,
+                "abilities": ["210057_0"],
+                "signature": ["200126_0"]
+            } 
         ]
     },
     {
@@ -3368,7 +3798,7 @@
         "card_id":200127,
         "versions":[
             {
-                "release_date":"2020-05-25",
+                "release_date":"2020-05-21",
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Tusk"
@@ -3382,6 +3812,24 @@
                 "attack": 4,
                 "armour": 0,
                 "hp": 7,
+                "abilities": ["210058_0"],
+                "signature": ["200128_0"]
+            },
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Tusk"
+                },
+                "set": 1,
+                "rarity": 3,
+                "colour": "R",
+                "image": "200127_0",
+                "miniimage": "PH",
+                "icon": "200127_0",
+                "attack": 4,
+                "armour": 0,
+                "hp": 6,
                 "abilities": ["210058_0"],
                 "signature": ["200128_0"]
             }   
@@ -3468,6 +3916,24 @@
         "card_id":200131,
         "versions":[
             {
+                "release_date":"2020-05-21",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Death Prophet"
+                },
+                "set": 1,
+                "rarity": 4,
+                "colour": "B",
+                "image": "200131_0",
+                "miniimage": "PH",
+                "icon": "200131_0",
+                "attack": 3,
+                "armour": 0,
+                "hp": 3,
+                "abilities": ["210059_0"],
+                "signature": ["200132_0"]
+            },
+            {
                 "release_date":"2020-05-25",
                 "card_type":"Hero",
                 "card_name":{
@@ -3484,7 +3950,7 @@
                 "hp": 3,
                 "abilities": ["210059_0"],
                 "signature": ["200132_0"]
-            }   
+            }      
         ]
     },
     {
@@ -3658,7 +4124,7 @@
         "card_id":200139,
         "versions":[
             {
-                "release_date":"2020-05-25",
+                "release_date":"2020-05-21",
                 "card_type":"Hero",
                 "card_name":{
                     "english":"Shadow Fiend"
@@ -3674,7 +4140,25 @@
                 "hp": 6,
                 "abilities": ["210063_0", "210064_0"],
                 "signature": ["200140_0"]
-            }   
+            },
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Shadow Fiend"
+                },
+                "set": 1,
+                "rarity": 4,
+                "colour": "B",
+                "image": "200139_0",
+                "miniimage": "PH",
+                "icon": "200139_0",
+                "attack": 3,
+                "armour": 0,
+                "hp": 5,
+                "abilities": ["210063_0", "210064_0"],
+                "signature": ["200140_0"]
+            }  
         ]
     },
     {
