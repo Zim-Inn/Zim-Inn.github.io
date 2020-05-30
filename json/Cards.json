@@ -444,7 +444,7 @@
                 "armour": 0,
                 "hp": 5,
                 "abilities": ["210018_0"],
-                "signature": ["200017_0"]
+                "signature": ["200017_1"]
             }   
         ]
     },
@@ -465,6 +465,25 @@
                 "cost": 2,
                 "text":{
                     "english":"Redeploy caster if they survive combat."
+                },
+                "crosslane": false,
+                "quick": false,
+                "is_signature": "200015_0"
+            }, 
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Spell",
+                "card_name":{
+                    "english":"Shadow Walk"
+                },
+                "set": 1,
+                "rarity": 1,
+                "colour": "B",
+                "image": "200016_0",
+                "miniimage": "200016_0",
+                "cost": 2,
+                "text":{
+                    "english":"Give caster Untargetable.\n\nBounce caster if they survive combat."
                 },
                 "crosslane": false,
                 "quick": false,
@@ -2203,7 +2222,7 @@
                 "miniimage": "200069_0",
                 "cost": 2,
                 "text":{
-                    "english":" /n Caster battles another hero. Give the winner +1 damage permanently."
+                    "english":" /n Caster battles another hero. Give the winner +1[ATT] permanently."
                 },
                 "crosslane": false,
                 "quick": false,
@@ -2880,7 +2899,7 @@
                 "miniimage": "200071_0",
                 "cost": 4,
                 "text":{
-                    "english":" /n Choose a creep and an enemy. They battle each other. Allied creeps have +2 damage during Enchant."
+                    "english":" /n Choose a creep and another enemy. They battle each other. Allied creeps used this way deal +2 damage."
                 },
                 "crosslane": false,
                 "quick": false,
@@ -3136,7 +3155,7 @@
                 "image": "200100_0",
                 "miniimage": "200100_0",
                 "text":{
-                    "english":" /n Purge opponent's effects from a unit. Give it Magic Immunity. /n [TG][QU]Quickcast[ET]"
+                    "english":" /n Purge opponent's effects from a unit. Give it Untargetable. /n [TG][QU]Quickcast[ET]"
                 },
                 "crosslane": false,
                 "quick": true,
