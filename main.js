@@ -164,8 +164,13 @@ function GenerateCardViewerPage(Filter) {
             } else {
                 CardTextForFilter = "";
             }
+            if ("searchterm" in CardJSON[i]) {
+                SearchTermForFilter = CardJSON[i]["searchterm"];
+            } else {
+                SearchTermForFilter = "";
+            }
 
-            if (CardJSON[i]['versions'][LatestCardVersion]['card_name']['english'].search(textfilter) != -1 || CardTextForFilter.search(textfilter) != -1) {
+            if (CardJSON[i]['versions'][LatestCardVersion]['card_name']['english'].search(textfilter) != -1 || CardTextForFilter.search(textfilter) != -1 || SearchTermForFilter.search(textfilter) != -1) {
                 switch (CardJSON[i]['versions'][LatestCardVersion]["card_type"]) {
                     case 'Hero':
                         A2Heroes.push(CardJSON[i]);

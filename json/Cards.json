@@ -9574,6 +9574,7 @@
     },
     {
         "card_id":201122,
+        "searchterm": "TOT",
             "versions":[
                 {
                     "release_date":"2020-05-25",
@@ -10150,6 +10151,7 @@
     },
     {
         "card_id":201149,
+        "searchterm": "AAC",
             "versions":[
                 {
                     "release_date":"2020-05-25",
