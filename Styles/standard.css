@@ -327,7 +327,7 @@ body {
     cursor: pointer;
 }
 .CardListItemContainerR {
-    background-image: url('../Images/Styles/CardList_FactionRed_1000px.png'), linear-gradient(170deg, rgba(59,8,16,0.8) 20%, rgb(103,14,28,0.3));
+    background-image: url('../Images/Styles/CardList_FactionRed_1000px.png'), linear-gradient(170deg, rgba(59,8,16,0.8) 20%, rgba(103,14,28,0.3));
     background-position: top right;
     background-size: 500px 100%;
 }

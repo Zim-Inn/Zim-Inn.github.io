@@ -9913,7 +9913,7 @@
                     "miniimage": "201137_0",
                     "cost": 1,
                     "text":{
-                        "english":" /n Deal 1 damage /n Repeat twice: [RP] Jump left ot right and deal 1 damage."
+                        "english":" /n Deal 1 damage /n Repeat twice: [RP] Jump left or right and deal 1 damage."
                     },
                     "crosslane": false,
                     "quick": false
