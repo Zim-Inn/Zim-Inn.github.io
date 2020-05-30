@@ -854,6 +854,11 @@ function GenerateCard(Container,CardIDV) {
             }
             CardHP = "▥"+Card['hp'];
             CardText = CardTextFormatting(Card['text']['english']);
+            if (CardText == "") {
+                TextBackgroundStyle = "";
+            } else {
+                TextBackgroundStyle = "CardCentreSplitBotBG2";
+            }
             CardAbilities = Card['abilities'];
             CardSetIconStyle = "CardBottomIconSet"+Card['set']+"-"+Card['rarity'];
 
@@ -865,7 +870,7 @@ function GenerateCard(Container,CardIDV) {
                         </div> \
                         <div class="CardCentreContainerPer" style="background-image: url(\'Images/Cards/CardArt/'+CardImage+'.jpg\')"> \
                             <div class="CardCentreTopPer"></div> \
-                            <div class="CardCentreBotPer_Stats CardCentreSplitBotBG2"> \
+                            <div class="CardCentreBotPer_Stats '+TextBackgroundStyle+'"> \
                                 <div class="CardCentreSplitBotText">'+CardText+'</div> \
                             </div> \
                         </div> \

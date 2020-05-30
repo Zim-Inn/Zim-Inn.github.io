@@ -147,6 +147,7 @@ body {
 #CardContainerCardBrowser {
     width: 320px;
     font-size: 21pt;
+    cursor: default;
 }
 
 #CardViewerPageCardList {

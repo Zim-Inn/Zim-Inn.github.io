@@ -3133,7 +3133,7 @@
                 "colour": "C",
                 "cost": 1,
                 "image": "200117_0",
-                "miniimage": "PH",
+                "miniimage": "200117_0",
                 "text":{
                     "english":" Feeble. "
                 },
@@ -3190,7 +3190,7 @@
                 },
                 "crosslane": false,
                 "quick": false,
-                "is_signature": "200119_0",
+                "is_signature": "200118_0",
                 "related_cards": ["200120_0"]
             }
         ]
@@ -8422,8 +8422,8 @@
                     "set": 1,
                     "rarity": 1,
                     "colour": "B",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201092_0",
+                    "miniimage": "201092_0",
                     "cost": 3,
                     "text":{
                         "english":"/n Enchant Tower /n /n [TG]Combat:[ET] Deal 4 piercing damage to the enemy tower and 2 piercing damage to your tower."
@@ -8662,14 +8662,15 @@
                     "set": 1,
                     "rarity": 4,
                     "colour": "G",
-                    "image": "PH2",
-                    "miniimage": "PH",
+                    "image": "201102_0",
+                    "miniimage": "201102_0",
                     "cost": 3,
                     "text":{
                         "english":"/n Enchant Tower /n [TG]Active 2[AC], 1 Mana:[ET] Spend all your Mana. Summon an Ozkavosh Horror with +1[ATT]/+1[HP] for each Mana spent."
                     },
                     "crosslane": false,
-                    "quick": false
+                    "quick": false,
+                    "related_cards": ["201194_0"]
                 }
             ]
     },
@@ -10688,5 +10689,34 @@
                     "quick": false
                 }
             ]
+    },
+    {
+        "card_id":201194,
+        "hide_from_card_list": true,
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Summon",
+                "card_name":{
+                    "english":"Ozkavosh Horror"
+                },
+                "set": 1,
+                "rarity": 2,
+                "colour": "G",
+                "image": "201194_0",
+                "miniimage": "201194_0",
+                "cost": 1,
+                "text":{
+                    "english":""
+                },
+                "attack": 0,
+                "armour": 0,
+                "hp": 1,
+                "abilities": [ ],
+                "related_cards": ["201102_0"],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
     }
 ]
