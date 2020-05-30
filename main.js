@@ -12,6 +12,19 @@ function skewcard(sender,skew) {
     }
 }
 
+const getURLParams = function (url) {
+    var params = {};
+    var parser = document.createElement('a');
+    parser.href = url;
+    var query = parser.search.substring(1);
+    var vars = query.split('&');
+    for (var i = 0; i < vars.length; i++) {
+        var pair = vars[i].split('=');
+        params[pair[0]] = decodeURIComponent(pair[1]);
+    }
+    return params;
+};
+
 function InitializeCardViewerPage() { //Load JSON and load first card
     p1 = new Promise(function(resolve, reject) {
         var req = new XMLHttpRequest();
@@ -46,7 +59,13 @@ function InitializeCardViewerPage() { //Load JSON and load first card
         CardJSON = JSON.parse(responses[0]);
         AbilityJSON = JSON.parse(responses[1]);
         GenerateCardViewerPage('');
-        CardViewer_SelectCard('200043_99');
+        
+        const id = getURLParams(document.location.href).cidv
+        if(getURLParams(document.location.href).cidv){
+            CardViewer_SelectCard(id, true);
+        } else {
+            CardViewer_SelectCard('200043_99', true);
+        }
     })
 }
 
@@ -493,7 +512,13 @@ function GenerateCVCHTML(Card) {
     return CardHTML;
 }
 
-function CardViewer_SelectCard(CardIDV) {
+function CardViewer_SelectCard(CardIDV, skipHistory) {
+    // Push Card to browser History
+    // skipHistory is optional and defaults to null, so this won't affect existing code
+    if(!skipHistory){
+        history.pushState({}, "Artifact 2 Card Viewer", "?cidv="+CardIDV);
+    }
+
     GenerateCard('CardContainerCardBrowser',CardIDV);
     CardViewerCardPreviewTooltip(0,0); //Hide Tooltip
     CardIDV = CardIDV.split("_");
@@ -1077,3 +1102,13 @@ function ShowKeywordTooltip(ShowHide, KeyWord) {
         document.getElementById('SpecialTextTooltip').style.left = (event.clientX + 10)+"px";
     }
 }
+
+// This is triggered every time the user manually changes page without leaving the current URL
+window.onpopstate = (event) => {
+    const id = getURLParams(document.location.href).cidv
+    if(getURLParams(document.location.href).cidv){
+        CardViewer_SelectCard(id, true);
+    } else {
+        CardViewer_SelectCard('200043_99', true);
+    }
+};
