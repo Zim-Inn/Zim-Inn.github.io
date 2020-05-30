@@ -60,8 +60,8 @@ function InitializeCardViewerPage() { //Load JSON and load first card
         AbilityJSON = JSON.parse(responses[1]);
         GenerateCardViewerPage('');
         
-        const id = getURLParams(document.location.href).cidv
-        if(getURLParams(document.location.href).cidv){
+        const id = getURLParams(document.location.href).id
+        if(getURLParams(document.location.href).id){
             CardViewer_SelectCard(id, true);
         } else {
             CardViewer_SelectCard('200043_99', true);
@@ -516,7 +516,7 @@ function CardViewer_SelectCard(CardIDV, skipHistory) {
     // Push Card to browser History
     // skipHistory is optional and defaults to null, so this won't affect existing code
     if(!skipHistory){
-        history.pushState({}, "Artifact 2 Card Viewer", "?cidv="+CardIDV);
+        history.pushState({}, "Artifact 2 Card Viewer", "?id="+CardIDV);
     }
 
     GenerateCard('CardContainerCardBrowser',CardIDV);
@@ -1105,8 +1105,8 @@ function ShowKeywordTooltip(ShowHide, KeyWord) {
 
 // This is triggered every time the user manually changes page without leaving the current URL
 window.onpopstate = (event) => {
-    const id = getURLParams(document.location.href).cidv
-    if(getURLParams(document.location.href).cidv){
+    const id = getURLParams(document.location.href).id
+    if(id){
         CardViewer_SelectCard(id, true);
     } else {
         CardViewer_SelectCard('200043_99', true);
