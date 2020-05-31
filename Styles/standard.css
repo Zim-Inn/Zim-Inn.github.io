@@ -510,10 +510,13 @@ body {
     font-size: 11pt;
     padding: 4px 8px;
 }
-
 #CVOptions {
     min-height: 50px;
     margin-bottom: 10px;
+    position: sticky;
+    top:0;
+    background-color: rgba(26,24,29,0.7);
+    border-bottom: 2px solid black;
 }
 .CVOptionContainer {
     padding: 5px;
@@ -523,6 +526,7 @@ body {
     font-family: 'Radiance', sans-serif;
     color: #aaa;
     font-size: 12pt;
+    text-shadow: 2px 2px 10px black;
 }
 .CVOptionButton {
     float: left;
@@ -554,6 +558,18 @@ body {
 }
 #ColourFilterC {
     background-color: #79756d;
+}
+#HiddenFilterUncollectable {
+    background-color: #333749;
+    background-image: url('../Images/Styles/UncollectableFilter.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#HiddenFilterSignature {
+    background-color: #333749;
+    background-image: url('../Images/Styles/SignatureFilter.png');
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .CVOptionButtonSelected {

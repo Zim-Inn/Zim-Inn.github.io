@@ -161,7 +161,7 @@ function CVChangeViewStyle(View) {
     }
 }
 
-CardViewerFilter = {text:"", set1: true, rarity1: true, rarity2: true, rarity3: true, rarity4: true, rarity5: true, quick: true, crosslane: true, R: true, U: true, B: true, G: true, C: true}
+CardViewerFilter = {text:"", set1: true, rarity1: true, rarity2: true, rarity3: true, rarity4: true, rarity5: true, quick: true, crosslane: true, R: true, U: true, B: true, G: true, C: true, signature: true, uncollectable: false}
 
 function GenerateCardViewerPage() {
     CardViewerFilter['text'] = document.getElementById('CardTextFilter').value;
@@ -171,49 +171,63 @@ function GenerateCardViewerPage() {
     A2Items = new Array();
     A2Summons = new Array();
     A2SpecialItems = new Array();
-    A2OtherCards = new Array(); //Spells, Improvements.
+    A2OtherCards = new Array(); //Spells, Improvements, Creeps.
 
     for (i = 0; i < CardJSON.length; i++) {
-        if (!("hide_from_card_list" in CardJSON[i])) {
-            LatestCardVersion = CardJSON[i]['versions'].length - 1;
+        LatestCardVersion = CardJSON[i]['versions'].length - 1;
 
-            textfilter = new RegExp(CardViewerFilter['text'], "i");
-            if ("text" in CardJSON[i]['versions'][LatestCardVersion]) {
-                CardTextForFilter = CardJSON[i]['versions'][LatestCardVersion]["text"]["english"];
-            } else {
-                CardTextForFilter = "";
-            }
-            if ("searchterm" in CardJSON[i]) {
-                SearchTermForFilter = CardJSON[i]["searchterm"];
-            } else {
-                SearchTermForFilter = "";
-            }
+        textfilter = new RegExp(CardViewerFilter['text'], "i");
+        if ("text" in CardJSON[i]['versions'][LatestCardVersion]) {
+            CardTextForFilter = CardJSON[i]['versions'][LatestCardVersion]["text"]["english"];
+        } else {
+            CardTextForFilter = "";
+        }
+        if ("searchterm" in CardJSON[i]) {
+            SearchTermForFilter = CardJSON[i]["searchterm"];
+        } else {
+            SearchTermForFilter = "";
+        }
 
-            if (CardJSON[i]['versions'][LatestCardVersion]['card_type'] == "Item") {
-                ColourCheckPass = true;
-            } else if (CardViewerFilter[CardJSON[i]['versions'][LatestCardVersion]['colour']] == true) {
-                ColourCheckPass = true;
-            } else {
-                ColourCheckPass = false;
-            }
+        if (CardJSON[i]['versions'][LatestCardVersion]['card_type'] == "Item") {
+            ColourCheckPass = true;
+        } else if (CardViewerFilter[CardJSON[i]['versions'][LatestCardVersion]['colour']] == true) {
+            ColourCheckPass = true;
+        } else {
+            ColourCheckPass = false;
+        }
 
-            if ( (CardJSON[i]['versions'][LatestCardVersion]['card_name']['english'].search(textfilter) != -1 || CardTextForFilter.search(textfilter) != -1 || SearchTermForFilter.search(textfilter) != -1) && (ColourCheckPass)) {
-                switch (CardJSON[i]['versions'][LatestCardVersion]["card_type"]) {
-                    case 'Hero':
-                        A2Heroes.push(CardJSON[i]);
-                        break;
-                    case 'Item':
-                        A2Items.push(CardJSON[i]);
-                        break;
-                    case 'SpecialItem':
-                        A2SpecialItems.push(CardJSON[i]);
-                        break;
-                    case 'Summon':
-                        A2Summons.push(CardJSON[i]);
-                        break;       
-                    default:
-                        A2OtherCards.push(CardJSON[i]);
-                        break;
+        if (("is_signature" in CardJSON[i]['versions'][LatestCardVersion]) && CardViewerFilter['signature'] == false) {
+            SignatureFilterCheck = false; //If this is a signature card and signatures are filtered out
+        } else {
+            SignatureFilterCheck = true; //Else show this card
+        }
+
+        if ("hide_from_card_list" in CardJSON[i] && CardViewerFilter['uncollectable'] == false) {
+            HideFromCardListCheck = false; //If this card is uncollectable and uncollectables are filtered out
+        } else {
+            HideFromCardListCheck = true; //Else show this card
+        }
+
+        if (CardJSON[i]['versions'][LatestCardVersion]['card_name']['english'].search(textfilter) != -1 || CardTextForFilter.search(textfilter) != -1 || SearchTermForFilter.search(textfilter) != -1) {
+            if (ColourCheckPass == true) {
+                if (SignatureFilterCheck == true) {
+                    //if (!("hide_from_card_list" in CardJSON[i]) || HideFromCardListFilter.contains(CardJSON[i]['hide_from_card_list'])) {
+                    if (HideFromCardListCheck == true) {
+                        switch (CardJSON[i]['versions'][LatestCardVersion]["card_type"]) {
+                            case 'Hero':
+                                A2Heroes.push(CardJSON[i]);
+                                break;
+                            case 'Item':
+                                A2Items.push(CardJSON[i]);
+                                break;
+                            case 'SpecialItem':
+                                A2SpecialItems.push(CardJSON[i]);
+                                break; 
+                            default:
+                                A2OtherCards.push(CardJSON[i]);
+                                break;
+                        }
+                    }
                 }
             }
         }
@@ -372,6 +386,29 @@ function GenerateCardViewerPage() {
                         break;
                 }
                 break;
+            case "Summon":
+                CardCostToDisplay = ThisCard['versions'][LatestCardVersion]['cost'];
+                CardListCostStyle = "CardList_Cost CardList_ManaCost";
+                CardListCardTypeIconStyle = "CardList_CardTypeIconCreep";
+                CardColour = ThisCard['versions'][LatestCardVersion]['colour'];
+                switch (CardColour) {
+                    case 'R':
+                        CVCRedCreepHTML += GenerateCVCHTML(ThisCard);
+                        break;
+                    case 'U':
+                        CVCBlueCreepHTML += GenerateCVCHTML(ThisCard);
+                        break;
+                    case 'B':
+                        CVCBlackCreepHTML += GenerateCVCHTML(ThisCard);
+                        break;
+                    case 'G':
+                        CVCGreenCreepHTML += GenerateCVCHTML(ThisCard);
+                        break;
+                    case 'C':
+                        CVCColourlessCreepHTML += GenerateCVCHTML(ThisCard);
+                        break;
+                }
+                break;
             case "Spell":
                 CardCostToDisplay = ThisCard['versions'][LatestCardVersion]['cost'];
                 CardListCostStyle = "CardList_Cost CardList_ManaCost";
@@ -482,9 +519,6 @@ function GenerateCardViewerPage() {
     document.getElementById('CVCArmor').innerHTML = CVCArmorHTML;
     document.getElementById('CVCAcc').innerHTML = CVCAccessoryHTML;
     document.getElementById('CVCCon').innerHTML = CVCConsumableHTML;
-
-    
-
 }
 
 function GenerateCVCHTML(Card) {
@@ -1054,9 +1088,18 @@ function CardViewerCardPreviewTooltip(CardIDV, ShowHide) {
     if (ShowHide == 0) { //Hide
         document.getElementById('CardPreviewTooltip').style.display = "none";
     } else {
+        const body = document.body;
+        const html = document.documentElement;
+
+        // preview is a fixed 170:290~px. Adding a 10px margin too.
+        const maximumHeight = Math.max( body.scrollHeight, body.offsetHeight, 
+                                html.clientHeight, html.scrollHeight, html.offsetHeight ) - 300;
+        const maximumWidth = Math.max( body.scrollWidth, body.offsetWidth, 
+                                html.clientWidth, html.scrollWidth, html.offsetWidth ) - 180;
+                                
         document.getElementById('CardPreviewTooltip').style.display = "block";
-        document.getElementById('CardPreviewTooltip').style.top = (event.clientY + window.scrollY + 10)+"px";
-        document.getElementById('CardPreviewTooltip').style.left = (event.clientX + 10)+"px";
+        document.getElementById('CardPreviewTooltip').style.top = Math.min((event.clientY + window.scrollY + 10), maximumHeight)+"px";
+        document.getElementById('CardPreviewTooltip').style.left = Math.min((event.clientX + 10),maximumWidth)+"px";
     }
 }
 
@@ -1140,17 +1183,63 @@ function ShowFilterTooltip(ShowHide, Text) {
         document.getElementById('SpecialTextTooltip').style.left = (event.clientX + 10)+"px";
     }
 }
-function ToggleColourFilter(Colour) {
-    if (CardViewerFilter[Colour] == true) {
-        CardViewerFilter[Colour] = false;
-        document.getElementById("ColourFilter"+Colour).classList.add('CVOptionButtonUnselected');
-        document.getElementById("ColourFilter"+Colour).classList.remove('CVOptionButtonSelected');
-        document.getElementById("CVCOuterContainer"+Colour).style.display = "none";
-    } else {
-        CardViewerFilter[Colour] = true;
-        document.getElementById("ColourFilter"+Colour).classList.add('CVOptionButtonSelected');
-        document.getElementById("ColourFilter"+Colour).classList.remove('CVOptionButtonUnselected');
-        document.getElementById("CVCOuterContainer"+Colour).style.display = "block";
+function ToggleFilter(FilterValue) {
+    if (FilterValue == "R" || FilterValue == "U" || FilterValue == "B" || FilterValue == "G" || FilterValue == "C") {
+        if (CardViewerFilter[FilterValue] == true) {
+            CardViewerFilter[FilterValue] = false;
+            if (CardViewerFilter["R"] == false && CardViewerFilter["U"] == false && CardViewerFilter["B"] == false && CardViewerFilter["G"] == false && CardViewerFilter["C"] == false) { // If all colour filters are turned off
+                //Turn them all back on
+                document.getElementById("ColourFilterR").classList.remove('CVOptionButtonUnselected');
+                document.getElementById("ColourFilterR").classList.add('CVOptionButtonSelected');
+                document.getElementById("ColourFilterU").classList.remove('CVOptionButtonUnselected');
+                document.getElementById("ColourFilterU").classList.add('CVOptionButtonSelected');
+                document.getElementById("ColourFilterB").classList.remove('CVOptionButtonUnselected');
+                document.getElementById("ColourFilterB").classList.add('CVOptionButtonSelected');
+                document.getElementById("ColourFilterG").classList.remove('CVOptionButtonUnselected');
+                document.getElementById("ColourFilterG").classList.add('CVOptionButtonSelected');
+                document.getElementById("ColourFilterC").classList.remove('CVOptionButtonUnselected');
+                document.getElementById("ColourFilterC").classList.add('CVOptionButtonSelected');
+                document.getElementById("CVCOuterContainerR").style.display = "block";
+                document.getElementById("CVCOuterContainerU").style.display = "block";
+                document.getElementById("CVCOuterContainerB").style.display = "block";
+                document.getElementById("CVCOuterContainerG").style.display = "block";
+                document.getElementById("CVCOuterContainerC").style.display = "block";
+                CardViewerFilter["R"] = true;
+                CardViewerFilter["U"] = true;
+                CardViewerFilter["B"] = true;
+                CardViewerFilter["G"] = true;
+                CardViewerFilter["C"] = true;
+            } else {
+                document.getElementById("ColourFilter"+FilterValue).classList.add('CVOptionButtonUnselected');
+                document.getElementById("ColourFilter"+FilterValue).classList.remove('CVOptionButtonSelected');
+                document.getElementById("CVCOuterContainer"+FilterValue).style.display = "none";
+            }
+        } else {
+            CardViewerFilter[FilterValue] = true;
+            document.getElementById("ColourFilter"+FilterValue).classList.add('CVOptionButtonSelected');
+            document.getElementById("ColourFilter"+FilterValue).classList.remove('CVOptionButtonUnselected');
+            document.getElementById("CVCOuterContainer"+FilterValue).style.display = "block";
+        }
+    } else if (FilterValue == "signature") {
+        if (CardViewerFilter[FilterValue] == true) {
+            CardViewerFilter[FilterValue] = false;
+            document.getElementById("HiddenFilterSignature").classList.add('CVOptionButtonUnselected');
+            document.getElementById("HiddenFilterSignature").classList.remove('CVOptionButtonSelected');
+        } else {
+            CardViewerFilter[FilterValue] = true;
+            document.getElementById("HiddenFilterSignature").classList.add('CVOptionButtonSelected');
+            document.getElementById("HiddenFilterSignature").classList.remove('CVOptionButtonUnselected');
+        }
+    } else if (FilterValue == "uncollectable") {
+        if (CardViewerFilter[FilterValue] == true) {
+            CardViewerFilter[FilterValue] = false;
+            document.getElementById("HiddenFilterUncollectable").classList.add('CVOptionButtonUnselected');
+            document.getElementById("HiddenFilterUncollectable").classList.remove('CVOptionButtonSelected');
+        } else {
+            CardViewerFilter[FilterValue] = true;
+            document.getElementById("HiddenFilterUncollectable").classList.add('CVOptionButtonSelected');
+            document.getElementById("HiddenFilterUncollectable").classList.remove('CVOptionButtonUnselected');
+        }
     }
     GenerateCardViewerPage();
 }

@@ -970,6 +970,7 @@
     },
     {
         "card_id":200035,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-04",
@@ -1230,6 +1231,7 @@
     },
     {
         "card_id":200042,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-11",
@@ -2515,6 +2517,7 @@
     },
     {
         "card_id":200079,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-21",
@@ -2539,6 +2542,7 @@
     },
     {
         "card_id":200080,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-21",
@@ -2595,6 +2599,7 @@
     },
     {
         "card_id":200082,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -2953,6 +2958,7 @@
     },
     {
         "card_id":200093,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-21",
@@ -3566,6 +3572,7 @@
     },
     {
         "card_id":200117,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -3642,6 +3649,7 @@
     },
     {
         "card_id":200120,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -3915,6 +3923,7 @@
     },
     {
         "card_id":200129,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -4057,7 +4066,7 @@
     },
     {
         "card_id":200134,
-        "hide_from_card_list": true,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -4340,6 +4349,7 @@
     },
     {
         "card_id":200145,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -4521,6 +4531,7 @@
     },
     {
         "card_id": 200152,
+        "hide_from_card_list": "Uncollectable",
         "versions": [
             {
                 "release_date": "2020-05-25",
@@ -4719,6 +4730,7 @@
     },
     {
         "card_id": 200159,
+        "hide_from_card_list": "Uncollectable",
         "versions": [
             {
                 "release_date": "2020-05-25",
@@ -5028,7 +5040,7 @@
     },
     {
         "card_id":200170,
-        "hide_from_card_list": true,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -5057,6 +5069,7 @@
     },
     {
         "card_id": 200171,
+        "hide_from_card_list": "Uncollectable",
         "versions": [
             {
                 "release_date": "2020-05-25",
@@ -5914,6 +5927,7 @@
     },
     {
         "card_id":200202,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -6041,6 +6055,7 @@
     },
     {
         "card_id":200207,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -6326,7 +6341,7 @@
                 "hp": 6,
                 "abilities": ["210080_0","210081_0"],
                 "signature": ["200219_0"],
-                "related_cards": ["200218_0"]
+                "related_cards": ["200220_0"]
             }   
         ]
     },
@@ -6356,7 +6371,7 @@
     },
     {
         "card_id":200220,
-        "hide_from_card_list": true,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -6429,6 +6444,7 @@
     },
     {
         "card_id":200223,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -6457,6 +6473,7 @@
     },
     {
         "card_id":200224,
+        "hide_from_card_list": "Uncollectable",
             "versions":[
                 {
                     "release_date":"2020-05-25",
@@ -6485,6 +6502,7 @@
     },
     {
         "card_id":200225,
+        "hide_from_card_list": "Uncollectable",
             "versions":[
                 {
                     "release_date":"2020-05-25",
@@ -6513,6 +6531,7 @@
     },
     {
         "card_id":200226,
+        "hide_from_card_list": "Uncollectable",
             "versions":[
                 {
                     "release_date":"2020-05-25",
@@ -6787,6 +6806,7 @@
     },
     {
         "card_id":201009,
+        "hide_from_card_list": "Uncollectable",
             "versions":[
                 {
                     "release_date":"2020-05-25",
@@ -11071,7 +11091,7 @@
     },
     {
         "card_id":201188,
-        "hide_from_card_list": true,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -11100,7 +11120,7 @@
     },
     {
         "card_id":201189,
-        "hide_from_card_list": true,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -11129,7 +11149,7 @@
     },
     {
         "card_id":201190,
-        "hide_from_card_list": true,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -11159,7 +11179,7 @@
     },
     {
         "card_id":201191,
-        "hide_from_card_list": true,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -11189,7 +11209,7 @@
     },
     {
         "card_id":201192,
-        "hide_from_card_list": true,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -11242,7 +11262,7 @@
     },
     {
         "card_id":201194,
-        "hide_from_card_list": true,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",

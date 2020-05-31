@@ -45,9 +45,8 @@
             </div>
         </div>
 
-        <div id="PageContainer" class="RestrictWidth">
-
-            <div id="CVOptions">
+        <div id="CVOptions">
+            <div class="RestrictWidth">
                 <div class="CVOptionContainer">
                     <div class="CVOptionName">
                         LAYOUT
@@ -60,11 +59,19 @@
                     <div class="CVOptionName">
                         COLOUR FILTER
                     </div>
-                    <div id="ColourFilterR" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowFilterTooltip(1, 'Red')"; onmouseout="ShowFilterTooltip(0,0)"; onmouseup="ToggleColourFilter('R');"></div>
-                    <div id="ColourFilterU" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowFilterTooltip(1, 'Blue')"; onmouseout="ShowFilterTooltip(0,0)"; onmouseup="ToggleColourFilter('U');"></div>
-                    <div id="ColourFilterB" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowFilterTooltip(1, 'Black')"; onmouseout="ShowFilterTooltip(0,0)"; onmouseup="ToggleColourFilter('B');"></div>
-                    <div id="ColourFilterG" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowFilterTooltip(1, 'Green')"; onmouseout="ShowFilterTooltip(0,0)"; onmouseup="ToggleColourFilter('G');"></div>
-                    <div id="ColourFilterC" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowFilterTooltip(1, 'Colourless')"; onmouseout="ShowFilterTooltip(0,0)"; onmouseup="ToggleColourFilter('C');"></div>
+                    <div id="ColourFilterR" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowFilterTooltip(1, 'Red')"; onmouseout="ShowFilterTooltip(0,0)"; onmouseup="ToggleFilter('R');"></div>
+                    <div id="ColourFilterU" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowFilterTooltip(1, 'Blue')"; onmouseout="ShowFilterTooltip(0,0)"; onmouseup="ToggleFilter('U');"></div>
+                    <div id="ColourFilterB" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowFilterTooltip(1, 'Black')"; onmouseout="ShowFilterTooltip(0,0)"; onmouseup="ToggleFilter('B');"></div>
+                    <div id="ColourFilterG" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowFilterTooltip(1, 'Green')"; onmouseout="ShowFilterTooltip(0,0)"; onmouseup="ToggleFilter('G');"></div>
+                    <div id="ColourFilterC" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowFilterTooltip(1, 'Colourless')"; onmouseout="ShowFilterTooltip(0,0)"; onmouseup="ToggleFilter('C');"></div>
+                    <div class="clear"></div>
+                </div>
+                <div class="CVOptionContainer">
+                    <div class="CVOptionName">
+                        ADDITIONAL FILTERS
+                    </div>
+                    <div id="HiddenFilterUncollectable" class="CVOptionButton CVOptionButtonUnselected" onmousemove="ShowFilterTooltip(1, 'Show or Hide Uncollectable Cards')"; onmouseout="ShowFilterTooltip(0,0)"; onmouseup="ToggleFilter('uncollectable');"></div>
+                    <div id="HiddenFilterSignature" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowFilterTooltip(1, 'Show or Hide Signature Cards')"; onmouseout="ShowFilterTooltip(0,0)"; onmouseup="ToggleFilter('signature');"></div>
                     <div class="clear"></div>
                 </div>
                 <div class="CVOptionContainer floatr">
@@ -76,6 +83,11 @@
                 </div>
                 <div class="clear"></div>
             </div>
+        </div>
+
+        <div id="PageContainer" class="RestrictWidth">
+
+
 
             <div id="CVLView">
                 <div id="CardViewerPage_Left">
