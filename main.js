@@ -1052,9 +1052,18 @@ function CardViewerCardPreviewTooltip(CardIDV, ShowHide) {
     if (ShowHide == 0) { //Hide
         document.getElementById('CardPreviewTooltip').style.display = "none";
     } else {
+        const body = document.body;
+        const html = document.documentElement;
+
+        // preview is a fixed 170:290~px. Adding a 10px margin too.
+        const maximumHeight = Math.max( body.scrollHeight, body.offsetHeight, 
+                                html.clientHeight, html.scrollHeight, html.offsetHeight ) - 300;
+        const maximumWidth = Math.max( body.scrollWidth, body.offsetWidth, 
+                                html.clientWidth, html.scrollWidth, html.offsetWidth ) - 180;
+                                
         document.getElementById('CardPreviewTooltip').style.display = "block";
-        document.getElementById('CardPreviewTooltip').style.top = (event.clientY + window.scrollY + 10)+"px";
-        document.getElementById('CardPreviewTooltip').style.left = (event.clientX + 10)+"px";
+        document.getElementById('CardPreviewTooltip').style.top = Math.min((event.clientY + window.scrollY + 10), maximumHeight)+"px";
+        document.getElementById('CardPreviewTooltip').style.left = Math.min((event.clientX + 10),maximumWidth)+"px";
     }
 }
 
