@@ -6698,6 +6698,7 @@
     },
     {
         "card_id":201005,
+        "searchterm": "Tomato",
             "versions":[
                 {
                     "release_date":"2020-05-25",
@@ -6997,6 +6998,7 @@
     },
     {
         "card_id":201016,
+        "searchterm": "Tomato",
             "versions":[
                 {
                     "release_date":"2020-05-25",
@@ -8138,6 +8140,7 @@
     },
     {
         "card_id":201058,
+        "searchterm": "Potato",
             "versions":[
                 {
                     "release_date":"2020-05-25",
