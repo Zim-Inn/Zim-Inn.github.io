@@ -896,6 +896,11 @@ body {
         height: 60px;
         padding: 20px 0 0 10px;
         font-size: 28pt;
+    }    
+}
+@media (pointer:coarse) and (max-width: 1100px){
+    #SiteHeaderInner{
+        width: unset;
     }
 }
 
