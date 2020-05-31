@@ -444,7 +444,7 @@
                 "armour": 0,
                 "hp": 5,
                 "abilities": ["210018_0"],
-                "signature": ["200017_0"]
+                "signature": ["200017_1"]
             }   
         ]
     },
@@ -465,6 +465,25 @@
                 "cost": 2,
                 "text":{
                     "english":"Redeploy caster if they survive combat."
+                },
+                "crosslane": false,
+                "quick": false,
+                "is_signature": "200015_0"
+            }, 
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Spell",
+                "card_name":{
+                    "english":"Shadow Walk"
+                },
+                "set": 1,
+                "rarity": 1,
+                "colour": "B",
+                "image": "200016_0",
+                "miniimage": "200016_0",
+                "cost": 2,
+                "text":{
+                    "english":"Give caster Untargetable.\n\nBounce caster if they survive combat."
                 },
                 "crosslane": false,
                 "quick": false,
@@ -951,6 +970,7 @@
     },
     {
         "card_id":200035,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-04",
@@ -1211,6 +1231,7 @@
     },
     {
         "card_id":200042,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-11",
@@ -2203,7 +2224,7 @@
                 "miniimage": "200069_0",
                 "cost": 2,
                 "text":{
-                    "english":" /n Caster battles another hero. Give the winner +1 damage permanently."
+                    "english":" /n Caster battles another hero. Give the winner +1[ATT] permanently."
                 },
                 "crosslane": false,
                 "quick": false,
@@ -2496,6 +2517,7 @@
     },
     {
         "card_id":200079,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-21",
@@ -2520,6 +2542,7 @@
     },
     {
         "card_id":200080,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-21",
@@ -2576,6 +2599,7 @@
     },
     {
         "card_id":200082,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -2880,7 +2904,7 @@
                 "miniimage": "200071_0",
                 "cost": 4,
                 "text":{
-                    "english":" /n Choose a creep and an enemy. They battle each other. Allied creeps have +2 damage during Enchant."
+                    "english":" /n Choose a creep and another enemy. They battle each other. Allied creeps used this way deal +2 damage."
                 },
                 "crosslane": false,
                 "quick": false,
@@ -2934,6 +2958,7 @@
     },
     {
         "card_id":200093,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-21",
@@ -3136,7 +3161,7 @@
                 "image": "200100_0",
                 "miniimage": "200100_0",
                 "text":{
-                    "english":" /n Purge opponent's effects from a unit. Give it Magic Immunity. /n [TG][QU]Quickcast[ET]"
+                    "english":" /n Purge opponent's effects from a unit. Give it Untargetable. /n [TG][QU]Quickcast[ET]"
                 },
                 "crosslane": false,
                 "quick": true,
@@ -3547,6 +3572,7 @@
     },
     {
         "card_id":200117,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -3623,6 +3649,7 @@
     },
     {
         "card_id":200120,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -3896,6 +3923,7 @@
     },
     {
         "card_id":200129,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -4038,7 +4066,7 @@
     },
     {
         "card_id":200134,
-        "hide_from_card_list": true,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -4321,6 +4349,7 @@
     },
     {
         "card_id":200145,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -4502,6 +4531,7 @@
     },
     {
         "card_id": 200152,
+        "hide_from_card_list": "Uncollectable",
         "versions": [
             {
                 "release_date": "2020-05-25",
@@ -4700,6 +4730,7 @@
     },
     {
         "card_id": 200159,
+        "hide_from_card_list": "Uncollectable",
         "versions": [
             {
                 "release_date": "2020-05-25",
@@ -5009,7 +5040,7 @@
     },
     {
         "card_id":200170,
-        "hide_from_card_list": true,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -5038,6 +5069,7 @@
     },
     {
         "card_id": 200171,
+        "hide_from_card_list": "Uncollectable",
         "versions": [
             {
                 "release_date": "2020-05-25",
@@ -5895,6 +5927,7 @@
     },
     {
         "card_id":200202,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -6022,6 +6055,7 @@
     },
     {
         "card_id":200207,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -6307,7 +6341,7 @@
                 "hp": 6,
                 "abilities": ["210080_0","210081_0"],
                 "signature": ["200219_0"],
-                "related_cards": ["200218_0"]
+                "related_cards": ["200220_0"]
             }   
         ]
     },
@@ -6337,7 +6371,7 @@
     },
     {
         "card_id":200220,
-        "hide_from_card_list": true,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -6410,6 +6444,7 @@
     },
     {
         "card_id":200223,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -6438,6 +6473,7 @@
     },
     {
         "card_id":200224,
+        "hide_from_card_list": "Uncollectable",
             "versions":[
                 {
                     "release_date":"2020-05-25",
@@ -6466,6 +6502,7 @@
     },
     {
         "card_id":200225,
+        "hide_from_card_list": "Uncollectable",
             "versions":[
                 {
                     "release_date":"2020-05-25",
@@ -6494,6 +6531,7 @@
     },
     {
         "card_id":200226,
+        "hide_from_card_list": "Uncollectable",
             "versions":[
                 {
                     "release_date":"2020-05-25",
@@ -6768,6 +6806,7 @@
     },
     {
         "card_id":201009,
+        "hide_from_card_list": "Uncollectable",
             "versions":[
                 {
                     "release_date":"2020-05-25",
@@ -11052,7 +11091,7 @@
     },
     {
         "card_id":201188,
-        "hide_from_card_list": true,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -11081,7 +11120,7 @@
     },
     {
         "card_id":201189,
-        "hide_from_card_list": true,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -11110,7 +11149,7 @@
     },
     {
         "card_id":201190,
-        "hide_from_card_list": true,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -11140,7 +11179,7 @@
     },
     {
         "card_id":201191,
-        "hide_from_card_list": true,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -11170,7 +11209,7 @@
     },
     {
         "card_id":201192,
-        "hide_from_card_list": true,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
@@ -11223,7 +11262,7 @@
     },
     {
         "card_id":201194,
-        "hide_from_card_list": true,
+        "hide_from_card_list": "Uncollectable",
         "versions":[
             {
                 "release_date":"2020-05-25",
