@@ -161,7 +161,7 @@ function CVChangeViewStyle(View) {
     }
 }
 
-CardViewerFilter = {text:"", set1: true, rarity1: true, rarity2: true, rarity3: true, rarity4: true, rarity5: true, quick: true, crosslane: true, R: true, U: true, B: true, G: true, C: true, signature: true, uncollectable: false}
+CardViewerFilter = {text:"", includeabilitytext: false, set1: true, rarity1: true, rarity2: true, rarity3: true, rarity4: true, rarity5: true, quick: true, crosslane: true, R: true, U: true, B: true, G: true, C: true, signature: true, uncollectable: false}
 
 function GenerateCardViewerPage() {
     CardViewerFilter['text'] = document.getElementById('CardTextFilter').value;
@@ -177,11 +177,28 @@ function GenerateCardViewerPage() {
         LatestCardVersion = CardJSON[i]['versions'].length - 1;
 
         textfilter = new RegExp(CardViewerFilter['text'], "i");
+        CardTextForFilter = "";
         if ("text" in CardJSON[i]['versions'][LatestCardVersion]) {
-            CardTextForFilter = CardJSON[i]['versions'][LatestCardVersion]["text"]["english"];
-        } else {
-            CardTextForFilter = "";
+            CardTextForFilter += CardJSON[i]['versions'][LatestCardVersion]["text"]["english"];
+        } 
+        if (CardViewerFilter['includeabilitytext'] == true) {
+            if ("abilities" in CardJSON[i]['versions'][LatestCardVersion]) {
+                for (aa1 = 0; aa1 < CardJSON[i]['versions'][LatestCardVersion]['abilities'].length; aa1++) {
+                    AbilityIDV = CardJSON[i]['versions'][LatestCardVersion]['abilities'][aa1].split("_");
+                    AbilityID = AbilityIDV[0];
+                    AbilityVersion = AbilityIDV[1];
+                    for (aa2 = 0; aa2 < AbilityJSON.length; aa2++) {
+                        if ((AbilityJSON[aa2]['card_id']) == AbilityID) {
+                            AbilityTextSearchArrayIndex = aa2;
+                            break;
+                        }
+                    }
+                    CardTextForFilter += AbilityJSON[AbilityTextSearchArrayIndex]['versions'][AbilityVersion]['ability_name']['english'];
+                    CardTextForFilter += AbilityJSON[AbilityTextSearchArrayIndex]['versions'][AbilityVersion]['text']['english'];       
+                }
+            } 
         }
+
         if ("searchterm" in CardJSON[i]) {
             SearchTermForFilter = CardJSON[i]["searchterm"];
         } else {
@@ -211,7 +228,6 @@ function GenerateCardViewerPage() {
         if (CardJSON[i]['versions'][LatestCardVersion]['card_name']['english'].search(textfilter) != -1 || CardTextForFilter.search(textfilter) != -1 || SearchTermForFilter.search(textfilter) != -1) {
             if (ColourCheckPass == true) {
                 if (SignatureFilterCheck == true) {
-                    //if (!("hide_from_card_list" in CardJSON[i]) || HideFromCardListFilter.contains(CardJSON[i]['hide_from_card_list'])) {
                     if (HideFromCardListCheck == true) {
                         switch (CardJSON[i]['versions'][LatestCardVersion]["card_type"]) {
                             case 'Hero':
@@ -1237,6 +1253,16 @@ function ToggleFilter(FilterValue) {
             CardViewerFilter[FilterValue] = true;
             document.getElementById("HiddenFilterUncollectable").classList.add('CVOptionButtonSelected');
             document.getElementById("HiddenFilterUncollectable").classList.remove('CVOptionButtonUnselected');
+        }
+    } else if (FilterValue == "abilitytext") {
+        if (CardViewerFilter['includeabilitytext'] == true) {
+            CardViewerFilter['includeabilitytext'] = false;
+            document.getElementById("FilterIncludeAbilityText").classList.add('CVOptionButtonUnselected');
+            document.getElementById("FilterIncludeAbilityText").classList.remove('CVOptionButtonSelected');
+        } else {
+            CardViewerFilter['includeabilitytext'] = true;
+            document.getElementById("FilterIncludeAbilityText").classList.add('CVOptionButtonSelected');
+            document.getElementById("FilterIncludeAbilityText").classList.remove('CVOptionButtonUnselected');
         }
     }
     GenerateCardViewerPage();

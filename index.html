@@ -13,8 +13,10 @@
         <meta charset="utf-8" />   
         <title>Artifact 2 Card Viewer</title>   
         <link rel="preload" href="Styles/standard.css" as="style">
+        <link rel="preload" href="Styles/cards.css" as="style">
+
         <link rel="stylesheet" href="Styles/standard.css">
-        <link rel="stylesheet" href="Styles/cards.css">      
+        <link rel="stylesheet" href="Styles/cards.css">  
     </head> 
 
     <body>
@@ -79,6 +81,13 @@
                         CARD NAME AND TEXT SEARCH
                     </div>
                     <input type="text" id="CardTextFilter" value="" onkeyup="GenerateCardViewerPage(CardViewerFilter);">
+                    <div class="clear"></div>
+                </div>
+                <div class="CVOptionContainer floatr">
+                    <div class="CVOptionName">
+                        &nbsp;
+                    </div>
+                    <div id="FilterIncludeAbilityText" class="CVOptionButton CVOptionButtonUnselected" onmousemove="ShowFilterTooltip(1, 'Include text from card abiltiies in the text search')"; onmouseout="ShowFilterTooltip(0,0)"; onmouseup="ToggleFilter('abilitytext');"></div>
                     <div class="clear"></div>
                 </div>
                 <div class="clear"></div>
@@ -201,11 +210,9 @@
                     Desc
                 </div>
             </div>
-    
-        </div> 
+        </div>    
 
-        <script src="main.js"></script>
-
+        <script src="main.js"></script>    
+        
     </body>
-    
 </html>
