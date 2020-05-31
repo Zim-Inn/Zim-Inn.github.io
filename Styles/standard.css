@@ -317,6 +317,9 @@ body {
     color: #ccc;
     font-size: 12pt;
 }
+#hiddenClipboard{
+    opacity: 0;
+}
 
 .CardListItemContainer {
     background-size: 100%;
@@ -874,6 +877,7 @@ body {
         font-size: 28pt;
     }
 }
+
 
 .float {
     float: left;
