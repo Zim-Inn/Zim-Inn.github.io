@@ -1324,7 +1324,7 @@
                 "image": "210077_0",
                 "cost": 1,
                 "text":{
-                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Move Meepo to the first empty position in any Meepo's kane (including this one). Deal 2 damage to the new adjacent enemies. /n [TG][QU]Quickcast[ET]"
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Move Meepo to the first empty position in any Meepo's lane (including this one). Deal 2 damage to the new adjacent enemies. /n [TG][QU]Quickcast[ET]"
                 }
             }
         ]
