@@ -378,7 +378,7 @@
                 "miniimage": "200013_0",
                 "cost": 2,
                 "text":{
-                    "english":"+1 max Mana this round."
+                    "english":"[TG]Round Start:[ET] +1 max Mana."
                 },
                 "attack": 1,
                 "armour": 0,
@@ -5816,6 +5816,29 @@
                     "english": " /n [TG]Aura:[ET] You and your neighbors have +2[ATT] and +2 Regeneration."
                 },
                 "attack": 2,
+                "armour": 0,
+                "hp": 6,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            },
+            {
+                "release_date": "2020-05-26",
+                "card_type": "Item",
+                "card_subtype": "Weapon",
+                "card_name": {
+                    "english": "Wingfall Hammer"
+                },
+                "set": 1,
+                "rarity": 1,
+                "image": "200197_0",
+                "miniimage": "200197_0",
+                "cost": 1,
+                "gcost": 20,
+                "text": {
+                    "english": " /n [TG]Aura:[ET] You and your neighbors have +3[ATT] and +3 Regeneration."
+                },
+                "attack": 3,
                 "armour": 0,
                 "hp": 6,
                 "abilities": [],
