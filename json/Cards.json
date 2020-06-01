@@ -2197,6 +2197,32 @@
                 "hp": 5,
                 "abilities": ["210032_0"],
                 "signature": ["200069_0"]
+            },
+            {
+                "release_date":"2020-06-02",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Legion Commander"
+                },
+                "lore":{
+                    "text": {
+                        "english": "I know these people think me a monster. I don't blame them. No one wants to be occupied, but it's in their best interests! If we weren't here in Roseleaf the Red Mist would have slaughtered them all... today the Vhoul see us as villains, but after we defeat Sorla Khan... The Bronze Legion will be heralded as the heroes we are."
+                    },
+                    "tag": {
+                        "english": "Tresdin, Legion Commander"
+                    }
+                },
+                "set": 1,
+                "rarity": 2,
+                "colour": "R",
+                "image": "200068_0",
+                "miniimage": "200068_0",
+                "icon": "200068_0",
+                "attack": 5,
+                "armour": 1,
+                "hp": 4,
+                "abilities": ["210032_1"],
+                "signature": ["200069_0"]
             }
         ]
     },
@@ -2228,7 +2254,7 @@
                 },
                 "crosslane": false,
                 "quick": false,
-                "is_signature": "200068_0"
+                "is_signature": "200068_1"
             }
         ]
     },
@@ -4517,7 +4543,7 @@
                 "cost": 1,
                 "gcost": 15,
                 "text": {
-                    "english": "/n [TG]+2[AR]/n Active 1[AC], 1 Mana:[ET] Destroy Artificer's Mail and Sumon an Animated Armor"
+                    "english": "/n [TG]+2[AR]/n Active 1[AC], 1 Mana:[ET] Destroy Artificer's Mail and Summon an Animated Armor"
                 },
                 "attack": 0,
                 "armour": 2,
@@ -4525,7 +4551,7 @@
                 "abilities": [],
                 "crosslane": false,
                 "quick": false,
-                "related_cards": ["200152_0"]
+                "related_cards": ["200152_1"]
             }
         ]
     },
@@ -4547,7 +4573,31 @@
                 "colour": "C",
                 "cost": 5,
                 "text": {
-                    "english": "/n [TG]Death Effect:[ET] Put an Artificer's Mail card into your hand"
+                    "english": "/n [TG]Death Effect:[ET] Put an Artificer's Mail card into your hand."
+                },
+                "attack": 3,
+                "armour": 1,
+                "hp": 2,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false,
+                "related_cards": ["200151_0"]
+            },
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Summon",
+                "card_subtype": "",
+                "card_name": {
+                    "english": "Animated Armor"
+                },
+                "set": 1,
+                "rarity": 2,
+                "image": "200152_0",
+                "miniimage": "200152_0",
+                "colour": "C",
+                "cost": 5,
+                "text": {
+                    "english": "/n [TG]Death Effect:[ET] Put a locked Artificer's Mail card into your hand."
                 },
                 "attack": 3,
                 "armour": 1,
@@ -11344,6 +11394,55 @@
                 "related_cards":["201023_0","201078_0"],
                 "crosslane": false,
                 "quick": false
+            }
+        ]
+    },
+    {
+        "card_id":201196,
+        "versions":[
+            {
+                "release_date":"2020-06-02",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Nyx Assassin"
+                },
+                "set": 1,
+                "rarity": 4,
+                "colour": "B",
+                "image": "201196_0",
+                "miniimage": "201196_0",
+                "icon": "201196_0",
+                "attack": 3,
+                "armour": 0,
+                "hp": 4,
+                "abilities": [
+                    "210084_0"
+                ],
+                "signature": ["201197_0"]
+            }
+        ]
+    },
+    {
+        "card_id":201197,
+        "versions":[
+            {
+                "release_date":"2020-06-02",
+                "card_type":"Spell",
+                "card_name":{
+                    "english":"Spiked Carrapice"
+                },
+                "set": 1,
+                "rarity": 4,
+                "colour": "B",
+                "image": "201197_0",
+                "miniimage": "201197_0",
+                "cost": 1,
+                "text":{
+                    "english":" /n Choose Caster. When taking damage this turn, reflect damage back, stun its soruce until its next combat, then purge enemy effects from this unit."
+                },
+                "crosslane": false,
+                "quick": false,
+                "is_signature": "201196_0"
             }
         ]
     }

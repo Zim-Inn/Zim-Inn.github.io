@@ -509,6 +509,19 @@
                 "text":{
                     "english":"After battling a unit, heal 2."
                 }
+            },
+            {
+                "release_date":"2020-06-02",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Moment of Courage"
+                 },
+                "cooldown": 0,
+                "image": "210032_0",
+                "cost": 0,
+                "text":{
+                    "english":"After battling a unit, heal 3."
+                }
             }
         ]
     },
@@ -1439,6 +1452,25 @@
                 "cost": 0,
                 "text":{
                     "english":"Beastmaster has +2 attack per neighboring Loyal Beast."
+                }
+            }
+        ]
+    },
+    {
+        "card_id":210084,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-06-02",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Vendetta"
+                 },
+                "cooldown": 3,
+                "image": "210084_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Move to a position in any lane. Myx Assassin sneak attacks the new unit blocking it with +3[ATT]."
                 }
             }
         ]
