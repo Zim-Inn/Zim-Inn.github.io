@@ -7233,6 +7233,7 @@
                     "armour": 0,
                     "hp": 1,
                     "abilities": [],
+                    "related_cards": ["201195_0"],
                     "crosslane": false,
                     "quick": false
                 }
@@ -8687,6 +8688,7 @@
                         "english":"/n Enchant Tower /n [TG]Active 1[AC], 1 Mana:[ET] Equip an allied hero with basic items."
                     },
                     "crosslane": false,
+                    "related_cards": ["201195_0"],
                     "quick": false
                 }
             ]
@@ -10799,7 +10801,7 @@
                     "release_date":"2020-05-25",
                     "card_type":"Spell",
                     "card_name":{
-                        "english":"Springgan Mischief"
+                        "english":"Spriggan Mischief"
                     },
                     "set": 1,
                     "rarity": 5,
@@ -11186,8 +11188,8 @@
                 },
                 "set": 1,
                 "rarity": 1,
-                "image": "PH2",
-                "miniimage": "PH",
+                "image": "201190_0",
+                "miniimage": "201190_0",
                 "cost": 1,
                 "gcost": 0,
                 "text":{
@@ -11216,8 +11218,8 @@
                 },
                 "set": 1,
                 "rarity": 1,
-                "image": "PH2",
-                "miniimage": "PH",
+                "image": "201191_0",
+                "miniimage": "201191_0",
                 "cost": 1,
                 "gcost": 0,
                 "text":{
@@ -11246,8 +11248,8 @@
                 },
                 "set": 1,
                 "rarity": 1,
-                "image": "PH2",
-                "miniimage": "PH",
+                "image": "201192_0",
+                "miniimage": "201192_0",
                 "cost": 1,
                 "gcost": 0,
                 "text":{
@@ -11310,6 +11312,36 @@
                 "hp": 1,
                 "abilities": [ ],
                 "related_cards": ["201102_0"],
+                "crosslane": false,
+                "quick": false
+            }
+        ]
+    },
+    {
+        "card_id":201195,
+        "hide_from_card_list": "Uncollectable",
+        "versions":[
+            {
+                "release_date":"2020-05-25",
+                "card_type":"Item",
+                "card_subtype": "Weapon",
+                "card_name":{
+                    "english":"Short Sword"
+                },
+                "set": 0,
+                "rarity": 0,
+                "image": "201195_0",
+                "miniimage": "201195_0",
+                "cost": 1,
+                "gcost": 5,
+                "text":{
+                    "english":" /n /n +2[ATT]"
+                },
+                "attack": 2,
+                "armour": 0,
+                "hp": 0,
+                "abilities": [ ],
+                "related_cards":["201023_0","201078_0"],
                 "crosslane": false,
                 "quick": false
             }
