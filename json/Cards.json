@@ -2905,7 +2905,38 @@
                 "text":{
                     "english":" /n +2[ATT] and +3 Cleave."
                 },
-                "attack": 10,
+                "attack": 2,
+                "armour": 0,
+                "hp": 0,
+                "abilities": [ ],
+                "crosslane": false,
+                "quick": false
+            },
+            {
+                "release_date":"2020-06-02",
+                "card_type":"Item",
+                "card_subtype": "Weapon",
+                "card_name":{
+                    "english":"Blade of the Vigil"
+                },
+                "lore":{
+                    "text": {
+                        "english": "The Knights of the Vigil were renowned for their skill in battle. The stories of Sven, Geeta the Wildblade, and Klemens have captured the imagination of so many... you can't throw a rock in the Gardens of Freth without hitting a group of school kids recreating their adventures. But playing a knight is easy... wielding one of their swords is far more challenging."
+                    },
+                    "tag": {
+                        "english": "Jolixia, The Card Faun"
+                    }
+                },
+                "set": 1,
+                "rarity": 1,
+                "image": "200090_0",
+                "miniimage": "200090_0",
+                "cost": 1,
+                "gcost": 15,
+                "text":{
+                    "english":" /n +4 Cleave."
+                },
+                "attack": 0,
                 "armour": 0,
                 "hp": 0,
                 "abilities": [ ],
