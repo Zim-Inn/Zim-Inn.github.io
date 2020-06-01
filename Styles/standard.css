@@ -625,7 +625,8 @@ body {
     margin-bottom: 20px;
 }
 .CVCOuterContainer80 {
-    width: 80%;
+    min-width: 80%;
+    min-height: 10px;
     float: left;
 }
 .CVCOuterContainer20 {
