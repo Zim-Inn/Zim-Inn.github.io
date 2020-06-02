@@ -2197,6 +2197,32 @@
                 "hp": 5,
                 "abilities": ["210032_0"],
                 "signature": ["200069_0"]
+            },
+            {
+                "release_date":"2020-06-02",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Legion Commander"
+                },
+                "lore":{
+                    "text": {
+                        "english": "I know these people think me a monster. I don't blame them. No one wants to be occupied, but it's in their best interests! If we weren't here in Roseleaf the Red Mist would have slaughtered them all... today the Vhoul see us as villains, but after we defeat Sorla Khan... The Bronze Legion will be heralded as the heroes we are."
+                    },
+                    "tag": {
+                        "english": "Tresdin, Legion Commander"
+                    }
+                },
+                "set": 1,
+                "rarity": 2,
+                "colour": "R",
+                "image": "200068_0",
+                "miniimage": "200068_0",
+                "icon": "200068_0",
+                "attack": 5,
+                "armour": 1,
+                "hp": 4,
+                "abilities": ["210032_1"],
+                "signature": ["200069_0"]
             }
         ]
     },
@@ -2228,7 +2254,7 @@
                 },
                 "crosslane": false,
                 "quick": false,
-                "is_signature": "200068_0"
+                "is_signature": "200068_1"
             }
         ]
     },
@@ -2534,6 +2560,25 @@
                 "cost": 0,
                 "text":{
                     "english":" /n Restore 1 mana, per round, when you play an item."
+                },
+                "crosslane": false,
+                "quick": false
+            },
+            {
+                "release_date":"2020-06-02",
+                "card_type":"Improvement",
+                "improvement_type": "Passive",
+                "card_name":{
+                    "english":"Courier"
+                },
+                "set": 1,
+                "rarity": 1,
+                "colour": "C",
+                "image": "200079_0",
+                "miniimage": "200079_0",
+                "cost": 0,
+                "text":{
+                    "english":" /n The first item you play each round cost 1 less."
                 },
                 "crosslane": false,
                 "quick": false
@@ -2879,7 +2924,38 @@
                 "text":{
                     "english":" /n +2[ATT] and +3 Cleave."
                 },
-                "attack": 10,
+                "attack": 2,
+                "armour": 0,
+                "hp": 0,
+                "abilities": [ ],
+                "crosslane": false,
+                "quick": false
+            },
+            {
+                "release_date":"2020-06-02",
+                "card_type":"Item",
+                "card_subtype": "Weapon",
+                "card_name":{
+                    "english":"Blade of the Vigil"
+                },
+                "lore":{
+                    "text": {
+                        "english": "The Knights of the Vigil were renowned for their skill in battle. The stories of Sven, Geeta the Wildblade, and Klemens have captured the imagination of so many... you can't throw a rock in the Gardens of Freth without hitting a group of school kids recreating their adventures. But playing a knight is easy... wielding one of their swords is far more challenging."
+                    },
+                    "tag": {
+                        "english": "Jolixia, The Card Faun"
+                    }
+                },
+                "set": 1,
+                "rarity": 1,
+                "image": "200090_0",
+                "miniimage": "200090_0",
+                "cost": 1,
+                "gcost": 15,
+                "text":{
+                    "english":" /n +4 Cleave."
+                },
+                "attack": 0,
                 "armour": 0,
                 "hp": 0,
                 "abilities": [ ],
@@ -3401,7 +3477,25 @@
                 "hp": 7,
                 "abilities": ["210049_0"],
                 "signature": ["200110_0"]
-            }   
+            },
+            {
+                "release_date":"2020-06-02",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Sand King"
+                },
+                "set": 1,
+                "rarity": 3,
+                "colour": "G",
+                "image": "200109_0",
+                "miniimage": "200109_0",
+                "icon": "200109_0",
+                "attack": 3,
+                "armour": 0,
+                "hp": 7,
+                "abilities": ["210049_1"],
+                "signature": ["200110_0"]
+            } 
         ]
     },
     {
@@ -4517,7 +4611,7 @@
                 "cost": 1,
                 "gcost": 15,
                 "text": {
-                    "english": "/n [TG]+2[AR]/n Active 1[AC], 1 Mana:[ET] Destroy Artificer's Mail and Sumon an Animated Armor"
+                    "english": "/n [TG]+2[AR]/n Active 1[AC], 1 Mana:[ET] Destroy Artificer's Mail and Summon an Animated Armor"
                 },
                 "attack": 0,
                 "armour": 2,
@@ -4525,7 +4619,7 @@
                 "abilities": [],
                 "crosslane": false,
                 "quick": false,
-                "related_cards": ["200152_0"]
+                "related_cards": ["200152_1"]
             }
         ]
     },
@@ -4547,7 +4641,31 @@
                 "colour": "C",
                 "cost": 5,
                 "text": {
-                    "english": "/n [TG]Death Effect:[ET] Put an Artificer's Mail card into your hand"
+                    "english": "/n [TG]Death Effect:[ET] Put an Artificer's Mail card into your hand."
+                },
+                "attack": 3,
+                "armour": 1,
+                "hp": 2,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false,
+                "related_cards": ["200151_0"]
+            },
+            {
+                "release_date": "2020-05-25",
+                "card_type": "Summon",
+                "card_subtype": "",
+                "card_name": {
+                    "english": "Animated Armor"
+                },
+                "set": 1,
+                "rarity": 2,
+                "image": "200152_0",
+                "miniimage": "200152_0",
+                "colour": "C",
+                "cost": 5,
+                "text": {
+                    "english": "/n [TG]Death Effect:[ET] Put a locked Artificer's Mail card into your hand."
                 },
                 "attack": 3,
                 "armour": 1,
@@ -4689,6 +4807,29 @@
                 "gcost": 15,
                 "text": {
                     "english": "/n +6[HP]/n After a neighbor dies, Draw a card"
+                },
+                "attack": 0,
+                "armour": 0,
+                "hp": 6,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            },
+            {
+                "release_date": "2020-06-02",
+                "card_type": "Item",
+                "card_subtype": "Accessory",
+                "card_name": {
+                    "english": "Cloak of Endless Carnage"
+                },
+                "set": 1,
+                "rarity": 3,
+                "image": "200157_0",
+                "miniimage": "200157_0",
+                "cost": 1,
+                "gcost": 15,
+                "text": {
+                    "english": "/n +6[HP]/n The first time a neighbor dies, Draw a card"
                 },
                 "attack": 0,
                 "armour": 0,
@@ -7615,6 +7756,28 @@
                     "abilities": [],
                     "crosslane": false,
                     "quick": true
+                },
+                {
+                    "release_date":"2020-06-02",
+                    "card_type":"Creep",
+                    "card_name":{
+                        "english":"Ravenous Mass"
+                    },
+                    "set": 1,
+                    "rarity": 3,
+                    "colour": "B",
+                    "image": "201037_0",
+                    "miniimage": "201037_0",
+                    "cost": 1,
+                    "text":{
+                        "english":"/n /n [TG]Active 0[AC], 1 Mana:[ET] Move to an allied neighbor and devour it. /n [TG][QU]Quickcast[ET]"
+                    },
+                    "attack": 1,
+                    "armour": 0,
+                    "hp": 1,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": true
                 }
             ]
     },
@@ -7691,6 +7854,28 @@
                     "cost": 2,
                     "text":{
                         "english":"/n [TG]Play Effect:[ET] Give Assassin's Apprentice quickstrike until it battles."
+                    },
+                    "attack": 2,
+                    "armour": 0,
+                    "hp": 2,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                },
+                {
+                    "release_date":"2020-06-02",
+                    "card_type":"Creep",
+                    "card_name":{
+                        "english":"Assassin's Apprentice"
+                    },
+                    "set": 1,
+                    "rarity": 2,
+                    "colour": "B",
+                    "image": "201040_0",
+                    "miniimage": "201040_0",
+                    "cost": 2,
+                    "text":{
+                        "english":"/n /n Quickstrike."
                     },
                     "attack": 2,
                     "armour": 0,
@@ -8043,6 +8228,28 @@
                     "cost": 6,
                     "text":{
                         "english":" /n [TG]Play Effect:[ET] Give Assassin's Shadow quickstrike until it battles."
+                    },
+                    "attack": 6,
+                    "armour": 0,
+                    "hp": 5,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                },
+                {
+                    "release_date":"2020-06-02",
+                    "card_type":"Creep",
+                    "card_name":{
+                        "english":"Assassin's Shadow"
+                    },
+                    "set": 1,
+                    "rarity": 2,
+                    "colour": "B",
+                    "image": "201053_0",
+                    "miniimage": "201053_0",
+                    "cost": 6,
+                    "text":{
+                        "english":" /n /n Quickstrike."
                     },
                     "attack": 6,
                     "armour": 0,
@@ -8423,6 +8630,28 @@
                     "cost": 5,
                     "text":{
                         "english":"Lashvine Creeper and its combat target are rooted. /n [TG]Round Start:[ET] If Lashvine Creeper is unblocked move a random enemy to block it."
+                    },
+                    "attack": 4,
+                    "armour": 0,
+                    "hp": 6,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                },
+                {
+                    "release_date":"2020-06-02",
+                    "card_type":"Creep",
+                    "card_name":{
+                        "english":"Lashvine Creeper"
+                    },
+                    "set": 1,
+                    "rarity": 5,
+                    "colour": "G",
+                    "image": "201067_0",
+                    "miniimage": "201067_0",
+                    "cost": 5,
+                    "text":{
+                        "english":"Lashvine Creeper and its combat target are rooted. /n [TG]Round Start:[ET] If Lashvine Creeper is unblocked move the closest enemy to block it."
                     },
                     "attack": 4,
                     "armour": 0,
@@ -9286,6 +9515,25 @@
                     "image": "201103_0",
                     "miniimage": "201103_0",
                     "cost": 4,
+                    "text":{
+                        "english":"/n Enchant Tower /n [TG]Round Start:[ET] Give allies +1[ATT] permanently."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                },
+                {
+                    "release_date":"2020-06-02",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Mist of Avernus"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "201103_0",
+                    "miniimage": "201103_0",
+                    "cost": 3,
                     "text":{
                         "english":"/n Enchant Tower /n [TG]Round Start:[ET] Give allies +1[ATT] permanently."
                     },
@@ -10976,6 +11224,24 @@
                     },
                     "crosslane": false,
                     "quick": false
+                },
+                {
+                    "release_date":"2020-06-02",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Corrosive Mist"
+                    },
+                    "set": 1,
+                    "rarity": 3,
+                    "colour": "G",
+                    "image": "201181_0",
+                    "miniimage": "201181_0",
+                    "cost": 6,
+                    "text":{
+                        "english":" /n Mulch /n Destroy all items on enemy heroes in this lane."
+                    },
+                    "crosslane": false,
+                    "quick": false
                 }
             ]
     },
@@ -11344,6 +11610,55 @@
                 "related_cards":["201023_0","201078_0"],
                 "crosslane": false,
                 "quick": false
+            }
+        ]
+    },
+    {
+        "card_id":201196,
+        "versions":[
+            {
+                "release_date":"2020-06-02",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Nyx Assassin"
+                },
+                "set": 1,
+                "rarity": 4,
+                "colour": "B",
+                "image": "201196_0",
+                "miniimage": "201196_0",
+                "icon": "201196_0",
+                "attack": 3,
+                "armour": 0,
+                "hp": 4,
+                "abilities": [
+                    "210084_0"
+                ],
+                "signature": ["201197_0"]
+            }
+        ]
+    },
+    {
+        "card_id":201197,
+        "versions":[
+            {
+                "release_date":"2020-06-02",
+                "card_type":"Spell",
+                "card_name":{
+                    "english":"Spiked Carrapice"
+                },
+                "set": 1,
+                "rarity": 4,
+                "colour": "B",
+                "image": "201197_0",
+                "miniimage": "201197_0",
+                "cost": 1,
+                "text":{
+                    "english":" /n Choose Caster. When taking damage this turn, reflect damage back, stun its soruce until its next combat, then purge enemy effects from this unit."
+                },
+                "crosslane": false,
+                "quick": false,
+                "is_signature": "201196_0"
             }
         ]
     }

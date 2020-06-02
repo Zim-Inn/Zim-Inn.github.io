@@ -87,6 +87,7 @@ function CardTextFormatting(CardText) {
     CardText = CardText.replace(/(Aura)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Aura\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Aura</span>");
     CardText = CardText.replace(/(Bounce)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Bounce\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Bounce</span>");
     CardText = CardText.replace(/(Burn)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Burn\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Burn</span>");
+    CardText = CardText.replace(/(Cleave)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Cleave\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Cleave</span>");
     CardText = CardText.replace(/(Cross Lane)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Cross Lane\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Cross Lane</span>");
     CardText = CardText.replace(/(Cursed)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Cursed\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Cursed</span>");
     CardText = CardText.replace(/(Death Effect)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Death Effect\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Death Effect</span>");
@@ -106,14 +107,17 @@ function CardTextFormatting(CardText) {
     CardText = CardText.replace(/(Piercing)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Piercing\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Piercing</span>");
     CardText = CardText.replace(/(Pillager)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Pillager\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Pillager</span>");
     CardText = CardText.replace(/(Push)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Push\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Push</span>");
+    CardText = CardText.replace(/(Purge)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Purge\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Purge</span>");
     CardText = CardText.replace(/(Play Effect)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Play Effect\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Play Effect</span>");
     CardText = CardText.replace(/(Quickcast)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Quickcast\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Quickcast</span>");
     CardText = CardText.replace(/(Quickstrike)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Quickstrike\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Quickstrike</span>");
+    CardText = CardText.replace(/(Reflect)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Reflect\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Reflect</span>");
     CardText = CardText.replace(/(Retaliate)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Retaliate\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Retaliate</span>");
     CardText = CardText.replace(/(Rooted)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Rooted\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Rooted</span>");
     CardText = CardText.replace(/(Scheme)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Scheme\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Scheme</span>");
     CardText = CardText.replace(/(Siege)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Siege\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Siege</span>");
     CardText = CardText.replace(/(Stun)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Stun\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Stun</span>");
+    CardText = CardText.replace(/(Sneak Attack)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Sneak Attack\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Sneak Attack</span>");
     if (!CardText.includes("Swap colors")) { //Body Modifications card
         CardText = CardText.replace(/(Swap)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Swap\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Swap</span>");
     }
@@ -1169,6 +1173,7 @@ Keywords['After Combat'] = "An effect that triggers after the Combat Phase.";
 Keywords['Aura'] = "An effect which applies to units when they enter a specified area and is removed when they leave.";
 Keywords['Bounce'] = "Return a unit to owners hand if a creep, or fountain if a hero.";
 Keywords['Burn'] = "Remove mana from the enemy player.";
+Keywords['Cleave'] = "During the combat phase, deal Cleave damage to all adjacent enemies. Cleave damage doesn't hit towers."
 Keywords['Cross Lane'] = "Cross Lane cards are cast by heroes in one lane, but can target objects in a different lane.";
 Keywords['Cursed'] = "Destroyed when replaced by another item.";
 Keywords['Death Effect'] = "An effect that is processed after this unit dies.";
@@ -1188,13 +1193,16 @@ Keywords['Pierce'] = "Piercing damage is not reduced by the target's armor.";
 Keywords['Piercing'] = "Piercing damage is not reduced by the target's armor.";
 Keywords['Pillager'] = "This unit steals 2 gold from the opponent whenever it damages their tower.";
 Keywords['Play Effect'] = "An additional effect that is processed at the time you play this creep.";
+Keywords['Purge'] = "Removes modifications and temporary effects, but not damage. Purging does not affect base abilities or external effects, such as those from equipped items and continuous effects from auras.";
 Keywords['Push'] = "Move a unit 1 slot randomly left or right to an occupied spot.";
 Keywords['Quickcast'] = "After you play this, you get the initiative coin and may immediately take another action. If you use this action to pass, you will retain initiative and may act first next round.";
 Keywords['Quickstrike'] = "Units with quickstrike attack before units without quickstrike. Regeneration and decay are applied at the same time as combat damage, after quickstrike damage resolves.";
+Keywords['Reflect'] = "When targeted or attacked, damage that would be done to this unit is instead dealt to the caster or attacker.";
 Keywords['Retaliate'] = "When attacked during a battle (even outside of the combat phase), deal this much extra damage to the attackers.";
 Keywords['Rooted'] = "Can't be moved.";
 Keywords['Scheme'] = "An effect which triggers when the card's owner passes.";
 Keywords['Siege'] = "During the combat phase, deal Siege damage to the enemy tower.";
+Keywords['Sneak Attack'] = "A unit deals its Attack damage to its target in a one-way battle. Combat attributes such as Armor, Retaliate, and Piercing are applied.";
 Keywords['Stun'] = "A stunned unit is silenced (cannot use any active abilities and cannot be used to play cards of its color) and disarmed (does not attack its target during battles). Lasts until the end of round by default.";
 Keywords['Swap'] = "Move a unit to the targeted slot. If that slot was occupied, the unit in that space move to the original unit's position.";
 Keywords['Tower Enchantment'] = "A tower enchantment is a spell that adds a permanent effect to a tower or lane. Tower enchantments are not units and do not occupy combat positions.";
