@@ -3458,7 +3458,25 @@
                 "hp": 7,
                 "abilities": ["210049_0"],
                 "signature": ["200110_0"]
-            }   
+            },
+            {
+                "release_date":"2020-06-02",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Sand King"
+                },
+                "set": 1,
+                "rarity": 3,
+                "colour": "G",
+                "image": "200109_0",
+                "miniimage": "200109_0",
+                "icon": "200109_0",
+                "attack": 3,
+                "armour": 0,
+                "hp": 7,
+                "abilities": ["210049_1"],
+                "signature": ["200110_0"]
+            } 
         ]
     },
     {
@@ -8511,6 +8529,28 @@
                     "abilities": [],
                     "crosslane": false,
                     "quick": false
+                },
+                {
+                    "release_date":"2020-06-02",
+                    "card_type":"Creep",
+                    "card_name":{
+                        "english":"Lashvine Creeper"
+                    },
+                    "set": 1,
+                    "rarity": 5,
+                    "colour": "G",
+                    "image": "201067_0",
+                    "miniimage": "201067_0",
+                    "cost": 5,
+                    "text":{
+                        "english":"Lashvine Creeper and its combat target are rooted. /n [TG]Round Start:[ET] If Lashvine Creeper is unblocked move the closest enemy to block it."
+                    },
+                    "attack": 4,
+                    "armour": 0,
+                    "hp": 6,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
                 }
             ]
     },
@@ -9367,6 +9407,25 @@
                     "image": "201103_0",
                     "miniimage": "201103_0",
                     "cost": 4,
+                    "text":{
+                        "english":"/n Enchant Tower /n [TG]Round Start:[ET] Give allies +1[ATT] permanently."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                },
+                {
+                    "release_date":"2020-06-02",
+                    "card_type":"Improvement",
+                    "improvement_type":"Passive",
+                    "card_name":{
+                        "english":"Mist of Avernus"
+                    },
+                    "set": 1,
+                    "rarity": 1,
+                    "colour": "G",
+                    "image": "201103_0",
+                    "miniimage": "201103_0",
+                    "cost": 3,
                     "text":{
                         "english":"/n Enchant Tower /n [TG]Round Start:[ET] Give allies +1[ATT] permanently."
                     },
@@ -11052,6 +11111,24 @@
                     "image": "201181_0",
                     "miniimage": "201181_0",
                     "cost": 5,
+                    "text":{
+                        "english":" /n Mulch /n Destroy all items on enemy heroes in this lane."
+                    },
+                    "crosslane": false,
+                    "quick": false
+                },
+                {
+                    "release_date":"2020-06-02",
+                    "card_type":"Spell",
+                    "card_name":{
+                        "english":"Corrosive Mist"
+                    },
+                    "set": 1,
+                    "rarity": 3,
+                    "colour": "G",
+                    "image": "201181_0",
+                    "miniimage": "201181_0",
+                    "cost": 6,
                     "text":{
                         "english":" /n Mulch /n Destroy all items on enemy heroes in this lane."
                     },
