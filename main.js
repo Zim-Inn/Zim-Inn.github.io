@@ -116,6 +116,7 @@ function CardTextFormatting(CardText) {
     CardText = CardText.replace(/(Scheme)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Scheme\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Scheme</span>");
     CardText = CardText.replace(/(Siege)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Siege\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Siege</span>");
     CardText = CardText.replace(/(Stun)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Stun\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Stun</span>");
+    CardText = CardText.replace(/(Sneak Attack)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Sneak Attack\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Sneak Attack</span>");
     if (!CardText.includes("Swap colors")) { //Body Modifications card
         CardText = CardText.replace(/(Swap)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Swap\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Swap</span>");
     }
@@ -1174,6 +1175,7 @@ Keywords['Retaliate'] = "When attacked during a battle (even outside of the comb
 Keywords['Rooted'] = "Can't be moved.";
 Keywords['Scheme'] = "An effect which triggers when the card's owner passes.";
 Keywords['Siege'] = "During the combat phase, deal Siege damage to the enemy tower.";
+Keywords['Sneak Attack'] = "A unit deals its Attack damage to its target in a one-way battle. Combat attributes such as Armor, Retaliate, and Piercing are applied.";
 Keywords['Stun'] = "A stunned unit is silenced (cannot use any active abilities and cannot be used to play cards of its color) and disarmed (does not attack its target during battles). Lasts until the end of round by default.";
 Keywords['Swap'] = "Move a unit to the targeted slot. If that slot was occupied, the unit in that space move to the original unit's position.";
 Keywords['Tower Enchantment'] = "A tower enchantment is a spell that adds a permanent effect to a tower or lane. Tower enchantments are not units and do not occupy combat positions.";
