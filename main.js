@@ -87,6 +87,7 @@ function CardTextFormatting(CardText) {
     CardText = CardText.replace(/(Aura)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Aura\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Aura</span>");
     CardText = CardText.replace(/(Bounce)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Bounce\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Bounce</span>");
     CardText = CardText.replace(/(Burn)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Burn\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Burn</span>");
+    CardText = CardText.replace(/(Cleave)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Cleave\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Cleave</span>");
     CardText = CardText.replace(/(Cross Lane)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Cross Lane\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Cross Lane</span>");
     CardText = CardText.replace(/(Cursed)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Cursed\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Cursed</span>");
     CardText = CardText.replace(/(Death Effect)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Death Effect\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Death Effect</span>");
@@ -1147,6 +1148,7 @@ Keywords['After Combat'] = "An effect that triggers after the Combat Phase.";
 Keywords['Aura'] = "An effect which applies to units when they enter a specified area and is removed when they leave.";
 Keywords['Bounce'] = "Return a unit to owners hand if a creep, or fountain if a hero.";
 Keywords['Burn'] = "Remove mana from the enemy player.";
+Keywords['Cleave'] = "During the combat phase, deal Cleave damage to all adjacent enemies. Cleave damage doesn't hit towers."
 Keywords['Cross Lane'] = "Cross Lane cards are cast by heroes in one lane, but can target objects in a different lane.";
 Keywords['Cursed'] = "Destroyed when replaced by another item.";
 Keywords['Death Effect'] = "An effect that is processed after this unit dies.";

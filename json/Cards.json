@@ -2563,6 +2563,25 @@
                 },
                 "crosslane": false,
                 "quick": false
+            },
+            {
+                "release_date":"2020-06-02",
+                "card_type":"Improvement",
+                "improvement_type": "Passive",
+                "card_name":{
+                    "english":"Courier"
+                },
+                "set": 1,
+                "rarity": 1,
+                "colour": "C",
+                "image": "200079_0",
+                "miniimage": "200079_0",
+                "cost": 0,
+                "text":{
+                    "english":" /n The first item you play each round cost 1 less."
+                },
+                "crosslane": false,
+                "quick": false
             }
         ]
     },
@@ -4788,6 +4807,29 @@
                 "gcost": 15,
                 "text": {
                     "english": "/n +6[HP]/n After a neighbor dies, Draw a card"
+                },
+                "attack": 0,
+                "armour": 0,
+                "hp": 6,
+                "abilities": [],
+                "crosslane": false,
+                "quick": false
+            },
+            {
+                "release_date": "2020-06-02",
+                "card_type": "Item",
+                "card_subtype": "Accessory",
+                "card_name": {
+                    "english": "Cloak of Endless Carnage"
+                },
+                "set": 1,
+                "rarity": 3,
+                "image": "200157_0",
+                "miniimage": "200157_0",
+                "cost": 1,
+                "gcost": 15,
+                "text": {
+                    "english": "/n +6[HP]/n The first time a neighbor dies, Draw a card"
                 },
                 "attack": 0,
                 "armour": 0,
@@ -7714,6 +7756,28 @@
                     "abilities": [],
                     "crosslane": false,
                     "quick": true
+                },
+                {
+                    "release_date":"2020-06-02",
+                    "card_type":"Creep",
+                    "card_name":{
+                        "english":"Ravenous Mass"
+                    },
+                    "set": 1,
+                    "rarity": 3,
+                    "colour": "B",
+                    "image": "201037_0",
+                    "miniimage": "201037_0",
+                    "cost": 1,
+                    "text":{
+                        "english":"/n /n [TG]Active 0[AC], 1 Mana:[ET] Move to an allied neighbor and devour it. /n [TG][QU]Quickcast[ET]"
+                    },
+                    "attack": 1,
+                    "armour": 0,
+                    "hp": 1,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": true
                 }
             ]
     },
@@ -7790,6 +7854,28 @@
                     "cost": 2,
                     "text":{
                         "english":"/n [TG]Play Effect:[ET] Give Assassin's Apprentice quickstrike until it battles."
+                    },
+                    "attack": 2,
+                    "armour": 0,
+                    "hp": 2,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                },
+                {
+                    "release_date":"2020-06-02",
+                    "card_type":"Creep",
+                    "card_name":{
+                        "english":"Assassin's Apprentice"
+                    },
+                    "set": 1,
+                    "rarity": 2,
+                    "colour": "B",
+                    "image": "201040_0",
+                    "miniimage": "201040_0",
+                    "cost": 2,
+                    "text":{
+                        "english":"/n /n Quickstrike."
                     },
                     "attack": 2,
                     "armour": 0,
@@ -8142,6 +8228,28 @@
                     "cost": 6,
                     "text":{
                         "english":" /n [TG]Play Effect:[ET] Give Assassin's Shadow quickstrike until it battles."
+                    },
+                    "attack": 6,
+                    "armour": 0,
+                    "hp": 5,
+                    "abilities": [],
+                    "crosslane": false,
+                    "quick": false
+                },
+                {
+                    "release_date":"2020-06-02",
+                    "card_type":"Creep",
+                    "card_name":{
+                        "english":"Assassin's Shadow"
+                    },
+                    "set": 1,
+                    "rarity": 2,
+                    "colour": "B",
+                    "image": "201053_0",
+                    "miniimage": "201053_0",
+                    "cost": 6,
+                    "text":{
+                        "english":" /n /n Quickstrike."
                     },
                     "attack": 6,
                     "armour": 0,
