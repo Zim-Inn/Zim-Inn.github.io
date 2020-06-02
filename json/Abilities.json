@@ -769,6 +769,19 @@
                 "text":{
                     "english":"Rapid Deployment. /n [TG]Deploy:[ET] Give your other allies +1 Siege."
                 }
+            },
+            {
+                "release_date":"2020-06-01",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Assault"
+                 },
+                "cooldown": 0,
+                "image": "210047_1",
+                "cost": 0,
+                "text":{
+                    "english":"Rapid Deployment. /n"
+                }
             }
         ]
     },

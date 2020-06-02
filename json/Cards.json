@@ -3381,7 +3381,25 @@
                 "hp": 3,
                 "abilities": ["210046_0","210047_0"],
                 "signature": ["200106_0"]
-            }   
+            },
+            {
+                "release_date":"2020-06-01",
+                "card_type":"Hero",
+                "card_name":{
+                    "english":"Rix, Oathbound"
+                },
+                "set": 1,
+                "rarity": 4,
+                "colour": "C",
+                "image": "200105_0",
+                "miniimage": "200105_0",
+                "icon": "PH",
+                "attack": 3,
+                "armour": 0,
+                "hp": 3,
+                "abilities": ["210046_0","210047_1"],
+                "signature": ["200106_0"]
+            } 
         ]
     },
     {
@@ -3405,7 +3423,7 @@
                 },
                 "crosslane": false,
                 "quick": false,
-                "is_signature": "200105_0"
+                "is_signature": "200105_1"
             }
         ]
     },
