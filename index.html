@@ -70,6 +70,24 @@
                 </div>
                 <div class="CVOptionContainer">
                     <div class="CVOptionName">
+                        ITEM FILTER
+                    </div>
+                    <div id="ItemFilterIW" class="CVOptionButton CVOptionButtonSelected ItemFilter"
+                        onmousemove="ShowFilterTooltip(1, 'Weapons')" ; onmouseout="ShowFilterTooltip(0,0)" ;
+                        onmouseup="ToggleFilter('IW');"></div>
+                    <div id="ItemFilterIA" class="CVOptionButton CVOptionButtonSelected ItemFilter"
+                        onmousemove="ShowFilterTooltip(1, 'Armor')" ; onmouseout="ShowFilterTooltip(0,0)" ;
+                        onmouseup="ToggleFilter('IA');"></div>
+                    <div id="ItemFilterIH" class="CVOptionButton CVOptionButtonSelected ItemFilter"
+                        onmousemove="ShowFilterTooltip(1, 'Accessories')" ; onmouseout="ShowFilterTooltip(0,0)" ;
+                        onmouseup="ToggleFilter('IH');"></div>
+                    <div id="ItemFilterIC" class="CVOptionButton CVOptionButtonSelected ItemFilter"
+                        onmousemove="ShowFilterTooltip(1, 'Consumables')" ; onmouseout="ShowFilterTooltip(0,0)" ;
+                        onmouseup="ToggleFilter('IC');"></div>
+                    <div class="clear"></div>
+                </div>
+                <div class="CVOptionContainer">
+                    <div class="CVOptionName">
                         ADDITIONAL FILTERS
                     </div>
                     <div id="HiddenFilterUncollectable" class="CVOptionButton CVOptionButtonUnselected" onmousemove="ShowFilterTooltip(1, 'Show or Hide Uncollectable Cards')"; onmouseout="ShowFilterTooltip(0,0)"; onmouseup="ToggleFilter('uncollectable');"></div>

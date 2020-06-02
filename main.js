@@ -161,7 +161,32 @@ function CVChangeViewStyle(View) {
     }
 }
 
-CardViewerFilter = {text:"", includeabilitytext: false, set1: true, rarity1: true, rarity2: true, rarity3: true, rarity4: true, rarity5: true, quick: true, crosslane: true, R: true, U: true, B: true, G: true, C: true, signature: true, uncollectable: false}
+CardViewerFilter = {
+    text: "",
+    includeabilitytext: false,
+    set1: true,
+    rarity1: true,
+    rarity2: true,
+    rarity3: true,
+    rarity4: true,
+    rarity5: true,
+    quick: true,
+    crosslane: true,
+    // Colors
+    R: true,
+    U: true,
+    B: true,
+    G: true,
+    C: true,
+    // Items
+    IW: true,
+    IA: true,
+    IH: true,
+    IC: true,
+    // Collections
+    signature: true,
+    uncollectable: false,
+};
 
 function GenerateCardViewerPage() {
     CardViewerFilter['text'] = document.getElementById('CardTextFilter').value;
@@ -1284,6 +1309,26 @@ function ToggleFilter(FilterValue) {
             CardViewerFilter['includeabilitytext'] = true;
             document.getElementById("FilterIncludeAbilityText").classList.add('CVOptionButtonSelected');
             document.getElementById("FilterIncludeAbilityText").classList.remove('CVOptionButtonUnselected');
+        }
+    } else if(FilterValue === "IW" || FilterValue === "IA" || FilterValue === "IH" || FilterValue === "IC"){
+        CardViewerFilter[FilterValue] = !CardViewerFilter[FilterValue];
+        
+        const el = document.getElementById("ItemFilter"+FilterValue)
+        const sel = { 
+            IW: "CVCWeapons",
+            IA: "CVCArmor",
+            IH: "CVCAcc",
+            IC: "CVCCon"
+        }
+
+        if (!CardViewerFilter[FilterValue]) {
+            el.classList.remove('CVOptionButtonSelected');
+            el.classList.add('CVOptionButtonUnselected');
+            document.getElementById(sel[FilterValue]).style.display = "none";
+        } else {
+            el.classList.add('CVOptionButtonSelected');
+            el.classList.remove('CVOptionButtonUnselected');
+            document.getElementById(sel[FilterValue]).style.display = "block";
         }
     }
     GenerateCardViewerPage();

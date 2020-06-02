@@ -565,6 +565,27 @@ body {
 #ColourFilterC {
     background-color: #79756d;
 }
+.ItemFilter {
+    background-color: #333749;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#ItemFilterIW {
+    background-image: url('../Images/Styles/deleteme.png');
+}
+
+#ItemFilterIA {
+    background-image: url('../Images/Styles/deleteme.png');
+}
+
+#ItemFilterIH {
+    background-image: url('../Images/Styles/deleteme.png');
+}
+
+#ItemFilterIC {
+    background-image: url('../Images/Styles/deleteme.png');
+}
 #HiddenFilterUncollectable {
     background-color: #333749;
     background-image: url('../Images/Styles/UncollectableFilter.png');
