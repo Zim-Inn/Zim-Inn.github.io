@@ -165,7 +165,7 @@ function CVChangeViewStyle(View) {
     }
 }
 
-CardViewerFilter = {text:"", includeabilitytext: false, set1: true, rarity1: true, rarity2: true, rarity3: true, rarity4: true, rarity5: true, quick: true, crosslane: true, R: true, U: true, B: true, G: true, C: true, signature: true, uncollectable: false}
+CardViewerFilter = {text:"", includeabilitytext: true, set1: true, rarity1: true, rarity2: true, rarity3: true, rarity4: true, rarity5: true, quick: true, crosslane: true, R: true, U: true, B: true, G: true, C: true, signature: true, uncollectable: false}
 
 function GenerateCardViewerPage() {
     CardViewerFilter['text'] = document.getElementById('CardTextFilter').value;
