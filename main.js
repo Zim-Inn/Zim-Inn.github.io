@@ -183,10 +183,10 @@ CardViewerFilter = {
     G: true,
     C: true,
     // Items
-    IW: true,
-    IA: true,
-    IH: true,
-    IC: true,
+    Weapon: true,
+    Armor: true,
+    Accessory: true,
+    Consumable: true,
     // Collections
     signature: true,
     uncollectable: false,
@@ -242,6 +242,18 @@ function GenerateCardViewerPage() {
             ColourCheckPass = false;
         }
 
+         //Pass if
+        const ItemFilterCheck =
+            //card is not an item
+            !(
+                CardJSON[i]["versions"][LatestCardVersion]["card_type"] ===
+                "Item"
+            ) ||
+            // or subtype for the item is true in the filter
+            CardViewerFilter[
+                [CardJSON[i]["versions"][LatestCardVersion]["card_subtype"]]
+            ];
+
         if (("is_signature" in CardJSON[i]['versions'][LatestCardVersion]) && CardViewerFilter['signature'] == false) {
             SignatureFilterCheck = false; //If this is a signature card and signatures are filtered out
         } else {
@@ -257,20 +269,22 @@ function GenerateCardViewerPage() {
         if (CardJSON[i]['versions'][LatestCardVersion]['card_name']['english'].search(textfilter) != -1 || CardTextForFilter.search(textfilter) != -1 || SearchTermForFilter.search(textfilter) != -1) {
             if (ColourCheckPass == true) {
                 if (SignatureFilterCheck == true) {
-                    if (HideFromCardListCheck == true) {
-                        switch (CardJSON[i]['versions'][LatestCardVersion]["card_type"]) {
-                            case 'Hero':
-                                A2Heroes.push(CardJSON[i]);
-                                break;
-                            case 'Item':
-                                A2Items.push(CardJSON[i]);
-                                break;
-                            case 'SpecialItem':
-                                A2SpecialItems.push(CardJSON[i]);
-                                break; 
-                            default:
-                                A2OtherCards.push(CardJSON[i]);
-                                break;
+                    if (ItemFilterCheck) {
+                        if (HideFromCardListCheck == true) {
+                            switch (CardJSON[i]['versions'][LatestCardVersion]["card_type"]) {
+                                case 'Hero':
+                                    A2Heroes.push(CardJSON[i]);
+                                    break;
+                                case 'Item':
+                                    A2Items.push(CardJSON[i]);
+                                    break;
+                                case 'SpecialItem':
+                                    A2SpecialItems.push(CardJSON[i]);
+                                    break; 
+                                default:
+                                    A2OtherCards.push(CardJSON[i]);
+                                    break;
+                            }
                         }
                     }
                 }
@@ -1318,17 +1332,20 @@ function ToggleFilter(FilterValue) {
             document.getElementById("FilterIncludeAbilityText").classList.add('CVOptionButtonSelected');
             document.getElementById("FilterIncludeAbilityText").classList.remove('CVOptionButtonUnselected');
         }
-    } else if(FilterValue === "IW" || FilterValue === "IA" || FilterValue === "IH" || FilterValue === "IC"){
+    } else if (
+        FilterValue === "Weapon" ||
+        FilterValue === "Armor" ||
+        FilterValue === "Accessory" ||
+        FilterValue === "Consumable"
+    ) {  
         CardViewerFilter[FilterValue] = !CardViewerFilter[FilterValue];
-        
         const el = document.getElementById("ItemFilter"+FilterValue)
         const sel = { 
-            IW: "CVCWeapons",
-            IA: "CVCArmor",
-            IH: "CVCAcc",
-            IC: "CVCCon"
+            Weapon: "CVCWeapons",
+            Armor: "CVCArmor",
+            Accessory: "CVCAcc",
+            Consumable: "CVCCon"
         }
-
         if (!CardViewerFilter[FilterValue]) {
             el.classList.remove('CVOptionButtonSelected');
             el.classList.add('CVOptionButtonUnselected');

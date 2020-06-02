@@ -571,19 +571,19 @@ body {
     background-repeat: no-repeat;
 }
 
-#ItemFilterIW {
+#ItemFilterWeapon{
     background-image: url('../Images/Styles/deleteme.png');
 }
 
-#ItemFilterIA {
+#ItemFilterArmor {
     background-image: url('../Images/Styles/deleteme.png');
 }
 
-#ItemFilterIH {
+#ItemFilterAccessory {
     background-image: url('../Images/Styles/deleteme.png');
 }
 
-#ItemFilterIC {
+#ItemFilterConsumable {
     background-image: url('../Images/Styles/deleteme.png');
 }
 #HiddenFilterUncollectable {
