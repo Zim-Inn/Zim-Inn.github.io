@@ -64,7 +64,7 @@ function InitializeCardViewerPage() { //Load JSON and load first card
         if(getURLParams(document.location.href).id){
             CardViewer_SelectCard(id, true);
         } else {
-            CardViewer_SelectCard('200043_99', true);
+            CardViewer_SelectCard('10020_99', true);
         }
     })
 }
@@ -1209,7 +1209,7 @@ window.onpopstate = (event) => {
         if(param.id){
             CardViewer_SelectCard(param.id, true);
         } else {
-            CardViewer_SelectCard('200043_99', true);
+            CardViewer_SelectCard('10020_99', true);
         }
         
     }
