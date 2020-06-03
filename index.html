@@ -60,7 +60,7 @@
                     <div id="CVOptionLayout2" class="CVOptionButton CVOptionButtonUnselected" onmouseup="history.pushState({}, 'Artifact 2 Card Viewer', `?&l=true`); CVChangeViewStyle(1);"></div>
                     <div class="clear"></div>
                 </div>
-                <div class="CVOptionContainer">
+                <div class="CVOptionContainer" id="ColourFilterContainer">
                     <div class="CVOptionName">
                         COLOUR FILTER
                     </div>
@@ -71,22 +71,14 @@
                     <div id="ColourFilterC" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowFilterTooltip(1, 'Colourless')"; onmouseout="ShowFilterTooltip(0,0)"; onmouseup="ToggleFilter('C');"></div>
                     <div class="clear"></div>
                 </div>
-                <div class="CVOptionContainer">
+                <div class="CVOptionContainer" id="ItemFilterContainer">
                     <div class="CVOptionName">
                         ITEM FILTER
                     </div>
-                    <div id="ItemFilterWeapon" class="CVOptionButton CVOptionButtonSelected ItemFilter"
-                        onmousemove="ShowFilterTooltip(1, 'Weapons')" ; onmouseout="ShowFilterTooltip(0,0)" ;
-                        onmouseup="ToggleFilter('Weapon');"></div>
-                    <div id="ItemFilterArmor" class="CVOptionButton CVOptionButtonSelected ItemFilter"
-                        onmousemove="ShowFilterTooltip(1, 'Armor')" ; onmouseout="ShowFilterTooltip(0,0)" ;
-                        onmouseup="ToggleFilter('Armor');"></div>
-                    <div id="ItemFilterAccessory" class="CVOptionButton CVOptionButtonSelected ItemFilter"
-                        onmousemove="ShowFilterTooltip(1, 'Accessories')" ; onmouseout="ShowFilterTooltip(0,0)" ;
-                        onmouseup="ToggleFilter('Accessory');"></div>
-                    <div id="ItemFilterConsumable" class="CVOptionButton CVOptionButtonSelected ItemFilter"
-                        onmousemove="ShowFilterTooltip(1, 'Consumables')" ; onmouseout="ShowFilterTooltip(0,0)" ;
-                        onmouseup="ToggleFilter('Consumable');"></div>
+                    <div id="ItemFilterWeapon" class="CVOptionButton CVOptionButtonSelected ItemFilter" onmousemove="ShowFilterTooltip(1, 'Weapons');"  onmouseout="ShowFilterTooltip(0,0);" onmouseup="ToggleFilter('Weapon');"></div>
+                    <div id="ItemFilterArmor" class="CVOptionButton CVOptionButtonSelected ItemFilter" onmousemove="ShowFilterTooltip(1, 'Armor');" onmouseout="ShowFilterTooltip(0,0);" onmouseup="ToggleFilter('Armor');"></div>
+                    <div id="ItemFilterAccessory" class="CVOptionButton CVOptionButtonSelected ItemFilter" onmousemove="ShowFilterTooltip(1, 'Accessories');" onmouseout="ShowFilterTooltip(0,0);" onmouseup="ToggleFilter('Accessory');"></div>
+                    <div id="ItemFilterConsumable" class="CVOptionButton CVOptionButtonSelected ItemFilter" onmousemove="ShowFilterTooltip(1, 'Consumables');" onmouseout="ShowFilterTooltip(0,0);" onmouseup="ToggleFilter('Consumable');"></div>
                     <div class="clear"></div>
                 </div>
                 <div class="CVOptionContainer">

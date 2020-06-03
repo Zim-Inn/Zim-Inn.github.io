@@ -566,25 +566,21 @@ body {
     background-color: #79756d;
 }
 .ItemFilter {
-    background-color: #333749;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: #333749;
 }
-
 #ItemFilterWeapon{
-    background-image: url('../Images/Styles/deleteme.png');
+    background-image: url('../Images/Styles/WeaponFilter.png');
 }
-
 #ItemFilterArmor {
-    background-image: url('../Images/Styles/deleteme.png');
+    background-image: url('../Images/Styles/ArmorFilter.png');
 }
-
 #ItemFilterAccessory {
-    background-image: url('../Images/Styles/deleteme.png');
+    background-image: url('../Images/Styles/AccessoryFilter.png');
 }
-
 #ItemFilterConsumable {
-    background-image: url('../Images/Styles/deleteme.png');
+    background-image: url('../Images/Styles/ConsumableFilter.png');
 }
 #HiddenFilterUncollectable {
     background-color: #333749;
