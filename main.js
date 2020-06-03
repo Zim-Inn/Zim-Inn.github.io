@@ -165,7 +165,32 @@ function CVChangeViewStyle(View) {
     }
 }
 
-CardViewerFilter = {text:"", includeabilitytext: true, set1: true, rarity1: true, rarity2: true, rarity3: true, rarity4: true, rarity5: true, quick: true, crosslane: true, R: true, U: true, B: true, G: true, C: true, signature: true, uncollectable: false}
+CardViewerFilter = {
+    text: "",
+    includeabilitytext: true,
+    set1: true,
+    rarity1: true,
+    rarity2: true,
+    rarity3: true,
+    rarity4: true,
+    rarity5: true,
+    quick: true,
+    crosslane: true,
+    // Colors
+    R: true,
+    U: true,
+    B: true,
+    G: true,
+    C: true,
+    // Items
+    Weapon: true,
+    Armor: true,
+    Accessory: true,
+    Consumable: true,
+    // Collections
+    signature: true,
+    uncollectable: false,
+};
 
 function GenerateCardViewerPage() {
     CardViewerFilter['text'] = document.getElementById('CardTextFilter').value;
@@ -217,6 +242,18 @@ function GenerateCardViewerPage() {
             ColourCheckPass = false;
         }
 
+         //Pass if
+        const ItemFilterCheck =
+            //card is not an item
+            !(
+                CardJSON[i]["versions"][LatestCardVersion]["card_type"] ===
+                "Item"
+            ) ||
+            // or subtype for the item is true in the filter
+            CardViewerFilter[
+                [CardJSON[i]["versions"][LatestCardVersion]["card_subtype"]]
+            ];
+
         if (("is_signature" in CardJSON[i]['versions'][LatestCardVersion]) && CardViewerFilter['signature'] == false) {
             SignatureFilterCheck = false; //If this is a signature card and signatures are filtered out
         } else {
@@ -232,20 +269,22 @@ function GenerateCardViewerPage() {
         if (CardJSON[i]['versions'][LatestCardVersion]['card_name']['english'].search(textfilter) != -1 || CardTextForFilter.search(textfilter) != -1 || SearchTermForFilter.search(textfilter) != -1) {
             if (ColourCheckPass == true) {
                 if (SignatureFilterCheck == true) {
-                    if (HideFromCardListCheck == true) {
-                        switch (CardJSON[i]['versions'][LatestCardVersion]["card_type"]) {
-                            case 'Hero':
-                                A2Heroes.push(CardJSON[i]);
-                                break;
-                            case 'Item':
-                                A2Items.push(CardJSON[i]);
-                                break;
-                            case 'SpecialItem':
-                                A2SpecialItems.push(CardJSON[i]);
-                                break; 
-                            default:
-                                A2OtherCards.push(CardJSON[i]);
-                                break;
+                    if (ItemFilterCheck) {
+                        if (HideFromCardListCheck == true) {
+                            switch (CardJSON[i]['versions'][LatestCardVersion]["card_type"]) {
+                                case 'Hero':
+                                    A2Heroes.push(CardJSON[i]);
+                                    break;
+                                case 'Item':
+                                    A2Items.push(CardJSON[i]);
+                                    break;
+                                case 'SpecialItem':
+                                    A2SpecialItems.push(CardJSON[i]);
+                                    break; 
+                                default:
+                                    A2OtherCards.push(CardJSON[i]);
+                                    break;
+                            }
                         }
                     }
                 }
@@ -564,13 +603,13 @@ function GenerateCVCHTML(Card) {
         CardCostStyle = "CVCCardListingCardCostMana";
     }
 
-    CardHTML = '<div class="CVCCardListing CVCCardListing'+CardColour+'" onmousemove="CardViewerCardPreviewTooltip(\''+CardIDV+'\',1);" onmouseout="CardViewerCardPreviewTooltip(0,0);" onmouseup="CardViewer_SelectCard(\''+CardIDV+'\'); CVChangeViewStyle(0)"> \
+    CVCCardHTML = '<div class="CVCCardListing CVCCardListing'+CardColour+'" onmousemove="CardViewerCardPreviewTooltip(\''+CardIDV+'\',1);" onmouseout="CardViewerCardPreviewTooltip(0,0);" onmouseup="CardViewer_SelectCard(\''+CardIDV+'\'); CVChangeViewStyle(0)"> \
                     <div class="CVCCardListingMiniImage"><img src="Images/Cards/MiniImage/'+CardMiniImage+'.jpg"></div> \
                     <div class="CVCCardListingCardCost '+CardCostStyle+'">'+CardCostToShow+'</div> \
                     <div class="CVCCardListingCardName">'+CardName+'</div> \
                     <div class="clear"></div>\
                 </div>';
-    return CardHTML;
+    return CVCCardHTML;
 }
 
 function CardViewer_SelectCard(CardIDV, skipHistory) {
@@ -1230,33 +1269,9 @@ function ToggleFilter(FilterValue) {
     if (FilterValue == "R" || FilterValue == "U" || FilterValue == "B" || FilterValue == "G" || FilterValue == "C") {
         if (CardViewerFilter[FilterValue] == true) {
             CardViewerFilter[FilterValue] = false;
-            if (CardViewerFilter["R"] == false && CardViewerFilter["U"] == false && CardViewerFilter["B"] == false && CardViewerFilter["G"] == false && CardViewerFilter["C"] == false) { // If all colour filters are turned off
-                //Turn them all back on
-                document.getElementById("ColourFilterR").classList.remove('CVOptionButtonUnselected');
-                document.getElementById("ColourFilterR").classList.add('CVOptionButtonSelected');
-                document.getElementById("ColourFilterU").classList.remove('CVOptionButtonUnselected');
-                document.getElementById("ColourFilterU").classList.add('CVOptionButtonSelected');
-                document.getElementById("ColourFilterB").classList.remove('CVOptionButtonUnselected');
-                document.getElementById("ColourFilterB").classList.add('CVOptionButtonSelected');
-                document.getElementById("ColourFilterG").classList.remove('CVOptionButtonUnselected');
-                document.getElementById("ColourFilterG").classList.add('CVOptionButtonSelected');
-                document.getElementById("ColourFilterC").classList.remove('CVOptionButtonUnselected');
-                document.getElementById("ColourFilterC").classList.add('CVOptionButtonSelected');
-                document.getElementById("CVCOuterContainerR").style.display = "block";
-                document.getElementById("CVCOuterContainerU").style.display = "block";
-                document.getElementById("CVCOuterContainerB").style.display = "block";
-                document.getElementById("CVCOuterContainerG").style.display = "block";
-                document.getElementById("CVCOuterContainerC").style.display = "block";
-                CardViewerFilter["R"] = true;
-                CardViewerFilter["U"] = true;
-                CardViewerFilter["B"] = true;
-                CardViewerFilter["G"] = true;
-                CardViewerFilter["C"] = true;
-            } else {
                 document.getElementById("ColourFilter"+FilterValue).classList.add('CVOptionButtonUnselected');
                 document.getElementById("ColourFilter"+FilterValue).classList.remove('CVOptionButtonSelected');
                 document.getElementById("CVCOuterContainer"+FilterValue).style.display = "none";
-            }
         } else {
             CardViewerFilter[FilterValue] = true;
             document.getElementById("ColourFilter"+FilterValue).classList.add('CVOptionButtonSelected');
@@ -1293,6 +1308,36 @@ function ToggleFilter(FilterValue) {
             document.getElementById("FilterIncludeAbilityText").classList.add('CVOptionButtonSelected');
             document.getElementById("FilterIncludeAbilityText").classList.remove('CVOptionButtonUnselected');
         }
+    } else if (
+        FilterValue === "Weapon" ||
+        FilterValue === "Armor" ||
+        FilterValue === "Accessory" ||
+        FilterValue === "Consumable"
+    ) {  
+        CardViewerFilter[FilterValue] = !CardViewerFilter[FilterValue];
+        const el = document.getElementById("ItemFilter"+FilterValue)
+        const sel = { 
+            Weapon: "CVCWeapons",
+            Armor: "CVCArmor",
+            Accessory: "CVCAcc",
+            Consumable: "CVCCon"
+        }
+        if (!CardViewerFilter[FilterValue]) {
+            el.classList.remove('CVOptionButtonSelected');
+            el.classList.add('CVOptionButtonUnselected');
+            document.getElementById(sel[FilterValue]).style.display = "none";
+        } else {
+            el.classList.add('CVOptionButtonSelected');
+            el.classList.remove('CVOptionButtonUnselected');
+            document.getElementById(sel[FilterValue]).style.display = "block";
+        }
+    }
+    if (CardViewerFilter["R"] == false && CardViewerFilter["U"] == false && CardViewerFilter["B"] == false && CardViewerFilter["G"] == false && CardViewerFilter["C"] == false && CardViewerFilter["Weapon"] == false && CardViewerFilter["Armor"] == false && CardViewerFilter["Accessory"] == false && CardViewerFilter["Consumable"] == false) { // If all colour filters and item filters are turned off
+        document.getElementById('ColourFilterContainer').style.background = "rgba(135,31,38,0.6)";
+        document.getElementById('ItemFilterContainer').style.background = "rgba(135,31,38,0.6)";
+    } else {
+        document.getElementById('ColourFilterContainer').style.background = "";
+        document.getElementById('ItemFilterContainer').style.background = "";
     }
     GenerateCardViewerPage();
 }
