@@ -64,7 +64,7 @@ function InitializeCardViewerPage() { //Load JSON and load first card
         if(getURLParams(document.location.href).id){
             CardViewer_SelectCard(id, true);
         } else {
-            CardViewer_SelectCard('200043_99', true);
+            CardViewer_SelectCard('10020_99', true);
         }
     })
 }
@@ -1185,7 +1185,7 @@ Keywords = [];
 Keywords['Regeneration'] = "The unit heals this amount during the combat phase. Regeneration is applied before checking for death.";
 Keywords['After Combat'] = "An effect that triggers after the Combat Phase.";
 Keywords['Aura'] = "An effect which applies to units when they enter a specified area and is removed when they leave.";
-Keywords['Bounce'] = "Return a unit to owners hand if a creep, or fountain if a hero.";
+Keywords['Bounce'] = "Return target to owners fountain if it's a hero, or the hand if it's a creep or item.";
 Keywords['Burn'] = "Remove mana from the enemy player.";
 Keywords['Cleave'] = "During the combat phase, deal Cleave damage to all adjacent enemies. Cleave damage doesn't hit towers."
 Keywords['Cross Lane'] = "Cross Lane cards are cast by heroes in one lane, but can target objects in a different lane.";
@@ -1248,7 +1248,7 @@ window.onpopstate = (event) => {
         if(param.id){
             CardViewer_SelectCard(param.id, true);
         } else {
-            CardViewer_SelectCard('200043_99', true);
+            CardViewer_SelectCard('10020_99', true);
         }
         
     }
