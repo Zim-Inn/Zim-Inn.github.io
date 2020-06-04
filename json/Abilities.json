@@ -53,6 +53,21 @@
                 "text":{
                     "english":"When Bristleback takes damage outside of combat, reduce that damage to 1, then activate Quill Spray."
                 }
+            },
+            {
+                "release_date":"2020-06-04",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Bristleback"
+                 },
+                "cooldown": 0,
+                "image": "210003_0",
+                "cost": 0,
+                "text":{
+                    "english":"When Bristleback takes non-battle damage, reduce that damage to 1, then activate Quill Spray."
+                },
+                "__comment": "For whatever reason, the effect text is way more descriptive",
+                "__effect_text": "When an anything in any lane deals non-reflected non-battle damage to Bristleback, deal 1 reflected damage to Bristleback's enemy neighbors."
             }
         ]
     },
@@ -71,6 +86,19 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] Deal 1 combat damage to adjacent enemies."
+                }
+            },
+            {
+                "release_date":"2020-06-04",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Quill Spray"
+                 },
+                "cooldown": 3,
+                "image": "210005_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Deal 1 damage to adjacent enemies."
                 }
             }
         ]
