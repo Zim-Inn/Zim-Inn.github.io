@@ -3704,7 +3704,7 @@
 		"colour": "B",
 		"image": "10648_0",
 		"miniimage": "10648_0",
-		"cost": 2,
+		"cost": 5,
 		"text": {
 			"english": " /n Deal damage to a unit and its neighbors equal to the Mana missing from the enemy player. "
 		},
