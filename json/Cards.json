@@ -241,6 +241,31 @@
 		"hp": 5,
 		"abilities": ["210004_0", "210005_0"],
 		"signature": ["10419_0"]
+	},{
+		"release_date": "2020-06-04",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Bristleback"
+		},
+		"lore": {
+			"text": {
+				"english": "I never went to some fancy military school to learn how to beat a man half to death... that's what bars were for."
+			},
+			"tag": {
+				"english": "Bristleback, Barfly"
+			}
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "R",
+		"image": "10030_0",
+		"miniimage": "10030_0",
+		"icon": "10030_0",
+		"attack": 4,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210004_1", "210005_1"],
+		"signature": ["10419_0"]
 	}]
 }, {
 	"card_id": 10419,
@@ -4945,7 +4970,7 @@
 		"cost": 1,
 		"gcost": 25,
 		"text": {
-			"english": "/n +5[ATT]/n After battling a unit, deal 3 damage to it. Repeat 3 more times: [RP] Deal 3 damage to a random unit to its left or right."
+			"english": "/n +5[ATT]/n After battling a unit, deal 3 damage to it. Repeat 3 more times: [RP] Jump left or right and deal 3 damage."
 		},
 		"attack": 5,
 		"armour": 0,
@@ -10072,7 +10097,7 @@
 		"miniimage": "10270_0",
 		"cost": 1,
 		"text": {
-			"english": " /n Choose Caster. Deal 1 piercing damage to a unit in any lane and deal 1 damage to the next unit away from the caster./n[TG]Cross Lane[ET]"
+			"english": " /n Choose Caster as a starting point. Deal 1 piercing damage to a unit in any lane then deal 1 damage to the unit after it./n[TG]Cross Lane[ET]"
 		},
 		"crosslane": true,
 		"quick": false
