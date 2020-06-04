@@ -242,7 +242,7 @@
 		"abilities": ["210004_0", "210005_0"],
 		"signature": ["10419_0"]
 	},{
-		"release_date": "2020-06-04",
+		"release_date": "2020-06-03",
 		"card_type": "Hero",
 		"card_name": {
 			"english": "Bristleback"
@@ -294,7 +294,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10030_0"
+		"is_signature": "10030_1"
 	}]
 }, {
 	"card_id": 10056,
@@ -4970,6 +4970,29 @@
 		"cost": 1,
 		"gcost": 25,
 		"text": {
+			"english": "/n +5[ATT]/n After battling a unit, deal 3 damage to it. Repeat 3 more times: [RP] Deal 3 damage to a random unit to its left or right."
+		},
+		"attack": 5,
+		"armour": 0,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	},
+	{
+		"release_date": "2020-06-03",
+		"card_type": "Item",
+		"card_subtype": "Weapon",
+		"card_name": {
+			"english": "Mjolnir"
+		},
+		"set": 1,
+		"rarity": 3,
+		"image": "11013_0",
+		"miniimage": "11013_0",
+		"cost": 1,
+		"gcost": 25,
+		"text": {
 			"english": "/n +5[ATT]/n After battling a unit, deal 3 damage to it. Repeat 3 more times: [RP] Jump left or right and deal 3 damage."
 		},
 		"attack": 5,
@@ -6071,7 +6094,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"related_cards": "10759_0"
+		"related_cards": ["10759_0"]
 	}]
 }, {
 	"card_id": 10966,
@@ -10086,6 +10109,24 @@
 	"card_id": 10270,
 	"versions": [{
 		"release_date": "2020-05-25",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Grazing Shot"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "B",
+		"image": "10270_0",
+		"miniimage": "10270_0",
+		"cost": 1,
+		"text": {
+			"english": " /n Choose Caster. Deal 1 piercing damage to a unit in any lane and deal 1 damage to the next unit away from the caster./n[TG]Cross Lane[ET]"
+		},
+		"crosslane": true,
+		"quick": false
+	},
+	{
+		"release_date": "2020-06-03",
 		"card_type": "Spell",
 		"card_name": {
 			"english": "Grazing Shot"
