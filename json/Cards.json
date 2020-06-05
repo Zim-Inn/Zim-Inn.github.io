@@ -4650,7 +4650,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"related_cards": ["10966_0", "10960_0", "10961_0", "10965_0", "10964_0", "10959_0", "10958_0", "10963_0", "10962_0"]
+		"related_cards": ["10966_0", "10960_0", "10961_0", "10965_0", "10964_0", "10959_1", "10958_0", "10963_0", "10962_0"]
 	}]
 }, {
 	"card_id": 11016,
@@ -6986,6 +6986,28 @@
 		"cost": 1,
 		"text": {
 			"english": "/n [TG]Death Effect:[ET] Deal 1 damage to adjacent units on both teams."
+		},
+		"attack": 1,
+		"armour": 0,
+		"hp": 1,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10967_0"]
+	},{
+		"release_date": "2020-06-01",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Gaseous Greevil"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "B",
+		"image": "10959_0",
+		"miniimage": "10959_0",
+		"cost": 1,
+		"text": {
+			"english": "/n [TG]Death Effect:[ET] Deal 1 damage to adjacent enemies."
 		},
 		"attack": 1,
 		"armour": 0,
