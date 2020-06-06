@@ -4145,7 +4145,7 @@
 		"miniimage": "10011_0",
 		"cost": 5,
 		"text": {
-			"english": " /n Stun an enemy. It is attached by its allied neighbors."
+			"english": " /n Stun an enemy. It is attacked by its allied neighbors."
 		},
 		"crosslane": false,
 		"quick": false,
