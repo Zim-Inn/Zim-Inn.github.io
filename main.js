@@ -64,7 +64,7 @@ function InitializeCardViewerPage() { //Load JSON and load first card
         if(getURLParams(document.location.href).id){
             CardViewer_SelectCard(id, true);
         } else {
-            CardViewer_SelectCard('200043_99', true);
+            CardViewer_SelectCard('10020_99', true);
         }
     })
 }
@@ -87,6 +87,7 @@ function CardTextFormatting(CardText) {
     CardText = CardText.replace(/(Aura)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Aura\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Aura</span>");
     CardText = CardText.replace(/(Bounce)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Bounce\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Bounce</span>");
     CardText = CardText.replace(/(Burn)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Burn\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Burn</span>");
+    CardText = CardText.replace(/(Cleave)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Cleave\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Cleave</span>");
     CardText = CardText.replace(/(Cross Lane)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Cross Lane\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Cross Lane</span>");
     CardText = CardText.replace(/(Cursed)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Cursed\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Cursed</span>");
     CardText = CardText.replace(/(Death Effect)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Death Effect\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Death Effect</span>");
@@ -106,14 +107,17 @@ function CardTextFormatting(CardText) {
     CardText = CardText.replace(/(Piercing)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Piercing\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Piercing</span>");
     CardText = CardText.replace(/(Pillager)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Pillager\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Pillager</span>");
     CardText = CardText.replace(/(Push)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Push\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Push</span>");
+    CardText = CardText.replace(/(Purge)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Purge\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Purge</span>");
     CardText = CardText.replace(/(Play Effect)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Play Effect\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Play Effect</span>");
     CardText = CardText.replace(/(Quickcast)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Quickcast\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Quickcast</span>");
     CardText = CardText.replace(/(Quickstrike)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Quickstrike\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Quickstrike</span>");
+    CardText = CardText.replace(/(Reflect)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Reflect\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Reflect</span>");
     CardText = CardText.replace(/(Retaliate)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Retaliate\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Retaliate</span>");
     CardText = CardText.replace(/(Rooted)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Rooted\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Rooted</span>");
     CardText = CardText.replace(/(Scheme)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Scheme\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Scheme</span>");
     CardText = CardText.replace(/(Siege)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Siege\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Siege</span>");
     CardText = CardText.replace(/(Stun)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Stun\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Stun</span>");
+    CardText = CardText.replace(/(Sneak Attack)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Sneak Attack\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Sneak Attack</span>");
     if (!CardText.includes("Swap colors")) { //Body Modifications card
         CardText = CardText.replace(/(Swap)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Swap\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Swap</span>");
     }
@@ -161,7 +165,32 @@ function CVChangeViewStyle(View) {
     }
 }
 
-CardViewerFilter = {text:"", set1: true, rarity1: true, rarity2: true, rarity3: true, rarity4: true, rarity5: true, quick: true, crosslane: true, R: true, U: true, B: true, G: true, C: true, signature: true, uncollectable: false}
+CardViewerFilter = {
+    text: "",
+    includeabilitytext: true,
+    set1: true,
+    rarity1: true,
+    rarity2: true,
+    rarity3: true,
+    rarity4: true,
+    rarity5: true,
+    quick: true,
+    crosslane: true,
+    // Colors
+    R: true,
+    U: true,
+    B: true,
+    G: true,
+    C: true,
+    // Items
+    Weapon: true,
+    Armor: true,
+    Accessory: true,
+    Consumable: true,
+    // Collections
+    signature: true,
+    uncollectable: false,
+};
 
 function GenerateCardViewerPage() {
     CardViewerFilter['text'] = document.getElementById('CardTextFilter').value;
@@ -177,11 +206,28 @@ function GenerateCardViewerPage() {
         LatestCardVersion = CardJSON[i]['versions'].length - 1;
 
         textfilter = new RegExp(CardViewerFilter['text'], "i");
+        CardTextForFilter = "";
         if ("text" in CardJSON[i]['versions'][LatestCardVersion]) {
-            CardTextForFilter = CardJSON[i]['versions'][LatestCardVersion]["text"]["english"];
-        } else {
-            CardTextForFilter = "";
+            CardTextForFilter += CardJSON[i]['versions'][LatestCardVersion]["text"]["english"];
+        } 
+        if (CardViewerFilter['includeabilitytext'] == true) {
+            if ("abilities" in CardJSON[i]['versions'][LatestCardVersion]) {
+                for (aa1 = 0; aa1 < CardJSON[i]['versions'][LatestCardVersion]['abilities'].length; aa1++) {
+                    AbilityIDV = CardJSON[i]['versions'][LatestCardVersion]['abilities'][aa1].split("_");
+                    AbilityID = AbilityIDV[0];
+                    AbilityVersion = AbilityIDV[1];
+                    for (aa2 = 0; aa2 < AbilityJSON.length; aa2++) {
+                        if ((AbilityJSON[aa2]['card_id']) == AbilityID) {
+                            AbilityTextSearchArrayIndex = aa2;
+                            break;
+                        }
+                    }
+                    CardTextForFilter += AbilityJSON[AbilityTextSearchArrayIndex]['versions'][AbilityVersion]['ability_name']['english'];
+                    CardTextForFilter += AbilityJSON[AbilityTextSearchArrayIndex]['versions'][AbilityVersion]['text']['english'];       
+                }
+            } 
         }
+
         if ("searchterm" in CardJSON[i]) {
             SearchTermForFilter = CardJSON[i]["searchterm"];
         } else {
@@ -195,6 +241,18 @@ function GenerateCardViewerPage() {
         } else {
             ColourCheckPass = false;
         }
+
+         //Pass if
+        const ItemFilterCheck =
+            //card is not an item
+            !(
+                CardJSON[i]["versions"][LatestCardVersion]["card_type"] ===
+                "Item"
+            ) ||
+            // or subtype for the item is true in the filter
+            CardViewerFilter[
+                [CardJSON[i]["versions"][LatestCardVersion]["card_subtype"]]
+            ];
 
         if (("is_signature" in CardJSON[i]['versions'][LatestCardVersion]) && CardViewerFilter['signature'] == false) {
             SignatureFilterCheck = false; //If this is a signature card and signatures are filtered out
@@ -211,21 +269,22 @@ function GenerateCardViewerPage() {
         if (CardJSON[i]['versions'][LatestCardVersion]['card_name']['english'].search(textfilter) != -1 || CardTextForFilter.search(textfilter) != -1 || SearchTermForFilter.search(textfilter) != -1) {
             if (ColourCheckPass == true) {
                 if (SignatureFilterCheck == true) {
-                    //if (!("hide_from_card_list" in CardJSON[i]) || HideFromCardListFilter.contains(CardJSON[i]['hide_from_card_list'])) {
-                    if (HideFromCardListCheck == true) {
-                        switch (CardJSON[i]['versions'][LatestCardVersion]["card_type"]) {
-                            case 'Hero':
-                                A2Heroes.push(CardJSON[i]);
-                                break;
-                            case 'Item':
-                                A2Items.push(CardJSON[i]);
-                                break;
-                            case 'SpecialItem':
-                                A2SpecialItems.push(CardJSON[i]);
-                                break; 
-                            default:
-                                A2OtherCards.push(CardJSON[i]);
-                                break;
+                    if (ItemFilterCheck) {
+                        if (HideFromCardListCheck == true) {
+                            switch (CardJSON[i]['versions'][LatestCardVersion]["card_type"]) {
+                                case 'Hero':
+                                    A2Heroes.push(CardJSON[i]);
+                                    break;
+                                case 'Item':
+                                    A2Items.push(CardJSON[i]);
+                                    break;
+                                case 'SpecialItem':
+                                    A2SpecialItems.push(CardJSON[i]);
+                                    break; 
+                                default:
+                                    A2OtherCards.push(CardJSON[i]);
+                                    break;
+                            }
                         }
                     }
                 }
@@ -544,13 +603,13 @@ function GenerateCVCHTML(Card) {
         CardCostStyle = "CVCCardListingCardCostMana";
     }
 
-    CardHTML = '<div class="CVCCardListing CVCCardListing'+CardColour+'" onmousemove="CardViewerCardPreviewTooltip(\''+CardIDV+'\',1);" onmouseout="CardViewerCardPreviewTooltip(0,0);" onmouseup="CardViewer_SelectCard(\''+CardIDV+'\'); CVChangeViewStyle(0)"> \
+    CVCCardHTML = '<div class="CVCCardListing CVCCardListing'+CardColour+'" onmousemove="CardViewerCardPreviewTooltip(\''+CardIDV+'\',1);" onmouseout="CardViewerCardPreviewTooltip(0,0);" onmouseup="CardViewer_SelectCard(\''+CardIDV+'\'); CVChangeViewStyle(0)"> \
                     <div class="CVCCardListingMiniImage"><img src="Images/Cards/MiniImage/'+CardMiniImage+'.jpg"></div> \
                     <div class="CVCCardListingCardCost '+CardCostStyle+'">'+CardCostToShow+'</div> \
                     <div class="CVCCardListingCardName">'+CardName+'</div> \
                     <div class="clear"></div>\
                 </div>';
-    return CardHTML;
+    return CVCCardHTML;
 }
 
 function CardViewer_SelectCard(CardIDV, skipHistory) {
@@ -775,6 +834,27 @@ function CardViewer_SelectCard(CardIDV, skipHistory) {
 
     document.getElementById('CardViewerPageCardLore').innerHTML = HTMLLoreTextLeftPanel;
     document.getElementById('CardViewerPageCardLoreMobile').innerHTML = HTMLLoreTextLeftPanel;
+
+    // Adapted from http://detectmobilebrowser.com/mobile
+    const isMobile = (function (a) {
+      if (
+        /(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(
+          a
+        ) ||
+        /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(
+          a.substr(0, 4)
+        )
+      ) {
+        return true;
+      } else {
+        return false;
+      }
+    })(navigator.userAgent || navigator.vendor || window.opera);
+    
+    // Scroll to Top on Mobile
+    if(isMobile){
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    }
 }
 
 function GenerateCard(Container,CardIDV) {
@@ -1107,8 +1187,9 @@ Keywords = [];
 Keywords['Regeneration'] = "The unit heals this amount during the combat phase. Regeneration is applied before checking for death.";
 Keywords['After Combat'] = "An effect that triggers after the Combat Phase.";
 Keywords['Aura'] = "An effect which applies to units when they enter a specified area and is removed when they leave.";
-Keywords['Bounce'] = "Return a unit to owners hand if a creep, or fountain if a hero.";
+Keywords['Bounce'] = "Return target to owners fountain if it's a hero, or the hand if it's a creep or item.";
 Keywords['Burn'] = "Remove mana from the enemy player.";
+Keywords['Cleave'] = "During the combat phase, deal Cleave damage to all adjacent enemies. Cleave damage doesn't hit towers."
 Keywords['Cross Lane'] = "Cross Lane cards are cast by heroes in one lane, but can target objects in a different lane.";
 Keywords['Cursed'] = "Destroyed when replaced by another item.";
 Keywords['Death Effect'] = "An effect that is processed after this unit dies.";
@@ -1128,13 +1209,16 @@ Keywords['Pierce'] = "Piercing damage is not reduced by the target's armor.";
 Keywords['Piercing'] = "Piercing damage is not reduced by the target's armor.";
 Keywords['Pillager'] = "This unit steals 2 gold from the opponent whenever it damages their tower.";
 Keywords['Play Effect'] = "An additional effect that is processed at the time you play this creep.";
+Keywords['Purge'] = "Removes modifications and temporary effects, but not damage. Purging does not affect base abilities or external effects, such as those from equipped items and continuous effects from auras.";
 Keywords['Push'] = "Move a unit 1 slot randomly left or right to an occupied spot.";
 Keywords['Quickcast'] = "After you play this, you get the initiative coin and may immediately take another action. If you use this action to pass, you will retain initiative and may act first next round.";
 Keywords['Quickstrike'] = "Units with quickstrike attack before units without quickstrike. Regeneration and decay are applied at the same time as combat damage, after quickstrike damage resolves.";
+Keywords['Reflect'] = "When targeted or attacked, damage that would be done to this unit is instead dealt to the caster or attacker.";
 Keywords['Retaliate'] = "When attacked during a battle (even outside of the combat phase), deal this much extra damage to the attackers.";
 Keywords['Rooted'] = "Can't be moved.";
 Keywords['Scheme'] = "An effect which triggers when the card's owner passes.";
 Keywords['Siege'] = "During the combat phase, deal Siege damage to the enemy tower.";
+Keywords['Sneak Attack'] = "A unit deals its Attack damage to its target in a one-way battle. Combat attributes such as Armor, Retaliate, and Piercing are applied.";
 Keywords['Stun'] = "A stunned unit is silenced (cannot use any active abilities and cannot be used to play cards of its color) and disarmed (does not attack its target during battles). Lasts until the end of round by default.";
 Keywords['Swap'] = "Move a unit to the targeted slot. If that slot was occupied, the unit in that space move to the original unit's position.";
 Keywords['Tower Enchantment'] = "A tower enchantment is a spell that adds a permanent effect to a tower or lane. Tower enchantments are not units and do not occupy combat positions.";
@@ -1166,7 +1250,7 @@ window.onpopstate = (event) => {
         if(param.id){
             CardViewer_SelectCard(param.id, true);
         } else {
-            CardViewer_SelectCard('200043_99', true);
+            CardViewer_SelectCard('10020_99', true);
         }
         
     }
@@ -1187,33 +1271,9 @@ function ToggleFilter(FilterValue) {
     if (FilterValue == "R" || FilterValue == "U" || FilterValue == "B" || FilterValue == "G" || FilterValue == "C") {
         if (CardViewerFilter[FilterValue] == true) {
             CardViewerFilter[FilterValue] = false;
-            if (CardViewerFilter["R"] == false && CardViewerFilter["U"] == false && CardViewerFilter["B"] == false && CardViewerFilter["G"] == false && CardViewerFilter["C"] == false) { // If all colour filters are turned off
-                //Turn them all back on
-                document.getElementById("ColourFilterR").classList.remove('CVOptionButtonUnselected');
-                document.getElementById("ColourFilterR").classList.add('CVOptionButtonSelected');
-                document.getElementById("ColourFilterU").classList.remove('CVOptionButtonUnselected');
-                document.getElementById("ColourFilterU").classList.add('CVOptionButtonSelected');
-                document.getElementById("ColourFilterB").classList.remove('CVOptionButtonUnselected');
-                document.getElementById("ColourFilterB").classList.add('CVOptionButtonSelected');
-                document.getElementById("ColourFilterG").classList.remove('CVOptionButtonUnselected');
-                document.getElementById("ColourFilterG").classList.add('CVOptionButtonSelected');
-                document.getElementById("ColourFilterC").classList.remove('CVOptionButtonUnselected');
-                document.getElementById("ColourFilterC").classList.add('CVOptionButtonSelected');
-                document.getElementById("CVCOuterContainerR").style.display = "block";
-                document.getElementById("CVCOuterContainerU").style.display = "block";
-                document.getElementById("CVCOuterContainerB").style.display = "block";
-                document.getElementById("CVCOuterContainerG").style.display = "block";
-                document.getElementById("CVCOuterContainerC").style.display = "block";
-                CardViewerFilter["R"] = true;
-                CardViewerFilter["U"] = true;
-                CardViewerFilter["B"] = true;
-                CardViewerFilter["G"] = true;
-                CardViewerFilter["C"] = true;
-            } else {
                 document.getElementById("ColourFilter"+FilterValue).classList.add('CVOptionButtonUnselected');
                 document.getElementById("ColourFilter"+FilterValue).classList.remove('CVOptionButtonSelected');
                 document.getElementById("CVCOuterContainer"+FilterValue).style.display = "none";
-            }
         } else {
             CardViewerFilter[FilterValue] = true;
             document.getElementById("ColourFilter"+FilterValue).classList.add('CVOptionButtonSelected');
@@ -1240,6 +1300,46 @@ function ToggleFilter(FilterValue) {
             document.getElementById("HiddenFilterUncollectable").classList.add('CVOptionButtonSelected');
             document.getElementById("HiddenFilterUncollectable").classList.remove('CVOptionButtonUnselected');
         }
+    } else if (FilterValue == "abilitytext") {
+        if (CardViewerFilter['includeabilitytext'] == true) {
+            CardViewerFilter['includeabilitytext'] = false;
+            document.getElementById("FilterIncludeAbilityText").classList.add('CVOptionButtonUnselected');
+            document.getElementById("FilterIncludeAbilityText").classList.remove('CVOptionButtonSelected');
+        } else {
+            CardViewerFilter['includeabilitytext'] = true;
+            document.getElementById("FilterIncludeAbilityText").classList.add('CVOptionButtonSelected');
+            document.getElementById("FilterIncludeAbilityText").classList.remove('CVOptionButtonUnselected');
+        }
+    } else if (
+        FilterValue === "Weapon" ||
+        FilterValue === "Armor" ||
+        FilterValue === "Accessory" ||
+        FilterValue === "Consumable"
+    ) {  
+        CardViewerFilter[FilterValue] = !CardViewerFilter[FilterValue];
+        const el = document.getElementById("ItemFilter"+FilterValue)
+        const sel = { 
+            Weapon: "CVCWeapons",
+            Armor: "CVCArmor",
+            Accessory: "CVCAcc",
+            Consumable: "CVCCon"
+        }
+        if (!CardViewerFilter[FilterValue]) {
+            el.classList.remove('CVOptionButtonSelected');
+            el.classList.add('CVOptionButtonUnselected');
+            document.getElementById(sel[FilterValue]).style.display = "none";
+        } else {
+            el.classList.add('CVOptionButtonSelected');
+            el.classList.remove('CVOptionButtonUnselected');
+            document.getElementById(sel[FilterValue]).style.display = "block";
+        }
+    }
+    if (CardViewerFilter["R"] == false && CardViewerFilter["U"] == false && CardViewerFilter["B"] == false && CardViewerFilter["G"] == false && CardViewerFilter["C"] == false && CardViewerFilter["Weapon"] == false && CardViewerFilter["Armor"] == false && CardViewerFilter["Accessory"] == false && CardViewerFilter["Consumable"] == false) { // If all colour filters and item filters are turned off
+        document.getElementById('ColourFilterContainer').style.background = "rgba(135,31,38,0.6)";
+        document.getElementById('ItemFilterContainer').style.background = "rgba(135,31,38,0.6)";
+    } else {
+        document.getElementById('ColourFilterContainer').style.background = "";
+        document.getElementById('ItemFilterContainer').style.background = "";
     }
     GenerateCardViewerPage();
 }
