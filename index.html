@@ -12,11 +12,13 @@
    
         <meta charset="utf-8" />   
         <title>Artifact 2 Card Viewer</title>   
-        <link rel="preload" href="Styles/standard.css" as="style">
-        <link rel="preload" href="Styles/cards.css" as="style">
+        <link rel="preload" href="Styles/Standard.css" as="style">
+        <link rel="preload" href="Styles/Cards.css" as="style">
+        <link rel="preload" href="Styles/CardBrowser.css" as="style">
 
-        <link rel="stylesheet" href="Styles/standard.css">
-        <link rel="stylesheet" href="Styles/cards.css">  
+        <link rel="stylesheet" href="Styles/Standard.css">
+        <link rel="stylesheet" href="Styles/Cards.css">
+        <link rel="stylesheet" href="Styles/CardBrowser.css">
     </head> 
 
     <body>
@@ -52,7 +54,7 @@
 
         <div id="CVOptions">
             <div class="RestrictWidth">
-                <div class="CVOptionContainer">
+                <div class="CVOptionContainer float">
                     <div class="CVOptionName">
                         LAYOUT
                     </div>
@@ -60,7 +62,7 @@
                     <div id="CVOptionLayout2" class="CVOptionButton CVOptionButtonUnselected" onmouseup="history.pushState({}, 'Artifact 2 Card Viewer', `?&l=true`); CVChangeViewStyle(1);"></div>
                     <div class="clear"></div>
                 </div>
-                <div class="CVOptionContainer" id="ColourFilterContainer">
+                <div class="CVOptionContainer float" id="ColourFilterContainer">
                     <div class="CVOptionName">
                         COLOUR FILTER
                     </div>
@@ -71,7 +73,7 @@
                     <div id="ColourFilterC" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowFilterTooltip(1, 'Colourless')"; onmouseout="ShowFilterTooltip(0,0)"; onmouseup="ToggleFilter('C');"></div>
                     <div class="clear"></div>
                 </div>
-                <div class="CVOptionContainer" id="ItemFilterContainer">
+                <div class="CVOptionContainer float" id="ItemFilterContainer">
                     <div class="CVOptionName">
                         ITEM FILTER
                     </div>
@@ -81,7 +83,7 @@
                     <div id="ItemFilterConsumable" class="CVOptionButton CVOptionButtonSelected ItemFilter" onmousemove="ShowFilterTooltip(1, 'Consumables');" onmouseout="ShowFilterTooltip(0,0);" onmouseup="ToggleFilter('Consumable');"></div>
                     <div class="clear"></div>
                 </div>
-                <div class="CVOptionContainer">
+                <div class="CVOptionContainer float">
                     <div class="CVOptionName">
                         ADDITIONAL FILTERS
                     </div>
