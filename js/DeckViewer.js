@@ -17,7 +17,6 @@ const LoadDeckFunc = function() {
     }
     
     if (DecodedDeck) {
-        console.log(DecodedDeck);
         history.pushState({}, "Artifact 2 Deck Viewer", `?d=${DeckCodeToLoad}`);
         let DeckName = DecodedDeck['name'];
         if (DeckName.charAt(0) == "%") {
