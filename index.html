@@ -15,7 +15,6 @@
         <link rel="preload" href="Styles/Standard.css" as="style">
         <link rel="preload" href="Styles/Cards.css" as="style">
         <link rel="preload" href="Styles/CardBrowser.css" as="style">
-
         <link rel="stylesheet" href="Styles/Standard.css">
         <link rel="stylesheet" href="Styles/Cards.css">
         <link rel="stylesheet" href="Styles/CardBrowser.css">
@@ -31,6 +30,11 @@
                 <div class="SiteHeaderButton SiteHeaderButtonSelected">
                     <div class="SiteHeaderButtonText">ARTIFACT 2 CARDS</div>
                 </div>
+                <a href="DeckViewer.html">
+                    <div class="SiteHeaderButton SiteHeaderButtonUnselected">
+                        <div class="SiteHeaderButtonText">DECK VIEWER</div>
+                    </div>
+                </a>
                 <a href="ReportError.html">
                     <div class="SiteHeaderButton SiteHeaderButtonUnselected">
                         <div class="SiteHeaderButtonText">REPORT AN ERROR</div>
@@ -76,7 +80,7 @@
                 </div>
                 <div class="CVOptionContainer floatr">
                     <div class="CVOptionName">CARD NAME AND TEXT SEARCH</div>
-                    <input type="text" id="CardTextFilter" value="" onkeyup="GenerateCardViewerPage(CardViewerFilter);">
+                    <input type="text" id="CardTextFilter" value="" onkeyup="GenerateCardListCardBrowser(CardViewerFilter);">
                     <div class="clear"></div>
                 </div>
                 <div class="CVOptionContainer floatr">
@@ -110,7 +114,6 @@
                             </div>
                         </div> 
                     </div>
-                    <button id="ShareButton" class="ArtifactButtonSmall" type="button" onmousemove="ShowFilterTooltip(1, 'Copies the URL for this card to the clipboard');" onmouseout="ShowFilterTooltip(0,0);" onclick="CardShareToClipboard('200115_0')">Share This Card</button> 
                 </div>
                 <div class="clear OnlyMobile"></div>
                 <div id="CardViewerPageCardLoreMobile">
@@ -187,8 +190,10 @@
                 <div id="SpecialTextTitle">Title</div>
                 <div id="SpecialTextDesc">Desc</div>
             </div>
-            <input type="text" value="200115_0" id="hiddenClipboard">
-        </div> 
-        <script src="main.js"></script>            
+        </div>
+        <script src="main.js"></script>
+        <script src="js/CardGenerator.js"></script>
+        <script src="js/OrderCardList.js"></script>
+        <script>InitialisePage("CardBrowser");</script>
     </body>
 </html>

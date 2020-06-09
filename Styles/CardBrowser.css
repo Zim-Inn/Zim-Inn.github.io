@@ -10,11 +10,6 @@
     width: 320px;
     padding: 0 10px;
 }
-@media (pointer:coarse) {
-    #CardViewerPage_Centre {
-        width: 392px;
-    }
-}
 #CardViewerPage_Right {
     margin-top: 10px;
     float: left;
@@ -194,9 +189,6 @@
     color: #ccc;
     font-size: 12pt;
     padding: 3px 0;
-}
-#hiddenClipboard{
-    opacity: 0;
 }
 
 .CardListItemContainer {
@@ -623,11 +615,6 @@
 .CVCCardListingC:hover {
     background: linear-gradient(170deg, rgba(56, 62, 55,0.9) 20%, rgba(56, 62, 55,0.6));
 }
-#ShareButton {
-    width: 180px;
-    margin-left: calc(50% - 90px);
-    margin-top: 5px;
-}
 @media (max-width: 1090px) {
     .CardList_CardName {
         letter-spacing: -0.05em;
@@ -755,15 +742,5 @@
         height: 60px;
         padding: 20px 0 0 10px;
         font-size: 28pt;
-    }
-}
-
-.float {
-    float: left;
-}
-.floatr {
-    float: right;
-}
-.clear {
-    clear: both;
+    }    
 }

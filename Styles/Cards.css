@@ -19,6 +19,10 @@
     width: 170px;
     font-size: 11pt;
 }
+.CardContainerDeckViewerMiniPreview {
+    width: 220px;
+    font-size: 14.5pt;
+}
 .CardContainer_LoadingPlaceholder {
     width: calc(100% - 18px);
     border: 9px solid #938f8c;
@@ -270,7 +274,7 @@
     font-weight: 500;
     text-shadow: 2px 2px 2px black;
     width: 25%;
-    padding-left: 7%;
+    padding-left: 8%;
     height: 100%;
     float: left;
     background-position: 25% 50%;
