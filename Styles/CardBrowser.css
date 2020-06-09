@@ -10,6 +10,11 @@
     width: 320px;
     padding: 0 10px;
 }
+@media (pointer:coarse) {
+    #CardViewerPage_Centre {
+        width: 392px;
+    }
+}
 #CardViewerPage_Right {
     margin-top: 10px;
     float: left;
