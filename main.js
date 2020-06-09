@@ -1350,8 +1350,7 @@ function restoreSaveButtonWithDelay(){
         clearTimeout(alreadyRestoringSaveButton);
     }
     alreadyRestoringSaveButton = setTimeout(() => {
-        console.log("Restoring Text");
-        document.getElementById("ShareButton").innerText = "Share This Card";
+        document.getElementById("ShareButton") = "Share This Card";
         alreadyRestoringSaveButton = false;
     }, 3000);
 };
@@ -1366,7 +1365,7 @@ function CardShareToClipboard(CardIDV) {
     try {
         const successful = document.execCommand("copy");
         const msg = successful ? "successful" : "unsuccessful";
-        console.log("Copying text command was " + msg);
+        // console.log("Copying text command was " + msg);
 
         document.getElementById("ShareButton").innerText = "Copied!";
         restoreSaveButtonWithDelay();
