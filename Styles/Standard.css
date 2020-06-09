@@ -138,6 +138,23 @@ body {
 .TextColour_Red {
     color: rgb(211, 8, 8);
 }
+.ArtifactButtonSmall {
+    font-family: 'Radiance', sans-serif;
+    font-size: 14pt;
+    background: linear-gradient(170deg, #373f49 20%, #2e2e3e);
+    border: 0;
+    padding: 10px;
+    min-width: 140px;
+    color: #9ea8ac;
+    box-shadow: 1px 1px 6px black;
+    cursor: pointer;
+    transition: color 0.15s ease-out;
+}
+.ArtifactButtonSmall:hover {
+    color: #ddd;
+    text-shadow: 0 0 10px #438994;
+    background: linear-gradient(170deg, #36434e 20%, #373953);
+}
 .OnlyMobile {
     display:none;
 }

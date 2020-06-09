@@ -110,6 +110,7 @@
                             </div>
                         </div> 
                     </div>
+                    <button id="ShareButton" class="ArtifactButtonSmall" type="button" onmousemove="ShowFilterTooltip(1, 'Copies the URL for this card to the clipboard');" onmouseout="ShowFilterTooltip(0,0);" onclick="CardShareToClipboard('200115_0')">Share This Card</button> 
                 </div>
                 <div class="clear OnlyMobile"></div>
                 <div id="CardViewerPageCardLoreMobile">
@@ -186,7 +187,8 @@
                 <div id="SpecialTextTitle">Title</div>
                 <div id="SpecialTextDesc">Desc</div>
             </div>
-        </div>
-        <script src="main.js"></script>
+            <input type="text" value="200115_0" id="hiddenClipboard">
+        </div> 
+        <script src="main.js"></script>            
     </body>
 </html>

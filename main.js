@@ -637,6 +637,8 @@ function CardViewer_SelectCard(CardIDV, skipHistory) {
     ThisCard = CardJSON[CardArrayIndex]['versions'][CardVersion];
 
     document.getElementById('CardDetailsPanelCardTitle').innerHTML = ThisCard['card_name']['english'];
+    document.getElementById('ShareButton').onclick = () => CardShareToClipboard(CardID+"_"+CardVersion);
+    
     if (ThisCard['card_type'] == "Item") {
         document.getElementById('CardDetailsPanelCardType').innerHTML = ThisCard['card_type']+' - '+ThisCard['card_subtype'];
     } else {
@@ -1341,3 +1343,33 @@ function ToggleFilter(FilterValue) {
     }
     GenerateCardViewerPage();
 }
+
+let alreadyRestoringSaveButton = false;
+function restoreSaveButtonWithDelay(){
+    if (alreadyRestoringSaveButton) {
+        clearTimeout(alreadyRestoringSaveButton);
+    }
+    alreadyRestoringSaveButton = setTimeout(() => {
+        document.getElementById("ShareButton").innerText = "Share This Card";
+        alreadyRestoringSaveButton = false;
+    }, 3000);
+};
+
+function CardShareToClipboard(CardIDV) {
+    const copyText = document.getElementById("hiddenClipboard");
+
+    copyText.value = document.location.href.split("?")[0] + "?id=" + CardIDV;
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+    try {
+        const successful = document.execCommand("copy");
+        const msg = successful ? "successful" : "unsuccessful";
+        // console.log("Copying text command was " + msg);
+
+        document.getElementById("ShareButton").innerText = "Copied!";
+        restoreSaveButtonWithDelay();
+    } catch (err) {
+        console.log("Oops, unable to copy");
+    }
+} 
