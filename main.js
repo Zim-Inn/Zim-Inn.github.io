@@ -1344,18 +1344,33 @@ function ToggleFilter(FilterValue) {
     GenerateCardViewerPage();
 }
 
-const CardShareToClipboard = (CardIDV) => {
+let alreadyRestoringSaveButton = false;
+function restoreSaveButtonWithDelay(){
+    if (alreadyRestoringSaveButton) {
+        clearTimeout(alreadyRestoringSaveButton);
+    }
+    alreadyRestoringSaveButton = setTimeout(() => {
+        console.log("Restoring Text");
+        document.getElementById("ShareButton").innerText = "Share This Card";
+        alreadyRestoringSaveButton = false;
+    }, 3000);
+};
+
+function CardShareToClipboard(CardIDV) {
     const copyText = document.getElementById("hiddenClipboard");
 
-    copyText.value = document.location.href.split('?')[0] + "?id=" + CardIDV;
+    copyText.value = document.location.href.split("?")[0] + "?id=" + CardIDV;
     copyText.select();
     copyText.setSelectionRange(0, 99999); /*For mobile devices*/
-   
+
     try {
-        const successful = document.execCommand('copy');
-        const msg = successful ? 'successful' : 'unsuccessful';
-        console.log('Copying text command was ' + msg);
-      } catch (err) {
-        console.log('Oops, unable to copy');
-      }
+        const successful = document.execCommand("copy");
+        const msg = successful ? "successful" : "unsuccessful";
+        console.log("Copying text command was " + msg);
+
+        document.getElementById("ShareButton").innerText = "Copied!";
+        restoreSaveButtonWithDelay();
+    } catch (err) {
+        console.log("Oops, unable to copy");
+    }
 } 
