@@ -9648,6 +9648,23 @@
 		},
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-06-01",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Sonic Bubble"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "U",
+		"image": "10796_0",
+		"miniimage": "10796_0",
+		"cost": 5,
+		"text": {
+			"english": " /n Deal 2 damage to an enemy unit. Silence each enemy other than the target."
+		},
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10412,
