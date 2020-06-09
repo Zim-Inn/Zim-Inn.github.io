@@ -1898,11 +1898,11 @@
 			}
 		},
 		"set": 1,
-		"rarity": 1,
+		"rarity": 2,
 		"colour": "U",
 		"image": "10063_0",
 		"miniimage": "10063_0",
-		"cost": 6,
+		"cost": 4,
 		"text": {
 			"english": " /n Deal 6 piercing damage evenly divided among a unit and its allied neighbors."
 		},
