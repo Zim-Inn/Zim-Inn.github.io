@@ -1350,7 +1350,7 @@ function restoreSaveButtonWithDelay(){
         clearTimeout(alreadyRestoringSaveButton);
     }
     alreadyRestoringSaveButton = setTimeout(() => {
-        document.getElementById("ShareButton") = "Share This Card";
+        document.getElementById("ShareButton").innerText = "Share This Card";
         alreadyRestoringSaveButton = false;
     }, 3000);
 };
