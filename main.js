@@ -25,8 +25,8 @@ const getURLParams = function (url) {
     return params;
 };
 
-function InitializeCardViewerPage() { //Load JSON and load first card
-    p1 = new Promise(function(resolve, reject) {
+const InitialisePage = function(Page) {
+    let p1 = new Promise(function(resolve, reject) {
         var req = new XMLHttpRequest();
         req.open("GET", 'json/Cards.json', true);
         req.onreadystatechange = function() {
@@ -40,7 +40,7 @@ function InitializeCardViewerPage() { //Load JSON and load first card
         };
         req.send();
     });
-    p2 = new Promise(function(resolve, reject) {
+    let p2 = new Promise(function(resolve, reject) {
         var req = new XMLHttpRequest();
         req.open("GET", 'json/Abilities.json', true);
         req.onreadystatechange = function() {
@@ -58,88 +58,21 @@ function InitializeCardViewerPage() { //Load JSON and load first card
     Promise.all([p1,p2]).then(responses => {
         CardJSON = JSON.parse(responses[0]);
         AbilityJSON = JSON.parse(responses[1]);
-        GenerateCardViewerPage('');
-        
-        const id = getURLParams(document.location.href).id
-        if(getURLParams(document.location.href).id){
-            CardViewer_SelectCard(id, true);
-        } else {
-            CardViewer_SelectCard('10020_99', true);
+        if (Page == "CardBrowser") {
+            GenerateCardListCardBrowser();
+            const id = getURLParams(document.location.href).id;
+            if(getURLParams(document.location.href).id){
+                CardViewer_SelectCard(id, true);
+            } else {
+                CardViewer_SelectCard('10020_99', true);
+            }
+        } else if (Page == "DeckViewer") {
+            if (getURLParams(document.location.href).d) {
+                document.getElementById('DeckCodeInputField').value = getURLParams(document.location.href).d;
+                LoadDeckFunc();
+            }
         }
     })
-}
-
-InitializeCardViewerPage();
-
-function CardTextFormatting(CardText) {
-    CardText = CardText.replace(/\/n/g,"<br>");
-    CardText = CardText.replace(/(\[ATT\])/g,"▣");
-    CardText = CardText.replace(/(\[AR\])/g,"▤");
-    CardText = CardText.replace(/(\[HP\])/g,"▥");
-    CardText = CardText.replace(/(\[QU\])/g,"▢");
-    CardText = CardText.replace(/(\[AC\])/g,"■");
-    CardText = CardText.replace(/(\[RP\])/g,"□");
-    CardText = CardText.replace(/(\[TG\])/g,"<span class=\"TextColour_Golden\">");
-    CardText = CardText.replace(/(\[TRed\])/g,"<span class=\"TextColour_Red\">");
-    CardText = CardText.replace(/(\[ET\])/g,"</span>");
-    CardText = CardText.replace(/(Regeneration)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Regeneration\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Regeneration</span>");
-    CardText = CardText.replace(/(After Combat)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'After Combat\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">After Combat</span>");
-    CardText = CardText.replace(/(Aura)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Aura\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Aura</span>");
-    CardText = CardText.replace(/(Bounce)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Bounce\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Bounce</span>");
-    CardText = CardText.replace(/(Burn)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Burn\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Burn</span>");
-    CardText = CardText.replace(/(Cleave)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Cleave\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Cleave</span>");
-    CardText = CardText.replace(/(Cross Lane)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Cross Lane\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Cross Lane</span>");
-    CardText = CardText.replace(/(Cursed)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Cursed\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Cursed</span>");
-    CardText = CardText.replace(/(Death Effect)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Death Effect\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Death Effect</span>");
-    CardText = CardText.replace(/(Decay)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Decay\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Decay</span>");
-    CardText = CardText.replace(/(Devour)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Devour\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Devour</span>");
-    CardText = CardText.replace(/(Disarm)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Disarm\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Disarm</span>");
-    CardText = CardText.replace(/(Dispel)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Dispel\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Dispel</span>");
-    CardText = CardText.replace(/(Enchant)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Enchant\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Enchant</span>");
-    CardText = CardText.replace(/(Feeble)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Feeble\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Feeble</span>");
-    CardText = CardText.replace(/(Fountain)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Fountain\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Fountain</span>");
-    CardText = CardText.replace(/(Jump)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Jump\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Jump</span>");
-    CardText = CardText.replace(/(Lifesteal)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Lifesteal\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Lifesteal</span>");
-    CardText = CardText.replace(/(Lock)/g,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Lock\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Lock</span>");
-    CardText = CardText.replace(/(Minion)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Minion\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Minion</span>");
-    CardText = CardText.replace(/(Mulch)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Mulch\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Mulch</span>");
-    CardText = CardText.replace(/(Pierce)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Pierce\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Pierce</span>");
-    CardText = CardText.replace(/(Piercing)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Piercing\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Piercing</span>");
-    CardText = CardText.replace(/(Pillager)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Pillager\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Pillager</span>");
-    CardText = CardText.replace(/(Push)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Push\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Push</span>");
-    CardText = CardText.replace(/(Purge)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Purge\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Purge</span>");
-    CardText = CardText.replace(/(Play Effect)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Play Effect\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Play Effect</span>");
-    CardText = CardText.replace(/(Quickcast)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Quickcast\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Quickcast</span>");
-    CardText = CardText.replace(/(Quickstrike)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Quickstrike\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Quickstrike</span>");
-    CardText = CardText.replace(/(Reflect)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Reflect\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Reflect</span>");
-    CardText = CardText.replace(/(Retaliate)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Retaliate\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Retaliate</span>");
-    CardText = CardText.replace(/(Rooted)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Rooted\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Rooted</span>");
-    CardText = CardText.replace(/(Scheme)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Scheme\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Scheme</span>");
-    CardText = CardText.replace(/(Siege)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Siege\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Siege</span>");
-    CardText = CardText.replace(/(Stun)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Stun\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Stun</span>");
-    CardText = CardText.replace(/(Sneak Attack)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Sneak Attack\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Sneak Attack</span>");
-    if (!CardText.includes("Swap colors")) { //Body Modifications card
-        CardText = CardText.replace(/(Swap)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Swap\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Swap</span>");
-    }
-    CardText = CardText.replace(/(Taunt)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Taunt\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Taunt</span>");
-    CardText = CardText.replace(/(Trample)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Trample\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Trample</span>");
-    CardText = CardText.replace(/(Untargetable)/gi,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,\'Untargetable\');\" onmouseout=\"ShowKeywordTooltip(0,0);\">Untargetable</span>");
-
-    return CardText;
-}
-
-function CardViewer_AbilityTextFormatting(Text) {
-    Text = Text.replace(/\/n/g," ");
-    Text = Text.replace(/(\[ATT\])/g,"▣");
-    Text = Text.replace(/(\[AR\])/g,"▤");
-    Text = Text.replace(/(\[HP\])/g,"▥");
-    Text = Text.replace(/(\[QU\])/g,"<br>▢");
-    Text = Text.replace(/(\[AC\])/g,"■");
-    Text = Text.replace(/(\[RP\])/g,"□");
-    Text = Text.replace(/(\[TG\])/g,"");
-    Text = Text.replace(/(\[TRed\])/g,"");
-    Text = Text.replace(/(\[ET\])/g,"");
-    return Text;
 }
 
 function CVChangeViewStyle(View) {
@@ -192,7 +125,7 @@ CardViewerFilter = {
     uncollectable: false,
 };
 
-function GenerateCardViewerPage() {
+function GenerateCardListCardBrowser() {
     CardViewerFilter['text'] = document.getElementById('CardTextFilter').value;
     CardsToDisplay = new Array();
 
@@ -292,75 +225,7 @@ function GenerateCardViewerPage() {
         }
     }
 
-    const colorIndex = {R:1, U:2, B:3, G:4, C:5};
-
-    A2Heroes = A2Heroes.sort((Card1, Card2) => {
-        c1 = Card1.versions[Card1.versions.length-1];
-        c2 = Card2.versions[Card2.versions.length-1];
-        c1colour = colorIndex[c1.colour]
-        c2colour = colorIndex[c2.colour]
-
-        if ( c1colour !== c2colour) {
-            if( c1colour > c2colour)
-                return 1;
-            else
-                return -1;
-        }
-        if (c1.card_name.english > c2.card_name.english) {
-            return 1;
-        } else {
-            return -1
-        }
-    });
-    A2OtherCards = A2OtherCards.sort((Card1, Card2) => {
-        c1 = Card1.versions[Card1.versions.length-1];
-        c2 = Card2.versions[Card2.versions.length-1];
-        c1colour = colorIndex[c1.colour]
-        c2colour = colorIndex[c2.colour]
-
-        if ( c1.cost !== c2.cost) {
-            if( c1.cost > c2.cost)
-                return 1;
-            else
-                return -1;
-        }
-        if ( c1colour !== c2colour) {
-            if( c1colour > c2colour)
-                return 1;
-            else
-                return -1;
-        }
-        if (c1.card_name.english > c2.card_name.english) {
-            return 1;
-        } else {
-            return -1
-        }
-    });
-
-    A2Items = A2Items.sort((Card1, Card2) => {
-        c1 = Card1.versions[Card1.versions.length-1];
-        c2 = Card2.versions[Card2.versions.length-1];
-        c1colour = colorIndex[c1.colour]
-        c2colour = colorIndex[c2.colour]
-
-        if (c1.gcost !== c2.gcost) {
-            if (c1.gcost > c2.gcost) {
-                return 1;
-            } else {
-                return -1;
-            }
-        }
-        if (c1.card_name.english > c2.card_name.english) {
-            return 1;
-        } else {
-            return -1
-        }
-    });
-
-    CardsToDisplay = CardsToDisplay.concat(A2Heroes);
-    CardsToDisplay = CardsToDisplay.concat(A2OtherCards);
-    CardsToDisplay = CardsToDisplay.concat(A2SpecialItems);
-    CardsToDisplay = CardsToDisplay.concat(A2Items);
+    CardsToDisplay = OrderCardList(A2Heroes,A2OtherCards,A2Items);
 
     LongCardListHTML = "";
     CVCRedHeroHTML = "";
@@ -637,8 +502,6 @@ function CardViewer_SelectCard(CardIDV, skipHistory) {
     ThisCard = CardJSON[CardArrayIndex]['versions'][CardVersion];
 
     document.getElementById('CardDetailsPanelCardTitle').innerHTML = ThisCard['card_name']['english'];
-    document.getElementById('ShareButton').onclick = () => CardShareToClipboard(CardID+"_"+CardVersion);
-    
     if (ThisCard['card_type'] == "Item") {
         document.getElementById('CardDetailsPanelCardType').innerHTML = ThisCard['card_type']+' - '+ThisCard['card_subtype'];
     } else {
@@ -857,304 +720,6 @@ function CardViewer_SelectCard(CardIDV, skipHistory) {
     }
 }
 
-function GenerateCard(Container,CardIDV) {
-    LoadingHTML = '<div class="CardContainer_LoadingPlaceholder"><div class="LoadingCardThrobberContainer"><img src="Images/Styles/throbber20px.gif"></div></div>';
-    document.getElementById(Container).innerHTML = LoadingHTML;
-
-    CardHTML = "";
-    CardArrayIndex = "";
-    CardIDV = CardIDV.split("_");
-    CardID = CardIDV[0];
-    CardVersion = CardIDV[1];
-    for (i = 0; i < CardJSON.length; i++) {
-        if ((CardJSON[i]['card_id']) == CardID) {
-            CardArrayIndex = i;
-            break;
-        }
-    }
-    if ((CardVersion > (CardJSON[CardArrayIndex]['versions'].length - 1)) || CardVersion < 0) { 
-        CardVersion = (CardJSON[CardArrayIndex]['versions'].length - 1); // Get latest version of card if requested card version doesn't exist.
-    }
-    Card = CardJSON[CardArrayIndex]['versions'][CardVersion];
-
-    CardName = Card['card_name']['english'];
-    CardImage = Card['image'];
-    CardSetIconStyle = "CardBottomIconSet"+Card['set']+"-"+Card['rarity'];
-    CardType = Card['card_type'];
-    
-    switch(CardType) {
-
-        case 'Hero':
-            CardHeroIcon = Card['icon'];
-            CardColourStyle = "CardColour"+Card['colour'];
-            CardAttack = "▣"+Card['attack'];
-            if (Card['armour'] == 0) {
-                CardArmour = "&nbsp;"
-            } else {
-                CardArmour = "▤"+Card['armour'];
-            }
-            CardHP = "▥"+Card['hp'];
-            CardAbilities = Card['abilities'];
-
-            CardAbilityHTML = "";
-            AbilityArrayIndex = "";
-
-            if (CardAbilities.length > 0) {
-
-                CardAbilityHTML += '<div class="CardAbilityContainer">';
-
-                for (a = 0; a < CardAbilities.length; a++) {
-                    AbilityIDV = CardAbilities[a].split("_");
-                    AbilityID = AbilityIDV[0];
-                    AbilityVersion = AbilityIDV[1];
-                    for (i = 0; i < AbilityJSON.length; i++) {
-                        if ((AbilityJSON[i]['card_id']) == AbilityID) {
-                            AbilityArrayIndex = i;
-                            break;
-                        }
-                    }
-                    AbilityBorderStyle = "";
-                    switch (AbilityJSON[AbilityArrayIndex]['versions'][AbilityVersion]['ability_type']) {
-                        case 'Active':
-                            AbilityBorderStyle = "CardAbilityBorderStyle1";
-                            break;
-                        case 'Passive':
-                            AbilityBorderStyle = "CardAbilityBorderStyle2";
-                            break;
-                        case 'Continuous':
-                            AbilityBorderStyle = "CardAbilityBorderStyle2";
-                            break;
-                        default:
-                            AbilityBorderStyle = "CardAbilityBorderStyle1";
-                    }
-                    AbilityImage = AbilityJSON[AbilityArrayIndex]['versions'][AbilityVersion]['image'];
-    
-                    CardAbilityHTML += '<div class="CardAbilityIconPer '+AbilityBorderStyle+'"> \
-                                            <img src="Images/Abilities/'+AbilityImage+'.jpg"> \
-                                        </div>';     
-                }
-                CardAbilityHTML += '<div class="clear"></div></div>';
-            }
-
-            CardHTML += '<div class="CardHeaderOuter '+CardColourStyle+'"> \
-                            <div class="CardHeaderInner"> \
-                                <div class="CardHeaderLeftPer CardHeaderLeftPer_HeroIconBackCircle"><img src="Images/HeroIcons/'+CardHeroIcon+'.png"></div> \
-                                <div class="CardHeaderCardName">'+CardName+'</div> \
-                            </div> \
-                        </div> \
-                        <div class="CardCentreContainerPer" style="background-image: url(\'Images/Cards/CardArt/'+CardImage+'.jpg\')"> \
-                            <div class="CardCentreTopPer"></div> \
-                            <div class="CardCentreBotPer_Stats"> \
-                                '+CardAbilityHTML+' \
-                            </div> \
-                        </div> \
-                        <div class="CardBottomSetIconContainerPer '+CardColourStyle+' '+CardSetIconStyle+'"></div> \
-                        <div class="CardStatsPer '+CardColourStyle+'"> \
-                            <div class="CardStatInnerPerRad">'+CardAttack+'</div> \
-                            <div class="CardStatInnerPerRad">'+CardArmour+'</div> \
-                            <div class="CardStatInnerPerRad">'+CardHP+'</div> \
-                            <div class="clear"></div> \
-                        </div> \
-                        <div class="CardEndPer '+CardColourStyle+'"></div>';
-            break;
-        case 'Creep':
-            CardColourStyle = "CardColour"+Card['colour'];
-            CardManaCost = Card['cost'];
-            CardAttack = "▣"+Card['attack'];
-            if (Card['armour'] == 0) {
-                CardArmour = "&nbsp;"
-            } else {
-                CardArmour = "▤"+Card['armour'];
-            }
-            CardHP = "▥"+Card['hp'];
-            CardText = CardTextFormatting(Card['text']['english']);
-            if (CardText == "") {
-                TextBackgroundStyle = "";
-            } else {
-                TextBackgroundStyle = "CardCentreSplitBotBG2";
-            }
-            CardAbilities = Card['abilities'];
-            CardSetIconStyle = "CardBottomIconSet"+Card['set']+"-"+Card['rarity'];
-
-            CardHTML += '<div class="CardHeaderOuter '+CardColourStyle+'"> \
-                            <div class="CardHeaderInner"> \
-                                <div class="CardHeaderLeftPer CardHeaderLeftPer_ManaCost">'+CardManaCost+'</div> \
-                                <div class="CardHeaderCardName">'+CardName+'</div> \
-                            </div> \
-                        </div> \
-                        <div class="CardCentreContainerPer" style="background-image: url(\'Images/Cards/CardArt/'+CardImage+'.jpg\')"> \
-                            <div class="CardCentreTopPer"></div> \
-                            <div class="CardCentreBotPer_Stats '+TextBackgroundStyle+'"> \
-                                <div class="CardCentreSplitBotText">'+CardText+'</div> \
-                            </div> \
-                        </div> \
-                        <div class="CardBottomSetIconContainerPer '+CardColourStyle+' '+CardSetIconStyle+'"></div> \
-                        <div class="CardStatsPer '+CardColourStyle+'"> \
-                            <div class="CardStatInnerPerRad">'+CardAttack+'</div> \
-                            <div class="CardStatInnerPerRad">'+CardArmour+'</div> \
-                            <div class="CardStatInnerPerRad">'+CardHP+'</div> \
-                            <div class="clear"></div> \
-                        </div> \
-                        <div class="CardEndPer '+CardColourStyle+'"></div>';
-            break;
-        case 'Summon':
-            CardColourStyle = "CardColour"+Card['colour'];
-            CardManaCost = Card['cost'];
-            CardAttack = "▣"+Card['attack'];
-            if (Card['armour'] == 0) {
-                CardArmour = "&nbsp;"
-            } else {
-                CardArmour = "▤"+Card['armour'];
-            }
-            CardHP = "▥"+Card['hp'];
-            CardText = CardTextFormatting(Card['text']['english']);
-            if (CardText == "") {
-                TextBackgroundStyle = "";
-            } else {
-                TextBackgroundStyle = "CardCentreSplitBotBG2";
-            }
-            CardAbilities = Card['abilities'];
-            CardSetIconStyle = "CardBottomIconSet"+Card['set']+"-"+Card['rarity'];
-
-            CardHTML += '<div class="CardHeaderOuter '+CardColourStyle+'"> \
-                            <div class="CardHeaderInner"> \
-                                <div class="CardHeaderLeftPer CardHeaderLeftPer_ManaCost">'+CardManaCost+'</div> \
-                                <div class="CardHeaderCardName">'+CardName+'</div> \
-                            </div> \
-                        </div> \
-                        <div class="CardCentreContainerPer" style="background-image: url(\'Images/Cards/CardArt/'+CardImage+'.jpg\')"> \
-                            <div class="CardCentreTopPer"></div> \
-                            <div class="CardCentreBotPer_Stats '+TextBackgroundStyle+'"> \
-                                <div class="CardCentreSplitBotText">'+CardText+'</div> \
-                            </div> \
-                        </div> \
-                        <div class="CardBottomSetIconContainerPer '+CardColourStyle+' '+CardSetIconStyle+'"></div> \
-                        <div class="CardStatsPer '+CardColourStyle+'"> \
-                            <div class="CardStatInnerPerRad">'+CardAttack+'</div> \
-                            <div class="CardStatInnerPerRad">'+CardArmour+'</div> \
-                            <div class="CardStatInnerPerRad">'+CardHP+'</div> \
-                            <div class="clear"></div> \
-                        </div> \
-                        <div class="CardEndPer '+CardColourStyle+'"></div>';
-            break;
-        case 'Item':
-            CardManaCost = Card['cost'];
-            CardGoldCost = Card['gcost'];
-            CardText = CardTextFormatting(Card['text']['english']);
-            CardSetIconStyle = "CardBottomIconSet"+Card['set']+"-"+Card['rarity'];
-
-            switch (CardGoldCost) {
-                case 10:
-                    TextBackgroundImage = "CardCentreSplitBotBG3";
-                    break;
-                case 15:
-                    TextBackgroundImage = "CardCentreSplitBotBG4";
-                    break;
-                case 20:
-                    TextBackgroundImage = "CardCentreSplitBotBG5";
-                    break;
-                case 25:
-                    TextBackgroundImage = "CardCentreSplitBotBG6";
-                    break;
-                case 30:
-                    TextBackgroundImage = "CardCentreSplitBotBG7";
-                    break;
-                default:
-                    TextBackgroundImage = "CardCentreSplitBotBG1";
-            }
-
-            CardHTML += '<div class="CardHeaderOuter CardColourI"> \
-                            <div class="CardHeaderInner"> \
-                                <div class="CardHeaderLeftPer CardHeaderLeftPer_ManaCost">'+CardManaCost+'</div> \
-                                <div class="CardHeaderCardName">'+CardName+'</div> \
-                            </div> \
-                        </div> \
-                        <div class="CardCentreContainerPer"> \
-                            <div class="CardCentreTopPer" style="background-image: url(\'Images/Cards/CardArt/'+CardImage+'.jpg\')"></div> \
-                            <div class="CardGoldValue">'+CardGoldCost+'</div> \
-                            <div class="CardCentreBotPer_NoStats '+TextBackgroundImage+'"> \
-                                <div class="CardCentreSplitBotText">'+CardText+'</div> \
-                            </div> \
-                        </div> \
-                        <div class="CardBottomSetIconContainerPer CardColourI '+CardSetIconStyle+'"></div> \
-                        <div class="CardEndPer CardColourI"></div>';
-            break;
-        case 'Spell':
-            CardColourStyle = "CardColour"+Card['colour'];
-            CardManaCost = Card['cost'];
-            if (Card['crosslane'] == true) {
-                ManaCostStyle = "CardHeaderLeftPer_CrossLane";
-            } else if (Card['quick'] == true) {
-                ManaCostStyle = "CardHeaderLeftPer_Quick";
-            } else {
-                ManaCostStyle = "CardHeaderLeftPer_ManaCost";
-            }
-            CardText = CardTextFormatting(Card['text']['english']);
-            CardSetIconStyle = "CardBottomIconSet"+Card['set']+"-"+Card['rarity'];
-
-            CardHTML += '<div class="CardHeaderOuter '+CardColourStyle+'"> \
-                            <div class="CardHeaderInner"> \
-                                <div class="CardHeaderLeftPer '+ManaCostStyle+'">'+CardManaCost+'</div> \
-                                <div class="CardHeaderCardName">'+CardName+'</div> \
-                            </div> \
-                        </div> \
-                        <div class="CardCentreContainerPer"> \
-                            <div class="CardCentreTopPer" style="background-image: url(\'Images/Cards/CardArt/'+CardImage+'.jpg\')"></div> \
-                            <div class="CardCentreBotPer_NoStats CardCentreSplitBotBG1"> \
-                                <div class="CardCentreSplitBotText">'+CardText+'</div> \
-                            </div> \
-                        </div> \
-                        <div class="CardBottomSetIconContainerPer '+CardColourStyle+' '+CardSetIconStyle+'"></div> \
-                        <div class="CardEndPer '+CardColourStyle+'"></div>';
-
-            break;
-        case 'Improvement':
-            CardColourStyle = "CardColour"+Card['colour'];
-            CardManaCost = Card['cost'];
-            CardMiniImage = Card['miniimage'];
-            CardText = CardTextFormatting(Card['text']['english']);
-            CardSetIconStyle = "CardBottomIconSet"+Card['set']+"-"+Card['rarity'];
-            switch (Card['improvement_type']) {
-                case "Active":
-                    ImprovementStyle = "CardImprovementTypeShellActive";
-                    break;
-                case "Reactive":
-                    ImprovementStyle = "CardImprovementTypeShellReactive";
-                    break;
-                case "Passive":
-                    ImprovementStyle = "CardImprovementTypeShellPassive";
-                    break;
-                default:
-                    ImprovementStyle = "CardImprovementTypeShellPassive";
-            }
-
-            CardHTML += '<div class="CardHeaderOuter '+CardColourStyle+'"> \
-                            <div class="CardHeaderInner"> \
-                                <div class="CardHeaderLeftPer CardHeaderLeftPer_ManaCost">'+CardManaCost+'</div> \
-                                <div class="CardHeaderCardName">'+CardName+'</div> \
-                            </div> \
-                        </div> \
-                        <div class="CardCentreContainerPer"> \
-                            <div class="CardCentreTopPer" style="background-image: url(\'Images/Cards/CardArt/'+CardImage+'.jpg\')"></div> \
-                            <div class="CardImprovementTypeShell '+ImprovementStyle+'"><img src="Images/Cards/MiniImage/'+CardMiniImage+'.jpg"></div> \
-                            <div class="CardCentreBotPer_NoStats CardCentreSplitBotBG1"> \
-                                <div class="CardCentreSplitBotText">'+CardText+'</div> \
-                            </div> \
-                        </div> \
-                        <div class="CardBottomSetIconContainerPer '+CardColourStyle+' '+CardSetIconStyle+'"></div> \
-                        <div class="CardEndPer '+CardColourStyle+'"></div>';
-
-            break;
-        default:
-            CardImage = "Err";
-            CardHTML += '<div class="CardContainer_Error"></div>'
-            break;
-    }              
-    var img = new Image();
-    img.onload = function() {document.getElementById(Container).innerHTML = CardHTML; } // Wait until at least the main image has downloaded before showing the card. If the image can't be found, no card will be loaded at all.
-    img.src = 'Images/Cards/CardArt/'+CardImage+'.jpg';
-}
-
 CardViewerCardPreviewTooltipCurrentCardIDV = "";
 function CardViewerCardPreviewTooltip(CardIDV, ShowHide) {
 
@@ -1341,35 +906,5 @@ function ToggleFilter(FilterValue) {
         document.getElementById('ColourFilterContainer').style.background = "";
         document.getElementById('ItemFilterContainer').style.background = "";
     }
-    GenerateCardViewerPage();
+    GenerateCardListCardBrowser();
 }
-
-let alreadyRestoringSaveButton = false;
-function restoreSaveButtonWithDelay(){
-    if (alreadyRestoringSaveButton) {
-        clearTimeout(alreadyRestoringSaveButton);
-    }
-    alreadyRestoringSaveButton = setTimeout(() => {
-        document.getElementById("ShareButton").innerText = "Share This Card";
-        alreadyRestoringSaveButton = false;
-    }, 3000);
-};
-
-function CardShareToClipboard(CardIDV) {
-    const copyText = document.getElementById("hiddenClipboard");
-
-    copyText.value = document.location.href.split("?")[0] + "?id=" + CardIDV;
-    copyText.select();
-    copyText.setSelectionRange(0, 99999); /*For mobile devices*/
-
-    try {
-        const successful = document.execCommand("copy");
-        const msg = successful ? "successful" : "unsuccessful";
-        // console.log("Copying text command was " + msg);
-
-        document.getElementById("ShareButton").innerText = "Copied!";
-        restoreSaveButtonWithDelay();
-    } catch (err) {
-        console.log("Oops, unable to copy");
-    }
-} 
