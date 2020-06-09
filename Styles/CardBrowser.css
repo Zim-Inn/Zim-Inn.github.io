@@ -618,6 +618,11 @@
 .CVCCardListingC:hover {
     background: linear-gradient(170deg, rgba(56, 62, 55,0.9) 20%, rgba(56, 62, 55,0.6));
 }
+#ShareButton {
+    width: 180px;
+    margin-left: calc(50% - 90px);
+    margin-top: 5px;
+}
 @media (max-width: 1090px) {
     .CardList_CardName {
         letter-spacing: -0.05em;

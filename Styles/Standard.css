@@ -155,11 +155,6 @@ body {
     text-shadow: 0 0 10px #438994;
     background: linear-gradient(170deg, #36434e 20%, #373953);
 }
-#ShareButton {
-    width: 180px;
-    margin-left: calc(50% - 90px);
-    margin-top: 5px;
-}
 .OnlyMobile {
     display:none;
 }
