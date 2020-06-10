@@ -1,3 +1,12 @@
+// Listener for Enter key to be used on text inputs - I will use it on DeckCodeInputField
+const onEnterSubmit = (event, submitFunction) => {
+    // 13 is Enter
+    if (event && event.keyCode==13) {
+        console.log("BRUH")
+        submitFunction();
+    }
+}
+
 const ViewDiffDeckButton = function() {
     document.getElementById('DeckCodeInputContainer').style.display = "block";
 }
