@@ -3223,7 +3223,7 @@
 		"miniimage": "10938_0",
 		"cost": 3,
 		"text": {
-			"english": " /n Give enemy units +2 Decay. Randomize their combat targets, prefering units over the tower."
+			"english": " /n Give enemy units +2 Decay. Randomize their combat targets, preferring units over the tower."
 		},
 		"crosslane": false,
 		"quick": false,
@@ -4318,7 +4318,29 @@
 		"cost": 1,
 		"gcost": 10,
 		"text": {
-			"english": "/n +1[AR]/n [TG]Active 0[AC], 1 Mana:[ET] Slay this hero and deal 5 damage to adjacent enemies"
+			"english": "/n +1[AR]/n [TG]Active 0[AC], 1 Mana:[ET] Slay this hero and deal 5 damage to adjacent enemies."
+		},
+		"attack": 0,
+		"armour": 1,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-09",
+		"card_type": "Item",
+		"card_subtype": "Armor",
+		"card_name": {
+			"english": "Bracers of Sacrifice"
+		},
+		"set": 1,
+		"rarity": 4,
+		"image": "10222_0",
+		"miniimage": "10222_0",
+		"cost": 1,
+		"gcost": 10,
+		"text": {
+			"english": "/n +1[AR]/n [TG]Active 0[AC], 1 Mana:[ET] Slay this hero and deal 4 damage to adjacent enemies."
 		},
 		"attack": 0,
 		"armour": 1,
@@ -5986,7 +6008,7 @@
 		"miniimage": "10654_0",
 		"cost": 3,
 		"text": {
-			"english": " /n Slay Caster. /n [RP] Deploy heroes in your fountain to the first empty positions in this lane."
+			"english": " /n Slay Caster. /n [RP] Deploy heroes currently in your fountain to the first empty positions in this lane."
 		},
 		"crosslane": false,
 		"quick": false,
