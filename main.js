@@ -502,6 +502,8 @@ function CardViewer_SelectCard(CardIDV, skipHistory) {
     ThisCard = CardJSON[CardArrayIndex]['versions'][CardVersion];
 
     document.getElementById('CardDetailsPanelCardTitle').innerHTML = ThisCard['card_name']['english'];
+    document.getElementById('ShareButton').onclick = () => CardShareToClipboard(CardID+"_"+CardVersion);
+    
     if (ThisCard['card_type'] == "Item") {
         document.getElementById('CardDetailsPanelCardType').innerHTML = ThisCard['card_type']+' - '+ThisCard['card_subtype'];
     } else {
@@ -777,10 +779,10 @@ Keywords['Play Effect'] = "An additional effect that is processed at the time yo
 Keywords['Purge'] = "Removes modifications and temporary effects, but not damage. Purging does not affect base abilities or external effects, such as those from equipped items and continuous effects from auras.";
 Keywords['Push'] = "Move a unit 1 slot randomly left or right to an occupied spot.";
 Keywords['Quickcast'] = "After you play this, you get the initiative coin and may immediately take another action. If you use this action to pass, you will retain initiative and may act first next round.";
-Keywords['Quickstrike'] = "Units with quickstrike attack before units without quickstrike. Regeneration and decay are applied at the same time as combat damage, after quickstrike damage resolves.";
+Keywords['Quickstrike'] = "In the combat phase, units with quickstrike attack before units without quickstrike. Regeneration and decay are applied at the same time as combat damage, after quickstrike damage resolves.";
 Keywords['Reflect'] = "When targeted or attacked, damage that would be done to this unit is instead dealt to the caster or attacker.";
 Keywords['Retaliate'] = "When attacked during a battle (even outside of the combat phase), deal this much extra damage to the attackers.";
-Keywords['Rooted'] = "Can't be moved.";
+Keywords['Root'] = "Prevent a unit from moving. Lasts until the end of round by default.";
 Keywords['Scheme'] = "An effect which triggers when the card's owner passes.";
 Keywords['Siege'] = "During the combat phase, deal Siege damage to the enemy tower.";
 Keywords['Sneak Attack'] = "A unit deals its Attack damage to its target in a one-way battle. Combat attributes such as Armor, Retaliate, and Piercing are applied.";
@@ -908,3 +910,34 @@ function ToggleFilter(FilterValue) {
     }
     GenerateCardListCardBrowser();
 }
+
+ // CARD SHARE FUNCTIONS
+let alreadyRestoringSaveButton = false;
+function restoreSaveButtonWithDelay(){
+    if (alreadyRestoringSaveButton) {
+        clearTimeout(alreadyRestoringSaveButton);
+    }
+    alreadyRestoringSaveButton = setTimeout(() => {
+        document.getElementById("ShareButton").innerText = "Share This Card";
+        alreadyRestoringSaveButton = false;
+    }, 3000);
+};
+
+function CardShareToClipboard(CardIDV) {
+    const copyText = document.getElementById("hiddenClipboard");
+
+    copyText.value = document.location.href.split("?")[0] + "?id=" + CardIDV;
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+    try {
+        const successful = document.execCommand("copy");
+        const msg = successful ? "successful" : "unsuccessful";
+        // console.log("Copying text command was " + msg);
+
+        document.getElementById("ShareButton").innerText = "Copied!";
+        restoreSaveButtonWithDelay();
+    } catch (err) {
+        console.log("Oops, unable to copy");
+    }
+} 

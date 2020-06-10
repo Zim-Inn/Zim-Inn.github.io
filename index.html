@@ -45,7 +45,7 @@
         <div class="clear"></div>
         <div id="PageHeader">
             <div id="PageHeaderTitle" class="RestrictWidth">All Artifact 2.0 Cards</div>
-            <div id="PageHeaderSubtitle" class="RestrictWidth">Updated to 5th June 2020 Beta Patch</div>
+            <div id="PageHeaderSubtitle" class="RestrictWidth">Updated to 9th June 2020 Beta Patch</div>
         </div>
         <div id="CVOptions">
             <div class="RestrictWidth">
@@ -114,6 +114,7 @@
                             </div>
                         </div> 
                     </div>
+                    <button id="ShareButton" class="ArtifactButtonSmall" type="button" onmousemove="ShowFilterTooltip(1, 'Copies the URL for this card to the clipboard');" onmouseout="ShowFilterTooltip(0,0);" onclick="CardShareToClipboard('200115_0')">Share This Card</button> 
                 </div>
                 <div class="clear OnlyMobile"></div>
                 <div id="CardViewerPageCardLoreMobile">
@@ -190,6 +191,7 @@
                 <div id="SpecialTextTitle">Title</div>
                 <div id="SpecialTextDesc">Desc</div>
             </div>
+            <input type="text" value="200115_0" id="hiddenClipboard">
         </div>
         <script src="main.js"></script>
         <script src="js/CardGenerator.js"></script>

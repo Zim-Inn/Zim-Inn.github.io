@@ -27,7 +27,10 @@ const LoadDeckFunc = function() {
     
     if (DecodedDeck) {
         history.pushState({}, "Artifact 2 Deck Viewer", `?d=${DeckCodeToLoad}`);
-        let DeckName = DecodedDeck['name'];        
+        let DeckName = DecodedDeck['name'];
+        if (DeckName.charAt(0) == "%") {
+            DeckName = "Unnamed Deck";
+        }
         let DV_SortedHeroes = DV_OrderHeroesByTurn(DecodedDeck['heroes']);
 
         let HeroCards = new Array();
