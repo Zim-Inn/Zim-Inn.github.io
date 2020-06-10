@@ -106,11 +106,13 @@
     width: 30%;
     padding: 0 10%;
     float: left;
+    cursor: default;
 }
 #DeckViewerItemTypeStats {
     width: 40%;
     padding: 0 5%;
     float: left;
+    cursor: default;
 }
 .DeckViewerCardAndItemTypeStatsHeader {
     font-size: 14pt;
@@ -152,6 +154,7 @@
     margin: 0 5%;
     background-color: rgb(0,0,0,0.2);
     float: left;
+    cursor: default;
 }
 .DeckViewerCardManaColourChartBarContainer {
     border: 2px inset rgb(50,50,60);
@@ -187,6 +190,7 @@
     margin: 2px 0 0 4%;
     background-color: rgb(0,0,0,0.2);
     float: left;
+    cursor: default;
 }
 .DeckViewerCardColourBoxChartInner {
     border: 3px inset rgb(50,50,60);

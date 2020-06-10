@@ -172,29 +172,6 @@
     z-index: 3;
     display: none;
 }
-#SpecialTextTooltip {
-    position: absolute;
-    z-index: 3;
-    max-width: 320px;
-    border-radius: 3px;
-    background-color: rgba(40,40,40,0.8);
-    background-image: url("../Images/Styles/SpecialTextTooltip.jpg");
-    font-family: "Radiance", sans-serif;
-    padding: 5px 7px;
-    box-shadow: 0 0 5px black;
-    display: none;
-}
-#SpecialTextTitle {
-    color: #ddd;
-    text-decoration-line: underline;
-    text-decoration-style: dashed;
-    font-size: 14pt;
-}
-#SpecialTextDesc {
-    color: #ccc;
-    font-size: 12pt;
-    padding: 3px 0;
-}
 #hiddenClipboard{
     opacity: 0;
 }

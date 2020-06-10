@@ -805,6 +805,18 @@ function ShowKeywordTooltip(ShowHide, KeyWord) {
         document.getElementById('SpecialTextTooltip').style.left = (event.clientX + 10)+"px";
     }
 }
+function ShowTextTooltip(ShowHide, Text) {
+
+    if (ShowHide == 0) { //Hide
+        document.getElementById('SpecialTextTooltip').style.display = "none";
+    } else {
+        document.getElementById('SpecialTextTitle').innerHTML = "";
+        document.getElementById('SpecialTextDesc').innerHTML = Text;
+        document.getElementById('SpecialTextTooltip').style.display = "block";
+        document.getElementById('SpecialTextTooltip').style.top = (event.clientY + window.scrollY + 10)+"px";
+        document.getElementById('SpecialTextTooltip').style.left = (event.clientX + 10)+"px";
+    }
+}
 
 // This is triggered every time the user manually changes page without leaving the current URL
 window.onpopstate = (event) => {
@@ -822,18 +834,7 @@ window.onpopstate = (event) => {
         
     }
 };
-function ShowFilterTooltip(ShowHide, Text) {
 
-    if (ShowHide == 0) { //Hide
-        document.getElementById('SpecialTextTooltip').style.display = "none";
-    } else {
-        document.getElementById('SpecialTextTitle').innerHTML = "";
-        document.getElementById('SpecialTextDesc').innerHTML = Text;
-        document.getElementById('SpecialTextTooltip').style.display = "block";
-        document.getElementById('SpecialTextTooltip').style.top = (event.clientY + window.scrollY + 10)+"px";
-        document.getElementById('SpecialTextTooltip').style.left = (event.clientX + 10)+"px";
-    }
-}
 function ToggleFilter(FilterValue) {
     if (FilterValue == "R" || FilterValue == "U" || FilterValue == "B" || FilterValue == "G" || FilterValue == "C") {
         if (CardViewerFilter[FilterValue] == true) {

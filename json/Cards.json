@@ -10266,8 +10266,26 @@
 	}]
 }, {
 	"card_id": 10798,
-	"versions": [{
-		"release_date": "2020-05-25",
+	"versions": [
+		{
+			"release_date": "2020-05-25",
+			"card_type": "Spell",
+			"card_name": {
+				"english": "Body Modifications"
+			},
+			"set": 1,
+			"rarity": 2,
+			"colour": "U",
+			"image": "10798_0",
+			"miniimage": "10798_0",
+			"cost": 3,
+			"text": {
+				"english": " /n Swap colors and items permanently between a hero in this lane and another hero in any lane./n[TG]Cross Lane[ET]"
+			},
+			"crosslane": true,
+			"quick": false
+		},{
+		"release_date": "2020-06-09",
 		"card_type": "Spell",
 		"card_name": {
 			"english": "Body Modifications"
