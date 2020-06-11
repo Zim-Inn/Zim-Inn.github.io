@@ -3305,7 +3305,7 @@
 		"miniimage": "10282_0",
 		"cost": 3,
 		"text": {
-			"english": " Repeat three times: [RP] Deal 1 combat damage to the enemy blocking the caster. "
+			"english": " Repeat three times: [RP] Deal 1 battle damage to the enemy blocking the caster. "
 		},
 		"crosslane": false,
 		"quick": false,
