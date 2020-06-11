@@ -69,7 +69,7 @@ const InitialisePage = function(Page) {
         } else if (Page == "DeckViewer") {
             if (getURLParams(document.location.href).d) {
                 document.getElementById('DeckCodeInputField').value = getURLParams(document.location.href).d;
-                LoadDeckFunc();
+                LoadDeckFunc(true);
             }
         }
     })
@@ -934,11 +934,10 @@ function CardShareToClipboard(CardIDV) {
     try {
         const successful = document.execCommand("copy");
         const msg = successful ? "successful" : "unsuccessful";
-        // console.log("Copying text command was " + msg);
 
         document.getElementById("ShareButton").innerText = "Copied!";
         restoreSaveButtonWithDelay();
     } catch (err) {
-        console.log("Oops, unable to copy");
+        console.error("Oops, unable to copy");
     }
 } 
