@@ -72,6 +72,7 @@
     box-shadow: 0 2px 4px black;
 }
 #DeckViewerTitleContainer {
+    padding: 2px;
     background-image: url("../Images/Styles/DeckViewerDeckTitleBG.jpg");
 }
 #DeckViewerDeckTitle {
@@ -82,6 +83,7 @@
     float: left;
 }
 #DeckViewerHeroesContainer {
+    margin-top: 10px;
     margin-bottom: 5px;
 }
 #DeckViewerCardsAndStats {
@@ -369,10 +371,19 @@
 .CardList_HeroIcon img {
     width: 95%;
 }
+#ShareCurrentDeckButton {
+    float: right;
+    margin: 4px 8px 0 0;
+}
 #LoadNewDeckButton {
     float: right;
     margin: 4px 5px 0 0;
 }
 #LoadDeckButton {
     margin-bottom: 10px;
+}
+#hiddenClipboard {
+    position: absolute;
+    opacity: 0;
+    left: -200px
 }

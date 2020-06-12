@@ -28,6 +28,11 @@ const LoadDeckFunc = function( skipHistory) {
         if(!skipHistory){
             history.pushState({}, "Artifact 2 Deck Viewer", `?d=${DeckCodeToLoad}`);
         }
+
+        // Required for copy paste
+        const shareURL = document.location.href.split("?")[0] + "?d=" + DeckCodeToLoad;
+        document.getElementById('hiddenClipboard').value = shareURL;
+
         let DeckName = DecodedDeck['name'];
         if (DeckName.charAt(0) == "%") {
             DeckName = "Unnamed Deck";
@@ -300,6 +305,33 @@ const LoadDeckFunc = function( skipHistory) {
         document.getElementById('DeckViewerDeckOuterContainer').style.display = "none";
     }
 }
+
+let alreadyRestoringShareButton = false;
+const restoreShareButtonWithDelay = () => {
+    if (alreadyRestoringShareButton) {
+        clearTimeout(alreadyRestoringShareButton);
+    }
+    alreadyRestoringShareButton = setTimeout(() => {
+        document.getElementById("ShareCurrentDeckButton")
+            .children[0].innerText ="SHARE";
+        alreadyRestoringShareButton = false;
+    }, 3000);
+};
+const DeckCodeShareToClipboard = () => {
+    const copyText = document.getElementById("hiddenClipboard");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+    try {
+        const successful = document.execCommand("copy");
+        
+        document.getElementById("ShareCurrentDeckButton")
+            .children[0].innerText = "Copied!"
+        restoreShareButtonWithDelay();
+    } catch (err) {
+        console.error("Oops, unable to copy");
+    }
+} 
 
 window.onpopstate = (event) => {
     const param = getURLParams(document.location.href)
