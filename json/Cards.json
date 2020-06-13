@@ -1189,7 +1189,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10053_1"
+		"is_signature": "10053_2"
 	}]
 }, {
 	"card_id": 10990,
@@ -6183,7 +6183,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"related_cards": ["10611_0"]
+		"related_cards": ["10611_1"]
 	}]
 }, {
 	"card_id": 10761,
@@ -10516,7 +10516,7 @@
 		"armour": 0,
 		"hp": 4,
 		"abilities": [],
-		"related_cards": ["10417_0"],
+		"related_cards": ["10417_1"],
 		"crosslane": false,
 		"quick": false
 	}]
@@ -10756,6 +10756,6 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "11056_0"
+		"is_signature": "11056_1"
 	}]
 }]
