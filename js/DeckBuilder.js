@@ -27,7 +27,6 @@ const InitialiseDeckBuilder = function() {
             CardJSON[cc]['available'] = 0; // Summons and signatures not available to put into deck.
         }
     }
-    DeckBuilderGenerateAvailableCardList();
 
     //Globals
     DeckHeroCards = new Array;
@@ -49,31 +48,111 @@ const InitialiseDeckBuilder = function() {
             DeckBuilderAddHeroToDeck(LoadedDeckHeroes[hc]['id'],hc);
         }
     }
+    DeckBuilderGenerateAvailableCardList();
     UpdateDeckListDetails();
     DeckBuilderUpdateCardPreview("10020_99");
 }
 
+DeckBuilderAvailableCardsFilter = {
+    text: "",
+    includeabilitytext: true,
+    set1: true,
+    rarity1: true,
+    rarity2: true,
+    rarity3: true,
+    rarity4: true,
+    rarity5: true,
+    quick: true,
+    crosslane: true,
+    // Colors
+    R: true,
+    U: true,
+    B: true,
+    G: true,
+    C: true,
+    // Items
+    Weapon: true,
+    Armor: true,
+    Accessory: true,
+    Consumable: true,
+    // Collections
+    signature: true,
+    uncollectable: false,
+};
+
 const DeckBuilderGenerateAvailableCardList = function() {
+    DeckBuilderAvailableCardsFilter['text'] = document.getElementById('CardTextFilter').value;
     let HeroCards = new Array;
     let NonHeroNonItemCards = new Array;
     let ItemCards = new Array;
 
     for (let cc = 0; cc < CardJSON.length; cc++) {
         if (CardJSON[cc]['available'] > 0) {
-            //TODO: Add filters
-
             let LatestCardVersion = CardJSON[cc]['versions'].length -1;
+
+            let textfilter = new RegExp(DeckBuilderAvailableCardsFilter['text'], "i");
+            let CardTextForFilter = "";
+            if ("text" in CardJSON[cc]['versions'][LatestCardVersion]) {
+                CardTextForFilter += CardJSON[cc]['versions'][LatestCardVersion]["text"]["english"];
+            } 
+            if (DeckBuilderAvailableCardsFilter['includeabilitytext'] == true) {
+                if ("abilities" in CardJSON[cc]['versions'][LatestCardVersion]) {
+                    for (let aa1 = 0; aa1 < CardJSON[cc]['versions'][LatestCardVersion]['abilities'].length; aa1++) {
+                        let AbilityIDV = CardJSON[cc]['versions'][LatestCardVersion]['abilities'][aa1].split("_");
+                        let AbilityID = AbilityIDV[0];
+                        let AbilityVersion = AbilityIDV[1];
+                        let AbilityTextSearchArrayIndex = "";
+                        for (let aa2 = 0; aa2 < AbilityJSON.length; aa2++) {
+                            if ((AbilityJSON[aa2]['card_id']) == AbilityID) {
+                                AbilityTextSearchArrayIndex = aa2;
+                                break;
+                            }
+                        }
+                        CardTextForFilter += AbilityJSON[AbilityTextSearchArrayIndex]['versions'][AbilityVersion]['ability_name']['english'];
+                        CardTextForFilter += AbilityJSON[AbilityTextSearchArrayIndex]['versions'][AbilityVersion]['text']['english'];       
+                    }
+                } 
+            }
+            let SearchTermForFilter = "";
+            if ("searchterm" in CardJSON[cc]) {
+                SearchTermForFilter = CardJSON[cc]["searchterm"];
+            }
+            
+            let ColourCheckPass = false;
+            if (CardJSON[cc]['versions'][LatestCardVersion]['card_type'] == "Item") {
+                ColourCheckPass = true;
+            } else if (DeckBuilderAvailableCardsFilter[CardJSON[cc]['versions'][LatestCardVersion]['colour']] == true) {
+                ColourCheckPass = true;
+            }
             let CardType = CardJSON[cc]['versions'][LatestCardVersion]['card_type'];
-            switch (CardType) {
-                case 'Hero':
-                    HeroCards.push(CardJSON[cc]);
-                    break;
-                case 'Item':
-                    ItemCards.push(CardJSON[cc]);
-                    break;
-                default:
-                    NonHeroNonItemCards.push(CardJSON[cc]);
-                    break;
+            //Pass if
+            const ItemFilterCheck =
+            //card is not an item
+            !(
+                CardJSON[cc]["versions"][LatestCardVersion]["card_type"] ===
+                "Item"
+            ) ||
+            // or subtype for the item is true in the filter
+            DeckBuilderAvailableCardsFilter[
+                [CardJSON[cc]["versions"][LatestCardVersion]["card_subtype"]]
+            ];
+
+            if (CardJSON[cc]['versions'][LatestCardVersion]['card_name']['english'].search(textfilter) != -1 || CardTextForFilter.search(textfilter) != -1 || SearchTermForFilter.search(textfilter) != -1) {
+                if (ColourCheckPass == true) {
+                    if (ItemFilterCheck) {
+                        switch (CardType) {
+                            case 'Hero':
+                                HeroCards.push(CardJSON[cc]);
+                                break;
+                            case 'Item':
+                                ItemCards.push(CardJSON[cc]);
+                                break;
+                            default:
+                                NonHeroNonItemCards.push(CardJSON[cc]);
+                                break;
+                        }
+                    }
+                }
             }
         }
     }
@@ -113,8 +192,18 @@ const DeckBuilderGenerateAvailableCardList = function() {
                 AddToDeckButtonHTML = '<div class="DeckBuilderCardListAddToDeckButton" onmouseup="DeckBuilderAddCardToDeck('+CardID+');"></div>';
             }
         } else {
+            let HeroCount = 0;
+            for (let hc = 0; hc < 5; hc++) {
+                if (DeckHeroCards[hc]['id'] != 0) {
+                    HeroCount++;
+                }
+            }
+            if (HeroCount >= 5) {
+                AddToDeckButtonHTML = ""; //No space for heroes, so don't show the arrow.
+            } else {
+                AddToDeckButtonHTML = '<div class="DeckBuilderCardListAddToDeckButton DeckBuilderCardListAddToDeckButtonPadding" onmouseup="DeckBuilderAddHeroToDeck('+CardID+',-1);"></div>';
+            }
             RemoveFromDeckButtonHTML = '';
-            AddToDeckButtonHTML = '<div class="DeckBuilderCardListAddToDeckButton DeckBuilderCardListAddToDeckButtonPadding" onmouseup="DeckBuilderAddHeroToDeck('+CardID+',-1);"></div>';
         }
         let CardColour = "";
         if (CardType == "Item") {
@@ -163,6 +252,9 @@ const DeckBuilderUpdateCardPreview = function(CardIDV) {
                 CardArrayIndex = i;
                 break;
             }
+        }
+        if (CardVersion > CardJSON[CardArrayIndex]['versions'].length -1) {
+            CardVersion = CardJSON[CardArrayIndex]['versions'].length -1;
         }
         let LeftPanelSigCardDetailsHTML = "";
         if ("signature" in CardJSON[CardArrayIndex]['versions'][CardVersion]) { 
@@ -763,4 +855,51 @@ const GenerateDeckCode = function() {
 
 const DeckBuilderDismissMobileWarning = function() {
     document.getElementById('DeckBuilderMobileWarning').style.display = "none";
+}
+
+function DeckBuilderToggleFilter(FilterValue) {
+    if (FilterValue == "R" || FilterValue == "U" || FilterValue == "B" || FilterValue == "G" || FilterValue == "C") {
+        if (DeckBuilderAvailableCardsFilter[FilterValue] == true) {
+            DeckBuilderAvailableCardsFilter[FilterValue] = false;
+                document.getElementById("ColourFilter"+FilterValue).classList.add('CVOptionButtonUnselected');
+                document.getElementById("ColourFilter"+FilterValue).classList.remove('CVOptionButtonSelected');
+        } else {
+            DeckBuilderAvailableCardsFilter[FilterValue] = true;
+            document.getElementById("ColourFilter"+FilterValue).classList.add('CVOptionButtonSelected');
+            document.getElementById("ColourFilter"+FilterValue).classList.remove('CVOptionButtonUnselected');
+        }
+    } else if (FilterValue == "abilitytext") {
+        if (DeckBuilderAvailableCardsFilter['includeabilitytext'] == true) {
+            DeckBuilderAvailableCardsFilter['includeabilitytext'] = false;
+            document.getElementById("FilterIncludeAbilityText").classList.add('CVOptionButtonUnselected');
+            document.getElementById("FilterIncludeAbilityText").classList.remove('CVOptionButtonSelected');
+        } else {
+            DeckBuilderAvailableCardsFilter['includeabilitytext'] = true;
+            document.getElementById("FilterIncludeAbilityText").classList.add('CVOptionButtonSelected');
+            document.getElementById("FilterIncludeAbilityText").classList.remove('CVOptionButtonUnselected');
+        }
+    } else if (
+        FilterValue === "Weapon" ||
+        FilterValue === "Armor" ||
+        FilterValue === "Accessory" ||
+        FilterValue === "Consumable"
+    ) {  
+        DeckBuilderAvailableCardsFilter[FilterValue] = !DeckBuilderAvailableCardsFilter[FilterValue];
+        const el = document.getElementById("ItemFilter"+FilterValue)
+        if (!DeckBuilderAvailableCardsFilter[FilterValue]) {
+            el.classList.remove('CVOptionButtonSelected');
+            el.classList.add('CVOptionButtonUnselected');
+        } else {
+            el.classList.add('CVOptionButtonSelected');
+            el.classList.remove('CVOptionButtonUnselected');
+        }
+    }
+    if (DeckBuilderAvailableCardsFilter["R"] == false && DeckBuilderAvailableCardsFilter["U"] == false && DeckBuilderAvailableCardsFilter["B"] == false && DeckBuilderAvailableCardsFilter["G"] == false && DeckBuilderAvailableCardsFilter["C"] == false && DeckBuilderAvailableCardsFilter["Weapon"] == false && DeckBuilderAvailableCardsFilter["Armor"] == false && DeckBuilderAvailableCardsFilter["Accessory"] == false && DeckBuilderAvailableCardsFilter["Consumable"] == false) { // If all colour filters and item filters are turned off
+        document.getElementById('ColourFilterContainer').style.background = "rgba(135,31,38,0.6)";
+        document.getElementById('ItemFilterContainer').style.background = "rgba(135,31,38,0.6)";
+    } else {
+        document.getElementById('ColourFilterContainer').style.background = "";
+        document.getElementById('ItemFilterContainer').style.background = "";
+    }
+    DeckBuilderGenerateAvailableCardList();
 }

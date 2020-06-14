@@ -542,6 +542,7 @@
     background-image: url("../Images/Styles/DeckBuilderCardListArrowRight.png");
     float: left;
     cursor: pointer;
+    display: none;
 }
 .DeckBuilderCardListRemoveFromDeckButton {
     width: 50%;
@@ -549,6 +550,7 @@
     background-image: url("../Images/Styles/DeckBuilderCardListArrowLeft.png");
     float: left;
     cursor: pointer;
+    display: none;
 }
 .DeckBuilderCardListAddToDeckButtonPadding {
     margin-left: 22px;
@@ -664,4 +666,7 @@
 }
 #LoadDeckButton {
     margin-bottom: 10px;
+}
+.CardListItemContainer:hover .DeckBuilderCardListAddToDeckButton, .CardListItemContainer:hover .DeckBuilderCardListRemoveFromDeckButton {
+    display: block;
 }
