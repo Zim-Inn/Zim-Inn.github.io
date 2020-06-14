@@ -28,8 +28,6 @@ const InitialiseDeckBuilder = function() {
         }
     }
     DeckBuilderGenerateAvailableCardList();
-    //DeckBuilderUpdateCardPreview("10020_99");
-
 
     //Globals
     DeckHeroCards = new Array;
@@ -51,8 +49,8 @@ const InitialiseDeckBuilder = function() {
             DeckBuilderAddHeroToDeck(LoadedDeckHeroes[hc]['id'],hc);
         }
     }
-
     UpdateDeckListDetails();
+    DeckBuilderUpdateCardPreview("10020_99");
 }
 
 const DeckBuilderGenerateAvailableCardList = function() {
@@ -188,7 +186,7 @@ const DeckBuilderUpdateCardPreview = function(CardIDV) {
                 let SigCardColour = CardJSON[SigCardArrayIndex]['versions'][SigCardVersion]['colour'];
                 let SigCardMana = CardJSON[SigCardArrayIndex]['versions'][SigCardVersion]['cost'];
         
-                LeftPanelSigCardDetailsHTML += '<div class="DeckBuilderSingleAbilityContainer DeckBuilderSignatureContainer'+SigCardColour+'" onmousemove="CardViewerCardPreviewTooltip(\''+SigCardID+'_'+SigCardVersion+'\',1);" onmouseout="CardViewerCardPreviewTooltip(0,0);" onmouseup="CardViewer_SelectCard(\''+SigCardID+'_'+SigCardVersion+'\')"> \
+                LeftPanelSigCardDetailsHTML += '<div class="DeckBuilderSingleAbilityContainer DeckBuilderSignatureContainer'+SigCardColour+'" onmousemove="CardViewerCardPreviewTooltip(\''+SigCardID+'_'+SigCardVersion+'\',1);" onmouseout="CardViewerCardPreviewTooltip(0,0);"> \
                                                 <div class="DeckBuilderAbilityTop"> \
                                                     <div class="DeckBuilderAbilityIcon"><img src="Images/Cards/MiniImage/'+SigCardMiniImage+'.jpg"></div> \
                                                     <div class="DeckBuilderSignatureMana">'+SigCardMana+'</div> \
@@ -218,7 +216,6 @@ const DeckBuilderAddHeroToDeck = function(HeroID, Turn) { //Valid Turn is 0-4, n
     for (let hc = 0; hc < DeckHeroCards.length; hc++) {
         if (HeroID == DeckHeroCards[hc]['id']) {
             HeroAlreadyInDeck = true;
-            console.log("Hero already in deck");
         }
     }
     if (!HeroAlreadyInDeck) {
@@ -245,6 +242,7 @@ const DeckBuilderAddHeroToDeck = function(HeroID, Turn) { //Valid Turn is 0-4, n
             }
         }
     }
+    DeckBuilderGenerateAvailableCardList();
     UpdateDeckListDetails();
 }
 
@@ -256,6 +254,7 @@ const DeckBuilderAddHeroToDeckInner = function(HeroID, Turn) {
         if (HeroID == CardJSON[fs]['card_id']) {
             HeroSignatureIDV = CardJSON[fs]['versions'][CardJSON[fs]['versions'].length-1]['signature'];
             HeroIcon = CardJSON[fs]['versions'][CardJSON[fs]['versions'].length-1]['icon'];
+            CardJSON[fs]['available'] = 0;
             break;
         }
     }
@@ -288,6 +287,9 @@ const DeckBuilderRemoveHeroFromDeck = function(HeroID) {
     let CardIDToRemoveFromDeck = 0;
 
     for (let fs = 0; fs < CardJSON.length; fs++) {
+        if (CardJSON[fs]['card_id'] == HeroID) {
+            CardJSON[fs]['available'] = 1;
+        }
         let LatestCardVersion = CardJSON[fs]['versions'].length -1;
         if ("is_signature" in CardJSON[fs]['versions'][LatestCardVersion]) {
             let StringToMatch = CardJSON[fs]['versions'][LatestCardVersion]['is_signature'].substring(0,HeroIDCharLength+1);
@@ -302,6 +304,7 @@ const DeckBuilderRemoveHeroFromDeck = function(HeroID) {
             }
         }
     }
+    DeckBuilderGenerateAvailableCardList();
     UpdateDeckListDetails();
 }
 
@@ -622,7 +625,7 @@ const UpdateDeckListDetails = function() {
         }
         let TotalByMana = new Array;
         for (let mc = 0; mc < 8; mc++) {
-            TotalByMana[mc] = CardColourCounts['R'][mc] + CardColourCounts['U'][mc] + CardColourCounts['B'][mc] + CardColourCounts['G'][mc];
+            TotalByMana[mc] = CardColourCounts['R'][mc] + CardColourCounts['U'][mc] + CardColourCounts['B'][mc] + CardColourCounts['G'][mc]+ CardColourCounts['C'][mc];
         }
         let MaxTotalByMana = Math.max(TotalByMana[0],TotalByMana[1],TotalByMana[2],TotalByMana[3],TotalByMana[4],TotalByMana[5],TotalByMana[6],TotalByMana[7]);
         let GraphHeightPerCard = 50/MaxTotalByMana;
@@ -653,7 +656,6 @@ const StartCardDrag = function(event, CardID, Source, Type) {
     event.dataTransfer.setData("ID", CardID);
     event.dataTransfer.setData("Source", Source);
     event.dataTransfer.setData("CardType", Type);
-    console.log(CardID);
 }
 const EndCardDrag = function(event, Land) {
     event.preventDefault();
@@ -670,7 +672,6 @@ const EndCardDrag = function(event, Land) {
                 let Hero1ID = CardID;
                 let Hero2Slot = Source.substring(1,2);
                 let Hero2ID = DeckHeroCards[Hero1Slot]['id'];;
-                console.log("Hero1: "+Hero1ID+", slot "+Hero1Slot+". Hero2: "+Hero2ID+", slot "+Hero2Slot+".");
                 DeckBuilderRemoveHeroFromDeck(Hero1ID);
                 DeckBuilderRemoveHeroFromDeck(Hero2ID);
                 DeckBuilderAddHeroToDeck(Hero2ID,Hero2Slot);
@@ -686,13 +687,10 @@ const EndCardDrag = function(event, Land) {
             DeckBuilderAddCardToDeck(CardID);
         }
     } else if (Land == "CardList") {
-        console.log("In Land CardList");
         if (CardType == "Hero") {
             DeckBuilderRemoveHeroFromDeck(CardID);
         } else {
-            console.log("In else...");
             if (Source == "DeckList") {
-                console.log("We are here");
                 DeckBuilderRemoveCardFromDeck(CardID);
                 DeckBuilderRemoveCardFromDeck(CardID);
                 DeckBuilderRemoveCardFromDeck(CardID);
@@ -705,6 +703,9 @@ const allowDrop = function(event) {
 }
 
 const GenerateDeckCode = function() {
+    let ErrorMessage = "";
+    let ShowErrorMessage = false;
+    let RefuseCode = false;
     let FullDeckArray = new Array;
     FullDeckArray['heroes'] = new Array;
     for (let h = 0; h < 5; h++) {
@@ -712,6 +713,15 @@ const GenerateDeckCode = function() {
         FullDeckArray['heroes'][h]['id'] = DeckHeroCards[h]['id'];
         FullDeckArray['heroes'][h]['turn'] = DeckHeroCards[h]['turn'];
     }
+    let TotalCardCount = 0; 
+    for (let c = 0; c < DeckNonHeroNonItemCards.length; c++) {
+        TotalCardCount += DeckNonHeroNonItemCards[c]['count'];
+    }
+    if (TotalCardCount < 40) {
+        ErrorMessage = "Code generated, but this deck is invalid: <br> Not enough cards: "+(TotalCardCount+15);
+        ShowErrorMessage = true;
+    }
+
     FullDeckArray['cards'] = DeckNonHeroNonItemCards.concat(DeckItemCards);
     let DeckName = document.getElementById('DeckBuilderDeckNameInput').value;
     if (DeckName == "") {
@@ -719,18 +729,28 @@ const GenerateDeckCode = function() {
     }
     FullDeckArray['name'] = DeckName;
     
-    console.log(FullDeckArray);
     let EnoughHeroesCheck = true;
-    let ErrorMessage = "Failed to generate deck code: <br>";
+    
     for (let hc = 0; hc < 5; hc++) {
         if (DeckHeroCards[hc]['id'] == 0) {
             EnoughHeroesCheck = false;
-            ErrorMessage += "There are not five heroes in this deck.";
+            ErrorMessage = "Failed to generate deck code: <br> There are not five heroes in this deck.";
+            ShowErrorMessage = true;
+            RefuseCode = true;
         }
     }
-    document.getElementById('DeckCodeErrorMsg').innerHTML = ErrorMessage;
-    document.getElementById('DeckCodeErrorContainer').style.display = "block";
-    document.getElementById('DeckCode').innerHTML = CArtifactDeckEncoder.EncodeDeck(FullDeckArray);
-    document.getElementById('DeckCode').style.display = "block";
+    if (ShowErrorMessage) {
+        document.getElementById('DeckCodeErrorMsg').innerHTML = ErrorMessage;
+        document.getElementById('DeckCodeErrorContainer').style.display = "block";
+    } else {
+        document.getElementById('DeckCodeErrorContainer').style.display = "none";
+    }
+    if (RefuseCode) {
+        document.getElementById('DeckCode').style.display = "none";
+    } else {
+        document.getElementById('DeckCode').innerHTML = CArtifactDeckEncoder.EncodeDeck(FullDeckArray);
+        document.getElementById('DeckCode').style.display = "block";
+    }
+
 
 }

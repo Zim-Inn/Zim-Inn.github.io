@@ -73,7 +73,6 @@ const InitialisePage = function(Page) {
             }
         } else if (Page == "DeckBuilder") {
             InitialiseDeckBuilder();
-            GenerateCardListCardBrowser();
         }
     })
 }

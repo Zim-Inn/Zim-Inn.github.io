@@ -125,10 +125,10 @@
     background-color: rgba(100,255,100,0.2);
 }
 .CardViewerPageSignatureContainerB {
-    background-color: rgba(11, 5, 17, 0.2);
+    background-color: rgba(11, 5, 17, 0.5);
 }
 .CardViewerPageSignatureContainerC {
-    background-color: rgba(120,120,120,0.6);
+    background-color: rgba(120,120,120,0.5);
 }
 .CardViewerPageSignatureContainerI {
     background-color: rgba(224, 201, 170, 0.3);
@@ -140,7 +140,7 @@
     color: #caa;
 }
 .CardViewerPageSigCardTextU {
-    color: #aac;
+    color: #8ab;
 }
 .CardViewerPageSigCardTextB {
     color: #999;
