@@ -717,7 +717,7 @@ const GenerateDeckCode = function() {
     for (let c = 0; c < DeckNonHeroNonItemCards.length; c++) {
         TotalCardCount += DeckNonHeroNonItemCards[c]['count'];
     }
-    if (TotalCardCount < 40) {
+    if (TotalCardCount < 25) {
         ErrorMessage = "Code generated, but this deck is invalid: <br> Not enough cards: "+(TotalCardCount+15);
         ShowErrorMessage = true;
     }
