@@ -268,6 +268,12 @@
     overflow: auto;
     word-wrap: break-word;
 }
+#DeckBuilderMobileWarning {
+    color: rgb(233, 192, 192);
+    padding: 20px;
+    font-size: 24pt;
+    font-family: "Radiance", sans-serif;
+}
 
 
 

@@ -2970,7 +2970,7 @@
 		"image": "10757_0",
 		"miniimage": "10757_0",
 		"text": {
-			"english": " /n Stun a unit and give it Damage Immunity until the start of next round. /n Deal 1 damage to adjacent enemies when this effect expires."
+			"english": " Stun a unit and give it Damage Immunity until the start of next round. /n Deal 1 damage to adjacent enemies when this effect expires."
 		},
 		"crosslane": false,
 		"quick": false,

@@ -721,6 +721,14 @@ const GenerateDeckCode = function() {
         ErrorMessage = "Code generated, but this deck is invalid: <br> Not enough cards: "+(TotalCardCount+15);
         ShowErrorMessage = true;
     }
+    let TotalItemCount = 0; 
+    for (let c = 0; c < DeckItemCards.length; c++) {
+        TotalItemCount += DeckItemCards[c]['count'];
+    }
+    if (TotalItemCount > 10) {
+        ErrorMessage = "Code generated, but this deck is invalid: <br> Too many items: "+TotalItemCount;
+        ShowErrorMessage = true;
+    }
 
     FullDeckArray['cards'] = DeckNonHeroNonItemCards.concat(DeckItemCards);
     let DeckName = document.getElementById('DeckBuilderDeckNameInput').value;
@@ -751,6 +759,8 @@ const GenerateDeckCode = function() {
         document.getElementById('DeckCode').innerHTML = CArtifactDeckEncoder.EncodeDeck(FullDeckArray);
         document.getElementById('DeckCode').style.display = "block";
     }
+}
 
-
+const DeckBuilderDismissMobileWarning = function() {
+    document.getElementById('DeckBuilderMobileWarning').style.display = "none";
 }
