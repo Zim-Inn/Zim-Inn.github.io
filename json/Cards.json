@@ -2488,16 +2488,15 @@
 		"colour": "R",
 		"image": "10723_0",
 		"miniimage": "10723_0",
-		"cost": 0,
+		"cost": 3,
 		"text": {
-			"english": ""
+			"english": "/n[TG]After Combat:[ET] Summon a Lancer Illusion into the closest position."
 		},
 		"attack": 2,
 		"armour": 0,
 		"hp": 1,
 		"abilities": [],
 		"is_signature": "10721_0",
-		"related_cards": ["10721_0"],
 		"crosslane": false,
 		"quick": false
 	}]
@@ -2866,7 +2865,7 @@
 		"set": 1,
 		"rarity": 1,
 		"colour": "R",
-		"cost": 3,
+		"cost": 4,
 		"image": "10293_0",
 		"miniimage": "10293_0",
 		"text": {
@@ -2970,7 +2969,7 @@
 		"image": "10757_0",
 		"miniimage": "10757_0",
 		"text": {
-			"english": " /n Stun a unit and give it Damage Immunity until the start of next round. /n Deal 1 damage to adjacent enemies when this effect expires."
+			"english": " Stun a unit and give it Damage Immunity until the start of next round. /n Deal 1 damage to adjacent enemies when this effect expires."
 		},
 		"crosslane": false,
 		"quick": false,

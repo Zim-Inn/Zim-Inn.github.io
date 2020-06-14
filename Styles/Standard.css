@@ -48,8 +48,8 @@ body {
 #SiteHeaderInner {
     position: relative;
     margin: 0 auto;
-    padding-left: 220px;
-    width: 880px;
+    padding-left: 150px;
+    width: 950px;
     height: 50px;
     margin-top: -50px;
     background-image: url('../Images/Styles/HeaderLogo.png');

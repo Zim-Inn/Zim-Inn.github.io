@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168054076-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-168054076-1');
+        </script>
+        <meta charset="utf-8" />
+        <title>Artifact 2 Deck Builder</title>
+        <link rel="stylesheet" href="Styles/Standard.css">
+        <link rel="stylesheet" href="Styles/DeckBuilder.css">
+        <link rel="stylesheet" href="Styles/Cards.css">
+    </head>
+    <body>
+        <div id="SiteHeader">
+            <div id="SiteHeaderBackground">
+                <video preload="preload" id="header_video" autoplay loop muted>
+                    <source src="Images/Styles/144px.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div id="SiteHeaderInner">
+                <a href="index.html"><div class="SiteHeaderButton SiteHeaderButtonUnselected">
+                    <div class="SiteHeaderButtonText">CARD BROWSER</div>
+                </div></a>
+                <a href="DeckBuilder.html">
+                    <div class="SiteHeaderButton SiteHeaderButtonSelected">
+                        <div class="SiteHeaderButtonText">DECK BUILDER</div>
+                    </div>
+                </a>
+                <a href="DeckViewer.html">
+                    <div class="SiteHeaderButton SiteHeaderButtonUnselected">
+                        <div class="SiteHeaderButtonText">DECK VIEWER</div>
+                    </div>
+                </a>
+                <a href="ReportError.html"><div class="SiteHeaderButton SiteHeaderButtonUnselected">
+                    <div class="SiteHeaderButtonText">REPORT AN ERROR</div>
+                </div></a>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div id="PageHeader">
+            <div id="PageHeaderTitle" class="RestrictWidth">Deck Builder</div>
+        </div>
+        <div id="DeckBuilderMobileWarning" class="OnlyMobile">
+            This page has been designed for desktop use so may not work properly on mobile devices.<br>
+            <button type="button" class="ArtifactButtonSmall" onmouseup="DeckBuilderDismissMobileWarning();">Dismiss</button>
+        </div>
+
+        <div id="CVOptions">
+            <div class="RestrictWidth">
+                <div class="CVOptionContainer float" id="ColourFilterContainer">
+                    <div class="CVOptionName">COLOUR FILTER</div>
+                    <div id="ColourFilterR" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowTextTooltip(1, 'Red')"; onmouseout="ShowTextTooltip(0,0)"; onmouseup="DeckBuilderToggleFilter('R');"></div>
+                    <div id="ColourFilterU" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowTextTooltip(1, 'Blue')"; onmouseout="ShowTextTooltip(0,0)"; onmouseup="DeckBuilderToggleFilter('U');"></div>
+                    <div id="ColourFilterB" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowTextTooltip(1, 'Black')"; onmouseout="ShowTextTooltip(0,0)"; onmouseup="DeckBuilderToggleFilter('B');"></div>
+                    <div id="ColourFilterG" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowTextTooltip(1, 'Green')"; onmouseout="ShowTextTooltip(0,0)"; onmouseup="DeckBuilderToggleFilter('G');"></div>
+                    <div id="ColourFilterC" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowTextTooltip(1, 'Colourless')"; onmouseout="ShowTextTooltip(0,0)"; onmouseup="DeckBuilderToggleFilter('C');"></div>
+                    <div class="clear"></div>
+                </div>
+                <div class="CVOptionContainer float" id="CardTypeFilterContainer">
+                    <div class="CVOptionName">CARD TYPE FILTER</div>
+                    <div id="CardTypeFilterHero" class="CVOptionButton CVOptionButtonSelected FilterButton" onmousemove="ShowTextTooltip(1, 'Heroes');"  onmouseout="ShowTextTooltip(0,0);" onmouseup="DeckBuilderToggleFilter('Hero');"></div>
+                    <div id="CardTypeFilterCreep" class="CVOptionButton CVOptionButtonSelected FilterButton" onmousemove="ShowTextTooltip(1, 'Creeps');" onmouseout="ShowTextTooltip(0,0);" onmouseup="DeckBuilderToggleFilter('Creep');"></div>
+                    <div id="CardTypeFilterSpell" class="CVOptionButton CVOptionButtonSelected FilterButton" onmousemove="ShowTextTooltip(1, 'Spells');" onmouseout="ShowTextTooltip(0,0);" onmouseup="DeckBuilderToggleFilter('Spell');"></div>
+                    <div id="CardTypeFilterImprovement" class="CVOptionButton CVOptionButtonSelected FilterButton" onmousemove="ShowTextTooltip(1, 'Tower Enchantments');" onmouseout="ShowTextTooltip(0,0);" onmouseup="DeckBuilderToggleFilter('Improvement');"></div>
+                    <div class="clear"></div>
+                </div>
+                <div class="CVOptionContainer float" id="ItemFilterContainer">
+                    <div class="CVOptionName">ITEM FILTER</div>
+                    <div id="ItemFilterWeapon" class="CVOptionButton CVOptionButtonSelected FilterButton" onmousemove="ShowTextTooltip(1, 'Weapons');"  onmouseout="ShowTextTooltip(0,0);" onmouseup="DeckBuilderToggleFilter('Weapon');"></div>
+                    <div id="ItemFilterArmor" class="CVOptionButton CVOptionButtonSelected FilterButton" onmousemove="ShowTextTooltip(1, 'Armor');" onmouseout="ShowTextTooltip(0,0);" onmouseup="DeckBuilderToggleFilter('Armor');"></div>
+                    <div id="ItemFilterAccessory" class="CVOptionButton CVOptionButtonSelected FilterButton" onmousemove="ShowTextTooltip(1, 'Accessories');" onmouseout="ShowTextTooltip(0,0);" onmouseup="DeckBuilderToggleFilter('Accessory');"></div>
+                    <div id="ItemFilterConsumable" class="CVOptionButton CVOptionButtonSelected FilterButton" onmousemove="ShowTextTooltip(1, 'Consumables');" onmouseout="ShowTextTooltip(0,0);" onmouseup="DeckBuilderToggleFilter('Consumable');"></div>
+                    <div class="clear"></div>
+                </div>
+                <div class="CVOptionContainer floatr">
+                    <div class="CVOptionName">CARD NAME AND TEXT SEARCH</div>
+                    <input type="text" id="CardTextFilter" value="" onkeyup="DeckBuilderGenerateAvailableCardList();">
+                    <div class="clear"></div>
+                </div>
+                <div class="CVOptionContainer floatr">
+                    <div class="CVOptionName">&nbsp;</div>
+                    <div id="FilterIncludeAbilityText" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowTextTooltip(1, 'Include text from card abiltiies in the text search')"; onmouseout="ShowTextTooltip(0,0)"; onmouseup="DeckBuilderToggleFilter('abilitytext');"></div>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div> 
+        <div id="PageContainer" class="RestrictWidth">
+
+            <div id="DeckBuilderPage">
+                <div id="DeckBuilderLeft">
+                    <div id="DeckBuilderSelectedCardPreview">&nbsp;</div>
+                    <div id="SigAbilityRelated_Container">&nbsp;</div>
+                </div>
+
+                <div id="DeckBuilderCentre">
+                    <div id="DeckBuilderAvailableCardsList" ondragover="allowDrop(event)" ondrop="EndCardDrag(event,'CardList');">
+
+                    </div>
+                </div>
+
+                <div id="DeckBuilderRight">
+                    <div id="DeckBuilderDeckNameContainer">
+                        <input type="text" id="DeckBuilderDeckNameInput" value="Unnamed Deck" maxlength="60" onkeyup="HideDeckCode();"> 
+                    </div>
+                    <div class="DeckBuilderHeroContainerShell">
+                        <div class="DeckBuilderCardTypeTitle">
+                            Heroes
+                        </div>
+                        <div class="DeckBuilderHeroIconContainer" ondragover="allowDrop(event)" ondrop="EndCardDrag(event, 'H0');">
+                            <div class="DeckBuilderHeroIconContainerBG">
+                                Round<br><span>1</span>
+                            </div>
+                            <div id="DeckBuilderHeroIcon0" class="DeckBuilderHeroIcon"></div>
+                        </div>
+                        <div class="DeckBuilderHeroIconContainer" ondragover="allowDrop(event)" ondrop="EndCardDrag(event, 'H1');">
+                            <div class="DeckBuilderHeroIconContainerBG">
+                                Round<br><span>1</span>
+                            </div>
+                            <div id="DeckBuilderHeroIcon1" class="DeckBuilderHeroIcon"></div>
+                        </div>
+                        <div class="DeckBuilderHeroIconContainer" ondragover="allowDrop(event)" ondrop="EndCardDrag(event, 'H2');">
+                            <div class="DeckBuilderHeroIconContainerBG">
+                                Round<br><span>1</span>
+                            </div>
+                            <div id="DeckBuilderHeroIcon2" class="DeckBuilderHeroIcon"></div>
+                        </div>
+                        <div class="DeckBuilderHeroIconContainer" ondragover="allowDrop(event)" ondrop="EndCardDrag(event, 'H3');">
+                            <div class="DeckBuilderHeroIconContainerBG">
+                                Round<br><span>2</span>
+                            </div>
+                            <div id="DeckBuilderHeroIcon3" class="DeckBuilderHeroIcon"></div>
+                        </div>
+                        <div class="DeckBuilderHeroIconContainer" ondragover="allowDrop(event)" ondrop="EndCardDrag(event, 'H4');">
+                            <div class="DeckBuilderHeroIconContainerBG">
+                                Round<br><span>3</span>
+                            </div>
+                            <div id="DeckBuilderHeroIcon4" class="DeckBuilderHeroIcon"></div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="DeckBuilderCardTypeStats">
+                        <div id="TotalNumberCards" class="DeckBuilderCardTypeTitle">
+                            0 Cards
+                        </div>
+                        <div class="DeckBuilderCardTypeContainer">
+                            <div class="DeckBuilderCardTypeSymbol">
+                                ▨
+                            </div>
+                            <div id="NumberOfCreeps" class="DeckBuilderCardTypeAmount">
+                                0
+                            </div>
+                        </div>
+                        <div class="DeckBuilderCardTypeContainer">
+                            <div class="DeckBuilderCardTypeSymbol">
+                                ▪
+                            </div>
+                            <div id="NumberOfSpells" class="DeckBuilderCardTypeAmount">
+                                0
+                            </div>
+                        </div>
+                        <div class="DeckBuilderCardTypeContainer">
+                            <div class="DeckBuilderCardTypeSymbol">
+                                ▩
+                            </div>
+                            <div id="NumberOfTE" class="DeckBuilderCardTypeAmount">
+                                0
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="DeckBuilderItemTypeStats">
+                        <div id="TotalNumberItems" class="DeckBuilderCardTypeTitle">
+                            0 Items
+                        </div>
+                        <div class="DeckBuilderItemTypeContainer">
+                            <div class="DeckBuilderCardTypeSymbol">
+                                ▣
+                            </div>
+                            <div id="NumberOfWeapons" class="DeckBuilderCardTypeAmount">
+                                0
+                            </div>
+                        </div>
+                        <div class="DeckBuilderItemTypeContainer">
+                            <div class="DeckBuilderCardTypeSymbol">
+                                ▤
+                            </div>
+                            <div id="NumberOfArmour" class="DeckBuilderCardTypeAmount">
+                                0
+                            </div>
+                        </div>
+                        <div class="DeckBuilderItemTypeContainer">
+                            <div class="DeckBuilderCardTypeSymbol">
+                                ▥
+                            </div>
+                            <div id="NumberOfAccessories" class="DeckBuilderCardTypeAmount">
+                                0
+                            </div>
+                        </div>
+                        <div class="DeckBuilderItemTypeContainer">
+                            <div class="DeckBuilderCardTypeSymbol">
+                                ▦
+                            </div>
+                            <div id="NumberOfConsumables" class="DeckBuilderCardTypeAmount">
+                                0
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="DeckBuilderCardManaColourStats">
+                        <div id="DeckBuilderCardManaColourGraphContainer">
+                            <div class="DeckBuilderCardManaColourChartBarContainer">
+                                <div id="DeckBuilderCardManaColourChartBar1" class="DeckBuilderCardManaColourChartBarOuter"></div>                      
+                                <div class="DeckBuilderCardManaColourChartNumber">1</div>
+                            </div>
+                            <div class="DeckBuilderCardManaColourChartBarContainer">
+                                <div id="DeckBuilderCardManaColourChartBar2" class="DeckBuilderCardManaColourChartBarOuter"></div>                      
+                                <div class="DeckBuilderCardManaColourChartNumber">2</div>
+                            </div>
+                            <div class="DeckBuilderCardManaColourChartBarContainer">
+                                <div id="DeckBuilderCardManaColourChartBar3" class="DeckBuilderCardManaColourChartBarOuter"></div>                      
+                                <div class="DeckBuilderCardManaColourChartNumber">3</div>
+                            </div>
+                            <div class="DeckBuilderCardManaColourChartBarContainer">
+                                <div id="DeckBuilderCardManaColourChartBar4" class="DeckBuilderCardManaColourChartBarOuter"></div>                      
+                                <div class="DeckBuilderCardManaColourChartNumber">4</div>
+                            </div>
+                            <div class="DeckBuilderCardManaColourChartBarContainer">
+                                <div id="DeckBuilderCardManaColourChartBar5" class="DeckBuilderCardManaColourChartBarOuter"></div>                      
+                                <div class="DeckBuilderCardManaColourChartNumber">5</div>
+                            </div>
+                            <div class="DeckBuilderCardManaColourChartBarContainer">
+                                <div id="DeckBuilderCardManaColourChartBar6" class="DeckBuilderCardManaColourChartBarOuter"></div>                      
+                                <div class="DeckBuilderCardManaColourChartNumber">6</div>
+                            </div>
+                            <div class="DeckBuilderCardManaColourChartBarContainer">
+                                <div id="DeckBuilderCardManaColourChartBar7" class="DeckBuilderCardManaColourChartBarOuter"></div>                      
+                                <div class="DeckBuilderCardManaColourChartNumber">7</div>
+                            </div>
+                            <div class="DeckBuilderCardManaColourChartBarContainer">
+                                <div id="DeckBuilderCardManaColourChartBar8" class="DeckBuilderCardManaColourChartBarOuter"></div>                      
+                                <div class="DeckBuilderCardManaColourChartNumber">8+</div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div id="DeckBuilderCardColourBoxChartContainer">
+                            <div id="DeckBuilderBoxChartR" class="DeckBuilderCardColourBoxChartInner DeckBuilderCardManaColouringR">0</div>
+                            <div id="DeckBuilderBoxChartG" class="DeckBuilderCardColourBoxChartInner DeckBuilderCardManaColouringG">0</div>
+                            <div id="DeckBuilderBoxChartU" class="DeckBuilderCardColourBoxChartInner DeckBuilderCardManaColouringU">0</div>
+                            <div id="DeckBuilderBoxChartB" class="DeckBuilderCardColourBoxChartInner DeckBuilderCardManaColouringB">0</div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="DeckBuilderDeckCardListContainer" ondragover="allowDrop(event)" ondrop="EndCardDrag(event,'DeckList');">
+                        
+                    </div>
+                    <div id="DeckCodeErrorContainer">
+                        <div class="DeckCodeErrorImg">
+                            <img src="Images/Styles/CardErr.png">
+                        </div>
+                        <div id="DeckCodeErrorMsg">
+                            Failed to generate deck code:
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="DeckCodeContainer">
+                        <textarea id="DeckCodeField" type="text" value="" readonly="readonly"></textarea>
+                    </div>
+                    <button id="GenerateDeckCodeButton" type="button" class="ArtifactButtonSmall DeckBuilderGenerateCodeButton" onmouseup="GenerateDeckCode();">GENERATE DECK CODE</button>
+                </div>
+                <div class="clear"></div>
+                
+            </div>
+            <div id="CardPreviewTooltip" class="CardContainerMiniPreview">&nbsp;</div>
+            <div id="SpecialTextTooltip">
+                <div id="SpecialTextTitle">Title</div>
+                <div id="SpecialTextDesc">Desc</div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+        <script src="js/CardGenerator.js"></script>
+        <script type="module" src="js/Encoder.js"></script>
+        <script src="js/DeckBuilder.js"></script>
+        <script src="js/OrderCardList.js"></script>
+        <script src="js/Decoder.js"></script>
+        <script>InitialisePage("DeckBuilder");</script>
+    </body>
+</html>

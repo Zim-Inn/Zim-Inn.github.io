@@ -297,8 +297,10 @@ const LoadDeckFunc = function( skipHistory) {
         document.getElementById('NonHeroNonItemCardListContainer').innerHTML = DV_NonHeroNonItemCardListHTML;
         document.getElementById('ItemCardListContainer').innerHTML = DV_ItemCardListHTML;
         document.getElementById('DeckViewerDeckTitle').innerHTML = DeckName;
+        //document.getElementById('OpenDeckInBuilderButton').innerHTML = '<a href="DeckBuilder.html?d='+document.getElementById('DeckCodeInputField').value+'><button type="button" class="ArtifactButtonSmall" onmousemove="ShowTextTooltip(1, \'Open this deck in the Deck Builder\');" onmouseout="ShowTextTooltip(0,0);">OPEN IN DECK BUILDER</button></a>';
+        document.getElementById('OpenDeckInBuilderButton').innerHTML = '<button type="button" class="ArtifactButtonSmall" onmousemove="ShowTextTooltip(1, \'Open this deck in the Deck Builder\');" onmouseout="ShowTextTooltip(0,0);" onmouseup="window.location.href = \'DeckBuilder.html?d='+document.getElementById('DeckCodeInputField').value+'\'">OPEN IN DECK BUILDER</button>';
 
-
+    
     } else { //Invalid code, or some other error. Should probably put an error message here or something :-)
         document.getElementById('DeckCodeInputContainer').style.display = "block";
         document.getElementById('DeckCodeErrorContainer').style.display = "block";
