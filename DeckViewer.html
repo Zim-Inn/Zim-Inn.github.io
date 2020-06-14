@@ -26,6 +26,11 @@
                 <a href="index.html"><div class="SiteHeaderButton SiteHeaderButtonUnselected">
                     <div class="SiteHeaderButtonText">ARTIFACT 2 CARDS</div>
                 </div></a>
+                <a href="DeckBuilder.html">
+                    <div class="SiteHeaderButton SiteHeaderButtonUnselected">
+                        <div class="SiteHeaderButtonText">DECK BUILDER</div>
+                    </div>
+                </a>
                 <div class="SiteHeaderButton SiteHeaderButtonSelected">
                     <div class="SiteHeaderButtonText">DECK VIEWER</div>
                 </div>
@@ -67,8 +72,7 @@
                             Deck Title
                         </div>
                         <div id="LoadNewDeckButton">
-                            <button type="button" class="ArtifactButtonSmall" onmouseup="ViewDiffDeckButton();">VIEW A
-                                DIFFERENT DECK</button>
+                            <button type="button" class="ArtifactButtonSmall" onmouseup="ViewDiffDeckButton();">VIEW A DIFFERENT DECK</button>
                         </div>
                         <div id="ShareCurrentDeckButton">
                             <button type="button" class="ArtifactButtonSmall" onmousemove="ShowTextTooltip(1, 'Copies the URL for this deck to the clipboard');" onmouseout="ShowTextTooltip(0,0);" onmouseup="DeckCodeShareToClipboard();">SHARE</button>
@@ -230,7 +234,6 @@
                 <div id="SpecialTextDesc">Desc</div>
             </div>
         </div>
-        
         <input type="text" value="" id="hiddenClipboard">
         <script src="main.js"></script>
         <script src="js/CardGenerator.js"></script>

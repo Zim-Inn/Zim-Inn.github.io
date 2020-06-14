@@ -72,7 +72,6 @@
     box-shadow: 0 2px 4px black;
 }
 #DeckViewerTitleContainer {
-    padding: 2px;
     background-image: url("../Images/Styles/DeckViewerDeckTitleBG.jpg");
 }
 #DeckViewerDeckTitle {
@@ -83,7 +82,6 @@
     float: left;
 }
 #DeckViewerHeroesContainer {
-    margin-top: 10px;
     margin-bottom: 5px;
 }
 #DeckViewerCardsAndStats {
