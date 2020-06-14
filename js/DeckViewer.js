@@ -259,7 +259,7 @@ const LoadDeckFunc = function( skipHistory) {
         }
         let TotalByMana = new Array;
         for (let mc = 0; mc < 8; mc++) {
-            TotalByMana[mc] = CardColourCounts['R'][mc] + CardColourCounts['U'][mc] + CardColourCounts['B'][mc] + CardColourCounts['G'][mc];
+            TotalByMana[mc] = CardColourCounts['R'][mc] + CardColourCounts['U'][mc] + CardColourCounts['B'][mc] + CardColourCounts['G'][mc] + CardColourCounts['C'][mc];
         }
         let MaxTotalByMana = Math.max(TotalByMana[0],TotalByMana[1],TotalByMana[2],TotalByMana[3],TotalByMana[4],TotalByMana[5],TotalByMana[6],TotalByMana[7]);
         let GraphHeightPerCard = 60/MaxTotalByMana;
@@ -269,13 +269,16 @@ const LoadDeckFunc = function( skipHistory) {
             let BlueBarHeight = CardColourCounts['U'][bg] * GraphHeightPerCard;
             let BlackBarHeight = CardColourCounts['B'][bg] * GraphHeightPerCard;
             let GreenBarHeight = CardColourCounts['G'][bg] * GraphHeightPerCard;
-            let PaddingBarHeight = 60 - RedBarHeight - BlueBarHeight - BlackBarHeight - GreenBarHeight;
+            let ColourlessBarHeight = CardColourCounts['C'][bg] * GraphHeightPerCard;
+            let PaddingBarHeight = 60 - RedBarHeight - BlueBarHeight - BlackBarHeight - GreenBarHeight - ColourlessBarHeight;
             document.getElementById('DeckViewerCardManaColourChartBar'+(bg+1)).innerHTML = '<div class="DeckViewerCardManaColouringPadding" style="height: '+PaddingBarHeight+'px;"></div> \
                                                                                             <div class="DeckViewerCardManaColouringR" style="height: '+RedBarHeight+'px;" onmousemove="ShowTextTooltip(1, \''+CardColourCounts['R'][bg]+' Red Cards\');" onmouseout="ShowTextTooltip(0,0);"></div> \
                                                                                             <div class="DeckViewerCardManaColouringU" style="height: '+BlueBarHeight+'px;" onmousemove="ShowTextTooltip(1, \''+CardColourCounts['U'][bg]+' Blue Cards\');" onmouseout="ShowTextTooltip(0,0);"></div> \
                                                                                             <div class="DeckViewerCardManaColouringB" style="height: '+BlackBarHeight+'px;" onmousemove="ShowTextTooltip(1, \''+CardColourCounts['B'][bg]+' Black Cards\');" onmouseout="ShowTextTooltip(0,0);"></div> \
-                                                                                            <div class="DeckViewerCardManaColouringG" style="height: '+GreenBarHeight+'px;" onmousemove="ShowTextTooltip(1, \''+CardColourCounts['G'][bg]+' Green Cards\');" onmouseout="ShowTextTooltip(0,0);"></div>';
+                                                                                            <div class="DeckViewerCardManaColouringG" style="height: '+GreenBarHeight+'px;" onmousemove="ShowTextTooltip(1, \''+CardColourCounts['G'][bg]+' Green Cards\');" onmouseout="ShowTextTooltip(0,0);"></div> \
+                                                                                            <div class="DeckViewerCardManaColouringC" style="height: '+ColourlessBarHeight+'px;" onmousemove="ShowTextTooltip(1, \''+CardColourCounts['C'][bg]+' Colourless Cards\');" onmouseout="ShowTextTooltip(0,0);"></div>';
         }
+
         document.getElementById('DeckViewerBoxChartR').outerHTML = '<div id="DeckViewerBoxChartR" class="DeckViewerCardColourBoxChartInner DeckViewerCardManaColouringR" onmousemove="ShowTextTooltip(1, \''+TotalR+' Red Cards\');" onmouseout="ShowTextTooltip(0,0);">'+TotalR+'</div>';
         document.getElementById('DeckViewerBoxChartU').outerHTML = '<div id="DeckViewerBoxChartU" class="DeckViewerCardColourBoxChartInner DeckViewerCardManaColouringU" onmousemove="ShowTextTooltip(1, \''+TotalU+' Blue Cards\');" onmouseout="ShowTextTooltip(0,0);">'+TotalU+'</div>';
         document.getElementById('DeckViewerBoxChartB').outerHTML = '<div id="DeckViewerBoxChartB" class="DeckViewerCardColourBoxChartInner DeckViewerCardManaColouringB" onmousemove="ShowTextTooltip(1, \''+TotalB+' Black Cards\');" onmouseout="ShowTextTooltip(0,0);">'+TotalB+'</div>';

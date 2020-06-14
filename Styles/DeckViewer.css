@@ -223,6 +223,9 @@
 .DeckViewerCardManaColouringG {
     background: linear-gradient(170deg, rgba(62,90,50,0.9) 20%, rgba(47,72,36,0.6));
 }
+.DeckViewerCardManaColouringC {
+    background: linear-gradient(170deg, rgba(97, 99, 96, 0.9) 20%, rgba(59, 63, 57, 0.6));
+}
 #ItemCardListContainer {
     width: calc(100% - 12px);
     padding: 15px 6px;

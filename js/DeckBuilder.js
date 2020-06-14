@@ -1,5 +1,4 @@
 const InitialiseDeckBuilder = function() {
-    //GenerateCard("DeckBuilderSelectedCardPreview","10020_99");
     
     for (let cc = 0; cc < CardJSON.length; cc++) {
         let LatestCardVersion = CardJSON[cc]['versions'].length -1;
