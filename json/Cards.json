@@ -2479,7 +2479,7 @@
 	"hide_from_card_list": "Uncollectable",
 	"versions": [{
 		"release_date": "2020-05-25",
-		"card_type": "Summon",
+		"card_type": "Creep",
 		"card_name": {
 			"english": "Lancer Illusion"
 		},
