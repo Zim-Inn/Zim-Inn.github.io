@@ -22,19 +22,17 @@
     float: left;
 }
 #DeckBuilderLeft {
-    /*background-color: rgba(238, 255, 0, 0.2);*/
-    padding: 20px 0 0 1.5%;
+    padding: 0 0 0 1.5%;
     width: calc(340px - 1.5%);
     min-height: 50px;
     float: left;
 }
 #DeckBuilderCentre {
-    /*background-color: rgba(0, 255, 76, 0.2);*/
-    padding: 20px 1% 0 1%;
+    padding: 0 1% 0 1%;
     width: calc(49% - 170px);
     min-height: 50px;
     float: left;
-    max-height: 800px;
+    max-height: 900px;
 }
 #DeckBuilderRight {
     background-color: rgba(27, 60, 77, 0.3);
@@ -282,7 +280,6 @@
 #CVOptions {
     min-height: 50px;
     margin-bottom: 10px;
-    position: sticky;
     top:0;
     background-color: rgba(26,24,29,0.7);
     border-bottom: 2px solid black;

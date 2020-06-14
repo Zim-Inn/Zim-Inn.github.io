@@ -67,17 +67,21 @@
                 </div>
 
                 <div id="DeckViewerDeckOuterContainer">
+                    <div id="DeckViewerOptions">
+                        <div id="LoadNewDeckButton">
+                            <button type="button" class="ArtifactButtonSmall" onmouseup="ViewDiffDeckButton();">VIEW DIFFERENT DECK</button>
+                        </div>
+                        <div id="ShareCurrentDeckButton">
+                            <button type="button" class="ArtifactButtonSmall" onmousemove="ShowTextTooltip(1, 'Copies the URL for this deck to the clipboard');" onmouseout="ShowTextTooltip(0,0);" onmouseup="DeckCodeShareToClipboard();">SHARE DECK</button>
+                        </div>
+                        <div id="OpenDeckInBuilderButton"></div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="clear"></div>
                     <div id="DeckViewerTitleContainer">
                         <div id="DeckViewerDeckTitle">
                             Deck Title
                         </div>
-                        <div id="LoadNewDeckButton">
-                            <button type="button" class="ArtifactButtonSmall" onmouseup="ViewDiffDeckButton();">VIEW A DIFFERENT DECK</button>
-                        </div>
-                        <div id="ShareCurrentDeckButton">
-                            <button type="button" class="ArtifactButtonSmall" onmousemove="ShowTextTooltip(1, 'Copies the URL for this deck to the clipboard');" onmouseout="ShowTextTooltip(0,0);" onmouseup="DeckCodeShareToClipboard();">SHARE</button>
-                        </div>
-                        <div class="clear"></div>
                     </div>
 
                     <div id="DeckViewerHeroesContainer">

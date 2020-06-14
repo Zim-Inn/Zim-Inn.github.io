@@ -79,7 +79,14 @@
     font-weight: bold;
     color: #eee;
     padding: 10px;
-    float: left;
+}
+#DeckViewerOptions {
+    margin-bottom: -25px;
+    background-color: #252c3e;
+    float: right;
+    padding: 2px 0 0 10px;
+    z-index: -1;
+    border-radius: 5px;
 }
 #DeckViewerHeroesContainer {
     margin-bottom: 5px;
@@ -370,6 +377,10 @@
     width: 95%;
 }
 #ShareCurrentDeckButton {
+    float: right;
+    margin: 4px 8px 0 0;
+}
+#OpenDeckInBuilderButton {
     float: right;
     margin: 4px 8px 0 0;
 }
