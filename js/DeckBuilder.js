@@ -331,11 +331,55 @@ const DeckBuilderUpdateCardPreview = function(CardIDV) {
         } else {
             HTMLSignatureCardLeftPanel = "";
         } 
+
+        //SHOW ABILITY DETAILS ON LEFT
+        let HTMLCardAbilitiesLeftPanel = "";
+        if ("abilities" in CardJSON[CardArrayIndex]['versions'][CardVersion]) { 
+            
+            if (CardJSON[CardArrayIndex]['versions'][CardVersion]['abilities'].length > 0) { //If the card has abilities
+                for (let a = 0; a < CardJSON[CardArrayIndex]['versions'][CardVersion]['abilities'].length; a++) {
+                    let AbilityIDV = CardJSON[CardArrayIndex]['versions'][CardVersion]['abilities'][a].split("_");
+                    let AbilityID = AbilityIDV[0];
+                    let AbilityVersion = AbilityIDV[1];
+                    let AbilityArrayIndex = "";
+                    for (let aa = 0; aa < AbilityJSON.length; aa++) {
+                        if ((AbilityJSON[aa]['card_id']) == AbilityID) {
+                            AbilityArrayIndex = aa;
+                            break;
+                        }
+                    }
+                    let AbilityName = AbilityJSON[AbilityArrayIndex]['versions'][AbilityVersion]['ability_name']['english'];
+                    let AbilityType = AbilityJSON[AbilityArrayIndex]['versions'][AbilityVersion]['ability_type'];
+                    if (AbilityType != "Continuous Effect") {
+                        AbilityType = AbilityType + " Ability";
+                    }
+                    let AbilityImage = AbilityJSON[AbilityArrayIndex]['versions'][AbilityVersion]['image'];
+                    let AbilityText = CardViewer_AbilityTextFormatting(AbilityJSON[AbilityArrayIndex]['versions'][AbilityVersion]['text']['english']);
+
+                    HTMLCardAbilitiesLeftPanel += '<div class="DeckBuilderSingleAbilityContainer"> \
+                    <div class="DeckBuilderAbilityTop"> \
+                        <div class="DeckBuilderAbilityIcon"><img src="Images/Abilities/'+AbilityImage+'.jpg"></div> \
+                        <div class="DeckBuilderAbilityTopText"> \
+                            <div class="DeckBuilderAbilityName">'+AbilityName.toUpperCase()+'</div> \
+                            <div class="DeckBuilderAbilityType">'+AbilityType+'</div> \
+                        </div> \
+                        <div class="clear"></div> \
+                    </div> \
+                    <div class="DeckBuilderAbilityText">'+AbilityText+'</div>\
+                </div>';
+                }
+            } else {
+                HTMLCardAbilitiesLeftPanel = "&nbsp";
+            }
+        } else {
+            HTMLCardAbilitiesLeftPanel = "&nbsp";
+        }
+
         document.getElementById('SigAbilityRelated_Container').innerHTML = "";
         //document.getElementById('SigAbilityRelated_Container').innerHTML += HTMLHeroCardLeftPanel;
         document.getElementById('SigAbilityRelated_Container').innerHTML += LeftPanelSigCardDetailsHTML;
         //document.getElementById('SigAbilityRelated_Container').innerHTML += HTMLRelatedCardsLeftPanel;
-        //document.getElementById('SigAbilityRelated_Container').innerHTML += HTMLCardAbilitiesLeftPanel;
+        document.getElementById('SigAbilityRelated_Container').innerHTML += HTMLCardAbilitiesLeftPanel;
     }
 }
 
