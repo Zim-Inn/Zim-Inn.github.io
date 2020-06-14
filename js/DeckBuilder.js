@@ -376,9 +376,7 @@ const DeckBuilderUpdateCardPreview = function(CardIDV) {
         }
 
         document.getElementById('SigAbilityRelated_Container').innerHTML = "";
-        //document.getElementById('SigAbilityRelated_Container').innerHTML += HTMLHeroCardLeftPanel;
         document.getElementById('SigAbilityRelated_Container').innerHTML += LeftPanelSigCardDetailsHTML;
-        //document.getElementById('SigAbilityRelated_Container').innerHTML += HTMLRelatedCardsLeftPanel;
         document.getElementById('SigAbilityRelated_Container').innerHTML += HTMLCardAbilitiesLeftPanel;
     }
 }
@@ -594,8 +592,7 @@ const DeckBuilderRemoveCardFromDeck = function(CardID) {
 }
 
 const UpdateDeckListDetails = function() {
-    document.getElementById('DeckCodeErrorContainer').style.display = "none";
-    document.getElementById('DeckCode').style.display = "none";
+    HideDeckCode();
     let DeckItemCardsJSON = new Array;
     let DeckNonHeroNonItemCardsJSON = new Array;
 
@@ -931,8 +928,9 @@ const GenerateDeckCode = function() {
     if (RefuseCode) {
         document.getElementById('DeckCode').style.display = "none";
     } else {
-        document.getElementById('DeckCode').innerHTML = CArtifactDeckEncoder.EncodeDeck(FullDeckArray);
-        document.getElementById('DeckCode').style.display = "block";
+        document.getElementById('DeckCodeField').value = CArtifactDeckEncoder.EncodeDeck(FullDeckArray);
+        document.getElementById('DeckCodeContainer').style.display = "block";
+        document.getElementById('GenerateDeckCodeButton').style.display = "none";
     }
 }
 
@@ -994,4 +992,9 @@ function DeckBuilderToggleFilter(FilterValue) {
         document.getElementById('ItemFilterContainer').style.background = "";
     }
     DeckBuilderGenerateAvailableCardList();
+}
+const HideDeckCode = function() {
+    document.getElementById('DeckCodeErrorContainer').style.display = "none";
+    document.getElementById('DeckCodeContainer').style.display = "none";
+    document.getElementById('GenerateDeckCodeButton').style.display = "block";
 }

@@ -254,17 +254,24 @@
     float: left;
     padding: 5px 0 0 10px;
 }
-#DeckCode {
+#DeckCodeContainer {
     width: calc(100% - 16px);
     font-family: monospace;
-    color: #ddd;
-    font-size: 18pt;
-    background-color: rgba(255,255,255,0.1);
-    padding: 8px;
+    padding: 4px;
     user-select: text;
     display: none;
     overflow: auto;
     word-wrap: break-word;
+}
+#DeckCodeField {
+    background-color: rgba(255,255,255,0.1);
+    font-size: 18pt;
+    padding: 5px;
+    width: calc(100% - 10px);
+    border: none;
+    color: #ddd;
+    min-height: 110px;
+    resize: none;
 }
 #DeckBuilderMobileWarning {
     color: rgb(233, 192, 192);

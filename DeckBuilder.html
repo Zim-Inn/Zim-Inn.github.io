@@ -106,7 +106,7 @@
 
                 <div id="DeckBuilderRight">
                     <div id="DeckBuilderDeckNameContainer">
-                        <input type="text" id="DeckBuilderDeckNameInput" value="Unnamed Deck" maxlength="60"> 
+                        <input type="text" id="DeckBuilderDeckNameInput" value="Unnamed Deck" maxlength="60" onkeyup="HideDeckCode();"> 
                     </div>
                     <div class="DeckBuilderHeroContainerShell">
                         <div class="DeckBuilderCardTypeTitle">
@@ -270,11 +270,13 @@
                         </div>
                         <div class="clear"></div>
                     </div>
-                    <button type="button" class="ArtifactButtonSmall DeckBuilderGenerateCodeButton" onmouseup="GenerateDeckCode();">GENERATE DECK CODE</button>
-                    
+                    <div id="DeckCodeContainer">
+                        <textarea id="DeckCodeField" type="text" value="" readonly="readonly"></textarea>
+                    </div>
+                    <button id="GenerateDeckCodeButton" type="button" class="ArtifactButtonSmall DeckBuilderGenerateCodeButton" onmouseup="GenerateDeckCode();">GENERATE DECK CODE</button>
                 </div>
                 <div class="clear"></div>
-                <div id="DeckCode"></div>
+                
             </div>
             <div id="CardPreviewTooltip" class="CardContainerMiniPreview">&nbsp;</div>
             <div id="SpecialTextTooltip">
