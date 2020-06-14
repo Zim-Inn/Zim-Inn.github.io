@@ -258,7 +258,7 @@
     width: calc(100% - 16px);
     font-family: monospace;
     color: #ddd;
-    font-size: 14pt;
+    font-size: 18pt;
     background-color: rgba(255,255,255,0.1);
     padding: 8px;
     user-select: text;
@@ -332,7 +332,7 @@
 #ColourFilterC {
     background-color: #79756d;
 }
-.ItemFilter {
+.FilterButton {
     background-position: center;
     background-repeat: no-repeat;
     background-color: #333749;
@@ -348,6 +348,18 @@
 }
 #ItemFilterConsumable {
     background-image: url('../Images/Styles/ConsumableFilter.png');
+}
+#CardTypeFilterHero {
+    background-image: url('../Images/Styles/HeroFilter.png');
+}
+#CardTypeFilterCreep {
+    background-image: url('../Images/Styles/CreepFilter.png');
+}
+#CardTypeFilterSpell {
+    background-image: url('../Images/Styles/SpellFilter.png');
+}
+#CardTypeFilterImprovement {
+    background-image: url('../Images/Styles/TEFilter.png');
 }
 #HiddenFilterUncollectable {
     background-color: #333749;

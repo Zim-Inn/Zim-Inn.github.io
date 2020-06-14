@@ -91,6 +91,11 @@ DeckBuilderAvailableCardsFilter = {
     B: true,
     G: true,
     C: true,
+    // CardTypes
+    Hero: true,
+    Creep: true,
+    Spell: true,
+    Improvement: true,
     // Items
     Weapon: true,
     Armor: true,
@@ -158,19 +163,30 @@ const DeckBuilderGenerateAvailableCardList = function() {
                 [CardJSON[cc]["versions"][LatestCardVersion]["card_subtype"]]
             ];
 
+            let CardTypeCheckPass = false;
+            if (CardType == "Item") {
+                CardTypeCheckPass = true;
+            } else {
+                if (DeckBuilderAvailableCardsFilter[CardType] == true) {
+                    CardTypeCheckPass = true;
+                }
+            }
+
             if (CardJSON[cc]['versions'][LatestCardVersion]['card_name']['english'].search(textfilter) != -1 || CardTextForFilter.search(textfilter) != -1 || SearchTermForFilter.search(textfilter) != -1) {
                 if (ColourCheckPass == true) {
                     if (ItemFilterCheck) {
-                        switch (CardType) {
-                            case 'Hero':
-                                HeroCards.push(CardJSON[cc]);
-                                break;
-                            case 'Item':
-                                ItemCards.push(CardJSON[cc]);
-                                break;
-                            default:
-                                NonHeroNonItemCards.push(CardJSON[cc]);
-                                break;
+                        if (CardTypeCheckPass) {
+                            switch (CardType) {
+                                case 'Hero':
+                                    HeroCards.push(CardJSON[cc]);
+                                    break;
+                                case 'Item':
+                                    ItemCards.push(CardJSON[cc]);
+                                    break;
+                                default:
+                                    NonHeroNonItemCards.push(CardJSON[cc]);
+                                    break;
+                            }
                         }
                     }
                 }
@@ -534,6 +550,8 @@ const DeckBuilderRemoveCardFromDeck = function(CardID) {
 }
 
 const UpdateDeckListDetails = function() {
+    document.getElementById('DeckCodeErrorContainer').style.display = "none";
+    document.getElementById('DeckCode').style.display = "none";
     let DeckItemCardsJSON = new Array;
     let DeckNonHeroNonItemCardsJSON = new Array;
 
@@ -913,6 +931,15 @@ function DeckBuilderToggleFilter(FilterValue) {
         } else {
             el.classList.add('CVOptionButtonSelected');
             el.classList.remove('CVOptionButtonUnselected');
+        }
+    } else if (FilterValue == "Hero" || FilterValue == "Creep" || FilterValue == "Spell" || FilterValue == "Improvement") {
+        DeckBuilderAvailableCardsFilter[FilterValue] = !DeckBuilderAvailableCardsFilter[FilterValue];
+        if (!DeckBuilderAvailableCardsFilter[FilterValue]) {
+            document.getElementById('CardTypeFilter'+FilterValue).classList.remove('CVOptionButtonSelected');
+            document.getElementById('CardTypeFilter'+FilterValue).classList.add('CVOptionButtonUnselected');
+        } else {
+            document.getElementById('CardTypeFilter'+FilterValue).classList.add('CVOptionButtonSelected');
+            document.getElementById('CardTypeFilter'+FilterValue).classList.remove('CVOptionButtonUnselected');
         }
     }
     if (DeckBuilderAvailableCardsFilter["R"] == false && DeckBuilderAvailableCardsFilter["U"] == false && DeckBuilderAvailableCardsFilter["B"] == false && DeckBuilderAvailableCardsFilter["G"] == false && DeckBuilderAvailableCardsFilter["C"] == false && DeckBuilderAvailableCardsFilter["Weapon"] == false && DeckBuilderAvailableCardsFilter["Armor"] == false && DeckBuilderAvailableCardsFilter["Accessory"] == false && DeckBuilderAvailableCardsFilter["Consumable"] == false) { // If all colour filters and item filters are turned off

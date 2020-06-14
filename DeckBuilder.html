@@ -61,12 +61,20 @@
                     <div id="ColourFilterC" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowTextTooltip(1, 'Colourless')"; onmouseout="ShowTextTooltip(0,0)"; onmouseup="DeckBuilderToggleFilter('C');"></div>
                     <div class="clear"></div>
                 </div>
+                <div class="CVOptionContainer float" id="CardTypeFilterContainer">
+                    <div class="CVOptionName">CARD TYPE FILTER</div>
+                    <div id="CardTypeFilterHero" class="CVOptionButton CVOptionButtonSelected FilterButton" onmousemove="ShowTextTooltip(1, 'Heroes');"  onmouseout="ShowTextTooltip(0,0);" onmouseup="DeckBuilderToggleFilter('Hero');"></div>
+                    <div id="CardTypeFilterCreep" class="CVOptionButton CVOptionButtonSelected FilterButton" onmousemove="ShowTextTooltip(1, 'Creeps');" onmouseout="ShowTextTooltip(0,0);" onmouseup="DeckBuilderToggleFilter('Creep');"></div>
+                    <div id="CardTypeFilterSpell" class="CVOptionButton CVOptionButtonSelected FilterButton" onmousemove="ShowTextTooltip(1, 'Spells');" onmouseout="ShowTextTooltip(0,0);" onmouseup="DeckBuilderToggleFilter('Spell');"></div>
+                    <div id="CardTypeFilterImprovement" class="CVOptionButton CVOptionButtonSelected FilterButton" onmousemove="ShowTextTooltip(1, 'Tower Enchantments');" onmouseout="ShowTextTooltip(0,0);" onmouseup="DeckBuilderToggleFilter('Improvement');"></div>
+                    <div class="clear"></div>
+                </div>
                 <div class="CVOptionContainer float" id="ItemFilterContainer">
                     <div class="CVOptionName">ITEM FILTER</div>
-                    <div id="ItemFilterWeapon" class="CVOptionButton CVOptionButtonSelected ItemFilter" onmousemove="ShowTextTooltip(1, 'Weapons');"  onmouseout="ShowTextTooltip(0,0);" onmouseup="DeckBuilderToggleFilter('Weapon');"></div>
-                    <div id="ItemFilterArmor" class="CVOptionButton CVOptionButtonSelected ItemFilter" onmousemove="ShowTextTooltip(1, 'Armor');" onmouseout="ShowTextTooltip(0,0);" onmouseup="DeckBuilderToggleFilter('Armor');"></div>
-                    <div id="ItemFilterAccessory" class="CVOptionButton CVOptionButtonSelected ItemFilter" onmousemove="ShowTextTooltip(1, 'Accessories');" onmouseout="ShowTextTooltip(0,0);" onmouseup="DeckBuilderToggleFilter('Accessory');"></div>
-                    <div id="ItemFilterConsumable" class="CVOptionButton CVOptionButtonSelected ItemFilter" onmousemove="ShowTextTooltip(1, 'Consumables');" onmouseout="ShowTextTooltip(0,0);" onmouseup="DeckBuilderToggleFilter('Consumable');"></div>
+                    <div id="ItemFilterWeapon" class="CVOptionButton CVOptionButtonSelected FilterButton" onmousemove="ShowTextTooltip(1, 'Weapons');"  onmouseout="ShowTextTooltip(0,0);" onmouseup="DeckBuilderToggleFilter('Weapon');"></div>
+                    <div id="ItemFilterArmor" class="CVOptionButton CVOptionButtonSelected FilterButton" onmousemove="ShowTextTooltip(1, 'Armor');" onmouseout="ShowTextTooltip(0,0);" onmouseup="DeckBuilderToggleFilter('Armor');"></div>
+                    <div id="ItemFilterAccessory" class="CVOptionButton CVOptionButtonSelected FilterButton" onmousemove="ShowTextTooltip(1, 'Accessories');" onmouseout="ShowTextTooltip(0,0);" onmouseup="DeckBuilderToggleFilter('Accessory');"></div>
+                    <div id="ItemFilterConsumable" class="CVOptionButton CVOptionButtonSelected FilterButton" onmousemove="ShowTextTooltip(1, 'Consumables');" onmouseout="ShowTextTooltip(0,0);" onmouseup="DeckBuilderToggleFilter('Consumable');"></div>
                     <div class="clear"></div>
                 </div>
                 <div class="CVOptionContainer floatr">
@@ -263,9 +271,10 @@
                         <div class="clear"></div>
                     </div>
                     <button type="button" class="ArtifactButtonSmall DeckBuilderGenerateCodeButton" onmouseup="GenerateDeckCode();">GENERATE DECK CODE</button>
-                    <div id="DeckCode"></div>
+                    
                 </div>
                 <div class="clear"></div>
+                <div id="DeckCode"></div>
             </div>
             <div id="CardPreviewTooltip" class="CardContainerMiniPreview">&nbsp;</div>
             <div id="SpecialTextTooltip">
