@@ -37,21 +37,42 @@ const InitialiseDeckBuilder = function() {
     DeckNonHeroNonItemCards = new Array;
     DeckSignatureCards = new Array;
 
-    let LoadedDeckHeroes = new Array; //Used if a deck is loaded from a code.
-    LoadedDeckHeroes.push({id: 10020, turn: 1, heroicon: "10020_0"});
-    LoadedDeckHeroes.push({id: 11046, turn: 2, heroicon: "11046_0"});
-    LoadedDeckHeroes.push({id: 0, turn: 3, heroicon: "0"});
-    LoadedDeckHeroes.push({id: 10755, turn: 4, heroicon: "10755_0"});
-    LoadedDeckHeroes.push({id: 10663, turn: 5, heroicon: "PH"});
-    for (let hc = 0; hc < 5; hc++) {
-        if (LoadedDeckHeroes[hc]['id'] != 0) {
-            DeckBuilderAddHeroToDeck(LoadedDeckHeroes[hc]['id'],hc);
-        }
-    }
     DeckBuilderGenerateAvailableCardList();
     UpdateDeckListDetails();
     DeckBuilderUpdateCardPreview("10020_99");
 }
+
+const DeckBuilderLoadDeckFromCode = function(DeckCode) {
+    let DecodedDeck;
+    try {
+        DecodedDeck = CArtifactDeckDecoder.ParseDeck(DeckCode);
+    } catch (error) {
+        console.error("There was a problem with the deckcode parser: ", error);
+        DecodedDeck = false;
+    }
+
+    if (DecodedDeck) {
+        let DeckName = DecodedDeck['name'];
+        if (DeckName.charAt(0) == "%") {
+            DeckName = "Unnamed Deck";
+        }
+        document.getElementById('DeckBuilderDeckNameInput').value = DeckName;
+
+        for (let hc = 0; hc < 5; hc++) {
+            let HeroID = DecodedDeck['heroes'][hc]['id'];
+            let HeroTurn = (DecodedDeck['heroes'][hc]['turn'])-1;
+            DeckBuilderAddHeroToDeck(HeroID, HeroTurn);
+        }
+        for (let cc = 0; cc < DecodedDeck['cards'].length; cc++) {
+            let CardID = DecodedDeck['cards'][cc]['id'];
+            let CardCount = DecodedDeck['cards'][cc]['count'];
+            for (let ac = 0; ac < CardCount; ac++){
+                DeckBuilderAddCardToDeck(CardID);
+            }
+        }
+    }
+}
+
 
 DeckBuilderAvailableCardsFilter = {
     text: "",
@@ -518,7 +539,7 @@ const UpdateDeckListDetails = function() {
 
     for (let hc = 0; hc < 5; hc++) {
         if (DeckHeroCards[hc]['id'] != 0) {
-            document.getElementById('DeckBuilderHeroIcon'+hc).innerHTML = '<img src="Images/HeroIcons/'+DeckHeroCards[hc]['heroicon']+'.png" ondragstart="StartCardDrag(event,'+DeckHeroCards[hc]['id']+',\'H'+hc+'\',\'Hero\')">';
+            document.getElementById('DeckBuilderHeroIcon'+hc).innerHTML = '<img src="Images/HeroIcons/'+DeckHeroCards[hc]['heroicon']+'.png" ondragstart="StartCardDrag(event,'+DeckHeroCards[hc]['id']+',\'H'+hc+'\',\'Hero\')" onmouseover="DeckBuilderUpdateCardPreview(\''+DeckHeroCards[hc]['id']+'_99\');">';
         } else {
             document.getElementById('DeckBuilderHeroIcon'+hc).innerHTML = "";
         }

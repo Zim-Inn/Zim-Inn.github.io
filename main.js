@@ -73,6 +73,10 @@ const InitialisePage = function(Page) {
             }
         } else if (Page == "DeckBuilder") {
             InitialiseDeckBuilder();
+            if (getURLParams(document.location.href).d) {
+                //alert(getURLParams(document.location.href).d);
+                DeckBuilderLoadDeckFromCode(getURLParams(document.location.href).d);
+            }
         }
     })
 }
