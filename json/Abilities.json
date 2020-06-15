@@ -510,7 +510,7 @@
                 "image": "210030_0",
                 "cost": 1,
                 "text":{
-                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Give a hero and its allied neighbors -3[AR] this round. /n [TG][QU]Quickcast[ET]"
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Give an enemy and its neighbors -3[AR]. /n [TG][QU]Quickcast[ET]"
                 }
             }
         ]
