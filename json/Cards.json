@@ -2232,7 +2232,7 @@
 		"hp": 2,
 		"cost": 3,
 		"text": {
-			"english": " /n [TG]After Combat:[ET] Gain +2/+1 permanently."
+			"english": " /n [TG]After Combat:[ET] Gain +2[ATT]/+1[HP] permanently."
 		},
 		"crosslane": false,
 		"quick": false,
