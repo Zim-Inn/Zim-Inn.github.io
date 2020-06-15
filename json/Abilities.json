@@ -136,7 +136,7 @@
                 "image": "210008_0",
                 "cost": 0,
                 "text":{
-                    "english":"Active [AC}3, 1 Mana: Move Timbersaw up to 5 slots away. Deal 1 damage to each enemy passed on the way. /n [TG]Cross Lane[ET]"
+                    "english":"Active [AC]3, 1 Mana: Move Timbersaw up to 5 slots away. Deal 1 damage to each enemy passed on the way. /n [TG]Cross Lane[ET]"
                 }
             }
         ]
@@ -174,7 +174,7 @@
                 "image": "210011_0",
                 "cost": 0,
                 "text":{
-                    "english":"Active [AC}3, 1 Mana: Each unit pointing at Keefe the Bold battles itself."
+                    "english":"Active [AC]3, 1 Mana: Each unit pointing at Keefe the Bold battles itself."
                 }
             }
         ]
@@ -212,7 +212,7 @@
                 "image": "210013_0",
                 "cost": 1,
                 "text":{
-                    "english":"Active [AC}4, 1 Mana: Draw a card. Reduce cooldown by 1, but not below 1."
+                    "english":"Active [AC]4, 1 Mana: Draw a card. Reduce cooldown by 1, but not below 1."
                 }
             }
         ]
