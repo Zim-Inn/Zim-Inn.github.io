@@ -231,7 +231,7 @@
 			}
 		},
 		"set": 1,
-		"rarity": 1,
+		"rarity": 3,
 		"colour": "R",
 		"image": "10030_0",
 		"miniimage": "10030_0",
@@ -256,7 +256,7 @@
 			}
 		},
 		"set": 1,
-		"rarity": 1,
+		"rarity": 3,
 		"colour": "R",
 		"image": "10030_0",
 		"miniimage": "10030_0",
@@ -284,7 +284,7 @@
 			}
 		},
 		"set": 1,
-		"rarity": 1,
+		"rarity": 3,
 		"colour": "R",
 		"image": "10419_0",
 		"miniimage": "10419_0",
@@ -1656,6 +1656,31 @@
 		"hp": 5,
 		"abilities": ["210026_0"],
 		"signature": ["10330_0"]
+	},{
+		"release_date": "2020-06-15",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Sven"
+		},
+		"lore": {
+			"text": {
+				"english": "I've given myself to the Vigil Knights. I will train with them. Learn their ways. Become the best... and ultimately: destroy them from within."
+			},
+			"tag": {
+				"english": "Sven, Knight of the Vigil"
+			}
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "R",
+		"image": "10054_0",
+		"miniimage": "10054_0",
+		"icon": "10054_0",
+		"attack": 4,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210026_0"],
+		"signature": ["10330_1"]
 	}]
 }, {
 	"card_id": 10330,
@@ -1685,6 +1710,32 @@
 		"crosslane": false,
 		"quick": false,
 		"is_signature": "10054_0"
+	},{
+		"release_date": "2020-06-15",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "God's Strength"
+		},
+		"lore": {
+			"text": {
+				"english": "I am not yet strong enough to avenge my father's execution. But in time... I will be."
+			},
+			"tag": {
+				"english": "Sven, Preparing for Vengeance"
+			}
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "R",
+		"image": "10330_0",
+		"miniimage": "10330_0",
+		"cost": 5,
+		"text": {
+			"english": " /n Caster gains +3 attack permanently."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10054_1"
 	}]
 }, {
 	"card_id": 10064,
@@ -2095,6 +2146,31 @@
 		"hp": 4,
 		"abilities": ["210032_1"],
 		"signature": ["10341_0"]
+	}, {
+		"release_date": "2020-06-15",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Legion Commander"
+		},
+		"lore": {
+			"text": {
+				"english": "I know these people think me a monster. I don't blame them. No one wants to be occupied, but it's in their best interests! If we weren't here in Roseleaf the Red Mist would have slaughtered them all... today the Vhoul see us as villains, but after we defeat Sorla Khan... The Bronze Legion will be heralded as the heroes we are."
+			},
+			"tag": {
+				"english": "Tresdin, Legion Commander"
+			}
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "R",
+		"image": "10069_0",
+		"miniimage": "10069_0",
+		"icon": "10069_0",
+		"attack": 5,
+		"armour": 1,
+		"hp": 4,
+		"abilities": ["210032_1"],
+		"signature": ["10341_1"]
 	}]
 }, {
 	"card_id": 10341,
@@ -2113,7 +2189,7 @@
 			}
 		},
 		"set": 1,
-		"rarity": 1,
+		"rarity": 2,
 		"colour": "R",
 		"image": "10341_0",
 		"miniimage": "10341_0",
@@ -2124,6 +2200,32 @@
 		"crosslane": false,
 		"quick": false,
 		"is_signature": "10069_1"
+	},{
+		"release_date": "2020-06-15",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Duel"
+		},
+		"lore": {
+			"text": {
+				"english": "How many more of our people need to die? Let's just end this here and now."
+			},
+			"tag": {
+				"english": "Legion Commander, The battle of Roseleaf"
+			}
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "R",
+		"image": "10341_0",
+		"miniimage": "10341_0",
+		"cost": 2,
+		"text": {
+			"english": " /n Caster battles another hero. Give the winner +1[ATT] permanently."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10069_2"
 	}]
 }, {
 	"card_id": 10036,
@@ -2798,7 +2900,7 @@
 			"english": "Beastmaster"
 		},
 		"set": 1,
-		"rarity": 2,
+		"rarity": 4,
 		"colour": "R",
 		"image": "10029_0",
 		"miniimage": "10029_0",
@@ -2816,7 +2918,7 @@
 			"english": "Beastmaster"
 		},
 		"set": 1,
-		"rarity": 2,
+		"rarity": 4,
 		"colour": "R",
 		"image": "10029_0",
 		"miniimage": "10029_0",
@@ -2863,13 +2965,13 @@
 			"english": "Primal Roar"
 		},
 		"set": 1,
-		"rarity": 1,
+		"rarity": 4,
 		"colour": "R",
 		"cost": 4,
 		"image": "10293_0",
 		"miniimage": "10293_0",
 		"text": {
-			"english": " /n Stun an enemy. Push its neighbors. "
+			"english": " /n Stun an enemy. Push its neighbors away."
 		},
 		"crosslane": false,
 		"quick": false,
@@ -2884,7 +2986,7 @@
 			"english": "Centaur Warrunner"
 		},
 		"set": 1,
-		"rarity": 2,
+		"rarity": 3,
 		"colour": "R",
 		"image": "10021_0",
 		"miniimage": "10021_0",
@@ -2901,7 +3003,7 @@
 			"english": "Centaur Warrunner"
 		},
 		"set": 1,
-		"rarity": 2,
+		"rarity": 3,
 		"colour": "R",
 		"image": "10021_0",
 		"miniimage": "10021_0",
@@ -2921,7 +3023,7 @@
 			"english": "Double Edge"
 		},
 		"set": 1,
-		"rarity": 2,
+		"rarity": 3,
 		"colour": "R",
 		"cost": 1,
 		"image": "10292_0",
@@ -3338,6 +3440,23 @@
 		"hp": 7,
 		"abilities": ["210051_0"],
 		"signature": ["10282_0"]
+	},{
+		"release_date": "2020-06-15",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Ursa"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "R",
+		"image": "10070_0",
+		"miniimage": "10070_0",
+		"icon": "10070_0",
+		"attack": 5,
+		"armour": 0,
+		"hp": 7,
+		"abilities": ["210051_0"],
+		"signature": ["10282_1"]
 	}]
 }, {
 	"card_id": 10282,
@@ -3359,6 +3478,24 @@
 		"crosslane": false,
 		"quick": false,
 		"is_signature": "10070_0"
+	},{
+		"release_date": "2020-06-15",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Overpower"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "R",
+		"image": "10282_0",
+		"miniimage": "10282_0",
+		"cost": 3,
+		"text": {
+			"english": " Repeat three times: [RP] Deal 1 battle damage to the enemy blocking the caster. "
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10070_1"
 	}]
 }, {
 	"card_id": 10701,
@@ -3546,7 +3683,7 @@
 			"english": "Tidehunter"
 		},
 		"set": 1,
-		"rarity": 2,
+		"rarity": 5,
 		"colour": "R",
 		"image": "10024_0",
 		"miniimage": "10024_0",
@@ -3566,7 +3703,7 @@
 			"english": "Gush"
 		},
 		"set": 1,
-		"rarity": 2,
+		"rarity": 5,
 		"colour": "R",
 		"image": "10975_0",
 		"miniimage": "10975_0",
@@ -3645,7 +3782,7 @@
 			"english": "Tusk"
 		},
 		"set": 1,
-		"rarity": 3,
+		"rarity": 4,
 		"colour": "R",
 		"image": "10674_0",
 		"miniimage": "10674_0",
@@ -3662,7 +3799,7 @@
 			"english": "Tusk"
 		},
 		"set": 1,
-		"rarity": 3,
+		"rarity": 4,
 		"colour": "R",
 		"image": "10674_0",
 		"miniimage": "10674_0",
@@ -3712,7 +3849,7 @@
 		"crosslane": false,
 		"quick": false,
 		"is_signature": "10674_1",
-		"related_cards": ["10677_0"]
+		"related_cards": ["10677_1"]
 	}]
 }, {
 	"card_id": 10677,
