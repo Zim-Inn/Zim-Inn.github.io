@@ -1503,7 +1503,7 @@
 		"miniimage": "10281_0",
 		"cost": 3,
 		"text": {
-			"english": "/n Give an ely +3 Retaliate permanently. It taunts."
+			"english": "/n Give an ally +3 Retaliate permanently. It taunts."
 		},
 		"crosslane": false,
 		"quick": false,
