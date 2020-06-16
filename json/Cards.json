@@ -10888,7 +10888,7 @@
 		"miniimage": "11058_0",
 		"cost": 1,
 		"text": {
-			"english": " /n Choose Caster. When taking damage this turn, reflect damage back, stun its soruce until its next combat, then purge enemy effects from this unit."
+			"english": " /n Choose Caster. When taking damage this turn, reflect damage back, stun its source until its next combat, then purge enemy effects from this unit."
 		},
 		"crosslane": false,
 		"quick": false,
