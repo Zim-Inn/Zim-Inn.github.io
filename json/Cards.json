@@ -6173,7 +6173,7 @@
 		"miniimage": "11033_0",
 		"cost": 2,
 		"text": {
-			"english": " /n Deal 2 damage and stun an adajent enemy."
+			"english": " /n Deal 2 damage and stun an adjacent enemy."
 		},
 		"crosslane": false,
 		"quick": false,
