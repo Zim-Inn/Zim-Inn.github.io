@@ -8879,7 +8879,7 @@
 		"quick": false
 	}]
 }, {
-	"card_id": 10363,
+	"card_id": 10604,
 	"versions": [{
 		"release_date": "2020-05-25",
 		"card_type": "Improvement",
@@ -8890,8 +8890,8 @@
 		"set": 1,
 		"rarity": 4,
 		"colour": "G",
-		"image": "10363_0",
-		"miniimage": "10363_0",
+		"image": "10604_0",
+		"miniimage": "10604_0",
 		"cost": 3,
 		"text": {
 			"english": "/n Enchant Tower /n [TG]Active 2[AC], 1 Mana:[ET] Spend all your Mana. Summon an Ozkavosh Horror with +1[ATT]/+1[HP] for each Mana spent."
@@ -10805,7 +10805,7 @@
 		"armour": 0,
 		"hp": 1,
 		"abilities": [],
-		"related_cards": ["10363_0"],
+		"related_cards": ["10604_0"],
 		"crosslane": false,
 		"quick": false
 	}]
