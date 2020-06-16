@@ -3767,7 +3767,7 @@
 		"miniimage": "10942_0",
 		"cost": 4,
 		"text": {
-			"english": " Choose caster. Move another unit to an empty slot up to 5 slots away from the caster. /n Deal 1 to the new neighbors your opponent controls. /n [TG]Cross Lane[ET]"
+			"english": " Choose caster. Move another unit to an empty slot up to 5 slots away from the caster. /n Deal 1 damage to the new neighbors your opponent controls. /n [TG]Cross Lane[ET]"
 		},
 		"crosslane": true,
 		"quick": false,
