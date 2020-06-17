@@ -7349,7 +7349,7 @@
 		"miniimage": "10116_0",
 		"cost": 1,
 		"text": {
-			"english": "[TG]Play Effect:[ET] Devour. Activate Ravenous Mass. /n [TG]Active 0[AC], 1 Mana:[ET] Devour Ravenous Mass's neighbors. /n [TG][QU]Quickcast[ET]"
+			"english": " /n [TG]Play Effect:[ET] Devour. Activate Ravenous Mass. /n [TG]Active 0[AC], 1 Mana:[ET] Devour Ravenous Mass's neighbors. /n [TG][QU]Quickcast[ET]"
 		},
 		"attack": 1,
 		"armour": 0,
@@ -7370,7 +7370,7 @@
 		"miniimage": "10116_0",
 		"cost": 1,
 		"text": {
-			"english": "/n /n [TG]Active 0[AC], 1 Mana:[ET] Move to an allied neighbor and devour it. /n [TG][QU]Quickcast[ET]"
+			"english": "/n [TG]Active 0[AC], 1 Mana:[ET] Move to an allied neighbor and devour it. /n [TG][QU]Quickcast[ET]"
 		},
 		"attack": 1,
 		"armour": 0,
