@@ -469,7 +469,7 @@
 		"miniimage": "10785_0",
 		"cost": 2,
 		"text": {
-			"english": "Give caster Untargetable.\n\nBounce caster if they survive combat."
+			"english": "\n Give caster Untargetable.\n \n Bounce caster if they survive combat."
 		},
 		"crosslane": false,
 		"quick": false,
@@ -7561,7 +7561,7 @@
 		"miniimage": "10310_0",
 		"cost": 2,
 		"text": {
-			"english": " /n /n +1 Siege. /n Scheme: +1 Siege."
+			"english": " /n +1 Siege. /n Scheme: +1 Siege."
 		},
 		"attack": 0,
 		"armour": 0,
@@ -8434,7 +8434,7 @@
 		"miniimage": "10148_0",
 		"cost": 1,
 		"text": {
-			"english": "/n Enchant Tower /n Disable Round Start and After Combat effects. [TG]Active 1[AC], 1 Mana:[ET] Trigger the disabled effects."
+			"english": "/n Enchant Tower /n Disable Round Start and After Combat effects.\n [TG]Active 1[AC], 1 Mana:[ET] Trigger the disabled effects."
 		},
 		"crosslane": false,
 		"quick": false
