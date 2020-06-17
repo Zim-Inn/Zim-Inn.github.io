@@ -6113,7 +6113,7 @@
 		"miniimage": "10706_0",
 		"cost": 5,
 		"text": {
-			"english": "/n Enchant Tower /n [TG]Aura:[ET] Allies of +1[AR] per round and enemies have -1[AR] per round. Dispel after 3 rounds."
+			"english": "/n Enchant Tower /n [TG]Aura:[ET] Allies have +1[AR] per round and enemies have -1[AR] per round. Dispel after 3 rounds."
 		},
 		"crosslane": false,
 		"quick": false,
