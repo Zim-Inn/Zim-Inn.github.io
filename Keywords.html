@@ -11,9 +11,10 @@
         </script>
 
         <meta charset="utf-8" />
-        <title>Artifact 2 Card Viewer - Report an Error</title>
+        <title>Artifact 2 Keywords</title>
         <link rel="stylesheet" href="Styles/Standard.css">
-        <link rel="stylesheet" href="Styles/ReportError.css">
+        <link rel="stylesheet" href="Styles/Keywords.css">
+        <link rel="stylesheet" href="Styles/Cards.css">
     </head>
 
     <body>
@@ -39,32 +40,31 @@
                         <div class="SiteHeaderButtonText">DECK VIEWER</div>
                     </div>
                 </a>
-                <a href="Keywords.html">
+                <div class="SiteHeaderButton SiteHeaderButtonSelected">
+                    <div class="SiteHeaderButtonText">KEYWORDS</div>
+                </div>
+                <a href="ReportError.html">
                     <div class="SiteHeaderButton SiteHeaderButtonUnselected">
-                        <div class="SiteHeaderButtonText">KEYWORDS</div>
+                        <div class="SiteHeaderButtonText">REPORT ERROR</div>
                     </div>
                 </a>
-                <div class="SiteHeaderButton SiteHeaderButtonSelected">
-                    <div class="SiteHeaderButtonText">REPORT ERROR</div>
-                </div>
             </div>
         </div>
         <div class="clear"></div>
         <div id="PageHeader">
-            <div id="PageHeaderTitle" class="RestrictWidth">Report an error</div>
+            <div id="PageHeaderTitle" class="RestrictWidth">Artifact 2 Keywords</div>
         </div>
         <div id="PageContainer" class="RestrictWidth">
-            <div id="ReportIssuePage">
-                <br>
-                Thank you for wanting to improve this site! <br><br>
-                Errors or issues with the site can be reported either via Reddit or Github: <br>
-                <ul>
-                    <li><a href="https://reddit.com/message/compose/?to=kollieflower">Reddit Private Message</a></li>
-                    <li><a href="https://github.com/Kollieflower/Artifact2/issues">Github Issues Page</a></li>
-                </ul>
-                Thank you!    
-            </div>            
+            <div id="KeywordsPage"></div>            
+        </div>
+        <div id="CardPreviewTooltip" class="CardContainerMiniPreview">&nbsp;</div>
+        <div id="SpecialTextTooltip">
+            <div id="SpecialTextTitle">Title</div>
+            <div id="SpecialTextDesc">Desc</div>
         </div>
         <script src="main.js"></script>
+        <script src="js/Keywords.js"></script>
+        <script src="js/CardGenerator.js"></script>
+        <script>InitialisePage("Keywords");</script>
     </body>    
 </html>

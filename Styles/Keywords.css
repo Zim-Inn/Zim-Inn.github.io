@@ -1,0 +1,36 @@
+.KeywordContainer {
+    width: 80%;
+    margin: 0 auto 10px auto;
+    box-shadow: inset 0 1px 4px 4px black;
+    padding-top: 3px;
+    background-color: rgba(0,0,0,0.3);
+}
+.KeywordInnerLeft {
+    font-family: "Radiance", sans-serif;
+    float: left;
+    width: calc(100% - 350px);
+}
+.KeywordInnerRight {
+    float: left;
+    width: 350px;
+}
+.KeywordTitle {
+    background-color: rgba(64,32,128,0.2);
+    font-size: 20pt;
+    font-weight: bold;
+    margin-left: 3px;
+    padding: 4px;
+    color: #eee;
+}
+.KeywordDesc {
+    padding: 7px;
+    font-size: 14pt;
+    color: #ddd;
+}
+.KeywordCardPreviewContainer {
+    width: 173px;
+    margin: 1px;
+    float:left;
+    font-size: 12pt;
+    cursor: default;
+}

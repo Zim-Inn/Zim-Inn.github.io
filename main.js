@@ -54,10 +54,26 @@ const InitialisePage = function(Page) {
         };
         req.send();
     });
+    let p3 = new Promise(function(resolve, reject) {
+        var req = new XMLHttpRequest();
+        req.open("GET", 'json/Keywords.json', true);
+        req.onreadystatechange = function() {
+           if (req.readyState == XMLHttpRequest.DONE ) {
+              if (req.status == 200) {
+                  resolve(req.response);
+              } else {
+                  reject(Error(req.statusText));    
+              }
+           }
+        };
+        req.send();
+    });
 
-    Promise.all([p1,p2]).then(responses => {
+    Promise.all([p1,p2,p3]).then(responses => {
         CardJSON = JSON.parse(responses[0]);
         AbilityJSON = JSON.parse(responses[1]);
+        KeywordsJSON = JSON.parse(responses[2]);
+
         if (Page == "CardBrowser") {
             GenerateCardListCardBrowser();
             const id = getURLParams(document.location.href).id;
@@ -77,6 +93,8 @@ const InitialisePage = function(Page) {
                 //alert(getURLParams(document.location.href).d);
                 DeckBuilderLoadDeckFromCode(getURLParams(document.location.href).d);
             }
+        } else if (Page == "Keywords") {
+            InitialiseKeywordsPage();
         }
     })
 }
@@ -756,56 +774,13 @@ function CardViewerCardPreviewTooltip(CardIDV, ShowHide) {
     }
 }
 
-Keywords = [];
-Keywords['Regeneration'] = "The unit heals this amount during the combat phase. Regeneration is applied before checking for death.";
-Keywords['After Combat'] = "An effect that triggers after the Combat Phase.";
-Keywords['Aura'] = "An effect which applies to units when they enter a specified area and is removed when they leave.";
-Keywords['Bounce'] = "Return target to owners fountain if it's a hero, or the hand if it's a creep or item.";
-Keywords['Burn'] = "Remove mana from the enemy player.";
-Keywords['Cleave'] = "During the combat phase, deal Cleave damage to all adjacent enemies. Cleave damage doesn't hit towers."
-Keywords['Cross Lane'] = "Cross Lane cards are cast by heroes in one lane, but can target objects in a different lane.";
-Keywords['Cursed'] = "Destroyed when replaced by another item.";
-Keywords['Death Effect'] = "An effect that is processed after this unit dies.";
-Keywords['Decay'] = "This unit will take extra damage in combat. Ignores armor entirely.";
-Keywords['Devour'] = "When this unit is placed on top of another unit, it gains that unit's Attack and Health.";
-Keywords['Disarm'] = "A disarmed unit does not attack its target during battles. Lasts until the end of round by default.";
-Keywords['Dispel'] = "Remove an enchantment.";
-Keywords['Enchant'] = "An enchantment lasts until dispelled, remaining even through death.";
-Keywords['Feeble'] = "When a unit deals Attack damage to this unit in combat, excess damage is dealt to your tower.";
-Keywords['Fountain'] = "When heroes die they are placed in the Fountain zone for a full round before becoming ready to redeploy. When heroes enter the Fountain they are fully healed and temporary effects on them are purged.";
-Keywords['Jump'] = "Select a new target for this effect.";
-Keywords['Lifesteal'] = "This unit heals equal to its Attack if it survives a combat in which it damaged another unit.";
-Keywords['Lock'] = "Cards cannot be played as long as they are locked. Lock is applied for a duration in rounds. At the end of a round, all locked cards lose 1 Lock. Locked cards are revealed.";
-Keywords['Minion'] = "An effect which applies to this unit when adjacent to an allied hero.";
-Keywords['Mulch'] = "When this card is played draw a card from your deck which costs less mana.";
-Keywords['Pierce'] = "Piercing damage is not reduced by the target's armor.";
-Keywords['Piercing'] = "Piercing damage is not reduced by the target's armor.";
-Keywords['Pillager'] = "This unit steals 2 gold from the opponent whenever it damages their tower.";
-Keywords['Play Effect'] = "An additional effect that is processed at the time you play this creep.";
-Keywords['Purge'] = "Removes modifications and temporary effects, but not damage. Purging does not affect base abilities or external effects, such as those from equipped items and continuous effects from auras.";
-Keywords['Push'] = "Move a unit 1 slot randomly left or right to an occupied spot.";
-Keywords['Quickcast'] = "After you play this, you get the initiative coin and may immediately take another action. If you use this action to pass, you will retain initiative and may act first next round.";
-Keywords['Quickstrike'] = "In the combat phase, units with quickstrike attack before units without quickstrike. Regeneration and decay are applied at the same time as combat damage, after quickstrike damage resolves.";
-Keywords['Reflect'] = "When targeted or attacked, damage that would be done to this unit is instead dealt to the caster or attacker.";
-Keywords['Retaliate'] = "When attacked during a battle (even outside of the combat phase), deal this much extra damage to the attackers.";
-Keywords['Root'] = "Prevent a unit from moving. Lasts until the end of round by default.";
-Keywords['Scheme'] = "An effect which triggers when the card's owner passes.";
-Keywords['Siege'] = "During the combat phase, deal Siege damage to the enemy tower.";
-Keywords['Sneak Attack'] = "A unit deals its Attack damage to its target in a one-way battle. Combat attributes such as Armor, Retaliate, and Piercing are applied.";
-Keywords['Stun'] = "A stunned unit is silenced (cannot use any active abilities and cannot be used to play cards of its color) and disarmed (does not attack its target during battles). Lasts until the end of round by default.";
-Keywords['Swap'] = "Move a unit to the targeted slot. If that slot was occupied, the unit in that space move to the original unit's position.";
-Keywords['Tower Enchantment'] = "A tower enchantment is a spell that adds a permanent effect to a tower or lane. Tower enchantments are not units and do not occupy combat positions.";
-Keywords['Taunt'] = "When a unit taunts all of its enemy neighbors change their combat target to that unit. Targets reset after each round.";
-Keywords['Trample'] = "This unit deals excess Attack damage to the tower when it battles in combat.";
-Keywords['Untargetable'] = "Can't be targeted by enemy spells of abilities.";
-
-function ShowKeywordTooltip(ShowHide, KeyWord) {
+function ShowKeywordTooltip(ShowHide, KeywordIndex) {
 
     if (ShowHide == 0) { //Hide
         document.getElementById('SpecialTextTooltip').style.display = "none";
     } else {
-        document.getElementById('SpecialTextTitle').innerHTML = KeyWord.toUpperCase();
-        document.getElementById('SpecialTextDesc').innerHTML = Keywords[KeyWord];
+        document.getElementById('SpecialTextTitle').innerHTML = KeywordsJSON[KeywordIndex]['keyword'].toUpperCase();
+        document.getElementById('SpecialTextDesc').innerHTML = KeywordsJSON[KeywordIndex]['desc'];
         document.getElementById('SpecialTextTooltip').style.display = "block";
         document.getElementById('SpecialTextTooltip').style.top = (event.clientY + window.scrollY + 10)+"px";
         document.getElementById('SpecialTextTooltip').style.left = (event.clientX + 10)+"px";
