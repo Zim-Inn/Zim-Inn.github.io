@@ -472,7 +472,7 @@
                 "image": "210028_0",
                 "cost": 0,
                 "text":{
-                    "english":"Aura: Drow Ranger's allies in all lanes have +1[ATT]."
+                    "english":"Aura: Drow Ranger's allies in all lanes have +1[ATT]. /n [TG]Cross Lane[ET]"
                 }
             }
         ]
@@ -1265,13 +1265,25 @@
                 "release_date":"2020-05-25",
                 "ability_type":"Passive",
                 "ability_name":{
-                    "english":"After Shock"
+                    "english":"Aftershock"
                  },
                 "cooldown": 0,
                 "image": "210070_0",
                 "cost": 0,
                 "text":{
                     "english":"Stun Earthshaker's adjacent enemies for one action after you play a blue spell or enchantment from this lane."
+                }
+            },{
+                "release_date":"2020-06-19",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Aftershock"
+                 },
+                "cooldown": 0,
+                "image": "210070_0",
+                "cost": 0,
+                "text":{
+                    "english":"Stun Earthshaker's enemies for one action after you play a blue spell or enchantment from this lane."
                 }
             }
         ]
@@ -1328,7 +1340,7 @@
                 "image": "210073_0",
                 "cost": 0,
                 "text":{
-                    "english":"[TG]After Combat:[ET] If you have three empty slots, your lane creeps are all deployed into this lane."
+                    "english":"If you have three empty slots, your lane creeps are all deployed into this lane."
                 }
             }
         ]
@@ -1366,7 +1378,7 @@
                 "image": "210075_0",
                 "cost": 0,
                 "text":{
-                    "english":"The first time you play a blue spell or enchantment from this lane, deal damage to Lina's combat target equal to the number of charges on Fiery Soul and add 1 charge to Fiery Soul."
+                    "english":"The first time you play a blue spell or enchantment from Lina's lane, deal damage to Lina's combat target equal to the number of charges on Fiery Soul and add 1 charge to Fiery Soul."
                 }
             }
         ]
@@ -1405,6 +1417,18 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 2[AC], 1 Mana:[ET] Move Meepo to the first empty position in any Meepo's lane (including this one). Deal 2 damage to the new adjacent enemies. /n [TG][QU]Quickcast[ET]"
+                }
+            },{
+                "release_date":"2020-06-19",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Poof"
+                 },
+                "cooldown": 2,
+                "image": "210077_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Move Meepo to an empty position in any allied Meepo's lane. May also stay in place. Deal 2 damage to the new adjacent enemies. /n [TG]Cross Lane[ET] /n [TG][QU]Quickcast[ET]"
                 }
             }
         ]
@@ -1563,6 +1587,18 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] Move to a position in any lane. Nyx Assassin sneak attacks the new unit blocking it with +3[ATT]./n[TG]Cross Lane[ET]"
+                }
+            }, {
+                "release_date":"2020-06-19",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Vendetta"
+                 },
+                "cooldown": 3,
+                "image": "210084_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Move to a blocked position in any lane. Nyx Assassin sneak attacks the new unit blocking it with +3[ATT]./n[TG]Cross Lane[ET]"
                 }
             }
         ]

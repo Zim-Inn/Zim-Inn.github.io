@@ -2526,6 +2526,24 @@
 		},
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-06-19",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Courier"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "C",
+		"image": "11043_0",
+		"miniimage": "11043_0",
+		"cost": 0,
+		"text": {
+			"english": " /n The first item you play each round costs 1 less. /n /n [TG]Cross Lane[ET]"
+		},
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 3007,
@@ -3670,7 +3688,7 @@
 		"miniimage": "10278_0",
 		"cost": 6,
 		"text": {
-			"english": " /n /n Deal 3 piercing damage to each enemy hero in all lanes."
+			"english": " /n /n Deal 3 piercing damage to each enemy hero in all lanes. /n /n [TG]Cross Lane[ET]"
 		},
 		"crosslane": false,
 		"quick": false,
@@ -4564,6 +4582,7 @@
 	}]
 }, {
 	"card_id": 10231,
+	"hide_from_card_list": "Removed",
 	"versions": [{
 		"release_date": "2020-05-25",
 		"card_type": "Item",
@@ -4601,6 +4620,28 @@
 		"gcost": 15,
 		"text": {
 			"english": "/n +6[HP]/n The first time a neighbor dies, Draw a card"
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 6,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	}, {
+		"release_date": "2020-06-05",
+		"card_type": "Item",
+		"card_subtype": "Accessory",
+		"card_name": {
+			"english": "Cloak of Endless Carnage"
+		},
+		"set": 1,
+		"rarity": 3,
+		"image": "10231_0",
+		"miniimage": "10231_0",
+		"cost": 1,
+		"gcost": 15,
+		"text": {
+			"english": "/n TEMPORARILY REMOVED FROM THE GAME."
 		},
 		"attack": 0,
 		"armour": 0,
@@ -4860,7 +4901,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"related_cards": ["10966_0", "10960_0", "10961_0", "10965_0", "10964_0", "10959_1", "10958_0", "10963_0", "10962_0"]
+		"related_cards": ["10966_0", "10960_1", "10961_0", "10965_0", "10964_1", "10959_1", "10958_1", "10963_0", "10962_1"]
 	}]
 }, {
 	"card_id": 11016,
@@ -4911,6 +4952,28 @@
 		"crosslane": false,
 		"quick": false,
 		"related_cards": ["11055_0"]
+	},{
+		"release_date": "2020-06-19",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Shattered Terrapin"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "G",
+		"image": "11054_0",
+		"miniimage": "11054_0",
+		"cost": 3,
+		"text": {
+			"english": " [TG]Play Effect:[ET] Deal 2 damage to Shattered Terrapin. /n When healed, transform Shattered Terrapin into Terrapin Greatshell."
+		},
+		"attack": 3,
+		"armour": 0,
+		"hp": 5,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["11055_0"]
 	}]
 }, {
 	"card_id": 11055,
@@ -4936,7 +4999,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"related_cards": ["11054_0"]
+		"related_cards": ["11054_1"]
 	}]
 }, {
 	"card_id": 10642,
@@ -5682,6 +5745,28 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-06-19",
+		"card_type": "Item",
+		"card_subtype": "Weapon",
+		"card_name": {
+			"english": "Wingfall Hammer"
+		},
+		"set": 1,
+		"rarity": 1,
+		"image": "10226_0",
+		"miniimage": "10226_0",
+		"cost": 1,
+		"gcost": 20,
+		"text": {
+			"english": " /n [TG]Aura:[ET] Equipped hero and its neighbors have +3[ATT] and +3 Regeneration."
+		},
+		"attack": 3,
+		"armour": 0,
+		"hp": 6,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 11046,
@@ -5750,6 +5835,24 @@
 		"abilities": ["210070_0", "210071_0"],
 		"signature": ["10323_0"],
 		"related_cards": ["10980_0"]
+	},{
+		"release_date": "2020-06-19",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Earthshaker"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "U",
+		"image": "10033_0",
+		"miniimage": "10033_0",
+		"icon": "10033_0",
+		"attack": 1,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["210070_1", "210071_0"],
+		"signature": ["10323_0"],
+		"related_cards": ["10980_0"]
 	}]
 }, {
 	"card_id": 10323,
@@ -5770,7 +5873,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10033_0"
+		"is_signature": "10033_1"
 	}]
 }, {
 	"card_id": 10980,
@@ -5796,7 +5899,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"related_cards": ["10033_0"]
+		"related_cards": ["10033_1"]
 	}]
 }, {
 	"card_id": 10730,
@@ -5817,6 +5920,23 @@
 		"hp": 6,
 		"abilities": ["210072_0"],
 		"signature": ["10732_0"]
+	},{
+		"release_date": "2020-06-19",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Imperia"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "U",
+		"image": "10730_0",
+		"miniimage": "10730_0",
+		"icon": "PH",
+		"attack": 2,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["210072_0"],
+		"signature": ["10732_1"]
 	}]
 }, {
 	"card_id": 10732,
@@ -5833,7 +5953,7 @@
 		"miniimage": "10732_0",
 		"cost": 1,
 		"text": {
-			"english": " /n Devour, Feeble. /n When Conspiracy of Ravens is dealt damage, reveal a random card in the opponent's hand."
+			"english": " Devour, Feeble. /n When Conspiracy of Ravens is dealt damage, reveal a random card in the opponent's hand."
 		},
 		"attack": 0,
 		"armour": 0,
@@ -5842,6 +5962,28 @@
 		"crosslane": false,
 		"quick": false,
 		"is_signature": "10730_0"
+	},{
+		"release_date": "2020-06-19",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Conspiracy of Ravens"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "U",
+		"image": "10732_0",
+		"miniimage": "10732_0",
+		"cost": 1,
+		"text": {
+			"english": " Devour, Feeble. /n When Conspiracy of Ravens devours or kills a unit, reveal a random card in the opponent's hand."
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 2,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10730_1"
 	}]
 }, {
 	"card_id": 10906,
@@ -6014,6 +6156,23 @@
 		"hp": 4,
 		"abilities": ["210076_0", "210077_0"],
 		"signature": ["10005_0"]
+	},{
+		"release_date": "2020-06-19",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Meepo"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "U",
+		"image": "10004_0",
+		"miniimage": "10004_0",
+		"icon": "10004_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 4,
+		"abilities": ["210076_0", "210077_1"],
+		"signature": ["10005_0"]
 	}]
 }, {
 	"card_id": 10005,
@@ -6034,7 +6193,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10004_0"
+		"is_signature": "10004_1"
 	}]
 }, {
 	"card_id": 10017,
@@ -6398,6 +6557,28 @@
 		"crosslane": false,
 		"quick": false,
 		"related_cards": ["10967_0"]
+	},{
+		"release_date": "2020-06-19",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Greevil Bronco"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "R",
+		"image": "10960_0",
+		"miniimage": "10960_0",
+		"cost": 1,
+		"text": {
+			"english": " /n Your Greevils in all lanes have +1 Cleave. /n /n [TG]Cross Lane[ET]"
+		},
+		"attack": 1,
+		"armour": 0,
+		"hp": 1,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10967_0"]
 	}]
 }, {
 	"card_id": 10961,
@@ -6567,7 +6748,8 @@
 		"hp": 3,
 		"abilities": [],
 		"crosslane": false,
-		"quick": false
+		"quick": false,
+		"related_cards": ["10936_0"]
 	}]
 }, {
 	"card_id": 10936,
@@ -6576,7 +6758,7 @@
 		"release_date": "2020-05-25",
 		"card_type": "Summon",
 		"card_name": {
-			"english": "Rebel Rabble Rouser"
+			"english": "Roused Rabble"
 		},
 		"set": 1,
 		"rarity": 1,
@@ -6592,7 +6774,8 @@
 		"hp": 1,
 		"abilities": [],
 		"crosslane": false,
-		"quick": false
+		"quick": false,
+		"related_cards": ["10779_0"]
 	}]
 }, {
 	"card_id": 10709,
@@ -6813,6 +6996,28 @@
 		"crosslane": false,
 		"quick": false,
 		"related_cards": ["10967_0"]
+	},{
+		"release_date": "2020-06-19",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Spitting Greevil"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "U",
+		"image": "10964_0",
+		"miniimage": "10964_0",
+		"cost": 1,
+		"text": {
+			"english": " [TG]Play Effect:[ET] Your Greevils in all lanes deal 1 damage to their combat targets. /n /n [TG]Cross Lane[ET]"
+		},
+		"attack": 1,
+		"armour": 0,
+		"hp": 1,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10967_0"]
 	}]
 }, {
 	"card_id": 10708,
@@ -6902,6 +7107,27 @@
 		"cost": 2,
 		"text": {
 			"english": "Replace an allied unit. Bounce and gain the unit's attack and health. /n Dopplegangers who replace heroes can cast spells."
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 1,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-19",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Doppelganger"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "U",
+		"image": "10748_0",
+		"miniimage": "10748_0",
+		"cost": 2,
+		"text": {
+			"english": "Replace an allied unit. Bounce and gain the unit's attack and health. If the bounced unit is a creep, give it +1 Lock. /n Dopplegangers who replace heroes can cast spells."
 		},
 		"attack": 0,
 		"armour": 0,
@@ -7370,7 +7596,7 @@
 		"miniimage": "10116_0",
 		"cost": 1,
 		"text": {
-			"english": "/n [TG]Active 0[AC], 1 Mana:[ET] Move to an allied neighbor and devour it. /n [TG][QU]Quickcast[ET]"
+			"english": "/n [TG]Active 0[AC], 1 Mana:[ET] Move to a neighbor and devour it. /n [TG][QU]Quickcast[ET]"
 		},
 		"attack": 1,
 		"armour": 0,
@@ -7395,6 +7621,28 @@
 		"cost": 1,
 		"text": {
 			"english": " /n Your Greevils in all lanes have Pillager."
+		},
+		"attack": 1,
+		"armour": 0,
+		"hp": 1,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10967_0"]
+	},{
+		"release_date": "2020-05-25",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Thieving Greevil"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "B",
+		"image": "10958_0",
+		"miniimage": "10958_0",
+		"cost": 1,
+		"text": {
+			"english": " /n Your Greevils in all lanes have Pillager. /n /n [TG]Cross Lane[ET]"
 		},
 		"attack": 1,
 		"armour": 0,
@@ -7738,6 +7986,27 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-06-19",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Ravenhook"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "B",
+		"image": "10115_0",
+		"miniimage": "10115_0",
+		"cost": 5,
+		"text": {
+			"english": "[TG]Active 1[AC], 1 Mana:[ET] Choose an enemy hero. Destroy a random item equipped by that hero. Gain gold equal to the base cost of that item."
+		},
+		"attack": 2,
+		"armour": 0,
+		"hp": 4,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10716,
@@ -7824,6 +8093,28 @@
 		"cost": 1,
 		"text": {
 			"english": "/n Your Greevils in all lanes have +1 Regeneration."
+		},
+		"attack": 1,
+		"armour": 0,
+		"hp": 1,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10967_0"]
+	},{
+		"release_date": "2020-06-19",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Spirited Greevil"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "G",
+		"image": "10962_0",
+		"miniimage": "10962_0",
+		"cost": 1,
+		"text": {
+			"english": "/n Your Greevils in all lanes have +1 Regeneration. /n /n [TG]Cross Lane[ET]"
 		},
 		"attack": 1,
 		"armour": 0,
@@ -8417,6 +8708,42 @@
 		},
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-06-05",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "The Omexe Arena"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "R",
+		"image": "10183_0",
+		"miniimage": "10183_0",
+		"cost": 3,
+		"text": {
+			"english": "/n TEMPORARILY REMOVED FROM THE GAME."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-19",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "The Omexe Arena"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "R",
+		"image": "10183_0",
+		"miniimage": "10183_0",
+		"cost": 3,
+		"text": {
+			"english": "/n Enchant Tower /n /n [TG]Aura: [ET] Allied heroes in the center slot have rapid deployment."
+		},
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10148,
@@ -8477,6 +8804,24 @@
 		"cost": 2,
 		"text": {
 			"english": "/n Enchant Tower /n When the enemy casts a tower enchantment, draw a card. /n [TG]Play Effect:[ET] If the enemy tower has no enchantments, draw a card."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-19",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Watchtower"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "U",
+		"image": "10194_0",
+		"miniimage": "10194_0",
+		"cost": 2,
+		"text": {
+			"english": "Enchant Tower /n [TG]Play Effect:[ET] Copy a random card from your deck. It is blue, ephemeral, and can only be played from this lane. /n When your opponent plays a non-item cards in this lane, repeat this effect."
 		},
 		"crosslane": false,
 		"quick": false
@@ -8798,6 +9143,7 @@
 	}]
 }, {
 	"card_id": 10149,
+	"hide_from_card_list": "Removed",
 	"versions": [{
 		"release_date": "2020-05-25",
 		"card_type": "Improvement",
@@ -8813,6 +9159,24 @@
 		"cost": 2,
 		"text": {
 			"english": "/n Enchant Tower /n /n [TG]After Combat:[ET] Draw a card if your tower took damage this round."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-05",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Unearthed Secrets"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "G",
+		"image": "10149_0",
+		"miniimage": "10149_0",
+		"cost": 2,
+		"text": {
+			"english": "/n TEMPORARILY REMOVED FROM THE GAME"
 		},
 		"crosslane": false,
 		"quick": false
@@ -9517,7 +9881,7 @@
 		"miniimage": "10404_0",
 		"cost": 5,
 		"text": {
-			"english": " /n Move caster to a empty position in any lane and give it \"Scheme: +4 Siege\"./n[TG]Cross Lane[ET]/n[TG][QU] Quickcast[ET]"
+			"english": " /n Move caster to an empty position in any lane and give it \"Scheme: +4 Siege\"./n[TG]Cross Lane[ET]/n[TG][QU] Quickcast[ET]"
 		},
 		"crosslane": true,
 		"quick": true
@@ -10381,6 +10745,23 @@
 		},
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-06-19",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Ironwood Heart"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "G",
+		"image": "10772_0",
+		"miniimage": "10772_0",
+		"cost": 4,
+		"text": {
+			"english": " /n Enchant Caster, Mulch /n Gain +1[ATT]/+1[HP] permanently. /n [TG]After Combat:[ET] Repeat this effect."
+		},
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10358,
@@ -10533,6 +10914,24 @@
 		"cost": 3,
 		"text": {
 			"english": " /n Enchant Caster /n [TG]Aura:[ET] Allies randomly gain +1[ATT], [AR] or [HP] after dealing battle damage."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-19",
+		"card_type": "Improvement",
+		"improvement_type": "Reactive",
+		"card_name": {
+			"english": "Veteran's Insight"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "R",
+		"image": "10767_0",
+		"miniimage": "10767_0",
+		"cost": 3,
+		"text": {
+			"english": " /n [TG]Aura:[ET] Allied units randomly gain +1[ATT], [AR] or [HP] permanently after dealing battle damage."
 		},
 		"crosslane": false,
 		"quick": false
@@ -10874,6 +11273,23 @@
 		"hp": 4,
 		"abilities": ["210084_1"],
 		"signature": ["11058_0"]
+	},{
+		"release_date": "2020-06-19",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Nyx Assassin"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "B",
+		"image": "11056_0",
+		"miniimage": "11056_0",
+		"icon": "11056_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 4,
+		"abilities": ["210084_2"],
+		"signature": ["11058_0"]
 	}]
 }, {
 	"card_id": 11058,
@@ -10896,4 +11312,47 @@
 		"quick": false,
 		"is_signature": "11056_1"
 	}]
-}]
+}, {
+	"card_id": 11059,
+	"versions": [{
+		"release_date": "2020-06-19",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "In Full Bloom"
+		},
+		"set": 1,
+		"rarity": 0,
+		"colour": "G",
+		"image": "PH2",
+		"miniimage": "PH",
+		"cost": 4,
+		"text": {
+			"english": " /n Enchant Tower /n /n [TG]Round Start: [ET] Give alied units +1 temporary health."
+		},
+		"crosslane": false,
+		"quick": false
+	}]
+}, {
+	"card_id": 11060,
+	"versions": [{
+		"release_date": "2020-06-19",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Plague Hex"
+		},
+		"set": 1,
+		"rarity": 0,
+		"colour": "B",
+		"image": "PH2",
+		"miniimage": "PH",
+		"cost": 3,
+		"text": {
+			"english": "/n Enchant Tower /n /n [TG]Aura: [ET] When an allied unit in this lane dies give a random enemy +1 decay until their next combat."
+		},
+		"crosslane": false,
+		"quick": false
+	}]
+}
+]

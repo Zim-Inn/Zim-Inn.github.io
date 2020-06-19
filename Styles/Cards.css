@@ -193,6 +193,9 @@
     color: #eee;
     text-shadow: 2px 2px 2px black;
 }
+.CardCentreSplitBotTextSmallFont {
+    font-size: 0.65em !important;
+}
 .CardCentreKeyWordText {
     text-decoration-line: underline;
     text-decoration-style: dashed;

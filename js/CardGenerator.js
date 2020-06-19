@@ -32,6 +32,7 @@ const GenerateCard = function(Container,CardIDV) {
     let ManaCostStyle = "CardHeaderLeftPer_ManaCost";
     let CardText = "";
     let TextBackgroundStyle = "";
+    let CardTextStyle = "CardCentreSplitBotText";
    
     switch(CardType) {
 
@@ -116,6 +117,9 @@ const GenerateCard = function(Container,CardIDV) {
                 CardArmour = "▤"+Card['armour'];
             }
             CardHP = "▥"+Card['hp'];
+            if (Card['text']['english'].length > 200) {
+                CardTextStyle += " CardCentreSplitBotTextSmallFont";
+            }
             CardText = CardTextFormatting(Card['text']['english']);
             if (CardText == "") {
                 TextBackgroundStyle = "";
@@ -134,7 +138,7 @@ const GenerateCard = function(Container,CardIDV) {
                         <div class="CardCentreContainerPer" style="background-image: url(\'Images/Cards/CardArt/'+CardImage+'.jpg\')"> \
                             <div class="CardCentreTopPer"></div> \
                             <div class="CardCentreBotPer_Stats '+TextBackgroundStyle+'"> \
-                                <div class="CardCentreSplitBotText">'+CardText+'</div> \
+                                <div class="'+CardTextStyle+'">'+CardText+'</div> \
                             </div> \
                         </div> \
                         <div class="CardBottomSetIconContainerPer '+CardColourStyle+' '+CardSetIconStyle+'"></div> \
@@ -156,6 +160,15 @@ const GenerateCard = function(Container,CardIDV) {
                 CardArmour = "▤"+Card['armour'];
             }
             CardHP = "▥"+Card['hp'];
+            if (Card['text']['english'].length > 200) {
+                CardTextStyle += " CardCentreSplitBotTextSmallFont";
+            }
+            CardText = CardTextFormatting(Card['text']['english']);
+            if (CardText == "") {
+                TextBackgroundStyle = "";
+            } else {
+                TextBackgroundStyle = "CardCentreSplitBotBG2";
+            }
             CardText = CardTextFormatting(Card['text']['english']);
             if (CardText == "") {
                 TextBackgroundStyle = "";
@@ -174,7 +187,7 @@ const GenerateCard = function(Container,CardIDV) {
                         <div class="CardCentreContainerPer" style="background-image: url(\'Images/Cards/CardArt/'+CardImage+'.jpg\')"> \
                             <div class="CardCentreTopPer"></div> \
                             <div class="CardCentreBotPer_Stats '+TextBackgroundStyle+'"> \
-                                <div class="CardCentreSplitBotText">'+CardText+'</div> \
+                                <div class="'+CardTextStyle+'">'+CardText+'</div> \
                             </div> \
                         </div> \
                         <div class="CardBottomSetIconContainerPer '+CardColourStyle+' '+CardSetIconStyle+'"></div> \
@@ -189,6 +202,15 @@ const GenerateCard = function(Container,CardIDV) {
         case 'Item':
             CardManaCost = Card['cost'];
             let CardGoldCost = Card['gcost'];
+            if (Card['text']['english'].length > 200) {
+                CardTextStyle += " CardCentreSplitBotTextSmallFont";
+            }
+            CardText = CardTextFormatting(Card['text']['english']);
+            if (CardText == "") {
+                TextBackgroundStyle = "";
+            } else {
+                TextBackgroundStyle = "CardCentreSplitBotBG2";
+            }
             CardText = CardTextFormatting(Card['text']['english']);
             CardSetIconStyle = "CardBottomIconSet"+Card['set']+"-"+Card['rarity'];
             TextBackgroundStyle = "";
@@ -223,7 +245,7 @@ const GenerateCard = function(Container,CardIDV) {
                             <div class="CardCentreTopPer" style="background-image: url(\'Images/Cards/CardArt/'+CardImage+'.jpg\')"></div> \
                             <div class="CardGoldValue">'+CardGoldCost+'</div> \
                             <div class="CardCentreBotPer_NoStats '+TextBackgroundStyle+'"> \
-                                <div class="CardCentreSplitBotText">'+CardText+'</div> \
+                                <div class="'+CardTextStyle+'">'+CardText+'</div> \
                             </div> \
                         </div> \
                         <div class="CardBottomSetIconContainerPer CardColourI '+CardSetIconStyle+'"></div> \
@@ -239,6 +261,15 @@ const GenerateCard = function(Container,CardIDV) {
             } else {
                 ManaCostStyle = "CardHeaderLeftPer_ManaCost";
             }
+            if (Card['text']['english'].length > 200) {
+                CardTextStyle += " CardCentreSplitBotTextSmallFont";
+            }
+            CardText = CardTextFormatting(Card['text']['english']);
+            if (CardText == "") {
+                TextBackgroundStyle = "";
+            } else {
+                TextBackgroundStyle = "CardCentreSplitBotBG2";
+            }
             CardText = CardTextFormatting(Card['text']['english']);
             CardSetIconStyle = "CardBottomIconSet"+Card['set']+"-"+Card['rarity'];
 
@@ -251,7 +282,7 @@ const GenerateCard = function(Container,CardIDV) {
                         <div class="CardCentreContainerPer"> \
                             <div class="CardCentreTopPer" style="background-image: url(\'Images/Cards/CardArt/'+CardImage+'.jpg\')"></div> \
                             <div class="CardCentreBotPer_NoStats CardCentreSplitBotBG1"> \
-                                <div class="CardCentreSplitBotText">'+CardText+'</div> \
+                                <div class="'+CardTextStyle+'">'+CardText+'</div> \
                             </div> \
                         </div> \
                         <div class="CardBottomSetIconContainerPer '+CardColourStyle+' '+CardSetIconStyle+'"></div> \
@@ -263,6 +294,15 @@ const GenerateCard = function(Container,CardIDV) {
             let ImprovementStyle = "";
             CardColourStyle = "CardColour"+Card['colour'];
             CardManaCost = Card['cost'];
+            if (Card['text']['english'].length > 200) {
+                CardTextStyle += " CardCentreSplitBotTextSmallFont";
+            }
+            CardText = CardTextFormatting(Card['text']['english']);
+            if (CardText == "") {
+                TextBackgroundStyle = "";
+            } else {
+                TextBackgroundStyle = "CardCentreSplitBotBG2";
+            }
             CardText = CardTextFormatting(Card['text']['english']);
             CardSetIconStyle = "CardBottomIconSet"+Card['set']+"-"+Card['rarity'];
 
@@ -290,7 +330,7 @@ const GenerateCard = function(Container,CardIDV) {
                             <div class="CardCentreTopPer" style="background-image: url(\'Images/Cards/CardArt/'+CardImage+'.jpg\')"></div> \
                             <div class="CardImprovementTypeShell '+ImprovementStyle+'"><img src="Images/Cards/MiniImage/'+CardMiniImage+'.jpg"></div> \
                             <div class="CardCentreBotPer_NoStats CardCentreSplitBotBG1"> \
-                                <div class="CardCentreSplitBotText">'+CardText+'</div> \
+                                <div class="'+CardTextStyle+'">'+CardText+'</div> \
                             </div> \
                         </div> \
                         <div class="CardBottomSetIconContainerPer '+CardColourStyle+' '+CardSetIconStyle+'"></div> \

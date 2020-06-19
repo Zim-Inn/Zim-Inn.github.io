@@ -287,5 +287,10 @@
         "match": "Summon",
         "desc": "Create a unit and immediately put it into play. This includes melee creep spawns and creeps created through spells and abilities, but not creep cards.",
         "example": ["10005","10604"]
+    },{
+        "keyword": "Ephemeral",
+        "match": "Ephemeral",
+        "desc": "Ephemeral cards disappear from your hand at the end of the round.",
+        "example": ["10194","10288"]
     }
 ]
