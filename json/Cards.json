@@ -8734,7 +8734,7 @@
 			"english": "The Omexe Arena"
 		},
 		"set": 1,
-		"rarity": 1,
+		"rarity": 2,
 		"colour": "R",
 		"image": "10183_0",
 		"miniimage": "10183_0",
@@ -8815,7 +8815,7 @@
 			"english": "Watchtower"
 		},
 		"set": 1,
-		"rarity": 2,
+		"rarity": 3,
 		"colour": "U",
 		"image": "10194_0",
 		"miniimage": "10194_0",
@@ -11322,7 +11322,7 @@
 			"english": "In Full Bloom"
 		},
 		"set": 1,
-		"rarity": 0,
+		"rarity": 1,
 		"colour": "G",
 		"image": "PH2",
 		"miniimage": "PH",
@@ -11343,7 +11343,7 @@
 			"english": "Plague Hex"
 		},
 		"set": 1,
-		"rarity": 0,
+		"rarity": 1,
 		"colour": "B",
 		"image": "PH2",
 		"miniimage": "PH",
