@@ -530,6 +530,8 @@ function CardViewer_SelectCard(CardIDV, skipHistory) {
     
     if (ThisCard['card_type'] == "Item") {
         document.getElementById('CardDetailsPanelCardType').innerHTML = ThisCard['card_type']+' - '+ThisCard['card_subtype'];
+    } else if (ThisCard['card_type'] == "Improvement") {
+        document.getElementById('CardDetailsPanelCardType').innerHTML = "Tower Enchantment";
     } else {
         document.getElementById('CardDetailsPanelCardType').innerHTML = ThisCard['card_type'];
     }

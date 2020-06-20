@@ -8,11 +8,11 @@
 .KeywordInnerLeft {
     font-family: "Radiance", sans-serif;
     float: left;
-    width: calc(100% - 350px);
+    width: calc(100% - 400px);
 }
 .KeywordInnerRight {
     float: left;
-    width: 350px;
+    width: 400px;
 }
 .KeywordTitle {
     background-color: rgba(64,32,128,0.2);
@@ -28,9 +28,9 @@
     color: #ddd;
 }
 .KeywordCardPreviewContainer {
-    width: 173px;
+    width: 198px;
     margin: 1px;
     float:left;
-    font-size: 12pt;
+    font-size: 13pt;
     cursor: default;
 }

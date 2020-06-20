@@ -290,7 +290,7 @@
 		"miniimage": "10419_0",
 		"cost": 3,
 		"text": {
-			"english": "Give a unit -3 armor permanently."
+			"english": "/n /n Give a unit -3 armor permanently."
 		},
 		"crosslane": false,
 		"quick": false,
@@ -372,7 +372,7 @@
 		"miniimage": "10117_0",
 		"cost": 2,
 		"text": {
-			"english": "[TG]Round Start:[ET] +1 max Mana."
+			"english": " /n /n[TG]Round Start:[ET] +1 max Mana."
 		},
 		"attack": 1,
 		"armour": 0,
@@ -451,7 +451,7 @@
 		"miniimage": "10785_0",
 		"cost": 2,
 		"text": {
-			"english": "Redeploy caster if they survive combat."
+			"english": " /n Redeploy caster if they survive combat."
 		},
 		"crosslane": false,
 		"quick": false,
@@ -469,7 +469,7 @@
 		"miniimage": "10785_0",
 		"cost": 2,
 		"text": {
-			"english": "\n Give caster Untargetable.\n \n Bounce caster if they survive combat."
+			"english": "/n Give caster Untargetable./n /n Bounce caster if they survive combat."
 		},
 		"crosslane": false,
 		"quick": false,
@@ -526,7 +526,7 @@
 		"miniimage": "10296_0",
 		"cost": 2,
 		"text": {
-			"english": "Deal 2 damage to the caster's adjacent enemies and give them -2 [ATT]."
+			"english": " /n Deal 2 damage to the caster's adjacent enemies and give them -2 [ATT]."
 		},
 		"crosslane": false,
 		"quick": false,
@@ -608,7 +608,7 @@
 		"miniimage": "11007_0",
 		"cost": 3,
 		"text": {
-			"english": "Deal 2 damage to a unit and give it Feeble."
+			"english": " /n /n Deal 2 damage to a unit and give it Feeble."
 		},
 		"crosslane": false,
 		"quick": false,
@@ -658,7 +658,7 @@
 		"miniimage": "11004_0",
 		"cost": 2,
 		"text": {
-			"english": "Swap caster to a neighboring position. It taunts. /n [TG][QU] Quickcast[ET]"
+			"english": " /n Swap caster to a neighboring position. It taunts. /n [TG][QU] Quickcast[ET]"
 		},
 		"crosslane": false,
 		"quick": true,
@@ -794,7 +794,7 @@
 		"miniimage": "11010_0",
 		"cost": 2,
 		"text": {
-			"english": "Refresh all cooldowns on one of your units."
+			"english": " /n /nRefresh all cooldowns on one of your units."
 		},
 		"crosslane": false,
 		"quick": false,
@@ -2966,7 +2966,7 @@
 		"image": "10136_0",
 		"miniimage": "10136_0",
 		"text": {
-			"english": " /n /n [TG]Minion:[ET] +2[ATT]/+2[HP] when neighbouring Beastmaster."
+			"english": " /n [TG]Minion:[ET] +2[ATT]/+2[HP] when neighbouring Beastmaster."
 		},
 		"attack": 1,
 		"armour": 0,
@@ -3294,7 +3294,7 @@
 		"miniimage": "10666_0",
 		"cost": 3,
 		"text": {
-			"english": "Enchant Tower /n [TG]Active 1[AC], Mana 1:[ET] Choose an ally. It battles the enemy tower. Slay that ally."
+			"english": "/n Enchant Tower /n /n [TG]Active 1[AC], Mana 1:[ET] Choose an ally. It battles the enemy tower. Slay that ally."
 		},
 		"crosslane": false,
 		"quick": false,
@@ -3493,7 +3493,7 @@
 		"miniimage": "10282_0",
 		"cost": 3,
 		"text": {
-			"english": " Repeat three times: [RP] Deal 1 battle damage to the enemy blocking the caster. "
+			"english": " /n /n Repeat three times: [RP] Deal 1 battle damage to the enemy blocking the caster. "
 		},
 		"crosslane": false,
 		"quick": false,
@@ -3511,7 +3511,7 @@
 		"miniimage": "10282_0",
 		"cost": 3,
 		"text": {
-			"english": " Repeat three times: [RP] Deal 1 battle damage to the enemy blocking the caster. "
+			"english": " /n /n Repeat three times: [RP] Deal 1 battle damage to the enemy blocking the caster. "
 		},
 		"crosslane": false,
 		"quick": false,
@@ -3845,7 +3845,7 @@
 		"miniimage": "10676_0",
 		"cost": 2,
 		"text": {
-			"english": " Deal 1 damage to an enemy and displace it with an Ice Shard. "
+			"english": " /n Deal 1 damage to an enemy and displace it with an Ice Shard. "
 		},
 		"crosslane": false,
 		"quick": false,
@@ -3864,12 +3864,12 @@
 		"miniimage": "10676_0",
 		"cost": 2,
 		"text": {
-			"english": " Push an enemy and Deal 1 damage to it. Summon an Ice Shard in its place."
+			"english": " /n Push an enemy and Deal 1 damage to it. Summon an Ice Shard in its place."
 		},
 		"crosslane": false,
 		"quick": false,
 		"is_signature": "10674_1",
-		"related_cards": ["10677_1"]
+		"related_cards": ["10677_0"]
 	}]
 }, {
 	"card_id": 10677,
@@ -3971,7 +3971,7 @@
 		"miniimage": "10651_0",
 		"cost": 7,
 		"text": {
-			"english": " Enchant Caster. /n +3 Regeneration. /n [TG]Play Effect:[ET] Deal 12 damage evenly divided among adjacent enemies and their tower. /n [TG]Round Start:[ET] Repeat this effect. "
+			"english": " Enchant Caster. /n /n +3 Regeneration. /n [TG]Play Effect:[ET] Deal 12 damage evenly divided among adjacent enemies and their tower. /n [TG]Round Start:[ET] Repeat this effect. "
 		},
 		"crosslane": false,
 		"quick": false,
@@ -4096,7 +4096,7 @@
 		"miniimage": "10818_0",
 		"cost": 2,
 		"text": {
-			"english": " Heal caster and its neighbors 1. Deal 1 damage to caster's adjacent enemies. /n Repeatable this round."
+			"english": " /n Heal caster and its neighbors 1. Deal 1 damage to caster's adjacent enemies. /n Repeatable this round."
 		},
 		"crosslane": false,
 		"quick": false,
@@ -5666,7 +5666,7 @@
 		"cost": 1,
 		"gcost": 25,
 		"text": {
-			"english": " /n [TG]Aura:[ET] Allied units have +4[AR] and Lifesteal."
+			"english": " /n /n [TG]Aura:[ET] Allied units have +4[AR] and Lifesteal."
 		},
 		"attack": 0,
 		"armour": 4,
@@ -6866,7 +6866,7 @@
 		"miniimage": "10132_0",
 		"cost": 5,
 		"text": {
-			"english": " /n Pillager, Trample /n After damaging a tower, Summon a Red Mist Pillager into the closest position."
+			"english": " Pillager, Trample /n After damaging a tower, Summon a Red Mist Pillager into the closest position."
 		},
 		"attack": 3,
 		"armour": 0,
@@ -7152,7 +7152,7 @@
 		"miniimage": "10794_0",
 		"cost": 2,
 		"text": {
-			"english": " Feeble /n [TG]Death Effect:[ET] Put a Short Sword card into your hand."
+			"english": " Feeble /n /n [TG]Death Effect:[ET] Put a Short Sword card into your hand."
 		},
 		"attack": 2,
 		"armour": 0,
@@ -8093,7 +8093,7 @@
 		"miniimage": "10962_0",
 		"cost": 1,
 		"text": {
-			"english": "/n Your Greevils in all lanes have +1 Regeneration."
+			"english": " /n Your Greevils in all lanes have +1 Regeneration."
 		},
 		"attack": 1,
 		"armour": 0,
@@ -8115,7 +8115,7 @@
 		"miniimage": "10962_0",
 		"cost": 1,
 		"text": {
-			"english": "/n Your Greevils in all lanes have +1 Regeneration. /n /n [TG]Cross Lane[ET]"
+			"english": " Your Greevils in all lanes have +1 Regeneration. /n /n [TG]Cross Lane[ET]"
 		},
 		"attack": 1,
 		"armour": 0,
@@ -8762,7 +8762,7 @@
 		"miniimage": "10148_0",
 		"cost": 1,
 		"text": {
-			"english": "/n Enchant Tower /n Disable Round Start and After Combat effects.\n [TG]Active 1[AC], 1 Mana:[ET] Trigger the disabled effects."
+			"english": " Enchant Tower /n /n Disable Round Start and After Combat effects./n /n [TG]Active 1[AC], 1 Mana:[ET] Trigger the disabled effects."
 		},
 		"crosslane": false,
 		"quick": false
@@ -8822,7 +8822,7 @@
 		"miniimage": "10194_0",
 		"cost": 2,
 		"text": {
-			"english": "Enchant Tower /n [TG]Play Effect:[ET] Copy a random card from your deck. It is blue, ephemeral, and can only be played from this lane. /n When your opponent plays a non-item cards in this lane, repeat this effect."
+			"english": " Enchant Tower /n /n [TG]Play Effect:[ET] Copy a random card from your deck. It is blue, ephemeral, and can only be played from this lane. /n /n When your opponent plays a non-item cards in this lane, repeat this effect."
 		},
 		"crosslane": false,
 		"quick": false
@@ -8948,7 +8948,7 @@
 		"miniimage": "10176_0",
 		"cost": 1,
 		"text": {
-			"english": "/n Enchant Tower /n [TG]Active 1[AC], 1 Mana:[ET] Move one of your heroes to an adjacent lane."
+			"english": "/n Enchant Tower /n /n [TG]Active 1[AC], 1 Mana:[ET] Move one of your heroes to an adjacent lane."
 		},
 		"crosslane": false,
 		"quick": false
@@ -9442,7 +9442,7 @@
 		"miniimage": "10306_0",
 		"cost": 2,
 		"text": {
-			"english": " /n Dispel a tower enchantment./n[RP] Draw a card."
+			"english": " /n Dispel a tower enchantment. /n /n[RP] Draw a card."
 		},
 		"crosslane": false,
 		"quick": false
@@ -9522,7 +9522,7 @@
 		"miniimage": "10608_0",
 		"cost": 3,
 		"text": {
-			"english": " /n Enchant Caster/nWhen damaged, gain +1[ATT] permanently./n[TG]Round Start: [ET]Take one piercing damage."
+			"english": " Enchant Caster /n /nWhen damaged, gain +1[ATT] permanently./n /n[TG]Round Start: [ET]Take one piercing damage."
 		},
 		"crosslane": false,
 		"quick": false
@@ -9682,7 +9682,7 @@
 		"miniimage": "10801_0",
 		"cost": 1,
 		"text": {
-			"english": " /n Enchant Unit /n Scheme: +2[ATT] /n Dispel Killer Instinct on death. /n [TG][QU] Quickcast[ET]"
+			"english": " Enchant Unit /n /n Scheme: +2[ATT] /n /n Dispel Killer Instinct on death. /n /n [TG][QU] Quickcast[ET]"
 		},
 		"crosslane": false,
 		"quick": true
@@ -11325,8 +11325,8 @@
 		"set": 1,
 		"rarity": 1,
 		"colour": "G",
-		"image": "PH2",
-		"miniimage": "PH",
+		"image": "11059_0",
+		"miniimage": "11059_0",
 		"cost": 4,
 		"text": {
 			"english": " /n Enchant Tower /n /n [TG]Round Start: [ET] Give alied units +1 temporary health."
@@ -11346,8 +11346,8 @@
 		"set": 1,
 		"rarity": 1,
 		"colour": "B",
-		"image": "PH2",
-		"miniimage": "PH",
+		"image": "11060_0",
+		"miniimage": "11060_0",
 		"cost": 3,
 		"text": {
 			"english": "/n Enchant Tower /n /n [TG]Aura: [ET] When an allied unit in this lane dies give a random enemy +1 decay until their next combat."

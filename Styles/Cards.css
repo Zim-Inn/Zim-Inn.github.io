@@ -185,16 +185,18 @@
     background-size: 100%;
 }
 .CardCentreSplitBotText {
-    padding: 8% 5% 0 5%;
-    margin-bottom: -65%;
+    padding: 9% 5% 0 5%;
+    margin-bottom: -64%;
     font-family: 'Radiance', sans-serif;
     font-size: 0.75em;
     text-align: center;
     color: #eee;
     text-shadow: 2px 2px 2px black;
+    line-height: 1.15em;
 }
 .CardCentreSplitBotTextSmallFont {
-    font-size: 0.65em !important;
+    font-size: 0.70em !important;
+    line-height: 0.85em;
 }
 .CardCentreKeyWordText {
     text-decoration-line: underline;
