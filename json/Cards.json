@@ -4295,6 +4295,7 @@
 	}]
 }, {
 	"card_id": 10291,
+	"searchterm": "motm",
 	"versions": [{
 		"release_date": "2020-05-11",
 		"card_type": "Improvement",
@@ -4307,7 +4308,7 @@
 		"colour": "B",
 		"image": "10291_0",
 		"miniimage": "10291_0",
-		"cost": 2,
+		"cost": 4,
 		"text": {
 			"english": "/n Enchant Tower /n [TG]Round Start:[ET] Deal 2 damage to the enemy tower and each enemy unit. /n Dispel after 3 rounds."
 		},
