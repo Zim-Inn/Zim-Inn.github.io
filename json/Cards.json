@@ -11291,6 +11291,23 @@
 		"hp": 4,
 		"abilities": ["210084_2"],
 		"signature": ["11058_0"]
+	},{
+		"release_date": "2020-06-20",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Nyx Assassin"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "B",
+		"image": "11056_0",
+		"miniimage": "11056_0",
+		"icon": "11056_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 4,
+		"abilities": ["210084_3"],
+		"signature": ["11058_0"]
 	}]
 }, {
 	"card_id": 11058,
@@ -11311,7 +11328,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "11056_1"
+		"is_signature": "11056_3"
 	}]
 }, {
 	"card_id": 11059,
