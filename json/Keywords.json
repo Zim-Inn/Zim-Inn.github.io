@@ -12,7 +12,7 @@
     },{
         "keyword": "Bounce",
         "match": "Bounce",
-        "desc": "Return target to owners fountain if it's a hero, or the hand if it's a creep or item.",
+        "desc": "Return target to owner's fountain if it's a hero, or the hand if it's a creep or item.",
         "example": ["10766","10753"]
     },{
         "keyword": "Burn",
@@ -153,7 +153,7 @@
     },{
         "keyword": "Reflect",
         "match": "Reflect",
-        "desc": "When targeted or attacked, damage that would be done to this unit is instead dealt to the caster or attacker.",
+        "desc": "When targeted or attacked, non-reflected damage that would be done to this unit is instead dealt to the caster or attacker.",
         "example": ["11058"]
     },{
         "keyword": "Retaliate",
@@ -205,7 +205,7 @@
     },{
         "keyword": "Taunt",
         "match": "Taunt",
-        "desc": "When a unit taunts all of its enemy neighbors change their combat target to that unit. Targets reset after each round.",
+        "desc": "When a unit taunts all of its adjacent enemies change their combat target to that unit. Targets reset after each round.",
         "example": ["10418","10208"]
     },{
         "keyword": "Trample",

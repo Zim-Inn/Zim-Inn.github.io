@@ -842,6 +842,19 @@
                 "text":{
                     "english":"[TG]Active 2[AC], 1 Mana:[ET] Swap an enemy to another position. /n [TG][QU]Quickcast[ET]"
                 }
+            },
+            {
+                "release_date":"2020-06-22",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Telekinesis"
+                 },
+                "cooldown": 2,
+                "image": "210048_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Swap an enemy to another position up to three slots away. /n [TG][QU]Quickcast[ET]"
+                }
             }
         ]
     },
@@ -1611,6 +1624,44 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] Choose an enemy in any lane and move Nyx Assassin across from it. Nyx Assassin sneak attacks the new unit blocking it with +3[ATT]./n[TG]Cross Lane[ET]"
+                }
+            }
+        ]
+    },
+    {
+        "card_id":11061,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-06-22",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Expose the Truth"
+                 },
+                "cooldown": 0,
+                "image": "PH",
+                "cost": 0,
+                "text":{
+                    "english":"Pierce. Pierpont has +1[ATT] per revealed card in opponent's hand."
+                }
+            }
+        ]
+    },
+    {
+        "card_id":11062,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-06-22",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Overcharged Artificer"
+                 },
+                "cooldown": 0,
+                "image": "PH",
+                "cost": 0,
+                "text":{
+                    "english":"Equipped items give Vanessa +1 to the relevant attribute. /n Items equipped by Vanessa have a maximum of 1 cooldown."
                 }
             }
         ]

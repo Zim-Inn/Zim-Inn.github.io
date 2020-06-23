@@ -3157,6 +3157,23 @@
 		"hp": 6,
 		"abilities": ["210044_0"],
 		"signature": ["10662_0"]
+	},{
+		"release_date": "2020-06-22",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Pierpont"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "U",
+		"image": "10658_0",
+		"miniimage": "10658_0",
+		"icon": "PH",
+		"attack": 1,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["210044_0","11061_0"],
+		"signature": ["10662_0"]
 	}]
 }, {
 	"card_id": 10662,
@@ -3181,7 +3198,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10658_0"
+		"is_signature": "10658_1"
 	}]
 }, {
 	"card_id": 10048,
@@ -3319,6 +3336,23 @@
 		"hp": 5,
 		"abilities": ["210048_0"],
 		"signature": ["10670_0"]
+	},{
+		"release_date": "2020-06-22",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Rubick"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "U",
+		"image": "10668_0",
+		"miniimage": "10668_0",
+		"icon": "10668_0",
+		"attack": 2,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210048_1"],
+		"signature": ["10670_1"]
 	}]
 }, {
 	"card_id": 10670,
@@ -3340,6 +3374,24 @@
 		"crosslane": false,
 		"quick": true,
 		"is_signature": "10668_0"
+	},{
+		"release_date": "2020-06-22",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Spell Steal"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "U",
+		"image": "10670_0",
+		"miniimage": "10670_0",
+		"cost": 1,
+		"text": {
+			"english": " /n Put a copy of the last non-item card your opponent played into your hand. That card is blue, ephemeral and costs 1 less. /n [TG][QU]Quickcast[ET]"
+		},
+		"crosslane": false,
+		"quick": true,
+		"is_signature": "10668_1"
 	}]
 }, {
 	"card_id": 10937,
@@ -3536,6 +3588,23 @@
 		"hp": 7,
 		"abilities": ["210052_0"],
 		"signature": ["10703_0"]
+	},{
+		"release_date": "2020-06-22",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Vanessa"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "U",
+		"image": "10701_0",
+		"miniimage": "10701_0",
+		"icon": "PH",
+		"attack": 1,
+		"armour": 0,
+		"hp": 7,
+		"abilities": ["210052_0","11062_0"],
+		"signature": ["10703_0"]
 	}]
 }, {
 	"card_id": 10703,
@@ -3556,7 +3625,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10701_0",
+		"is_signature": "10701_1",
 		"related_cards": ["10735_0"]
 	}]
 }, {
@@ -6301,7 +6370,7 @@
 		"signature": ["11033_0"],
 		"related_cards": ["11052_0"]
 	},{
-		"release_date": "2020-05-25",
+		"release_date": "2020-06-12",
 		"card_type": "Hero",
 		"card_name": {
 			"english": "Dragon Knight"
@@ -6316,8 +6385,24 @@
 		"armour": 0,
 		"hp": 6,
 		"abilities": ["210080_1", "210081_0"],
-		"signature": ["11033_0"],
-		"related_cards": ["11052_0"]
+		"signature": ["11033_0"]
+	},{
+		"release_date": "2020-06-22",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Dragon Knight"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "G",
+		"image": "10982_0",
+		"miniimage": "10982_0",
+		"icon": "10982_0",
+		"attack": 2,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["210080_1", "210081_0"],
+		"signature": ["11033_1"]
 	}
 ]
 }, {
@@ -6339,7 +6424,25 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10982_0"
+		"is_signature": "10982_1"
+	},{
+		"release_date": "2020-06-22",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Dragon Tail"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "G",
+		"image": "11033_0",
+		"miniimage": "11033_0",
+		"cost": 2,
+		"text": {
+			"english": " /n Stun and deal 2 damage to an adjacent enemy."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10982_2"
 	}]
 }, {
 	"card_id": 11052,
@@ -8823,6 +8926,24 @@
 		"cost": 2,
 		"text": {
 			"english": " Enchant Tower /n /n [TG]Play Effect:[ET] Copy a random card from your deck. It is blue, ephemeral, and can only be played from this lane. /n /n When your opponent plays a non-item cards in this lane, repeat this effect."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-22",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Watchtower"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "U",
+		"image": "10194_0",
+		"miniimage": "10194_0",
+		"cost": 2,
+		"text": {
+			"english": " Enchant Tower /n /n [TG]Play Effect:[ET] Copy a random card from your deck. It is blue, ephemeral, and can only be played from this lane. /n /n When your opponent plays a spell or enchantment in this lane, repeat this effect."
 		},
 		"crosslane": false,
 		"quick": false
