@@ -133,7 +133,7 @@ const LoadDeckFunc = function( skipHistory) {
         CardTypeCounts['Spell'] = 0;
         CardTypeCounts['Improvement'] = 0;
         CardTypeCounts['Weapon'] = 0;
-        CardTypeCounts['Armour'] = 0;
+        CardTypeCounts['Armor'] = 0;
         CardTypeCounts['Accessory'] = 0;
         CardTypeCounts['Consumable'] = 0;
 
@@ -225,7 +225,7 @@ const LoadDeckFunc = function( skipHistory) {
         document.getElementById('NumberOfSpells').innerHTML = CardTypeCounts['Spell'];
         document.getElementById('NumberOfTE').innerHTML = CardTypeCounts['Improvement'];
         document.getElementById('NumberOfWeapons').innerHTML = CardTypeCounts['Weapon'];
-        document.getElementById('NumberOfArmour').innerHTML = CardTypeCounts['Armour'];
+        document.getElementById('NumberOfArmour').innerHTML = CardTypeCounts['Armor'];
         document.getElementById('NumberOfAccessories').innerHTML = CardTypeCounts['Accessory'];
         document.getElementById('NumberOfConsumables').innerHTML = CardTypeCounts['Consumable'];
 
@@ -284,7 +284,7 @@ const LoadDeckFunc = function( skipHistory) {
         document.getElementById('DeckViewerBoxChartB').outerHTML = '<div id="DeckViewerBoxChartB" class="DeckViewerCardColourBoxChartInner DeckViewerCardManaColouringB" onmousemove="ShowTextTooltip(1, \''+TotalB+' Black Cards\');" onmouseout="ShowTextTooltip(0,0);">'+TotalB+'</div>';
         document.getElementById('DeckViewerBoxChartG').outerHTML = '<div id="DeckViewerBoxChartG" class="DeckViewerCardColourBoxChartInner DeckViewerCardManaColouringG" onmousemove="ShowTextTooltip(1, \''+TotalG+' Green Cards\');" onmouseout="ShowTextTooltip(0,0);">'+TotalG+'</div>';
 
-        let TotalItemCards = CardTypeCounts['Weapon']+CardTypeCounts['Armour']+CardTypeCounts['Accessory']+CardTypeCounts['Consumable'];
+        let TotalItemCards = CardTypeCounts['Weapon']+CardTypeCounts['Armor']+CardTypeCounts['Accessory']+CardTypeCounts['Consumable'];
         if (TotalItemCards == 1) {
             document.getElementById('TotalNumberItems').innerHTML = TotalItemCards+" Card";
         } else {
