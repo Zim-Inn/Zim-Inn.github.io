@@ -2987,7 +2987,7 @@
 		"set": 1,
 		"rarity": 4,
 		"colour": "R",
-		"cost": 4,
+		"cost": 3,
 		"image": "10293_0",
 		"miniimage": "10293_0",
 		"text": {
@@ -3087,7 +3087,7 @@
 		"set": 1,
 		"rarity": 2,
 		"colour": "G",
-		"cost": 1,
+		"cost": 4,
 		"image": "10757_0",
 		"miniimage": "10757_0",
 		"text": {
