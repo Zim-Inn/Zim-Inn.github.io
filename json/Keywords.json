@@ -96,7 +96,7 @@
         "example": ["11017"]
     },{
         "keyword": "Lock",
-        "match": "(Lock)(?!ing)(?!ed)",
+        "match": "(Lock)(?!ing)(?!ed)(?!er)(?! it)",
         "desc": "Cards cannot be played as long as they are locked. Lock is applied for a duration in rounds. At the end of a round, all locked cards lose 1 Lock. Locked cards are revealed.",
         "example": ["10708","10782"]
     },{
