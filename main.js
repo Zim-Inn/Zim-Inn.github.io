@@ -711,10 +711,10 @@ function CardViewer_SelectCard(CardIDV, skipHistory) {
 
     //SHOW CARD LORE
     if ("lore" in ThisCard) { 
-        HTMLLoreTextLeftPanel = '<div id="CardViewerPageCardLoreTextBody">'+ThisCard['lore']['text']['english']+'</div>\
+        HTMLLoreTextLeftPanel = '<div id="CardViewerPageCardLoreTextBody">'+ThisCard['lore']['text']['english'].replace(/\/n/g,"<br>")+'</div>\
         <div id="CardViewerPageCardLoreTextTag">'+ThisCard['lore']['tag']['english']+'</div>';
     } else {
-        HTMLLoreTextLeftPanel = '<div id="CardViewerPageCardLoreTextBody">The lore for this card is currently unknown.</div>';
+        HTMLLoreTextLeftPanel = '<div id="CardViewerPageCardLoreTextBody">&nbsp;</div>';
     }
 
     document.getElementById('SigAbilityRelated_Container').innerHTML = "";
