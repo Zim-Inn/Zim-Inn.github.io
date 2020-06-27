@@ -1088,6 +1088,37 @@
 		"related_cards": [],
 		"crosslane": false,
 		"quick": false
+	}, {
+		"release_date": "2020-06-26",
+		"card_type": "Item",
+		"card_subtype": "Accessory",
+		"card_name": {
+			"english": "Phase Boots"
+		},
+		"lore": {
+			"text": {
+				"english": "To many this pair of boots seems like a lesser magical item... but in the right hands these can turn the tide of any battle."
+			},
+			"tag": {
+				"english": "Jolixia, The Card Faun"
+			}
+		},
+		"set": 1,
+		"rarity": 1,
+		"image": "10203_0",
+		"miniimage": "10203_0",
+		"cost": 1,
+		"gcost": 10,
+		"text": {
+			"english": "/n +3[HP] /n /n [TG]Active 2[AC], 1 Mana: [ET] /n Swap this hero to another slot."
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 3,
+		"abilities": [],
+		"related_cards": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10782,
@@ -1548,7 +1579,7 @@
 		"armour": 0,
 		"hp": 6,
 		"abilities": ["210020_1"],
-		"signature": ["10308_0"]
+		"signature": ["10308_1"]
 	}]
 }, {
 	"card_id": 10308,
@@ -1574,6 +1605,32 @@
 		"cost": 5,
 		"text": {
 			"english": "/n Discard a random card. /n Slay a hero."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10047_1"
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Coup de Grace"
+		},
+		"lore": {
+			"text": {
+				"english": "I'm immoral, not a sadist. If I am asked to kill you it will be clean and quick."
+			},
+			"tag": {
+				"english": "Phantom Assassin, Efficient Killer"
+			}
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "B",
+		"image": "10308_0",
+		"miniimage": "10308_0",
+		"cost": 5,
+		"text": {
+			"english": "/n Discard a random non-item card. /n Slay a hero."
 		},
 		"crosslane": false,
 		"quick": false,
@@ -3245,7 +3302,7 @@
 		"image": "10293_0",
 		"miniimage": "10293_0",
 		"text": {
-			"english": " /n Stun an enemy. Push its neighbors away."
+			"english": " /n Stun an enemy. Push its neighbors."
 		},
 		"crosslane": false,
 		"quick": false,
@@ -4933,6 +4990,28 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	}, {
+		"release_date": "2020-06-26",
+		"card_type": "Item",
+		"card_subtype": "Weapon",
+		"card_name": {
+			"english": "Blink Dagger"
+		},
+		"set": 1,
+		"rarity": 1,
+		"image": "10206_0",
+		"miniimage": "10206_0",
+		"cost": 1,
+		"gcost": 15,
+		"text": {
+			"english": "/n +2[ATT]/n [TG]Active 2[AC], 1 Mana:[ET] /n Move this hero to a slot in an adjacent lane."
+		},
+		"attack": 2,
+		"armour": 0,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10222,
@@ -5195,6 +5274,28 @@
 		"gcost": 10,
 		"text": {
 			"english": " /n +2[ATT] /n /n Dispel a random tower enchantment when dealing battle damage to a tower."
+		},
+		"attack": 2,
+		"armour": 0,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Item",
+		"card_subtype": "Weapon",
+		"card_name": {
+			"english": "Demagicking Maul"
+		},
+		"set": 1,
+		"rarity": 2,
+		"image": "10210_0",
+		"miniimage": "10210_0",
+		"cost": 1,
+		"gcost": 10,
+		"text": {
+			"english": " /n +2[ATT] /n /n Whenever equipped hero deals battle damage to a tower, dispel a random tower enchantment"
 		},
 		"attack": 2,
 		"armour": 0,
@@ -10222,6 +10323,23 @@
 		},
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Fighting Words"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "R",
+		"image": "10342_0",
+		"miniimage": "10342_0",
+		"cost": 1,
+		"text": {
+			"english": "/n Choose an allied hero. It taunts. Pick its combat target."
+		},
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10607,
@@ -10521,6 +10639,24 @@
 		"crosslane": true,
 		"quick": false,
 		"related_cards": ["10082_0"]
+	}, {
+		"release_date": "2020-06-26",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Spring the Trap"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "R",
+		"image": "10417_0",
+		"miniimage": "10417_0",
+		"cost": 7,
+		"text": {
+			"english": " /n Play two Centaur Poachers into the first two empty spaces in any lane./n[TG]Cross Lane[ET]"
+		},
+		"crosslane": true,
+		"quick": false,
+		"related_cards": ["10082_0"]
 	}]
 }, {
 	"card_id": 10425,
@@ -10762,6 +10898,23 @@
 		},
 		"crosslane": true,
 		"quick": true
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "The Cover of Night"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "B",
+		"image": "10404_0",
+		"miniimage": "10404_0",
+		"cost": 5,
+		"text": {
+			"english": " /n Move caster to an empty slot in any lane and give it \"Scheme: +4 Siege\"./n[TG]Cross Lane[ET]/n[TG][QU] Quickcast[ET]"
+		},
+		"crosslane": true,
+		"quick": true
 	}]
 }, {
 	"card_id": 10616,
@@ -10819,6 +10972,23 @@
 		"cost": 1,
 		"text": {
 			"english": " /n Swap a unit to a neighboring position."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Cunning Plan"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "U",
+		"image": "10411_0",
+		"miniimage": "10411_0",
+		"cost": 1,
+		"text": {
+			"english": " /n Swap a unit to a neighboring slot."
 		},
 		"crosslane": false,
 		"quick": false
@@ -11341,6 +11511,23 @@
 		},
 		"crosslane": true,
 		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Bellow"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "G",
+		"image": "10303_0",
+		"miniimage": "10303_0",
+		"cost": 1,
+		"text": {
+			"english": " /n Move a creep to the first empty slot in another lane./n[TG]Cross Lane[ET]"
+		},
+		"crosslane": true,
+		"quick": false
 	}]
 }, {
 	"card_id": 10299,
@@ -11481,6 +11668,40 @@
 		},
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-05-25",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Caught Unprepared"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "G",
+		"image": "10396_0",
+		"miniimage": "10396_0",
+		"cost": 3,
+		"text": {
+			"english": " /n Stun a hero until they equip an item."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Caught Unprepared"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "G",
+		"image": "10396_0",
+		"miniimage": "10396_0",
+		"cost": 3,
+		"text": {
+			"english": " /n Enchant Enemy /n This hero is stunned until it equips an item."
+		},
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10379,
@@ -11501,6 +11722,23 @@
 		},
 		"crosslane": true,
 		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Intimidation"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "G",
+		"image": "10379_0",
+		"miniimage": "10379_0",
+		"cost": 3,
+		"text": {
+			"english": " /n Move an hero to the first empty slot  in another lane /n [TG]Cross Lane.[ET]"
+		},
+		"crosslane": true,
+		"quick": false
 	}]
 }, {
 	"card_id": 10373,
@@ -11518,6 +11756,23 @@
 		"cost": 3,
 		"text": {
 			"english": " /n Enchant Hero/n After you play a green card, this hero and its neighbors gain +3 Regeneration. "
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Soul of Spring"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "G",
+		"image": "10373_0",
+		"miniimage": "10373_0",
+		"cost": 3,
+		"text": {
+			"english": " /n Enchant Hero/n Whenever you play a green card, this hero and its neighbors gain +3 Regeneration. "
 		},
 		"crosslane": false,
 		"quick": false
