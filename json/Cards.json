@@ -1917,6 +1917,31 @@
 		"hp": 4,
 		"abilities": ["210027_0"],
 		"signature": ["10277_0"]
+	}, {
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Crystal Maiden"
+		},
+		"lore": {
+			"text": {
+				"english": "'Warden of Icewrack.' It's a fancy title. In theory it means I'm responsible for maintaining law and order, collaborating with the Sapphire Conclave on magical crimes, and protecting the weak from all manners of nasty things. In practice I help farmers fix fences. So I decided to go on a little sabbatical. Besides... I couldn't stay in Icewrack. It's cold. It's boring. And I heard my sister was planning on visiting so I definitely had to get the hell outta there."
+			},
+			"tag": {
+				"english": "Rylai, the Crystal Maiden"
+			}
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "U",
+		"image": "10064_0",
+		"miniimage": "10064_0",
+		"icon": "10064_0",
+		"attack": 1,
+		"armour": 0,
+		"hp": 4,
+		"abilities": ["210027_1"],
+		"signature": ["10277_0"]
 	}]
 }, {
 	"card_id": 10277,
@@ -1945,7 +1970,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10064_1"
+		"is_signature": "10064_2"
 	}]
 }, {
 	"card_id": 10032,
@@ -2298,6 +2323,31 @@
 		"hp": 4,
 		"abilities": ["210032_1"],
 		"signature": ["10341_1"]
+	}, {
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Legion Commander"
+		},
+		"lore": {
+			"text": {
+				"english": "I know these people think me a monster. I don't blame them. No one wants to be occupied, but it's in their best interests! If we weren't here in Roseleaf the Red Mist would have slaughtered them all... today the Vhoul see us as villains, but after we defeat Sorla Khan... The Bronze Legion will be heralded as the heroes we are."
+			},
+			"tag": {
+				"english": "Tresdin, Legion Commander"
+			}
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "R",
+		"image": "10069_0",
+		"miniimage": "10069_0",
+		"icon": "10069_0",
+		"attack": 5,
+		"armour": 1,
+		"hp": 4,
+		"abilities": ["210032_2"],
+		"signature": ["10341_1"]
 	}]
 }, {
 	"card_id": 10341,
@@ -2352,7 +2402,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10069_2"
+		"is_signature": "10069_3"
 	}]
 }, {
 	"card_id": 10036,
@@ -3721,6 +3771,23 @@
 		"hp": 7,
 		"abilities": ["210051_0"],
 		"signature": ["10282_1"]
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Ursa"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "R",
+		"image": "10070_0",
+		"miniimage": "10070_0",
+		"icon": "10070_0",
+		"attack": 5,
+		"armour": 0,
+		"hp": 7,
+		"abilities": ["210051_1"],
+		"signature": ["10282_1"]
 	}]
 }, {
 	"card_id": 10282,
@@ -3759,7 +3826,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10070_1"
+		"is_signature": "10070_2"
 	}]
 }, {
 	"card_id": 10701,
@@ -3933,6 +4000,23 @@
 		"hp": 6,
 		"abilities": ["210054_0"],
 		"signature": ["10278_0"]
+	}, {
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Zeus"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "U",
+		"image": "10065_0",
+		"miniimage": "10065_0",
+		"icon": "10065_0",
+		"attack": 1,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["210054_1"],
+		"signature": ["10278_0"]
 	}]
 }, {
 	"card_id": 10278,
@@ -3953,7 +4037,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10065_0"
+		"is_signature": "10065_1"
 	}]
 }, {
 	"card_id": 10024,
@@ -6448,6 +6532,23 @@
 		"hp": 5,
 		"abilities": ["210075_0"],
 		"signature": ["10813_0", "10814_0", "10815_0"]
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Lina"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "U",
+		"image": "10811_0",
+		"miniimage": "10811_0",
+		"icon": "10811_0",
+		"attack": 2,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210075_1"],
+		"signature": ["10813_0", "10814_0", "10815_0"]
 	}]
 }, {
 	"card_id": 10813,
@@ -6469,7 +6570,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10811_0"
+		"is_signature": "10811_1"
 	}]
 }, {
 	"card_id": 10814,
@@ -6490,7 +6591,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10811_0"
+		"is_signature": "10811_1"
 	}]
 }, {
 	"card_id": 10815,
@@ -6511,7 +6612,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10811_0"
+		"is_signature": "10811_1"
 	}]
 }, {
 	"card_id": 10004,

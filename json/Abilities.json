@@ -516,6 +516,18 @@
                 "text":{
                     "english":"Restore 2 mana the first time you play a spell or enchantment in any lane."
                 }
+            }, {
+                "release_date":"2020-06-26",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Arcane Aura"
+                 },
+                "cooldown": 0,
+                "image": "210027_0",
+                "cost": 0,
+                "text":{
+                    "english":"When you play a spell or enchantment from any lane, restore 2 Mana. 1 round cooldown./n[TG]Cross Lane[ET]"
+                }
             }
         ]
     },
@@ -623,6 +635,19 @@
                 "cost": 0,
                 "text":{
                     "english":"After battling a unit, heal 3."
+                }
+            },
+            {
+                "release_date":"2020-06-26",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Moment of Courage"
+                 },
+                "cooldown": 0,
+                "image": "210032_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever Legion Commander attacks a unit in battle, heal Legion Commander 3."
                 }
             }
         ]
@@ -1023,6 +1048,18 @@
                 "text":{
                     "english":"Give units who take battle damage from Ursa -1[AR] permanently."
                 }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Fury Swipes"
+                 },
+                "cooldown": 0,
+                "image": "210051_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever Ursa deals battle damage to a unit, give it -1[AR] permanently."
+                }
             }
         ]
     },
@@ -1079,6 +1116,18 @@
                 "cost": 1,
                 "text":{
                     "english":"Deal 1 piercing damage to Zeus's adjacent enemies after you play a blue spell or enchantmess from this lane."
+                }
+            }, {
+                "release_date":"2020-06-26",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Static Field"
+                 },
+                "cooldown": 0,
+                "image": "210054_0",
+                "cost": 1,
+                "text":{
+                    "english":"Whenever you play a blue spell or enchantmess from this lane, deal 1 piercing damage to Zeus's adjacent enemies."
                 }
             }
         ]
@@ -1564,6 +1613,18 @@
                 "cost": 0,
                 "text":{
                     "english":"The first time you play a blue spell or enchantment from Lina's lane, deal damage to Lina's combat target equal to the number of charges on Fiery Soul and add 1 charge to Fiery Soul."
+                }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Fiery Soul"
+                 },
+                "cooldown": 0,
+                "image": "210075_0",
+                "cost": 0,
+                "text":{
+                    "english":"When you play a blue spell or enchantment from Lina's lane, deal damage to Lina's combat target equal to the number of charges on Fiery Soul and add 1 charge to Fiery Soul. 1 round cooldown."
                 }
             }
         ]
