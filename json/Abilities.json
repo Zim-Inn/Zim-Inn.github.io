@@ -15,6 +15,18 @@
                 "text":{
                     "english":"Active 3[AC], 1 Mana: Move Mirana up to 5 slots away. Give Mirana and new neighbors +2[ATT]. [TG]Cross Lane[ET]"
                 }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Leap"
+                },
+                "cooldown": 3,
+                "image": "210001_0",
+                "cost": 1,
+                "text":{
+                    "english":"Active 3[AC], 1 Mana: Move Mirana up to range 5. Give Mirana and new neighbors +2[ATT]. [TG]Cross Lane[ET]"
+                }
             }
         ]        
     },
@@ -459,6 +471,18 @@
                 "text":{
                     "english":"[TG]Active 3, 1 Mana:[ET] Move Anti-Mage up to 5 slots away. Deal 1 battle damage to the unit now blocking Anti-Mage. [TG]Cross Lane[ET]."
                 }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Blink Strike"
+                 },
+                "cooldown": 3,
+                "image": "210024_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3, 1 Mana:[ET] Move up to range 5. Deal 1 battle damage to the unit now blocking Anti-Mage. [TG]Cross Lane[ET]."
+                }
             }
         ]
     },
@@ -477,6 +501,18 @@
                 "cost": 0,
                 "text":{
                     "english": "Burn 1 mana when Anti-Mage deals battle damage to an enemy hero before combat."
+                }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Mana Break"
+                 },
+                "cooldown": 0,
+                "image": "210025_0",
+                "cost": 0,
+                "text":{
+                    "english": "Whenever Anti-Mage deals battle damage to an enemy hero before combat, burn 1 mana."
                 }
             }
         ]
@@ -978,6 +1014,19 @@
                 "text":{
                     "english":"[TG]Active 2[AC], 1 Mana:[ET] Swap an enemy to another position up to three slots away. /n [TG][QU]Quickcast[ET]"
                 }
+            },
+            {
+                "release_date":"2020-06-26",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Telekinesis"
+                 },
+                "cooldown": 2,
+                "image": "210048_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Choose an enemy within range 3. Swap them to a new slot within range 3. /n [TG][QU]Quickcast[ET]"
+                }
             }
         ]
     },
@@ -1354,6 +1403,18 @@
                 "cost": 0,
                 "text":{
                     "english":"Shadow Fiend has +1[ATT] per charge. /n Add 1 charge after an adjacent enemy dies. /n [TG]Death Effect:[ET] Halve the charges on Necromastery."
+                }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Necromastery"
+                 },
+                "cooldown": 0,
+                "image": "210064_0",
+                "cost": 0,
+                "text":{
+                    "english":"Shadow Fiend has +1[ATT] per charge. /n Whenever an adjacent enemy dies, add 1 charge. /n [TG]Death Effect:[ET] Halve the charges on Necromastery."
                 }
             }
         ]

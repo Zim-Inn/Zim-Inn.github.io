@@ -34,6 +34,23 @@
 		"hp": 5,
 		"abilities": ["210001_0"],
 		"signature": ["10657_0"]
+	}, {
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Mirana"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "B",
+		"image": "10655_0",
+		"miniimage": "10655_0",
+		"icon": "10655_0",
+		"attack": 4,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210001_1"],
+		"signature": ["10657_0"]
 	}]
 }, {
 	"card_id": 10657,
@@ -54,7 +71,7 @@
 		},
 		"crosslane": true,
 		"quick": false,
-		"is_signature": "10655_1"
+		"is_signature": "10655_2"
 	}]
 }, {
 	"card_id": 10991,
@@ -1811,6 +1828,23 @@
 		"armour": 0,
 		"hp": 4,
 		"abilities": ["210024_0", "210025_0"],
+		"signature": ["10648_0"]
+	}, {
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Anti-Mage"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "B",
+		"image": "10646_0",
+		"miniimage": "10646_0",
+		"icon": "10646_0",
+		"attack": 5,
+		"armour": 0,
+		"hp": 4,
+		"abilities": ["210024_1", "210025_1"],
 		"signature": ["10648_0"]
 	}]
 }, {
@@ -3702,6 +3736,23 @@
 		"hp": 5,
 		"abilities": ["210048_1"],
 		"signature": ["10670_1"]
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Rubick"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "U",
+		"image": "10668_0",
+		"miniimage": "10668_0",
+		"icon": "10668_0",
+		"attack": 2,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210048_2"],
+		"signature": ["10670_1"]
 	}]
 }, {
 	"card_id": 10670,
@@ -3740,7 +3791,7 @@
 		},
 		"crosslane": false,
 		"quick": true,
-		"is_signature": "10668_1"
+		"is_signature": "10668_2"
 	}]
 }, {
 	"card_id": 10937,
@@ -3820,6 +3871,23 @@
 		"hp": 8,
 		"abilities": ["210050_0"],
 		"signature": ["10700_0"]
+	}, {
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Underlord"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "G",
+		"image": "10678_0",
+		"miniimage": "10678_0",
+		"icon": "10678_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 8,
+		"abilities": ["210050_0"],
+		"signature": ["10700_1"]
 	}]
 }, {
 	"card_id": 10700,
@@ -3841,6 +3909,24 @@
 		"crosslane": false,
 		"quick": false,
 		"is_signature": "10678_0"
+	}, {
+		"release_date": "2020-06-26",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Atrophy Aura"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "G",
+		"image": "10700_0",
+		"miniimage": "10700_0",
+		"cost": 3,
+		"text": {
+			"english": " /n Enchant Unit /n [TG]Aura:[ET] Enemies in this lane within range 2 have -1[ATT]. Whenever one dies gain +1[ATT] permanently."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10678_1"
 	}]
 }, {
 	"card_id": 10070,
@@ -4385,7 +4471,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10646_1"
+		"is_signature": "10646_2"
 	}]
 }, {
 	"card_id": 10649,
@@ -4625,6 +4711,23 @@
 		"hp": 5,
 		"abilities": ["210063_0", "210064_0"],
 		"signature": ["10673_0"]
+	}, {
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Shadow Fiend"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "B",
+		"image": "10671_0",
+		"miniimage": "10671_0",
+		"icon": "10671_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210063_0", "210064_1"],
+		"signature": ["10673_0"]
 	}]
 }, {
 	"card_id": 10673,
@@ -4645,7 +4748,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10671_1"
+		"is_signature": "10671_2"
 	}]
 }, {
 	"card_id": 10058,
@@ -7120,6 +7223,23 @@
 		"hp": 4,
 		"abilities": ["210082_0"],
 		"signature": ["10654_0"]
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Lady Anshu"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "G",
+		"image": "10652_0",
+		"miniimage": "10652_0",
+		"icon": "10652_0",
+		"attack": 4,
+		"armour": 0,
+		"hp": 4,
+		"abilities": ["210082_0"],
+		"signature": ["10654_1"]
 	}]
 }, {
 	"card_id": 10654,
@@ -7141,6 +7261,24 @@
 		"crosslane": false,
 		"quick": false,
 		"is_signature": "10652_0"
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Hymn of St. Crella"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "G",
+		"image": "10654_0",
+		"miniimage": "10654_0",
+		"cost": 3,
+		"text": {
+			"english": " /n Slay Caster. /n [RP] Deploy heroes currently in your fountain to the first empty slots in this lane."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10652_1"
 	}]
 }, {
 	"card_id": 11045,
@@ -9583,6 +9721,27 @@
 		"cost": 8,
 		"text": {
 			"english": "/n [TG]After Combat:[ET] Move to the rightmost position in the next lane."
+		},
+		"attack": 14,
+		"armour": 1,
+		"hp": 14,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Fist of the Allseeing One"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "G",
+		"image": "10715_0",
+		"miniimage": "10715_0",
+		"cost": 8,
+		"text": {
+			"english": "/n [TG]After Combat:[ET] Move to the rightmost slot in the next lane."
 		},
 		"attack": 14,
 		"armour": 1,
