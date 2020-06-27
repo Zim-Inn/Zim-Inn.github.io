@@ -4896,6 +4896,28 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	}, {
+		"release_date": "2020-06-26",
+		"card_type": "Item",
+		"card_subtype": "Accessory",
+		"card_name": {
+			"english": "Gem of True Sight"
+		},
+		"set": 1,
+		"rarity": 5,
+		"image": "11030_0",
+		"miniimage": "11030_0",
+		"cost": 1,
+		"gcost": 20,
+		"text": {
+			"english": "+6[HP] /n [TG]Round Start:[ET] Reveal opponent's hand."
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 6,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 11031,
@@ -5351,6 +5373,29 @@
 		"card_subtype": "Weapon",
 		"card_name": {
 			"english": "Mjolnir"
+		},
+		"set": 1,
+		"rarity": 3,
+		"image": "11013_0",
+		"miniimage": "11013_0",
+		"cost": 1,
+		"gcost": 25,
+		"text": {
+			"english": "/n +5[ATT]/n After attacking a unit in battle, deal 3 damage to it. Repeat 3 more times: [RP] Jump left or right and deal 3 damage."
+		},
+		"attack": 5,
+		"armour": 0,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	},
+	{
+		"release_date": "2020-06-26",
+		"card_type": "Item",
+		"card_subtype": "Weapon",
+		"card_name": {
+			"english": "Mjollnir"
 		},
 		"set": 1,
 		"rarity": 3,
@@ -7223,6 +7268,27 @@
 		"card_type": "Creep",
 		"card_name": {
 			"english": "Doppelganger"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "U",
+		"image": "10748_0",
+		"miniimage": "10748_0",
+		"cost": 2,
+		"text": {
+			"english": "Replace an allied unit. Bounce and gain the unit's attack and health. If the bounced unit is a creep, give it +1 Lock. /n Dopplegangers who replace heroes can cast spells."
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 1,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Homunculus"
 		},
 		"set": 1,
 		"rarity": 4,
@@ -11060,6 +11126,7 @@
 	}]
 }, {
 	"card_id": 10367,
+	"hide_from_card_list": "Removed",
 	"versions": [{
 		"release_date": "2020-05-25",
 		"card_type": "Spell",
@@ -11074,6 +11141,23 @@
 		"cost": 2,
 		"text": {
 			"english": " /n Give a unit -Armor equal to its current Armor value permanently."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Rend Armor"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "R",
+		"image": "10367_0",
+		"miniimage": "10367_0",
+		"cost": 2,
+		"text": {
+			"english": "/n REMOVED FROM THE GAME."
 		},
 		"crosslane": false,
 		"quick": false
