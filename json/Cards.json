@@ -93,6 +93,23 @@
 		"hp": 3,
 		"abilities": ["210002_0"],
 		"signature": ["10993_1"]
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Wraith King"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "G",
+		"image": "10991_0",
+		"miniimage": "10991_0",
+		"icon": "10991_0",
+		"attack": 4,
+		"armour": 0,
+		"hp": 3,
+		"abilities": ["210002_1"],
+		"signature": ["10993_1"]
 	}]
 }, {
 	"card_id": 10993,
@@ -131,7 +148,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10991_0"
+		"is_signature": "10991_1"
 	}]
 }, {
 	"card_id": 10963,
@@ -222,7 +239,29 @@
 		"cost": 1,
 		"gcost": 25,
 		"text": {
-			"english": " /n +5[ATT] /n /n Active 2, 1 Mana: Hex an enemy for two rounds. (They are stunned and look like a sheep.)"
+			"english": " /n +5[ATT] /n /n [TG]Active 2[AC], 1 Mana:[ET] Hex an enemy for two rounds. (They are stunned and look like a sheep.)"
+		},
+		"attack": 5,
+		"armour": 0,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Item",
+		"card_subtype": "Weapon",
+		"card_name": {
+			"english": "Sheep Stick"
+		},
+		"set": 1,
+		"rarity": 1,
+		"image": "10930_0",
+		"miniimage": "10930_0",
+		"cost": 1,
+		"gcost": 25,
+		"text": {
+			"english": " /n +5[ATT] /n /n [TG]Active 2[AC], 1 Mana:[ET] Hex an enemy for two rounds."
 		},
 		"attack": 5,
 		"armour": 0,
@@ -734,6 +773,31 @@
 		"hp": 8,
 		"abilities": ["210011_0"],
 		"signature": ["11004_0"]
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Keefe the Bold"
+		},
+		"lore": {
+			"text": {
+				"english": "Fighting is like crushing someone's skull with a tree trunk. That's an analogy!"
+			},
+			"tag": {
+				"english": "Keefe Treekiller, the Ogre Bruiser"
+			}
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "R",
+		"image": "11003_0",
+		"miniimage": "11003_0",
+		"icon": "11003_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 8,
+		"abilities": ["210011_1"],
+		"signature": ["11004_0"]
 	}]
 }, {
 	"card_id": 11004,
@@ -755,6 +819,24 @@
 		"crosslane": false,
 		"quick": true,
 		"is_signature": "11003_0"
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Reckless Charge"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "R",
+		"image": "11004_0",
+		"miniimage": "11004_0",
+		"cost": 2,
+		"text": {
+			"english": " /n Swap caster to a neighboring slot. It taunts. /n [TG][QU] Quickcast[ET]"
+		},
+		"crosslane": false,
+		"quick": true,
+		"is_signature": "11003_1"
 	}]
 }, {
 	"card_id": 11000,
@@ -1162,6 +1244,37 @@
 		"gcost": 10,
 		"text": {
 			"english": "/n +3[HP] /n /n +2 Lock to any extra cards your opponent draws each round."
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 3,
+		"abilities": [],
+		"related_cards": [],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Item",
+		"card_subtype": "Accessory",
+		"card_name": {
+			"english": "Claszureme Hourglass"
+		},
+		"lore": {
+			"text": {
+				"english": "It was Pierpont who helped broker the Claszureme Treaty, ensuring that Faceless Void would not wreak havoc with our time stream. In exchange, the Sapphire Conclave agreed to enforce a strict crackdown on Chronomancy. Most hourglasses on this plane were confiscated, but every now and again one turns up... usually in the possession of a wizard too foolish to understand the consequences of his actions."
+			},
+			"tag": {
+				"english": "Jolixia, The Card Faun"
+			}
+		},
+		"set": 1,
+		"rarity": 4,
+		"image": "10782_0",
+		"miniimage": "10782_0",
+		"cost": 1,
+		"gcost": 10,
+		"text": {
+			"english": "/n +3[HP] /n /n Whenever your opponent draws extra cards each round give them +2 Lock."
 		},
 		"attack": 0,
 		"armour": 0,
@@ -3907,7 +4020,7 @@
 		"hp": 7,
 		"abilities": ["210049_0"],
 		"signature": ["10938_0"]
-	}, {
+	},{
 		"release_date": "2020-06-02",
 		"card_type": "Hero",
 		"card_name": {
@@ -3923,6 +4036,23 @@
 		"armour": 0,
 		"hp": 7,
 		"abilities": ["210049_1"],
+		"signature": ["10938_0"]
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Sand King"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "G",
+		"image": "10937_0",
+		"miniimage": "10937_0",
+		"icon": "10937_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 7,
+		"abilities": ["210049_2"],
 		"signature": ["10938_0"]
 	}]
 }, {
@@ -3944,7 +4074,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10937_0"
+		"is_signature": "10937_2"
 	}]
 }, {
 	"card_id": 10678,
@@ -4219,6 +4349,23 @@
 		"hp": 5,
 		"abilities": ["210053_0"],
 		"signature": ["10788_0"]
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Venomancer"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "U",
+		"image": "10786_0",
+		"miniimage": "10786_0",
+		"icon": "10786_0",
+		"attack": 1,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210053_1"],
+		"signature": ["10788_0"]
 	}]
 }, {
 	"card_id": 10788,
@@ -4235,11 +4382,11 @@
 		"miniimage": "10788_0",
 		"cost": 4,
 		"text": {
-			"english": " Summon two Plague Wards."
+			"english": " /n /n Summon two Plague Wards."
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10786_0",
+		"is_signature": "10786_1",
 		"related_cards": ["10789_0"]
 	}]
 }, {
@@ -4258,7 +4405,7 @@
 		"image": "10789_0",
 		"miniimage": "10789_0",
 		"text": {
-			"english": " Feeble. /n [TG]Round Start:[ET] Deal 2 piercing damage to a random adjacent enemy. "
+			"english": " Feeble. /n /n [TG]Round Start:[ET] Deal 2 piercing damage to a random adjacent enemy. "
 		},
 		"attack": 1,
 		"armour": 0,
@@ -4403,7 +4550,7 @@
 		"hp": 3,
 		"abilities": ["210057_0"],
 		"signature": ["10942_0"]
-	}, {
+	},{
 		"release_date": "2020-05-25",
 		"card_type": "Hero",
 		"card_name": {
@@ -4420,6 +4567,23 @@
 		"hp": 4,
 		"abilities": ["210057_0"],
 		"signature": ["10942_0"]
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Tiny"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "R",
+		"image": "10940_0",
+		"miniimage": "10940_0",
+		"icon": "10940_0",
+		"attack": 2,
+		"armour": 0,
+		"hp": 4,
+		"abilities": ["210057_0"],
+		"signature": ["10942_1"]
 	}]
 }, {
 	"card_id": 10942,
@@ -4441,6 +4605,24 @@
 		"crosslane": true,
 		"quick": false,
 		"is_signature": "10940_1"
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Toss"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "R",
+		"image": "10942_0",
+		"miniimage": "10942_0",
+		"cost": 4,
+		"text": {
+			"english": " Choose caster. Move another unit to an empty slot within range 5 from the caster. /n Deal 1 damage to the new neighbors your opponent controls. /n [TG]Cross Lane[ET]"
+		},
+		"crosslane": true,
+		"quick": false,
+		"is_signature": "10940_2"
 	}]
 }, {
 	"card_id": 10674,
@@ -5622,7 +5804,7 @@
 		"cost": 1,
 		"gcost": 20,
 		"text": {
-			"english": "+6[HP] /n [TG]Round Start:[ET] Reveal opponent's hand."
+			"english": " /n +6[HP] /n /n [TG]Round Start:[ET] Reveal opponent's hand."
 		},
 		"attack": 0,
 		"armour": 0,
@@ -5644,7 +5826,7 @@
 		"cost": 1,
 		"gcost": 20,
 		"text": {
-			"english": "+6[HP] /n [TG]Round Start:[ET] Reveal opponent's hand."
+			"english": "/n +6[HP] /n /n [TG]Round Start:[ET] Reveal opponent's hand."
 		},
 		"attack": 0,
 		"armour": 0,
@@ -5727,7 +5909,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"related_cards": ["10966_0", "10960_1", "10961_0", "10965_0", "10964_1", "10959_1", "10958_1", "10963_0", "10962_1"]
+		"related_cards": ["10966_0", "10960_2", "10961_1", "10965_0", "10964_1", "10959_1", "10958_2", "10963_0", "10962_2"]
 	}]
 }, {
 	"card_id": 11016,
@@ -5952,6 +6134,28 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Item",
+		"card_subtype": "Accessory",
+		"card_name": {
+			"english": "Holy Locket"
+		},
+		"set": 1,
+		"rarity": 2,
+		"image": "11019_0",
+		"miniimage": "11019_0",
+		"cost": 1,
+		"gcost": 25,
+		"text": {
+			"english": "/n +9[HP]/n Whenever an enemy plays an ability or card from this lane, restore 1 Mana./n[TG]Aura:[ET] Allies have doubled Healing and Regeneration."
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 9,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10630,
@@ -6138,7 +6342,7 @@
 		"cost": 1,
 		"gcost": 25,
 		"text": {
-			"english": "/n +5[ATT]/n After attacking a unit in battle, deal 3 damage to it. Repeat 3 more times: [RP] Jump left or right and deal 3 damage."
+			"english": "/n +5[ATT]/n when attacking a unit in battle, deal 3 damage to it. Repeat 3 more times: [RP] Jump left or right and deal 3 damage."
 		},
 		"attack": 5,
 		"armour": 0,
@@ -6415,6 +6619,28 @@
 		"gcost": 25,
 		"text": {
 			"english": " /n +9[HP], +1 Mana /n After a hero dies, add a charge. /n /n [TG]Active 0[AC], 1 Mana[ET]: Spend a charge. Give an enemy +4 Decay or an ally +4 Regeneration."
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 9,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Item",
+		"card_subtype": "Accessory",
+		"card_name": {
+			"english": "Spirit Vessel"
+		},
+		"set": 1,
+		"rarity": 5,
+		"image": "11018_0",
+		"miniimage": "11018_0",
+		"cost": 1,
+		"gcost": 25,
+		"text": {
+			"english": " /n +9[HP], +1 Mana /n Whenever a hero dies, add a charge. /n /n [TG]Active 0[AC], 1 Mana[ET]: Spend a charge. Give an enemy +4 Decay or an ally +4 Regeneration."
 		},
 		"attack": 0,
 		"armour": 0,
@@ -7273,6 +7499,23 @@
 		"hp": 6,
 		"abilities": ["210080_1", "210081_0"],
 		"signature": ["11033_1"]
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Dragon Knight"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "G",
+		"image": "10982_0",
+		"miniimage": "10982_0",
+		"icon": "10982_0",
+		"attack": 2,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["210080_2", "210081_0"],
+		"signature": ["11033_1"]
 	}
 ]
 }, {
@@ -7312,7 +7555,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10982_2"
+		"is_signature": "10982_3"
 	}]
 }, {
 	"card_id": 11052,
@@ -7588,6 +7831,28 @@
 		"crosslane": false,
 		"quick": false,
 		"related_cards": ["10967_0"]
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Greevil Bronco"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "R",
+		"image": "10960_0",
+		"miniimage": "10960_0",
+		"cost": 1,
+		"text": {
+			"english": " /n [TG]Aura:[ET] Your Greevils in all lanes have +1 Cleave. /n /n [TG]Cross Lane[ET]"
+		},
+		"attack": 1,
+		"armour": 0,
+		"hp": 1,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10967_0"]
 	}]
 }, {
 	"card_id": 10961,
@@ -7605,6 +7870,28 @@
 		"cost": 1,
 		"text": {
 			"english": " /n [TG]Play Effect:[ET] Shuffle a random Greevil into your deck and draw one."
+		},
+		"attack": 1,
+		"armour": 0,
+		"hp": 1,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10967_0"]
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Greevil Eggtender"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "R",
+		"image": "10961_0",
+		"miniimage": "10961_0",
+		"cost": 1,
+		"text": {
+			"english": " /n [TG]Play Effect:[ET] Shuffle a random Greevil into your deck then draw a greevil from it."
 		},
 		"attack": 1,
 		"armour": 0,
@@ -7822,6 +8109,28 @@
 		"crosslane": false,
 		"quick": false,
 		"related_cards": ["10936_0"]
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Rebel Rabble Rouser"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "R",
+		"image": "10779_0",
+		"miniimage": "10779_0",
+		"cost": 4,
+		"text": {
+			"english": "/n Whenever Rebel Rabble Rouser kills a unit, put a Roused Rabble card into your hand."
+		},
+		"attack": 2,
+		"armour": 1,
+		"hp": 3,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10936_0"]
 	}]
 }, {
 	"card_id": 10936,
@@ -7847,7 +8156,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"related_cards": ["10779_0"]
+		"related_cards": ["10779_1"]
 	}]
 }, {
 	"card_id": 10709,
@@ -8246,6 +8555,27 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Incarnation of Selemene"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "U",
+		"image": "10809_0",
+		"miniimage": "10809_0",
+		"cost": 9,
+		"text": {
+			"english": " /n Whenever you play a card or activate an ability in this lane, restore 3 Mana."
+		},
+		"attack": 1,
+		"armour": 0,
+		"hp": 9,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10748,
@@ -8304,7 +8634,7 @@
 		"miniimage": "10748_0",
 		"cost": 2,
 		"text": {
-			"english": "Replace an allied unit. Bounce and gain the unit's attack and health. If the bounced unit is a creep, give it +1 Lock. /n Dopplegangers which replace heroes can cast spells."
+			"english": "Replace an allied unit. Bounce and gain the unit's attack and health. If the bounced unit is a creep, give it +1 Lock. /n Homunculus which replace heroes can cast spells."
 		},
 		"attack": 0,
 		"armour": 0,
@@ -8565,7 +8895,7 @@
 			"miniimage": "10751_0",
 			"cost": 4,
 			"text": {
-				"english": " /n Deploy Resonant Constructs instead of Melee Creeps. /n +1[ATT] when you play a spell or enchantment in any lane."
+				"english": " Deploy Resonant Constructs instead of Melee Creeps. /n +1[ATT] when you play a spell or enchantment in any lane."
 			},
 			"attack": 0,
 			"armour": 0,
@@ -8587,7 +8917,7 @@
 			"miniimage": "10751_0",
 			"cost": 4,
 			"text": {
-				"english": " /n Summon Resonant Constructs instead of Melee Creeps. /n +1[ATT] when you play a spell or enchantment in any lane."
+				"english": " Summon Resonant Constructs instead of Melee Creeps. /n +1[ATT] when you play a spell or enchantment in any lane."
 			},
 			"attack": 0,
 			"armour": 0,
@@ -8609,7 +8939,7 @@
 			"miniimage": "10751_0",
 			"cost": 4,
 			"text": {
-				"english": " /n Summon Resonant Constructs instead of Melee Creeps. /n Whenever you play a spell or enchantment in any lane, gain +1[ATT]."
+				"english": " Summon Resonant Constructs instead of Melee Creeps. /n Whenever you play a spell or enchantment in any lane, gain +1[ATT]."
 			},
 			"attack": 0,
 			"armour": 0,
@@ -8751,7 +9081,7 @@
 		"miniimage": "10800_0",
 		"cost": 6,
 		"text": {
-			"english": "/n Enchant Unit /n Restore 1 Mana after you spend Mana in any lane."
+			"english": "/n Enchant Unit /n /n Restore 1 Mana after you spend Mana in any lane."
 		},
 		"abilities": [],
 		"crosslane": false,
@@ -8769,7 +9099,25 @@
 		"miniimage": "10800_0",
 		"cost": 6,
 		"text": {
-			"english": "/n Enchant Caster /n Restore 1 Mana after you play any card from this lane or activate an ability in this lane."
+			"english": "/n Enchant Caster /n /n Restore 1 Mana after you play any card from this lane or activate an ability in this lane."
+		},
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Essence Font"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "U",
+		"image": "10800_0",
+		"miniimage": "10800_0",
+		"cost": 6,
+		"text": {
+			"english": "/n Enchant Caster /n /n Whenever you play a card or activate an ability in this lane, restore 1 Mana."
 		},
 		"abilities": [],
 		"crosslane": false,
@@ -8893,7 +9241,7 @@
 		"quick": false,
 		"related_cards": ["10967_0"]
 	},{
-		"release_date": "2020-05-25",
+		"release_date": "2020-06-19",
 		"card_type": "Creep",
 		"card_name": {
 			"english": "Thieving Greevil"
@@ -8906,6 +9254,28 @@
 		"cost": 1,
 		"text": {
 			"english": " /n Your Greevils in all lanes have Pillager. /n /n [TG]Cross Lane[ET]"
+		},
+		"attack": 1,
+		"armour": 0,
+		"hp": 1,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10967_0"]
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Thieving Greevil"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "B",
+		"image": "10958_0",
+		"miniimage": "10958_0",
+		"cost": 1,
+		"text": {
+			"english": " /n [TG]Aura:[ET] Your Greevils in all lanes have Pillager. /n /n [TG]Cross Lane[ET]"
 		},
 		"attack": 1,
 		"armour": 0,
@@ -9472,6 +9842,28 @@
 		"crosslane": false,
 		"quick": false,
 		"related_cards": ["10967_0"]
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Spirited Greevil"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "G",
+		"image": "10962_0",
+		"miniimage": "10962_0",
+		"cost": 1,
+		"text": {
+			"english": " [TG]Aura:[ET] Your Greevils in all lanes have +1 Regeneration. /n /n [TG]Cross Lane[ET]"
+		},
+		"attack": 1,
+		"armour": 0,
+		"hp": 1,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10967_0"]
 	}]
 }, {
 	"card_id": 10080,
@@ -9875,6 +10267,27 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Screeching Harpy"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "G",
+		"image": "10957_0",
+		"miniimage": "10957_0",
+		"cost": 5,
+		"text": {
+			"english": "/n [TG]Play Effect:[ET] Move the unit blocking Screeching Harpy to the first empty slot in a random other lane."
+		},
+		"attack": 6,
+		"armour": 0,
+		"hp": 6,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10096,
@@ -10091,7 +10504,25 @@
 		"miniimage": "10778_0",
 		"cost": 2,
 		"text": {
-			"english": "/n Enchant Tower /n Your blocked heroes have +1[ATT] per charge. Add a charge after you play a [TRed]red card[ET]."
+			"english": "/n Enchant Tower /n /n Your blocked heroes have +1[ATT] per charge. Add a charge after you play a [TRed]red card[ET]."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Path of the Bold"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "R",
+		"image": "10778_0",
+		"miniimage": "10778_0",
+		"cost": 2,
+		"text": {
+			"english": "/n Enchant Tower /n /n Your blocked heroes have +1[ATT] per charge. Whenever you play a [TRed]red card[ET], add one charge."
 		},
 		"crosslane": false,
 		"quick": false
@@ -10212,7 +10643,7 @@
 		"miniimage": "10776_0",
 		"cost": 2,
 		"text": {
-			"english": "/n Enchant Tower /n After you play a blue card, deal 1 piercing damage to a random enemy with the least health."
+			"english": "/n Enchant Tower /n /n After you play a blue card, deal 1 piercing damage to a random enemy with the least health."
 		},
 		"crosslane": false,
 		"quick": false
@@ -10230,7 +10661,7 @@
 		"miniimage": "10776_0",
 		"cost": 2,
 		"text": {
-			"english": "/n Enchant Tower /n Whenever you play a blue card, deal 1 piercing damage to a random enemy with the least health."
+			"english": "/n Enchant Tower /n /n Whenever you play a blue card, deal 1 piercing damage to a random enemy with the least health."
 		},
 		"crosslane": false,
 		"quick": false
@@ -10488,7 +10919,7 @@
 		"miniimage": "10775_0",
 		"cost": 2,
 		"text": {
-			"english": "/n Enchant Tower /n The enemy tower has -1[AR] per charge. /n Add a charge after you play a black card."
+			"english": "/n Enchant Tower /n /n The enemy tower has -1[AR] per charge. /n Add a charge after you play a black card."
 		},
 		"crosslane": false,
 		"quick": false
@@ -10506,7 +10937,7 @@
 		"miniimage": "10775_0",
 		"cost": 2,
 		"text": {
-			"english": "/n Enchant Tower /n The enemy tower has -1[AR] per charge. /nWhenever you play a black card, add one charge."
+			"english": "/n Enchant Tower /n /n The enemy tower has -1[AR] per charge. /nWhenever you play a black card, add one charge."
 		},
 		"crosslane": false,
 		"quick": false
@@ -10671,7 +11102,7 @@
 		"miniimage": "10185_0",
 		"cost": 6,
 		"text": {
-			"english": "/n Enchant Tower /n [TG]Active 1[AC], 1 Mana:[ET] Deal 4 piercing damage to a unit in any lane. /n [TG]Cross Lane[ET]"
+			"english": "/n Enchant Tower /n /n [TG]Active 1[AC], 1 Mana:[ET] Deal 4 piercing damage to a unit in any lane. /n [TG]Cross Lane[ET]"
 		},
 		"crosslane": true,
 		"quick": false
@@ -10692,7 +11123,25 @@
 		"miniimage": "10777_0",
 		"cost": 2,
 		"text": {
-			"english": "/n Enchant Tower /n After you play a green card, give this tower +2[HP] permanently."
+			"english": "/n Enchant Tower /n /n After you play a green card, give this tower +2[HP] permanently."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Path of the Dreamer"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "G",
+		"image": "10777_0",
+		"miniimage": "10777_0",
+		"cost": 2,
+		"text": {
+			"english": "/n Enchant Tower /n /n Whenever you play a green card, give this tower +2[HP] permanently."
 		},
 		"crosslane": false,
 		"quick": false
@@ -11704,7 +12153,7 @@
 		},
 		"crosslane": true,
 		"quick": false,
-		"related_cards": ["10935_0"]
+		"related_cards": ["10935_1"]
 	}]
 }, {
 	"card_id": 10171,
@@ -12862,6 +13311,28 @@
 		"related_cards": ["10336_0"],
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Summon",
+		"card_name": {
+			"english": "Terrapin Channeler"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "U",
+		"image": "10935_0",
+		"miniimage": "PH",
+		"cost": 2,
+		"text": {
+			"english": "/n Can cast spells. /n /n Whenever Terrapin Channeler enters a lane, disarm it."
+		},
+		"attack": 2,
+		"armour": 0,
+		"hp": 3,
+		"abilities": [],
+		"related_cards": ["10336_0"],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10822,
@@ -13129,6 +13600,24 @@
 		},
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "In Full Bloom"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "G",
+		"image": "11059_0",
+		"miniimage": "11059_0",
+		"cost": 4,
+		"text": {
+			"english": " /n Enchant Tower. /n Mulch. /n /n [TG]Round Start: [ET] Give allied units +1 temporary health."
+		},
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 11060,
@@ -13147,6 +13636,24 @@
 		"cost": 3,
 		"text": {
 			"english": "/n Enchant Tower /n /n [TG]Aura: [ET] When an allied unit in this lane dies give a random enemy +1 decay until their next combat."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Plague Hex"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "B",
+		"image": "11060_0",
+		"miniimage": "11060_0",
+		"cost": 3,
+		"text": {
+			"english": "/n Enchant Tower /n /n [TG]Aura: [ET] Whenever an allied unit dies, give a random enemy +1 decay until their next combat."
 		},
 		"crosslane": false,
 		"quick": false

@@ -46,6 +46,18 @@
                 "text":{
                     "english":"When Wraith King uses a death shield, heal to full and give enemies -2[ATT] for their next combat. /n [TG]Deploy:[ET] Gain a death shield."
                 }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Reincarnation"
+                },
+                "cooldown": 0,
+                "image": "210002_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever Wraith King uses a death shield, heal to full and give enemies -2[ATT] for their next combat. /n [TG]Deploy:[ET] Gain a death shield."
+                }
             }
         ]
     },
@@ -224,6 +236,18 @@
                 "cost": 0,
                 "text":{
                     "english":"Active [AC]3, 1 Mana: Each unit pointing at Keefe the Bold battles itself."
+                }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Stop Hittin' Yourself"
+                 },
+                "cooldown": 0,
+                "image": "210011_0",
+                "cost": 0,
+                "text":{
+                    "english":"Active [AC]3, 1 Mana: Each unit with Keefe the Bold as their combat target battles itself."
                 }
             }
         ]
@@ -1068,10 +1092,9 @@
                 "image": "210049_0",
                 "cost": 1,
                 "text":{
-                    "english":"[TG]Active 4[AC], 1 Mana:[ET] Move up to 4 slots away in any lane. Stun and deal 1 damage to the new adjacent enemies /n [TG]Cross Lane[ET]"
+                    "english":"[TG]Active 4[AC], 1 Mana:[ET] Move up to 4 slots away in any lane. Stun and deal 1 damage to the new adjacent enemies. /n [TG]Cross Lane[ET]"
                 }
-            },
-            {
+            },{
                 "release_date":"2020-06-02",
                 "ability_type":"Active",
                 "ability_name":{
@@ -1081,7 +1104,19 @@
                 "image": "210049_0",
                 "cost": 1,
                 "text":{
-                    "english":"[TG]Active 4[AC], 1 Mana:[ET] Move up to 5 slots away in any lane. Stun and deal 1 damage to the new adjacent enemies /n [TG]Cross Lane[ET]"
+                    "english":"[TG]Active 4[AC], 1 Mana:[ET] Move up to 5 slots away in any lane. Stun and deal 1 damage to the new adjacent enemies. /n [TG]Cross Lane[ET]"
+                }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Burrowstrike"
+                 },
+                "cooldown": 4,
+                "image": "210049_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 4[AC], 1 Mana:[ET] Move up to range 5. Stun and deal 1 damage to the new adjacent enemies. /n [TG]Cross Lane[ET]"
                 }
             }
         ]
@@ -1170,6 +1205,18 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]After Combat:[ET] Summon a Plague Ward into the closest position."
+                }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Venomous Nature"
+                 },
+                "cooldown": 2,
+                "image": "210053_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]After Combat:[ET] Summon a Plague Ward into the closest slot."
                 }
             }
         ]
@@ -1866,8 +1913,7 @@
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] Transform to a Dragon for one round. /n When you deal battle damage to towers or units in dragon form, give them +3 Decay for 3 rounds."
                 }
-            },
-            {
+            },{
                 "release_date":"2020-06-12",
                 "ability_type":"Active",
                 "ability_name":{
@@ -1878,6 +1924,18 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] Transform to a Dragon for one round. /n When you deal battle damage to towers or units in dragon form, give them +3 Decay for three rounds."
+                }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Dragon Form"
+                 },
+                "cooldown": 3,
+                "image": "210080_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Transform to a Dragon for one round. /n Whenever Dragon Knight deals battle damage to towers or units in Dragon Form, give them +3 Decay for three rounds."
                 }
             }
         ]
