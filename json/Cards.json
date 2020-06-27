@@ -1237,7 +1237,7 @@
 			}
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"image": "10782_0",
 		"miniimage": "10782_0",
 		"cost": 1,
@@ -1268,7 +1268,7 @@
 			}
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"image": "10782_0",
 		"miniimage": "10782_0",
 		"cost": 1,
@@ -3191,7 +3191,7 @@
 			}
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"image": "10260_0",
 		"miniimage": "10260_0",
 		"cost": 1,
@@ -3216,7 +3216,7 @@
 			"english": "Honor Guard"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "R",
 		"image": "10610_0",
 		"miniimage": "10610_0",
@@ -3237,7 +3237,7 @@
 			"english": "Honor Guard"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "R",
 		"image": "10610_0",
 		"miniimage": "10610_0",
@@ -3458,7 +3458,7 @@
 			"english": "Beastmaster"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "R",
 		"image": "10029_0",
 		"miniimage": "10029_0",
@@ -3476,7 +3476,7 @@
 			"english": "Beastmaster"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "R",
 		"image": "10029_0",
 		"miniimage": "10029_0",
@@ -3494,7 +3494,7 @@
 			"english": "Beastmaster"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "R",
 		"image": "10029_0",
 		"miniimage": "10029_0",
@@ -3541,7 +3541,7 @@
 			"english": "Primal Roar"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "R",
 		"cost": 3,
 		"image": "10293_0",
@@ -3714,7 +3714,7 @@
 			"english": "Omniknight"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "G",
 		"image": "10044_0",
 		"miniimage": "10044_0",
@@ -3734,7 +3734,7 @@
 			"english": "Repel"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "G",
 		"cost": 1,
 		"image": "10348_0",
@@ -3755,7 +3755,7 @@
 			"english": "Pierpont"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "U",
 		"image": "10658_0",
 		"miniimage": "10658_0",
@@ -3772,7 +3772,7 @@
 			"english": "Pierpont"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "U",
 		"image": "10658_0",
 		"miniimage": "10658_0",
@@ -3792,7 +3792,7 @@
 			"english": "Sapphire Archon"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "U",
 		"cost": 6,
 		"image": "10662_0",
@@ -3875,7 +3875,7 @@
 			"english": "Rix, Oathbound"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "C",
 		"image": "10663_0",
 		"miniimage": "10663_0",
@@ -3892,7 +3892,7 @@
 			"english": "Rix, Oathbound"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "C",
 		"image": "10663_0",
 		"miniimage": "10663_0",
@@ -3913,7 +3913,7 @@
 			"english": "The Twisted Path"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "C",
 		"image": "10666_0",
 		"miniimage": "10666_0",
@@ -3968,7 +3968,7 @@
 			"english": "Rubick"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "U",
 		"image": "10668_0",
 		"miniimage": "10668_0",
@@ -3988,7 +3988,7 @@
 			"english": "Spell Steal"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "U",
 		"image": "10670_0",
 		"miniimage": "10670_0",
@@ -4006,7 +4006,7 @@
 			"english": "Spell Steal"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "U",
 		"image": "10670_0",
 		"miniimage": "10670_0",
@@ -4103,7 +4103,7 @@
 			"english": "Underlord"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "G",
 		"image": "10678_0",
 		"miniimage": "10678_0",
@@ -4120,7 +4120,7 @@
 			"english": "Underlord"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "G",
 		"image": "10678_0",
 		"miniimage": "10678_0",
@@ -4140,7 +4140,7 @@
 			"english": "Atrophy Aura"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "G",
 		"image": "10700_0",
 		"miniimage": "10700_0",
@@ -4158,7 +4158,7 @@
 			"english": "Atrophy Aura"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "G",
 		"image": "10700_0",
 		"miniimage": "10700_0",
@@ -4272,7 +4272,7 @@
 			"english": "Vanessa"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "U",
 		"image": "10701_0",
 		"miniimage": "10701_0",
@@ -4289,7 +4289,7 @@
 			"english": "Vanessa"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "U",
 		"image": "10701_1",
 		"miniimage": "10701_1",
@@ -4309,7 +4309,7 @@
 			"english": "Void Theft"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "U",
 		"image": "10703_0",
 		"miniimage": "10703_0",
@@ -4332,7 +4332,7 @@
 			"english": "Eidolon"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "C",
 		"cost": 1,
 		"image": "10735_0",
@@ -4500,7 +4500,7 @@
 			"english": "Tidehunter"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "R",
 		"image": "10024_0",
 		"miniimage": "10024_0",
@@ -4517,7 +4517,7 @@
 			"english": "Tidehunter"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "R",
 		"image": "10024_0",
 		"miniimage": "10024_0",
@@ -4537,7 +4537,7 @@
 			"english": "Gush"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "R",
 		"image": "10975_0",
 		"miniimage": "10975_0",
@@ -4558,7 +4558,7 @@
 			"english": "Tiny"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "R",
 		"image": "10940_0",
 		"miniimage": "10940_0",
@@ -4575,7 +4575,7 @@
 			"english": "Tiny"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "R",
 		"image": "10940_0",
 		"miniimage": "10940_0",
@@ -4592,7 +4592,7 @@
 			"english": "Tiny"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "R",
 		"image": "10940_0",
 		"miniimage": "10940_0",
@@ -4612,7 +4612,7 @@
 			"english": "Toss"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "R",
 		"image": "10942_0",
 		"miniimage": "10942_0",
@@ -4630,7 +4630,7 @@
 			"english": "Toss"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "R",
 		"image": "10942_0",
 		"miniimage": "10942_0",
@@ -4651,7 +4651,7 @@
 			"english": "Tusk"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "R",
 		"image": "10674_0",
 		"miniimage": "10674_0",
@@ -4668,7 +4668,7 @@
 			"english": "Tusk"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "R",
 		"image": "10674_0",
 		"miniimage": "10674_0",
@@ -4707,7 +4707,7 @@
 			"english": "Ice Shards"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "R",
 		"image": "10676_0",
 		"miniimage": "10676_0",
@@ -4777,7 +4777,7 @@
 			"english": "Death Prophet"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "B",
 		"image": "10649_0",
 		"miniimage": "10649_0",
@@ -4794,7 +4794,7 @@
 			"english": "Death Prophet"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "B",
 		"image": "10649_1",
 		"miniimage": "10649_1",
@@ -4814,7 +4814,7 @@
 			"english": "Exorcism"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "B",
 		"image": "10651_0",
 		"miniimage": "10651_0",
@@ -4835,7 +4835,7 @@
 			"english": "Insidious Plot"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "B",
 		"image": "10719_0",
 		"miniimage": "10719_0",
@@ -4978,7 +4978,7 @@
 			"english": "Shadow Fiend"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "B",
 		"image": "10671_0",
 		"miniimage": "10671_0",
@@ -4995,7 +4995,7 @@
 			"english": "Shadow Fiend"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "B",
 		"image": "10671_0",
 		"miniimage": "10671_0",
@@ -5012,7 +5012,7 @@
 			"english": "Shadow Fiend"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "B",
 		"image": "10671_0",
 		"miniimage": "10671_0",
@@ -5032,7 +5032,7 @@
 			"english": "Presence of the Dark Lord"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "B",
 		"image": "10673_0",
 		"miniimage": "10673_0",
@@ -5201,7 +5201,7 @@
 			"english": "Tinker"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "B",
 		"image": "10025_0",
 		"miniimage": "10025_0",
@@ -5245,7 +5245,7 @@
 			"english": "Winter Wyvern"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "B",
 		"image": "10010_0",
 		"miniimage": "10010_0",
@@ -5262,7 +5262,7 @@
 			"english": "Winter Wyvern"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "B",
 		"image": "10010_0",
 		"miniimage": "10010_0",
@@ -5282,7 +5282,7 @@
 			"english": "Winter's Curse"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "B",
 		"image": "10011_0",
 		"miniimage": "10011_0",
@@ -5304,7 +5304,7 @@
 			"english": "Apotheosis Blade"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"image": "10263_0",
 		"miniimage": "10263_0",
 		"cost": 1,
@@ -5477,7 +5477,7 @@
 			"english": "Bracers of Sacrifice"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"image": "10222_0",
 		"miniimage": "10222_0",
 		"cost": 1,
@@ -5499,7 +5499,7 @@
 			"english": "Bracers of Sacrifice"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"image": "10222_0",
 		"miniimage": "10222_0",
 		"cost": 1,
@@ -5816,7 +5816,7 @@
 			"english": "Gem of Truesight"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"image": "11030_0",
 		"miniimage": "11030_0",
 		"cost": 1,
@@ -5838,7 +5838,7 @@
 			"english": "Gem of True Sight"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"image": "11030_0",
 		"miniimage": "11030_0",
 		"cost": 1,
@@ -5863,7 +5863,7 @@
 			"english": "Ghost Scepter"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"image": "11031_0",
 		"miniimage": "11031_0",
 		"cost": 1,
@@ -6232,7 +6232,7 @@
 			"english": "Jasper Daggers"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"image": "10793_0",
 		"miniimage": "10793_0",
 		"cost": 1,
@@ -6427,7 +6427,7 @@
 			"english": "Nullifier"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"image": "11015_0",
 		"miniimage": "11015_0",
 		"cost": 1,
@@ -6452,7 +6452,7 @@
 			"english": "Orchid"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"image": "10727_0",
 		"miniimage": "10727_0",
 		"cost": 1,
@@ -6602,7 +6602,7 @@
 			"english": "Silver Edge"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"image": "11014_0",
 		"miniimage": "11014_0",
 		"cost": 1,
@@ -6627,7 +6627,7 @@
 			"english": "Sorla Khan's Spear"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"image": "10790_0",
 		"miniimage": "10790_0",
 		"cost": 1,
@@ -6652,7 +6652,7 @@
 			"english": "Spirit Vessel"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"image": "11018_0",
 		"miniimage": "11018_0",
 		"cost": 1,
@@ -6674,7 +6674,7 @@
 			"english": "Spirit Vessel"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"image": "11018_0",
 		"miniimage": "11018_0",
 		"cost": 1,
@@ -6893,7 +6893,7 @@
 			"english": "Arc Warden"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "U",
 		"image": "11046_0",
 		"miniimage": "11046_0",
@@ -6913,7 +6913,7 @@
 			"english": "Spark Wraith"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "U",
 		"image": "11049_0",
 		"miniimage": "11049_0",
@@ -7043,7 +7043,7 @@
 			"english": "Imperia"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "U",
 		"image": "10730_0",
 		"miniimage": "10730_0",
@@ -7060,7 +7060,7 @@
 			"english": "Imperia"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "U",
 		"image": "10730_0",
 		"miniimage": "10730_0",
@@ -7077,7 +7077,7 @@
 			"english": "Imperia"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "U",
 		"image": "10730_0",
 		"miniimage": "10730_0",
@@ -7097,7 +7097,7 @@
 			"english": "Conspiracy of Ravens"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "U",
 		"image": "10732_0",
 		"miniimage": "10732_0",
@@ -7119,7 +7119,7 @@
 			"english": "Conspiracy of Ravens"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "U",
 		"image": "10732_0",
 		"miniimage": "10732_0",
@@ -7141,7 +7141,7 @@
 			"english": "Conspiracy of Ravens"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "U",
 		"image": "10732_0",
 		"miniimage": "10732_0",
@@ -7166,7 +7166,7 @@
 			"english": "Kanna"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "U",
 		"image": "10906_0",
 		"miniimage": "10906_0",
@@ -7187,7 +7187,7 @@
 			"english": "Diabolic Conclusion"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "U",
 		"image": "10908_0",
 		"miniimage": "10908_0",
@@ -7335,7 +7335,7 @@
 			"english": "Meepo"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "U",
 		"image": "10004_0",
 		"miniimage": "10004_0",
@@ -7352,7 +7352,7 @@
 			"english": "Meepo"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "U",
 		"image": "10004_0",
 		"miniimage": "10004_0",
@@ -7369,7 +7369,7 @@
 			"english": "Meepo"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "U",
 		"image": "10004_0",
 		"miniimage": "10004_0",
@@ -7389,7 +7389,7 @@
 			"english": "Divided We Stand"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "U",
 		"image": "10005_0",
 		"miniimage": "10005_0",
@@ -7451,7 +7451,7 @@
 			"english": "Dazzle"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "G",
 		"image": "10704_0",
 		"miniimage": "10704_0",
@@ -7472,7 +7472,7 @@
 			"english": "Weave"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "G",
 		"image": "10706_0",
 		"miniimage": "10706_0",
@@ -7494,7 +7494,7 @@
 			"english": "Dragon Knight"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "G",
 		"image": "10982_0",
 		"miniimage": "10982_0",
@@ -7512,7 +7512,7 @@
 			"english": "Dragon Knight"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "G",
 		"image": "10982_0",
 		"miniimage": "10982_0",
@@ -7529,7 +7529,7 @@
 			"english": "Dragon Knight"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "G",
 		"image": "10982_0",
 		"miniimage": "10982_0",
@@ -7546,7 +7546,7 @@
 			"english": "Dragon Knight"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "G",
 		"image": "10982_0",
 		"miniimage": "10982_0",
@@ -7567,7 +7567,7 @@
 			"english": "Dragon Tail"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "G",
 		"image": "11033_0",
 		"miniimage": "11033_0",
@@ -7585,7 +7585,7 @@
 			"english": "Dragon Tail"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "G",
 		"image": "11033_0",
 		"miniimage": "11033_0",
@@ -8110,7 +8110,7 @@
 			"english": "Cursed Satyr"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "R",
 		"image": "10114_0",
 		"miniimage": "10114_0",
@@ -8325,7 +8325,7 @@
 			"english": "Stonehall Conscriptor"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "R",
 		"image": "10601_0",
 		"miniimage": "10601_0",
@@ -8346,7 +8346,7 @@
 			"english": "Stonehall Conscriptor"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "R",
 		"image": "10601_0",
 		"miniimage": "10601_0",
@@ -8536,7 +8536,7 @@
 			"english": "Claddish Archivist"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "U",
 		"image": "10752_0",
 		"miniimage": "10752_0",
@@ -8557,7 +8557,7 @@
 			"english": "Claddish Archivist"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "U",
 		"image": "10752_0",
 		"miniimage": "10752_0",
@@ -8581,7 +8581,7 @@
 			"english": "Incarnation of Selemene"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "U",
 		"image": "10809_0",
 		"miniimage": "10809_0",
@@ -8602,7 +8602,7 @@
 			"english": "Incarnation of Selemene"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "U",
 		"image": "10809_0",
 		"miniimage": "10809_0",
@@ -8626,7 +8626,7 @@
 			"english": "Doppelganger"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "U",
 		"image": "10748_0",
 		"miniimage": "10748_0",
@@ -8647,7 +8647,7 @@
 			"english": "Doppelganger"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "U",
 		"image": "10748_0",
 		"miniimage": "10748_0",
@@ -8668,7 +8668,7 @@
 			"english": "Homunculus"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "U",
 		"image": "10748_0",
 		"miniimage": "10748_0",
@@ -8833,7 +8833,7 @@
 			"english": "Maelrawn Pupate"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "U",
 		"image": "10754_0",
 		"miniimage": "10754_0",
@@ -9067,7 +9067,7 @@
 			"english": "Keenfolk Golem"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "U",
 		"image": "10095_0",
 		"miniimage": "10095_0",
@@ -9334,7 +9334,7 @@
 			"english": "Arclight Elemental"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "B",
 		"image": "10759_0",
 		"miniimage": "10759_0",
@@ -9356,7 +9356,7 @@
 			"english": "Arclight Elemental"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "B",
 		"image": "10759_0",
 		"miniimage": "10759_0",
@@ -9474,7 +9474,7 @@
 			"english": "Infernal Ally"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "B",
 		"image": "10619_0",
 		"miniimage": "10619_0",
@@ -9662,7 +9662,7 @@
 			"english": "Tyler Estate Censor"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "B",
 		"image": "10078_0",
 		"miniimage": "10078_0",
@@ -9683,7 +9683,7 @@
 			"english": "Tyler Estate Censor"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "B",
 		"image": "10078_0",
 		"miniimage": "10078_0",
@@ -9707,7 +9707,7 @@
 			"english": "Berserker of the Abyssm"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "B",
 		"image": "10600_0",
 		"miniimage": "10600_0",
@@ -9731,7 +9731,7 @@
 			"english": "Ravenhook"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "B",
 		"image": "10115_0",
 		"miniimage": "10115_0",
@@ -9752,7 +9752,7 @@
 			"english": "Ravenhook"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "B",
 		"image": "10115_0",
 		"miniimage": "10115_0",
@@ -9776,7 +9776,7 @@
 			"english": "Abyssm Flesh Render"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "B",
 		"image": "10716_0",
 		"miniimage": "10716_0",
@@ -10200,7 +10200,7 @@
 			"english": "Champion of the Ancient"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "G",
 		"image": "10133_0",
 		"miniimage": "10133_0",
@@ -10224,7 +10224,7 @@
 			"english": "Lashvine Creeper"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "G",
 		"image": "10745_0",
 		"miniimage": "10745_0",
@@ -10245,7 +10245,7 @@
 			"english": "Lashvine Creeper"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "G",
 		"image": "10745_0",
 		"miniimage": "10745_0",
@@ -10293,7 +10293,7 @@
 			"english": "Screeching Harpy"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "G",
 		"image": "10957_0",
 		"miniimage": "10957_0",
@@ -10314,7 +10314,7 @@
 			"english": "Screeching Harpy"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "G",
 		"image": "10957_0",
 		"miniimage": "10957_0",
@@ -10338,7 +10338,7 @@
 			"english": "Emissary of the Quorum"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "G",
 		"image": "10096_0",
 		"miniimage": "10096_0",
@@ -10359,7 +10359,7 @@
 			"english": "Emissary of the Quorum"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "G",
 		"image": "10096_0",
 		"miniimage": "10096_0",
@@ -10383,7 +10383,7 @@
 			"english": "Revtel Convoy"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "G",
 		"image": "10091_0",
 		"miniimage": "10091_0",
@@ -10499,7 +10499,7 @@
 			"english": "Nether Ward"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "R",
 		"image": "10173_0",
 		"miniimage": "10173_0",
@@ -10517,7 +10517,7 @@
 			"english": "Nether Ward"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "R",
 		"image": "10173_0",
 		"miniimage": "10173_0",
@@ -10538,7 +10538,7 @@
 			"english": "Path of the Bold"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "R",
 		"image": "10778_0",
 		"miniimage": "10778_0",
@@ -10556,7 +10556,7 @@
 			"english": "Path of the Bold"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "R",
 		"image": "10778_0",
 		"miniimage": "10778_0",
@@ -10577,7 +10577,7 @@
 			"english": "Temple of War"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "R",
 		"image": "10172_0",
 		"miniimage": "10172_0",
@@ -10656,7 +10656,7 @@
 			"english": "Fractured Timeline"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "U",
 		"image": "10148_0",
 		"miniimage": "10148_0",
@@ -10677,7 +10677,7 @@
 			"english": "Path of the Wise"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "U",
 		"image": "10776_0",
 		"miniimage": "10776_0",
@@ -10695,7 +10695,7 @@
 			"english": "Path of the Wise"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "U",
 		"image": "10776_0",
 		"miniimage": "10776_0",
@@ -10851,7 +10851,7 @@
 			"english": "Glyph of Confusion"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "U",
 		"image": "10187_0",
 		"miniimage": "10187_0",
@@ -10872,7 +10872,7 @@
 			"english": "Bitter Enemies"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "B",
 		"image": "10156_0",
 		"miniimage": "10156_0",
@@ -10890,7 +10890,7 @@
 			"english": "Bitter Enemies"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "B",
 		"image": "10156_0",
 		"miniimage": "10156_0",
@@ -11013,7 +11013,7 @@
 			"english": "The Oath"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "B",
 		"image": "10810_0",
 		"miniimage": "10810_0",
@@ -11076,7 +11076,7 @@
 			"english": "The Tyler Estate"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "B",
 		"image": "10154_0",
 		"miniimage": "10154_0",
@@ -11094,7 +11094,7 @@
 			"english": "The Tyler Estate"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "B",
 		"image": "10154_0",
 		"miniimage": "10154_0",
@@ -11257,7 +11257,7 @@
 			"english": "Cheating Death"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "G",
 		"image": "10181_0",
 		"miniimage": "10181_0",
@@ -11299,7 +11299,7 @@
 			"english": "Summoning Circle"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "G",
 		"image": "10604_0",
 		"miniimage": "10604_0",
@@ -11537,7 +11537,7 @@
 			"english": "Unbreakable Column"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "R",
 		"image": "10765_0",
 		"miniimage": "10765_0",
@@ -11634,7 +11634,7 @@
 			"english": "Raze"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "R",
 		"image": "10305_0",
 		"miniimage": "10305_0",
@@ -11691,7 +11691,7 @@
 			"english": "Team Fight"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "R",
 		"image": "10713_0",
 		"miniimage": "10713_0",
@@ -11849,7 +11849,7 @@
 			"english": "A Thousand Cuts"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "B",
 		"image": "10803_0",
 		"miniimage": "10803_0",
@@ -11869,7 +11869,7 @@
 			"english": "Beyond the Veil"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "B",
 		"image": "10974_0",
 		"miniimage": "10974_0",
@@ -11989,7 +11989,7 @@
 			"english": "The Cover of Night"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "B",
 		"image": "10404_0",
 		"miniimage": "10404_0",
@@ -12006,7 +12006,7 @@
 			"english": "The Cover of Night"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "B",
 		"image": "10404_0",
 		"miniimage": "10404_0",
@@ -12123,7 +12123,7 @@
 			"english": "Ramp Bolt"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "U",
 		"image": "10806_0",
 		"miniimage": "10806_0",
@@ -12204,7 +12204,7 @@
 			"english": "Howling Mind"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "U",
 		"image": "10171_0",
 		"miniimage": "10171_0",
@@ -12264,7 +12264,7 @@
 			"english": "Whispers of Madness"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "U",
 		"image": "10422_0",
 		"miniimage": "10422_0",
@@ -12305,7 +12305,7 @@
 			"english": "At Any Cost"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "U",
 		"image": "10424_0",
 		"miniimage": "10424_0",
@@ -12365,7 +12365,7 @@
 			"english": "Objective Vision"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "U",
 		"image": "10805_0",
 		"miniimage": "10805_0",
@@ -12850,7 +12850,7 @@
 			"english": "Soul of Spring"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "G",
 		"image": "10373_0",
 		"miniimage": "10373_0",
@@ -12867,7 +12867,7 @@
 			"english": "Soul of Spring"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "G",
 		"image": "10373_0",
 		"miniimage": "10373_0",
@@ -12887,7 +12887,7 @@
 			"english": "Spriggan Mischief"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "G",
 		"image": "10770_0",
 		"miniimage": "10770_0",
@@ -12948,7 +12948,7 @@
 			"english": "Leech Seed"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "G",
 		"image": "10773_0",
 		"miniimage": "10773_0",
@@ -13025,7 +13025,7 @@
 			"english": "Shifting Loyalties"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "G",
 		"image": "10613_0",
 		"miniimage": "10613_0",
@@ -13140,7 +13140,7 @@
 			"english": "Veteran's Insight"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "R",
 		"image": "10767_0",
 		"miniimage": "10767_0",
@@ -13158,7 +13158,7 @@
 			"english": "Veteran's Insight"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "R",
 		"image": "10767_0",
 		"miniimage": "10767_0",
@@ -13176,7 +13176,7 @@
 			"english": "Veteran's Insight"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "R",
 		"image": "10767_0",
 		"miniimage": "10767_0",
@@ -13464,7 +13464,7 @@
 			"english": "Mana Short"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "U",
 		"image": "10797_0",
 		"miniimage": "10797_0",
@@ -13537,7 +13537,7 @@
 			"english": "Nyx Assassin"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "B",
 		"image": "11056_0",
 		"miniimage": "11056_0",
@@ -13554,7 +13554,7 @@
 			"english": "Nyx Assassin"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "B",
 		"image": "11056_0",
 		"miniimage": "11056_0",
@@ -13571,7 +13571,7 @@
 			"english": "Nyx Assassin"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "B",
 		"image": "11056_0",
 		"miniimage": "11056_0",
@@ -13588,7 +13588,7 @@
 			"english": "Nyx Assassin"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "B",
 		"image": "11056_0",
 		"miniimage": "11056_0",
@@ -13608,7 +13608,7 @@
 			"english": "Spiked Carapace"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "B",
 		"image": "11058_0",
 		"miniimage": "11058_0",
