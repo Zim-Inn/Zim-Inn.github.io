@@ -7180,6 +7180,27 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Marrowfell Brawler"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "R",
+		"image": "10097_0",
+		"miniimage": "10097_0",
+		"cost": 5,
+		"text": {
+			"english": "Whenever Marrowfell Brawler deals battle damage to a unit, give it -1[ATT] permanently. /n [TG]Play Effect:[ET] Marrowfell Brawler battles the enemy blocking it."
+		},
+		"attack": 3,
+		"armour": 0,
+		"hp": 6,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10118,
@@ -7222,6 +7243,27 @@
 		"cost": 3,
 		"text": {
 			"english": "/n When one of your units deals battle damage to an enemy, give it +1[ATT] permanently."
+		},
+		"attack": 2,
+		"armour": 0,
+		"hp": 1,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Smeevil Armsmaster"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "R",
+		"image": "10076_0",
+		"miniimage": "10076_0",
+		"cost": 3,
+		"text": {
+			"english": "/n Whenever one of your units deals battle damage to an enemy, give it +1[ATT] permanently."
 		},
 		"attack": 2,
 		"armour": 0,
@@ -7726,6 +7768,28 @@
 		"cost": 2,
 		"text": {
 			"english": " [TG]Death Effect:[ET] Summon a Zombie into the closest empty position to Relentless Zombie."
+		},
+		"attack": 2,
+		"armour": 0,
+		"hp": 2,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["1009_0"]
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Relentless Zombie"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "U",
+		"image": "10090_0",
+		"miniimage": "10090_0",
+		"cost": 2,
+		"text": {
+			"english": " [TG]Death Effect:[ET] Summon a Zombie into the closest empty slot."
 		},
 		"attack": 2,
 		"armour": 0,
@@ -8438,6 +8502,27 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Pit Fighter of Quoidge"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "B",
+		"image": "10083_0",
+		"miniimage": "10083_0",
+		"cost": 4,
+		"text": {
+			"english": "/n Whenever a neighbor dies, Gain +3[ATT] permanently. "
+		},
+		"attack": 1,
+		"armour": 0,
+		"hp": 6,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10077,
@@ -8463,6 +8548,28 @@
 		"crosslane": false,
 		"quick": false,
 		"related_cards": ["10735_0"]
+	}, {
+		"release_date": "2020-06-26",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Sister of the Void"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "B",
+		"image": "10077_0",
+		"miniimage": "10077_0",
+		"cost": 4,
+		"text": {
+			"english": "Whenever  an ally dies, Summon an Eidolon and remove a charge. /n /n [TG]Charges: 5[ET]"
+		},
+		"attack": 2,
+		"armour": 0,
+		"hp": 3,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10735_0"]
 	}]
 }, {
 	"card_id": 10078,
@@ -8480,6 +8587,27 @@
 		"cost": 4,
 		"text": {
 			"english": "/n After opponent plays a card from this lane, burn 1 of their remaining Mana."
+		},
+		"attack": 1,
+		"armour": 0,
+		"hp": 6,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	}, {
+		"release_date": "2020-06-26",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Tyler Estate Censor"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "B",
+		"image": "10078_0",
+		"miniimage": "10078_0",
+		"cost": 4,
+		"text": {
+			"english": "/n Whenever opponent plays a card from this lane, burn 1 of their remaining Mana."
 		},
 		"attack": 1,
 		"armour": 0,
@@ -9071,6 +9199,27 @@
 		"cost": 6,
 		"text": {
 			"english": "/n [TG]Active 1[AC], 1 Mana:[ET] Give Emissary of the Quorum's allies +2[ATT]/+2[HP] permanently."
+		},
+		"attack": 1,
+		"armour": 0,
+		"hp": 7,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Emissary of the Quorum"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "G",
+		"image": "10096_0",
+		"miniimage": "10096_0",
+		"cost": 6,
+		"text": {
+			"english": "/n [TG]Active 1[AC], 1 Mana:[ET] Give other allies +2[ATT]/+2[HP] permanently."
 		},
 		"attack": 1,
 		"armour": 0,
