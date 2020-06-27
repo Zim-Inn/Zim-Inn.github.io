@@ -10216,6 +10216,24 @@
 		},
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Path of the Wise"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "U",
+		"image": "10776_0",
+		"miniimage": "10776_0",
+		"cost": 2,
+		"text": {
+			"english": "/n Enchant Tower /n Whenever you play a blue card, deal 1 piercing damage to a random enemy with the least health."
+		},
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10194,
@@ -10471,6 +10489,24 @@
 		"cost": 2,
 		"text": {
 			"english": "/n Enchant Tower /n The enemy tower has -1[AR] per charge. /n Add a charge after you play a black card."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Path of the Cunning"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "B",
+		"image": "10775_0",
+		"miniimage": "10775_0",
+		"cost": 2,
+		"text": {
+			"english": "/n Enchant Tower /n The enemy tower has -1[AR] per charge. /nWhenever you play a black card, add one charge."
 		},
 		"crosslane": false,
 		"quick": false
@@ -12640,6 +12676,24 @@
 		"cost": 3,
 		"text": {
 			"english": " /n [TG]Aura:[ET] Allied units randomly gain +1[ATT], [AR] or [HP] permanently after dealing battle damage."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Improvement",
+		"improvement_type": "Reactive",
+		"card_name": {
+			"english": "Veteran's Insight"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "R",
+		"image": "10767_0",
+		"miniimage": "10767_0",
+		"cost": 3,
+		"text": {
+			"english": " /n [TG]Aura:[ET] Whenever allied units deal battle damage, give them +1[ATT], [AR] or [HP] permanently"
 		},
 		"crosslane": false,
 		"quick": false
