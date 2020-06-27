@@ -7,7 +7,7 @@
     },{
         "keyword": "Aura",
         "match": "Aura",
-        "desc": "An effect which applies to units when they enter a specified area and is removed when they leave.",
+        "desc": "An effect which applies to units when they enter a specified area and is removed when they leave. Effects the owner's lane by default.",
         "example": ["10086","11002"]
     },{
         "keyword": "Bounce",
@@ -292,5 +292,10 @@
         "match": "Ephemeral",
         "desc": "Ephemeral cards disappear from your hand at the end of the round.",
         "example": ["10194","10288"]
+    },{
+        "keyword": "Clone",
+        "match": "Clone",
+        "desc": "Summon a copy of this unit.",
+        "example": ["11046"]
     }
 ]
