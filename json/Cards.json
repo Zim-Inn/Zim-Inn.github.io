@@ -266,6 +266,31 @@
 		"hp": 5,
 		"abilities": ["210004_1", "210005_1"],
 		"signature": ["10419_0"]
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Bristleback"
+		},
+		"lore": {
+			"text": {
+				"english": "I never went to some fancy military school to learn how to beat a man half to death... that's what bars were for."
+			},
+			"tag": {
+				"english": "Bristleback, Barfly"
+			}
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "R",
+		"image": "10030_0",
+		"miniimage": "10030_0",
+		"icon": "10030_0",
+		"attack": 4,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210004_2", "210005_1"],
+		"signature": ["10419_0"]
 	}]
 }, {
 	"card_id": 10419,
@@ -294,7 +319,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10030_1"
+		"is_signature": "10030_2"
 	}]
 }, {
 	"card_id": 10056,
@@ -348,6 +373,31 @@
 		"hp": 8,
 		"abilities": ["210006_0"],
 		"signature": ["10117_0"]
+	}, {
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Treant Protector"
+		},
+		"lore": {
+			"text": {
+				"english": "My feelings on the war in roseleaf are... complicated. Neither the bronze legion nor the red mist are threats to my people, and yet my cousins willingly intercede on the Vhoul's behalf. Their fondness for such frail creatures is strange to me, but none the less they call for my aid, and I am compelled to answer."
+			},
+			"tag": {
+				"english": "Rooftrellen, the Treant Protector"
+			}
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "G",
+		"image": "10056_0",
+		"miniimage": "10056_0",
+		"icon": "10056_0",
+		"attack": 2,
+		"armour": 0,
+		"hp": 8,
+		"abilities": ["210006_1"],
+		"signature": ["10117_0"]
 	}]
 }, {
 	"card_id": 10117,
@@ -380,7 +430,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10056_0"
+		"is_signature": "10056_2"
 	}]
 }, {
 	"card_id": 10783,
@@ -1345,6 +1395,31 @@
 		"hp": 5,
 		"abilities": ["210016_0"],
 		"signature": ["10160_0"]
+	}, {
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Ogre Magi"
+		},
+		"lore": {
+			"text": {
+				"english": "'It's not easy being the smartest ogre in the world. There's lots of jealous people out there.'/n'Think about how many people you know with one head.'/n'I bet it's a lot.'/n'Now realize that every single one of them is half as smart as us. Do you know how lonely it is to walk this earth, never finding an intellectual eq-'/n'WE LIKE ROCKS!'/n'Yes...yes we do.' "
+			},
+			"tag": {
+				"english": "Aggron Stonebreak, the Ogre Magi"
+			}
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "U",
+		"image": "10043_0",
+		"miniimage": "10043_0",
+		"icon": "10043_0",
+		"attack": 2,
+		"armour": 2,
+		"hp": 5,
+		"abilities": ["210016_1"],
+		"signature": ["10160_0"]
 	}]
 }, {
 	"card_id": 10160,
@@ -1373,7 +1448,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10043_1"
+		"is_signature": "10043_2"
 	}]
 }, {
 	"card_id": 10721,
@@ -1449,6 +1524,31 @@
 		"hp": 6,
 		"abilities": ["210020_0"],
 		"signature": ["10308_0"]
+	}, {
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Phantom Assassin"
+		},
+		"lore": {
+			"text": {
+				"english": "The Veiled Sisterhood gave me everything. My life. My skills. My family... My very purpose. So when the Veiled Oracles provide me a list of names, I never question what it is I need to do. "
+			},
+			"tag": {
+				"english": "Mortred, the Phantom Assassin"
+			}
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "B",
+		"image": "10047_0",
+		"miniimage": "10047_0",
+		"icon": "10047_0",
+		"attack": 4,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["210020_1"],
+		"signature": ["10308_0"]
 	}]
 }, {
 	"card_id": 10308,
@@ -1477,7 +1577,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10047_1"
+		"is_signature": "10047_2"
 	}]
 }, {
 	"card_id": 10068,
@@ -2306,6 +2406,31 @@
 		"hp": 4,
 		"abilities": ["210038_0"],
 		"signature": ["10193_0"]
+	}, {
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Enchantress"
+		},
+		"lore": {
+			"text": {
+				"english": "Rix. Tresdin. Sorla Khan. You ask any one of them and they will spin you a story about why their cause is just; and every single one of them is wrong. This war is senseless, its cost will be immeasurable, and the only people who will profit are the future historians who'll sell books about the massacre. I can't stop this war from happening... but I will do whatever I can to minimize the damage."
+			},
+			"tag": {
+				"english": "Aiustha, the Enchantress"
+			}
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "G",
+		"image": "10036_0",
+		"miniimage": "10036_0",
+		"icon": "10036_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 4,
+		"abilities": ["210038_1"],
+		"signature": ["10193_0"]
 	}]
 }, {
 	"card_id": 10014,
@@ -2958,7 +3083,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10036_1"
+		"is_signature": "10036_2"
 	}]
 }, {
 	"card_id": 10029,
@@ -4233,6 +4358,23 @@
 		"hp": 6,
 		"abilities": ["210061_0", "210062_0"],
 		"signature": ["10818_0"]
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Necrophos"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "B",
+		"image": "10059_0",
+		"miniimage": "10059_0",
+		"icon": "10059_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["210061_1", "210062_0"],
+		"signature": ["10818_0"]
 	}]
 }, {
 	"card_id": 10818,
@@ -4253,7 +4395,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10059_0"
+		"is_signature": "10059_1"
 	}]
 }, {
 	"card_id": 10671,
@@ -6069,6 +6211,24 @@
 		"abilities": ["210070_1", "210071_0"],
 		"signature": ["10323_0"],
 		"related_cards": ["10980_0"]
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Earthshaker"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "U",
+		"image": "10033_0",
+		"miniimage": "10033_0",
+		"icon": "10033_0",
+		"attack": 1,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["210070_2", "210071_1"],
+		"signature": ["10323_0"],
+		"related_cards": ["10980_0"]
 	}]
 }, {
 	"card_id": 10323,
@@ -6089,7 +6249,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10033_1"
+		"is_signature": "10033_2"
 	}]
 }, {
 	"card_id": 10980,

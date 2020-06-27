@@ -68,6 +68,19 @@
                 },
                 "__comment": "For whatever reason, the effect text is way more descriptive",
                 "__effect_text": "When an anything in any lane deals non-reflected non-battle damage to Bristleback, deal 1 reflected damage to Bristleback's enemy neighbors."
+            },
+            {
+                "release_date":"2020-06-26",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Bristleback"
+                 },
+                "cooldown": 0,
+                "image": "210003_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever Bristleback takes non-battle damage, reduce that damage to 1, then activate Quill Spray."
+                }
             }
         ]
     },
@@ -118,6 +131,18 @@
                 "cost": 0,
                 "text":{
                     "english":"Aura: Treant Protector's allies up to 2 slots away in this lane have +2[AR]."
+                }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Branches of Iron"
+                 },
+                "cooldown": 0,
+                "image": "210006_0",
+                "cost": 0,
+                "text":{
+                    "english":"Aura: Treant Protector's allies in this lane within range 2 have +2[AR]."
                 }
             }
         ]
@@ -296,6 +321,18 @@
                 "text":{
                     "english":"The first blue spell or enchantment you cast from this lane can be repeated this round. 2 round cooldown."
                 }
+            }, {
+                "release_date":"2020-06-26",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Multicast"
+                 },
+                "cooldown": 2,
+                "image": "210016_0",
+                "cost": 0,
+                "text":{
+                    "english":"When you cast a blue spell or enchantment from this lane it can be repeated this round. 2 round cooldown."
+                }
             }
         ]
     },
@@ -352,6 +389,18 @@
                 "cost": 0,
                 "text":{
                     "english":"Double damage when attacking a hero."
+                }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Efficient Killer"
+                 },
+                "cooldown": 0,
+                "image": "210020_0",
+                "cost": 0,
+                "text":{
+                    "english":"Double Phatnom Assassin's damage when attacking a hero."
                 }
             }
         ]
@@ -681,6 +730,19 @@
                 "cost": 0,
                 "text":{
                     "english":"When a unit deals battle damage to Enchantress, it is disarmed for the next combat. When Deployed: Disarm the enemy blocking Enchantress for the next combat."
+                }
+            },
+            {
+                "release_date":"2020-06-26",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Untouchable"
+                 },
+                "cooldown": 0,
+                "image": "210038_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever a unit deals battle damage to Enchantress, it is disarmed for the next combat. When Deployed: Disarm the enemy blocking Enchantress for the next combat."
                 }
             }
         ]
@@ -1175,6 +1237,18 @@
                 "text":{
                     "english":"Restore 1 mana after Necrophos kills a unit."
                 }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Sadist"
+                 },
+                "cooldown": 0,
+                "image": "210061_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever Necrophos kills a unit, restore 1 mana"
+                }
             }
         ]
     },
@@ -1370,6 +1444,19 @@
                 "text":{
                     "english":"Stun Earthshaker's enemies for one action after you play a blue spell or enchantment from this lane."
                 }
+            },
+            {
+                "release_date":"2020-06-26",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Aftershock"
+                 },
+                "cooldown": 0,
+                "image": "210070_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever you play a blue spell or enchantment from this lane, stun Earthshaker's enemies for one action."
+                }
             }
         ]
     },
@@ -1388,6 +1475,19 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] Bounce allies in a line up to 3 slots away and summon Rocks in their place."
+                }
+            },
+            {
+                "release_date":"2020-06-26",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Fissure"
+                 },
+                "cooldown": 3,
+                "image": "210071_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Bounce allies from Earthshaker to a slot in this lane within range 3, then summon Rocks in their place."
                 }
             }
         ]
