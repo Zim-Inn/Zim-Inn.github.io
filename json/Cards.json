@@ -3469,7 +3469,7 @@
 		"abilities": ["210039_0"],
 		"signature": ["10293_0"],
 		"related_cards": ["10136_0"]
-	}, {
+	},{
 		"release_date": "2020-05-25",
 		"card_type": "Hero",
 		"card_name": {
@@ -3484,6 +3484,24 @@
 		"attack": 3,
 		"armour": 0,
 		"hp": 7,
+		"abilities": ["210039_0", "210083_0"],
+		"signature": ["10293_0"],
+		"related_cards": ["10136_0"]
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Beastmaster"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "R",
+		"image": "10029_0",
+		"miniimage": "10029_0",
+		"icon": "10029_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 6,
 		"abilities": ["210039_0", "210083_0"],
 		"signature": ["10293_0"],
 		"related_cards": ["10136_0"]
@@ -3512,7 +3530,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"related_cards": ["10029_1"]
+		"related_cards": ["10029_2"]
 	}]
 }, {
 	"card_id": 10293,
@@ -3533,7 +3551,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10029_1"
+		"is_signature": "10029_2"
 	}]
 }, {
 	"card_id": 10021,
@@ -3916,7 +3934,7 @@
 			"english": "Rubick"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 1,
 		"colour": "U",
 		"image": "10668_0",
 		"miniimage": "10668_0",
@@ -3933,7 +3951,7 @@
 			"english": "Rubick"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 1,
 		"colour": "U",
 		"image": "10668_0",
 		"miniimage": "10668_0",
@@ -6075,6 +6093,28 @@
 		"miniimage": "10224_0",
 		"cost": 1,
 		"gcost": 20,
+		"text": {
+			"english": "/n [TG]+2[AR]/n Active 2[AC], 1 Mana:[ET] Steal an enemy creep."
+		},
+		"attack": 0,
+		"armour": 2,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Item",
+		"card_subtype": "Armor",
+		"card_name": {
+			"english": "Helm of the Dominator"
+		},
+		"set": 1,
+		"rarity": 2,
+		"image": "10224_0",
+		"miniimage": "10224_0",
+		"cost": 1,
+		"gcost": 25,
 		"text": {
 			"english": "/n [TG]+2[AR]/n Active 2[AC], 1 Mana:[ET] Steal an enemy creep."
 		},
