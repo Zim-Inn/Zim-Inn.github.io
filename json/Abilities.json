@@ -138,6 +138,18 @@
                 "text":{
                     "english":"Active [AC]3, 1 Mana: Move Timbersaw up to 5 slots away. Deal 1 damage to each enemy passed on the way. /n [TG]Cross Lane[ET]"
                 }
+            }, {
+                "release_date":"2020-06-26",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Timber Chain"
+                 },
+                "cooldown": 0,
+                "image": "210008_0",
+                "cost": 0,
+                "text":{
+                    "english":"Active [AC]3, 1 Mana: Move up to range 5. Deal 1 damage to each enemy passed on the way. /n [TG]Cross Lane[ET]"
+                }
             }
         ]
     },
@@ -582,6 +594,18 @@
                 "text":{
                     "english":"Aura: Lycan's allies up to 2 slots away in this lane have +2[ATT]."
                 }
+            }, {
+                "release_date":"2020-06-26",
+                "ability_type":"Continous Effect",
+                "ability_name":{
+                    "english":"Feral Impulse"
+                 },
+                "cooldown": 0,
+                "image": "210034_0",
+                "cost": 0,
+                "text":{
+                    "english":"Aura: Lycan's allies within range 2 in this lane have +2[ATT]."
+                }
             }
         ]
     },
@@ -695,6 +719,18 @@
                 "cost": 0,
                 "text":{
                     "english":"Active 3[AC], 1 Mana: Give your units Trample."
+                }
+            }, {
+                "release_date":"2020-06-26",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Stampede"
+                 },
+                "cooldown": 3,
+                "image": "210041_0",
+                "cost": 0,
+                "text":{
+                    "english":"Active 3[AC], 1 Mana: Give Centaur Warrunner and allies Trample."
                 }
             }
         ]
@@ -1001,6 +1037,18 @@
                 "text":{
                     "english":"The first time Tidehunter takes damage each round, purge your opponent's effects from it."
                 }
+            }, {
+                "release_date":"2020-05-25",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Kraken Shell"
+                 },
+                "cooldown": 0,
+                "image": "210055_0",
+                "cost": 0,
+                "text":{
+                    "english":"When Tidehunter takes damage each round, purge your opponent's effects from it. 1 round cooldown."
+                }
             }
         ]
     },
@@ -1019,6 +1067,18 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 5[AC], 1 Mana:[ET] Stun enemy units up to 2 slots away this round."
+                }
+            }, {
+                "release_date":"2020-06-26",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Ravage"
+                 },
+                "cooldown": 0,
+                "image": "210056_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 4[AC], 1 Mana:[ET] Stun enemy units in this lane within range 2."
                 }
             }
         ]
@@ -1248,6 +1308,18 @@
                 "text":{
                     "english":"[TG]Active 2[AC], 1 Mana:[ET] +3[ATT]. Move up to 3 slots. Give +2 Decay to each enemy passed. /n [TG]Cross Lane[ET]"
                 }
+            }, {
+                "release_date":"2020-06-26",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Arctic Burn"
+                 },
+                "cooldown": 2,
+                "image": "210068_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] +3[ATT]. Move up to range 3. Give +2 Decay to each enemy passed. /n [TG]Cross Lane[ET]"
+                }
             }
         ]
     },
@@ -1412,6 +1484,18 @@
                 "text":{
                     "english":"Soulbound. (If one Meepo dies, all your Meepos die)"
                 }
+            }, {
+                "release_date":"2020-06-26",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"United We Fall"
+                 },
+                "cooldown": 0,
+                "image": "210076_0",
+                "cost": 0,
+                "text":{
+                    "english":"If one Meepo dies, all your Meepos die"
+                }
             }
         ]
     },
@@ -1442,6 +1526,18 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 2[AC], 1 Mana:[ET] Move Meepo to an empty position in any allied Meepo's lane. May also stay in place. Deal 2 damage to the new adjacent enemies. /n [TG]Cross Lane[ET] /n [TG][QU]Quickcast[ET]"
+                }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Poof"
+                 },
+                "cooldown": 2,
+                "image": "210077_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Move Meepo to an empty slot in any allied Meepo's lane. May also stay in place. Deal 2 damage to the new adjacent enemies. /n [TG]Cross Lane[ET] /n [TG][QU]Quickcast[ET]"
                 }
             }
         ]
