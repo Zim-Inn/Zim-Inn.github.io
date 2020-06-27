@@ -297,5 +297,10 @@
         "match": "Clone",
         "desc": "Summon a copy of this unit.",
         "example": ["11046"]
+    },{
+        "keyword": "Hex",
+        "match": "Hex",
+        "desc": "Transform a unit into a harmless form that can perform no actions.",
+        "example": ["10930"]
     }
 ]
