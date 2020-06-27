@@ -383,6 +383,18 @@
                 "text":{
                     "english":"After Combat: Summon a Lancer Illusion into the closest position."
                 }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Juxtapose"
+                 },
+                "cooldown": 0,
+                "image": "210019_0",
+                "cost": 0,
+                "text":{
+                    "english":"After Combat: Summon a Lancer Illusion into the closest slot."
+                }
             }
         ]
     },
@@ -772,6 +784,18 @@
                 "cost": 0,
                 "text":{
                     "english":"Aura: When Phantom Lancer is blocked, Phantom Lancer and Lancer Illusions have +1[ATT] and +1[AR]."
+                }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Phantom Rush"
+                 },
+                "cooldown": 1,
+                "image": "210037_0",
+                "cost": 0,
+                "text":{
+                    "english":"Aura: If Phantom Lancer is blocked, Phantom Lancer and Lancer Illusions have +1[ATT] and +1[AR]."
                 }
             }
         ]
@@ -1629,6 +1653,18 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 2[AC], 1 Mana:[ET] Choose a non-item card in your opponent's hand. They discard it then draw 1. /n Give Imperia +Attack equal to the discarded card's Mana cost."
+                }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Skullduggery"
+                 },
+                "cooldown": 2,
+                "image": "210072_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Choose a non-item card in your opponent's hand. They discard it then draw a card. /n Give Imperia +Attack equal to the discarded card's Mana cost."
                 }
             }
         ]
