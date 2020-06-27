@@ -15,6 +15,18 @@
                 "text":{
                     "english":"Active 3[AC], 1 Mana: Move Mirana up to 5 slots away. Give Mirana and new neighbors +2[ATT]. [TG]Cross Lane[ET]"
                 }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Leap"
+                },
+                "cooldown": 3,
+                "image": "210001_0",
+                "cost": 1,
+                "text":{
+                    "english":"Active 3[AC], 1 Mana: Move Mirana up to range 5. Give Mirana and new neighbors +2[ATT]. [TG]Cross Lane[ET]"
+                }
             }
         ]        
     },
@@ -33,6 +45,18 @@
                 "cost": 0,
                 "text":{
                     "english":"When Wraith King uses a death shield, heal to full and give enemies -2[ATT] for their next combat. /n [TG]Deploy:[ET] Gain a death shield."
+                }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Reincarnation"
+                },
+                "cooldown": 0,
+                "image": "210002_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever Wraith King uses a death shield, heal to full and give enemies -2[ATT] for their next combat. /n [TG]Deploy:[ET] Gain a death shield."
                 }
             }
         ]
@@ -68,6 +92,19 @@
                 },
                 "__comment": "For whatever reason, the effect text is way more descriptive",
                 "__effect_text": "When an anything in any lane deals non-reflected non-battle damage to Bristleback, deal 1 reflected damage to Bristleback's enemy neighbors."
+            },
+            {
+                "release_date":"2020-06-26",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Bristleback"
+                 },
+                "cooldown": 0,
+                "image": "210003_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever Bristleback takes non-battle damage, reduce that damage to 1, then activate Quill Spray."
+                }
             }
         ]
     },
@@ -119,6 +156,18 @@
                 "text":{
                     "english":"Aura: Treant Protector's allies up to 2 slots away in this lane have +2[AR]."
                 }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Branches of Iron"
+                 },
+                "cooldown": 0,
+                "image": "210006_0",
+                "cost": 0,
+                "text":{
+                    "english":"Aura: Treant Protector's allies in this lane within range 2 have +2[AR]."
+                }
             }
         ]
     },
@@ -137,6 +186,18 @@
                 "cost": 0,
                 "text":{
                     "english":"Active [AC]3, 1 Mana: Move Timbersaw up to 5 slots away. Deal 1 damage to each enemy passed on the way. /n [TG]Cross Lane[ET]"
+                }
+            }, {
+                "release_date":"2020-06-26",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Timber Chain"
+                 },
+                "cooldown": 0,
+                "image": "210008_0",
+                "cost": 0,
+                "text":{
+                    "english":"Active [AC]3, 1 Mana: Move up to range 5. Deal 1 damage to each enemy passed on the way. /n [TG]Cross Lane[ET]"
                 }
             }
         ]
@@ -175,6 +236,18 @@
                 "cost": 0,
                 "text":{
                     "english":"Active [AC]3, 1 Mana: Each unit pointing at Keefe the Bold battles itself."
+                }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Stop Hittin' Yourself"
+                 },
+                "cooldown": 0,
+                "image": "210011_0",
+                "cost": 0,
+                "text":{
+                    "english":"Active [AC]3, 1 Mana: Each unit with Keefe the Bold as their combat target battles itself."
                 }
             }
         ]
@@ -284,6 +357,18 @@
                 "text":{
                     "english":"The first blue spell or enchantment you cast from this lane can be repeated this round. 2 round cooldown."
                 }
+            }, {
+                "release_date":"2020-06-26",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Multicast"
+                 },
+                "cooldown": 2,
+                "image": "210016_0",
+                "cost": 0,
+                "text":{
+                    "english":"When you cast a blue spell or enchantment from this lane it can be repeated this round. 2 round cooldown."
+                }
             }
         ]
     },
@@ -322,6 +407,18 @@
                 "text":{
                     "english":"After Combat: Summon a Lancer Illusion into the closest position."
                 }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Juxtapose"
+                 },
+                "cooldown": 0,
+                "image": "210019_0",
+                "cost": 0,
+                "text":{
+                    "english":"After Combat: Summon a Lancer Illusion into the closest slot."
+                }
             }
         ]
     },
@@ -340,6 +437,18 @@
                 "cost": 0,
                 "text":{
                     "english":"Double damage when attacking a hero."
+                }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Efficient Killer"
+                 },
+                "cooldown": 0,
+                "image": "210020_0",
+                "cost": 0,
+                "text":{
+                    "english":"Double Phatnom Assassin's damage when attacking a hero."
                 }
             }
         ]
@@ -398,6 +507,18 @@
                 "text":{
                     "english":"[TG]Active 3, 1 Mana:[ET] Move Anti-Mage up to 5 slots away. Deal 1 battle damage to the unit now blocking Anti-Mage. [TG]Cross Lane[ET]."
                 }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Blink Strike"
+                 },
+                "cooldown": 3,
+                "image": "210024_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3, 1 Mana:[ET] Move up to range 5. Deal 1 battle damage to the unit now blocking Anti-Mage. [TG]Cross Lane[ET]."
+                }
             }
         ]
     },
@@ -416,6 +537,18 @@
                 "cost": 0,
                 "text":{
                     "english": "Burn 1 mana when Anti-Mage deals battle damage to an enemy hero before combat."
+                }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Mana Break"
+                 },
+                "cooldown": 0,
+                "image": "210025_0",
+                "cost": 0,
+                "text":{
+                    "english": "Whenever Anti-Mage deals battle damage to an enemy hero before combat, burn 1 mana."
                 }
             }
         ]
@@ -454,6 +587,18 @@
                 "cost": 0,
                 "text":{
                     "english":"Restore 2 mana the first time you play a spell or enchantment in any lane."
+                }
+            }, {
+                "release_date":"2020-06-26",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Arcane Aura"
+                 },
+                "cooldown": 0,
+                "image": "210027_0",
+                "cost": 0,
+                "text":{
+                    "english":"When you play a spell or enchantment from any lane, restore 2 Mana. 1 round cooldown./n[TG]Cross Lane[ET]"
                 }
             }
         ]
@@ -563,6 +708,19 @@
                 "text":{
                     "english":"After battling a unit, heal 3."
                 }
+            },
+            {
+                "release_date":"2020-06-26",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Moment of Courage"
+                 },
+                "cooldown": 0,
+                "image": "210032_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever Legion Commander attacks a unit in battle, heal Legion Commander 3."
+                }
             }
         ]
     },
@@ -581,6 +739,18 @@
                 "cost": 0,
                 "text":{
                     "english":"Aura: Lycan's allies up to 2 slots away in this lane have +2[ATT]."
+                }
+            }, {
+                "release_date":"2020-06-26",
+                "ability_type":"Continous Effect",
+                "ability_name":{
+                    "english":"Feral Impulse"
+                 },
+                "cooldown": 0,
+                "image": "210034_0",
+                "cost": 0,
+                "text":{
+                    "english":"Aura: Lycan's allies within range 2 in this lane have +2[ATT]."
                 }
             }
         ]
@@ -639,6 +809,18 @@
                 "text":{
                     "english":"Aura: When Phantom Lancer is blocked, Phantom Lancer and Lancer Illusions have +1[ATT] and +1[AR]."
                 }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Phantom Rush"
+                 },
+                "cooldown": 1,
+                "image": "210037_0",
+                "cost": 0,
+                "text":{
+                    "english":"Aura: If Phantom Lancer is blocked, Phantom Lancer and Lancer Illusions have +1[ATT] and +1[AR]."
+                }
             }
         ]
     },
@@ -657,6 +839,19 @@
                 "cost": 0,
                 "text":{
                     "english":"When a unit deals battle damage to Enchantress, it is disarmed for the next combat. When Deployed: Disarm the enemy blocking Enchantress for the next combat."
+                }
+            },
+            {
+                "release_date":"2020-06-26",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Untouchable"
+                 },
+                "cooldown": 0,
+                "image": "210038_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever a unit deals battle damage to Enchantress, it is disarmed for the next combat. When Deployed: Disarm the enemy blocking Enchantress for the next combat."
                 }
             }
         ]
@@ -695,6 +890,18 @@
                 "cost": 0,
                 "text":{
                     "english":"Active 3[AC], 1 Mana: Give your units Trample."
+                }
+            }, {
+                "release_date":"2020-06-26",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Stampede"
+                 },
+                "cooldown": 3,
+                "image": "210041_0",
+                "cost": 0,
+                "text":{
+                    "english":"Active 3[AC], 1 Mana: Give Centaur Warrunner and allies Trample."
                 }
             }
         ]
@@ -855,6 +1062,19 @@
                 "text":{
                     "english":"[TG]Active 2[AC], 1 Mana:[ET] Swap an enemy to another position up to three slots away. /n [TG][QU]Quickcast[ET]"
                 }
+            },
+            {
+                "release_date":"2020-06-26",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Telekinesis"
+                 },
+                "cooldown": 2,
+                "image": "210048_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Choose an enemy within range 3. Swap them to a new slot within range 3. /n [TG][QU]Quickcast[ET]"
+                }
             }
         ]
     },
@@ -872,10 +1092,9 @@
                 "image": "210049_0",
                 "cost": 1,
                 "text":{
-                    "english":"[TG]Active 4[AC], 1 Mana:[ET] Move up to 4 slots away in any lane. Stun and deal 1 damage to the new adjacent enemies /n [TG]Cross Lane[ET]"
+                    "english":"[TG]Active 4[AC], 1 Mana:[ET] Move up to 4 slots away in any lane. Stun and deal 1 damage to the new adjacent enemies. /n [TG]Cross Lane[ET]"
                 }
-            },
-            {
+            },{
                 "release_date":"2020-06-02",
                 "ability_type":"Active",
                 "ability_name":{
@@ -885,7 +1104,19 @@
                 "image": "210049_0",
                 "cost": 1,
                 "text":{
-                    "english":"[TG]Active 4[AC], 1 Mana:[ET] Move up to 5 slots away in any lane. Stun and deal 1 damage to the new adjacent enemies /n [TG]Cross Lane[ET]"
+                    "english":"[TG]Active 4[AC], 1 Mana:[ET] Move up to 5 slots away in any lane. Stun and deal 1 damage to the new adjacent enemies. /n [TG]Cross Lane[ET]"
+                }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Burrowstrike"
+                 },
+                "cooldown": 4,
+                "image": "210049_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 4[AC], 1 Mana:[ET] Move up to range 5. Stun and deal 1 damage to the new adjacent enemies. /n [TG]Cross Lane[ET]"
                 }
             }
         ]
@@ -925,6 +1156,18 @@
                 "text":{
                     "english":"Give units who take battle damage from Ursa -1[AR] permanently."
                 }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Fury Swipes"
+                 },
+                "cooldown": 0,
+                "image": "210051_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever Ursa deals battle damage to a unit, give it -1[AR] permanently."
+                }
             }
         ]
     },
@@ -963,6 +1206,18 @@
                 "text":{
                     "english":"[TG]After Combat:[ET] Summon a Plague Ward into the closest position."
                 }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Venomous Nature"
+                 },
+                "cooldown": 2,
+                "image": "210053_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]After Combat:[ET] Summon a Plague Ward into the closest slot."
+                }
             }
         ]
     },
@@ -981,6 +1236,18 @@
                 "cost": 1,
                 "text":{
                     "english":"Deal 1 piercing damage to Zeus's adjacent enemies after you play a blue spell or enchantmess from this lane."
+                }
+            }, {
+                "release_date":"2020-06-26",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Static Field"
+                 },
+                "cooldown": 0,
+                "image": "210054_0",
+                "cost": 1,
+                "text":{
+                    "english":"Whenever you play a blue spell or enchantmess from this lane, deal 1 piercing damage to Zeus's adjacent enemies."
                 }
             }
         ]
@@ -1001,6 +1268,18 @@
                 "text":{
                     "english":"The first time Tidehunter takes damage each round, purge your opponent's effects from it."
                 }
+            }, {
+                "release_date":"2020-06-26",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Kraken Shell"
+                 },
+                "cooldown": 0,
+                "image": "210055_0",
+                "cost": 0,
+                "text":{
+                    "english":"When Tidehunter takes damage each round, purge your opponent's effects from it. 1 round cooldown."
+                }
             }
         ]
     },
@@ -1019,6 +1298,18 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 5[AC], 1 Mana:[ET] Stun enemy units up to 2 slots away this round."
+                }
+            }, {
+                "release_date":"2020-06-26",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Ravage"
+                 },
+                "cooldown": 0,
+                "image": "210056_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 4[AC], 1 Mana:[ET] Stun enemy units in this lane within range 2."
                 }
             }
         ]
@@ -1115,6 +1406,18 @@
                 "text":{
                     "english":"Restore 1 mana after Necrophos kills a unit."
                 }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Sadist"
+                 },
+                "cooldown": 0,
+                "image": "210061_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever Necrophos kills a unit, restore 1 mana"
+                }
             }
         ]
     },
@@ -1172,6 +1475,18 @@
                 "text":{
                     "english":"Shadow Fiend has +1[ATT] per charge. /n Add 1 charge after an adjacent enemy dies. /n [TG]Death Effect:[ET] Halve the charges on Necromastery."
                 }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Necromastery"
+                 },
+                "cooldown": 0,
+                "image": "210064_0",
+                "cost": 0,
+                "text":{
+                    "english":"Shadow Fiend has +1[ATT] per charge. /n Whenever an adjacent enemy dies, add 1 charge. /n [TG]Death Effect:[ET] Halve the charges on Necromastery."
+                }
             }
         ]
     },
@@ -1210,6 +1525,18 @@
                 "text":{
                     "english":"Leave a Static Remnant behind when Storm Spirit moves from a slot."
                 }
+            }, {
+                "release_date":"2020-06-26",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Static Remnant"
+                 },
+                "cooldown": 0,
+                "image": "210066_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever Storm Spirit moves from a slot, summon a Static Remnant in that slot."
+                }
             }
         ]
     },
@@ -1247,6 +1574,18 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 2[AC], 1 Mana:[ET] +3[ATT]. Move up to 3 slots. Give +2 Decay to each enemy passed. /n [TG]Cross Lane[ET]"
+                }
+            }, {
+                "release_date":"2020-06-26",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Arctic Burn"
+                 },
+                "cooldown": 2,
+                "image": "210068_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] +3[ATT]. Move up to range 3. Give +2 Decay to each enemy passed. /n [TG]Cross Lane[ET]"
                 }
             }
         ]
@@ -1298,6 +1637,19 @@
                 "text":{
                     "english":"Stun Earthshaker's enemies for one action after you play a blue spell or enchantment from this lane."
                 }
+            },
+            {
+                "release_date":"2020-06-26",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Aftershock"
+                 },
+                "cooldown": 0,
+                "image": "210070_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever you play a blue spell or enchantment from this lane, stun Earthshaker's enemies for one action."
+                }
             }
         ]
     },
@@ -1317,6 +1669,19 @@
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] Bounce allies in a line up to 3 slots away and summon Rocks in their place."
                 }
+            },
+            {
+                "release_date":"2020-06-26",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Fissure"
+                 },
+                "cooldown": 3,
+                "image": "210071_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Bounce allies from Earthshaker to a slot in this lane within range 3, then summon Rocks in their place."
+                }
             }
         ]
     },
@@ -1335,6 +1700,18 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 2[AC], 1 Mana:[ET] Choose a non-item card in your opponent's hand. They discard it then draw 1. /n Give Imperia +Attack equal to the discarded card's Mana cost."
+                }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Skullduggery"
+                 },
+                "cooldown": 2,
+                "image": "210072_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Choose a non-item card in your opponent's hand. They discard it then draw a card. /n Give Imperia +Attack equal to the discarded card's Mana cost."
                 }
             }
         ]
@@ -1393,6 +1770,18 @@
                 "text":{
                     "english":"The first time you play a blue spell or enchantment from Lina's lane, deal damage to Lina's combat target equal to the number of charges on Fiery Soul and add 1 charge to Fiery Soul."
                 }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Fiery Soul"
+                 },
+                "cooldown": 0,
+                "image": "210075_0",
+                "cost": 0,
+                "text":{
+                    "english":"When you play a blue spell or enchantment from Lina's lane, deal damage to Lina's combat target equal to the number of charges on Fiery Soul and add 1 charge to Fiery Soul. 1 round cooldown."
+                }
             }
         ]
     },
@@ -1411,6 +1800,18 @@
                 "cost": 0,
                 "text":{
                     "english":"Soulbound. (If one Meepo dies, all your Meepos die)"
+                }
+            }, {
+                "release_date":"2020-06-26",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"United We Fall"
+                 },
+                "cooldown": 0,
+                "image": "210076_0",
+                "cost": 0,
+                "text":{
+                    "english":"If one Meepo dies, all your Meepos die"
                 }
             }
         ]
@@ -1442,6 +1843,18 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 2[AC], 1 Mana:[ET] Move Meepo to an empty position in any allied Meepo's lane. May also stay in place. Deal 2 damage to the new adjacent enemies. /n [TG]Cross Lane[ET] /n [TG][QU]Quickcast[ET]"
+                }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Poof"
+                 },
+                "cooldown": 2,
+                "image": "210077_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Move Meepo to an empty slot in any allied Meepo's lane. May also stay in place. Deal 2 damage to the new adjacent enemies. /n [TG]Cross Lane[ET] /n [TG][QU]Quickcast[ET]"
                 }
             }
         ]
@@ -1500,8 +1913,7 @@
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] Transform to a Dragon for one round. /n When you deal battle damage to towers or units in dragon form, give them +3 Decay for 3 rounds."
                 }
-            },
-            {
+            },{
                 "release_date":"2020-06-12",
                 "ability_type":"Active",
                 "ability_name":{
@@ -1512,6 +1924,18 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] Transform to a Dragon for one round. /n When you deal battle damage to towers or units in dragon form, give them +3 Decay for three rounds."
+                }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Dragon Form"
+                 },
+                "cooldown": 3,
+                "image": "210080_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Transform to a Dragon for one round. /n Whenever Dragon Knight deals battle damage to towers or units in Dragon Form, give them +3 Decay for three rounds."
                 }
             }
         ]
