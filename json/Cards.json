@@ -6342,7 +6342,7 @@
 		"cost": 1,
 		"gcost": 25,
 		"text": {
-			"english": "/n +5[ATT]/n when attacking a unit in battle, deal 3 damage to it. Repeat 3 more times: [RP] Jump left or right and deal 3 damage."
+			"english": "/n +5[ATT]/n When attacking a unit in battle, deal 3 damage to it. Repeat 3 more times: [RP] Jump left or right and deal 3 damage."
 		},
 		"attack": 5,
 		"armour": 0,
