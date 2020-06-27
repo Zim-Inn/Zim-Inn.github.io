@@ -3024,6 +3024,27 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Honor Guard"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "R",
+		"image": "10610_0",
+		"miniimage": "10610_0",
+		"cost": 4,
+		"text": {
+			"english": " [TG]Minion:[ET] Honor Guard has +1[ATT] and +1[AR] per neighboring hero. /n [TG]Play Effect:[ET] Taunt."
+		},
+		"attack": 3,
+		"armour": 1,
+		"hp": 3,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10743,
@@ -4690,6 +4711,24 @@
 		"abilities": ["210066_0"],
 		"signature": ["10538_0"],
 		"related_cards": ["10820_0"]
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Storm Spirit"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "B",
+		"image": "10536_0",
+		"miniimage": "10536_0",
+		"icon": "10536_0",
+		"attack": 5,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210066_1"],
+		"signature": ["10538_1"],
+		"related_cards": ["10820_0"]
 	}]
 }, {
 	"card_id": 10538,
@@ -4711,6 +4750,24 @@
 		"crosslane": true,
 		"quick": false,
 		"is_signature": "10536_0"
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Ball Lightning"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "B",
+		"image": "10538_0",
+		"miniimage": "10538_0",
+		"cost": 2,
+		"text": {
+			"english": " /n Move caster to any empty slot in any lane. /n [TG]Cross Lane[ET]"
+		},
+		"crosslane": true,
+		"quick": false,
+		"is_signature": "10536_1"
 	}]
 }, {
 	"card_id": 10820,
@@ -5172,6 +5229,29 @@
 		"gcost": 15,
 		"text": {
 			"english": "/n [TG]+2[AR]/n After Combat:[ET] Summon a Zombie into the closest position"
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["1009_0"]
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Item",
+		"card_subtype": "Armor",
+		"card_name": {
+			"english": "Crown of the Undying"
+		},
+		"set": 1,
+		"rarity": 1,
+		"image": "10628_0",
+		"miniimage": "10628_0",
+		"cost": 1,
+		"gcost": 15,
+		"text": {
+			"english": "/n [TG]+2[AR]/n After Combat:[ET] Summon a Zombie into the closest slot"
 		},
 		"attack": 0,
 		"armour": 0,
@@ -7639,6 +7719,27 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Stonehall Conscriptor"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "R",
+		"image": "10601_0",
+		"miniimage": "10601_0",
+		"cost": 5,
+		"text": {
+			"english": "/n Whenever Stonehall Conscriptor battles a unit, draw the next creep card from your deck. That card has +1[AR] and costs 2 less."
+		},
+		"attack": 3,
+		"armour": 1,
+		"hp": 4,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10605,
@@ -7994,6 +8095,27 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	}, {
+		"release_date": "2020-06-26",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Unstable Elemental"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "U",
+		"image": "10602_0",
+		"miniimage": "10602_0",
+		"cost": 2,
+		"text": {
+			"english": "[TG]Play Effect:[ET] Give Unstable Elemental a Death Shield until death. /n [TG]Active 1[AC], 1 Mana:[ET] Deal 1 damage to all units on both teams."
+		},
+		"attack": 1,
+		"armour": 0,
+		"hp": 1,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10612,
@@ -8202,6 +8324,27 @@
 		"cost": 4,
 		"text": {
 			"english": "/n When Wall of Secrets takes damage: draw a card."
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 6,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Wall of Secrets"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "U",
+		"image": "10614_0",
+		"miniimage": "10614_0",
+		"cost": 4,
+		"text": {
+			"english": "/n Whenever Wall of Secrets takes damage: draw a card."
 		},
 		"attack": 0,
 		"armour": 0,
@@ -10520,6 +10663,23 @@
 		},
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Iron Sharpens Iron"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "R",
+		"image": "10608_0",
+		"miniimage": "10608_0",
+		"cost": 3,
+		"text": {
+			"english": " Enchant Caster /n /nWhenever this hero is damaged, gain +1[ATT] permanently./n /n[TG]Round Start: [ET]Take one piercing damage."
+		},
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10768,
@@ -10577,6 +10737,23 @@
 		"cost": 5,
 		"text": {
 			"english": " /n Deploy one of your heroes at random from the fountain to the first empty position."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Back For More"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "R",
+		"image": "10618_0",
+		"miniimage": "10618_0",
+		"cost": 5,
+		"text": {
+			"english": " /n Deploy one of your heroes at random from the fountain to the first empty slot."
 		},
 		"crosslane": false,
 		"quick": false

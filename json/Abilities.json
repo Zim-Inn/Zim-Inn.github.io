@@ -1393,6 +1393,18 @@
                 "text":{
                     "english":"Leave a Static Remnant behind when Storm Spirit moves from a slot."
                 }
+            }, {
+                "release_date":"2020-06-26",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Static Remnant"
+                 },
+                "cooldown": 0,
+                "image": "210066_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever Storm Spirit moves from a slot, summon a Static Remnant in that slot."
+                }
             }
         ]
     },
