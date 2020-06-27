@@ -2655,6 +2655,35 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Ogre Corpse Tosser"
+		},
+		"lore": {
+			"text": {
+				"english": "Friends said throwing dead bodies was hobby, not real job. Who's laughing now? Not friends. I kill them for not supporting my dream."
+			},
+			"tag": {
+				"english": "Lommett, Ogre Corpse Tosser"
+			}
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "B",
+		"image": "10103_0",
+		"miniimage": "10103_0",
+		"cost": 4,
+		"text": {
+			"english": "Whenever an ally dies, deal 1 piercing damage to the enemy tower."
+		},
+		"attack": 1,
+		"armour": 0,
+		"hp": 7,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10717,
@@ -7226,6 +7255,27 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Hellbear Crippler"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "R",
+		"image": "10118_0",
+		"miniimage": "10118_0",
+		"cost": 2,
+		"text": {
+			"english": "Whenever Hellbear Crippler deals battle damage to a unit, give it -1[AR] permanently. /n [TG]Play Effect:[ET] Hellbear Crippler battles the enemy blocking it."
+		},
+		"attack": 2,
+		"armour": 0,
+		"hp": 3,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10076,
@@ -7436,6 +7486,27 @@
 		"cost": 5,
 		"text": {
 			"english": " Pillager, Trample /n After damaging a tower, Summon a Red Mist Pillager into the closest position."
+		},
+		"attack": 3,
+		"armour": 0,
+		"hp": 2,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	}, {
+		"release_date": "2020-06-26",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Red Mist Pillager"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "R",
+		"image": "10132_0",
+		"miniimage": "10132_0",
+		"cost": 5,
+		"text": {
+			"english": " Pillager, Trample /n After damaging a tower, Summon a Red Mist Pillager into the closest slot."
 		},
 		"attack": 3,
 		"armour": 0,
@@ -9342,6 +9413,24 @@
 		},
 		"crosslane": false,
 		"quick": false
+	}, {
+		"release_date": "2020-06-26",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Nether Ward"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "R",
+		"image": "10173_0",
+		"miniimage": "10173_0",
+		"cost": 2,
+		"text": {
+			"english": "/n Enchant Tower /n Whenever your opponent plays a card from this lane, deal 1 piercing damage to their tower and burn 1 of their mana."
+		},
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10778,
@@ -9541,6 +9630,24 @@
 		},
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Watchtower"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "U",
+		"image": "10194_0",
+		"miniimage": "10194_0",
+		"cost": 2,
+		"text": {
+			"english": " Enchant Tower /n /n [TG]Play Effect:[ET] Copy a random card from your deck. It is blue, ephemeral, and can only be played from this lane. /n /n Whenever your opponent plays a spell or enchantment in this lane, repeat this effect."
+		},
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10175,
@@ -9559,6 +9666,24 @@
 		"cost": 4,
 		"text": {
 			"english": "/n Enchant Tower /n The first time you play a card from this lane each round, restore 3 Mana."
+		},
+		"crosslane": false,
+		"quick": false
+	}, {
+		"release_date": "2020-06-26",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Aghanim's Sanctum"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "U",
+		"image": "10175_0",
+		"miniimage": "10175_0",
+		"cost": 4,
+		"text": {
+			"english": "/n Enchant Tower /n When you play a card from this lane, restore 3 Mana./n/n1 round cooldown."
 		},
 		"crosslane": false,
 		"quick": false
@@ -9625,6 +9750,24 @@
 		},
 		"crosslane": false,
 		"quick": false
+	}, {
+		"release_date": "2020-06-26",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Bitter Enemies"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "B",
+		"image": "10156_0",
+		"miniimage": "10156_0",
+		"cost": 1,
+		"text": {
+			"english": "/n Enchant Tower /n /n [TG]Combat:[ET] Deal 1 damage to bother towers per charge, then add a charge."
+		},
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10161,
@@ -9642,7 +9785,7 @@
 		"miniimage": "10161_0",
 		"cost": 1,
 		"text": {
-			"english": "/n Enchant Tower /n /n [TG]Combat:[ET] Deal 2 piercing damage to the enemy tower."
+			"english": "/n Enchant Tower /n [TG]Combat:[ET] Deal 2 piercing damage to the enemy tower."
 		},
 		"crosslane": false,
 		"quick": false
@@ -9790,6 +9933,24 @@
 		"cost": 3,
 		"text": {
 			"english": "/n Enchant Tower /n After a player plays a card from this lane, burn 2 of their Mana."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "The Tyler Estate"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "B",
+		"image": "10154_0",
+		"miniimage": "10154_0",
+		"cost": 3,
+		"text": {
+			"english": "/n Enchant Tower /n Whenever any player plays a card from this lane, burn 2 of their Mana."
 		},
 		"crosslane": false,
 		"quick": false
