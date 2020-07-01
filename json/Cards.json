@@ -3357,7 +3357,7 @@
 		"text": {
 			"english": " /n Pillager /n [TG]Play Effect:[ET] Deal 2 damage to the enemy tower."
 		},
-		"attack": 2,
+		"attack": 3,
 		"armour": 0,
 		"hp": 2,
 		"abilities": [],
