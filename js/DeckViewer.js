@@ -15,6 +15,7 @@ const LoadDeckFunc = function( skipHistory) {
     document.getElementById('DeckViewerDeckOuterContainer').style.display = "block";
     document.getElementById('DeckCodeInputContainer').style.display = "none";
     document.getElementById('DeckCodeErrorContainer').style.display = "none";
+    document.getElementById('DeckExamplesOuterContainer').style.display = "none";
 
     let DecodedDeck;
     try {
@@ -307,9 +308,81 @@ const LoadDeckFunc = function( skipHistory) {
     } else { //Invalid code, or some other error. Should probably put an error message here or something :-)
         document.getElementById('DeckCodeInputContainer').style.display = "block";
         document.getElementById('DeckCodeErrorContainer').style.display = "block";
+        document.getElementById('DeckViewerDeckOuterContainer').style.display = "block";
         document.getElementById('DeckViewerDeckOuterContainer').style.display = "none";
     }
 }
+
+const LoadDeckExamples = () => {
+    console.log("CALLED THIS THING");
+    const containerHTML = document.getElementById("DeckExamplesOuterContainer");
+    containerHTML.innerHTML = "";
+
+    if (!DeckCodesJSON || !DeckCodesJSON.length) {
+        containerHTML.style.display = "none";
+    }
+
+    let DeckExamplesInnerHTML = "";
+    DeckCodesJSON.forEach((entry, index) => {
+        // Setup
+        let DecodedDeck;
+        try {
+            if(!entry.code){
+                throw "No Code Provided"
+            }
+            DecodedDeck = CArtifactDeckDecoder.ParseDeck(entry.code);
+        } catch (error) {
+            console.error("Bad example deck code on index " + index, entry);
+            console.error("With Error", error)
+            return;
+        }
+        if(!DecodedDeck){
+            return;
+        }
+
+        // Render
+        DeckExamplesInnerHTML += `
+        <div class="DeckExampleContainer">
+            <div class="DeckExampleHeader">
+                <span>Title: ${DecodedDeck.name}</span>
+                <span>Share Button?</span>
+            </div>
+            <div class="DeckExampleContents">
+                <div class="DeckExampleHeroPortraits">
+                    <span>Hero Portraits: ${DecodedDeck.heroes.map(hero => hero.id).toString()}</span>
+                </div>
+                ${entry.description 
+                    ? 
+                    `
+                        <div class="DeckExampleDescription">
+                            <span>${entry.description}</span>
+                        </div>
+                    `
+                    : ""
+                }
+                <div class="DeckExampleOtherInfo">
+                    ${entry.creator && `
+                        <div>
+                            <span>Creator: ${entry.creator}</span>
+                        </div>
+                    `}
+                    ${entry.submitter && `
+                        <div>
+                            <span>Submitter: ${entry.submitter}</span>
+                        </div>
+                    `}
+                    ${entry.video && `
+                        <div>
+                            <span>Video: ${entry.video}</span>
+                        </div>
+                    `}
+                </div>
+            </div>
+        </div>
+        `;
+    });
+    containerHTML.innerHTML = DeckExamplesInnerHTML;
+};
 
 let alreadyRestoringShareButton = false;
 const restoreShareButtonWithDelay = () => {
@@ -348,6 +421,8 @@ window.onpopstate = (event) => {
         document.getElementById('DeckCodeInputField').value = "";
         document.getElementById('DeckCodeInputContainer').style.display = "block";
         document.getElementById('DeckCodeErrorContainer').style.display = "block";
+        document.getElementById('DeckExamplesOuterContainer').style.display = "block";
         document.getElementById('DeckViewerDeckOuterContainer').style.display = "none";
+        LoadDeckExamples();
     }
 };

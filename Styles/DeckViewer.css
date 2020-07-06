@@ -64,6 +64,36 @@
     padding: 0 0.5%;
 }
 
+#DeckExamplesOuterContainer {
+    background-color: rgba(29, 31, 44, 0.4);
+    box-shadow: 0 2px 4px black;
+    padding: 2.5%;
+}
+.DeckExampleContainer{
+    border: 3px red solid;
+}
+.DeckExampleHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 3px blue solid;
+}
+.DeckExampleContents{
+    border: 3px limegreen solid;
+}
+.DeckExampleHeroPortraits{
+    border: 3px orange solid;
+}
+.DeckExampleDescription{
+    border: 3px orange solid;
+}
+.DeckExampleOtherInfo{
+    border: 3px orange solid;
+}
+.DeckExampleContainer:not(:last-child) {
+    margin-bottom: 25px;
+  }
+
 #DeckViewerDeckOuterContainer {
     display: none;
     font-family: "Radiance", sans-serif;

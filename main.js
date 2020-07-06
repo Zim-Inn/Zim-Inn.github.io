@@ -68,11 +68,26 @@ const InitialisePage = function(Page) {
         };
         req.send();
     });
+    let p4 = new Promise(function(resolve, reject) {
+        var req = new XMLHttpRequest();
+        req.open("GET", 'json/DeckCodes.json', true);
+        req.onreadystatechange = function() {
+           if (req.readyState == XMLHttpRequest.DONE ) {
+              if (req.status == 200) {
+                  resolve(req.response);
+              } else {
+                  reject(Error(req.statusText));    
+              }
+           }
+        };
+        req.send();
+    });
 
-    Promise.all([p1,p2,p3]).then(responses => {
+    Promise.all([p1,p2,p3,p4]).then(responses => {
         CardJSON = JSON.parse(responses[0]);
         AbilityJSON = JSON.parse(responses[1]);
         KeywordsJSON = JSON.parse(responses[2]);
+        DeckCodesJSON = JSON.parse(responses[3]);
 
         if (Page == "CardBrowser") {
             GenerateCardListCardBrowser();
@@ -86,6 +101,8 @@ const InitialisePage = function(Page) {
             if (getURLParams(document.location.href).d) {
                 document.getElementById('DeckCodeInputField').value = getURLParams(document.location.href).d;
                 LoadDeckFunc();
+            } else {
+                LoadDeckExamples()
             }
         } else if (Page == "DeckBuilder") {
             InitialiseDeckBuilder();
