@@ -1686,8 +1686,8 @@
 		"icon": "10721_0",
 		"attack": 4,
 		"armour": 0,
-		"hp": 4,
-		"abilities": ["210019_1", "210037_1"],
+		"hp": 3,
+		"abilities": ["210019_2", "210037_1"],
 		"related_cards": ["10723_2"],
 		"signature": ["10724_0"]
 	}]
@@ -1702,8 +1702,8 @@
 		"set": 1,
 		"rarity": 2,
 		"colour": "R",
-		"image": "PH2",
-		"miniimage": "PH",
+		"image": "10724_0",
+		"miniimage": "10724_0",
 		"cost": 3,
 		"text": {
 			"english": "/n Move caster to a neighboring slot. Replace it with a Lancer Illusion."

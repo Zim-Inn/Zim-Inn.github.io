@@ -419,6 +419,18 @@
                 "text":{
                     "english":"After Combat: Summon a Lancer Illusion into the closest slot."
                 }
+            },{
+                "release_date":"2020-06-26",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Juxtapose"
+                 },
+                "cooldown": 0,
+                "image": "210019_2",
+                "cost": 0,
+                "text":{
+                    "english":"After Combat: Summon a Lancer Illusion into the closest slot."
+                }
             }
         ]
     },
@@ -2101,7 +2113,7 @@
                     "english":"Great Fortitude"
                  },
                 "cooldown": 0,
-                "image": "PH",
+                "image": "10497_0",
                 "cost": 0,
                 "text":{
                     "english":"Centaur Warrunner's stats cannot be reduced except by damage."
