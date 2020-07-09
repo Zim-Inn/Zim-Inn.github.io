@@ -2089,5 +2089,24 @@
                 }
             }
         ]
+    },
+    {
+        "card_id":10497,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-07-09",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Great Fortitude"
+                 },
+                "cooldown": 0,
+                "image": "PH",
+                "cost": 0,
+                "text":{
+                    "english":"Centaur Warrunner's stats cannot be reduced except by damage."
+                }
+            }
+        ]
     }
 ]

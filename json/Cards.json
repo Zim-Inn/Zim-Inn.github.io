@@ -976,6 +976,7 @@
 	}]
 }, {
 	"card_id": 10631,
+	"hide_from_card_list": "Removed",
 	"versions": [{
 		"release_date": "2020-05-04",
 		"card_type": "Item",
@@ -991,6 +992,29 @@
 		"gcost": 10,
 		"text": {
 			"english": "/n /n Summon a Revtel Mercenary."
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10642_0"]
+	},{
+		"release_date": "2020-07-09",
+		"card_type": "Item",
+		"card_subtype": "Consumable",
+		"card_name": {
+			"english": "Revtel Mercenary Contract"
+		},
+		"set": 1,
+		"rarity": 3,
+		"image": "10631_0",
+		"miniimage": "10631_0",
+		"cost": 1,
+		"gcost": 10,
+		"text": {
+			"english": "/n TEMPORARILY REMOVED FROM THE GAME."
 		},
 		"attack": 0,
 		"armour": 0,
@@ -1648,6 +1672,46 @@
 		"hp": 4,
 		"abilities": ["210019_1", "210037_1"],
 		"signature": ["10723_1"]
+	},{
+		"release_date": "2020-07-09",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Phantom Lancer"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "R",
+		"image": "10721_0",
+		"miniimage": "10721_0",
+		"icon": "10721_0",
+		"attack": 4,
+		"armour": 0,
+		"hp": 4,
+		"abilities": ["210019_1", "210037_1"],
+		"related_cards": ["10723_2"],
+		"signature": ["10724_0"]
+	}]
+}, {
+	"card_id": 10724,
+	"versions": [{
+		"release_date": "2020-07-09",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Illusion Confusion"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "R",
+		"image": "PH2",
+		"miniimage": "PH",
+		"cost": 3,
+		"text": {
+			"english": "/n Move caster to a neighboring slot. Replace it with a Lancer Illusion."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10721_2",
+		"related_cards": ["10723_2"]
 	}]
 }, {
 	"card_id": 10047,
@@ -3138,6 +3202,28 @@
 		"is_signature": "10721_1",
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-07-09",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Lancer Illusion"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "R",
+		"image": "10723_0",
+		"miniimage": "10723_0",
+		"cost": 3,
+		"text": {
+			"english": "/n[TG]After Combat:[ET] Summon a Lancer Illusion into the closest slot."
+		},
+		"attack": 2,
+		"armour": 0,
+		"hp": 1,
+		"abilities": [],
+		"related_cards": ["10721_2","10724_0"],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10102,
@@ -3606,6 +3692,23 @@
 		"hp": 9,
 		"abilities": ["210041_1"],
 		"signature": ["10292_0"]
+	}, {
+		"release_date": "2020-07-09",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Centaur Warrunner"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "R",
+		"image": "10021_0",
+		"miniimage": "10021_0",
+		"icon": "10021_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 9,
+		"abilities": ["210041_1","10497_0"],
+		"signature": ["10292_0"]
 	}]
 }, {
 	"card_id": 10292,
@@ -3626,7 +3729,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10021_2"
+		"is_signature": "10021_3"
 	}]
 }, {
 	"card_id": 10755,
@@ -5905,6 +6008,7 @@
 	}]
 }, {
 	"card_id": 10967,
+	"hide_from_card_list": "Removed",
 	"versions": [{
 		"release_date": "2020-05-25",
 		"card_type": "Item",
@@ -5920,6 +6024,29 @@
 		"gcost": 10,
 		"text": {
 			"english": " /n /n Summon a random Greevil."
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10966_0", "10960_2", "10961_1", "10965_0", "10964_1", "10959_1", "10958_2", "10963_0", "10962_2"]
+	},{
+		"release_date": "2020-09-07",
+		"card_type": "Item",
+		"card_subtype": "Consumable",
+		"card_name": {
+			"english": "Greevil Egg"
+		},
+		"set": 1,
+		"rarity": 1,
+		"image": "10967_0",
+		"miniimage": "10967_0",
+		"cost": 1,
+		"gcost": 10,
+		"text": {
+			"english": " /n TEMPORARILY REMOVED FROM THE GAME."
 		},
 		"attack": 0,
 		"armour": 0,
@@ -7176,7 +7303,7 @@
 		"hp": 7,
 		"abilities": ["210073_0", "210074_0"],
 		"signature": ["10908_0"],
-		"related_cards": ["10909_0"]
+		"related_cards": ["10909_1"]
 	}]
 }, {
 	"card_id": 10908,
@@ -7211,6 +7338,28 @@
 		"set": 1,
 		"rarity": 2,
 		"colour": "B",
+		"cost": 1,
+		"image": "10909_0",
+		"miniimage": "10909_0",
+		"text": {
+			"english": " /n /n Devour. Trample."
+		},
+		"attack": 2,
+		"armour": 0,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10906_0"]
+	},{
+		"release_date": "2020-07-09",
+		"card_type": "Summon",
+		"card_name": {
+			"english": "Hound of War"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "U",
 		"cost": 1,
 		"image": "10909_0",
 		"miniimage": "10909_0",
@@ -10527,6 +10676,24 @@
 		},
 		"crosslane": false,
 		"quick": false
+	}, {
+		"release_date": "2020-06-26",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Nether Ward"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "R",
+		"image": "10173_0",
+		"miniimage": "10173_0",
+		"cost": 2,
+		"text": {
+			"english": "/n Enchant Tower /n Whenever your opponent plays a non-item card from this lane, deal 1 piercing damage to their tower and burn 1 of their mana."
+		},
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10778,
@@ -13035,6 +13202,23 @@
 		},
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-07-09",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Shifting Loyalties"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "G",
+		"image": "10613_0",
+		"miniimage": "10613_0",
+		"cost": 4,
+		"text": {
+			"english": " /n Swap one of your creeps with an enemy creep. Swap their colors."
+		},
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10142,
@@ -13471,6 +13655,23 @@
 		"cost": 4,
 		"text": {
 			"english": " /n Deal damage equal to the enemy player's current Mana."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-07-09",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Mana Short"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "U",
+		"image": "10797_0",
+		"miniimage": "10797_0",
+		"cost": 4,
+		"text": {
+			"english": " /n Deal damage to a unit equal to the enemy player's current Mana."
 		},
 		"crosslane": false,
 		"quick": false
