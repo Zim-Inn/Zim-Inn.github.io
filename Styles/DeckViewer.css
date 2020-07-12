@@ -19,6 +19,7 @@
     font-family: "Radiance", sans-serif;
 }
 #DeckCodeInputTitle{
+    margin-top: 12px;
     color: #eee;
     font-size: 16pt;
 }
@@ -65,34 +66,48 @@
 }
 
 #DeckExamplesOuterContainer {
+    margin-top: 12px;
     background-color: rgba(29, 31, 44, 0.4);
     box-shadow: 0 2px 4px black;
     padding: 2.5%;
 }
-.DeckExampleContainer{
-    border: 3px red solid;
+.DeckExampleContainer {
+    box-shadow: -4px 3px 4px black;
 }
-.DeckExampleHeader{
+.DeckExampleHeader {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background: rgb(61,31,105);
+    background: linear-gradient(90deg, rgba(61,31,105,1) 0%, rgba(42,0,42,0.1) 100%);
+
+    font-size: 20pt;
+    font-weight: bold;
+    padding: 8px 12px;
+    color: #eee;
+}
+.DeckExampleHeaderButtons {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 3px blue solid;
 }
-.DeckExampleContents{
-    border: 3px limegreen solid;
+.DeckExampleHeaderButtons > button:not(:last-child) {
+    margin-right: 8px;
 }
-.DeckExampleHeroPortraits{
-    border: 3px orange solid;
+.DeckExampleContents {
+    padding: 8px 12px;
 }
-.DeckExampleDescription{
-    border: 3px orange solid;
+.DeckExampleHeroPortraits {
 }
-.DeckExampleOtherInfo{
-    border: 3px orange solid;
+.DeckExampleDescription {
+}
+.DeckExampleOtherInfo {
 }
 .DeckExampleContainer:not(:last-child) {
     margin-bottom: 25px;
-  }
+}
 
 #DeckViewerDeckOuterContainer {
     display: none;

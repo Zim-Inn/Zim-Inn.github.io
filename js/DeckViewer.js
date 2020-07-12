@@ -10,8 +10,8 @@ const ViewDiffDeckButton = function() {
     document.getElementById('DeckCodeInputContainer').style.display = "block";
 }
 
-const LoadDeckFunc = function( skipHistory) {
-    const DeckCodeToLoad = document.getElementById('DeckCodeInputField').value;
+const LoadDeckFunc = function( skipHistory, deckCode) {
+    const DeckCodeToLoad = deckCode || document.getElementById('DeckCodeInputField').value;
     document.getElementById('DeckViewerDeckOuterContainer').style.display = "block";
     document.getElementById('DeckCodeInputContainer').style.display = "none";
     document.getElementById('DeckCodeErrorContainer').style.display = "none";
@@ -344,38 +344,68 @@ const LoadDeckExamples = () => {
         DeckExamplesInnerHTML += `
         <div class="DeckExampleContainer">
             <div class="DeckExampleHeader">
-                <span>Title: ${DecodedDeck.name}</span>
-                <span>Share Button?</span>
+                <span>${DecodedDeck.name}</span>
+                <div class="DeckExampleHeaderButtons">
+                    <button 
+                        class="ArtifactButtonSmall" 
+                        onmousemove="ShowTextTooltip(1, 'Copies the URL for this deck to the clipboard');"
+                        onmouseout="ShowTextTooltip(0,0);" 
+                        onmouseup="ShareDeckExample('${entry.code}')"
+                        type="button" 
+                    >
+                        SHARE
+                    </button>
+                    <button 
+                        class="ArtifactButtonSmall" 
+                        onmousemove="ShowTextTooltip(1, 'View this deck');"
+                        onmouseout="ShowTextTooltip(0,0);" 
+                        onmouseup="LoadDeckFunc(false, '${entry.code}')"
+                        type="button" 
+                    >
+                        VIEW
+                    </button>
+                </div>
             </div>
             <div class="DeckExampleContents">
                 <div class="DeckExampleHeroPortraits">
-                    <span>Hero Portraits: ${DecodedDeck.heroes.map(hero => hero.id).toString()}</span>
+                    <span>Hero Portraits: ${DecodedDeck.heroes
+                        .map((hero) => hero.id)
+                        .toString()}</span>
                 </div>
-                ${entry.description 
-                    ? 
-                    `
+                ${
+                    entry.description
+                        ? `
                         <div class="DeckExampleDescription">
                             <span>${entry.description}</span>
                         </div>
                     `
-                    : ""
+                        : ""
                 }
                 <div class="DeckExampleOtherInfo">
-                    ${entry.creator && `
+                    ${
+                        entry.creator &&
+                        `
                         <div>
                             <span>Creator: ${entry.creator}</span>
                         </div>
-                    `}
-                    ${entry.submitter && `
+                    `
+                    }
+                    ${
+                        entry.submitter &&
+                        `
                         <div>
                             <span>Submitter: ${entry.submitter}</span>
                         </div>
-                    `}
-                    ${entry.video && `
+                    `
+                    }
+                    ${
+                        entry.video &&
+                        `
                         <div>
                             <span>Video: ${entry.video}</span>
                         </div>
-                    `}
+                    `
+                    }
                 </div>
             </div>
         </div>
@@ -383,6 +413,19 @@ const LoadDeckExamples = () => {
     });
     containerHTML.innerHTML = DeckExamplesInnerHTML;
 };
+
+const ShareDeckExample = ( deckCode ) => {
+    const shareURL = document.location.href.split("?")[0] + "?d=" + deckCode;
+    const copyText = document.getElementById("hiddenClipboard");
+    copyText.value = shareURL;
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+    try {
+        document.execCommand("copy");
+    } catch (err) {
+        console.error("Oops, unable to copy");
+    }
+}
 
 let alreadyRestoringShareButton = false;
 const restoreShareButtonWithDelay = () => {
