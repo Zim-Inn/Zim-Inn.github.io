@@ -737,7 +737,7 @@
 		"colour": "B",
 		"image": "11007_0",
 		"miniimage": "11007_0",
-		"cost": 3,
+		"cost": 2,
 		"text": {
 			"english": " /n /n Deal 2 damage to a unit and give it Feeble."
 		},
@@ -2115,7 +2115,7 @@
 		"colour": "R",
 		"image": "10330_0",
 		"miniimage": "10330_0",
-		"cost": 5,
+		"cost": 3,
 		"text": {
 			"english": " /n Caster gains +3 attack permanently."
 		},
@@ -2141,7 +2141,7 @@
 		"colour": "R",
 		"image": "10330_0",
 		"miniimage": "10330_0",
-		"cost": 5,
+		"cost": 3,
 		"text": {
 			"english": " /n Caster gains +3 attack permanently."
 		},
