@@ -71,8 +71,15 @@
     box-shadow: 0 2px 4px black;
     padding: 2.5%;
 }
+#DeckExamplesOuterContainer h2 {
+    text-align: center;
+    margin-top: 0;
+}
 .DeckExampleContainer {
     box-shadow: -4px 3px 4px black;
+}
+.DeckExampleContainer:not(:last-child) {
+    margin-bottom: 25px;
 }
 .DeckExampleHeader {
     display: flex;
@@ -97,16 +104,56 @@
     margin-right: 8px;
 }
 .DeckExampleContents {
-    padding: 8px 12px;
+    padding: 14px 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
-.DeckExampleHeroPortraits {
+.DeckExampleStats {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.DeckExampleDescription {
+.DeckExampleGeneralInfo {
+    flex: 2;
+    padding-left: 20px;
 }
-.DeckExampleOtherInfo {
+.DeckExampleStats .DeckExampleHeroPortraits{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
-.DeckExampleContainer:not(:last-child) {
-    margin-bottom: 25px;
+.DeckExampleHeroPortraits .HeroIconContainer {
+    box-shadow: inset 2px 2px 6px black;
+    width: 60px;
+    height: 60px;
+}
+.DeckExampleHeroPortraits .HeroIconContainer img {
+    width: 100%;
+}
+.DeckExampleStats .DeckExampleDeckStatistics {
+    display: flex;
+    flex-direction: row;
+}
+.DeckExampleGeneralInfo .DeckExampleDescription span{
+
+}
+.DeckExampleGeneralInfo .DeckCreditLine, .DeckExampleGeneralInfo .DeckMediaLine{
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+}
+.DeckExampleGeneralInfo .DeckCreditLine .DeckCreditLabel{
+    font-size: 12pt;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.DeckExampleGeneralInfo .DeckCreditLine .DeckCreditText{
+    margin-right: 15px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #DeckViewerDeckOuterContainer {

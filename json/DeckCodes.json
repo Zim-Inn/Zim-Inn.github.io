@@ -1,30 +1,46 @@
 [
     {
         "code": "RTFACTJaARNLgCQIDABMAFqrsCrwGUkpWHgxBCgUW1ArcCiYGMawZDYgxNT29wcyEgQWxsIE1lZXBvcy4_",
-        "description": "A deck with 5 meepos seen in a single campaign challenge",
+        "description": "A deck with 5 meepos seen in a single player challenge",
         "creator": "Valve",
         "submitter": "",
-        "video": ""
+        "media": {
+            "video": ""
+        }
+    },
+    {
+        "code": "RTFACTJaARNLgCQIDABMAFqrsCrwGUkpWHgxBCgUW1ArcCiYGMawZDYgxNT29wcyEgQWxsIE1lZXBvcy4_",
+        "description": "A really long description A really long description A really long description A really long description A really long description A really long description A really long description ",
+        "creator": "Valve",
+        "submitter": "",
+        "media": {
+            "video": ""
+        }
     },
     {
         "code": "RTFACTJVgRvrgCwwVnAcwEOxyguwKbhIK4AZdLiQ2jAbEDKBI3Ao9NZWRkbGVzb21lIEdyZWVucw__",
         "description": "A mono-green deck seen in a single player challenge",
         "creator": "Valve",
         "submitter": "",
-        "video": ""
+        "media": {
+            "video": ""
+        }
     },
     {
         "code": "RTFACTJV4QZLkCgeIUBMsFLwGnuwK1Ap+jAbELgUJhBJqCogZ1AUhNLiBPbmUgUHVuY2ggTWFu",
         "description": "Centaur and Tusk come up with a devious plan to smash down towers in a single hit",
         "creator": "Swellzong",
         "submitter": "Some other guy",
-        "video": "Some Link"
+        "media": {
+            "youtube": "Youtube Link",
+            "twitch": "Twitch Link",
+            "link": "Generic Link"
+        }
     },
     {
         "code": "RTFACTJd0WKrkCzARVsRLLBbu7AolSiEd5AVACR3sDfwdSA6gDinwBU0FOVFVSSUMgUml4ZW5vdXMgTWFzcw__",
         "description": "Aggressive Rapid Deployment deck",
         "creator": "NineHDmg",
-        "submitter": "",
-        "video": ""
+        "submitter": ""
     }
 ]
