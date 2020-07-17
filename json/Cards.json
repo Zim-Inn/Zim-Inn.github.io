@@ -4722,7 +4722,7 @@
 		"image": "10789_0",
 		"miniimage": "10789_0",
 		"text": {
-			"english": " Feeble. /n [TG]Round Start:[ET] Deal 2 piercing damage to a random adjacent enemy. If there are no adjacent enemies, deal 2 piercing damage to the enemy tower instead. "
+			"english": " Feeble. /n /n [TG]Round Start:[ET] Deal 2 piercing damage to a random adjacent enemy. If there are no adjacent enemies, deal 2 piercing damage to the enemy tower instead.                     "
 		},
 		"attack": 1,
 		"armour": 0,
@@ -9562,7 +9562,7 @@
 		"miniimage": "10137_0",
 		"cost": 4,
 		"text": {
-			"english": " /n Satyr Magician has +Attack equal to half your unspent Mana. /n /n [TG]Active 1[AC], 1 Mana:[ET] Restore 4 Mana."
+			"english": " Satyr Magician has +Attack equal to half your unspent Mana. /n /n [TG]Active 1[AC], 1 Mana:[ET] Restore 4 Mana."
 		},
 		"attack": 1,
 		"armour": 0,
