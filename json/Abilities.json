@@ -833,6 +833,18 @@
                 "text":{
                     "english":"Aura: If Phantom Lancer is blocked, Phantom Lancer and Lancer Illusions have +1[ATT] and +1[AR]."
                 }
+            },{
+                "release_date":"2020-07-16",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Phantom Rush"
+                 },
+                "cooldown": 1,
+                "image": "210037_0",
+                "cost": 0,
+                "text":{
+                    "english":"Aura: If Phantom Lancer is blocked, Phantom Lancer and allied Lancer Illusions have +1[ATT] and +1[AR]."
+                }
             }
         ]
     },
@@ -1725,6 +1737,18 @@
                 "text":{
                     "english":"[TG]Active 2[AC], 1 Mana:[ET] Choose a non-item card in your opponent's hand. They discard it then draw a card. /n Give Imperia +Attack equal to the discarded card's Mana cost."
                 }
+            },{
+                "release_date":"2020-07-16",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Skullduggery"
+                 },
+                "cooldown": 2,
+                "image": "210072_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Discard a non-item card in either player's hand. That player draws another card, and it is revealed to you."
+                }
             }
         ]
     },
@@ -1887,6 +1911,18 @@
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] Steal an enemy creep."
                 }
+            },{
+                "release_date":"2020-07-16",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Holy Persuasion"
+                 },
+                "cooldown": 3,
+                "image": "210078_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Steal an enemy creep. Give it +2[ATT] and +2[HP] permanently."
+                }
             }
         ]
     },
@@ -1905,6 +1941,18 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 2[AC], 1 Mana:[ET] Repeat 4 times: [RP] Heal a damaged ally 1 and deal 1 damage to the closest adjacent enemy. Jump left or right to a damaged ally."
+                }
+            },{
+                "release_date":"2020-07-16",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Shadow Wave"
+                 },
+                "cooldown": 2,
+                "image": "210079_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Repeat 4 times: [RP] Give an ally +1 temporary health and deal 1 damage to its closest adjacent enemy. Jump left or right to the ally with the least health."
                 }
             }
         ]
@@ -2117,6 +2165,37 @@
                 "cost": 0,
                 "text":{
                     "english":"Centaur Warrunner's stats cannot be reduced except by damage."
+                }
+            },{
+                "release_date":"2020-07-16",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Great Fortitude"
+                 },
+                "cooldown": 0,
+                "image": "10497_0",
+                "cost": 0,
+                "text":{
+                    "english":"Centaur Warrunner ignores negative Attack, Armor, and Health effects."
+                }
+            }
+        ]
+    },
+    {
+        "card_id":11064,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-07-16",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Plans Within Plans"
+                 },
+                "cooldown": 0,
+                "image": "PH",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever you reveal an opponent's card, give Imperia +[ATT] for two rounds equal to its Mana cost."
                 }
             }
         ]
