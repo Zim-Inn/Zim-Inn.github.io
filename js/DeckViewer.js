@@ -10,7 +10,6 @@ const ViewDiffDeckButton = function () {
     document.getElementById("DeckCodeInputContainer").style.display = "block";
 };
 
-
 // ---------
 // Deck data treatment functions
 // ---------
@@ -76,7 +75,11 @@ const getCardDataFromDecoded = (decodedDeck) => {
                     ][0];
                 SigIDV = SigIDV.split("_");
                 SigID = SigIDV[0];
-                decodedDeck["cards"].push({ id: SigID, count: 3,heroicon: HeroIconForSignature });
+                decodedDeck["cards"].push({
+                    id: SigID,
+                    count: 3,
+                    heroicon: HeroIconForSignature,
+                });
             } else {
                 // Lina, right?
                 for (
@@ -93,7 +96,11 @@ const getCardDataFromDecoded = (decodedDeck) => {
                         ][sc];
                     SigIDV = SigIDV.split("_");
                     SigID = SigIDV[0];
-                    decodedDeck["cards"].push({ id: SigID, count: 1,heroicon: HeroIconForSignature });
+                    decodedDeck["cards"].push({
+                        id: SigID,
+                        count: 1,
+                        heroicon: HeroIconForSignature,
+                    });
                 }
             }
         } else {
@@ -101,14 +108,15 @@ const getCardDataFromDecoded = (decodedDeck) => {
             break;
         }
     }
-    
+
+    // Add each deck to cardData
     for (let i = 0; i < decodedDeck["cards"].length; i++) {
         const DDCardID = decodedDeck["cards"][i].id;
         const DDCardCount = decodedDeck["cards"][i].count;
         let DDHeroIcon = decodedDeck["cards"][i]["heroicon"] || "";
 
         const CardArrayIndex = findCardJSONIndexFromID(DDCardID);
-        
+
         if (CardArrayIndex != -1) {
             const LatestCardVersion =
                 CardJSON[CardArrayIndex]["versions"].length - 1;
@@ -118,7 +126,9 @@ const getCardDataFromDecoded = (decodedDeck) => {
                 ];
             if (CardType == "Item") {
                 cardData.ItemDeck.push(CardJSON[CardArrayIndex]);
-                cardData.ItemDeck[cardData.ItemDeck.length - 1]["count"] = DDCardCount;
+                cardData.ItemDeck[cardData.ItemDeck.length - 1][
+                    "count"
+                ] = DDCardCount;
             } else {
                 cardData.MainDeck.push(CardJSON[CardArrayIndex]);
                 cardData.MainDeck[cardData.MainDeck.length - 1][
@@ -139,9 +149,9 @@ const getCardDataFromDecoded = (decodedDeck) => {
         }
     }
 
+    // Sort the Decks
     cardData.MainDeck = OrderCardList(0, cardData.MainDeck, 0);
     cardData.ItemDeck = OrderCardList(0, 0, cardData.ItemDeck);
-    
 
     return cardData;
 };
@@ -164,46 +174,55 @@ const getDeckStats = (cardData) => {
             C: new Array(8).fill(0),
         },
         TotalItems: 0,
-        TotalCards: 0
+        TotalCards: 0,
     };
 
-    if(!cardData || !cardData.ItemDeck || !cardData.MainDeck){
-        console.error("Serious issue with constructing cardData", cardData)
+    if (!cardData || !cardData.ItemDeck || !cardData.MainDeck) {
+        console.error("Serious issue with constructing cardData", cardData);
         return deckStats;
     }
 
     // Items
-    cardData.ItemDeck.forEach( (item, index) => {
-        if(!item.versions || !item.versions.length) {
-            console.error("Issue with item in cardData.ItemDeck. Index: " + index, item);
-            console.error("Seriously, this shouldn't happen!")
+    cardData.ItemDeck.forEach((item, index) => {
+        if (!item.versions || !item.versions.length) {
+            console.error(
+                "Issue with item in cardData.ItemDeck. Index: " + index,
+                item
+            );
+            console.error("Seriously, this shouldn't happen!");
             return deckStats;
         }
         const latestVersion = item.versions[item.versions.length - 1];
 
         // add count
-        for(let i = 0; i < item.count; i++){
+        for (let i = 0; i < item.count; i++) {
             deckStats.CardTypeCounts[latestVersion.card_subtype]++;
             deckStats.TotalItems++;
         }
-    })
+    });
 
-    // Main Deck 
-    cardData.MainDeck.forEach( (card, index) => {
-        if(!card.versions || !card.versions.length) {
-            console.error("Issue with card in cardData.CardDeck. Index: " + index, card);
-            console.error("Seriously, this shouldn't happen!")
+    // Main Deck
+    cardData.MainDeck.forEach((card, index) => {
+        if (!card.versions || !card.versions.length) {
+            console.error(
+                "Issue with card in cardData.CardDeck. Index: " + index,
+                card
+            );
+            console.error("Seriously, this shouldn't happen!");
             return deckStats;
         }
         const latestVersion = card.versions[card.versions.length - 1];
 
         // add count
-        for(let i = 0; i < card.count; i++){
+        for (let i = 0; i < card.count; i++) {
             deckStats.CardTypeCounts[latestVersion.card_type]++;
-            deckStats.CardColourCounts[latestVersion.colour][(latestVersion.cost > 7 ? 8 : Math.max(1, latestVersion.cost)) -1]++;
+            deckStats.CardColourCounts[latestVersion.colour][
+                (latestVersion.cost > 7 ? 8 : Math.max(1, latestVersion.cost)) -
+                    1
+            ]++;
             deckStats.TotalCards++;
         }
-    })
+    });
 
     return deckStats;
 };
@@ -615,27 +634,27 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
                 '<div class="DeckViewerCardManaColouringPadding" style="height: ' +
                 PaddingBarHeight +
                 'px;"></div> \
-                                                                                            <div class="DeckViewerCardManaColouringR" style="height: ' +
+                    <div class="DeckViewerCardManaColouringR" style="height: ' +
                 RedBarHeight +
                 'px;" onmousemove="ShowTextTooltip(1, \'' +
                 CardColourCounts["R"][bg] +
                 ' Red Cards\');" onmouseout="ShowTextTooltip(0,0);"></div> \
-                                                                                            <div class="DeckViewerCardManaColouringU" style="height: ' +
+                    <div class="DeckViewerCardManaColouringU" style="height: ' +
                 BlueBarHeight +
                 'px;" onmousemove="ShowTextTooltip(1, \'' +
                 CardColourCounts["U"][bg] +
                 ' Blue Cards\');" onmouseout="ShowTextTooltip(0,0);"></div> \
-                                                                                            <div class="DeckViewerCardManaColouringB" style="height: ' +
+                    <div class="DeckViewerCardManaColouringB" style="height: ' +
                 BlackBarHeight +
                 'px;" onmousemove="ShowTextTooltip(1, \'' +
                 CardColourCounts["B"][bg] +
                 ' Black Cards\');" onmouseout="ShowTextTooltip(0,0);"></div> \
-                                                                                            <div class="DeckViewerCardManaColouringG" style="height: ' +
+                    <div class="DeckViewerCardManaColouringG" style="height: ' +
                 GreenBarHeight +
                 'px;" onmousemove="ShowTextTooltip(1, \'' +
                 CardColourCounts["G"][bg] +
                 ' Green Cards\');" onmouseout="ShowTextTooltip(0,0);"></div> \
-                                                                                            <div class="DeckViewerCardManaColouringC" style="height: ' +
+                    <div class="DeckViewerCardManaColouringC" style="height: ' +
                 ColourlessBarHeight +
                 'px;" onmousemove="ShowTextTooltip(1, \'' +
                 CardColourCounts["C"][bg] +
@@ -735,7 +754,6 @@ const LoadDeckExamples = () => {
             return;
         }
 
-        const SortedHeroArray = DV_OrderHeroesByTurn(DecodedDeck["heroes"]);
         const CardData = getCardDataFromDecoded(DecodedDeck);
         const DeckStats = getDeckStats(CardData);
 
@@ -747,7 +765,7 @@ const LoadDeckExamples = () => {
             entry.creator,
             entry.submitter,
             entry.media,
-            SortedHeroArray, 
+            CardData.HeroDeck,
             DeckStats
         );
     });
