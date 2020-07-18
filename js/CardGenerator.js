@@ -160,7 +160,7 @@ const GenerateCard = function(Container,CardIDV) {
                 CardArmour = "▤"+Card['armour'];
             }
             CardHP = "▥"+Card['hp'];
-            if (Card['text']['english'].length > 200) {
+            if (Card['text']['english'].length > 180) {
                 CardTextStyle += " CardCentreSplitBotTextSmallFont";
             }
             CardText = CardTextFormatting(Card['text']['english']);
