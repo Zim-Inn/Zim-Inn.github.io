@@ -10,6 +10,208 @@ const ViewDiffDeckButton = function () {
     document.getElementById("DeckCodeInputContainer").style.display = "block";
 };
 
+
+// ---------
+// Deck data treatment functions
+// ---------
+
+const findCardJSONIndexFromID = (cardID) => {
+    // The amount of times this is run on this code is scaring me
+    for (let index = 0; index < CardJSON.length; index++) {
+        if (CardJSON[index]["card_id"] == cardID) {
+            return index;
+        }
+    }
+    return -1;
+};
+const getDecodedDeckFromCode = (deckCode, errorMsg) => {
+    try {
+        if (!deckCode) {
+            throw "No Code Provided";
+        }
+        const DecodedDeck = CArtifactDeckDecoder.ParseDeck(deckCode);
+        return DecodedDeck;
+    } catch (error) {
+        console.error(errorMsg, error);
+        return false;
+    }
+};
+const getCardDataFromDecoded = (decodedDeck) => {
+    const cardData = {
+        DeckName:
+            decodedDeck["name"].charAt(0) === "%"
+                ? "Unnamed Deck"
+                : decodedDeck["name"],
+        HeroDeck: new Array(),
+        ItemDeck: new Array(),
+        MainDeck: new Array(),
+    };
+
+    // Add Signatures to base data
+    // I oppose this concept of unlabeled parameter mutability, but I'm not gonna redo this
+    const SortedHeroes = DV_OrderHeroesByTurn(decodedDeck["heroes"]);
+
+    for (let ch = 0; ch < SortedHeroes.length; ch++) {
+        const HeroID = SortedHeroes[ch]["id"];
+        const CardArrayIndex = findCardJSONIndexFromID(HeroID);
+
+        if (CardArrayIndex != -1) {
+            cardData.HeroDeck.push({ id: CardJSON[CardArrayIndex]["card_id"] });
+
+            const LatestHeroVersion =
+                CardJSON[CardArrayIndex]["versions"].length - 1;
+            const HeroIconForSignature =
+                CardJSON[CardArrayIndex]["versions"][LatestHeroVersion][
+                    "icon"
+                ] || "";
+            let SigIDV = "";
+            if (
+                CardJSON[CardArrayIndex]["versions"][LatestHeroVersion][
+                    "signature"
+                ].length == 1
+            ) {
+                SigIDV =
+                    CardJSON[CardArrayIndex]["versions"][LatestHeroVersion][
+                        "signature"
+                    ][0];
+                SigIDV = SigIDV.split("_");
+                SigID = SigIDV[0];
+                decodedDeck["cards"].push({ id: SigID, count: 3,heroicon: HeroIconForSignature });
+            } else {
+                // Lina, right?
+                for (
+                    let sc = 0;
+                    sc <
+                    CardJSON[CardArrayIndex]["versions"][LatestHeroVersion][
+                        "signature"
+                    ].length;
+                    sc++
+                ) {
+                    SigIDV =
+                        CardJSON[CardArrayIndex]["versions"][LatestHeroVersion][
+                            "signature"
+                        ][sc];
+                    SigIDV = SigIDV.split("_");
+                    SigID = SigIDV[0];
+                    decodedDeck["cards"].push({ id: SigID, count: 1,heroicon: HeroIconForSignature });
+                }
+            }
+        } else {
+            //Throw an error - we can't find that hero.
+            break;
+        }
+    }
+    
+    for (let i = 0; i < decodedDeck["cards"].length; i++) {
+        const DDCardID = decodedDeck["cards"][i].id;
+        const DDCardCount = decodedDeck["cards"][i].count;
+        let DDHeroIcon = decodedDeck["cards"][i]["heroicon"] || "";
+
+        const CardArrayIndex = findCardJSONIndexFromID(DDCardID);
+        
+        if (CardArrayIndex != -1) {
+            const LatestCardVersion =
+                CardJSON[CardArrayIndex]["versions"].length - 1;
+            const CardType =
+                CardJSON[CardArrayIndex]["versions"][LatestCardVersion][
+                    "card_type"
+                ];
+            if (CardType == "Item") {
+                cardData.ItemDeck.push(CardJSON[CardArrayIndex]);
+                cardData.ItemDeck[cardData.ItemDeck.length - 1]["count"] = DDCardCount;
+            } else {
+                cardData.MainDeck.push(CardJSON[CardArrayIndex]);
+                cardData.MainDeck[cardData.MainDeck.length - 1][
+                    "count"
+                ] = DDCardCount;
+                if (
+                    "is_signature" in
+                    CardJSON[CardArrayIndex]["versions"][LatestCardVersion]
+                ) {
+                    cardData.MainDeck[cardData.MainDeck.length - 1][
+                        "heroicon"
+                    ] = DDHeroIcon;
+                }
+            }
+        } else {
+            //Throw an error - we can't find that card.
+            break;
+        }
+    }
+
+    cardData.MainDeck = OrderCardList(0, cardData.MainDeck, 0);
+    cardData.ItemDeck = OrderCardList(0, 0, cardData.ItemDeck);
+    
+
+    return cardData;
+};
+const getDeckStats = (cardData) => {
+    const deckStats = {
+        CardTypeCounts: {
+            Creep: 0,
+            Spell: 0,
+            Improvement: 0,
+            Weapon: 0,
+            Armor: 0,
+            Accessory: 0,
+            Consumable: 0,
+        },
+        CardColourCounts: {
+            R: new Array(8).fill(0),
+            G: new Array(8).fill(0),
+            B: new Array(8).fill(0),
+            U: new Array(8).fill(0),
+            C: new Array(8).fill(0),
+        },
+        TotalItems: 0,
+        TotalCards: 0
+    };
+
+    if(!cardData || !cardData.ItemDeck || !cardData.MainDeck){
+        console.error("Serious issue with constructing cardData", cardData)
+        return deckStats;
+    }
+
+    // Items
+    cardData.ItemDeck.forEach( (item, index) => {
+        if(!item.versions || !item.versions.length) {
+            console.error("Issue with item in cardData.ItemDeck. Index: " + index, item);
+            console.error("Seriously, this shouldn't happen!")
+            return deckStats;
+        }
+        const latestVersion = item.versions[item.versions.length - 1];
+
+        // add count
+        for(let i = 0; i < item.count; i++){
+            deckStats.CardTypeCounts[latestVersion.card_subtype]++;
+            deckStats.TotalItems++;
+        }
+    })
+
+    // Main Deck 
+    cardData.MainDeck.forEach( (card, index) => {
+        if(!card.versions || !card.versions.length) {
+            console.error("Issue with card in cardData.CardDeck. Index: " + index, card);
+            console.error("Seriously, this shouldn't happen!")
+            return deckStats;
+        }
+        const latestVersion = card.versions[card.versions.length - 1];
+
+        // add count
+        for(let i = 0; i < card.count; i++){
+            deckStats.CardTypeCounts[latestVersion.card_type]++;
+            deckStats.CardColourCounts[latestVersion.colour][(latestVersion.cost > 7 ? 8 : Math.max(1, latestVersion.cost)) -1]++;
+            deckStats.TotalCards++;
+        }
+    })
+
+    return deckStats;
+};
+
+// ---------
+// Webpage Functions
+// ---------
+
 const LoadDeckFunc = function (skipHistory, deckCode) {
     const DeckCodeToLoad =
         deckCode || document.getElementById("DeckCodeInputField").value;
@@ -20,13 +222,10 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
     document.getElementById("DeckExamplesOuterContainer").style.display =
         "none";
 
-    let DecodedDeck;
-    try {
-        DecodedDeck = CArtifactDeckDecoder.ParseDeck(DeckCodeToLoad);
-    } catch (error) {
-        console.error("There was a problem with the deckcode parser: ", error);
-        DecodedDeck = false;
-    }
+    const DecodedDeck = getDecodedDeckFromCode(
+        DeckCodeToLoad,
+        "There was a problem with the deckcode parser: "
+    );
 
     if (DecodedDeck) {
         if (!skipHistory) {
@@ -46,12 +245,13 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
         if (DeckName.charAt(0) == "%") {
             DeckName = "Unnamed Deck";
         }
-        let DV_SortedHeroes = DV_OrderHeroesByTurn(DecodedDeck["heroes"]);
+        const DV_SortedHeroes = DV_OrderHeroesByTurn(DecodedDeck["heroes"]);
 
         let HeroCards = new Array();
         let CardArrayIndex = -1;
         for (let ch = 0; ch < DV_SortedHeroes.length; ch++) {
             CardArrayIndex = -1;
+            // OH GOD, HOW MANY TIMES DO WE RUN THIS AGAIN???
             for (let cj = 0; cj < CardJSON.length; cj++) {
                 if (CardJSON[cj]["card_id"] == DV_SortedHeroes[ch]["id"]) {
                     CardArrayIndex = cj;
@@ -139,6 +339,7 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
             }
 
             CardArrayIndex = -1;
+            // AAAAAAAAAAAAAAAAAAAAAAAa
             for (let cj = 0; cj < CardJSON.length; cj++) {
                 if (CardJSON[cj]["card_id"] == DDCardID) {
                     CardArrayIndex = cj;
@@ -516,7 +717,6 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
 };
 
 const LoadDeckExamples = () => {
-    console.log("CALLED THIS THING");
     const containerHTML = document.getElementById("DeckExamplesOuterContainer");
     containerHTML.innerHTML = "";
 
@@ -526,132 +726,30 @@ const LoadDeckExamples = () => {
 
     let DeckExamplesInnerHTML = "<h2>Example Decks</h2>";
     DeckCodesJSON.forEach((entry, index) => {
-        // Setup
-        let DecodedDeck;
-        try {
-            if (!entry.code) {
-                throw "No Code Provided";
-            }
-            DecodedDeck = CArtifactDeckDecoder.ParseDeck(entry.code);
-        } catch (error) {
-            console.error("Bad example deck code on index " + index, entry);
-            console.error("With Error", error);
-            return;
-        }
+        // fetch all required data from the deck
+        const DecodedDeck = getDecodedDeckFromCode(
+            entry.code,
+            "Bad example deck code on index " + index + " with Error: "
+        );
         if (!DecodedDeck) {
             return;
         }
 
-        let media = entry.media;
+        const SortedHeroArray = DV_OrderHeroesByTurn(DecodedDeck["heroes"]);
+        const CardData = getCardDataFromDecoded(DecodedDeck);
+        const DeckStats = getDeckStats(CardData);
 
         // Render
-        DeckExamplesInnerHTML += `
-        <div class="DeckExampleContainer">
-            <div class="DeckExampleHeader">
-                <span>${DecodedDeck.name}</span>
-                <div class="DeckExampleHeaderButtons">
-                    <button 
-                        class="ArtifactButtonSmall" 
-                        onmousemove="ShowTextTooltip(1, 'Copies the URL for this deck to the clipboard');"
-                        onmouseout="ShowTextTooltip(0,0);" 
-                        onmouseup="ShareDeckExample('${entry.code}')"
-                        type="button" 
-                    >
-                        SHARE
-                    </button>
-                    <button 
-                        class="ArtifactButtonSmall" 
-                        onmousemove="ShowTextTooltip(1, 'View this deck');"
-                        onmouseout="ShowTextTooltip(0,0);" 
-                        onmouseup="LoadDeckFunc(false, '${entry.code}')"
-                        type="button" 
-                    >
-                        VIEW
-                    </button>
-                </div>
-            </div>
-            <div class="DeckExampleContents">
-                <div class="DeckExampleGeneralInfo">
-                    ${
-                        entry.description
-                            ? `
-                            <div class="DeckDescription">
-                                <span>${entry.description}</span>
-                            </div>
-                        `
-                            : ""
-                    }
-                    <div class="DeckCreditLine">
-                        ${
-                            entry.creator &&
-                            `
-                            <div>
-                                <span class="DeckCreditLabel">Created by:</span><span class="DeckCreditText"> ${entry.creator}</span>
-                            </div>
-                        `
-                        }
-                        ${
-                            entry.submitter &&
-                            `
-                            <div>
-                                <span class="DeckCreditLabel">Submitted by:</span><span class="DeckCreditText"> ${entry.submitter}</span>
-                            </div>
-                        `
-                        }
-                    </div>
-                    ${
-                        media &&
-                        `
-                            <div class="DeckMediaLine">
-                                ${
-                                    media.youtube &&
-                                    `
-                                    <div>
-                                        <span>[Video: ${media.youtube}] </span>
-                                    </div>
-                                    ` || ""
-                                }
-                                ${
-                                    media.twitch &&
-                                    `
-                                    <div>
-                                        <span>[Video: ${media.twitch}] </span>
-                                    </div>
-                                    ` || ""
-                                }
-                                ${
-                                    media.link &&
-                                    `
-                                    <div>
-                                        <span>[Video: ${media.link}] </span>
-                                    </div>
-                                    ` || ""
-                                }
-                            </div>
-
-                        ` || ""
-                    }  
-                </div>
-                <div class="DeckExampleStats">
-                    <div class="DeckExampleHeroPortraits">
-                        ${DecodedDeck.heroes
-                            .map((hero) => {
-                                return `
-                                        <div
-                                            class="HeroIconContainer"
-                                        >
-                                            <img 
-                                                src="Images/HeroIcons/${hero.id}_0.png" 
-                                            >
-                                        </div>
-                                `;
-                            })
-                            .join("")}
-                    </div>
-                </div>
-            </div>
-        </div>
-        `;
+        DeckExamplesInnerHTML += generateDeckExampleHTML(
+            CardData.DeckName,
+            entry.code,
+            entry.description,
+            entry.creator,
+            entry.submitter,
+            entry.media,
+            SortedHeroArray, 
+            DeckStats
+        );
     });
     containerHTML.innerHTML = DeckExamplesInnerHTML;
 };
