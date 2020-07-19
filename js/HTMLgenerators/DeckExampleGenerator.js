@@ -108,7 +108,6 @@ const generateDeckExampleHTML = (name, code, description, creator, submitter, me
                     <div class="DeckExampleDeckColorStatistics">
                         ${generateDeckColorStatistics(DeckStats)}
                     </div>
-                    <p>${JSON.stringify(DeckStats, null, 2)}</p>
                 </div>
             </div>
         </div>
@@ -163,58 +162,89 @@ const generateDeckSummary = (DeckStats) => {
 }
 
 const generateDeckColorStatistics = (DeckStats) => {
+    const createColorBoxes = (DeckStats) => {
+        return `
+            <div class="DeckViewerCardColourBoxChartInner DeckViewerCardManaColouringR"
+                onmousemove="ShowTextTooltip(1, '${DeckStats.CardColourCounts.R.reduce((a,b) => a+b)} Red Cards');" 
+                onmouseout="ShowTextTooltip(0,0);"
+            >
+                ${DeckStats.CardColourCounts.R.reduce((a,b) => a+b)}
+            </div>
+            <div class="DeckViewerCardColourBoxChartInner DeckViewerCardManaColouringG"
+                onmousemove="ShowTextTooltip(1, '${DeckStats.CardColourCounts.G.reduce((a,b) => a+b)} Green Cards');" 
+                onmouseout="ShowTextTooltip(0,0);"
+            >
+                ${DeckStats.CardColourCounts.G.reduce((a,b) => a+b)}
+            </div>
+            <div class="DeckViewerCardColourBoxChartInner DeckViewerCardManaColouringU"
+                onmousemove="ShowTextTooltip(1, '${DeckStats.CardColourCounts.U.reduce((a,b) => a+b)} Blue Cards');" 
+                onmouseout="ShowTextTooltip(0,0);"
+            >
+                ${DeckStats.CardColourCounts.U.reduce((a,b) => a+b)}
+            </div>
+            <div class="DeckViewerCardColourBoxChartInner DeckViewerCardManaColouringB"
+                onmousemove="ShowTextTooltip(1, '${DeckStats.CardColourCounts.B.reduce((a,b) => a+b)} Black Cards');" 
+                onmouseout="ShowTextTooltip(0,0);"
+            >
+                ${DeckStats.CardColourCounts.B.reduce((a,b) => a+b)}
+            </div>
+            <div class="clear"></div>
+        `
+    }
 
-    const createBars = () => {
+    const createColorBars = (DeckStats) => {
         let result = "";
         for (let bg = 0; bg < 8; bg++) {
-            
 
-        //     let RedBarHeight = CardColourCounts["R"][bg] * GraphHeightPerCard;
-        //     let BlueBarHeight = CardColourCounts["U"][bg] * GraphHeightPerCard;
-        //     let BlackBarHeight = CardColourCounts["B"][bg] * GraphHeightPerCard;
-        //     let GreenBarHeight = CardColourCounts["G"][bg] * GraphHeightPerCard;
-        //     let ColourlessBarHeight =
-        //         CardColourCounts["C"][bg] * GraphHeightPerCard;
-        //     let PaddingBarHeight =
-        //         60 -
-        //         RedBarHeight -
-        //         BlueBarHeight -
-        //         BlackBarHeight -
-        //         GreenBarHeight -
-        //         ColourlessBarHeight;
-        //     document.getElementById(
-        //         "DeckViewerCardManaColourChartBar" + (bg + 1)
-        //     ).innerHTML =
-        //         '<div class="DeckViewerCardManaColouringPadding" style="height: ' + PaddingBarHeight +'px;"></div> \
-        //             <div class="DeckViewerCardManaColouringR" style="height: ' + RedBarHeight +
-        //         'px;" onmousemove="ShowTextTooltip(1, \'' +
-        //         CardColourCounts["R"][bg] +
-        //         ' Red Cards\');" onmouseout="ShowTextTooltip(0,0);"></div> \
-        //             <div class="DeckViewerCardManaColouringU" style="height: ' +
-        //         BlueBarHeight +
-        //         'px;" onmousemove="ShowTextTooltip(1, \'' +
-        //         CardColourCounts["U"][bg] +
-        //         ' Blue Cards\');" onmouseout="ShowTextTooltip(0,0);"></div> \
-        //             <div class="DeckViewerCardManaColouringB" style="height: ' +
-        //         BlackBarHeight +
-        //         'px;" onmousemove="ShowTextTooltip(1, \'' +
-        //         CardColourCounts["B"][bg] +
-        //         ' Black Cards\');" onmouseout="ShowTextTooltip(0,0);"></div> \
-        //             <div class="DeckViewerCardManaColouringG" style="height: ' +
-        //         GreenBarHeight +
-        //         'px;" onmousemove="ShowTextTooltip(1, \'' +
-        //         CardColourCounts["G"][bg] +
-        //         ' Green Cards\');" onmouseout="ShowTextTooltip(0,0);"></div> \
-        //             <div class="DeckViewerCardManaColouringC" style="height: ' +
-        //         ColourlessBarHeight +
-        //         'px;" onmousemove="ShowTextTooltip(1, \'' +
-        //         CardColourCounts["C"][bg] +
-        //         ' Colourless Cards\');" onmouseout="ShowTextTooltip(0,0);"></div>';
+            const fullBarHeight = 60;
+            const MaxTotalByMana = DeckStats.TotalByMana.reduce((a,b) => Math.max(a,b));
+            const GraphHeightPerCard = 60 / MaxTotalByMana;
+
+            const RedBarHeight = DeckStats.CardColourCounts["R"][bg] * GraphHeightPerCard;
+            const BlueBarHeight = DeckStats.CardColourCounts["U"][bg] * GraphHeightPerCard;
+            const BlackBarHeight = DeckStats.CardColourCounts["B"][bg] * GraphHeightPerCard;
+            const GreenBarHeight = DeckStats.CardColourCounts["G"][bg] * GraphHeightPerCard;
+            const ColourlessBarHeight = DeckStats.CardColourCounts["C"][bg] * GraphHeightPerCard;
+            const PaddingBarHeight =
+                fullBarHeight -
+                    RedBarHeight -
+                    BlueBarHeight -
+                    BlackBarHeight -
+                    GreenBarHeight -
+                    ColourlessBarHeight;
 
             result += `
-            <div class="DeckViewerCardManaColourChartBarContainer">
-                <div class="DeckViewerCardManaColourChartBarOuter"></div>                      
-                <div class="DeckViewerCardManaColourChartNumber">${bg + 1}${bg === 7 ? "+" : ""}</div>
+            <div class="SummaryBarsContainer">
+                <div class="ChartBarOuter">
+                    <div class="DeckViewerCardManaColouringPadding" style="height: ${PaddingBarHeight}px;">
+                    </div>
+                    <div class="DeckViewerCardManaColouringR" 
+                        style="height: ${RedBarHeight}px;" 
+                        onmousemove="ShowTextTooltip(1,'${DeckStats.CardColourCounts["R"][bg]} Red Cards');" 
+                        onmouseout="ShowTextTooltip(0,0);">
+                    </div>
+                    <div class="DeckViewerCardManaColouringU" 
+                        style="height: ${BlueBarHeight}px;" 
+                        onmousemove="ShowTextTooltip(1,'${DeckStats.CardColourCounts["U"][bg]} Blue Cards');" 
+                        onmouseout="ShowTextTooltip(0,0);">
+                    </div>
+                    <div class="DeckViewerCardManaColouringB" 
+                        style="height: ${BlackBarHeight}px;" 
+                        onmousemove="ShowTextTooltip(1,'${DeckStats.CardColourCounts["B"][bg]} Black Cards');" 
+                        onmouseout="ShowTextTooltip(0,0);">
+                    </div>
+                    <div class="DeckViewerCardManaColouringG" 
+                        style="height: ${GreenBarHeight}px;" 
+                        onmousemove="ShowTextTooltip(1,'${DeckStats.CardColourCounts["G"][bg]} Green Cards');" 
+                        onmouseout="ShowTextTooltip(0,0);">
+                    </div>
+                    <div class="DeckViewerCardManaColouringC" 
+                        style="height: ${ColourlessBarHeight}px;" 
+                        onmousemove="ShowTextTooltip(1,'${DeckStats.CardColourCounts["C"][bg]} Colourless Cards');" 
+                        onmouseout="ShowTextTooltip(0,0);">
+                    </div>
+                </div>
+                <div class="ChartNumber">${bg + 1}${bg === 7 ? "+" : ""}</div>
             </div>
             `
         }
@@ -222,24 +252,11 @@ const generateDeckColorStatistics = (DeckStats) => {
     }
 
     return `
-    <div class="DeckColorSummaryBoxes">
-        <div class="DeckViewerCardColourBoxChartInner DeckViewerCardManaColouringR">
-            ${DeckStats.CardColourCounts.R.reduce((a,b) => a+b)}
+        <div class="DeckColorSummaryBoxes">
+            ${createColorBoxes(DeckStats)}
         </div>
-        <div class="DeckViewerCardColourBoxChartInner DeckViewerCardManaColouringG">
-            ${DeckStats.CardColourCounts.G.reduce((a,b) => a+b)}
+        <div class="DeckColorSummaryBars">
+            ${createColorBars(DeckStats)}
         </div>
-        <div class="DeckViewerCardColourBoxChartInner DeckViewerCardManaColouringU">
-            ${DeckStats.CardColourCounts.U.reduce((a,b) => a+b)}
-        </div>
-        <div class="DeckViewerCardColourBoxChartInner DeckViewerCardManaColouringB">
-            ${DeckStats.CardColourCounts.B.reduce((a,b) => a+b)}
-        </div>
-        <div class="clear"></div>
-    </div>
-    <div class="DeckColorSummaryBars">
-        ${createBars()}
-        <div class="clear"></div>
-    </div>
     `
 }

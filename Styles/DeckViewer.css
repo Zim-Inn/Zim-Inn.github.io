@@ -104,7 +104,7 @@
     margin-right: 8px;
 }
 .DeckExampleContents {
-    padding: 14px 8px;
+    padding: 14px 8px 36px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -138,7 +138,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin-top: 12px;
+    margin-top: 18px;
 }
 .DeckExampleDeckStatistics > div:not(:last-child)  {
     margin-right: 18px;
@@ -161,19 +161,59 @@
 }
 .DeckExampleDeckColorStatistics > .DeckColorSummaryBoxes{
     box-shadow: inset 2px 2px 6px black;
-    width: 100px;
-    height: 100px;
-    margin: 6px 0;
+    width: 80px;
+    height: 80px;
+    margin: 6px;  
     background-color: rgb(0,0,0,0.2);
     cursor: default;    
 }
 .DeckExampleDeckColorStatistics > .DeckColorSummaryBars {
-    min-width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    min-width: 235px;
     box-shadow: inset 2px 2px 6px black;
-    padding: 8px 0;
-    margin: 0 5%;
     background-color: rgb(0,0,0,0.2);
+    margin: 6px;
     cursor: default;
+}
+.DeckColorSummaryBars > .SummaryBarsContainer {
+    border: 2px inset rgb(50,50,60);
+    /* Height value is very important for bar size calculations */
+    height: 80px; 
+    max-width: 30px;
+    width: calc(11% - 4px);
+}
+.SummaryBarsContainer > .ChartNumber {
+    font-size: 12pt;
+    color: #ddd;
+    font-weight: bold;
+    /* Height value is very important for bar size calculations */
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.3);   
+}
+.SummaryBarsContainer > .ChartBarOuter {
+    /* Height value is very important for bar size calculations */
+    height: 60px;
+    width: 100%; 
+}
+.ChartBarOuter > .ManaColouringR {
+    background: linear-gradient(170deg, rgba(134, 14, 32, 0.8) 20%, rgba(199, 13, 41, 0.3));
+}
+.ChartBarOuter > .ManaColouringU {
+    background: linear-gradient(170deg, rgba(11,53,78,0.9) 20%, rgba(14,73,105,0.6));
+}
+.ChartBarOuter > .ManaColouringB {
+    background: linear-gradient(170deg, rgba(47,46,52,0.9) 20%, rgba(33,32,37,0.6));
+}
+.ChartBarOuter > .ManaColouringG {
+    background: linear-gradient(170deg, rgba(62,90,50,0.9) 20%, rgba(47,72,36,0.6));
+}
+.ChartBarOuter > .ManaColouringC {
+    background: linear-gradient(170deg, rgba(97, 99, 96, 0.9) 20%, rgba(59, 63, 57, 0.6));
 }
 
 .DeckExampleGeneralInfo .DeckExampleDescription span{
