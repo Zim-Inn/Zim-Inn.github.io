@@ -215,14 +215,11 @@
 .ChartBarOuter > .ManaColouringC {
     background: linear-gradient(170deg, rgba(97, 99, 96, 0.9) 20%, rgba(59, 63, 57, 0.6));
 }
-
-.DeckExampleGeneralInfo .DeckExampleDescription span{
-
-}
-.DeckExampleGeneralInfo .DeckCreditLine, .DeckExampleGeneralInfo .DeckMediaLine{
+.DeckExampleGeneralInfo .DeckCreditLine, 
+.DeckExampleGeneralInfo .DeckMediaLine{
     display: flex;
     flex-direction: row;
-    margin-top: 16px;
+    margin-top: 32px;
 }
 .DeckExampleGeneralInfo .DeckCreditLine .DeckCreditLabel{
     font-size: 12pt;
@@ -233,6 +230,30 @@
     margin-right: 15px;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.DeckMediaLine > .YoutubeButton,
+.DeckMediaLine > .OtherButton,
+.DeckMediaLine > .TwitchButton {
+    /* TODO */
+    background-color: #333749;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 45px;
+
+    height: 45px;
+    width: 45px;
+    margin-right: 16px;
+    border: 1px solid #ddf;
+    box-shadow: 0 0 4px 2px #aaf;
+}
+.DeckMediaLine > .TwitchButton {
+    background-image: url('../Images/Styles/twitch-link.png');
+}
+.DeckMediaLine > .OtherButton {
+    background-image: url('../Images/Styles/external-link.png');
+}
+.DeckMediaLine > .YoutubeButton {
+    background-image: url('../Images/Styles/youtube-link.png');
 }
 
 #DeckViewerDeckOuterContainer {

@@ -60,25 +60,37 @@ const generateDeckExampleHTML = (name, code, description, creator, submitter, me
                                 ${
                                     media.youtube &&
                                     `
-                                    <div>
-                                        <span>[Video: ${media.youtube}] </span>
-                                    </div>
+                                    <a class="YoutubeButton" 
+                                        onmousemove="ShowTextTooltip(1, 'Watch gameplay or guide on Youtube')" 
+                                        onmouseout="ShowTextTooltip(0,0)" 
+                                        href="${media.youtube}" 
+                                        target="_blank">
+                                    </a>
+                                    
                                     ` || ""
                                 }
                                 ${
                                     media.twitch &&
                                     `
-                                    <div>
-                                        <span>[Video: ${media.twitch}] </span>
-                                    </div>
+                                    <a
+                                        class="TwitchButton" 
+                                        onmousemove="ShowTextTooltip(1, 'Watch gameplay or guide on Twitch')" 
+                                        onmouseout="ShowTextTooltip(0,0)"
+                                        href="${media.twitch}" 
+                                        target="_blank">
+                                    </a>
                                     ` || ""
                                 }
                                 ${
                                     media.link &&
                                     `
-                                    <div>
-                                        <span>[Video: ${media.link}] </span>
-                                    </div>
+                                    <a
+                                        class="OtherButton" 
+                                        onmousemove="ShowTextTooltip(1, 'Read or watch guide on another website')" 
+                                        onmouseout="ShowTextTooltip(0,0)"
+                                        href="${media.link}" 
+                                        target="_blank">
+                                    </a>
                                     ` || ""
                                 }
                             </div>

@@ -3,18 +3,11 @@
         "code": "RTFACTJaARNLgCQIDABMAFqrsCrwGUkpWHgxBCgUW1ArcCiYGMawZDYgxNT29wcyEgQWxsIE1lZXBvcy4_",
         "description": "A deck with 5 meepos seen in a single player challenge",
         "creator": "Valve",
-        "submitter": "",
+        "submitter": "No One",
         "media": {
-            "video": ""
-        }
-    },
-    {
-        "code": "RTFACTJaARNLgCQIDABMAFqrsCrwGUkpWHgxBCgUW1ArcCiYGMawZDYgxNT29wcyEgQWxsIE1lZXBvcy4_",
-        "description": "A really long description A really long description A really long description A really long description A really long description A really long description A really long description ",
-        "creator": "Valve",
-        "submitter": "",
-        "media": {
-            "video": ""
+            "youtube": "https://youtu.be/oavMtUWDBTM",
+            "twitch": "https://www.twitch.tv/themastersgg/clip/FrozenStrangeChamoisCmonBruh",
+            "link": "http://beesbeesbees.com/"
         }
     },
     {
@@ -23,24 +16,9 @@
         "creator": "Valve",
         "submitter": "",
         "media": {
-            "video": ""
+            "youtube": "https://youtu.be/y9K18CGEeiI",
+            "twitch": "https://www.twitch.tv/jakenbakelive/clip/RenownedTastySquirrelDendiFace",
+            "link": "https://vignette.wikia.nocookie.net/zelda/images/8/80/Link_Defending_%28Soulcalibur_II%29.png/revision/latest?cb=20090726014102"
         }
-    },
-    {
-        "code": "RTFACTJV4QZLkCgeIUBMsFLwGnuwK1Ap+jAbELgUJhBJqCogZ1AUhNLiBPbmUgUHVuY2ggTWFu",
-        "description": "Centaur and Tusk come up with a devious plan to smash down towers in a single hit",
-        "creator": "Swellzong",
-        "submitter": "Some other guy",
-        "media": {
-            "youtube": "Youtube Link",
-            "twitch": "Twitch Link",
-            "link": "Generic Link"
-        }
-    },
-    {
-        "code": "RTFACTJd0WKrkCzARVsRLLBbu7AolSiEd5AVACR3sDfwdSA6gDinwBU0FOVFVSSUMgUml4ZW5vdXMgTWFzcw__",
-        "description": "Aggressive Rapid Deployment deck",
-        "creator": "NineHDmg",
-        "submitter": ""
     }
 ]
