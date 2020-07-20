@@ -2207,7 +2207,7 @@
 		"colour": "R",
 		"image": "10330_0",
 		"miniimage": "10330_0",
-		"cost": 3,
+		"cost": 5,
 		"text": {
 			"english": " /n Caster gains +3 attack permanently."
 		},
