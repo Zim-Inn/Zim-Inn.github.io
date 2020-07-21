@@ -30,7 +30,7 @@
     },
     {
         "code": "RTFACTJaUTtLgCQvgBBP4SBS8Efr4CYAGqAqgBpwGLlqYGBUOyBJWIJQdCbHVlIE1lZXBvIEFnZ3JvID00",
-        "description": "Deck centered around the synnergy between Tusk's Walrus Punch and Centaur's Stampede to one shot towers",
+        "description": "A deck proficient at clearing a path to land tower damage in. Takes advantage of meepos mobility and constructed shop rules to get Claymore to hit more reliably late game.",
         "creator": "=4",
         "submitter": "opsyonline",
         "media": {
@@ -46,6 +46,16 @@
         "media": {
             "twitch": "https://www.twitch.tv/videos/677200176",
             "link": "https://old.reddit.com/r/Artifact/comments/h8v5xu/tusk_onepunch_man_demolishing_a_tower_on_mana_6/"
+        }
+
+    },
+    {
+        "code": "RTFACTJesQ8LkCBEyMNBLaBTy7AoupAg5QAkENaQKkApF5BkSKtwKzB1tHXSBDcmVlcCBLaWxsZXI_",
+        "description": "Get melee creep advantage and move enemy units to unfavorable spots to slowly win the game",
+        "creator": "Jmauler",
+        "submitter": "",
+        "media": {
+            "twitch": "https://www.twitch.tv/videos/685591675?t=0h49m53s"
         }
 
     },
