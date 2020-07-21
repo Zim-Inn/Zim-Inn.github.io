@@ -133,6 +133,21 @@
 .DeckExampleHeroPortraits .HeroIconContainer img {
     width: 100%;
 }
+.DeckExampleHeroPortraits .HeroIconBackgroundR {
+    background: rgba(134, 14, 32, 0.411);
+}
+.DeckExampleHeroPortraits .HeroIconBackgroundU {
+    background: rgba(11,53,78,0.9);
+}
+.DeckExampleHeroPortraits .HeroIconBackgroundB {
+    background: rgba(47,46,52,0.9);
+}
+.DeckExampleHeroPortraits .HeroIconBackgroundG {
+    background: rgba(62,90,50,0.9);
+}
+.DeckExampleHeroPortraits .HeroIconBackgroundC {
+    background: rgba(97, 99, 96, 0.9);
+}
 .DeckExampleStats .DeckExampleDeckStatistics,
 .DeckExampleStats  .DeckExampleDeckColorStatistics{
     display: flex;

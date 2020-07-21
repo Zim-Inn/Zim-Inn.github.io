@@ -55,8 +55,6 @@ const getCardDataFromDecoded = (decodedDeck) => {
         const CardArrayIndex = findCardJSONIndexFromID(HeroID);
 
         if (CardArrayIndex != -1) {
-            cardData.HeroDeck.push({ id: CardJSON[CardArrayIndex]["card_id"] });
-
             const LatestHeroVersion =
                 CardJSON[CardArrayIndex]["versions"].length - 1;
             const HeroIconForSignature =
@@ -64,6 +62,9 @@ const getCardDataFromDecoded = (decodedDeck) => {
                     "icon"
                 ] || "";
             let SigIDV = "";
+
+            cardData.HeroDeck.push({ id: CardJSON[CardArrayIndex]["card_id"], colour: CardJSON[CardArrayIndex]["versions"][LatestHeroVersion].colour });
+
             if (
                 CardJSON[CardArrayIndex]["versions"][LatestHeroVersion][
                     "signature"

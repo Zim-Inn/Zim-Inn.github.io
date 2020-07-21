@@ -104,7 +104,7 @@ const generateDeckExampleHTML = (name, code, description, creator, submitter, me
                             .map((hero) => {
                                 return `
                                         <div
-                                            class="HeroIconContainer"
+                                            class="HeroIconContainer HeroIconBackground${hero.colour}"
                                         >
                                             <img 
                                                 src="Images/HeroIcons/${hero.id}_0.png" 
