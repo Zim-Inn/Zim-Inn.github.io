@@ -19,6 +19,7 @@
     font-family: "Radiance", sans-serif;
 }
 #DeckCodeInputTitle{
+    margin-top: 12px;
     color: #eee;
     font-size: 16pt;
 }
@@ -62,6 +63,212 @@
     transform: perspective(400px) rotateY(-2.5deg);
     width: calc(19% - 1px);
     padding: 0 0.5%;
+}
+
+#DeckExamplesOuterContainer {
+    margin-top: 12px;
+    background-color: rgba(29, 31, 44, 0.4);
+    box-shadow: 0 2px 4px black;
+    padding: 2.5%;
+}
+#DeckExamplesOuterContainer h2 {
+    text-align: center;
+    margin-top: 0;
+}
+.DeckExampleContainer {
+    box-shadow: -4px 3px 4px black;
+}
+.DeckExampleContainer:not(:last-child) {
+    margin-bottom: 25px;
+}
+.DeckExampleHeader {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background: rgb(61,31,105);
+    background: linear-gradient(90deg, rgba(61,31,105,1) 0%, rgba(42,0,42,0.1) 100%);
+
+    font-size: 20pt;
+    font-weight: bold;
+    padding: 8px 12px;
+    color: #eee;
+}
+.DeckExampleHeaderButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.DeckExampleHeaderButtons > button:not(:last-child) {
+    margin-right: 8px;
+}
+.DeckExampleContents {
+    padding: 14px 8px 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.DeckExampleStats {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.DeckExampleGeneralInfo {
+    flex: 2;
+    padding-left: 20px;
+}
+.DeckExampleStats .DeckExampleHeroPortraits{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.DeckExampleHeroPortraits .HeroIconContainer {
+    box-shadow: inset 2px 2px 6px black;
+    width: 60px;
+    height: 60px;
+}
+.DeckExampleHeroPortraits .HeroIconContainer img {
+    width: 100%;
+}
+.DeckExampleHeroPortraits .HeroIconBackgroundR {
+    background: rgba(134, 14, 32, 0.411);
+}
+.DeckExampleHeroPortraits .HeroIconBackgroundU {
+    background: rgba(11,53,78,0.9);
+}
+.DeckExampleHeroPortraits .HeroIconBackgroundB {
+    background: rgba(47,46,52,0.9);
+}
+.DeckExampleHeroPortraits .HeroIconBackgroundG {
+    background: rgba(62,90,50,0.9);
+}
+.DeckExampleHeroPortraits .HeroIconBackgroundC {
+    background: rgba(97, 99, 96, 0.9);
+}
+.DeckExampleStats .DeckExampleDeckStatistics,
+.DeckExampleStats  .DeckExampleDeckColorStatistics{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 18px;
+}
+.DeckExampleDeckStatistics > div:not(:last-child)  {
+    margin-right: 18px;
+}
+.DeckExampleDeckStatistics > .MainDeckSummary,
+.DeckExampleDeckStatistics > .ItemDeckSummary {
+    text-align: center;
+}
+.DeckExampleDeckStatistics > .MainDeckSummary > .SummaryRow,
+.DeckExampleDeckStatistics > .ItemDeckSummary > .SummaryRow  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.DeckExampleDeckStatistics > .MainDeckSummary > .SummaryRow .SummaryTypeContainer, 
+.DeckExampleDeckStatistics > .ItemDeckSummary > .SummaryRow .SummaryTypeContainer 
+{
+    padding: 0 6px;
+}
+.DeckExampleDeckColorStatistics > .DeckColorSummaryBoxes{
+    box-shadow: inset 2px 2px 6px black;
+    width: 80px;
+    height: 80px;
+    margin: 6px;  
+    background-color: rgb(0,0,0,0.2);
+    cursor: default;    
+}
+.DeckExampleDeckColorStatistics > .DeckColorSummaryBars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    min-width: 235px;
+    box-shadow: inset 2px 2px 6px black;
+    background-color: rgb(0,0,0,0.2);
+    margin: 6px;
+    cursor: default;
+}
+.DeckColorSummaryBars > .SummaryBarsContainer {
+    border: 2px inset rgb(50,50,60);
+    /* Height value is very important for bar size calculations */
+    height: 80px; 
+    max-width: 30px;
+    width: calc(11% - 4px);
+}
+.SummaryBarsContainer > .ChartNumber {
+    font-size: 12pt;
+    color: #ddd;
+    font-weight: bold;
+    /* Height value is very important for bar size calculations */
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.3);   
+}
+.SummaryBarsContainer > .ChartBarOuter {
+    /* Height value is very important for bar size calculations */
+    height: 60px;
+    width: 100%; 
+}
+.ChartBarOuter > .ManaColouringR {
+    background: linear-gradient(170deg, rgba(134, 14, 32, 0.8) 20%, rgba(199, 13, 41, 0.3));
+}
+.ChartBarOuter > .ManaColouringU {
+    background: linear-gradient(170deg, rgba(11,53,78,0.9) 20%, rgba(14,73,105,0.6));
+}
+.ChartBarOuter > .ManaColouringB {
+    background: linear-gradient(170deg, rgba(47,46,52,0.9) 20%, rgba(33,32,37,0.6));
+}
+.ChartBarOuter > .ManaColouringG {
+    background: linear-gradient(170deg, rgba(62,90,50,0.9) 20%, rgba(47,72,36,0.6));
+}
+.ChartBarOuter > .ManaColouringC {
+    background: linear-gradient(170deg, rgba(97, 99, 96, 0.9) 20%, rgba(59, 63, 57, 0.6));
+}
+.DeckExampleGeneralInfo .DeckCreditLine, 
+.DeckExampleGeneralInfo .DeckMediaLine{
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+}
+.DeckExampleGeneralInfo .DeckCreditLine .DeckCreditLabel{
+    font-size: 12pt;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.DeckExampleGeneralInfo .DeckCreditLine .DeckCreditText{
+    margin-right: 15px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.DeckMediaLine > .YoutubeButton,
+.DeckMediaLine > .OtherButton,
+.DeckMediaLine > .TwitchButton {
+    /* TODO */
+    background-color: #333749;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 45px;
+
+    height: 45px;
+    width: 45px;
+    margin-right: 16px;
+    border: 1px solid #ddf;
+    box-shadow: 0 0 4px 2px #aaf;
+}
+.DeckMediaLine > .TwitchButton {
+    background-image: url('../Images/Styles/twitch-link.png');
+}
+.DeckMediaLine > .OtherButton {
+    background-image: url('../Images/Styles/external-link.png');
+}
+.DeckMediaLine > .YoutubeButton {
+    background-image: url('../Images/Styles/youtube-link.png');
 }
 
 #DeckViewerDeckOuterContainer {
