@@ -2197,6 +2197,36 @@
                 "text":{
                     "english":"Whenever you reveal an opponent's card, give Imperia +[ATT] for two rounds equal to its Mana cost."
                 }
+            },{
+                "release_date":"2020-07-23",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Plans Within Plans"
+                 },
+                "cooldown": 0,
+                "image": "PH",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever you reveal an opponent's card, give Imperia +[ATT] until its next combat equal to its Mana cost."
+                }
+            }
+        ]
+    },{
+        "card_id":11065,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-07-16",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Anchor Smash"
+                 },
+                "cooldown": 1,
+                "image": "11065_0",
+                "cost": 0,
+                "text":{
+                    "english":"The first time you play a non-item card from Tidehunter's lane, deal 1 damage to its adjacent enemies and give them -1[ATT] this round. If there are none, battle the enemy tower instead. 1 round cooldown."
+                }
             }
         ]
     }

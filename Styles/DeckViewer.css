@@ -131,7 +131,8 @@
     height: 60px;
 }
 .DeckExampleHeroPortraits .HeroIconContainer img {
-    width: 100%;
+    width: 90%;
+    margin: 5% 0 0 5%;
 }
 .DeckExampleHeroPortraits .HeroIconBackgroundR {
     background: rgba(134, 14, 32, 0.411);

@@ -4826,6 +4826,23 @@
 		"hp": 10,
 		"abilities": ["210055_1", "210056_1"],
 		"signature": ["10975_0"]
+	}, {
+		"release_date": "2020-07-23",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Tidehunter"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "R",
+		"image": "10024_0",
+		"miniimage": "10024_0",
+		"icon": "10024_0",
+		"attack": 2,
+		"armour": 1,
+		"hp": 10,
+		"abilities": ["11065_0", "210056_1"],
+		"signature": ["10975_0"]
 	}]
 }, {
 	"card_id": 10975,
@@ -4846,7 +4863,7 @@
 		},
 		"crosslane": false,
 		"quick": true,
-		"is_signature": "10024_1"
+		"is_signature": "10024_2"
 	}]
 }, {
 	"card_id": 10940,
@@ -7484,6 +7501,23 @@
 		"hp": 6,
 		"abilities": ["210072_2","11064_0"],
 		"signature": ["10732_2"]
+	},{
+		"release_date": "2020-07-23",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Imperia"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "U",
+		"image": "10730_0",
+		"miniimage": "10730_0",
+		"icon": "10730_0",
+		"attack": 2,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["210072_2","11064_1"],
+		"signature": ["10732_2"]
 	}]
 }, {
 	"card_id": 10732,
@@ -7552,7 +7586,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10730_3"
+		"is_signature": "10730_4"
 	}]
 }, {
 	"card_id": 10906,
@@ -8226,6 +8260,28 @@
 		"crosslane": false,
 		"quick": false,
 		"related_cards": ["10611_2"]
+	},{
+		"release_date": "2020-07-23",
+		"card_type": "Summon",
+		"card_name": {
+			"english": "Wildwing"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "U",
+		"image": "10638_0",
+		"miniimage": "10638_0",
+		"cost": 3,
+		"text": {
+			"english": "Whenever Wildwing enters any lane, remove a charge from Wildwing Bait."
+		},
+		"attack": 3,
+		"armour": 0,
+		"hp": 4,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10611_3"]
 	}]
 }, {
 	"card_id": 10761,
@@ -9434,6 +9490,25 @@
 		"crosslane": false,
 		"quick": false,
 		"related_cards": ["10638_0"]
+	}, {
+		"release_date": "2020-07-23",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Wildwing Bait"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "U",
+		"image": "10611_0",
+		"miniimage": "10611_0",
+		"cost": 3,
+		"text": {
+			"english": "/n Summon Wildwings instead of Melee Creeps. /n Dispel when out of charges. /n /n [TG]Charges: 3[ET]"
+		},
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10638_1"]
 	}]
 }, {
 	"card_id": 10751,
@@ -9632,6 +9707,27 @@
 		"cost": 5,
 		"text": {
 			"english": "[TG]Play Effect:[ET] Discard your hand. Give Keenfolk Golem +1[ATT]/+1[HP] permanently for each card discarded."
+		},
+		"attack": 9,
+		"armour": 0,
+		"hp": 9,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-07-23",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Keenfolk Golem"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "U",
+		"image": "10095_0",
+		"miniimage": "10095_0",
+		"cost": 5,
+		"text": {
+			"english": "[TG]Play Effect:[ET] Discard 4 random non-item cards. Give Keenfolk Golem +1[ATT]/+1[HP] permanently for each card discarded."
 		},
 		"attack": 9,
 		"armour": 0,
@@ -12781,6 +12877,23 @@
 		"cost": 1,
 		"text": {
 			"english": " /n Choose unit. It taunts."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-07-23",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Ventriloquy"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "U",
+		"image": "10418_0",
+		"miniimage": "10418_0",
+		"cost": 1,
+		"text": {
+			"english": " /n Choose unit. It taunts, then each unit pointing at it deals 1 battle damage to it."
 		},
 		"crosslane": false,
 		"quick": false
