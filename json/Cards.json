@@ -3438,7 +3438,7 @@
 		"image": "10260_0",
 		"miniimage": "10260_0",
 		"cost": 1,
-		"gcost": "25",
+		"gcost": 25,
 		"text": {
 			"english": " /n Equipped hero has +3 Health. /n /n [TG]Active [AC]2:[ET] Summon a Thunderhide Pack."
 		},

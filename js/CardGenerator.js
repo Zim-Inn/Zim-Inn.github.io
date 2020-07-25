@@ -213,26 +213,26 @@ const GenerateCard = function(Container,CardIDV) {
             }
             CardText = CardTextFormatting(Card['text']['english']);
             CardSetIconStyle = "CardBottomIconSet"+Card['set']+"-"+Card['rarity'];
-            TextBackgroundStyle = "";
+            //TextBackgroundStyle = "";
 
             switch (CardGoldCost) {
                 case 10:
-                    TextBackgroundStyle = "CardCentreSplitBotBG3";
-                    break;
-                case 15:
                     TextBackgroundStyle = "CardCentreSplitBotBG4";
                     break;
-                case 20:
+                case 15:
                     TextBackgroundStyle = "CardCentreSplitBotBG5";
                     break;
-                case 25:
+                case 20:
                     TextBackgroundStyle = "CardCentreSplitBotBG6";
                     break;
-                case 30:
+                case 25:
                     TextBackgroundStyle = "CardCentreSplitBotBG7";
                     break;
+                case 30:
+                    TextBackgroundStyle = "CardCentreSplitBotBG8";
+                    break;
                 default:
-                    TextBackgroundStyle = "CardCentreSplitBotBG1";
+                    TextBackgroundStyle = "CardCentreSplitBotBG3";
             }
 
             CardHTML += '<div class="CardHeaderOuter CardColourI"> \

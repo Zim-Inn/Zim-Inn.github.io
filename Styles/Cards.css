@@ -165,22 +165,26 @@
     background-size: 100%;
 }
 .CardCentreSplitBotBG3 { 
-    background-image: url('../Images/Cards/Styling/CardBot_ItemT1.png');
+    background-image: url('../Images/Cards/Styling/CardBot_ItemT0.png');
     background-size: 100%;
 }
 .CardCentreSplitBotBG4 { 
-    background-image: url('../Images/Cards/Styling/CardBot_ItemT2.png');
+    background-image: url('../Images/Cards/Styling/CardBot_ItemT1.png');
     background-size: 100%;
 }
 .CardCentreSplitBotBG5 { 
-    background-image: url('../Images/Cards/Styling/CardBot_ItemT3.png');
+    background-image: url('../Images/Cards/Styling/CardBot_ItemT2.png');
     background-size: 100%;
 }
 .CardCentreSplitBotBG6 { 
-    background-image: url('../Images/Cards/Styling/CardBot_ItemT4.png');
+    background-image: url('../Images/Cards/Styling/CardBot_ItemT3.png');
     background-size: 100%;
 }
 .CardCentreSplitBotBG7 { 
+    background-image: url('../Images/Cards/Styling/CardBot_ItemT4.png');
+    background-size: 100%;
+}
+.CardCentreSplitBotBG8 { 
     background-image: url('../Images/Cards/Styling/CardBot_ItemT5.png');
     background-size: 100%;
 }
