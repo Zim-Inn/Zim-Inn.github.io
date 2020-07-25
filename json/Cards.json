@@ -4569,7 +4569,7 @@
 		"rarity": 4,
 		"colour": "U",
 		"image": "10701_1",
-		"miniimage": "10701_1",
+		"miniimage": "10701_0",
 		"icon": "10701_0",
 		"attack": 1,
 		"armour": 0,
@@ -5113,7 +5113,7 @@
 		"rarity": 5,
 		"colour": "B",
 		"image": "10649_1",
-		"miniimage": "10649_1",
+		"miniimage": "10649_0",
 		"icon": "10649_0",
 		"attack": 3,
 		"armour": 0,
@@ -5130,7 +5130,7 @@
 		"rarity": 5,
 		"colour": "B",
 		"image": "10649_1",
-		"miniimage": "10649_1",
+		"miniimage": "10649_0",
 		"icon": "10649_0",
 		"attack": 3,
 		"armour": 0,
@@ -5541,7 +5541,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"related_cards": ["10538_0"]
+		"related_cards": ["10536_0"]
 	}]
 }, {
 	"card_id": 10025,
@@ -8196,7 +8196,7 @@
 		"rarity": 2,
 		"colour": "R",
 		"image": "11045_0",
-		"miniimage": "PH",
+		"miniimage": "11045_0",
 		"cost": 4,
 		"text": {
 			"english": "/n [TG]Round Start:[ET] Deal 2 damage to the unit blocking Stonehall Paragon."
