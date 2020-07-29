@@ -103,43 +103,51 @@
         </div>
         <div id="PageContainer" class="RestrictWidth">
             <div id="CVLView">
-                <div id="CardViewerPage_Left">
-                    <div id="CardViewerCurrentCardTitleContainer">
-                        <div class="CardDetailsPanel">
-                            <div id="CardDetailsPanelCardTitle">&nbsp;</div>
-                            <div id="CardDetailsPanelCardType">&nbsp;</div>
-                            <div id="CardDetailsPanelBottomText"></div>
-                        </div>
-                    </div> 
-                    <div id="SigAbilityRelated_Container"></div>
-                    <div id="CardViewerPageCardLore"></div>
-                </div>
-                <div id="CardViewerPage_Centre">
-                    <div id="CardContainer">
-                        <div id="CardContainerCardBrowser" onmousemove="skewcard(this,1);" onmouseout="skewcard(this,0);">
-                            <div class="CardContainer_LoadingPlaceholder">
-                                <div class="LoadingCardThrobberContainer">
-                                    <img src="Images/Styles/throbber20px.gif">
-                                </div>
+                <div id="CardViewerPage_CVLUpper">
+                    <div id="CardViewerPage_Left">
+                        <div id="CardViewerCurrentCardTitleContainer">
+                            <div class="CardDetailsPanel">
+                                <div id="CardDetailsPanelCardTitle">&nbsp;</div>
+                                <div id="CardDetailsPanelCardType">&nbsp;</div>
+                                <div id="CardDetailsPanelBottomText"></div>
                             </div>
                         </div> 
+                        <div id="SigAbilityRelated_Container"></div>
+                        <div id="CardViewerPageCardLore"></div>
                     </div>
-                    <button id="ShareButton" class="ArtifactButtonSmall" type="button" onmousemove="ShowTextTooltip(1, 'Copies the URL for this card to the clipboard');" onmouseout="ShowTextTooltip(0,0);" onclick="CardShareToClipboard('200115_0')">Share This Card</button> 
-                </div>
-                <div class="clear OnlyMobile"></div>
-                <div id="CardViewerPageCardLoreMobile">
-                    <div id="CardViewerPageCardLoreTextBody">&nbsp;</div>
-                    <div id="CardViewerPageCardLoreTextTag">&nbsp;</div>
-                </div>
-                <div id="CardViewerPage_Right">
-                    <div id="CardViewerPageCardList">
-                        <div class="LoadingCardList">
-                            Loading card list...<br>
-                            <img src="Images/Styles/RetrieveCardList.png">
+                    <div id="CardViewerPage_Centre">
+                        <div id="CardContainer">
+                            <div id="CardContainerCardBrowser" onmousemove="skewcard(this,1);" onmouseout="skewcard(this,0);">
+                                <div class="CardContainer_LoadingPlaceholder">
+                                    <div class="LoadingCardThrobberContainer">
+                                        <img src="Images/Styles/throbber20px.gif">
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <button id="ShareButton" class="ArtifactButtonSmall" type="button" onmousemove="ShowTextTooltip(1, 'Copies the URL for this card to the clipboard');" onmouseout="ShowTextTooltip(0,0);" onclick="CardShareToClipboard('200115_0')">Share This Card</button> 
+                    </div>
+                    <div class="clear OnlyMobile"></div>
+                    <div id="CardViewerPageCardLoreMobile">
+                        <div id="CardViewerPageCardLoreTextBody">&nbsp;</div>
+                        <div id="CardViewerPageCardLoreTextTag">&nbsp;</div>
+                    </div>
+                    <div id="CardViewerPage_Right">
+                        <div id="CardViewerPageCardList">
+                            <div class="LoadingCardList">
+                                Loading card list...<br>
+                                <img src="Images/Styles/RetrieveCardList.png">
+                            </div>
                         </div>
                     </div>
+                    <div class="clear"></div>
                 </div>
-                <div class="clear"></div>
+                <div id="CardViewerPage_CardHistoryContainer">
+                    <div id="CardViewerPage_CardHistoryHeader">
+                        Card History
+                    </div>
+                    <div id="CardViewerPage_CardHistoryChangeContainer">&nbsp;</div>
+                </div>
             </div>
             <div id="CVCView">
                 <div class="CVCHeader">▧ Heroes</div>
@@ -206,6 +214,7 @@
         <script src="main.js"></script>
         <script src="js/CardGenerator.js"></script>
         <script src="js/OrderCardList.js"></script>
+        <script src="js/CardViewer_CardHistory.js"></script>
         <script>InitialisePage("CardBrowser");</script>
     </body>
 </html>

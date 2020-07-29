@@ -528,9 +528,9 @@ function CardViewer_SelectCard(CardIDV, skipHistory) {
     GenerateCard('CardContainerCardBrowser',CardIDV);
     CardViewerCardPreviewTooltip(0,0); //Hide Tooltip
     CardIDV = CardIDV.split("_");
-    CardID = CardIDV[0];
-    CardVersion = CardIDV[1];
-    CardArrayIndex = "";
+    let CardID = CardIDV[0];
+    let CardVersion = CardIDV[1];
+    let CardArrayIndex = "";
     for (i = 0; i < CardJSON.length; i++) {
         if ((CardJSON[i]['card_id']) == CardID) {
             CardArrayIndex = i;
@@ -740,8 +740,10 @@ function CardViewer_SelectCard(CardIDV, skipHistory) {
     document.getElementById('SigAbilityRelated_Container').innerHTML += HTMLRelatedCardsLeftPanel;
     document.getElementById('SigAbilityRelated_Container').innerHTML += HTMLCardAbilitiesLeftPanel;
 
-    document.getElementById('CardViewerPageCardLore').innerHTML = HTMLLoreTextLeftPanel;
-    document.getElementById('CardViewerPageCardLoreMobile').innerHTML = HTMLLoreTextLeftPanel;
+    //document.getElementById('CardViewerPageCardLore').innerHTML = HTMLLoreTextLeftPanel;
+    //document.getElementById('CardViewerPageCardLoreMobile').innerHTML = HTMLLoreTextLeftPanel;
+
+    document.getElementById('CardViewerPage_CardHistoryChangeContainer').innerHTML = GetVersionChangesHTML(CardID);
 
     // Adapted from http://detectmobilebrowser.com/mobile
     const isMobile = (function (a) {
