@@ -13580,7 +13580,7 @@
 		"miniimage": "10379_0",
 		"cost": 3,
 		"text": {
-			"english": " /n Move an hero to the first empty position in another lane /n [TG]Cross Lane.[ET]"
+			"english": " /n Move an enemy to the first empty position in another lane. /n [TG]Cross Lane.[ET]"
 		},
 		"crosslane": true,
 		"quick": false
@@ -13597,7 +13597,7 @@
 		"miniimage": "10379_0",
 		"cost": 3,
 		"text": {
-			"english": " /n Move an hero to the first empty slot  in another lane /n [TG]Cross Lane.[ET]"
+			"english": " /n Move an enemy to the first empty slot in another lane. /n [TG]Cross Lane.[ET]"
 		},
 		"crosslane": true,
 		"quick": false
