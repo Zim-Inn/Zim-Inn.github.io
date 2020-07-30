@@ -1071,7 +1071,7 @@
                 "image": "210048_0",
                 "cost": 1,
                 "text":{
-                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Swap an enemy to another position. /n [TG][QU]Quickcast[ET]"
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Swap an enemy to another position. /n [TG]Cross Lane /n [QU]Quickcast[ET]"
                 }
             },
             {
@@ -1084,7 +1084,7 @@
                 "image": "210048_0",
                 "cost": 1,
                 "text":{
-                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Swap an enemy to another position up to three slots away. /n [TG][QU]Quickcast[ET]"
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Swap an enemy to another position up to three slots away. /n [TG]Cross Lane /n [QU]Quickcast[ET]"
                 }
             },
             {

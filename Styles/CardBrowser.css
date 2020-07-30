@@ -641,9 +641,7 @@
     text-decoration: underline;
     padding-left: 17px;
 }
-.CardViewerPage_CardHistoryChangeContainer {
 
-}
 .CardViewerPage_CardHistoryDateTitle {
     color: #ddd;
     font-size: 15pt;
@@ -657,7 +655,7 @@
     color: #ccc;
     padding-left: 14px;
 }
-.CardViewerPage_CardHistoryAbilityText {
+.CardViewerPage_CardHistoryRemovedAbilityText {
     font-size: 11pt;
     color: #aaa;
     padding-left: 14px;
@@ -674,12 +672,32 @@
     height: 25px;
     width: 25px;
 }
+.CardViewerPage_CardHistoryRarityIconSignature img {
+    height: 20px;
+    width: 20px;
+}
 .CardViewerPage_CardHistoryCardTextChangeHeader {
     padding-left: 10px;
     text-decoration: underline;
 }
 .CardViewerPage_CardHistoryCardTextChangeDetails {
     padding-left: 20px;
+}
+.CardViewerPage_CardHistoryCardArtContainer {
+    width: 150px;
+    float: left;
+    padding: 5px 10px;
+}
+.CardViewerPage_CardHistoryCardArtContainer img {
+    width: 100%;
+}
+.CardViewerPage_CardHistoryMiniImageContainer {
+    width: 90px;
+    float: left;
+    padding: 5px 10px;
+}
+.CardViewerPage_CardHistoryMiniImageContainer img {
+    width: 100%;
 }
 
 @media (max-width: 1090px) {

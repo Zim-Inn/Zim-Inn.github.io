@@ -21,6 +21,15 @@ const GetVersionChangesHTML = function(CardID) {
             if (CardJSON[CardArrayIndex]['versions'][counter]['card_name']['english'] != CardJSON[CardArrayIndex]['versions'][counter+1]['card_name']['english']) {
                 CardHistoryHTML += '<li>Card renamed from '+CardJSON[CardArrayIndex]['versions'][counter]['card_name']['english']+ ' to '+CardJSON[CardArrayIndex]['versions'][counter+1]['card_name']['english']+'. </li>';
             }
+            //CardArt
+            if (CardJSON[CardArrayIndex]['versions'][counter]['image'] != CardJSON[CardArrayIndex]['versions'][counter+1]['image']) {
+                CardHistoryHTML += '<li>Card art changed. </li>';
+                CardHistoryHTML += '<div class="CardViewerPage_CardHistoryCardArtContainer"><img src="Images/Cards/CardArt/'+CardJSON[CardArrayIndex]['versions'][counter]['image']+'.jpg"></div><div class="CardViewerPage_CardHistoryCardArtContainer"><img src="Images/Cards/CardArt/'+CardJSON[CardArrayIndex]['versions'][counter+1]['image']+'.jpg"></div><div class="clear"></div>';
+            }
+            //Card Mini-image
+            if (CardJSON[CardArrayIndex]['versions'][counter]['miniimage'] != CardJSON[CardArrayIndex]['versions'][counter+1]['miniimage']) {
+                CardHistoryHTML += '<li>Card mini-image changed. </li>';
+            }
             //Card Type
             if (CardJSON[CardArrayIndex]['versions'][counter]['card_type'] != CardJSON[CardArrayIndex]['versions'][counter+1]['card_type']) {
                 CardHistoryHTML += '<li>Card Type changed from '+CardJSON[CardArrayIndex]['versions'][counter]['card_type']+ ' to '+CardJSON[CardArrayIndex]['versions'][counter+1]['card_type']+'. </li>';
@@ -57,7 +66,154 @@ const GetVersionChangesHTML = function(CardID) {
                 }
             }
             //Card Signatures
-                // TODO :-(
+            if ("signature" in CardJSON[CardArrayIndex]['versions'][counter]) {
+                let SignatureIDsCard1 = new Array();
+                let SignatureVersCard1 = new Array();
+                let SignatureIDsCard2 = new Array(); 
+                let SignatureVersCard2 = new Array();
+                let RemovedSignatures = new Array();
+                let UpdatedSignatures = new Array(); //Even indices: Previous Version. Odd indices: Updated Version.
+                let NewSignatures = new Array();
+
+                for (let sc1 = 0; sc1 < CardJSON[CardArrayIndex]['versions'][counter]['signature'].length; sc1++) {
+                    let SignatureIDV = CardJSON[CardArrayIndex]['versions'][counter]['signature'][sc1].split("_");
+                    SignatureIDsCard1.push(SignatureIDV[0]);
+                    SignatureVersCard1.push(SignatureIDV[1]);
+                }
+                for (let sc2 = 0; sc2 < CardJSON[CardArrayIndex]['versions'][counter+1]['signature'].length; sc2++) {
+                    let SignatureIDV = CardJSON[CardArrayIndex]['versions'][counter+1]['signature'][sc2].split("_");
+                    SignatureIDsCard2.push(SignatureIDV[0]);
+                    SignatureVersCard2.push(SignatureIDV[1]);
+                }
+
+                for (let c1a = 0; c1a < SignatureIDsCard1.length; c1a++) {
+                    let IsInCard2 = 0;
+                    let Card2ArrayIndex = -1;
+                
+                    for (let c2a = 0; c2a < SignatureIDsCard2.length; c2a++) {
+                        if (SignatureIDsCard1[c1a] == SignatureIDsCard2[c2a]) {
+                            IsInCard2 = 1;
+                            Card2ArrayIndex = c2a;
+                            break;
+                        } 
+                    }
+                    
+                    if (IsInCard2 == 1) { //If Signature matches...
+                
+                        if (SignatureVersCard1[c1a] == SignatureVersCard2[Card2ArrayIndex]) {
+                            // ... And the version matches - no change for this signature.
+                        } else {
+                            // ... But version doesn't match.
+                            let OldSignature = SignatureIDsCard1[c1a]+"_"+SignatureVersCard1[c1a];
+                            UpdatedSignatures.push(OldSignature);
+                            let NewSignature = SignatureIDsCard2[Card2ArrayIndex]+"_"+SignatureVersCard2[Card2ArrayIndex];
+                            UpdatedSignatures.push(NewSignature);
+                        }
+                    } else { // Signature not on the card.
+                        let RemovedSignature = SignatureIDsCard1[c1a]+"_"+SignatureVersCard1[c1a];
+                        RemovedSignatures.push(RemovedSignature);
+                    }
+                }
+                
+                for (let c2a = 0; c2a < SignatureIDsCard2.length; c2a++) {
+                    let IsNewSignature = 1;
+                    if (SignatureIDsCard1.includes(SignatureIDsCard2[c2a])) {
+                        IsNewSignature = 0
+                    } 
+                    if (IsNewSignature == 1) {
+                        let NewSignatureIDV = SignatureIDsCard2[c2a]+"_"+SignatureVersCard2[c2a];
+                        NewSignatures.push(NewSignatureIDV);
+                    }
+                }
+                
+                if (RemovedSignatures.length > 0) {
+                    for (let rs = 0; rs < RemovedSignatures.length; rs++) {
+                        let RemovedSignatureIDV = RemovedSignatures[rs].split("_");
+                        let RemovedSignatureID = RemovedSignatureIDV[0];
+                        let RemovedSignatureVersion = RemovedSignatureIDV[1];
+                        let RemovedSignatureArrayIndex = -1;
+                        for (let si = 0; si < CardJSON.length; si++) {
+                            if (CardJSON[si]['card_id'] == RemovedSignatureID) {
+                                RemovedSignatureArrayIndex = si;
+                                break;
+                            }
+                        }
+                        let RemovedSignatureName = CardJSON[RemovedSignatureArrayIndex]['versions'][RemovedSignatureVersion]['card_name']['english'];
+                        let RemovedSignatureText = CardJSON[RemovedSignatureArrayIndex]['versions'][RemovedSignatureVersion]['text']['english'];
+                        CardHistoryHTML += '<li> Signature Card removed: '+RemovedSignatureName+' <br><span class="CardViewerPage_CardHistoryRemovedAbilityText">'+CardHistory_CardTextFormatting(RemovedSignatureText)+'</span></li>';
+                    }
+                }
+                
+                if (NewSignatures.length > 0) {
+                    for (let ns = 0; ns < NewSignatures.length; ns++) {
+                        let NewSignatureIDV = NewSignatures[ns].split("_");
+                        let NewSignatureID = NewSignatureIDV[0];
+                        let NewSignatureVersion = NewSignatureIDV[1];
+                        let NewSignatureArrayIndex = -1;
+                        for (let si = 0; si < CardJSON.length; si++) {
+                            if (CardJSON[si]['card_id'] == NewSignatureID) {
+                                NewSignatureArrayIndex = si;
+                                break;
+                            }
+                        }
+                        let NewSignatureName = CardJSON[NewSignatureArrayIndex]['versions'][NewSignatureVersion]['card_name']['english'];
+                        let NewSignatureText = CardJSON[NewSignatureArrayIndex]['versions'][NewSignatureVersion]['text']['english'];
+                        CardHistoryHTML += '<li> Signature Card added: '+NewSignatureName+' <br><span class="CardViewerPage_CardHistoryAbilityTextUpdate">'+CardHistory_CardTextFormatting(NewSignatureText)+'</span></li>';
+                
+                    }
+                }
+                
+                if (UpdatedSignatures.length > 0) {
+                    for (let us = 0; us < UpdatedSignatures.length; us+=2) {
+                        let UpdatedSignatureIDV = UpdatedSignatures[us].split("_");
+                        let UpdatedSignatureID = UpdatedSignatureIDV[0];
+                        let UpdatedSignatureV1 = UpdatedSignatureIDV[1];
+                        UpdatedSignatureIDV = UpdatedSignatures[us+1].split("_");
+                        let UpdatedSignatureV2 = UpdatedSignatureIDV[1];
+                        let UpdatedSignatureArrayIndex = -1;
+                        for (let si = 0; si < CardJSON.length; si++) {
+                            if (CardJSON[si]['card_id'] == UpdatedSignatureID) {
+                                UpdatedSignatureArrayIndex = si;
+                                break;
+                            }
+                        }
+                
+                        CardHistoryHTML += '<li> Signature Card updated: '+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['card_name']['english']+'<br>';
+                
+                        //English Signature Name
+                        if (CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['card_name']['english'] != CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['card_name']['english']) {
+                            CardHistoryHTML += 'Card renamed from '+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['card_name']['english']+ ' to '+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['card_name']['english']+'. </li>';
+                        }
+                        //Card Rarity
+                        if (CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['rarity'] != CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['rarity']) {
+                            CardHistoryHTML += '<div class="CardViewerPage_CardHistoryAbilityTextUpdate">Card Rarity changed from '+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['rarity']+'<span class=CardViewerPage_CardHistoryRarityIconSignature><img src="Images/SetIcons/'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['set']+'-'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['rarity']+'.png"></span> to '+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['rarity']+'<span class=CardViewerPage_CardHistoryRarityIconSignature><img src="Images/SetIcons/'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['set']+'-'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['rarity']+'.png"></span> </div>';
+                        }
+                        //English Signature Text
+                        if (CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['text']['english'] != CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['text']['english']) {
+                            CardHistoryHTML += '<div class="CardViewerPage_CardHistoryAbilityTextUpdate">Card text changed. <br> <span class="CardViewerPage_CardHistoryCardTextChangeHeader">Previously:</span> <br> <span class="CardViewerPage_CardHistoryCardTextChangeDetails">'+CardHistory_CardTextFormatting(CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['text']['english'])+ '</span> <br> <span class="CardViewerPage_CardHistoryCardTextChangeHeader">Changed to:</span> <br> <span class="CardViewerPage_CardHistoryCardTextChangeDetails">'+CardHistory_CardTextFormatting(CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['text']['english'])+'</span> </div>';
+                        }
+                        //Card Type
+                        if (CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['card_type'] != CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['card_type']) {
+                            CardHistoryHTML += '<div class="CardViewerPage_CardHistoryAbilityTextUpdate">Card Type changed from '+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['card_type']+ ' to '+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['card_type']+'.</div>';
+                        }
+                        //HP, Armour and Attack Values
+                        if ("hp" in CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1] && "hp" in CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]) {
+                            if ((CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]["hp"] != CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]["hp"]) || (CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]["armour"] != CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]["armour"]) || (CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]["attack"] != CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]["attack"]))
+                            CardHistoryHTML+='<div class="CardViewerPage_CardHistoryAbilityTextUpdate">Card stats changed from ▣'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]["attack"]+' ▤'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]["armour"]+' ▥'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]["hp"]+' to ▣'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]["attack"]+' ▤'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]["armour"]+' ▥'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]["hp"]+'</div>';
+                        }
+                        //Mana Cost
+                        if (CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['cost'] != CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['cost']) {
+                            CardHistoryHTML += '<div class="CardViewerPage_CardHistoryAbilityTextUpdate">Mana Cost changed from '+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['cost']+ ' to '+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['cost']+'.</div>';
+                        }
+
+                        CardHistoryHTML += '</li>';
+                    }
+                }
+
+
+            }
+
+
 
             //Card Abilities
             if ("abilities" in CardJSON[CardArrayIndex]['versions'][counter]) {
@@ -93,11 +249,8 @@ const GetVersionChangesHTML = function(CardID) {
                     }
                     
                     if (IsInCard2 == 1) { //If Ability matches...
-                        console.log("Card2Index: "+Card2AbilityArrayIndex);
-                        console.log("c1 ver: "+AbilityVersCard1[c1a]+" ... c2 ver: "+AbilityVersCard2[Card2AbilityArrayIndex]);
 
                         if (AbilityVersCard1[c1a] == AbilityVersCard2[Card2AbilityArrayIndex]) {
-                            console.log("No change");
                             // ... And the version matches - no change for this ability.
                         } else {
                             // ... But version doesn't match.
@@ -113,7 +266,6 @@ const GetVersionChangesHTML = function(CardID) {
                 }
 
                 for (let c2a = 0; c2a < AbilityIDsCard2.length; c2a++) {
-                    console.log("c2a: "+c2a+". ID in array is: "+AbilityIDsCard2[c2a]);
                     let IsNewAbility = 1;
                     if (AbilityIDsCard1.includes(AbilityIDsCard2[c2a])) {
                         IsNewAbility = 0
@@ -138,7 +290,7 @@ const GetVersionChangesHTML = function(CardID) {
                         }
                         let RemovedAbilityName = AbilityJSON[RemovedAbilityArrayIndex]['versions'][RemovedAbilityVersion]['ability_name']['english'];
                         let RemovedAbilityText = AbilityJSON[RemovedAbilityArrayIndex]['versions'][RemovedAbilityVersion]['text']['english'];
-                        CardHistoryHTML += '<li> Ability removed: '+RemovedAbilityName+' <br><span class="CardViewerPage_CardHistoryAbilityText">'+CardHistory_CardTextFormatting(RemovedAbilityText)+'</span></li>';
+                        CardHistoryHTML += '<li> Ability removed: '+RemovedAbilityName+' <br><span class="CardViewerPage_CardHistoryRemovedAbilityText">'+CardHistory_CardTextFormatting(RemovedAbilityText)+'</span></li>';
                     }
                 }
 
@@ -154,10 +306,9 @@ const GetVersionChangesHTML = function(CardID) {
                                 break;
                             }
                         }
-                        console.log("New ability name: "+ AbilityJSON[NewAbilityArrayIndex]['versions'][NewAbilityVersion]['ability_name']['english']);
                         let NewAbilityName = AbilityJSON[NewAbilityArrayIndex]['versions'][NewAbilityVersion]['ability_name']['english'];
                         let NewAbilityText = AbilityJSON[NewAbilityArrayIndex]['versions'][NewAbilityVersion]['text']['english'];
-                        CardHistoryHTML += '<li> Ability added: '+NewAbilityName+' <br><span class="CardViewerPage_CardHistoryAbilityText">'+CardHistory_CardTextFormatting(NewAbilityText)+'</span></li>';
+                        CardHistoryHTML += '<li> Ability added: '+NewAbilityName+' <br><span class="CardViewerPage_CardHistoryAbilityTextUpdate">'+CardHistory_CardTextFormatting(NewAbilityText)+'</span></li>';
 
                     }
                 }
@@ -182,6 +333,11 @@ const GetVersionChangesHTML = function(CardID) {
                         //English Ability Name
                         if (AbilityJSON[UpdatedAbilityArrayIndex]['versions'][UpdatedAbilityV1]['ability_name']['english'] != AbilityJSON[UpdatedAbilityArrayIndex]['versions'][UpdatedAbilityV2]['ability_name']['english']) {
                             CardHistoryHTML += 'Ability renamed from '+AbilityJSON[UpdatedAbilityArrayIndex]['versions'][UpdatedAbilityV1]['ability_name']['english']+ ' to '+AbilityJSON[UpdatedAbilityArrayIndex]['versions'][UpdatedAbilityV2]['ability_name']['english']+'. </li>';
+                        }
+                        //Ability Icon
+                        if (AbilityJSON[UpdatedAbilityArrayIndex]['versions'][UpdatedAbilityV1]['image'] != AbilityJSON[UpdatedAbilityArrayIndex]['versions'][UpdatedAbilityV2]['image']) {
+                            CardHistoryHTML += '<div class="CardViewerPage_CardHistoryAbilityTextUpdate">Ability icon changed.</div>';
+                            CardHistoryHTML += '<div class="CardViewerPage_CardHistoryMiniImageContainer"><img src="Images/Abilities/'+AbilityJSON[UpdatedAbilityArrayIndex]['versions'][UpdatedAbilityV1]['image']+'.jpg"></div><div class="CardViewerPage_CardHistoryMiniImageContainer"><img src="Images/Abilities/'+AbilityJSON[UpdatedAbilityArrayIndex]['versions'][UpdatedAbilityV2]['image']+'.jpg"></div><div class="clear"></div>';
                         }
                         //English Ability Text
                         if (AbilityJSON[UpdatedAbilityArrayIndex]['versions'][UpdatedAbilityV1]['text']['english'] != AbilityJSON[UpdatedAbilityArrayIndex]['versions'][UpdatedAbilityV2]['text']['english']) {
