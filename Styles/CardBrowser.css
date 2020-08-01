@@ -766,6 +766,7 @@
     }
     .CardViewerPageAbilityIcon {
         width: 100px;
+        height: 100px;
     }
     .CardViewerPageAbilityTopText {
         float: left;
@@ -783,7 +784,6 @@
         color: #ddd;
         font-size: 22pt;
         padding: 4px 8px;
-        background-color: rgba(0,0,0,0.3);
         border-radius: 0 0 10px 10px;
     }
     .CardViewerPageSigCardText {
