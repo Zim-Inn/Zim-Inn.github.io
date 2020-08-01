@@ -3787,7 +3787,7 @@
 		"cost": 1,
 		"gcost": 15,
 		"text": {
-			"english": " /n +2[ATT] and +3 Cleave."
+			"english": " /n /n +2[ATT] and +3 Cleave."
 		},
 		"attack": 2,
 		"armour": 0,
@@ -3817,7 +3817,7 @@
 		"cost": 1,
 		"gcost": 15,
 		"text": {
-			"english": " /n +4 Cleave."
+			"english": " /n /n +4 Cleave."
 		},
 		"attack": 0,
 		"armour": 0,
@@ -3847,7 +3847,7 @@
 		"cost": 1,
 		"gcost": 15,
 		"text": {
-			"english": " /n +5 Cleave."
+			"english": " /n /n +5 Cleave."
 		},
 		"attack": 0,
 		"armour": 0,
@@ -6516,7 +6516,7 @@
 		"cost": 1,
 		"gcost": 10,
 		"text": {
-			"english": " /n /n +2[ATT], +5 damage when attacking a tower."
+			"english": " /n /n +5 damage when attacking a tower."
 		},
 		"attack": 2,
 		"armour": 0,
@@ -6710,7 +6710,7 @@
 		"cost": 1,
 		"gcost": 25,
 		"text": {
-			"english": "/n +4 [AR]/n [TG]Play Effect:[ET] Activate./n [TG]Active 2[AC], 1 Mana:[ET] Purge your opponent's effects from equipped hero. Give each ally 4 temporary Health."
+			"english": "/n +4 [AR]/n [TG]Play Effect:[ET] Activate./n [TG]Active 2[AC], 1 Mana:[ET] Purge your opponent's effects from equipped hero. Give each ally +4 temporary Health."
 		},
 		"attack": 0,
 		"armour": 4,
@@ -6826,7 +6826,7 @@
 		"miniimage": "11055_0",
 		"cost": 3,
 		"text": {
-			"english": " Untargetable /n/n [TG]Aura:[ET] Terrapin Greatshell's allied neighbors have Untargetable."
+			"english": " Untargetable /n/n [TG]Aura:[ET] Terrapin Greatshell's allied neighbors are Untargetable."
 		},
 		"attack": 4,
 		"armour": 2,
@@ -6834,7 +6834,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"related_cards": ["11054_1"]
+		"related_cards": ["11054_2"]
 	}]
 }, {
 	"card_id": 10642,
@@ -7586,7 +7586,7 @@
 		"cost": 1,
 		"gcost": 20,
 		"text": {
-			"english": " /n +3[AR], Rapid Deployment. /n Your tower has +3[AR]."
+			"english": " /n /n +3[AR], Rapid Deployment. /n Your tower has +3[AR]."
 		},
 		"attack": 0,
 		"armour": 3,
@@ -7608,7 +7608,7 @@
 		"cost": 1,
 		"gcost": 25,
 		"text": {
-			"english": " /n +3[AR], Rapid Deployment. /n Your tower has +3[AR]."
+			"english": " /n /n +3[AR], Rapid Deployment. /n Your tower has +3[AR]."
 		},
 		"attack": 0,
 		"armour": 3,
@@ -7903,7 +7903,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"related_cards": ["10033_1"]
+		"related_cards": ["10033_3"]
 	}]
 }, {
 	"card_id": 10730,
@@ -13970,7 +13970,7 @@
 		"colour": "U",
 		"image": "10412_0",
 		"miniimage": "10412_0",
-		"cost": 5,
+		"cost": 4,
 		"text": {
 			"english": " /n Deal 3 piercing damage to each enemy."
 		},
