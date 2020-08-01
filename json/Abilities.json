@@ -2329,7 +2329,7 @@
                     "english":"Poison Sting"
                  },
                 "cooldown": 2,
-                "image": "11065_0",
+                "image": "11067_0",
                 "cost": 1,
                 "text":{
                     "english":"When Venomancer and allied Plague Wards deal damage to a unit or tower, give it +1 Decay until its next combat phase"
