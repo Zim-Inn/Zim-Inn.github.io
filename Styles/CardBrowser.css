@@ -17,9 +17,11 @@
 }
 #CardViewerPage_Right {
     margin-top: 10px;
+    padding: 4px;
     float: left;
-    width: calc(47% - 175px);
-    max-height: 700px;
+    width: calc(47% - 185px);
+    max-height: 660px;
+    background-color: rgba(27, 60, 77, 0.3);
 }
 #CardContainerCardBrowser {
     width: 320px;
@@ -28,10 +30,16 @@
 }
 
 #CardViewerPageCardList {
-    overflow-y: auto;
-    max-height: inherit;
+    overflow-y: scroll;
+    max-height: 650px;
+    min-height: 650px;
     color: #ddd;
     font-family: 'Radiance', sans-serif;
+    width: calc(100% - 3px);
+    padding: 5px;
+    box-shadow: inset 2px 2px 6px black;
+    /*margin: 6px;*/
+    background-color: rgba(0,0,0,0.3);
 }
 .LoadingCardList {
     font-size: 20pt;
@@ -70,7 +78,7 @@
 }
 .CardViewerPageSingleAbilityContainer {
     margin-top: 10px;
-    background-color: rgba(255,255,255,0.1);
+    background: linear-gradient(90deg, rgba(255,255,255, 0.1) 80%, rgba(0,0,0,0) 100%);
     font-family: 'Radiance', sans-serif;
     border-radius: 10px;
     text-shadow: 2px 2px 2px black;
@@ -105,7 +113,7 @@
     color: #ddd;
     font-size: 13pt;
     padding: 4px 8px;
-    background-color: rgba(0,0,0,0.3);
+    background: linear-gradient(90deg, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%);
     border-radius: 0 0 10px 10px;
 }
 #CardViewerPageSignatureContainer {
@@ -116,22 +124,28 @@
     text-shadow: 2px 2px 2px black;
 }
 .CardViewerPageSignatureContainerR {
-    background-color: rgba(255,100,100,0.2);
+    /*background-color: rgba(255,100,100,0.2);*/
+    background: linear-gradient(90deg, rgba(255,100,100, 0.2) 80%, rgba(255,100,100, 0) 100%);
 }
 .CardViewerPageSignatureContainerU {
-    background-color: rgba(50,110,141,0.4);
+    /*background-color: rgba(50,110,141,0.4);*/
+    background: linear-gradient(90deg, rgba(50,110,141, 0.4) 80%, rgba(50,110,141, 0) 100%);
 }
 .CardViewerPageSignatureContainerG {
-    background-color: rgba(100,255,100,0.2);
+    /*background-color: rgba(100,255,100,0.2);*/
+    background: linear-gradient(90deg, rgba(100,255,100,0.2) 80%, rgba(100,255,100, 0) 100%);
 }
 .CardViewerPageSignatureContainerB {
-    background-color: rgba(11, 5, 17, 0.5);
+    /*background-color: rgba(11, 5, 17, 0.5);*/
+    background: linear-gradient(90deg, rgba(11, 5, 17, 0.5) 80%, rgba(11, 5, 17, 0) 100%);
 }
 .CardViewerPageSignatureContainerC {
-    background-color: rgba(120,120,120,0.5);
+    /*background-color: rgba(120,120,120,0.5);*/
+    background: linear-gradient(90deg, rgba(120,120,120,0.5) 80%, rgba(120,120,120,0) 100%);
 }
 .CardViewerPageSignatureContainerI {
-    background-color: rgba(224, 201, 170, 0.3);
+    /*background-color: rgba(224, 201, 170, 0.3);*/
+    background: linear-gradient(90deg, rgba(224, 201, 170, 0.3) 80%, rgba(224, 201, 170, 0) 100%);
 }
 .CardViewerPageSigCardText {
     font-size: 14pt;
@@ -311,7 +325,8 @@
 .CardDetailsPanel {
     text-align: center;
     margin-top: 10px;
-    background-color: rgba(255,255,255,0.1);
+    /*background-color: rgba(255,255,255,0.1);*/
+    background: linear-gradient(90deg, rgba(54, 46, 58, 0.6) 80%, rgba(27, 60, 77, 0) 100%);
     font-family: 'Radiance', sans-serif;
     border-radius: 10px;
     text-shadow: 2px 2px 2px black;
@@ -376,6 +391,7 @@
     top:0;
     background-color: rgba(26,24,29,0.7);
     border-bottom: 2px solid black;
+    z-index: 1;
 }
 .CVOptionContainer {
     padding: 5px;
@@ -609,6 +625,103 @@
     margin-left: calc(50% - 90px);
     margin-top: 5px;
 }
+
+#CardViewerPage_CardHistoryContainer {
+    font-family: 'Radiance', sans-serif;
+    /*background-color: rgba(27, 60, 77, 0.3);*/
+    background: linear-gradient(90deg, rgba(27, 60, 77, 0.2) 30%, rgba(27, 60, 77, 0) 80%);
+    border-radius: 10px;
+    padding: 7px;
+    width: 100%;
+}
+#CardViewerPage_CardHistoryHeader {
+    color: #ddd;
+    font-size: 22pt;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    padding-left: 17px;
+}
+
+.CardViewerPage_CardHistoryDateTitle {
+    color: #ddd;
+    font-size: 15pt;
+    font-weight: bold;
+    width: 100%;
+    padding: 7px;
+    background: linear-gradient(90deg, rgba(13, 7, 15, 0.6), rgba(27, 60, 77, 0) 50%);
+}
+.CardViewerPage_CardHistoryDetails {
+    font-size: 13pt;
+    color: #ccc;
+    padding-left: 14px;
+}
+.CardViewerPage_CardHistoryRemovedAbilityText {
+    font-size: 11pt;
+    color: #aaa;
+    padding-left: 14px;
+}
+.CardViewerPage_CardHistoryAbilityTextUpdate {
+    font-size: 12pt;
+    color: #ccc;
+    padding-left: 14px;
+}
+.CardViewerPage_CardHistoryDetails li {
+    margin: 10px 0;
+}
+.CardViewerPage_CardHistoryRarityIcon img {
+    height: 25px;
+    width: 25px;
+}
+.CardViewerPage_CardHistoryRarityIconSignature img {
+    height: 20px;
+    width: 20px;
+}
+.CardViewerPage_CardHistoryCardTextChangeHeader {
+    padding-left: 10px;
+    text-decoration: underline;
+}
+.CardViewerPage_CardHistoryCardTextChangeDetails {
+    padding-left: 20px;
+}
+.CardViewerPage_CardHistoryCardArtContainer {
+    width: 150px;
+    float: left;
+    padding: 5px 10px;
+}
+.CardViewerPage_CardHistoryCardArtContainer img {
+    width: 100%;
+    display:block;
+}
+.CardViewerPage_CardHistoryMiniImageContainer {
+    width: 90px;
+    min-height: 90px;
+    float: left;
+    padding: 5px;
+}
+.CardViewerPage_CardHistoryMiniImageContainer img {
+    width: 100%;
+    display:block;
+}
+.CardViewerPage_CardHistoryMiniImageChangeIndicator, .CardViewerPage_CardHistoryCardArtFullHeightChangeIndicator, .CardViewerPage_CardHistoryCardArtHalfHeightChangeIndicator {
+    background-image: url('../Images/Styles/CardHistory_ImageChangeArrow.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    width: 30px;
+}
+.CardViewerPage_CardHistoryMiniImageChangeIndicator {
+    height: 90px;   
+}
+.CardViewerPage_CardHistoryCardArtFullHeightChangeIndicator {
+    height: 200px;   
+}
+.CardViewerPage_CardHistoryCardArtHalfHeightChangeIndicator {
+    height: 120px;   
+}
+
+
+
 @media (max-width: 1090px) {
     .CardList_CardName {
         letter-spacing: -0.05em;
@@ -653,6 +766,7 @@
     }
     .CardViewerPageAbilityIcon {
         width: 100px;
+        height: 100px;
     }
     .CardViewerPageAbilityTopText {
         float: left;
@@ -670,7 +784,6 @@
         color: #ddd;
         font-size: 22pt;
         padding: 4px 8px;
-        background-color: rgba(0,0,0,0.3);
         border-radius: 0 0 10px 10px;
     }
     .CardViewerPageSigCardText {

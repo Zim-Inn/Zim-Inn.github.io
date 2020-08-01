@@ -1846,7 +1846,7 @@
 		"related_cards": ["10723_2"],
 		"signature": ["10724_0"]
 	},{
-		"release_date": "2020-07-09",
+		"release_date": "2020-07-16",
 		"card_type": "Hero",
 		"card_name": {
 			"english": "Phantom Lancer"
@@ -3567,6 +3567,7 @@
 		"attack": 8,
 		"armour": 0,
 		"hp": 8,
+		"related_cards": ["10260_0"],
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
@@ -6722,7 +6723,7 @@
 }, {
 	"card_id": 11054,
 	"versions": [{
-		"release_date": "2020-05-25",
+		"release_date": "2020-05-29",
 		"card_type": "Creep",
 		"card_name": {
 			"english": "Shattered Terrapin"
@@ -7265,7 +7266,7 @@
 		"image": "10727_0",
 		"miniimage": "10727_0",
 		"cost": 1,
-		"gcost": 20,
+		"gcost": 15,
 		"text": {
 			"english": "/n +2[AR]/n[TG]Active 3[AC], 1 Mana:[ET] Silence an enemy and give it -3[AR]."
 		},
@@ -7558,6 +7559,28 @@
 		"rarity": 2,
 		"image": "11029_0",
 		"miniimage": "11029_0",
+		"cost": 1,
+		"gcost": 20,
+		"text": {
+			"english": " /n +5[AR], +3[HP], +3 Regeneration"
+		},
+		"attack": 0,
+		"armour": 5,
+		"hp": 3,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-02",
+		"card_type": "Item",
+		"card_subtype": "Armor",
+		"card_name": {
+			"english": "Vanguard"
+		},
+		"set": 1,
+		"rarity": 2,
+		"image": "11029_1",
+		"miniimage": "11029_1",
 		"cost": 1,
 		"gcost": 20,
 		"text": {
