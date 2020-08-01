@@ -1338,6 +1338,37 @@
 		"related_cards": [],
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-07-31",
+		"card_type": "Item",
+		"card_subtype": "Accessory",
+		"card_name": {
+			"english": "Claszureme Hourglass"
+		},
+		"lore": {
+			"text": {
+				"english": "It was Pierpont who helped broker the Claszureme Treaty, ensuring that Faceless Void would not wreak havoc with our time stream. In exchange, the Sapphire Conclave agreed to enforce a strict crackdown on Chronomancy. Most hourglasses on this plane were confiscated, but every now and again one turns up... usually in the possession of a wizard too foolish to understand the consequences of his actions."
+			},
+			"tag": {
+				"english": "Jolixia, The Card Faun"
+			}
+		},
+		"set": 1,
+		"rarity": 5,
+		"image": "10782_0",
+		"miniimage": "10782_0",
+		"cost": 1,
+		"gcost": 10,
+		"text": {
+			"english": "/n+3[HP] /n/n [TG]After Combat:[ET] Bounce this hero. /n/n [TG]Active 1[AC], 1 Mana:[ET] Bounce the unit blocking equipped hero."
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 3,
+		"abilities": [],
+		"related_cards": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10262,
@@ -1363,7 +1394,7 @@
 		"cost": 1,
 		"gcost": 30,
 		"text": {
-			"english": "/n +1[AR] /n [TG]Active 1[AC], 1 Mana: [ET] /n Reduce adjacent enemies to 1 Health. They are stunned, rooted and feeble."
+			"english": "/n +1[AR] /n [TG]Active 1[AC], 1 Mana: [ET] /n Reduce adjacent enemies to 1 Health. They are stunned, rooted, and feeble."
 		},
 		"attack": 0,
 		"armour": 1,
@@ -1679,6 +1710,31 @@
 		"hp": 5,
 		"abilities": ["210016_1"],
 		"signature": ["10160_0"]
+	}, {
+		"release_date": "2020-07-31",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Ogre Magi"
+		},
+		"lore": {
+			"text": {
+				"english": "'It's not easy being the smartest ogre in the world. There's lots of jealous people out there.'/n'Think about how many people you know with one head.'/n'I bet it's a lot.'/n'Now realize that every single one of them is half as smart as us. Do you know how lonely it is to walk this earth, never finding an intellectual eq-'/n'WE LIKE ROCKS!'/n'Yes...yes we do.' "
+			},
+			"tag": {
+				"english": "Aggron Stonebreak, the Ogre Magi"
+			}
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "U",
+		"image": "10043_0",
+		"miniimage": "10043_0",
+		"icon": "10043_0",
+		"attack": 2,
+		"armour": 2,
+		"hp": 5,
+		"abilities": ["210016_2"],
+		"signature": ["10160_0"]
 	}]
 }, {
 	"card_id": 10160,
@@ -1707,7 +1763,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10043_2"
+		"is_signature": "10043_3"
 	}]
 }, {
 	"card_id": 10721,
@@ -2768,6 +2824,31 @@
 		"hp": 4,
 		"abilities": ["210032_2"],
 		"signature": ["10341_1"]
+	}, {
+		"release_date": "2020-07-31",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Legion Commander"
+		},
+		"lore": {
+			"text": {
+				"english": "I know these people think me a monster. I don't blame them. No one wants to be occupied, but it's in their best interests! If we weren't here in Roseleaf the Red Mist would have slaughtered them all... today the Vhoul see us as villains, but after we defeat Sorla Khan... The Bronze Legion will be heralded as the heroes we are."
+			},
+			"tag": {
+				"english": "Tresdin, Legion Commander"
+			}
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "R",
+		"image": "10069_0",
+		"miniimage": "10069_0",
+		"icon": "10069_0",
+		"attack": 5,
+		"armour": 1,
+		"hp": 4,
+		"abilities": ["210032_3"],
+		"signature": ["10341_1"]
 	}]
 }, {
 	"card_id": 10341,
@@ -2822,7 +2903,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10069_3"
+		"is_signature": "10069_4"
 	}]
 }, {
 	"card_id": 10036,
@@ -3669,6 +3750,36 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	}, {
+		"release_date": "2020-07-31",
+		"card_type": "Item",
+		"card_subtype": "Weapon",
+		"card_name": {
+			"english": "Blade of the Vigil"
+		},
+		"lore": {
+			"text": {
+				"english": "The Knights of the Vigil were renowned for their skill in battle. The stories of Sven, Geeta the Wildblade, and Klemens have captured the imagination of so many... you can't throw a rock in the Gardens of Freth without hitting a group of school kids recreating their adventures. But playing a knight is easy... wielding one of their swords is far more challenging."
+			},
+			"tag": {
+				"english": "Jolixia, The Card Faun"
+			}
+		},
+		"set": 1,
+		"rarity": 1,
+		"image": "10212_0",
+		"miniimage": "10212_0",
+		"cost": 1,
+		"gcost": 15,
+		"text": {
+			"english": " /n +5 Cleave."
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10193,
@@ -4179,6 +4290,23 @@
 		"hp": 3,
 		"abilities": ["210046_0", "210047_1"],
 		"signature": ["10666_0"]
+	}, {
+		"release_date": "2020-07-31",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Rix, Oathbound"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "C",
+		"image": "10663_0",
+		"miniimage": "10663_0",
+		"icon": "10663_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 3,
+		"abilities": ["210046_0", "210047_1"],
+		"signature": ["10666_1"]
 	}]
 }, {
 	"card_id": 10666,
@@ -4201,6 +4329,25 @@
 		"crosslane": false,
 		"quick": false,
 		"is_signature": "10663_1"
+	}, {
+		"release_date": "2020-07-31",
+		"card_type": "Improvement",
+		"improvement_type": "Reactive",
+		"card_name": {
+			"english": "The Twisted Path"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "C",
+		"image": "10666_0",
+		"miniimage": "10666_0",
+		"cost": 3,
+		"text": {
+			"english": "/n Enchant Tower /n /n [TG]Active 2[AC], Mana 1:[ET] Choose an ally. It battles the enemy tower. Slay that ally."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10663_2"
 	}]
 }, {
 	"card_id": 10668,
@@ -4661,6 +4808,23 @@
 		"hp": 5,
 		"abilities": ["210053_1"],
 		"signature": ["10788_0"]
+	},{
+		"release_date": "2020-07-31",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Venomancer"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "U",
+		"image": "10786_0",
+		"miniimage": "10786_0",
+		"icon": "10786_0",
+		"attack": 1,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210053_1", "11067_0"],
+		"signature": ["10788_0"]
 	}]
 }, {
 	"card_id": 10788,
@@ -4681,7 +4845,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10786_1",
+		"is_signature": "10786_2",
 		"related_cards": ["10789_1"]
 	}]
 }, {
@@ -4722,7 +4886,7 @@
 		"image": "10789_0",
 		"miniimage": "10789_0",
 		"text": {
-			"english": " Feeble. /n /n [TG]Round Start:[ET] Deal 2 piercing damage to a random adjacent enemy. If there are no adjacent enemies, deal 2 piercing damage to the enemy tower instead.                     "
+			"english": " Feeble. /n /n [TG]Round Start:[ET] Deal 2 piercing damage to a random adjacent enemy. If there are none, deal 2 piercing damage to the enemy tower instead.                     "
 		},
 		"attack": 1,
 		"armour": 0,
@@ -4768,6 +4932,23 @@
 		"hp": 6,
 		"abilities": ["210054_1"],
 		"signature": ["10278_0"]
+	}, {
+		"release_date": "2020-07-31",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Zeus"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "U",
+		"image": "10065_0",
+		"miniimage": "10065_0",
+		"icon": "10065_0",
+		"attack": 1,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["210054_2"],
+		"signature": ["10278_0"]
 	}]
 }, {
 	"card_id": 10278,
@@ -4788,7 +4969,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10065_1"
+		"is_signature": "10065_2"
 	}]
 }, {
 	"card_id": 10024,
@@ -4918,6 +5099,23 @@
 		"hp": 4,
 		"abilities": ["210057_0"],
 		"signature": ["10942_1"]
+	},{
+		"release_date": "2020-07-31",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Tiny"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "R",
+		"image": "10940_0",
+		"miniimage": "10940_0",
+		"icon": "10940_0",
+		"attack": 2,
+		"armour": 0,
+		"hp": 4,
+		"abilities": ["210057_1"],
+		"signature": ["10942_1"]
 	}]
 }, {
 	"card_id": 10942,
@@ -4956,7 +5154,7 @@
 		},
 		"crosslane": true,
 		"quick": false,
-		"is_signature": "10940_2"
+		"is_signature": "10940_3"
 	}]
 }, {
 	"card_id": 10674,
@@ -5533,7 +5731,7 @@
 		"image": "10820_0",
 		"miniimage": "10820_0",
 		"text": {
-			"english": " /n Feeble, +1 Decay /n [TG]Death Effect:[ET] Deal 2 damage to Static Remnant's enemy neighbors."
+			"english": " /n Feeble, +1 Decay /n [TG]Death Effect:[ET] Deal 2 damage to Static Remnant's adjacent enemies."
 		},
 		"attack": 0,
 		"armour": 0,
@@ -5562,6 +5760,23 @@
 		"hp": 4,
 		"abilities": ["210067_0"],
 		"signature": ["10291_0"]
+	},{
+		"release_date": "2020-07-31",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Tinker"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "B",
+		"image": "10025_0",
+		"miniimage": "10025_0",
+		"icon": "10025_0",
+		"attack": 5,
+		"armour": 0,
+		"hp": 4,
+		"abilities": ["210067_1"],
+		"signature": ["10291_0"]
 	}]
 }, {
 	"card_id": 10291,
@@ -5584,7 +5799,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10025_0"
+		"is_signature": "10025_1"
 	}]
 }, {
 	"card_id": 10010,
@@ -6178,6 +6393,28 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	}, {
+		"release_date": "2020-07-31",
+		"card_type": "Item",
+		"card_subtype": "Weapon",
+		"card_name": {
+			"english": "Demolishing Warhammer"
+		},
+		"set": 1,
+		"rarity": 1,
+		"image": "10622_0",
+		"miniimage": "10622_0",
+		"cost": 1,
+		"gcost": 10,
+		"text": {
+			"english": " /n /n +2[ATT], +5 damage when attacking a tower."
+		},
+		"attack": 2,
+		"armour": 0,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 11030,
@@ -6350,6 +6587,28 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	}, {
+		"release_date": "2020-07-31",
+		"card_type": "Item",
+		"card_subtype": "Armor",
+		"card_name": {
+			"english": "Guardian Greaves"
+		},
+		"set": 1,
+		"rarity": 1,
+		"image": "11016_0",
+		"miniimage": "11016_0",
+		"cost": 1,
+		"gcost": 25,
+		"text": {
+			"english": "/n +4 [AR]/n [TG]Play Effect:[ET] Activate./n [TG]Active 2[AC], 1 Mana:[ET] Purge your opponent's effects from equipped hero. Give each ally 4 temporary Health."
+		},
+		"attack": 0,
+		"armour": 4,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 11054,
@@ -6397,6 +6656,28 @@
 		"crosslane": false,
 		"quick": false,
 		"related_cards": ["11055_0"]
+	},{
+		"release_date": "2020-07-31",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Shattered Terrapin"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "G",
+		"image": "11054_0",
+		"miniimage": "11054_0",
+		"cost": 3,
+		"text": {
+			"english": " [TG]Play Effect:[ET] Reduce Shattered Terrapin to 3 health. /n When healed, transform Shattered Terrapin into Terrapin Greatshell."
+		},
+		"attack": 3,
+		"armour": 0,
+		"hp": 5,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["11055_1"]
 	}]
 }, {
 	"card_id": 11055,
@@ -6415,6 +6696,28 @@
 		"cost": 3,
 		"text": {
 			"english": " /n [TG]Aura:[ET] Terrapin Greatshell's neighbors are Untargetable."
+		},
+		"attack": 3,
+		"armour": 1,
+		"hp": 5,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["11054_1"]
+	}, {
+		"release_date": "2020-07-31",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Terrapin Greatshell"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "G",
+		"image": "11055_0",
+		"miniimage": "11055_0",
+		"cost": 3,
+		"text": {
+			"english": " Untargetable /n/n [TG]Aura:[ET] Terrapin Greatshell's allied neighbors have Untargetable."
 		},
 		"attack": 3,
 		"armour": 1,
@@ -7085,6 +7388,28 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Item",
+		"card_subtype": "Accessory",
+		"card_name": {
+			"english": "Spirit Vessel"
+		},
+		"set": 1,
+		"rarity": 4,
+		"image": "11018_0",
+		"miniimage": "11018_0",
+		"cost": 1,
+		"gcost": 25,
+		"text": {
+			"english": " /n +9[HP], +2 Mana /n Whenever a hero dies, add a charge. /n /n [TG]Active 0[AC], 1 Mana[ET]: Spend a charge. Give an enemy +4 Decay or an ally +4 Regeneration."
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 9,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10205,
@@ -7383,6 +7708,24 @@
 		"abilities": ["210070_2", "210071_1"],
 		"signature": ["10323_0"],
 		"related_cards": ["10980_0"]
+	},{
+		"release_date": "2020-07-31",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Earthshaker"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "U",
+		"image": "10033_0",
+		"miniimage": "10033_0",
+		"icon": "10033_0",
+		"attack": 1,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["210070_3", "210071_1"],
+		"signature": ["10323_0"],
+		"related_cards": ["10980_0"]
 	}]
 }, {
 	"card_id": 10323,
@@ -7403,7 +7746,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10033_2"
+		"is_signature": "10033_3"
 	}]
 }, {
 	"card_id": 10980,
@@ -7714,6 +8057,23 @@
 		"hp": 5,
 		"abilities": ["210075_1"],
 		"signature": ["10813_0", "10814_0", "10815_0"]
+	},{
+		"release_date": "2020-07-31",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Lina"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "U",
+		"image": "10811_0",
+		"miniimage": "10811_0",
+		"icon": "10811_0",
+		"attack": 2,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210075_2"],
+		"signature": ["10813_0", "10814_0", "10815_0"]
 	}]
 }, {
 	"card_id": 10813,
@@ -7735,7 +8095,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10811_1"
+		"is_signature": "10811_2"
 	}]
 }, {
 	"card_id": 10814,
@@ -7756,7 +8116,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10811_1"
+		"is_signature": "10811_2"
 	}]
 }, {
 	"card_id": 10815,
@@ -7777,7 +8137,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10811_1"
+		"is_signature": "10811_2"
 	}]
 }, {
 	"card_id": 10004,
@@ -7890,6 +8250,23 @@
 		"hp": 7,
 		"abilities": ["210078_1"],
 		"signature": ["10340_0"]
+	},{
+		"release_date": "2020-07-31",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Chen"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "G",
+		"image": "10017_0",
+		"miniimage": "10017_0",
+		"icon": "10017_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 7,
+		"abilities": ["210078_1"],
+		"signature": ["10340_1"]
 	}]
 }, {
 	"card_id": 10340,
@@ -7907,6 +8284,24 @@
 		"cost": 5,
 		"text": {
 			"english": " /n Give allied heroes in all lanes +4 temporary health. /n [TG]Cross Lane[ET]"
+		},
+		"crosslane": true,
+		"quick": false,
+		"is_signature": "10017_1"
+	}, {
+		"release_date": "2020-07-31",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Hand of God"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "G",
+		"image": "10340_0",
+		"miniimage": "10340_0",
+		"cost": 5,
+		"text": {
+			"english": " /n Give allied heroes in all lanes +4[HP] until death. /n [TG]Cross Lane[ET]"
 		},
 		"crosslane": true,
 		"quick": false,
@@ -11259,6 +11654,24 @@
 		},
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-07-31",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Path of the Bold"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "R",
+		"image": "10778_0",
+		"miniimage": "10778_0",
+		"cost": 2,
+		"text": {
+			"english": "/n Enchant Tower /n /n Your blocked heroes have +1[ATT] per charge. Whenever you play a non-item card, add one charge."
+		},
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10172,
@@ -11395,6 +11808,24 @@
 		"cost": 2,
 		"text": {
 			"english": "/n Enchant Tower /n /n Whenever you play a blue card, deal 1 piercing damage to a random enemy with the least health."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-07-31",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Path of the Wise"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "U",
+		"image": "10776_0",
+		"miniimage": "10776_0",
+		"cost": 2,
+		"text": {
+			"english": "/n Enchant Tower /n /n Whenever you play a non-item card, deal 1 piercing damage to a random enemy with the least health."
 		},
 		"crosslane": false,
 		"quick": false
@@ -11674,6 +12105,24 @@
 		},
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-07-31",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Path of the Cunning"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "B",
+		"image": "10775_0",
+		"miniimage": "10775_0",
+		"cost": 2,
+		"text": {
+			"english": "/n Enchant Tower /n /n The enemy tower has -1[AR] per charge. /nWhenever you play a non-item card, add one charge."
+		},
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10164,
@@ -11875,6 +12324,24 @@
 		"cost": 2,
 		"text": {
 			"english": "/n Enchant Tower /n /n Whenever you play a green card, give this tower +2[HP] permanently."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-07-31",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Path of the Dreamer"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "G",
+		"image": "10777_0",
+		"miniimage": "10777_0",
+		"cost": 2,
+		"text": {
+			"english": "/n Enchant Tower /n /n Whenever you play a non-item card, give this tower +2[HP] permanently."
 		},
 		"crosslane": false,
 		"quick": false
@@ -12512,6 +12979,23 @@
 		},
 		"crosslane": true,
 		"quick": false
+	}, {
+		"release_date": "2020-07-31",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Relentless Pursuit"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "B",
+		"image": "10774_0",
+		"miniimage": "10774_0",
+		"cost": 1,
+		"text": {
+			"english": " /n Move caster to an unopposed enemy in another lane./n[RP] Deal 2 damage to that enemy./n[TG]Cross Lane[ET]"
+		},
+		"crosslane": true,
+		"quick": false
 	}]
 }, {
 	"card_id": 10410,
@@ -12766,6 +13250,23 @@
 		},
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-07-31",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Arc Bolt"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "U",
+		"image": "10312_0",
+		"miniimage": "10312_0",
+		"cost": 1,
+		"text": {
+			"english": " /n Deal 1 damage /n Repeat three times: [RP] Jump left or right and deal 1 piercing damage."
+		},
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10411,
@@ -12837,6 +13338,23 @@
 		"cost": 1,
 		"text": {
 			"english": " /n Deal 4 damage to caster's combat target. /n (Can hit towers)."
+		},
+		"crosslane": false,
+		"quick": false
+	}, {
+		"release_date": "2020-07-31",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Lightning Strike"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "U",
+		"image": "10352_0",
+		"miniimage": "10352_0",
+		"cost": 1,
+		"text": {
+			"english": " /n Deal 4 piercing damage to caster's combat target. /n (Can hit towers)."
 		},
 		"crosslane": false,
 		"quick": false
@@ -13136,6 +13654,23 @@
 		},
 		"crosslane": false,
 		"quick": false
+	}, {
+		"release_date": "2020-07-31",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Objective Vision"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "U",
+		"image": "10805_0",
+		"miniimage": "10805_0",
+		"cost": 3,
+		"text": {
+			"english": " /n Enchant Caster/nIf there are no adjacent enemies, this hero has +Attack equal to its Max health."
+		},
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10196,
@@ -13293,6 +13828,23 @@
 		},
 		"crosslane": false,
 		"quick": false
+	}, {
+		"release_date": "2020-07-31",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Thunderstorm"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "U",
+		"image": "10412_0",
+		"miniimage": "10412_0",
+		"cost": 5,
+		"text": {
+			"english": " /n Deal 3 piercing damage to each enemy."
+		},
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10615,
@@ -13350,6 +13902,23 @@
 		"cost": 10,
 		"text": {
 			"english": " /n Revealed when drawn. /n Deal 15 damage to the caster's combat target. /n (Can hit towers)"
+		},
+		"crosslane": false,
+		"quick": false
+	}, {
+		"release_date": "2020-07-31",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Bolt of Damocles"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "U",
+		"image": "10353_0",
+		"miniimage": "10353_0",
+		"cost": 10,
+		"text": {
+			"english": " /n Revealed when drawn. /n Deal 15 piercing damage to the caster's combat target. /n (Can hit towers)"
 		},
 		"crosslane": false,
 		"quick": false
@@ -13635,6 +14204,23 @@
 		"cost": 3,
 		"text": {
 			"english": " /n Enchant Hero/n Whenever you play a green card, this hero and its neighbors gain +3 Regeneration. "
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Soul of Spring"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "G",
+		"image": "10373_0",
+		"miniimage": "10373_0",
+		"cost": 3,
+		"text": {
+			"english": " /n Enchant Hero/n Whenever you play a non-item card, this hero and its neighbors gain +3 Regeneration. "
 		},
 		"crosslane": false,
 		"quick": false
@@ -13961,6 +14547,24 @@
 		"cost": 3,
 		"text": {
 			"english": " /n [TG]Aura:[ET] Whenever allied units deal battle damage, give them +1[ATT], [AR] or [HP] permanently"
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-07-31",
+		"card_type": "Improvement",
+		"improvement_type": "Reactive",
+		"card_name": {
+			"english": "Veteran's Insight"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "R",
+		"image": "10767_0",
+		"miniimage": "10767_0",
+		"cost": 3,
+		"text": {
+			"english": " /n [TG]Aura:[ET] Whenever an allied unit deal battle damage to another unit, give that ally +1[ATT], [AR] or [HP] permanently"
 		},
 		"crosslane": false,
 		"quick": false
