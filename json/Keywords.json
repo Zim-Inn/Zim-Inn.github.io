@@ -200,7 +200,7 @@
     },{
         "keyword": "Swap",
         "match": "(Swap)(?! colors)",
-        "desc": "Move a unit to the targeted slot. If that slot was occupied the unit in that space move to the original unit's position.",
+        "desc": "Move a unit to the targeted slot. If that slot was occupied, the unit in that space moves to the original unit's position.",
         "example": ["10080","11004"]
     },{
         "keyword": "Taunt",

@@ -369,6 +369,18 @@
                 "text":{
                     "english":"When you cast a blue spell or enchantment from this lane it can be repeated this round. 2 round cooldown."
                 }
+            }, {
+                "release_date":"2020-07-31",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Multicast"
+                 },
+                "cooldown": 2,
+                "image": "210016_0",
+                "cost": 0,
+                "text":{
+                    "english":"When you cast a spell or enchantment from this lane it can be repeated this round. 2 round cooldown."
+                }
             }
         ]
     },
@@ -732,6 +744,19 @@
                 "cost": 0,
                 "text":{
                     "english":"Whenever Legion Commander attacks a unit in battle, heal Legion Commander 3."
+                }
+            },
+            {
+                "release_date":"2020-07-31",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Moment of Courage"
+                 },
+                "cooldown": 0,
+                "image": "210032_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever Legion Commander attacks a unit in battle and survives, heal Legion Commander 3."
                 }
             }
         ]
@@ -1259,7 +1284,7 @@
                 "image": "210054_0",
                 "cost": 1,
                 "text":{
-                    "english":"Deal 1 piercing damage to Zeus's adjacent enemies after you play a blue spell or enchantmess from this lane."
+                    "english":"Deal 1 piercing damage to Zeus's adjacent enemies after you play a blue spell or enchantment from this lane."
                 }
             }, {
                 "release_date":"2020-06-26",
@@ -1271,7 +1296,19 @@
                 "image": "210054_0",
                 "cost": 1,
                 "text":{
-                    "english":"Whenever you play a blue spell or enchantmess from this lane, deal 1 piercing damage to Zeus's adjacent enemies."
+                    "english":"Whenever you play a blue spell or enchantment from this lane, deal 1 piercing damage to Zeus's adjacent enemies."
+                }
+            }, {
+                "release_date":"2020-07-31",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Static Field"
+                 },
+                "cooldown": 0,
+                "image": "210054_0",
+                "cost": 1,
+                "text":{
+                    "english":"Whenever you play a spell or enchantment from this lane, deal 1 piercing damage to Zeus's adjacent enemies."
                 }
             }
         ]
@@ -1353,6 +1390,19 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] Gain +4[ATT]/+4[HP] permanently."
+                }
+            },
+            {
+                "release_date":"2020-07-31",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Grow"
+                 },
+                "cooldown": 3,
+                "image": "210057_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Gain +4[ATT]/+4[HP] permanently. This effect cannot be purged."
                 }
             }
         ]
@@ -1580,6 +1630,19 @@
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] Deal 3 damage to a unit and disarm it."
                 }
+            },
+            {
+                "release_date":"2020-07-31",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Laser"
+                 },
+                "cooldown": 3,
+                "image": "210067_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Deal 2 damage to a unit and disarm it."
+                }
             }
         ]
     },
@@ -1673,6 +1736,19 @@
                 "cost": 0,
                 "text":{
                     "english":"Whenever you play a blue spell or enchantment from this lane, stun Earthshaker's enemies for one action."
+                }
+            },
+            {
+                "release_date":"2020-07-31",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Aftershock"
+                 },
+                "cooldown": 0,
+                "image": "210070_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever you play a spell or enchantment from this lane, stun Earthshaker's enemies for one action."
                 }
             }
         ]
@@ -1817,6 +1893,18 @@
                 "cost": 0,
                 "text":{
                     "english":"When you play a blue spell or enchantment from Lina's lane, deal damage to Lina's combat target equal to the number of charges on Fiery Soul and add 1 charge to Fiery Soul. 1 round cooldown."
+                }
+            },{
+                "release_date":"2020-07-31",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Fiery Soul"
+                 },
+                "cooldown": 0,
+                "image": "210075_0",
+                "cost": 0,
+                "text":{
+                    "english":"When you play a spell or enchantment from Lina's lane, deal damage to Lina's combat target equal to the number of charges on Fiery Soul and add 1 charge to Fiery Soul. 1 round cooldown."
                 }
             }
         ]
@@ -2226,6 +2314,25 @@
                 "cost": 0,
                 "text":{
                     "english":"The first time you play a non-item card from Tidehunter's lane, deal 1 damage to its adjacent enemies and give them -1[ATT] this round. If there are none, battle the enemy tower instead. 1 round cooldown."
+                }
+            }
+        ]
+    },
+    {
+        "card_id":11067,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-07-31",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Poison Sting"
+                 },
+                "cooldown": 2,
+                "image": "11067_0",
+                "cost": 1,
+                "text":{
+                    "english":"When Venomancer and allied Plague Wards deal damage to a unit or tower, give it +1 Decay until its next combat phase"
                 }
             }
         ]
