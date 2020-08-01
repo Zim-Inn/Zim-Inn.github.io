@@ -391,6 +391,7 @@
     top:0;
     background-color: rgba(26,24,29,0.7);
     border-bottom: 2px solid black;
+    z-index: 1;
 }
 .CVOptionContainer {
     padding: 5px;
@@ -690,15 +691,36 @@
 }
 .CardViewerPage_CardHistoryCardArtContainer img {
     width: 100%;
+    display:block;
 }
 .CardViewerPage_CardHistoryMiniImageContainer {
     width: 90px;
+    min-height: 90px;
     float: left;
-    padding: 5px 10px;
+    padding: 5px;
 }
 .CardViewerPage_CardHistoryMiniImageContainer img {
     width: 100%;
+    display:block;
 }
+.CardViewerPage_CardHistoryMiniImageChangeIndicator, .CardViewerPage_CardHistoryCardArtFullHeightChangeIndicator, .CardViewerPage_CardHistoryCardArtHalfHeightChangeIndicator {
+    background-image: url('../Images/Styles/CardHistory_ImageChangeArrow.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    width: 30px;
+}
+.CardViewerPage_CardHistoryMiniImageChangeIndicator {
+    height: 90px;   
+}
+.CardViewerPage_CardHistoryCardArtFullHeightChangeIndicator {
+    height: 200px;   
+}
+.CardViewerPage_CardHistoryCardArtHalfHeightChangeIndicator {
+    height: 120px;   
+}
+
+
 
 @media (max-width: 1090px) {
     .CardList_CardName {
