@@ -2251,7 +2251,7 @@
         ]
     },
     {
-        "card_id":10497,
+        "card_id":11063,
         "card_type":"Ability",
         "versions":[
             {
@@ -2261,7 +2261,7 @@
                     "english":"Great Fortitude"
                  },
                 "cooldown": 0,
-                "image": "10497_0",
+                "image": "11063_0",
                 "cost": 0,
                 "text":{
                     "english":"Centaur Warrunner's stats cannot be reduced except by damage."
@@ -2273,7 +2273,7 @@
                     "english":"Great Fortitude"
                  },
                 "cooldown": 0,
-                "image": "10497_0",
+                "image": "11063_0",
                 "cost": 0,
                 "text":{
                     "english":"Centaur Warrunner ignores negative Attack, Armor, and Health effects."
