@@ -1385,7 +1385,7 @@
 		"cost": 1,
 		"gcost": 10,
 		"text": {
-			"english": "/n+3[HP] /n/n [TG]After Combat:[ET] Bounce this hero. /n/n [TG]Active 1[AC], 1 Mana:[ET] Bounce the unit blocking equipped hero."
+			"english": "/n/n [TG]After Combat:[ET] Bounce this hero. /n/n [TG]Active 3[AC], 1 Mana:[ET] Bounce the unit blocking equipped hero."
 		},
 		"attack": 0,
 		"armour": 0,
