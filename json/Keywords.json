@@ -5,6 +5,18 @@
         "desc": "An effect that triggers after the Combat Phase.",
         "example": ["10111","10205"]
     },{
+        "hide_from_keyword_page": true,
+        "keyword": "Lethal To Heroes",
+        "match": "Lethal To Heroes",
+        "desc": "Slay each hero this unit deals battle damage to.",
+        "example": ["10344"]
+    },{
+        "hide_from_keyword_page": true,
+        "keyword": "Lethal To Creeps",
+        "match": "Lethal To Creeps",
+        "desc": "Slay each creep this unit deals battle damage to.",
+        "example": ["10344"]
+    },{
         "keyword": "Aura",
         "match": "Aura",
         "desc": "An effect which applies to units when they enter a specified area and is removed when they leave. Effects the owner's lane by default.",
