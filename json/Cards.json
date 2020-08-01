@@ -633,6 +633,31 @@
 		"hp": 7,
 		"abilities": ["210008_1"],
 		"signature": ["10296_0"]
+	}, {
+		"release_date": "2020-07-31",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Timbersaw"
+		},
+		"lore": {
+			"text": {
+				"english": "I know they think I'm crazy... and that's ok... they didn't see what I saw... see what the trees did. 'Ohh it's nature, look at the beauty of the forest.' Lies. That's not a tranquil jungle... that's a sleeping army. And unless we are prepared when that forest starts to march it will be the end of everybody."
+			},
+			"tag": {
+				"english": "Rizzrack, the Timbersaw"
+			}
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "R",
+		"image": "10022_0",
+		"miniimage": "10022_0",
+		"icon": "10022_0",
+		"attack": 4,
+		"armour": 1,
+		"hp": 6,
+		"abilities": ["210008_1"],
+		"signature": ["10296_0"]
 	}]
 }, {
 	"card_id": 10296,
@@ -661,7 +686,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10022_1"
+		"is_signature": "10022_2"
 	}]
 }, {
 	"card_id": 11005,
@@ -2375,6 +2400,31 @@
 		"hp": 4,
 		"abilities": ["210027_1"],
 		"signature": ["10277_0"]
+	}, {
+		"release_date": "2020-07-31",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Crystal Maiden"
+		},
+		"lore": {
+			"text": {
+				"english": "'Warden of Icewrack.' It's a fancy title. In theory it means I'm responsible for maintaining law and order, collaborating with the Sapphire Conclave on magical crimes, and protecting the weak from all manners of nasty things. In practice I help farmers fix fences. So I decided to go on a little sabbatical. Besides... I couldn't stay in Icewrack. It's cold. It's boring. And I heard my sister was planning on visiting so I definitely had to get the hell outta there."
+			},
+			"tag": {
+				"english": "Rylai, the Crystal Maiden"
+			}
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "U",
+		"image": "10064_0",
+		"miniimage": "10064_0",
+		"icon": "10064_0",
+		"attack": 2,
+		"armour": 0,
+		"hp": 4,
+		"abilities": ["210027_1"],
+		"signature": ["10277_0"]
 	}]
 }, {
 	"card_id": 10277,
@@ -2403,7 +2453,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10064_2"
+		"is_signature": "10064_3"
 	}]
 }, {
 	"card_id": 10032,
@@ -2609,6 +2659,31 @@
 		"hp": 5,
 		"abilities": ["210030_0"],
 		"signature": ["10063_0"]
+	}, {
+		"release_date": "2020-07-31",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Skywrath Mage"
+		},
+		"lore": {
+			"text": {
+				"english": "I empathize with Rix. It's not easy following the orders of a leader you despise. But I don't have the luxury of staging a rebellion...the stakes are too high, and so I must bide my time... and wait to be reunited with my beloved."
+			},
+			"tag": {
+				"english": "Dragonus, the Skywrath Mage"
+			}
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "U",
+		"image": "10062_0",
+		"miniimage": "10062_0",
+		"icon": "10062_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210030_0"],
+		"signature": ["10063_0"]
 	}]
 }, {
 	"card_id": 10063,
@@ -2637,7 +2712,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10062_1"
+		"is_signature": "10062_2"
 	}]
 }, {
 	"card_id": 10050,
@@ -4170,6 +4245,23 @@
 		"hp": 6,
 		"abilities": ["210044_0","11061_0"],
 		"signature": ["10662_0"]
+	},{
+		"release_date": "2020-07-31",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Pierpont"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "U",
+		"image": "10658_0",
+		"miniimage": "10658_0",
+		"icon": "PH",
+		"attack": 2,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["210044_0","11061_0"],
+		"signature": ["10662_0"]
 	}]
 }, {
 	"card_id": 10662,
@@ -4194,7 +4286,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10658_1"
+		"is_signature": "10658_2"
 	}]
 }, {
 	"card_id": 10048,
@@ -4723,6 +4815,23 @@
 		"hp": 7,
 		"abilities": ["210052_0","11062_0"],
 		"signature": ["10703_0"]
+	},{
+		"release_date": "2020-07-31",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Vanessa"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "U",
+		"image": "10701_1",
+		"miniimage": "10701_0",
+		"icon": "10701_0",
+		"attack": 2,
+		"armour": 0,
+		"hp": 7,
+		"abilities": ["210052_0","11062_0"],
+		"signature": ["10703_0"]
 	}]
 }, {
 	"card_id": 10703,
@@ -4743,7 +4852,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10701_1",
+		"is_signature": "10701_2",
 		"related_cards": ["10735_0"]
 	}]
 }, {
@@ -4944,7 +5053,7 @@
 		"image": "10065_0",
 		"miniimage": "10065_0",
 		"icon": "10065_0",
-		"attack": 1,
+		"attack": 2,
 		"armour": 0,
 		"hp": 6,
 		"abilities": ["210054_2"],
@@ -5772,7 +5881,7 @@
 		"image": "10025_0",
 		"miniimage": "10025_0",
 		"icon": "10025_0",
-		"attack": 5,
+		"attack": 4,
 		"armour": 0,
 		"hp": 4,
 		"abilities": ["210067_1"],
@@ -6719,8 +6828,8 @@
 		"text": {
 			"english": " Untargetable /n/n [TG]Aura:[ET] Terrapin Greatshell's allied neighbors have Untargetable."
 		},
-		"attack": 3,
-		"armour": 1,
+		"attack": 4,
+		"armour": 2,
 		"hp": 5,
 		"abilities": [],
 		"crosslane": false,
@@ -7485,6 +7594,28 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	}, {
+		"release_date": "2020-07-31",
+		"card_type": "Item",
+		"card_subtype": "Armor",
+		"card_name": {
+			"english": "Vesture of the Tyrant"
+		},
+		"set": 1,
+		"rarity": 2,
+		"image": "10225_0",
+		"miniimage": "10225_0",
+		"cost": 1,
+		"gcost": 25,
+		"text": {
+			"english": " /n +3[AR], Rapid Deployment. /n Your tower has +3[AR]."
+		},
+		"attack": 0,
+		"armour": 3,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 11017,
@@ -7720,7 +7851,7 @@
 		"image": "10033_0",
 		"miniimage": "10033_0",
 		"icon": "10033_0",
-		"attack": 1,
+		"attack": 2,
 		"armour": 0,
 		"hp": 6,
 		"abilities": ["210070_3", "210071_1"],
@@ -15126,6 +15257,24 @@
 		"image": "11059_0",
 		"miniimage": "11059_0",
 		"cost": 4,
+		"text": {
+			"english": " /n Enchant Tower. /n Mulch. /n /n [TG]Round Start: [ET] Give allied units +1 temporary health."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-07-31",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "In Full Bloom"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "G",
+		"image": "11059_0",
+		"miniimage": "11059_0",
+		"cost": 3,
 		"text": {
 			"english": " /n Enchant Tower. /n Mulch. /n /n [TG]Round Start: [ET] Give allied units +1 temporary health."
 		},
