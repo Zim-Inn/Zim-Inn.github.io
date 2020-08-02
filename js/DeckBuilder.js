@@ -218,14 +218,17 @@ const DeckBuilderGenerateAvailableCardList = function() {
             CardCostStyle = "";
             RemoveFromDeckButtonHTML = "";
             AddToDeckButtonHTML = '<div class="DeckBuilderCardListAddToDeckButton DeckBuilderCardListAddToDeckButtonPadding" onmouseup="DeckBuilderAddCardToDeck('+CardID+');"></div>';
+            DoubleClickFunctionForHTML = 'DeckBuilderAddHeroToDeck('+CardID+',-1)';
         }
         if (CardType != "Hero") {
             if (CardCount == 3) {
                 RemoveFromDeckButtonHTML = "";
                 AddToDeckButtonHTML = '<div class="DeckBuilderCardListAddToDeckButton DeckBuilderCardListAddToDeckButtonPadding" onmouseup="DeckBuilderAddCardToDeck('+CardID+');"></div>';
+                DoubleClickFunctionForHTML = 'DeckBuilderAddCardToDeck('+CardID+')';
             } else {
                 RemoveFromDeckButtonHTML = '<div class="DeckBuilderCardListRemoveFromDeckButton" onmouseup="DeckBuilderRemoveCardFromDeck('+CardID+');"></div>';
                 AddToDeckButtonHTML = '<div class="DeckBuilderCardListAddToDeckButton" onmouseup="DeckBuilderAddCardToDeck('+CardID+');"></div>';
+                DoubleClickFunctionForHTML = 'DeckBuilderAddCardToDeck('+CardID+')';
             }
         } else {
             let HeroCount = 0;
@@ -256,7 +259,7 @@ const DeckBuilderGenerateAvailableCardList = function() {
             CardNameStyle = "CardList_CardNameXLong"
         }
 
-        AvailableCardsListHTML += '<div ondragstart="StartCardDrag(event,'+CardID+',\'CardList\',\''+CardType+'\')" draggable="true" class="CardListItemContainer CardListItemContainer'+CardColour+'" onmousemove="DeckBuilderUpdateCardPreview(\''+CardIDV+'\');" onmouseout="CardViewerCardPreviewTooltip(0,0);"> \
+        AvailableCardsListHTML += '<div ondblclick="'+DoubleClickFunctionForHTML+'" ondragstart="StartCardDrag(event,'+CardID+',\'CardList\',\''+CardType+'\')" draggable="true" class="CardListItemContainer CardListItemContainer'+CardColour+'" onmousemove="DeckBuilderUpdateCardPreview(\''+CardIDV+'\');" onmouseout="CardViewerCardPreviewTooltip(0,0);"> \
         <div class="CardList_CardMiniPicture"><img src=Images/Cards/MiniImage/'+CardMiniImage+'.jpg></div> \
         <div class="CardList_CardTypeIcon '+CardListCardTypeIconStyle+'"></div> \
         <div class="CardList_Cost '+CardCostStyle+'">'+CardCost+'</div> \
@@ -597,7 +600,7 @@ const UpdateDeckListDetails = function() {
 
     for (let hc = 0; hc < 5; hc++) {
         if (DeckHeroCards[hc]['id'] != 0) {
-            document.getElementById('DeckBuilderHeroIcon'+hc).innerHTML = '<img src="Images/HeroIcons/'+DeckHeroCards[hc]['heroicon']+'.png" ondragstart="StartCardDrag(event,'+DeckHeroCards[hc]['id']+',\'H'+hc+'\',\'Hero\')" onmouseover="DeckBuilderUpdateCardPreview(\''+DeckHeroCards[hc]['id']+'_99\');">';
+            document.getElementById('DeckBuilderHeroIcon'+hc).innerHTML = '<img src="Images/HeroIcons/'+DeckHeroCards[hc]['heroicon']+'.png" ondblclick="DeckBuilderRemoveHeroFromDeck('+DeckHeroCards[hc]['id']+')" ondragstart="StartCardDrag(event,'+DeckHeroCards[hc]['id']+',\'H'+hc+'\',\'Hero\')" onmouseover="DeckBuilderUpdateCardPreview(\''+DeckHeroCards[hc]['id']+'_99\');">';
         } else {
             document.getElementById('DeckBuilderHeroIcon'+hc).innerHTML = "";
         }
@@ -685,15 +688,18 @@ const UpdateDeckListDetails = function() {
         } else {
             CardColour = DeckCardsJSON[c]['versions'][LatestCardVersion]['colour'];
         }
+        let DoubleClickFunctionForHTML = "";
         if (CardType != "Hero") {
             if (CardCount == 3) {
                 RemoveFromDeckButtonHTML = '<div class="DeckBuilderCardListRemoveFromDeckButton" onmouseup="DeckBuilderRemoveCardFromDeck('+CardID+');"></div>';
                 AddToDeckButtonHTML = '';
+                DoubleClickFunctionForHTML = 'DeckBuilderRemoveCardFromDeck('+CardID+')';
             } else {
                 RemoveFromDeckButtonHTML = '<div class="DeckBuilderCardListRemoveFromDeckButton" onmouseup="DeckBuilderRemoveCardFromDeck('+CardID+');"></div>';
                 AddToDeckButtonHTML = '<div class="DeckBuilderCardListAddToDeckButton" onmouseup="DeckBuilderAddCardToDeck('+CardID+');"></div>';
+                DoubleClickFunctionForHTML = 'DeckBuilderRemoveCardFromDeck('+CardID+')';
             }
-        } 
+        }
         let HeroIconHTML = "";
         if ("is_signature" in DeckCardsJSON[c]['versions'][LatestCardVersion]) {
             RemoveFromDeckButtonHTML = "";
@@ -703,6 +709,7 @@ const UpdateDeckListDetails = function() {
             for (let si = 0; si < DeckHeroCards.length; si++) {
                 if (HeroCardID == DeckHeroCards[si]['id']) {
                     HeroIconHTML = '<div class="CardList_HeroIcon"><img src="Images/HeroIcons/'+DeckHeroCards[si]['heroicon']+'.png"></div>';
+                    DoubleClickFunctionForHTML = 'DeckBuilderRemoveHeroFromDeck('+DeckHeroCards[si]['id']+')';
                     break;
                 }
             }
@@ -715,7 +722,7 @@ const UpdateDeckListDetails = function() {
             CardNameStyle = "CardList_CardNameXLong"
         }
 
-        DeckListHTML += '<div ondragstart="StartCardDrag(event,'+CardID+',\'DeckList\',\''+CardType+'\')" draggable="true" class="CardListItemContainer CardListItemContainer'+CardColour+'" onmousemove="DeckBuilderUpdateCardPreview(\''+CardIDV+'\');" onmouseout="CardViewerCardPreviewTooltip(0,0);"> \
+        DeckListHTML += '<div ondblclick="'+DoubleClickFunctionForHTML+'" ondragstart="StartCardDrag(event,'+CardID+',\'DeckList\',\''+CardType+'\')" draggable="true" class="CardListItemContainer CardListItemContainer'+CardColour+'" onmousemove="DeckBuilderUpdateCardPreview(\''+CardIDV+'\');" onmouseout="CardViewerCardPreviewTooltip(0,0);"> \
         <div class="CardList_CardMiniPicture"><img src=Images/Cards/MiniImage/'+CardMiniImage+'.jpg></div> \
         <div class="CardList_CardTypeIcon '+CardListCardTypeIconStyle+'"></div> \
         <div class="CardList_Cost '+CardCostStyle+'">'+CardCost+'</div> \
