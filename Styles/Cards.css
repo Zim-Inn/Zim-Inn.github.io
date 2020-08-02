@@ -62,8 +62,8 @@
     padding-bottom: 15%;
 }
 .CardHeaderLeftPer {
-    width: 24.5%;
-    margin-top: -4.5%;
+    width: 22.5%;
+    margin-top: -3.5%;
     text-align: center;
     float: left;
     padding-top: 3%;
@@ -71,9 +71,9 @@
 }
 .CardHeaderLeftPer_ManaCost {
     font-family: 'Domine', sans-serif;
-    font-size: 1.6em;
+    font-size: 1.5em;
     background-image: url('../Images/Cards/Styling/ManaCrystal.png');
-    background-size: 95%;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -83,7 +83,7 @@
     margin-bottom: 0.3%;
 }
 .CardHeaderLeftPer_HeroIconBackCircle {
-    margin-top: -2%;
+    margin-top: -1.5%;
     background-image: url('../Images/Cards/Styling/GreyCircle.png');
     background-size: 62%;
 }
@@ -108,7 +108,7 @@
     font-family: 'RadianceCon', sans-serif;
     letter-spacing: -0.02em;
     font-weight: 400;
-    width: 72%;
+    width: 76%;
     float: left;
     padding-top: 2%;
 }
@@ -316,20 +316,22 @@
     margin-top: -8.5%;
 }
 .CardGoldValue {
-    background-image: url('../Images/Cards/Styling/Gold.png');
+    background-image: url('../Images/Cards/Styling/CardGoldCentred.png');
     background-size: auto 99%;
     background-position: left;
     background-repeat: no-repeat;
-    font-family: 'Ubuntu', sans-serif;
-    text-shadow: 2px 2px 2px black;
+    font-family: 'Domine', sans-serif;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: -0.05em;
+    text-align: center;
     color: #ddd;
     width: 18%;
-    padding: 1% 0.5%;
+    padding: 2% 1.5%;
     font-size: 1.1em;
     position: relative;
-    margin-top: -5.5%;
-    margin-bottom: -8%;
-    left: 44%;
+    margin-top: -6.5%;
+    margin-bottom: -9%;
+    left: 40%;
 }
 .CardImprovementTypeShell {
     background-size: auto 100%;

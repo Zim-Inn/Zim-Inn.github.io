@@ -254,13 +254,12 @@ const GenerateCard = function(Container,CardIDV) {
         case 'Spell':
             CardColourStyle = "CardColour"+Card['colour'];
             CardManaCost = Card['cost'];
-            if (Card['crosslane'] == true) {
+            ManaCostStyle = "CardHeaderLeftPer_ManaCost";
+            /*if (Card['crosslane'] == true) {
                 ManaCostStyle = "CardHeaderLeftPer_CrossLane";
             } else if (Card['quick'] == true) {
                 ManaCostStyle = "CardHeaderLeftPer_Quick";
-            } else {
-                ManaCostStyle = "CardHeaderLeftPer_ManaCost";
-            }
+            } */
             if (Card['text']['english'].length > 200) {
                 CardTextStyle += " CardCentreSplitBotTextSmallFont";
             }

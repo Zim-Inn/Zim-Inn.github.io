@@ -289,23 +289,23 @@
     background-image: url('../Images/MiscIcons/Consumable.png');
 }
 .CardList_ManaCost {
-    background-image: url('../Images/Styles/ManaIconCL.png');
-    background-size: 100%;
+    background-image: url('../Images/Styles/ManaCrystal.png');
+    background-size: 130%;
     font-family: 'Domine', sans-serif;
 }
 .CardList_GoldCost {
     background-image: url('../Images/Styles/GC.png');
     background-size: 100%;
-    font-family: 'Radiance', sans-serif;
+    font-family: 'Domine', sans-serif;
     letter-spacing: -0.1em;
 }
 .CardList_Cost {
-    font-size: 21pt;
+    font-size: 20pt;
     text-align: center;
     width: 36px;
     margin:4px 0 0 2px;
-    padding-top: 2px;
-    height: 34px;
+    padding-top: 4px;
+    height: 33px;
     float: left;
     color: #eee;
     text-shadow: 1px 1px 2px black;
@@ -554,8 +554,9 @@
     float: left;
 }
 .CVCCardListingCardCostMana {
-    background-image: url('../Images/Styles/ManaIconCL.png');
-    background-size: 100%;
+    background-image: url('../Images/Styles/ManaCrystal.png');
+    background-size: 130%;
+    background-position: center;
     font-family: 'Domine', sans-serif;
     padding-top: 4px;
     height: 26px;
@@ -566,10 +567,10 @@
 .CVCCardListingCardCostGold {
     background-image: url('../Images/Styles/GC.png');
     background-size: 100%;
-    font-family: 'Radiance', sans-serif;
+    font-family: 'Domine', sans-serif;
     text-shadow: 1px 1px 2px #000;
-    padding-top: 3px;
-    height: 27px;
+    padding-top: 4px;
+    height: 26px;
     text-align: center;
     font-size: 16pt;
     color: #eee;
