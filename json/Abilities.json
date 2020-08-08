@@ -2085,6 +2085,18 @@
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] Transform to a Dragon for one round. /n Whenever Dragon Knight deals battle damage to towers or units in Dragon Form, give them +3 Decay for three rounds."
                 }
+            },{
+                "release_date":"2020-08-07",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Dragon Form"
+                 },
+                "cooldown": 3,
+                "image": "210080_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Transform to a Dragon for two rounds. /n While in Dragon form, Dragon Knight has +2[ATT], +2 Cleave, deals +2 damage to towers, and the first time it deals battle damage to each tower or unit, gives them +2 Decay for two rounds. /n This effect cannot be purged."
+                }
             }
         ]
     },
@@ -2308,6 +2320,18 @@
                 "cost": 0,
                 "text":{
                     "english":"Whenever you reveal an opponent's card, give Imperia +[ATT] until its next combat equal to its Mana cost."
+                }
+            },{
+                "release_date":"2020-08-07",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Plans Within Plans"
+                 },
+                "cooldown": 0,
+                "image": "PH",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever you reveal an opponent's card, give Imperia +[ATT] equal to the revealed card's Mana cost until its next combat."
                 }
             }
         ]

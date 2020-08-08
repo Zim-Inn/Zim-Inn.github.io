@@ -1394,6 +1394,37 @@
 		"related_cards": [],
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-08-07",
+		"card_type": "Item",
+		"card_subtype": "Accessory",
+		"card_name": {
+			"english": "Claszureme Hourglass"
+		},
+		"lore": {
+			"text": {
+				"english": "It was Pierpont who helped broker the Claszureme Treaty, ensuring that Faceless Void would not wreak havoc with our time stream. In exchange, the Sapphire Conclave agreed to enforce a strict crackdown on Chronomancy. Most hourglasses on this plane were confiscated, but every now and again one turns up... usually in the possession of a wizard too foolish to understand the consequences of his actions."
+			},
+			"tag": {
+				"english": "Jolixia, The Card Faun"
+			}
+		},
+		"set": 1,
+		"rarity": 5,
+		"image": "10782_0",
+		"miniimage": "10782_0",
+		"cost": 1,
+		"gcost": 15,
+		"text": {
+			"english": "/n/n [TG]After Combat:[ET] Bounce this hero. /n/n 2 round cooldown."
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 3,
+		"abilities": [],
+		"related_cards": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10262,
@@ -8015,6 +8046,23 @@
 		"hp": 6,
 		"abilities": ["210072_2","11064_1"],
 		"signature": ["10732_2"]
+	},{
+		"release_date": "2020-08-07",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Imperia"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "U",
+		"image": "10730_0",
+		"miniimage": "10730_0",
+		"icon": "10730_0",
+		"attack": 2,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["210072_2","11064_2"],
+		"signature": ["10732_2"]
 	}]
 }, {
 	"card_id": 10732,
@@ -8591,6 +8639,23 @@
 		"armour": 0,
 		"hp": 6,
 		"abilities": ["210080_2", "210081_0"],
+		"signature": ["11033_1"]
+	},{
+		"release_date": "2020-08-07",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Dragon Knight"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "G",
+		"image": "10982_0",
+		"miniimage": "10982_0",
+		"icon": "10982_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210080_3", "210081_0"],
 		"signature": ["11033_1"]
 	}
 ]
@@ -14645,6 +14710,24 @@
 		"cost": 1,
 		"text": {
 			"english": " /n Choose Caster as a starting point. Deal 1 piercing damage to a unit in any lane then deal 1 damage to the unit after it./n[TG]Cross Lane[ET]"
+		},
+		"crosslane": true,
+		"quick": false
+	},
+	{
+		"release_date": "2020-08-07",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Grazing Shot"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "B",
+		"image": "10270_0",
+		"miniimage": "10270_0",
+		"cost": 1,
+		"text": {
+			"english": " /n Choose Caster as a starting point. Deal 1 piercing damage to a unit in any lane then deal 1 damage to the next unit past it./n[TG]Cross Lane[ET]"
 		},
 		"crosslane": true,
 		"quick": false
