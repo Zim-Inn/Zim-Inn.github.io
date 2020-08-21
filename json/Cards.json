@@ -822,7 +822,32 @@
 		"armour": 0,
 		"hp": 8,
 		"abilities": ["210011_1"],
-		"signature": ["11004_0"]
+		"signature": ["11004_1"]
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Keefe the Bold"
+		},
+		"lore": {
+			"text": {
+				"english": "Fighting is like crushing someone's skull with a tree trunk. That's an analogy!"
+			},
+			"tag": {
+				"english": "Keefe Treekiller, the Ogre Bruiser"
+			}
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "R",
+		"image": "11003_0",
+		"miniimage": "11003_0",
+		"icon": "11003_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 8,
+		"abilities": ["210011_2"],
+		"signature": ["11004_1"]
 	}]
 }, {
 	"card_id": 11004,
@@ -843,7 +868,7 @@
 		},
 		"crosslane": false,
 		"quick": true,
-		"is_signature": "11003_0"
+		"is_signature": "11003_1"
 	},{
 		"release_date": "2020-06-26",
 		"card_type": "Spell",
@@ -861,7 +886,7 @@
 		},
 		"crosslane": false,
 		"quick": true,
-		"is_signature": "11003_1"
+		"is_signature": "11003_2"
 	}]
 }, {
 	"card_id": 11000,
@@ -889,6 +914,31 @@
 		"armour": 0,
 		"hp": 6,
 		"abilities": ["210012_0"],
+		"signature": ["11002_0"]
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Farvhan the Dreamer"
+		},
+		"lore": {
+			"text": {
+				"english": "Magnus brought the child to us for safe keeping. He didn't say why but he didn't have to. I knew who she was, and who she could become."
+			},
+			"tag": {
+				"english": "Farvhan, the Prowler Shaman"
+			}
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "G",
+		"image": "11000_0",
+		"miniimage": "11000_0",
+		"icon": "11000_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["210012_1"],
 		"signature": ["11002_0"]
 	}]
 }, {
@@ -922,7 +972,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "11000_0"
+		"is_signature": "11000_1"
 	}]
 }, {
 	"card_id": 11008,
@@ -977,6 +1027,31 @@
 		"hp": 7,
 		"abilities": ["210013_0"],
 		"signature": ["11010_0"]
+	}, {
+		"release_date": "2020-08-21",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "J'Muy the Wise"
+		},
+		"lore": {
+			"text": {
+				"english": "The people I lead are small in number but vast in potential... and I will not see them slaughtered as the forest burns. The time has come for us to leave our ancestral home; and so I will lead my tribe to Weeping Rose... there our magicks will be celebrated, not feared."
+			},
+			"tag": {
+				"english": "The Dark Troll Chieftain on his people's exodus"
+			}
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "U",
+		"image": "11008_0",
+		"miniimage": "11008_0",
+		"icon": "11008_0",
+		"attack": 2,
+		"armour": 0,
+		"hp": 7,
+		"abilities": ["210013_0"],
+		"signature": ["11010_1"]
 	}]
 }, {
 	"card_id": 11010,
@@ -998,6 +1073,24 @@
 		"crosslane": false,
 		"quick": false,
 		"is_signature": "11008_1"
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Runic Instigation"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "U",
+		"image": "11010_0",
+		"miniimage": "11010_0",
+		"cost": 2,
+		"text": {
+			"english": " /n Increase all cooldowns on an enemy unit by 2 or decrease all cooldowns on a friendly unit by 2."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "11008_2"
 	}]
 }, {
 	"card_id": 10631,
@@ -1092,6 +1185,29 @@
 		"gcost": 10,
 		"text": {
 			"english": "/n +2[ATT] /n /n [TG]Round Start: [ET] Disarm the closest enemy creep."
+		},
+		"attack": 2,
+		"armour": 0,
+		"hp": 0,
+		"abilities": [],
+		"related_cards": [],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Item",
+		"card_subtype": "Weapon",
+		"card_name": {
+			"english": "Hooked Net"
+		},
+		"set": 1,
+		"rarity": 1,
+		"image": "10252_0",
+		"miniimage": "10252_0",
+		"cost": 1,
+		"gcost": 10,
+		"text": {
+			"english": "/n +2[ATT] /n /n Adjacent enemy creeps are rooted and have -2[ATT], -2[AR] and +2 Bounty."
 		},
 		"attack": 2,
 		"armour": 0,
@@ -1791,6 +1907,31 @@
 		"hp": 5,
 		"abilities": ["210016_2"],
 		"signature": ["10160_0"]
+	}, {
+		"release_date": "2020-08-21",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Ogre Magi"
+		},
+		"lore": {
+			"text": {
+				"english": "'It's not easy being the smartest ogre in the world. There's lots of jealous people out there.'/n'Think about how many people you know with one head.'/n'I bet it's a lot.'/n'Now realize that every single one of them is half as smart as us. Do you know how lonely it is to walk this earth, never finding an intellectual eq-'/n'WE LIKE ROCKS!'/n'Yes...yes we do.' "
+			},
+			"tag": {
+				"english": "Aggron Stonebreak, the Ogre Magi"
+			}
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "U",
+		"image": "10043_0",
+		"miniimage": "10043_0",
+		"icon": "10043_0",
+		"attack": 2,
+		"armour": 2,
+		"hp": 5,
+		"abilities": ["210016_2"],
+		"signature": ["10160_1"]
 	}]
 }, {
 	"card_id": 10160,
@@ -1820,6 +1961,32 @@
 		"crosslane": false,
 		"quick": false,
 		"is_signature": "10043_3"
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Ignite"
+		},
+		"lore": {
+			"text": {
+				"english": "'I think we're probably the first person to figure out that fire can be used not just to cook meat. But also light people on fire.'/n'If not the first, definitely in the top five.' "
+			},
+			"tag": {
+				"english": "Ogre Magi, Innovator"
+			}
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "U",
+		"image": "10160_0",
+		"miniimage": "10160_0",
+		"cost": 4,
+		"text": {
+			"english": "/n Enchant Caster. /n [TG]Round Start:[ET] Deal 1 damage to the two closest enemies."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10043_4"
 	}]
 }, {
 	"card_id": 10721,
@@ -2597,6 +2764,31 @@
 		"hp": 6,
 		"abilities": ["210029_0"],
 		"signature": ["10289_1"]
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Bloodseeker"
+		},
+		"lore": {
+			"text": {
+				"english": "My homeland is a place of beauty and grace... of crystal streams and bountiful harvest...it is undeniably a gift from the gods. But when such a gift is bestowed upon you, it is right to give thanks... and there is only one way to show gratitude to the Flayed Twins. With blood."
+			},
+			"tag": {
+				"english": "Strygwyr, the Bloodseeker"
+			}
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "B",
+		"image": "10018_0",
+		"miniimage": "10018_0",
+		"icon": "10018_0",
+		"attack": 5,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["210029_1"],
+		"signature": ["10289_1"]
 	}]
 }, {
 	"card_id": 10289,
@@ -2635,7 +2827,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10018_1"
+		"is_signature": "10018_2"
 	}]
 }, {
 	"card_id": 10062,
@@ -2797,6 +2989,31 @@
 		"hp": 5,
 		"abilities": ["210031_0"],
 		"signature": ["10272_0"]
+	}, {
+		"release_date": "2020-08-21",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Sniper"
+		},
+		"lore": {
+			"text": {
+				"english": "For too long the Keenfolk have been fractured. Little colonies spread across the world each coveting their own research... but as we kept to our workshops the world around us changed. Stonehall rose to power. The nation of Revtel was born. The Quroum of Weeping Rose grew bolder... and what did we do? We toiled and tinkered. We built wondrous machines and used them for petty tasks. This cannot continue. The Keenfolk clans need to unite, and show the world what we're capable of."
+			},
+			"tag": {
+				"english": "Kardel, the Sniper"
+			}
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "B",
+		"image": "10050_0",
+		"miniimage": "10050_0",
+		"icon": "10050_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210031_1"],
+		"signature": ["10272_1"]
 	}]
 }, {
 	"card_id": 10272,
@@ -2826,6 +3043,32 @@
 		"crosslane": true,
 		"quick": false,
 		"is_signature": "10050_1"
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Assassinate"
+		},
+		"lore": {
+			"text": {
+				"english": "Don't get me wrong I'm impressed with what these young Keen are able to dream up, but lasers and robots take away the artistry of killing a man. In my day you had to have skill and patience to assassinate someone at range. Now they just set off an explosion."
+			},
+			"tag": {
+				"english": "Sniper reminisces about the good old days"
+			}
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "B",
+		"image": "10272_0",
+		"miniimage": "10272_0",
+		"cost": 7,
+		"text": {
+			"english": " /n Choose Caster. Slay a unit in any lane. /n Costs 1 less for each time you've passed this round. /n [TG]Cross Lane[ET]"
+		},
+		"crosslane": true,
+		"quick": false,
+		"is_signature": "10050_2"
 	}]
 }, {
 	"card_id": 10069,
@@ -3141,6 +3384,31 @@
 		"hp": 6,
 		"abilities": ["210034_1"],
 		"signature": ["10112_0"]
+	}, {
+		"release_date": "2020-08-21",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Lycan"
+		},
+		"lore": {
+			"text": {
+				"english": "My father was good man. A regent over the lands of Slom, he ruled the small folk with fairness and justice. My mother was the picture of patience and compassion, a woman beloved by her people as if they were her children. And my siblings? Gods we were trouble. I remember the day we found Father's collection of ancient maps, Tressa thought it would be funny if we- it doesn't matter now. They're all dead."
+			},
+			"tag": {
+				"english": "Banehallow, the Lycan"
+			}
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "G",
+		"image": "10014_0",
+		"miniimage": "10014_0",
+		"icon": "10014_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["210034_1","11069_0"],
+		"signature": ["10112_0"]
 	}]
 }, {
 	"card_id": 10112,
@@ -3172,7 +3440,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10014_1"
+		"is_signature": "10014_2"
 	}]
 }, {
 	"card_id": 10026,
@@ -3328,6 +3596,26 @@
 		"cost": 4,
 		"text": {
 			"english": " +2 damage when attacking a tower. /n /n [TG]Active 1[AC], 1 Mana:[ET] Move to an empty slot."
+		},
+		"attack": 3,
+		"armour": 0,
+		"hp": 2,
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Horde Stryder"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "B",
+		"image": "10717_0",
+		"miniimage": "10717_0",
+		"cost": 4,
+		"text": {
+			"english": " +2 damage when attacking a tower. /n [TG]Active 1[AC], 1 Mana:[ET] Move to an empty slot. Horde Stryder attacks its new combat target for 2 battle damage."
 		},
 		"attack": 3,
 		"armour": 0,
@@ -3966,6 +4254,24 @@
 		"abilities": ["210039_0", "210083_0"],
 		"signature": ["10293_0"],
 		"related_cards": ["10136_0"]
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Beastmaster"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "R",
+		"image": "10029_0",
+		"miniimage": "10029_0",
+		"icon": "10029_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["210039_0", "210083_1"],
+		"signature": ["10293_0"],
+		"related_cards": ["10136_0"]
 	}]
 }, {
 	"card_id": 10136,
@@ -3991,7 +4297,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"related_cards": ["10029_2"]
+		"related_cards": ["10029_3"]
 	}]
 }, {
 	"card_id": 10293,
@@ -4012,7 +4318,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10029_2"
+		"is_signature": "10029_3"
 	}]
 }, {
 	"card_id": 10021,
@@ -4356,6 +4662,23 @@
 		"hp": 6,
 		"abilities": ["210045_0"],
 		"signature": ["10821_0"]
+	}, {
+		"release_date": "2020-08-21",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Pugna"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "B",
+		"image": "10048_0",
+		"miniimage": "10048_0",
+		"icon": "10048_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["10444_0"],
+		"signature": ["10821_1"]
 	}]
 }, {
 	"card_id": 10821,
@@ -4377,6 +4700,24 @@
 		"crosslane": false,
 		"quick": false,
 		"is_signature": "10048_1"
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Life Drain"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "B",
+		"cost": 3,
+		"image": "10821_0",
+		"miniimage": "10821_0",
+		"text": {
+			"english": " /n /n Give an enemy +3 Decay and an ally +3 Regeneration"
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10048_2"
 	}]
 }, {
 	"card_id": 10663,
@@ -4525,6 +4866,23 @@
 		"armour": 0,
 		"hp": 5,
 		"abilities": ["210048_2"],
+		"signature": ["10670_1"]
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Rubick"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "U",
+		"image": "10668_0",
+		"miniimage": "10668_0",
+		"icon": "10668_0",
+		"attack": 2,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210048_3"],
 		"signature": ["10670_1"]
 	}]
 }, {
@@ -4771,6 +5129,23 @@
 		"hp": 7,
 		"abilities": ["210051_1"],
 		"signature": ["10282_1"]
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Ursa"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "R",
+		"image": "10070_0",
+		"miniimage": "10070_0",
+		"icon": "10070_0",
+		"attack": 5,
+		"armour": 0,
+		"hp": 7,
+		"abilities": ["210051_1"],
+		"signature": ["10282_2"]
 	}]
 }, {
 	"card_id": 10282,
@@ -4810,6 +5185,24 @@
 		"crosslane": false,
 		"quick": false,
 		"is_signature": "10070_2"
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Overpower"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "R",
+		"image": "10282_0",
+		"miniimage": "10282_0",
+		"cost": 3,
+		"text": {
+			"english": " /n /n Repeat two times: [RP] Caster attacks the unit blocking it for 2 battle damage. "
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10070_3"
 	}]
 }, {
 	"card_id": 10701,
@@ -5165,6 +5558,23 @@
 		"hp": 10,
 		"abilities": ["11065_0", "210056_1"],
 		"signature": ["10975_0"]
+	}, {
+		"release_date": "2020-08-21",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Tidehunter"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "R",
+		"image": "10024_0",
+		"miniimage": "10024_0",
+		"icon": "10024_0",
+		"attack": 2,
+		"armour": 1,
+		"hp": 10,
+		"abilities": ["11065_1", "210056_1"],
+		"signature": ["10975_0"]
 	}]
 }, {
 	"card_id": 10975,
@@ -5185,7 +5595,7 @@
 		},
 		"crosslane": false,
 		"quick": true,
-		"is_signature": "10024_2"
+		"is_signature": "10024_3"
 	}]
 }, {
 	"card_id": 10940,
@@ -5816,6 +6226,24 @@
 		"abilities": ["210066_1"],
 		"signature": ["10538_1"],
 		"related_cards": ["10820_0"]
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Storm Spirit"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "B",
+		"image": "10536_0",
+		"miniimage": "10536_0",
+		"icon": "10536_0",
+		"attack": 5,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210066_1","11068_0"],
+		"signature": ["10538_2"],
+		"related_cards": ["10820_1"]
 	}]
 }, {
 	"card_id": 10538,
@@ -5855,6 +6283,24 @@
 		"crosslane": true,
 		"quick": false,
 		"is_signature": "10536_1"
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Ball Lightning"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "B",
+		"image": "10538_0",
+		"miniimage": "10538_0",
+		"cost": 2,
+		"text": {
+			"english": " /n Move up to range 5. Repeatable this round /n /n [TG]Cross Lane[ET] /n [TG][QU]Quickcast[ET]"
+		},
+		"crosslane": true,
+		"quick": false,
+		"is_signature": "10536_2"
 	}]
 }, {
 	"card_id": 10820,
@@ -5880,7 +6326,29 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"related_cards": ["10536_0"]
+		"related_cards": ["10536_2"]
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Summon",
+		"card_name": {
+			"english": "Static Remnant"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "B",
+		"cost": 2,
+		"image": "10820_0",
+		"miniimage": "10820_0",
+		"text": {
+			"english": " Feeble /n [TG]After Combat:[ET] Slay Static Remnant. /n [TG]Death Effect:[ET] Deal 2 piercing damage to Static Remnant's adjacent enemies."
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 1,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10536_2"]
 	}]
 }, {
 	"card_id": 10025,
@@ -6653,6 +7121,28 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Item",
+		"card_subtype": "Consumable",
+		"card_name": {
+			"english": "Golden Ticket"
+		},
+		"set": 1,
+		"rarity": 2,
+		"image": "10216_0",
+		"miniimage": "10216_0",
+		"cost": 1,
+		"gcost": 15,
+		"text": {
+			"english": "/n /n Get a random item at your shop level. It costs 0 Mana."
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10967,
@@ -7251,6 +7741,28 @@
 		"text": {
 			"english": "/n /n +2[ATT], Quickstrike"
 		},
+		"attack": 2,
+		"armour": 0,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Item",
+		"card_subtype": "Weapon",
+		"card_name": {
+			"english": "Mortred's Dagger"
+		},
+		"set": 1,
+		"rarity": 2,
+		"image": "10625_0",
+		"miniimage": "10625_0",
+		"cost": 1,
+		"gcost": 20,
+		"text": {
+			"english": "/n /n +5[ATT], Quickstrike"
+		},
 		"attack": 5,
 		"armour": 0,
 		"hp": 0,
@@ -7325,6 +7837,28 @@
 		"gcost": 30,
 		"text": {
 			"english": "/n +10[ATT]/n [TG]Round Start:[ET] Deal 2 piercing damage to enemy units."
+		},
+		"attack": 10,
+		"armour": 0,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Item",
+		"card_subtype": "Weapon",
+		"card_name": {
+			"english": "Radiance"
+		},
+		"set": 1,
+		"rarity": 1,
+		"image": "11020_0",
+		"miniimage": "11020_0",
+		"cost": 1,
+		"gcost": 30,
+		"text": {
+			"english": "/n +10[ATT]/n /n Before your turn, deal 1 piercing damage to each enemy."
 		},
 		"attack": 10,
 		"armour": 0,
@@ -7809,7 +8343,8 @@
 		"armour": 0,
 		"hp": 4,
 		"abilities": ["210069_0"],
-		"signature": ["11049_0"]
+		"signature": ["11049_0"],
+		"related_cards": ["11071_0"]
 	}]
 }, {
 	"card_id": 11049,
@@ -7911,6 +8446,24 @@
 		"abilities": ["210070_3", "210071_1"],
 		"signature": ["10323_0"],
 		"related_cards": ["10980_0"]
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Earthshaker"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "U",
+		"image": "10033_0",
+		"miniimage": "10033_0",
+		"icon": "10033_0",
+		"attack": 2,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["210070_3", "210071_1"],
+		"signature": ["10323_1"],
+		"related_cards": ["10980_0"]
 	}]
 }, {
 	"card_id": 10323,
@@ -7932,6 +8485,24 @@
 		"crosslane": false,
 		"quick": false,
 		"is_signature": "10033_3"
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Echo Slam"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "U",
+		"image": "10323_0",
+		"miniimage": "10323_0",
+		"cost": 6,
+		"text": {
+			"english": " /n Deal damage to each enemy equal to double the number of enemies."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10033_4"
 	}]
 }, {
 	"card_id": 10980,
@@ -7957,7 +8528,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"related_cards": ["10033_3"]
+		"related_cards": ["10033_4"]
 	}]
 }, {
 	"card_id": 10730,
@@ -8394,6 +8965,23 @@
 		"hp": 4,
 		"abilities": ["210076_1", "210077_2"],
 		"signature": ["10005_0"]
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Meepo"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "U",
+		"image": "10004_0",
+		"miniimage": "10004_0",
+		"icon": "10004_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 4,
+		"abilities": ["210076_2", "210077_2"],
+		"signature": ["10005_0"]
 	}]
 }, {
 	"card_id": 10005,
@@ -8414,7 +9002,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10004_2"
+		"is_signature": "10004_3"
 	}]
 }, {
 	"card_id": 10017,
@@ -8469,6 +9057,23 @@
 		"hp": 7,
 		"abilities": ["210078_1"],
 		"signature": ["10340_1"]
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Chen"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "G",
+		"image": "10017_0",
+		"miniimage": "10017_0",
+		"icon": "10017_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 7,
+		"abilities": ["210078_1","11072_0"],
+		"signature": ["10340_1"]
 	}]
 }, {
 	"card_id": 10340,
@@ -8507,7 +9112,7 @@
 		},
 		"crosslane": true,
 		"quick": false,
-		"is_signature": "10017_1"
+		"is_signature": "10017_3"
 	}]
 }, {
 	"card_id": 10704,
@@ -8814,6 +9419,28 @@
 		"cost": 4,
 		"text": {
 			"english": "/n [TG]Round Start:[ET] Deal 2 damage to the unit blocking Stonehall Paragon."
+		},
+		"attack": 7,
+		"armour": 1,
+		"hp": 4,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10131_0"]
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Summon",
+		"card_name": {
+			"english": "Stonehall Paragon"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "R",
+		"image": "11045_0",
+		"miniimage": "11045_0",
+		"cost": 4,
+		"text": {
+			"english": "/n [TG]Round Start:[ET] Stonehall Paragon attacks the unit blocking it for 2 battle damage."
 		},
 		"attack": 7,
 		"armour": 1,
@@ -10259,6 +10886,27 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Satyr Magician"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "U",
+		"image": "10137_0",
+		"miniimage": "10137_0",
+		"cost": 4,
+		"text": {
+			"english": " Satyr Magician has +[ATT] equal to half your unspent Mana. /n /n [TG]Active 1[AC], 1 Mana:[ET] Restore 4 Mana."
+		},
+		"attack": 1,
+		"armour": 0,
+		"hp": 3,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10614,
@@ -10989,6 +11637,27 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Berserker of the Abyssm"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "B",
+		"image": "10600_0",
+		"miniimage": "10600_0",
+		"cost": 5,
+		"text": {
+			"english": "Devour /n [TG]Play Effect:[ET] Berserker of the Abyssm attacls the unit blocking it for battle damage equal to its health."
+		},
+		"attack": 3,
+		"armour": 0,
+		"hp": 2,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10115,
@@ -11051,6 +11720,27 @@
 		"cost": 6,
 		"text": {
 			"english": "/n [TG]Play Effect:[ET] Deal 1 damage to adjacent units on both teams."
+		},
+		"attack": 8,
+		"armour": 0,
+		"hp": 8,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Abyssm Flesh Render"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "B",
+		"image": "10716_0",
+		"miniimage": "10716_0",
+		"cost": 6,
+		"text": {
+			"english": "/n [TG]Play Effect:[ET] Abyssm Flesh Render attacks adjacent units on both teams for 1 battle damage."
 		},
 		"attack": 8,
 		"armour": 0,
@@ -11686,6 +12376,27 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Revtel Convoy"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "G",
+		"image": "10091_0",
+		"miniimage": "10091_0",
+		"cost": 6,
+		"text": {
+			"english": "/n Revtel Convoy has +[ATT] equal to half your gold."
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 13,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10715,
@@ -11780,6 +12491,7 @@
 	}]
 }, {
 	"card_id": 10173,
+	"hide_from_card_list": "Removed",
 	"versions": [{
 		"release_date": "2020-05-25",
 		"card_type": "Improvement",
@@ -11831,6 +12543,24 @@
 		"cost": 2,
 		"text": {
 			"english": "/n Enchant Tower /n Whenever your opponent plays a non-item card from this lane, deal 1 piercing damage to their tower and burn 1 of their mana."
+		},
+		"crosslane": false,
+		"quick": false
+	}, {
+		"release_date": "2020-08-21",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Nether Ward"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "R",
+		"image": "10173_0",
+		"miniimage": "10173_0",
+		"cost": 2,
+		"text": {
+			"english": "REMOVED FROM THE GAME (Given to Pugna as a passive ability)."
 		},
 		"crosslane": false,
 		"quick": false
@@ -12906,6 +13636,23 @@
 		},
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Throw Down"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "R",
+		"image": "10766_0",
+		"miniimage": "10766_0",
+		"cost": 2,
+		"text": {
+			"english": " /n Bounce all items from caster and the enemy blocking those items +1 Lock. /n /n [RP] They battle each other."
+		},
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10765,
@@ -13315,6 +14062,23 @@
 		},
 		"crosslane": false,
 		"quick": true
+	},{
+		"release_date": "2020-05-25",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Hip Fire"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "B",
+		"image": "10273_0",
+		"miniimage": "10273_0",
+		"cost": 3,
+		"text": {
+			"english": " /n Deal 3 damage to a unit. /n [TG][QU] Quickcast[ET]"
+		},
+		"crosslane": false,
+		"quick": true
 	}]
 }, {
 	"card_id": 10332,
@@ -13631,6 +14395,23 @@
 		"cost": 1,
 		"text": {
 			"english": " /n Choose unit. It taunts, then each unit pointing at it deals 1 battle damage to it."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Ventriloquy"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "U",
+		"image": "10418_0",
+		"miniimage": "10418_0",
+		"cost": 1,
+		"text": {
+			"english": " /n Choose unit. It taunts, then each unit pointing at it attacks it for 1 battle damage."
 		},
 		"crosslane": false,
 		"quick": false
@@ -13987,6 +14768,23 @@
 		"cost": 5,
 		"text": {
 			"english": " /n Deal 5 damage to each enemy across from an empty slot."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Remote Detonation"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "U",
+		"image": "10376_0",
+		"miniimage": "10376_0",
+		"cost": 5,
+		"text": {
+			"english": " /n Deal 5 damage to each unopposed enemy."
 		},
 		"crosslane": false,
 		"quick": false
@@ -14460,6 +15258,24 @@
 		"cost": 3,
 		"text": {
 			"english": " /n Bounce each item from a hero and equip it with cursed items."
+		},
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10822_0", "10823_0", "10824_0"]
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Spriggan Mischief"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "G",
+		"image": "10770_0",
+		"miniimage": "10770_0",
+		"cost": 3,
+		"text": {
+			"english": " /n Bounce each item from a hero and give them +1 Lock. Equip that hero with cursed items."
 		},
 		"crosslane": false,
 		"quick": false,
@@ -15057,7 +15873,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"related_cards": ["10770_0"]
+		"related_cards": ["10770_1"]
 	}]
 }, {
 	"card_id": 10823,
@@ -15084,7 +15900,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"related_cards": ["10770_0"]
+		"related_cards": ["10770_1"]
 	}]
 }, {
 	"card_id": 10824,
@@ -15111,7 +15927,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"related_cards": ["10770_0"]
+		"related_cards": ["10770_1"]
 	}]
 }, {
 	"card_id": 10797,
@@ -15290,6 +16106,23 @@
 		"hp": 4,
 		"abilities": ["210084_3"],
 		"signature": ["11058_1"]
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Nyx Assassin"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "B",
+		"image": "11056_0",
+		"miniimage": "11056_0",
+		"icon": "11056_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 4,
+		"abilities": ["210084_4"],
+		"signature": ["11058_1"]
 	}]
 }, {
 	"card_id": 11058,
@@ -15328,7 +16161,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "11056_4"
+		"is_signature": "11056_5"
 	}]
 }, {
 	"card_id": 11059,
@@ -15423,6 +16256,32 @@
 		"text": {
 			"english": "/n Enchant Tower /n /n [TG]Aura: [ET] Whenever an allied unit dies, give a random enemy +1 decay until their next combat."
 		},
+		"crosslane": false,
+		"quick": false
+	}]
+}, {
+	"card_id": 11071,
+	"hide_from_card_list": "Uncollectable",
+	"versions": [{
+		"release_date": "2020-05-25",
+		"card_type": "Summon",
+		"card_name": {
+			"english": "The Double"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "U",
+		"image": "11071_0",
+		"miniimage": "11071_0",
+		"cost": 1,
+		"text": {
+			"english": ""
+		},
+		"attack": 3,
+		"armour": 0,
+		"hp": 4,
+		"abilities": [],
+		"related_cards": ["11046_0"],
 		"crosslane": false,
 		"quick": false
 	}]
