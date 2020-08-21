@@ -311,6 +311,18 @@
                 "text":{
                     "english":"Active [AC]4, 1 Mana: Draw a card. Reduce cooldown by 1, but not below 1."
                 }
+            },{
+                "release_date":"2020-08-21",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Wisdom of the Elders"
+                 },
+                "cooldown": 2,
+                "image": "210013_0",
+                "cost": 1,
+                "text":{
+                    "english":"Active [AC]2, 1 Mana: Draw a card."
+                }
             }
         ]
     },

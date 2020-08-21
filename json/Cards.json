@@ -1050,7 +1050,7 @@
 		"attack": 2,
 		"armour": 0,
 		"hp": 7,
-		"abilities": ["210013_0"],
+		"abilities": ["210013_1"],
 		"signature": ["11010_1"]
 	}]
 }, {
@@ -1980,7 +1980,7 @@
 		"colour": "U",
 		"image": "10160_0",
 		"miniimage": "10160_0",
-		"cost": 4,
+		"cost": 2,
 		"text": {
 			"english": "/n Enchant Caster. /n [TG]Round Start:[ET] Deal 1 damage to the two closest enemies."
 		},

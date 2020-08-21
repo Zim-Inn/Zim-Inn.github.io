@@ -30,7 +30,7 @@
         "keyword": "Burn",
         "match": "Burn",
         "desc": "Remove mana from the enemy player.",
-        "example": ["10154","10173"]
+        "example": ["10048","10154"]
     },{
         "keyword": "Cleave",
         "match": "Cleave",
@@ -194,6 +194,7 @@
         "desc": "During the combat phase, deal Siege damage to the enemy tower.",
         "example": ["10310","10223"]
     },{
+        "hide_from_keyword_page": true,
         "keyword": "Sneak Attack",
         "match": "Sneak Attack",
         "desc": "A unit deals its Attack damage to its target in a one-way battle. Combat attributes such as Armor, Retaliate, and Piercing are applied.",
@@ -308,7 +309,7 @@
         "keyword": "Clone",
         "match": "Clone",
         "desc": "Summon a copy of this unit.",
-        "example": ["11046"]
+        "example": ["11046","11071"]
     },{
         "keyword": "Hex",
         "match": "Hex",
