@@ -249,6 +249,18 @@
                 "text":{
                     "english":"Active [AC]3, 1 Mana: Each unit with Keefe the Bold as their combat target battles itself."
                 }
+            },{
+                "release_date":"2020-08-21",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Stop Hittin' Yourself"
+                 },
+                "cooldown": 0,
+                "image": "210011_0",
+                "cost": 0,
+                "text":{
+                    "english":"Active [AC]3, 1 Mana: Each unit with Keefe the Bold as their combat target battles itself with +2[ATT]."
+                }
             }
         ]
     },
@@ -260,7 +272,19 @@
                 "release_date":"2020-05-25",
                 "ability_type":"Continuous Effect",
                 "ability_name":{
-                    "english":"Pack Leadership"
+                    "english":"Pack Leader"
+                 },
+                "cooldown": 0,
+                "image": "210012_0",
+                "cost": 0,
+                "text":{
+                    "english":"+1[ATT] for each ally in lane."
+                }
+            },{
+                "release_date":"2020-08-21",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Strength in Numbers"
                  },
                 "cooldown": 0,
                 "image": "210012_0",
@@ -662,6 +686,18 @@
                 "text":{
                     "english":"Bloodseeker has +Attack equal to the highest missing Health from an enemy hero in any lane. /n Cross Lane"
                 }
+            },{
+                "release_date":"2020-08-21",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Thirst"
+                 },
+                "cooldown": 0,
+                "image": "210029_0",
+                "cost": 0,
+                "text":{
+                    "english":"Bloodseeker has +[ATT] equal to the highest missing Health from an enemy hero in any lane. Does not decrease if the hero dies. /n Cross Lane"
+                }
             }
         ]
     },
@@ -699,6 +735,18 @@
                 "cost": 0,
                 "text":{
                     "english":"Active 3[AC], 1 Mana: Deal 4 damage to a unit."
+                }
+            },{
+                "release_date":"2020-08-21",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Headshot"
+                 },
+                "cooldown": 3,
+                "image": "210031_0",
+                "cost": 0,
+                "text":{
+                    "english":"Active 3[AC], 1 Mana: Deal 4 damage to another unit within range 5. [TG]Cross Lane[ET]."
                 }
             }
         ]
@@ -1123,6 +1171,19 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 2[AC], 1 Mana:[ET] Choose an enemy within range 3. Swap them to a new slot within range 3. /n [TG][QU]Quickcast[ET]"
+                }
+            },
+            {
+                "release_date":"2020-08-21",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Telekinesis"
+                 },
+                "cooldown": 2,
+                "image": "210048_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Choose an enemy within range 3. Swap them to a new slot within range 3. Stun them and their new neigbors. /n [TG]Cross Lane[ET]"
                 }
             }
         ]
@@ -1935,7 +1996,19 @@
                 "image": "210076_0",
                 "cost": 0,
                 "text":{
-                    "english":"If one Meepo dies, all your Meepos die"
+                    "english":"If one Meepo dies, all your Meepos die."
+                }
+            }, {
+                "release_date":"2020-08-21",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"United We Fall"
+                 },
+                "cooldown": 0,
+                "image": "210076_0",
+                "cost": 0,
+                "text":{
+                    "english":"If this Meepo dies, your Meepos in all lanes die."
                 }
             }
         ]
@@ -2154,6 +2227,18 @@
                 "text":{
                     "english":"Beastmaster has +2 attack per neighboring Loyal Beast."
                 }
+            },{
+                "release_date":"2020-08-21",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Inner Beast"
+                 },
+                "cooldown": 0,
+                "image": "210083_0",
+                "cost": 0,
+                "text":{
+                    "english":"Beastmaster has +2[ATT] per neighboring Loyal Beast."
+                }
             }
         ]
     },
@@ -2208,6 +2293,18 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] Choose an enemy in any lane and move Nyx Assassin across from it. Nyx Assassin sneak attacks the new unit blocking it with +3[ATT]./n[TG]Cross Lane[ET]"
+                }
+            }, {
+                "release_date":"2020-08-21",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Vendetta"
+                 },
+                "cooldown": 3,
+                "image": "210084_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Choose an enemy in any lane and move Nyx Assassin across from it. Nyx Assassin attacks the new unit blocking it with +3[ATT]./n[TG]Cross Lane[ET]"
                 }
             }
         ]
@@ -2351,6 +2448,18 @@
                 "text":{
                     "english":"The first time you play a non-item card from Tidehunter's lane, deal 1 damage to its adjacent enemies and give them -1[ATT] this round. If there are none, battle the enemy tower instead. 1 round cooldown."
                 }
+            },{
+                "release_date":"2020-08-21",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Anchor Smash"
+                 },
+                "cooldown": 1,
+                "image": "11065_0",
+                "cost": 0,
+                "text":{
+                    "english":"When you play a non-item card, Tidehunter attacks its adjacent enemies for 1 battle damage and gives them -1[ATT]. If there are none, attack the enemy tower for 1 battle damage. 1 round cooldown."
+                }
             }
         ]
     },
@@ -2369,6 +2478,82 @@
                 "cost": 1,
                 "text":{
                     "english":"When Venomancer and allied Plague Wards deal damage to a unit or tower, give it +1 Decay until its next combat phase"
+                }
+            }
+        ]
+    },
+    {
+        "card_id":11069,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-08-21",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Pack Leadership"
+                 },
+                "cooldown": 0,
+                "image": "11069_0",
+                "cost": 0,
+                "text":{
+                    "english":"Lycan has charges equal to the combined Attack of creeps in this lane. If Lycan has 15 or more charges, Lycan has +3[ATT] and allied creeps within range 2 have +1[ATT]."
+                }
+            }
+        ]
+    },
+    {
+        "card_id":11072,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-08-21",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Divine Favor"
+                 },
+                "cooldown": 0,
+                "image": "11072_0",
+                "cost": 0,
+                "text":{
+                    "english":"After Combat: Heal all allied creeps 2."
+                }
+            }
+        ]
+    },
+    {
+        "card_id":10444,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-08-21",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Nether Ward"
+                 },
+                "cooldown": 1,
+                "image": "10444_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever your opponent plays a non-item card from this lane, deal 1 piercing damage to their tower and burn 1 of their mana. 1 round cooldown."
+                }
+            }
+        ]
+    },
+    {
+        "card_id":11068,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-08-21",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Overload"
+                 },
+                "cooldown": 1,
+                "image": "11068_0",
+                "cost": 0,
+                "text":{
+                    "english":"Storm Spirit has +1[ATT] per charge. After you play a spell or enchantment from any lane, add a charge until Storm Spirit attacks in a battle."
                 }
             }
         ]
