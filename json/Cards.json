@@ -4713,7 +4713,7 @@
 		"image": "10821_0",
 		"miniimage": "10821_0",
 		"text": {
-			"english": " /n /n Give an enemy +3 Decay and an ally +3 Regeneration"
+			"english": " /n /n Deal 3 damage to an enemy and an ally +3 temporary Health."
 		},
 		"crosslane": false,
 		"quick": false,
