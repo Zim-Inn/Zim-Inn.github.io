@@ -6294,7 +6294,7 @@
 		"colour": "B",
 		"image": "10538_0",
 		"miniimage": "10538_0",
-		"cost": 2,
+		"cost": 1,
 		"text": {
 			"english": " /n Move up to range 5. Repeatable this round /n /n [TG]Cross Lane[ET] /n [TG][QU]Quickcast[ET]"
 		},
