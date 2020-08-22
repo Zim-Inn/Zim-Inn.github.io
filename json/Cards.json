@@ -8344,7 +8344,7 @@
 		"hp": 4,
 		"abilities": ["210069_0"],
 		"signature": ["11049_0"],
-		"related_cards": ["11071_0"]
+		"related_cards": ["11071_1"]
 	}]
 }, {
 	"card_id": 11049,
@@ -16264,6 +16264,28 @@
 	"hide_from_card_list": "Uncollectable",
 	"versions": [{
 		"release_date": "2020-05-25",
+		"card_type": "Summon",
+		"card_name": {
+			"english": "The Double"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "U",
+		"image": "11046_0",
+		"miniimage": "11046_0",
+		"cost": 1,
+		"text": {
+			"english": ""
+		},
+		"attack": 3,
+		"armour": 0,
+		"hp": 4,
+		"abilities": [],
+		"related_cards": ["11046_0"],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-08-21",
 		"card_type": "Summon",
 		"card_name": {
 			"english": "The Double"
