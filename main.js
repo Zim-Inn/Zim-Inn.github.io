@@ -743,7 +743,7 @@ function CardViewer_SelectCard(CardIDV, skipHistory) {
             </div> \
             <div class="clear"></div> \
         </div> \
-        <div class="CardViewerPageAbilityText">This version of the card is from '+CardJSON[CardArrayIndex]['versions'][CardVersion]['release_date']+', with the card next updated at '+CardJSON[CardArrayIndex]['versions'][parseInt(CardVersion) + 1]['release_date']+'. <br><br> <span class="CursorPointer" onmouseup="CardViewer_SelectCard(\''+CardID+'_'+(CardJSON[CardArrayIndex]['versions'].length - 1)+'\');">Click here to view the latest version of this card</span>.</div>\
+        <div class="CardViewerPageAbilityText CursorPointer" onmouseup="CardViewer_SelectCard(\''+CardID+'_'+(CardJSON[CardArrayIndex]['versions'].length - 1)+'\');">Click here to view the latest version of this card.</div>\
     </div>';
     } else {
         HTMLOldCardVersionWarning = "";
