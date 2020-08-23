@@ -6735,6 +6735,28 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Item",
+		"card_subtype": "Weapon",
+		"card_name": {
+			"english": "Broadsword"
+		},
+		"set": 1,
+		"rarity": 1,
+		"image": "10215_0",
+		"miniimage": "10215_0",
+		"cost": 1,
+		"gcost": 15,
+		"text": {
+			"english": "/n +6[ATT]"
+		},
+		"attack": 6,
+		"armour": 0,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10231,
