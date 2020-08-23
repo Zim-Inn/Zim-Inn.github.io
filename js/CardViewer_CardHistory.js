@@ -55,7 +55,7 @@ const GetVersionChangesHTML = function(CardID) {
                 }
             }
             //HP, Armour and Attack Values
-            if ("hp" in CardJSON[CardArrayIndex]['versions'][counter-1] && "hp" in CardJSON[CardArrayIndex]['versions'][counter]) {
+            if ("hp" in CardJSON[CardArrayIndex]['versions'][counter-1] && "hp" in CardJSON[CardArrayIndex]['versions'][counter] && CardJSON[CardArrayIndex]['versions'][counter]["card_type"] != "Item") {
                 if ((CardJSON[CardArrayIndex]['versions'][counter-1]["hp"] != CardJSON[CardArrayIndex]['versions'][counter]["hp"]) || (CardJSON[CardArrayIndex]['versions'][counter-1]["armour"] != CardJSON[CardArrayIndex]['versions'][counter]["armour"]) || (CardJSON[CardArrayIndex]['versions'][counter-1]["attack"] != CardJSON[CardArrayIndex]['versions'][counter]["attack"]))
                 CardHistoryHTML+='<li> Card stats changed from ▣'+CardJSON[CardArrayIndex]['versions'][counter-1]["attack"]+' ▤'+CardJSON[CardArrayIndex]['versions'][counter-1]["armour"]+' ▥'+CardJSON[CardArrayIndex]['versions'][counter-1]["hp"]+' to ▣'+CardJSON[CardArrayIndex]['versions'][counter]["attack"]+' ▤'+CardJSON[CardArrayIndex]['versions'][counter]["armour"]+' ▥'+CardJSON[CardArrayIndex]['versions'][counter]["hp"]+' </li>';
             }
