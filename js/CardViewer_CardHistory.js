@@ -12,7 +12,7 @@ const GetVersionChangesHTML = function(CardID) {
     if (TotalCardVersions > 1) {
         for (let counter = TotalCardVersions-1; counter >0; counter--) {
             CardHistoryHTML += '<div class="CardViewerPage_CardHistoryChangeContainer"> \
-                                    <div class="CardViewerPage_CardHistoryDateTitle"> \
+                                    <div class="CardViewerPage_CardHistoryDateTitle CursorPointer" onmouseup="CardViewer_SelectCard(\''+CardID+'_'+counter+'\');"> \
                                         '+CardJSON[CardArrayIndex]['versions'][counter]['release_date']+' \
                                     </div> \
                                     <div class="CardViewerPage_CardHistoryDetails">';
