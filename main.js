@@ -586,11 +586,20 @@ function CardViewer_SelectCard(CardIDV, skipHistory) {
                 SigCardType = CardJSON[SigCardArrayIndex]['versions'][SigCardVersion]['card_type'];
                 SigCardText = CardViewer_AbilityTextFormatting(CardJSON[SigCardArrayIndex]['versions'][SigCardVersion]['text']['english']);
                 SigCardColour = CardJSON[SigCardArrayIndex]['versions'][SigCardVersion]['colour'];
+
+                if (SigCardType != "Item") {
+                    SigCardCost = CardJSON[SigCardArrayIndex]['versions'][SigCardVersion]['cost'];
+                    SigCardCostStyle = "CardViewerSigRelatedCardMana";
+                } else {
+                    SigCardCost = CardJSON[SigCardArrayIndex]['versions'][SigCardVersion]['gcost'];
+                    SigCardCostStyle = "CardViewerSigRelatedCardGoldCost";
+                }
         
                 HTMLSignatureCardLeftPanel += '<div class="CursorPointer CardViewerPageSingleAbilityContainer CardViewerPageSignatureContainer'+SigCardColour+'" onmousemove="CardViewerCardPreviewTooltip(\''+SigCardID+'_'+SigCardVersion+'\',1);" onmouseout="CardViewerCardPreviewTooltip(0,0);" onmouseup="CardViewer_SelectCard(\''+SigCardID+'_'+SigCardVersion+'\')"> \
                                                 <div class="CardViewerPageAbilityTop"> \
                                                     <div class="CardViewerPageAbilityIcon"><img src="Images/Cards/MiniImage/'+SigCardMiniImage+'.jpg"></div> \
-                                                    <div class="CardViewerPageAbilityTopText"> \
+                                                    <div class="'+SigCardCostStyle+'">'+SigCardCost+'</div> \
+                                                    <div class="CardViewerPageSigRelatedCardTopText"> \
                                                         <div class="CardViewerPageAbilityName">'+SigCardName.toUpperCase()+'</div> \
                                                         <div class="CardViewerPageSigCardText CardViewerPageSigCardText'+SigCardColour+'">SIGNATURE CARD</div> \
                                                     </div> \
@@ -658,6 +667,16 @@ function CardViewer_SelectCard(CardIDV, skipHistory) {
                 RelCardMiniImage = CardJSON[RelCardArrayIndex]['versions'][RelCardVersion]['miniimage'];
                 RelCardName = CardJSON[RelCardArrayIndex]['versions'][RelCardVersion]['card_name']['english'];
                 RelCardType = CardJSON[RelCardArrayIndex]['versions'][RelCardVersion]['card_type'];
+                if (RelCardType == "Item") {
+                    RelCardCost = CardJSON[RelCardArrayIndex]['versions'][RelCardVersion]['gcost'];
+                    RelCardCostStyle = "CardViewerSigRelatedCardGoldCost";
+                } else if (RelCardType == "Hero") {
+                    RelCardCost = "";
+                    RelCardCostStyle = "";
+                } else {
+                    RelCardCost = CardJSON[RelCardArrayIndex]['versions'][RelCardVersion]['cost'];
+                    RelCardCostStyle = "CardViewerSigRelatedCardMana";
+                }
                 if ("text" in CardJSON[RelCardArrayIndex]['versions'][RelCardVersion]) {
                     RelCardText = CardViewer_AbilityTextFormatting(CardJSON[RelCardArrayIndex]['versions'][RelCardVersion]['text']['english']);
                 } else {
@@ -671,7 +690,8 @@ function CardViewer_SelectCard(CardIDV, skipHistory) {
                 HTMLRelatedCardsLeftPanel += '<div class="CursorPointer CardViewerPageSingleAbilityContainer CardViewerPageSignatureContainer'+RelCardColour+'" onmousemove="CardViewerCardPreviewTooltip(\''+RelCardID+'_'+RelCardVersion+'\',1);" onmouseout="CardViewerCardPreviewTooltip(0,0);" onmouseup="CardViewer_SelectCard(\''+RelCardID+'_'+RelCardVersion+'\')"> \
                                                 <div class="CardViewerPageAbilityTop"> \
                                                     <div class="CardViewerPageAbilityIcon"><img src="Images/Cards/MiniImage/'+RelCardMiniImage+'.jpg"></div> \
-                                                    <div class="CardViewerPageAbilityTopText"> \
+                                                    <div class="'+RelCardCostStyle+'">'+RelCardCost+'</div> \
+                                                    <div class="CardViewerPageSigRelatedCardTopText"> \
                                                         <div class="CardViewerPageAbilityName">'+RelCardName.toUpperCase()+'</div> \
                                                         <div class="CardViewerPageSigCardText CardViewerPageSigCardText'+RelCardColour+'">RELATED CARD</div> \
                                                     </div> \
