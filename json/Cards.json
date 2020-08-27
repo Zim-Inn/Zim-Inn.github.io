@@ -11672,7 +11672,7 @@
 		"miniimage": "10600_0",
 		"cost": 5,
 		"text": {
-			"english": "Devour /n [TG]Play Effect:[ET] Berserker of the Abyssm attacls the unit blocking it for battle damage equal to its health."
+			"english": "Devour /n [TG]Play Effect:[ET] Berserker of the Abyssm attacks the unit blocking it for battle damage equal to its health."
 		},
 		"attack": 3,
 		"armour": 0,
