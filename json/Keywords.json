@@ -24,7 +24,7 @@
     },{
         "keyword": "Bounce",
         "match": "Bounce",
-        "desc": "Return to hand or the fountain. target to owner's fountain if it's a hero, or the hand if it's a creep or item.",
+        "desc": "Return to hand or the fountain.",
         "example": ["10766","10753"]
     },{
         "keyword": "Burn",
