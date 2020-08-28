@@ -797,6 +797,24 @@
         font-family: 'Open Sans',sans-serif;
         font-weight: 700;
     }
+    .CardViewerPageSigRelatedCardTopText {
+        width: calc(100% - 185px);
+        margin-top: 10px;
+    }
+    .CardViewerSigRelatedCardMana {
+        margin-top: 25px;
+        padding-top: 7px;
+        height: 56px;
+        width: 60px;
+        font-size: 32pt;
+    }
+    .CardViewerSigRelatedCardGoldCost {
+        margin-top: 25px;
+        padding-top: 7px;
+        height: 56px;
+        width: 60px;
+        font-size: 32pt;
+    }
     .CardViewerPageSingleAbilityContainer {
         margin-top: 20px;
     }
