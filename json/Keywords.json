@@ -19,12 +19,12 @@
     },{
         "keyword": "Aura",
         "match": "Aura",
-        "desc": "An effect which applies to units when they enter a specified area and is removed when they leave. Effects the owner's lane by default.",
+        "desc": "Applies to units as long as they are within a given area.",
         "example": ["10086","11002"]
     },{
         "keyword": "Bounce",
         "match": "Bounce",
-        "desc": "Return target to owner's fountain if it's a hero, or the hand if it's a creep or item.",
+        "desc": "Return to hand or the fountain. target to owner's fountain if it's a hero, or the hand if it's a creep or item.",
         "example": ["10766","10753"]
     },{
         "keyword": "Burn",
@@ -34,12 +34,12 @@
     },{
         "keyword": "Cleave",
         "match": "Cleave",
-        "desc": "During the combat phase, deal Cleave damage to all adjacent enemies. Cleave damage doesn't hit towers.",
+        "desc": "Cleave damage is dealt to all adjacent enemies in the combat phase. Doesn't hit towers.",
         "example": ["10133","10425"]
     },{
         "keyword": "Cross Lane",
         "match": "Cross Lane",
-        "desc": "Cross Lane cards are cast by heroes in one lane, but can target objects in a different lane.",
+        "desc": "Can affect a lane other than the caster's.",
         "example": ["10328","10417"]
     },{
         "keyword": "Cursed",
@@ -64,12 +64,12 @@
     },{
         "keyword": "Disarm",
         "match": "Disarm",
-        "desc": "A disarmed unit does not attack its target during battles. Lasts until the end of round by default.",
+        "desc": "Disarmed units do not attack their target during battles.",
         "example": ["10277","10155"]
     },{
         "keyword": "Dispel",
         "match": "Dispel",
-        "desc": "Remove an enchantment.",
+        "desc": "Removes an enchantment.",
         "example": ["10306","10210"]
     },{
         "keyword": "Enchant",
@@ -89,7 +89,7 @@
     },{
         "keyword": "Feeble",
         "match": "Feeble",
-        "desc": "When a unit deals Attack damage to this unit in combat, excess damage is dealt to your tower.",
+        "desc": "Excess Attack damage dealt to this unit is dealt to the tower.",
         "example": ["11007","10789"]
     },{
         "keyword": "Fountain",
@@ -119,7 +119,7 @@
     },{
         "keyword": "Mulch",
         "match": "Mulch",
-        "desc": "When this card is played draw a card from your deck which costs less mana.",
+        "desc": "When played, draw a card from your deck that costs less than this one.",
         "example": ["10617","10358"]
     },{
         "keyword": "Pierce",
@@ -155,12 +155,12 @@
     },{
         "keyword": "Quickcast",
         "match": "Quickcast",
-        "desc": "Gives the player another turn to take an action or pass to gain initiative.",
+        "desc": "Take another action. If you use this action to pass, you retain the initiative to act first in the next round.",
         "example": ["10365","10374"]
     },{
         "keyword": "Quickstrike",
         "match": "Quickstrike",
-        "desc": "In the combat phase, units with quickstrike attack before units without quickstrike. Regeneration and decay are applied at the same time as combat damage, after quickstrike damage resolves.",
+        "desc": "During a battle, units with quickstrike attack before units without quickstrike. Units that die from this damage do not attack.",
         "example": ["10129","10625"]
     },{
         "keyword": "Reflect",
@@ -202,18 +202,18 @@
     },{
         "keyword": "Stun",
         "match": "(Stun)(?!ned)",
-        "desc": "A stunned unit is silenced (cannot use any active abilities and cannot be used to play cards of its color) and disarmed (does not attack its target during battles). Lasts until the end of round by default.",
+        "desc": "Stunned units can't be casters and can't use their active abilities or active abilities of their items. Stunned units do not attack in battles. When attacked, stunned units still deal rataliate damage.",
         "example": ["11033","10657"]
     },{
         "hide_from_keyword_page": true,
         "keyword": "Stunned",
         "match": "Stunned",
-        "desc": "A stunned unit is silenced (cannot use any active abilities and cannot be used to play cards of its color) and disarmed (does not attack its target during battles). Lasts until the end of round by default.",
+        "desc": "Stunned units can't be casters and can't use their active abilities or active abilities of their items. Stunned units do not attack in battles. When attacked, stunned units still deal rataliate damage.",
         "example": ["11033","10657"]
     },{
         "keyword": "Swap",
         "match": "(Swap)(?! colors)",
-        "desc": "Move a unit to the targeted slot. If that slot was occupied, the unit in that space moves to the original unit's position.",
+        "desc": "Move a unit to the targeted slot. If occupied, switch positions with that unit.",
         "example": ["10080","11004"]
     },{
         "keyword": "Taunt",
@@ -223,12 +223,12 @@
     },{
         "keyword": "Trample",
         "match": "Trample",
-        "desc": "This unit deals excess Attack damage to the tower when it battles in combat.",
+        "desc": "Excess Attack damage by this unit is dealt to the enemy tower.",
         "example": ["10102","10758"]
     },{
         "keyword": "Untargetable",
         "match": "Untargetable",
-        "desc": "Can't be targeted by enemy spells or abilities.",
+        "desc": "Can't be chosen as a target by the opponent.",
         "example": ["10348","10785"]
     },{
         "keyword": "Regeneration",
@@ -238,7 +238,7 @@
     },{
         "keyword": "Battle Damage",
         "match": "Battle Damage",
-        "desc": "Any damage assigned during a battle, most often during the combat phase.",
+        "desc": "Damage dealt when a unit attacks another unit, either in the combat phase or a forced battle. Cleave, siege, retaliate, and attack damage are all instances of battle damage.",
         "example": ["10282","10076"]
     },{
         "keyword": "Hero",
@@ -258,12 +258,12 @@
     },{
         "keyword": "Silence",
         "match": "Silence",
-        "desc": "A silenced unit cannot use its active abilities or item active abilities. A silenced hero cannot be used to play cards of its color. Lasts until the end of round by default.",
+        "desc": "Silenced units can't be casters and can't use their active abilities or active abilities of their items.",
         "example": ["10420","10727"]
     },{
         "keyword": "Slay",
         "match": "Slay",
-        "desc": "Mark a hero, creep, tower enchantment, or equipment for death. Death Shields may save a unit, but Damage Immunity does not.",
+        "desc": "Kill a unit. Death Shields may save it, but Damage Immunity does not.",
         "example": ["10410","10308"]
     },{
         "keyword": "Mana",
@@ -298,7 +298,7 @@
     },{
         "keyword": "Summon",
         "match": "Summon",
-        "desc": "Create a unit and immediately put it into play. This includes melee creep spawns and creeps created through spells and abilities, but not creep cards.",
+        "desc": "Creates a unit puts it directly into play.",
         "example": ["10005","10604"]
     },{
         "keyword": "Ephemeral",

@@ -849,6 +849,18 @@
                 "text":{
                     "english":"Aura: Lycan's allies within range 2 in this lane have +2[ATT]."
                 }
+            }, {
+                "release_date":"2020-08-28",
+                "ability_type":"Continous Effect",
+                "ability_name":{
+                    "english":"Feral Impulse"
+                 },
+                "cooldown": 0,
+                "image": "210034_0",
+                "cost": 0,
+                "text":{
+                    "english":"Aura: Your creeps in this lane within range 2 have +2[ATT]."
+                }
             }
         ]
     },
@@ -2510,6 +2522,18 @@
                 "text":{
                     "english":"Lycan has charges equal to the combined Attack of creeps in this lane. If Lycan has 15 or more charges, Lycan has +3[ATT] and allied creeps within range 2 have +1[ATT]."
                 }
+            },{
+                "release_date":"2020-08-28",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Pack Leadership"
+                 },
+                "cooldown": 0,
+                "image": "11069_0",
+                "cost": 0,
+                "text":{
+                    "english":"If the combined Attack of your creeps in this lane is 15 or more, Lycan has +3[ATT] and your creeps within range 2 have an extra +1[ATT]."
+                }
             }
         ]
     },
@@ -2547,6 +2571,18 @@
                 "cost": 0,
                 "text":{
                     "english":"Whenever your opponent plays a non-item card from this lane, deal 1 piercing damage to their tower and burn 1 of their mana. 1 round cooldown."
+                }
+            },{
+                "release_date":"2020-08-28",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Nether Ward"
+                 },
+                "cooldown": 1,
+                "image": "10444_0",
+                "cost": 0,
+                "text":{
+                    "english":"When your opponent plays a non-item card from this lane, deal 1 piercing damage to their tower and burn 1 of their mana. 1 round cooldown."
                 }
             }
         ]

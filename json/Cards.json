@@ -3409,6 +3409,31 @@
 		"hp": 6,
 		"abilities": ["210034_1","11069_0"],
 		"signature": ["10112_0"]
+	}, {
+		"release_date": "2020-08-28",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Lycan"
+		},
+		"lore": {
+			"text": {
+				"english": "My father was good man. A regent over the lands of Slom, he ruled the small folk with fairness and justice. My mother was the picture of patience and compassion, a woman beloved by her people as if they were her children. And my siblings? Gods we were trouble. I remember the day we found Father's collection of ancient maps, Tressa thought it would be funny if we- it doesn't matter now. They're all dead."
+			},
+			"tag": {
+				"english": "Banehallow, the Lycan"
+			}
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "G",
+		"image": "10014_0",
+		"miniimage": "10014_0",
+		"icon": "10014_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["210034_2","11069_1"],
+		"signature": ["10112_0"]
 	}]
 }, {
 	"card_id": 10112,
@@ -3440,7 +3465,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10014_2"
+		"is_signature": "10014_3"
 	}]
 }, {
 	"card_id": 10026,
@@ -4679,6 +4704,23 @@
 		"hp": 6,
 		"abilities": ["10444_0"],
 		"signature": ["10821_1"]
+	}, {
+		"release_date": "2020-08-28",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Pugna"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "B",
+		"image": "10048_0",
+		"miniimage": "10048_0",
+		"icon": "10048_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["10444_1"],
+		"signature": ["10821_1"]
 	}]
 }, {
 	"card_id": 10821,
@@ -4717,7 +4759,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10048_2"
+		"is_signature": "10048_3"
 	}]
 }, {
 	"card_id": 10663,
@@ -5324,7 +5366,8 @@
 		"armour": 0,
 		"hp": 5,
 		"abilities": ["210053_0"],
-		"signature": ["10788_0"]
+		"signature": ["10788_0"],
+		"related_cards":["10789_0"]
 	},{
 		"release_date": "2020-06-26",
 		"card_type": "Hero",
@@ -5341,7 +5384,8 @@
 		"armour": 0,
 		"hp": 5,
 		"abilities": ["210053_1"],
-		"signature": ["10788_0"]
+		"signature": ["10788_0"],
+		"related_cards":["10789_1"]
 	},{
 		"release_date": "2020-07-31",
 		"card_type": "Hero",
@@ -5358,7 +5402,8 @@
 		"armour": 0,
 		"hp": 5,
 		"abilities": ["210053_1", "11067_0"],
-		"signature": ["10788_0"]
+		"signature": ["10788_0"],
+		"related_cards":["10789_1"]
 	}]
 }, {
 	"card_id": 10788,
@@ -5406,7 +5451,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"related_cards": ["10788_0"]
+		"related_cards": ["10786_0","10788_0"]
 	},{
 		"release_date": "2020-07-16",
 		"card_type": "Summon",
@@ -5428,7 +5473,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"related_cards": ["10788_0"]
+		"related_cards": ["10786_2","10788_0"]
 	}]
 }, {
 	"card_id": 10065,
@@ -6243,7 +6288,25 @@
 		"hp": 5,
 		"abilities": ["210066_1","11068_0"],
 		"signature": ["10538_2"],
-		"related_cards": ["10820_1"]
+		"related_cards": ["10820_2"]
+	},{
+		"release_date": "2020-08-28",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Storm Spirit"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "B",
+		"image": "10536_0",
+		"miniimage": "10536_0",
+		"icon": "10536_0",
+		"attack": 4,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210066_1","11068_0"],
+		"signature": ["10538_2"],
+		"related_cards": ["10820_2"]
 	}]
 }, {
 	"card_id": 10538,
@@ -6300,7 +6363,7 @@
 		},
 		"crosslane": true,
 		"quick": false,
-		"is_signature": "10536_2"
+		"is_signature": "10536_3"
 	}]
 }, {
 	"card_id": 10820,
@@ -6349,6 +6412,28 @@
 		"crosslane": false,
 		"quick": false,
 		"related_cards": ["10536_2"]
+	},{
+		"release_date": "2020-08-28",
+		"card_type": "Summon",
+		"card_name": {
+			"english": "Static Remnant"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "B",
+		"cost": 2,
+		"image": "10820_0",
+		"miniimage": "10820_0",
+		"text": {
+			"english": " Feeble /n [TG]After Combat:[ET] Slay Static Remnant. /n [TG]Death Effect:[ET] Deal 1 piercing damage to Static Remnant's adjacent enemies."
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 1,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10536_3"]
 	}]
 }, {
 	"card_id": 10025,
@@ -7605,7 +7690,7 @@
 	"versions": [{
 		"release_date": "2020-05-25",
 		"card_type": "Item",
-		"card_subtype": "Weapon",
+		"card_subtype": "Consumable",
 		"card_name": {
 			"english": "Main Gauche"
 		},
@@ -7620,6 +7705,28 @@
 		},
 		"attack": 2,
 		"armour": 0,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-08-28",
+		"card_type": "Item",
+		"card_subtype": "Armor",
+		"card_name": {
+			"english": "Main Gauche"
+		},
+		"set": 1,
+		"rarity": 2,
+		"image": "10623_0",
+		"miniimage": "10623_0",
+		"cost": 1,
+		"gcost": 15,
+		"text": {
+			"english": "/n +2[AR]/n/nEquipped hero has +2[ATT] per empty item slot."
+		},
+		"attack": 0,
+		"armour": 2,
 		"hp": 0,
 		"abilities": [],
 		"crosslane": false,
@@ -13675,6 +13782,23 @@
 		},
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-08-28",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Throw Down"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "R",
+		"image": "10766_0",
+		"miniimage": "10766_0",
+		"cost": 2,
+		"text": {
+			"english": " /n Bounce all items from caster and the enemy blocking it. Give those items +1 Lock. /n /n [RP] They battle each other."
+		},
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10765,
@@ -13710,6 +13834,23 @@
 		"image": "10344_0",
 		"miniimage": "10344_0",
 		"cost": 3,
+		"text": {
+			"english": " /n Give your units Lethal to Heroes and Lethal to Creeps."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-08-28",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Clear the Deck"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "R",
+		"image": "10344_0",
+		"miniimage": "10344_0",
+		"cost": 5,
 		"text": {
 			"english": " /n Give your units Lethal to Heroes and Lethal to Creeps."
 		},
@@ -13963,7 +14104,7 @@
 		"miniimage": "10774_0",
 		"cost": 1,
 		"text": {
-			"english": " /n Move caster to an unblocked enemy in another lane./n[RP] Deal 2 damage to that enemy./n[TG]Cross Lane[ET]"
+			"english": " /n Move caster to an unblocked enemy in another lane./n[RP] Deal 2 damage to that enemy./n/n[TG]Cross Lane[ET]"
 		},
 		"crosslane": true,
 		"quick": false
@@ -13980,7 +14121,24 @@
 		"miniimage": "10774_0",
 		"cost": 1,
 		"text": {
-			"english": " /n Move caster to an unopposed enemy in another lane./n[RP] Deal 2 damage to that enemy./n[TG]Cross Lane[ET]"
+			"english": " /n Move caster to an unopposed enemy in another lane./n[RP] Deal 2 damage to that enemy./n/n[TG]Cross Lane[ET]"
+		},
+		"crosslane": true,
+		"quick": false
+	}, {
+		"release_date": "2020-08-28",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Relentless Pursuit"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "B",
+		"image": "10774_0",
+		"miniimage": "10774_0",
+		"cost": 1,
+		"text": {
+			"english": " /n Move caster to an unopposed enemy in another lane./n[RP] Caster attacks it for 2 battle damage./n/n[TG]Cross Lane[ET]"
 		},
 		"crosslane": true,
 		"quick": false
@@ -16326,6 +16484,31 @@
 		"hp": 4,
 		"abilities": [],
 		"related_cards": ["11046_0"],
+		"crosslane": false,
+		"quick": false
+	}]
+}, {
+	"card_id": 11073,
+	"versions": [{
+		"release_date": "2020-08-28",
+		"card_type": "Item",
+		"card_subtype": "Consumable",
+		"card_name": {
+			"english": "Strength Potion Twin Pack"
+		},
+		"set": 1,
+		"rarity": 1,
+		"image": "11073_0",
+		"miniimage": "11073_0",
+		"cost": 1,
+		"gcost": 10,
+		"text": {
+			"english": " /n Give an allied unit +3[ATT] for two rounds and heal it 2. /n /n When you buy Strength Potion Twin Pack, get another one."
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 0,
+		"abilities": [],
 		"crosslane": false,
 		"quick": false
 	}]
