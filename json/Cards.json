@@ -16777,7 +16777,7 @@
 		"miniimage": "11077_0",
 		"cost": 2,
 		"text": {
-			"english": " /n Equip a Type XLII Kineto-Zap Harmor: /n +2[AR] /n [TG]Active 2[AC], 1 Mana:[ET] Deal damage to each unit pointing at equipped hero equal to the number of charges. /n After battling a unit, charge Prototype Sheild, max 4."
+			"english": " /n Equip a Type XLII Kineto-Zap Harmor: /n +2[AR] /n [TG]Active 2[AC], 1 Mana:[ET] Deal damage to each unit pointing at equipped hero equal to the number of charges. /n After battling a unit, charge Prototype Shield, max 4."
 		},
 		"crosslane": false,
 		"quick": false,
@@ -16801,7 +16801,7 @@
 		"cost": 1,
 		"gcost": 15,
 		"text": {
-			"english": " /n +2[AR] /n [TG]Active 2[AC], 1 Mana:[ET] Deal damage to each unit pointing at equipped hero equal to the number of charges. /n After battling a unit, charge Prototype Sheild, max 4."
+			"english": " /n +2[AR] /n [TG]Active 2[AC], 1 Mana:[ET] Deal damage to each unit pointing at equipped hero equal to the number of charges. /n After battling a unit, charge Type XLII Kineto-Zap Harmor, max 4."
 		},
 		"attack": 0,
 		"armour": 2,
