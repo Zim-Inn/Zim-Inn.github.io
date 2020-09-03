@@ -73,7 +73,7 @@ const GenerateCard = function(Container,CardIDV) {
                         case 'Passive':
                             AbilityBorderStyle = "CardAbilityBorderStyle2";
                             break;
-                        case 'Continuous':
+                        case 'Continuous Effect':
                             AbilityBorderStyle = "CardAbilityBorderStyle2";
                             break;
                         default:
