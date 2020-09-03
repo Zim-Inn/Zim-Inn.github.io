@@ -277,7 +277,7 @@
         "example": []
     },{
         "keyword": "Armor",
-        "match": "Armor(?!:)",
+        "match": "Armor(?!:)(?!,)",
         "desc": "Armor absorbs this much incoming damage each round. If negative, amplify the first source of incoming damage by this amount.",
         "example": ["10419","10079"]
     },{
