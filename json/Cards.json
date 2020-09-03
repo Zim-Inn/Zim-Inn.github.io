@@ -1052,6 +1052,31 @@
 		"hp": 7,
 		"abilities": ["210013_1"],
 		"signature": ["11010_1"]
+	}, {
+		"release_date": "2020-09-03",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "J'Muy the Wise"
+		},
+		"lore": {
+			"text": {
+				"english": "The people I lead are small in number but vast in potential... and I will not see them slaughtered as the forest burns. The time has come for us to leave our ancestral home; and so I will lead my tribe to Weeping Rose... there our magicks will be celebrated, not feared."
+			},
+			"tag": {
+				"english": "The Dark Troll Chieftain on his people's exodus"
+			}
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "U",
+		"image": "11008_0",
+		"miniimage": "11008_0",
+		"icon": "11008_0",
+		"attack": 2,
+		"armour": 0,
+		"hp": 7,
+		"abilities": ["210013_1"],
+		"signature": ["11010_2"]
 	}]
 }, {
 	"card_id": 11010,
@@ -1091,6 +1116,24 @@
 		"crosslane": false,
 		"quick": false,
 		"is_signature": "11008_2"
+	},{
+		"release_date": "2020-09-03",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Runic Instigation"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "U",
+		"image": "11010_0",
+		"miniimage": "11010_0",
+		"cost": 2,
+		"text": {
+			"english": " /n Extend an enemy's cooldowns by 3 or reduce or an ally's cooldowns by 3. Does not affect passive abilities."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "11008_3"
 	}]
 }, {
 	"card_id": 10631,
@@ -7827,8 +7870,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
-	},
-	{
+	},{
 		"release_date": "2020-06-26",
 		"card_type": "Item",
 		"card_subtype": "Weapon",
@@ -7843,6 +7885,28 @@
 		"gcost": 25,
 		"text": {
 			"english": "/n +5[ATT]/n When attacking a unit in battle, deal 3 damage to it. Repeat 3 more times: [RP] Jump left or right and deal 3 damage."
+		},
+		"attack": 5,
+		"armour": 0,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-09-03",
+		"card_type": "Item",
+		"card_subtype": "Weapon",
+		"card_name": {
+			"english": "Mjollnir"
+		},
+		"set": 1,
+		"rarity": 3,
+		"image": "11013_0",
+		"miniimage": "11013_0",
+		"cost": 1,
+		"gcost": 25,
+		"text": {
+			"english": "/n +5[ATT]/n When equipped hero attacks a unit in battle and survives, deal 3 damage to that unit. Repeat 3 more times: [RP] Jump left or right and deal 3 damage."
 		},
 		"attack": 5,
 		"armour": 0,
@@ -16303,6 +16367,23 @@
 		"hp": 4,
 		"abilities": ["210084_4"],
 		"signature": ["11058_1"]
+	},{
+		"release_date": "2020-08-21",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Nyx Assassin"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "B",
+		"image": "11056_0",
+		"miniimage": "11056_0",
+		"icon": "11056_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 4,
+		"abilities": ["210084_4"],
+		"signature": ["11058_2"]
 	}]
 }, {
 	"card_id": 11058,
@@ -16342,6 +16423,24 @@
 		"crosslane": false,
 		"quick": false,
 		"is_signature": "11056_5"
+	},{
+		"release_date": "2020-09-03",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Spiked Carapace"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "B",
+		"image": "11058_0",
+		"miniimage": "11058_0",
+		"cost": 2,
+		"text": {
+			"english": " /n Choose Caster. When taking damage this round, reflect damage back, stun its source until its next combat, then purge enemy effects from this unit."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "11056_6"
 	}]
 }, {
 	"card_id": 11059,
@@ -16511,6 +16610,255 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	}]
+}, {
+	"card_id": 11039,
+	"versions": [{
+		"release_date": "2020-09-03",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Troll Warlord"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "R",
+		"image": "11039_0",
+		"miniimage": "PH",
+		"icon": "11039_0",
+		"attack": 2,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["11040_0", "11084_0"],
+		"signature": ["11041_0"]
+	}]
+}, {
+	"card_id": 11041,
+	"versions": [{
+		"release_date": "2020-09-03",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Battle Trance"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "R",
+		"image": "11041_0",
+		"miniimage": "11041_0",
+		"cost": 3,
+		"text": {
+			"english": " /n Give caster immunity to battle damage and Untargetable /n /n It battles an adjacent enemy."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "11039_0"
+	}]
+}, {
+	"card_id": 10016,
+	"versions": [{
+		"release_date": "2020-09-03",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Abaddon"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "G",
+		"image": "10016_0",
+		"miniimage": "10016_0",
+		"icon": "10016_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["10431_0"],
+		"signature": ["11074_0"]
+	}]
+}, {
+	"card_id": 11074,
+	"versions": [{
+		"release_date": "2020-09-03",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Mist Coil"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "G",
+		"image": "11074_0",
+		"miniimage": "11074_0",
+		"cost": 2,
+		"text": {
+			"english": " /n Deal 3 damage to the caster. It cannot die from this spell. /n Heal and ally 3 or deal 3 damage to an enemy."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10016_0"
+	}]
+}, {
+	"card_id": 10052,
+	"versions": [{
+		"release_date": "2020-09-03",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Mazzie"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "R",
+		"image": "10052_0",
+		"miniimage": "10052_0",
+		"icon": "10052_0",
+		"attack": 2,
+		"armour": 2,
+		"hp": 4,
+		"abilities": ["10179_0"],
+		"signature": ["11075_0","11077_0","11079_0"]
+	}]
+}, {
+	"card_id": 11075,
+	"versions": [{
+		"release_date": "2020-09-03",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Prototype Weapon"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "C",
+		"image": "11075_0",
+		"miniimage": "11075_0",
+		"cost": 2,
+		"text": {
+			"english": " /n Equip a Mazer Beam MK-179: /n +2[ATT] /n [TG]Active 3[AC], 1 Mana:[ET] Disarm each unit pointing at equipped hero."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10052_0",
+		"related_cards": ["11076_0"]
+	}]
+}, {
+	"card_id": 11076,
+	"hide_from_card_list": "Uncollectable",
+	"versions": [{
+		"release_date": "2020-09-03",
+		"card_type": "Item",
+		"card_subtype": "Weapon",
+		"card_name": {
+			"english": "Mazer Beam MK-179"
+		},
+		"set": 1,
+		"rarity": 2,
+		"image": "11075_0",
+		"miniimage": "11075_0",
+		"cost": 1,
+		"gcost": 15,
+		"text": {
+			"english": " /n +2[ATT] /n [TG]Active 3[AC], 1 Mana:[ET] Disarm each unit pointing at equipped hero."
+		},
+		"attack": 2,
+		"armour": 0,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10052_0","11075_0"]
+	}]
+}, {
+	"card_id": 11077,
+	"versions": [{
+		"release_date": "2020-09-03",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Prototype Shield"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "C",
+		"image": "11077_0",
+		"miniimage": "11077_0",
+		"cost": 2,
+		"text": {
+			"english": " /n Equip a Type XLII Kineto-Zap Harmor: /n +2[AR] /n [TG]Active 2[AC], 1 Mana:[ET] Deal damage to each unit pointing at equipped hero equal to the number of charges. /n After battling a unit, charge Prototype Sheild, max 4."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10052_0",
+		"related_cards": ["11078_0"]
+	}]
+}, {
+	"card_id": 11078,
+	"hide_from_card_list": "Uncollectable",
+	"versions": [{
+		"release_date": "2020-09-03",
+		"card_type": "Item",
+		"card_subtype": "Armor",
+		"card_name": {
+			"english": "Type XLII Kineto-Zap Harmor"
+		},
+		"set": 1,
+		"rarity": 2,
+		"image": "11077_0",
+		"miniimage": "11077_0",
+		"cost": 1,
+		"gcost": 15,
+		"text": {
+			"english": " /n +2[AR] /n [TG]Active 2[AC], 1 Mana:[ET] Deal damage to each unit pointing at equipped hero equal to the number of charges. /n After battling a unit, charge Prototype Sheild, max 4."
+		},
+		"attack": 0,
+		"armour": 2,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10052_0","11077_0"]
+	}]
+}, {
+	"card_id": 11079,
+	"versions": [{
+		"release_date": "2020-09-03",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Prototype Boots"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "C",
+		"image": "11079_0",
+		"miniimage": "11079_0",
+		"cost": 2,
+		"text": {
+			"english": " /n Equip a Spoink Springers Mk.23: /n +2[HP] /n [TG]Active 3[AC], 1 Mana:[ET] Move this hero to another position. It taunts."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10052_0",
+		"related_cards": ["11080_0"]
+	}]
+}, {
+	"card_id": 11080,
+	"hide_from_card_list": "Uncollectable",
+	"versions": [{
+		"release_date": "2020-09-03",
+		"card_type": "Item",
+		"card_subtype": "Accessory",
+		"card_name": {
+			"english": "Spoink Springers Mk.23"
+		},
+		"set": 1,
+		"rarity": 2,
+		"image": "11079_0",
+		"miniimage": "11079_0",
+		"cost": 1,
+		"gcost": 15,
+		"text": {
+			"english": " /n +2[HP] /n [TG]Active 3[AC], 1 Mana:[ET] Move this hero to another position. It taunts."
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 2,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10052_0","11079_0"]
 	}]
 }
 ]

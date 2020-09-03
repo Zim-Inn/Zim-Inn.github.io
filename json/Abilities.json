@@ -2605,5 +2605,81 @@
                 }
             }
         ]
+    },
+    {
+        "card_id":11040,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-09-03",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Fervor"
+                 },
+                "cooldown": 0,
+                "image": "11040_0",
+                "cost": 0,
+                "text":{
+                    "english":"When Troll Warlord attacks a new target, set charges to 1. Whenever Troll Warlord attacks that target again, add a charge. /n Troll Warlord deals +1 damage per charge when attacking that target. /n Death Effect: Remove all charges."
+                }
+            }
+        ]
+    },
+    {
+        "card_id":11084,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-09-03",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Whirling Axes"
+                 },
+                "cooldown": 0,
+                "image": "11084_0",
+                "cost": 0,
+                "text":{
+                    "english":"Round Start: Troll Warlord attacks its combat target for 1 battle damage."
+                }
+            }
+        ]
+    },
+    {
+        "card_id":10431,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-09-03",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Borrowed Time"
+                 },
+                "cooldown": 3,
+                "image": "10431_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] When Abaddon is dealt damage this turn, heal that much instead."
+                }
+            }
+        ]
+    },
+    {
+        "card_id":10179,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-09-03",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Gear Head"
+                 },
+                "cooldown": 0,
+                "image": "10179_0",
+                "cost": 0,
+                "text":{
+                    "english":"Equipping Mazzie does not require item slots. /n Mazzie has +1[ATT], +1[AR], and +1[HP] for each eqipped item."
+                }
+            }
+        ]
     }
 ]
