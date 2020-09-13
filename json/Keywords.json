@@ -320,5 +320,10 @@
         "match": "Break",
         "desc": "Passive abilities on this unit are disabled.",
         "example": ["11014"]
+    },{
+        "keyword": "Repeatable",
+        "match": "Repeatable",
+        "desc": "Repeatable cards may be cast multiple times in one round. Abilities with triggers ignore Repeated cards.",
+        "example": ["10288","10538"]
     }
 ]

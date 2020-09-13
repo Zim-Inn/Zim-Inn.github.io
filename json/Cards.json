@@ -1077,6 +1077,31 @@
 		"hp": 7,
 		"abilities": ["210013_1"],
 		"signature": ["11010_2"]
+	}, {
+		"release_date": "2020-09-10",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "J'Muy the Wise"
+		},
+		"lore": {
+			"text": {
+				"english": "The people I lead are small in number but vast in potential... and I will not see them slaughtered as the forest burns. The time has come for us to leave our ancestral home; and so I will lead my tribe to Weeping Rose... there our magicks will be celebrated, not feared."
+			},
+			"tag": {
+				"english": "The Dark Troll Chieftain on his people's exodus"
+			}
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "U",
+		"image": "11008_0",
+		"miniimage": "11008_0",
+		"icon": "11008_0",
+		"attack": 2,
+		"armour": 0,
+		"hp": 7,
+		"abilities": ["210013_1"],
+		"signature": ["11010_3"]
 	}]
 }, {
 	"card_id": 11010,
@@ -1134,6 +1159,24 @@
 		"crosslane": false,
 		"quick": false,
 		"is_signature": "11008_3"
+	},{
+		"release_date": "2020-09-10",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Runic Instigation"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "U",
+		"image": "11010_0",
+		"miniimage": "11010_0",
+		"cost": 2,
+		"text": {
+			"english": " /n Extend an enemy's cooldowns by 3 or reduce an ally's cooldowns by 3. Does not affect passive abilities."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "11008_4"
 	}]
 }, {
 	"card_id": 10631,
