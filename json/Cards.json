@@ -92,6 +92,23 @@
 		"armour": 0,
 		"hp": 3,
 		"abilities": ["210002_0"],
+		"signature": ["10993_0"]
+	},{
+		"release_date": "2020-05-25",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Wraith King"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "G",
+		"image": "10991_0",
+		"miniimage": "10991_0",
+		"icon": "10991_0",
+		"attack": 4,
+		"armour": 0,
+		"hp": 3,
+		"abilities": ["210002_0"],
 		"signature": ["10993_1"]
 	},{
 		"release_date": "2020-06-26",
@@ -100,7 +117,7 @@
 			"english": "Wraith King"
 		},
 		"set": 1,
-		"rarity": 1,
+		"rarity": 3,
 		"colour": "G",
 		"image": "10991_0",
 		"miniimage": "10991_0",
@@ -120,7 +137,7 @@
 			"english": "Hellfire Blast"
 		},
 		"set": 1,
-		"rarity": 1,
+		"rarity": 3,
 		"colour": "G",
 		"image": "10993_0",
 		"miniimage": "10993_0",
@@ -138,7 +155,7 @@
 			"english": "Wraithfire Blast"
 		},
 		"set": 1,
-		"rarity": 1,
+		"rarity": 3,
 		"colour": "G",
 		"image": "10993_0",
 		"miniimage": "10993_0",
@@ -148,7 +165,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10991_1"
+		"is_signature": "10991_2"
 	}]
 }, {
 	"card_id": 10963,
@@ -551,7 +568,7 @@
 			"english": "Shadow Walk"
 		},
 		"set": 1,
-		"rarity": 1,
+		"rarity": 2,
 		"colour": "B",
 		"image": "10785_0",
 		"miniimage": "10785_0",
@@ -569,7 +586,7 @@
 			"english": "Shadow Walk"
 		},
 		"set": 1,
-		"rarity": 1,
+		"rarity": 2,
 		"colour": "B",
 		"image": "10785_0",
 		"miniimage": "10785_0",
@@ -2933,7 +2950,7 @@
 			}
 		},
 		"set": 1,
-		"rarity": 1,
+		"rarity": 2,
 		"colour": "U",
 		"image": "10062_0",
 		"miniimage": "10062_0",
@@ -2958,7 +2975,7 @@
 			}
 		},
 		"set": 1,
-		"rarity": 1,
+		"rarity": 2,
 		"colour": "U",
 		"image": "10062_0",
 		"miniimage": "10062_0",
@@ -2983,7 +3000,7 @@
 			}
 		},
 		"set": 1,
-		"rarity": 1,
+		"rarity": 2,
 		"colour": "U",
 		"image": "10062_0",
 		"miniimage": "10062_0",
@@ -4394,7 +4411,7 @@
 			"english": "Loyal Beast"
 		},
 		"set": 1,
-		"rarity": 1,
+		"rarity": 2,
 		"colour": "R",
 		"cost": 2,
 		"image": "10136_0",
@@ -4567,7 +4584,7 @@
 			"english": "Outworld Devourer"
 		},
 		"set": 1,
-		"rarity": 2,
+		"rarity": 5,
 		"colour": "G",
 		"image": "10755_0",
 		"miniimage": "10755_0",
@@ -4605,7 +4622,7 @@
 			"english": "Astral Imprisonment"
 		},
 		"set": 1,
-		"rarity": 2,
+		"rarity": 5,
 		"colour": "G",
 		"cost": 4,
 		"image": "10757_0",
@@ -4684,7 +4701,7 @@
 			"english": "Pierpont"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 2,
 		"colour": "U",
 		"image": "10658_0",
 		"miniimage": "10658_0",
@@ -4701,7 +4718,7 @@
 			"english": "Pierpont"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 2,
 		"colour": "U",
 		"image": "10658_0",
 		"miniimage": "10658_0",
@@ -4722,6 +4739,28 @@
 		},
 		"set": 1,
 		"rarity": 5,
+		"colour": "U",
+		"cost": 6,
+		"image": "10662_0",
+		"miniimage": "10662_0",
+		"text": {
+			"english": " /n Pierce. /n Sapphire Archon has -1 Mana cost per revealed card in opponent's hand."
+		},
+		"attack": 6,
+		"armour": 0,
+		"hp": 6,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10658_0"
+	},{
+		"release_date": "2020-06-22",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Sapphire Archon"
+		},
+		"set": 1,
+		"rarity": 2,
 		"colour": "U",
 		"cost": 6,
 		"image": "10662_0",
@@ -4951,7 +4990,7 @@
 			"english": "Rubick"
 		},
 		"set": 1,
-		"rarity": 1,
+		"rarity": 5,
 		"colour": "U",
 		"image": "10668_0",
 		"miniimage": "10668_0",
@@ -4968,7 +5007,7 @@
 			"english": "Rubick"
 		},
 		"set": 1,
-		"rarity": 1,
+		"rarity": 5,
 		"colour": "U",
 		"image": "10668_0",
 		"miniimage": "10668_0",
@@ -4985,7 +5024,7 @@
 			"english": "Rubick"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "U",
 		"image": "10668_0",
 		"miniimage": "10668_0",
@@ -5002,7 +5041,7 @@
 			"english": "Rubick"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "U",
 		"image": "10668_0",
 		"miniimage": "10668_0",
@@ -5022,7 +5061,7 @@
 			"english": "Spell Steal"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "U",
 		"image": "10670_0",
 		"miniimage": "10670_0",
@@ -5040,7 +5079,7 @@
 			"english": "Spell Steal"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 5,
 		"colour": "U",
 		"image": "10670_0",
 		"miniimage": "10670_0",
@@ -5137,7 +5176,7 @@
 			"english": "Underlord"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "G",
 		"image": "10678_0",
 		"miniimage": "10678_0",
@@ -5154,7 +5193,7 @@
 			"english": "Underlord"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "G",
 		"image": "10678_0",
 		"miniimage": "10678_0",
@@ -5174,7 +5213,7 @@
 			"english": "Atrophy Aura"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "G",
 		"image": "10700_0",
 		"miniimage": "10700_0",
@@ -5192,7 +5231,7 @@
 			"english": "Atrophy Aura"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "G",
 		"image": "10700_0",
 		"miniimage": "10700_0",
@@ -5418,7 +5457,7 @@
 			"english": "Eidolon"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 1,
 		"colour": "C",
 		"cost": 1,
 		"image": "10735_0",
@@ -5432,7 +5471,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"related_cards": ["10703_0", "10077_0"]
+		"related_cards": ["10703_0", "10077_1"]
 	}]
 }, {
 	"card_id": 10786,
@@ -5926,7 +5965,7 @@
 			"english": "Ice Shard"
 		},
 		"set": 1,
-		"rarity": 3,
+		"rarity": 2,
 		"colour": "R",
 		"image": "10677_0",
 		"miniimage": "10677_0",
@@ -6109,7 +6148,7 @@
 			"english": "Lich"
 		},
 		"set": 1,
-		"rarity": 3,
+		"rarity": 2,
 		"colour": "B",
 		"image": "10038_0",
 		"miniimage": "10038_0",
@@ -6129,7 +6168,7 @@
 			"english": "Chain Frost"
 		},
 		"set": 1,
-		"rarity": 3,
+		"rarity": 2,
 		"colour": "B",
 		"image": "10318_0",
 		"miniimage": "10318_0",
@@ -6243,7 +6282,7 @@
 			"english": "Shadow Fiend"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 3,
 		"colour": "B",
 		"image": "10671_0",
 		"miniimage": "10671_0",
@@ -6252,7 +6291,7 @@
 		"armour": 0,
 		"hp": 5,
 		"abilities": ["210063_0", "210064_1"],
-		"signature": ["10673_0"]
+		"signature": ["10673_1"]
 	}]
 }, {
 	"card_id": 10673,
@@ -6264,6 +6303,24 @@
 		},
 		"set": 1,
 		"rarity": 5,
+		"colour": "B",
+		"image": "10673_0",
+		"miniimage": "10673_0",
+		"cost": 3,
+		"text": {
+			"english": " /n /n Enchant Caster. /n [TG]Aura:[ET] Adjacent enemies have -2[AR]"
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10671_1"
+	},{
+		"release_date": "2020-06-26",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Presence of the Dark Lord"
+		},
+		"set": 1,
+		"rarity": 3,
 		"colour": "B",
 		"image": "10673_0",
 		"miniimage": "10673_0",
@@ -6569,7 +6626,7 @@
 			"english": "March of the Machines"
 		},
 		"set": 1,
-		"rarity": 2,
+		"rarity": 4,
 		"colour": "B",
 		"image": "10291_0",
 		"miniimage": "10291_0",
@@ -8570,7 +8627,7 @@
 			"english": "Arc Warden"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "U",
 		"image": "11046_0",
 		"miniimage": "11046_0",
@@ -8591,7 +8648,7 @@
 			"english": "Spark Wraith"
 		},
 		"set": 1,
-		"rarity": 5,
+		"rarity": 4,
 		"colour": "U",
 		"image": "11049_0",
 		"miniimage": "11049_0",
@@ -8826,7 +8883,7 @@
 			"english": "Imperia"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 3,
 		"colour": "U",
 		"image": "10730_0",
 		"miniimage": "10730_0",
@@ -8835,7 +8892,7 @@
 		"armour": 0,
 		"hp": 6,
 		"abilities": ["210072_2","11064_0"],
-		"signature": ["10732_2"]
+		"signature": ["10732_3"]
 	},{
 		"release_date": "2020-07-23",
 		"card_type": "Hero",
@@ -8843,7 +8900,7 @@
 			"english": "Imperia"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 3,
 		"colour": "U",
 		"image": "10730_0",
 		"miniimage": "10730_0",
@@ -8852,7 +8909,7 @@
 		"armour": 0,
 		"hp": 6,
 		"abilities": ["210072_2","11064_1"],
-		"signature": ["10732_2"]
+		"signature": ["10732_3"]
 	},{
 		"release_date": "2020-08-07",
 		"card_type": "Hero",
@@ -8860,7 +8917,7 @@
 			"english": "Imperia"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 3,
 		"colour": "U",
 		"image": "10730_0",
 		"miniimage": "10730_0",
@@ -8869,7 +8926,7 @@
 		"armour": 0,
 		"hp": 6,
 		"abilities": ["210072_2","11064_2"],
-		"signature": ["10732_2"]
+		"signature": ["10732_3"]
 	}]
 }, {
 	"card_id": 10732,
@@ -8925,6 +8982,28 @@
 		},
 		"set": 1,
 		"rarity": 4,
+		"colour": "U",
+		"image": "10732_0",
+		"miniimage": "10732_0",
+		"cost": 1,
+		"text": {
+			"english": " Devour, Feeble. /n Whenever Conspiracy of Ravens devours or kills a unit, reveal a random card in the opponent's hand."
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 2,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10730_4"
+	},{
+		"release_date": "2020-07-16",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Conspiracy of Ravens"
+		},
+		"set": 1,
+		"rarity": 3,
 		"colour": "U",
 		"image": "10732_0",
 		"miniimage": "10732_0",
@@ -9073,7 +9152,7 @@
 			"english": "Lina"
 		},
 		"set": 1,
-		"rarity": 3,
+		"rarity": 2,
 		"colour": "U",
 		"image": "10811_0",
 		"miniimage": "10811_0",
@@ -9082,7 +9161,7 @@
 		"armour": 0,
 		"hp": 5,
 		"abilities": ["210075_2"],
-		"signature": ["10813_0", "10814_0", "10815_0"]
+		"signature": ["10813_1", "10814_1", "10815_1"]
 	}]
 }, {
 	"card_id": 10813,
@@ -9095,6 +9174,24 @@
 		},
 		"set": 1,
 		"rarity": 3,
+		"colour": "U",
+		"image": "10813_0",
+		"miniimage": "10813_0",
+		"cost": 2,
+		"text": {
+			"english": " /n /n Stun and deal 1 damage to a unit."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10811_1"
+	},{
+		"release_date": "2020-07-31",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Light Strike Array"
+		},
+		"set": 1,
+		"rarity": 2,
 		"colour": "U",
 		"image": "10813_0",
 		"miniimage": "10813_0",
@@ -9125,6 +9222,24 @@
 		},
 		"crosslane": false,
 		"quick": false,
+		"is_signature": "10811_1"
+	},{
+		"release_date": "2020-07-31",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Dragon Slave"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "U",
+		"image": "10814_0",
+		"miniimage": "10814_0",
+		"cost": 3,
+		"text": {
+			"english": " /n Deal 3 piercing damage to an enemy and 1 piercing damage to its allied neighbors."
+		},
+		"crosslane": false,
+		"quick": false,
 		"is_signature": "10811_2"
 	}]
 }, {
@@ -9137,6 +9252,24 @@
 		},
 		"set": 1,
 		"rarity": 3,
+		"colour": "U",
+		"image": "10815_0",
+		"miniimage": "10815_0",
+		"cost": 4,
+		"text": {
+			"english": " /n /n Deal 5 piercing damage to a unit."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10811_1"
+	},{
+		"release_date": "2020-07-31",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Laguna Blade"
+		},
+		"set": 1,
+		"rarity": 2,
 		"colour": "U",
 		"image": "10815_0",
 		"miniimage": "10815_0",
@@ -9300,7 +9433,7 @@
 			"english": "Chen"
 		},
 		"set": 1,
-		"rarity": 3,
+		"rarity": 2,
 		"colour": "G",
 		"image": "10017_0",
 		"miniimage": "10017_0",
@@ -9309,7 +9442,7 @@
 		"armour": 0,
 		"hp": 7,
 		"abilities": ["210078_1","11072_0"],
-		"signature": ["10340_1"]
+		"signature": ["10340_2"]
 	}]
 }, {
 	"card_id": 10340,
@@ -9339,6 +9472,24 @@
 		},
 		"set": 1,
 		"rarity": 3,
+		"colour": "G",
+		"image": "10340_0",
+		"miniimage": "10340_0",
+		"cost": 5,
+		"text": {
+			"english": " /n Give allied heroes in all lanes +4[HP] until death. /n [TG]Cross Lane[ET]"
+		},
+		"crosslane": true,
+		"quick": false,
+		"is_signature": "10017_2"
+	},, {
+		"release_date": "2020-08-21",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Hand of God"
+		},
+		"set": 1,
+		"rarity": 2,
 		"colour": "G",
 		"image": "10340_0",
 		"miniimage": "10340_0",
@@ -9488,7 +9639,7 @@
 			"english": "Dragon Knight"
 		},
 		"set": 1,
-		"rarity": 4,
+		"rarity": 2,
 		"colour": "G",
 		"image": "10982_0",
 		"miniimage": "10982_0",
@@ -9528,6 +9679,24 @@
 		},
 		"set": 1,
 		"rarity": 4,
+		"colour": "G",
+		"image": "11033_0",
+		"miniimage": "11033_0",
+		"cost": 2,
+		"text": {
+			"english": " /n Stun and deal 2 damage to an adjacent enemy."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10982_3"
+	},{
+		"release_date": "2020-08-07",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Dragon Tail"
+		},
+		"set": 1,
+		"rarity": 2,
 		"colour": "G",
 		"image": "11033_0",
 		"miniimage": "11033_0",
