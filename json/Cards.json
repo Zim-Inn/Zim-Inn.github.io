@@ -17415,7 +17415,7 @@
 		"miniimage": "11085_0",
 		"cost": 2,
 		"text": {
-			"english": "/nWhenever another ally is healed, give Rumusque Choir +1[ATT]/+1[HP] permanently."
+			"english": "/nWhenever an ally other than a Rumusque Choir is healed, give Rumusque Choir +1[ATT]/+1[HP] permanently."
 		},
 		"attack": 1,
 		"armour": 0,
