@@ -2514,6 +2514,23 @@
 		"hp": 4,
 		"abilities": ["210024_1", "210025_1"],
 		"signature": ["10648_0"]
+	}, {
+		"release_date": "2020-09-18",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Anti-Mage"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "B",
+		"image": "10646_0",
+		"miniimage": "10646_0",
+		"icon": "10646_0",
+		"attack": 5,
+		"armour": 0,
+		"hp": 4,
+		"abilities": ["210024_2", "210025_1"],
+		"signature": ["10648_0"]
 	}]
 }, {
 	"card_id": 10054,
@@ -2892,6 +2909,31 @@
 		"hp": 6,
 		"abilities": ["210029_1"],
 		"signature": ["10289_1"]
+	},{
+		"release_date": "2020-09-18",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Bloodseeker"
+		},
+		"lore": {
+			"text": {
+				"english": "My homeland is a place of beauty and grace... of crystal streams and bountiful harvest...it is undeniably a gift from the gods. But when such a gift is bestowed upon you, it is right to give thanks... and there is only one way to show gratitude to the Flayed Twins. With blood."
+			},
+			"tag": {
+				"english": "Strygwyr, the Bloodseeker"
+			}
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "B",
+		"image": "10018_0",
+		"miniimage": "10018_0",
+		"icon": "10018_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210029_1"],
+		"signature": ["10289_2"]
 	}]
 }, {
 	"card_id": 10289,
@@ -2931,6 +2973,24 @@
 		"crosslane": false,
 		"quick": false,
 		"is_signature": "10018_2"
+	},{
+		"release_date": "2020-09-18",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Exsanguinate"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "B",
+		"image": "10289_0",
+		"miniimage": "10289_0",
+		"cost": 3,
+		"text": {
+			"english": " /n Choose Caster. Choose an enemy unit, reduce it to 3 Health and give caster temporary health equal to the amount removed."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10018_3"
 	}]
 }, {
 	"card_id": 10062,
@@ -3432,6 +3492,31 @@
 		"attack": 3,
 		"armour": 0,
 		"hp": 4,
+		"abilities": ["210038_1"],
+		"signature": ["10193_0"]
+	}, {
+		"release_date": "2020-09-18",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Enchantress"
+		},
+		"lore": {
+			"text": {
+				"english": "Rix. Tresdin. Sorla Khan. You ask any one of them and they will spin you a story about why their cause is just; and every single one of them is wrong. This war is senseless, its cost will be immeasurable, and the only people who will profit are the future historians who'll sell books about the massacre. I can't stop this war from happening... but I will do whatever I can to minimize the damage."
+			},
+			"tag": {
+				"english": "Aiustha, the Enchantress"
+			}
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "G",
+		"image": "10036_0",
+		"miniimage": "10036_0",
+		"icon": "10036_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 5,
 		"abilities": ["210038_1"],
 		"signature": ["10193_0"]
 	}]
@@ -4323,7 +4408,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10036_2"
+		"is_signature": "10036_3"
 	}]
 }, {
 	"card_id": 10029,
@@ -4728,6 +4813,23 @@
 		"hp": 6,
 		"abilities": ["210044_0","11061_1"],
 		"signature": ["10662_0"]
+	},{
+		"release_date": "2020-09-18",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Pierpont"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "U",
+		"image": "10658_0",
+		"miniimage": "10658_0",
+		"icon": "PH",
+		"attack": 2,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["210044_1","11061_1"],
+		"signature": ["10662_0"]
 	}]
 }, {
 	"card_id": 10662,
@@ -5051,6 +5153,23 @@
 		"hp": 5,
 		"abilities": ["210048_3"],
 		"signature": ["10670_1"]
+	},{
+		"release_date": "2020-09-18",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Rubick"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "U",
+		"image": "10668_0",
+		"miniimage": "10668_0",
+		"icon": "10668_0",
+		"attack": 2,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210048_3"],
+		"signature": ["10670_2"]
 	}]
 }, {
 	"card_id": 10670,
@@ -5090,6 +5209,24 @@
 		"crosslane": false,
 		"quick": true,
 		"is_signature": "10668_2"
+	},{
+		"release_date": "2020-09-18",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Spell Steal"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "U",
+		"image": "10670_0",
+		"miniimage": "10670_0",
+		"cost": 1,
+		"text": {
+			"english": "/nPut a copy of the last non-item card your opponent played into your hand. That card is blue and costs 1 less. /n/n [TG][QU]Quickcast[ET]"
+		},
+		"crosslane": false,
+		"quick": true,
+		"is_signature": "10668_3"
 	}]
 }, {
 	"card_id": 10937,
@@ -5745,6 +5882,23 @@
 		"hp": 10,
 		"abilities": ["11065_1", "210056_1"],
 		"signature": ["10975_0"]
+	}, {
+		"release_date": "2020-09-18",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Tidehunter"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "R",
+		"image": "10024_0",
+		"miniimage": "10024_0",
+		"icon": "10024_0",
+		"attack": 2,
+		"armour": 1,
+		"hp": 10,
+		"abilities": ["11065_1", "210056_1"],
+		"signature": ["10975_1"]
 	}]
 }, {
 	"card_id": 10975,
@@ -5766,6 +5920,24 @@
 		"crosslane": false,
 		"quick": true,
 		"is_signature": "10024_3"
+	},{
+		"release_date": "2020-09-18",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Gush"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "R",
+		"image": "10975_0",
+		"miniimage": "10975_0",
+		"cost": 3,
+		"text": {
+			"english": " /n /n Deal 2 damage to a unit and give it -2[AR] this round."
+		},
+		"crosslane": false,
+		"quick": true,
+		"is_signature": "10024_4"
 	}]
 }, {
 	"card_id": 10940,
@@ -6000,7 +6172,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10646_2"
+		"is_signature": "10646_3"
 	}]
 }, {
 	"card_id": 10649,
@@ -6450,6 +6622,24 @@
 		"abilities": ["210066_1","11068_0"],
 		"signature": ["10538_2"],
 		"related_cards": ["10820_2"]
+	},{
+		"release_date": "2020-09-18",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Storm Spirit"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "B",
+		"image": "10536_0",
+		"miniimage": "10536_0",
+		"icon": "10536_0",
+		"attack": 4,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210066_1","11068_0"],
+		"signature": ["10538_3"],
+		"related_cards": ["10820_3"]
 	}]
 }, {
 	"card_id": 10538,
@@ -6507,6 +6697,24 @@
 		"crosslane": true,
 		"quick": false,
 		"is_signature": "10536_3"
+	},{
+		"release_date": "2020-09-18",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Ball Lightning"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "B",
+		"image": "10538_0",
+		"miniimage": "10538_0",
+		"cost": 2,
+		"text": {
+			"english": " /n Move up to range 5. /n Repeatable this round. /n [TG][QU]Quickcast[ET] if the slot was empty. /n /n [TG]Cross Lane[ET] /n "
+		},
+		"crosslane": true,
+		"quick": false,
+		"is_signature": "10536_4"
 	}]
 }, {
 	"card_id": 10820,
@@ -6577,6 +6785,28 @@
 		"crosslane": false,
 		"quick": false,
 		"related_cards": ["10536_3"]
+	},{
+		"release_date": "2020-09-18",
+		"card_type": "Summon",
+		"card_name": {
+			"english": "Static Remnant"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "B",
+		"cost": 2,
+		"image": "10820_0",
+		"miniimage": "10820_0",
+		"text": {
+			"english": " Feeble /n [TG]After Combat:[ET] Slay Static Remnant. /n [TG]Death Effect:[ET] Deal 2 piercing damage to Static Remnant's adjacent enemies."
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 1,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10536_4"]
 	}]
 }, {
 	"card_id": 10025,
@@ -7267,6 +7497,28 @@
 		"gcost": 10,
 		"text": {
 			"english": " /n /n +5 damage when attacking a tower."
+		},
+		"attack": 2,
+		"armour": 0,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	}, {
+		"release_date": "2020-09-18",
+		"card_type": "Item",
+		"card_subtype": "Weapon",
+		"card_name": {
+			"english": "Demolishing Warhammer"
+		},
+		"set": 1,
+		"rarity": 1,
+		"image": "10622_0",
+		"miniimage": "10622_0",
+		"cost": 1,
+		"gcost": 10,
+		"text": {
+			"english": " /n /n +4 damage when attacking a tower."
 		},
 		"attack": 2,
 		"armour": 0,
@@ -10087,6 +10339,28 @@
 		"cost": 1,
 		"text": {
 			"english": " /n [TG]Play Effect:[ET] Shuffle a random Greevil into your deck then draw a greevil from it."
+		},
+		"attack": 1,
+		"armour": 0,
+		"hp": 1,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10967_0"]
+	},{
+		"release_date": "2020-09-18",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Greevil Eggtender"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "R",
+		"image": "10961_0",
+		"miniimage": "10961_0",
+		"cost": 1,
+		"text": {
+			"english": " /n [TG]Play Effect:[ET] Shuffle 3 random Greevils into your deck then draw a greevil from it."
 		},
 		"attack": 1,
 		"armour": 0,
@@ -13044,6 +13318,25 @@
 		"cost": 3,
 		"text": {
 			"english": "/n Enchant Tower /n [TG]Active 1[AC], 1 Mana:[ET] Equip an allied hero with basic items."
+		},
+		"crosslane": false,
+		"related_cards": ["3002_0"],
+		"quick": false
+	},{
+		"release_date": "2020-09-18",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Temple of War"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "R",
+		"image": "10172_0",
+		"miniimage": "10172_0",
+		"cost": 3,
+		"text": {
+			"english": "/n Enchant Tower /n [TG]Active 1[AC], 1 Mana:[ET] Equip an allied hero with a basic item of each equipment type they don't have."
 		},
 		"crosslane": false,
 		"related_cards": ["3002_0"],
@@ -16077,6 +16370,24 @@
 		},
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-09-18",
+		"card_type": "Improvement",
+		"improvement_type": "Reactive",
+		"card_name": {
+			"english": "Veteran's Insight"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "R",
+		"image": "10767_0",
+		"miniimage": "10767_0",
+		"cost": 3,
+		"text": {
+			"english": " /n [TG]Aura:[ET] Whenever an allied unit deal battle damage to another unit and survives, give that ally +1[ATT], [AR] or [HP] permanently"
+		},
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10367,
@@ -16203,6 +16514,23 @@
 			"cost": 3,
 			"text": {
 				"english": " /n Swap colors and items permanently between a hero in this lane and another hero on the same team in any lane./n[TG]Cross Lane[ET]/n[TG][QU]Quickcast[ET]"
+			},
+			"crosslane": true,
+			"quick": true
+		}, {
+			"release_date": "2020-09-18",
+			"card_type": "Spell",
+			"card_name": {
+				"english": "Body Modifications"
+			},
+			"set": 1,
+			"rarity": 3,
+			"colour": "U",
+			"image": "10798_0",
+			"miniimage": "10798_0",
+			"cost": 3,
+			"text": {
+				"english": "Swap colors and items permanently between a hero in this lane and another hero on the same team in any lane.  This effect cannot be purged./n[TG]Cross Lane[ET]/n[TG][QU]Quickcast[ET]"
 			},
 			"crosslane": true,
 			"quick": true
@@ -17038,7 +17366,7 @@
 		"miniimage": "11079_0",
 		"cost": 2,
 		"text": {
-			"english": " /n Equip a Spoink Springers Mk.23: /n +2[HP] /n [TG]Active 3[AC], 1 Mana:[ET] Move this hero to another position. It taunts."
+			"english": " /n Equip a Sproink Springers Mk.23: /n +2[HP] /n [TG]Active 3[AC], 1 Mana:[ET] Move this hero to another position. It taunts."
 		},
 		"crosslane": false,
 		"quick": false,
@@ -17053,7 +17381,7 @@
 		"card_type": "Item",
 		"card_subtype": "Accessory",
 		"card_name": {
-			"english": "Spoink Springers Mk.23"
+			"english": "Sproink Springers Mk.23"
 		},
 		"set": 1,
 		"rarity": 2,

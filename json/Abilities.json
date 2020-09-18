@@ -579,6 +579,18 @@
                 "text":{
                     "english":"[TG]Active 3, 1 Mana:[ET] Move up to range 5. Deal 1 battle damage to the unit now blocking Anti-Mage. [TG]Cross Lane[ET]."
                 }
+            },{
+                "release_date":"2020-09-18",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Blink Strike"
+                 },
+                "cooldown": 3,
+                "image": "210024_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3, 1 Mana:[ET] Move up to range 5. Anti-Mage attacks the new unit blocking it for 1 battle damage. [TG]Cross Lane[ET]."
+                }
             }
         ]
     },
@@ -1080,6 +1092,18 @@
                 "cost": 0,
                 "text":{
                     "english":"[TG]Active 2[AC], 1 Mana:[ET] Increase Mana cost of two random cards in your opponents hand by 1. Reveal them. /n [TG][QU]Quickcast[ET]"
+                }
+            }, {
+                "release_date":"2020-09-18",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Inspect"
+                 },
+                "cooldown": 2,
+                "image": "210044_0",
+                "cost": 0,
+                "text":{
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Reveal two random cards in your opponents hand. Increase their cost by 1. Reveal them. /n [TG][QU]Quickcast[ET]"
                 }
             }
         ]
