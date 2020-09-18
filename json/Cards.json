@@ -17413,7 +17413,7 @@
 		"colour": "G",
 		"image": "11085_0",
 		"miniimage": "11085_0",
-		"cost": 4,
+		"cost": 2,
 		"text": {
 			"english": "/nWhenever another ally is healed, give Rumusque Choir +1[ATT]/+1[HP] permanently."
 		},
