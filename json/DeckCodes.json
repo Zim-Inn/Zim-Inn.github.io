@@ -1,8 +1,60 @@
 [
     {
+        "code": "RTFACTJXQT4bkCBc8ETIw0Eqe8AheNpQEObgG-A3gHsQRSpwV5AQaiAZ9KbWF1bGVyIC0gMXN0IFBsYWNl",
+        "creator": "JMauler",
+        "description": "Winner of NineArmada's 3rd Beta Tournament, built and driven by the mono-green master himself. Extremely fast at building a wall of creeps and keeping it alive and blocking the path.",
+        "submitter": "",
+        "media": {
+            "youtube": "https://youtu.be/to4XmK9j6Ks?t=18126",
+            "twitch": "https://www.twitch.tv/jmauler23"
+        }
+    },
+    {
+        "code": "RTFACTJWgY9rkCBBS9EnYK8wEFrLsCoAKFT1tDtAS5B1O4BIFacAhXdWhlaydzIFJpeE8gLSAybmQgcGxhY2U_",
+        "creator": "Wuhek",
+        "description": "Runnerup of NineArmada's 3rd Beta Tournament! A RixO Black tower-hate deck with Lich slotted in to recharge resources and open holes against stall",
+        "submitter": "",
+        "media": {
+            "youtube": "https://youtu.be/to4XmK9j6Ks?t=18126",
+            "twitch": "https://www.twitch.tv/wuhek"
+        }
+    },
+    {
+        "code": "RTFACTJQ0ctrgC+AEE-hIFdgMZO74CQgEEqQOlAUhRowGMoAtFTIygBSwDV3VoZWsncyBNb25vQmx1ZSAtIDJuZCBQbGFjZQ__",
+        "creator": "Wuhek",
+        "description": "A tipycal monoblue control deck that utilizes a common Hero's Cape and Objective Vision combo",
+        "submitter": "",
+        "media": {
+            "youtube": "https://youtu.be/to4XmK9j6Ks?t=13144",
+            "twitch": "https://www.twitch.tv/wuhek"
+        }
+    },
+    {
+        "code": "RTFACTJbsXJLkCxAWF7xMEZwNnuwIaKgERYgERDyQCVAiKYwEmAQi8CAQBDSgBQRYDJAVFdWxhc2lhLlBNYSAtIDNyZCBQbGFjZQ__",
+        "creator": "Eulasia.PMA",
+        "description": "An attrition warfare deck, built for stalling, responding and controlling the opponent's actions, and that thrives against certain meta decks",
+        "submitter": "",
+        "media": {
+            "youtube": "https://youtu.be/to4XmK9j6Ks?t=4918"
+        }
+    },
+    {
         "code": "RTFACTJaoUv7kC6Q8EZwQwA-EIBay7Ale9AVsHVBaVtwGacgFiB7AEnjIGAS0gTW9ubyBCbGFjayBDb250cm9s",
+        "description": "An economy black storm deck, still shinning where it can post-nerf. Seeks out to move and kill heroes as much as possible, and then overwhelm the board with higher end items.",
         "creator": "ElectricAlan",
-        "submitter": ""
+        "submitter": "",
+        "media": {
+            "youtube": "https://youtu.be/to4XmK9j6Ks?t=2703"
+        }
+    },
+    {
+        "code": "RTFACTJcwQucwCyQRN3gUdObwCpgFBiExJBaEDLwGGcgGCegZjBXUFaQEPaU1iYSAtIDh0aCBwbGFjZQ__",
+        "description": "A mass hand-reveal deck, that takes advantage of the Pierpont + Imperia combo to build a very fast threat, spot the entire enemy hand, and splashes Black for additional blocker clear and reach",
+        "creator": "iMba",
+        "submitter": "",
+        "media": {
+            "youtube": "https://youtu.be/to4XmK9j6Ks?t=1556"
+        }
     },
     {
         "code": "RTFACTJRQHqrkCBtoEchL0DAW7uwKJYQIZkEO6BK4HggOFawMJtgZCT3ZlcnJ1bg__",

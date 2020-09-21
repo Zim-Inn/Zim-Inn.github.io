@@ -61,7 +61,7 @@ const generateDeckExampleHTML = (name, code, description, creator, submitter, me
                                     media.youtube &&
                                     `
                                     <a class="YoutubeButton" 
-                                        onmousemove="ShowTextTooltip(1, 'Watch gameplay or guide on Youtube')" 
+                                        onmousemove="ShowTextTooltip(1, 'Watch this deck or creator on Youtube')" 
                                         onmouseout="ShowTextTooltip(0,0)" 
                                         href="${media.youtube}" 
                                         target="_blank">
@@ -74,7 +74,7 @@ const generateDeckExampleHTML = (name, code, description, creator, submitter, me
                                     `
                                     <a
                                         class="TwitchButton" 
-                                        onmousemove="ShowTextTooltip(1, 'Watch gameplay or guide on Twitch')" 
+                                        onmousemove="ShowTextTooltip(1, 'Watch this deck or creator on Twitch')" 
                                         onmouseout="ShowTextTooltip(0,0)"
                                         href="${media.twitch}" 
                                         target="_blank">
