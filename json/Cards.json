@@ -51,6 +51,23 @@
 		"hp": 5,
 		"abilities": ["210001_1"],
 		"signature": ["10657_0"]
+	}, {
+		"release_date": "2020-09-24",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Mirana"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "B",
+		"image": "10655_0",
+		"miniimage": "10655_0",
+		"icon": "10655_0",
+		"attack": 4,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210001_1"],
+		"signature": ["10657_1"]
 	}]
 }, {
 	"card_id": 10657,
@@ -67,11 +84,29 @@
 		"miniimage": "10657_0",
 		"cost": 4,
 		"text": {
-			"english": "Choose Caster. Deal 2 damage to a unit in any lane +1 damage per lane traveled from the caster. /n Stun if a hero. Slay if a creep. /n [TG]Cross Lane[ET]"
+			"english": "Choose caster. Deal 2 damage to a unit in any lane +1 damage per lane traveled from the caster. /n Stun if a hero. Slay if a creep. /n [TG]Cross Lane[ET]"
 		},
 		"crosslane": true,
 		"quick": false,
 		"is_signature": "10655_2"
+	},{
+		"release_date": "2020-09-24",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Sacred Arrow"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "B",
+		"image": "10657_0",
+		"miniimage": "10657_0",
+		"cost": 3,
+		"text": {
+			"english": "Choose caster. Deal 2 damage to a unit in any lane +1 damage per lane traveled from the caster. /n Stun if a hero. Slay if a creep. /n [TG]Cross Lane[ET]"
+		},
+		"crosslane": true,
+		"quick": false,
+		"is_signature": "10655_3"
 	}]
 }, {
 	"card_id": 10991,
@@ -558,6 +593,31 @@
 		"hp": 5,
 		"abilities": ["210018_0"],
 		"signature": ["10785_1"]
+	}, {
+		"release_date": "2020-09-24",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Bounty Hunter"
+		},
+		"lore": {
+			"text": {
+				"english": "Lord Sunbreeze is willing to pay handsomely to anyone who was able to return his daughter to him alive... which is somewhat unfortunate because 'Dead' is significantly easier for me. Oh well, the customer is always right. Looks like it's time to hunt a fairy."
+			},
+			"tag": {
+				"english": "Gondar, the Bounty Hunter"
+			}
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "B",
+		"image": "10783_0",
+		"miniimage": "10783_0",
+		"icon": "10783_0",
+		"attack": 4,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210018_0"],
+		"signature": ["10785_2"]
 	}]
 }, {
 	"card_id": 10785,
@@ -597,6 +657,24 @@
 		"crosslane": false,
 		"quick": false,
 		"is_signature": "10783_1"
+	}, {
+		"release_date": "2020-09-24",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Shadow Walk"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "B",
+		"image": "10785_0",
+		"miniimage": "10785_0",
+		"cost": 2,
+		"text": {
+			"english": "/n Give caster Untargetable./n /n Bounce caster if they survive combat. /n /n [TG][QU]Quickcast[ET]"
+		},
+		"crosslane": false,
+		"quick": true,
+		"is_signature": "10783_2"
 	}]
 }, {
 	"card_id": 10022,
@@ -757,6 +835,31 @@
 		"hp": 4,
 		"abilities": ["210010_0"],
 		"signature": ["11007_0"]
+	}, {
+		"release_date": "2020-09-24",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Debbi the Cunning"
+		},
+		"lore": {
+			"text": {
+				"english": "Kobold's aren't born with names. We take them from the first person we kill. In retrospect I should have considered that before I shoved that baker into her oven. On the other hand - I kind of look like a Debbi."
+			},
+			"tag": {
+				"english": "Debbi, the Kobold Saboteur"
+			}
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "B",
+		"image": "11005_0",
+		"miniimage": "11005_0",
+		"icon": "11005_0",
+		"attack": 4,
+		"armour": 0,
+		"hp": 4,
+		"abilities": ["210010_0"],
+		"signature": ["11007_1"]
 	}]
 }, {
 	"card_id": 11007,
@@ -786,6 +889,32 @@
 		"crosslane": false,
 		"quick": false,
 		"is_signature": "11005_1"
+	},{
+		"release_date": "2020-09-24",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "No Accident"
+		},
+		"lore": {
+			"text": {
+				"english": "Ever since I heard about the Jasper Circle I wanted to be a part of it, but a group like that... you don't ask to join, you have to be approached... which means you need to make a name for yourself. Six months I shadowed Sunbreeze. Six months of watching that stupid fairy do stupid merchant fairy things. Finally I had a plan. Then the Veiled Sisterhood went and assassinated Kwerthias which ruined everything. Sure I could have killed Sunbreeze, but then people would have given the Sisterhood the credit, so I just said to hell with it and scrapped everything. "
+			},
+			"tag": {
+				"english": "Debbi, Foiled Assassin"
+			}
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "B",
+		"image": "11007_0",
+		"miniimage": "11007_0",
+		"cost": 2,
+		"text": {
+			"english": " /n /n Deal 2 damage to a unit and give it Feeble permanently."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "11005_2"
 	}]
 }, {
 	"card_id": 11003,
@@ -1758,7 +1887,7 @@
 		"hp": 5,
 		"abilities": ["210014_1"],
 		"signature": ["10055_0"],
-		"related_cards": ["10990_0"]
+		"related_cards": ["10990_1"]
 	}]
 }, {
 	"card_id": 10055,
@@ -1813,6 +1942,28 @@
 		"hp": 3,
 		"abilities": [],
 		"related_cards": ["10053_1"],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-09-24",
+		"card_type": "Summon",
+		"card_name": {
+			"english": "Mega Creep"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "C",
+		"image": "10990_0",
+		"miniimage": "10990_0",
+		"cost": 2,
+		"text": {
+			"english": ""
+		},
+		"attack": 3,
+		"armour": 0,
+		"hp": 3,
+		"abilities": [],
+		"related_cards": ["10053_2"],
 		"crosslane": false,
 		"quick": false
 	}]
@@ -2035,6 +2186,31 @@
 		"hp": 5,
 		"abilities": ["210016_2"],
 		"signature": ["10160_1"]
+	}, {
+		"release_date": "2020-09-24",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Ogre Magi"
+		},
+		"lore": {
+			"text": {
+				"english": "'It's not easy being the smartest ogre in the world. There's lots of jealous people out there.'/n'Think about how many people you know with one head.'/n'I bet it's a lot.'/n'Now realize that every single one of them is half as smart as us. Do you know how lonely it is to walk this earth, never finding an intellectual eq-'/n'WE LIKE ROCKS!'/n'Yes...yes we do.' "
+			},
+			"tag": {
+				"english": "Aggron Stonebreak, the Ogre Magi"
+			}
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "U",
+		"image": "10043_0",
+		"miniimage": "10043_0",
+		"icon": "10043_0",
+		"attack": 2,
+		"armour": 2,
+		"hp": 5,
+		"abilities": ["210016_2"],
+		"signature": ["10160_2"]
 	}]
 }, {
 	"card_id": 10160,
@@ -2090,6 +2266,32 @@
 		"crosslane": false,
 		"quick": false,
 		"is_signature": "10043_4"
+	},{
+		"release_date": "2020-09-24",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Ignite"
+		},
+		"lore": {
+			"text": {
+				"english": "'I think we're probably the first person to figure out that fire can be used not just to cook meat. But also light people on fire.'/n'If not the first, definitely in the top five.' "
+			},
+			"tag": {
+				"english": "Ogre Magi, Innovator"
+			}
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "U",
+		"image": "10160_0",
+		"miniimage": "10160_0",
+		"cost": 2,
+		"text": {
+			"english": "/n Enchant Caster. /n [TG]Round Start:[ET] Deal 1 damage to the two closest enemies and give them +1 Decay."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10043_5"
 	}]
 }, {
 	"card_id": 10721,
@@ -2743,6 +2945,31 @@
 		"hp": 4,
 		"abilities": ["210027_1"],
 		"signature": ["10277_0"]
+	}, {
+		"release_date": "2020-09-24",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Crystal Maiden"
+		},
+		"lore": {
+			"text": {
+				"english": "'Warden of Icewrack.' It's a fancy title. In theory it means I'm responsible for maintaining law and order, collaborating with the Sapphire Conclave on magical crimes, and protecting the weak from all manners of nasty things. In practice I help farmers fix fences. So I decided to go on a little sabbatical. Besides... I couldn't stay in Icewrack. It's cold. It's boring. And I heard my sister was planning on visiting so I definitely had to get the hell outta there."
+			},
+			"tag": {
+				"english": "Rylai, the Crystal Maiden"
+			}
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "U",
+		"image": "10064_0",
+		"miniimage": "10064_0",
+		"icon": "10064_0",
+		"attack": 2,
+		"armour": 0,
+		"hp": 4,
+		"abilities": ["210027_1"],
+		"signature": ["10277_1"]
 	}]
 }, {
 	"card_id": 10277,
@@ -2772,6 +2999,32 @@
 		"crosslane": false,
 		"quick": false,
 		"is_signature": "10064_3"
+	},{
+		"release_date": "2020-09-24",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Frostbite"
+		},
+		"lore": {
+			"text": {
+				"english": "Unlike Lina, I like to try to find solutions that don't involve killing everyone."
+			},
+			"tag": {
+				"english": "Crystal Maiden, Less Destructive Sister"
+			}
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "U",
+		"image": "10277_0",
+		"miniimage": "10277_0",
+		"cost": 2,
+		"text": {
+			"english": " /n Deal 2 damage to a unit. Disarm and root it."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10064_4"
 	}]
 }, {
 	"card_id": 10032,
@@ -2950,7 +3203,7 @@
 		"miniimage": "10289_0",
 		"cost": 4,
 		"text": {
-			"english": " /n Choose Caster. Choose an enemy unit, reduce it to 3 Health and heal caster for the amount removed."
+			"english": " /n Choose caster. Choose an enemy unit, reduce it to 3 Health and heal caster for the amount removed."
 		},
 		"crosslane": false,
 		"quick": false,
@@ -2968,7 +3221,7 @@
 		"miniimage": "10289_0",
 		"cost": 4,
 		"text": {
-			"english": " /n Choose Caster. Choose an enemy unit, reduce it to 3 Health and give caster temporary health equal to the amount removed."
+			"english": " /n Choose caster. Choose an enemy unit, reduce it to 3 Health and give caster temporary health equal to the amount removed."
 		},
 		"crosslane": false,
 		"quick": false,
@@ -2986,7 +3239,7 @@
 		"miniimage": "10289_0",
 		"cost": 3,
 		"text": {
-			"english": " /n Choose Caster. Choose an enemy unit, reduce it to 3 Health and give caster temporary health equal to the amount removed."
+			"english": " /n Choose caster. Choose an enemy unit, reduce it to 3 Health and give caster temporary health equal to the amount removed."
 		},
 		"crosslane": false,
 		"quick": false,
@@ -3177,6 +3430,31 @@
 		"hp": 5,
 		"abilities": ["210031_1"],
 		"signature": ["10272_1"]
+	}, {
+		"release_date": "2020-09-24",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Sniper"
+		},
+		"lore": {
+			"text": {
+				"english": "For too long the Keenfolk have been fractured. Little colonies spread across the world each coveting their own research... but as we kept to our workshops the world around us changed. Stonehall rose to power. The nation of Revtel was born. The Quroum of Weeping Rose grew bolder... and what did we do? We toiled and tinkered. We built wondrous machines and used them for petty tasks. This cannot continue. The Keenfolk clans need to unite, and show the world what we're capable of."
+			},
+			"tag": {
+				"english": "Kardel, the Sniper"
+			}
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "B",
+		"image": "10050_0",
+		"miniimage": "10050_0",
+		"icon": "10050_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210031_1"],
+		"signature": ["10272_2"]
 	}]
 }, {
 	"card_id": 10272,
@@ -3201,7 +3479,7 @@
 		"miniimage": "10272_0",
 		"cost": 7,
 		"text": {
-			"english": " /n Choose Caster. /n Slay a unit in any lane. /n [TG]Cross Lane[ET]"
+			"english": " /n Choose caster. /n Slay a unit in any lane. /n [TG]Cross Lane[ET]"
 		},
 		"crosslane": true,
 		"quick": false,
@@ -3227,11 +3505,37 @@
 		"miniimage": "10272_0",
 		"cost": 7,
 		"text": {
-			"english": " /n Choose Caster. Slay a unit in any lane. /n Costs 1 less for each time you've passed this round. /n [TG]Cross Lane[ET]"
+			"english": " /n Choose caster. Slay a unit in any lane. /n Costs 1 less for each time you've passed this round. /n [TG]Cross Lane[ET]"
 		},
 		"crosslane": true,
 		"quick": false,
 		"is_signature": "10050_2"
+	},{
+		"release_date": "2020-09-24",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Assassinate"
+		},
+		"lore": {
+			"text": {
+				"english": "Don't get me wrong I'm impressed with what these young Keen are able to dream up, but lasers and robots take away the artistry of killing a man. In my day you had to have skill and patience to assassinate someone at range. Now they just set off an explosion."
+			},
+			"tag": {
+				"english": "Sniper reminisces about the good old days"
+			}
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "B",
+		"image": "10272_0",
+		"miniimage": "10272_0",
+		"cost": 7,
+		"text": {
+			"english": " /n Choose caster. Slay a unit in any lane. /n Costs 2 less for each time you've passed this round. /n [TG]Cross Lane[ET]"
+		},
+		"crosslane": true,
+		"quick": false,
+		"is_signature": "10050_3"
 	}]
 }, {
 	"card_id": 10069,
@@ -3769,6 +4073,35 @@
 		"attack": 1,
 		"armour": 0,
 		"hp": 7,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-09-24",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Ogre Corpse Tosser"
+		},
+		"lore": {
+			"text": {
+				"english": "Friends said throwing dead bodies was hobby, not real job. Who's laughing now? Not friends. I kill them for not supporting my dream."
+			},
+			"tag": {
+				"english": "Lommett, Ogre Corpse Tosser"
+			}
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "B",
+		"image": "10103_0",
+		"miniimage": "10103_0",
+		"cost": 3,
+		"text": {
+			"english": "Whenever an ally dies, deal 1 piercing damage to the enemy tower."
+		},
+		"attack": 1,
+		"armour": 0,
+		"hp": 4,
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
@@ -4948,6 +5281,23 @@
 		"hp": 6,
 		"abilities": ["10444_1"],
 		"signature": ["10821_1"]
+	}, {
+		"release_date": "2020-09-24",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Pugna"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "B",
+		"image": "10048_0",
+		"miniimage": "10048_0",
+		"icon": "10048_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["10444_2"],
+		"signature": ["10821_1"]
 	}]
 }, {
 	"card_id": 10821,
@@ -4986,7 +5336,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10048_3"
+		"is_signature": "10048_4"
 	}]
 }, {
 	"card_id": 10663,
@@ -5282,6 +5632,23 @@
 		"hp": 7,
 		"abilities": ["210049_2"],
 		"signature": ["10938_0"]
+	},{
+		"release_date": "2020-09-24",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Sand King"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "G",
+		"image": "10937_0",
+		"miniimage": "10937_0",
+		"icon": "10937_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 7,
+		"abilities": ["210049_3"],
+		"signature": ["10938_1"]
 	}]
 }, {
 	"card_id": 10938,
@@ -5303,6 +5670,24 @@
 		"crosslane": false,
 		"quick": false,
 		"is_signature": "10937_2"
+	},{
+		"release_date": "2020-09-24",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Sandstorm"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "G",
+		"image": "10938_0",
+		"miniimage": "10938_0",
+		"cost": 3,
+		"text": {
+			"english": " /n Give enemy units +3 Decay. Randomize their combat targets, preferring units over the tower."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10937_3"
 	}]
 }, {
 	"card_id": 10678,
@@ -5608,7 +5993,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"related_cards": ["10703_0", "10077_1"]
+		"related_cards": ["10703_0", "10077_2"]
 	}]
 }, {
 	"card_id": 10786,
@@ -6640,6 +7025,24 @@
 		"abilities": ["210066_1","11068_0"],
 		"signature": ["10538_3"],
 		"related_cards": ["10820_3"]
+	},{
+		"release_date": "2020-09-24",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Storm Spirit"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "B",
+		"image": "10536_0",
+		"miniimage": "10536_0",
+		"icon": "10536_0",
+		"attack": 4,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210066_1","11068_1"],
+		"signature": ["10538_3"],
+		"related_cards": ["10820_3"]
 	}]
 }, {
 	"card_id": 10538,
@@ -6714,7 +7117,7 @@
 		},
 		"crosslane": true,
 		"quick": false,
-		"is_signature": "10536_4"
+		"is_signature": "10536_5"
 	}]
 }, {
 	"card_id": 10820,
@@ -6844,6 +7247,23 @@
 		"hp": 4,
 		"abilities": ["210067_1"],
 		"signature": ["10291_0"]
+	},{
+		"release_date": "2020-09-24",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Tinker"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "B",
+		"image": "10025_0",
+		"miniimage": "10025_0",
+		"icon": "10025_0",
+		"attack": 4,
+		"armour": 0,
+		"hp": 4,
+		"abilities": ["210067_2"],
+		"signature": ["10291_0"]
 	}]
 }, {
 	"card_id": 10291,
@@ -6905,6 +7325,23 @@
 		"hp": 5,
 		"abilities": ["210068_1"],
 		"signature": ["10011_0"]
+	}, {
+		"release_date": "2020-09-24",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Winter Wyvern"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "B",
+		"image": "10010_0",
+		"miniimage": "10010_0",
+		"icon": "10010_0",
+		"attack": 4,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210068_1"],
+		"signature": ["10011_1"]
 	}]
 }, {
 	"card_id": 10011,
@@ -6926,6 +7363,24 @@
 		"crosslane": false,
 		"quick": false,
 		"is_signature": "10010_1"
+	},{
+		"release_date": "2020-09-24",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Winter's Curse"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "B",
+		"image": "10011_0",
+		"miniimage": "10011_0",
+		"cost": 4,
+		"text": {
+			"english": " /n Stun an enemy. It is attacked by its allied neighbors."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10010_2"
 	}]
 }, {
 	"card_id": 10263,
@@ -10035,7 +10490,7 @@
 		"miniimage": "10654_0",
 		"cost": 3,
 		"text": {
-			"english": " /n Slay Caster. /n [RP] Deploy heroes currently in your fountain to the first empty positions in this lane."
+			"english": " /n Slay caster. /n [RP] Deploy heroes currently in your fountain to the first empty positions in this lane."
 		},
 		"crosslane": false,
 		"quick": false,
@@ -10053,7 +10508,7 @@
 		"miniimage": "10654_0",
 		"cost": 3,
 		"text": {
-			"english": " /n Slay Caster. /n [RP] Deploy heroes currently in your fountain to the first empty slots in this lane."
+			"english": " /n Slay caster. /n [RP] Deploy heroes currently in your fountain to the first empty slots in this lane."
 		},
 		"crosslane": false,
 		"quick": false,
@@ -11273,6 +11728,27 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-09-24",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Fell Spirit"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "U",
+		"image": "10612_0",
+		"miniimage": "10612_0",
+		"cost": 3,
+		"text": {
+			"english": "/n /n [TG]Active 1[AC], 1 Mana:[ET] Disarm a unit. Give Fell Spirit +2[ATT]."
+		},
+		"attack": 1,
+		"armour": 0,
+		"hp": 3,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10754,
@@ -12083,6 +12559,27 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-09-24",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Infernal Ally"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "B",
+		"image": "10619_0",
+		"miniimage": "10619_0",
+		"cost": 2,
+		"text": {
+			"english": " /n /n [TG]Play Effect:[ET] Trigger neighbor Death Effects twice."
+		},
+		"attack": 2,
+		"armour": 0,
+		"hp": 2,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10310,
@@ -12237,6 +12734,28 @@
 		"image": "10077_0",
 		"miniimage": "10077_0",
 		"cost": 4,
+		"text": {
+			"english": "Whenever  an ally dies, Summon an Eidolon and remove a charge. /n /n [TG]Charges: 5[ET]"
+		},
+		"attack": 2,
+		"armour": 0,
+		"hp": 3,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10735_0"]
+	}, {
+		"release_date": "2020-09-24",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Sister of the Void"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "B",
+		"image": "10077_0",
+		"miniimage": "10077_0",
+		"cost": 3,
 		"text": {
 			"english": "Whenever  an ally dies, Summon an Eidolon and remove a charge. /n /n [TG]Charges: 5[ET]"
 		},
@@ -13300,6 +13819,24 @@
 		},
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-09-24",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Path of the Bold"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "R",
+		"image": "10778_0",
+		"miniimage": "10778_0",
+		"cost": 2,
+		"text": {
+			"english": "/n Enchant Tower /n /n Your blocked units have +1[ATT] per charge. Whenever you play a non-item card, add one charge."
+		},
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10172,
@@ -13909,6 +14446,24 @@
 		"image": "10165_0",
 		"miniimage": "10165_0",
 		"cost": 4,
+		"text": {
+			"english": "/n Enchant Tower /n +5 Income."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-09-24",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Iron Fog Goldmine"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "B",
+		"image": "10165_0",
+		"miniimage": "10165_0",
+		"cost": 3,
 		"text": {
 			"english": "/n Enchant Tower /n +5 Income."
 		},
@@ -14559,6 +15114,23 @@
 		},
 		"crosslane": true,
 		"quick": false
+	},{
+		"release_date": "2020-09-24",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Team Fight"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "R",
+		"image": "10713_0",
+		"miniimage": "10713_0",
+		"cost": 6,
+		"text": {
+			"english": " /n Move caster up to range 5. Deploy all heroes from both Fountains to that lane./n[TG]Cross Lane[ET]"
+		},
+		"crosslane": true,
+		"quick": false
 	}]
 }, {
 	"card_id": 10417,
@@ -14612,6 +15184,24 @@
 		"cost": 7,
 		"text": {
 			"english": " /n Play two Centaur Poachers into the first two empty spaces in any lane./n[TG]Cross Lane[ET]"
+		},
+		"crosslane": true,
+		"quick": false,
+		"related_cards": ["10082_0"]
+	}, {
+		"release_date": "2020-09-24",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Spring the Trap"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "R",
+		"image": "10417_0",
+		"miniimage": "10417_0",
+		"cost": 7,
+		"text": {
+			"english": " /n Choose caster. Play two Centaur Poachers into the first two empty spaces in any lane./n[TG]Cross Lane[ET]"
 		},
 		"crosslane": true,
 		"quick": false,
@@ -15107,6 +15697,23 @@
 		"cost": 1,
 		"text": {
 			"english": " /n Deal damage equal to this spell's cost to an enemy with the lowest health. /n Repeatable at +1 mana if this spell kills a unit."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-09-24",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Ramp Bolt"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "U",
+		"image": "10806_0",
+		"miniimage": "10806_0",
+		"cost": 1,
+		"text": {
+			"english": " /n Deal damage equal to this spell's cost to a unit. /n Repeatable at +1 mana if this spell kills a unit."
 		},
 		"crosslane": false,
 		"quick": false
@@ -16256,7 +16863,7 @@
 		"miniimage": "10270_0",
 		"cost": 1,
 		"text": {
-			"english": " /n Choose Caster. Deal 1 piercing damage to a unit in any lane and deal 1 damage to the next unit away from the caster./n[TG]Cross Lane[ET]"
+			"english": " /n Choose caster. Deal 1 piercing damage to a unit in any lane and deal 1 damage to the next unit away from the caster./n[TG]Cross Lane[ET]"
 		},
 		"crosslane": true,
 		"quick": false
@@ -16274,7 +16881,7 @@
 		"miniimage": "10270_0",
 		"cost": 1,
 		"text": {
-			"english": " /n Choose Caster as a starting point. Deal 1 piercing damage to a unit in any lane then deal 1 damage to the unit after it./n[TG]Cross Lane[ET]"
+			"english": " /n Choose caster as a starting point. Deal 1 piercing damage to a unit in any lane then deal 1 damage to the unit after it./n[TG]Cross Lane[ET]"
 		},
 		"crosslane": true,
 		"quick": false
@@ -16292,7 +16899,7 @@
 		"miniimage": "10270_0",
 		"cost": 1,
 		"text": {
-			"english": " /n Choose Caster as a starting point. Deal 1 piercing damage to a unit in any lane then deal 1 damage to the next unit past it./n[TG]Cross Lane[ET]"
+			"english": " /n Choose caster as a starting point. Deal 1 piercing damage to a unit in any lane then deal 1 damage to the next unit past it./n[TG]Cross Lane[ET]"
 		},
 		"crosslane": true,
 		"quick": false
@@ -16558,7 +17165,7 @@
 		"armour": 0,
 		"hp": 4,
 		"abilities": [],
-		"related_cards": ["10417_1"],
+		"related_cards": ["10417_3"],
 		"crosslane": false,
 		"quick": false
 	}]
@@ -16940,7 +17547,7 @@
 		"miniimage": "11058_0",
 		"cost": 1,
 		"text": {
-			"english": " /n Choose Caster. When taking damage this turn, reflect damage back, stun its source until its next combat, then purge enemy effects from this unit."
+			"english": " /n Choose caster. When taking damage this turn, reflect damage back, stun its source until its next combat, then purge enemy effects from this unit."
 		},
 		"crosslane": false,
 		"quick": false,
@@ -16958,7 +17565,7 @@
 		"miniimage": "11058_0",
 		"cost": 2,
 		"text": {
-			"english": " /n Choose Caster. When taking damage this turn, reflect damage back, stun its source until its next combat, then purge enemy effects from this unit."
+			"english": " /n Choose caster. When taking damage this turn, reflect damage back, stun its source until its next combat, then purge enemy effects from this unit."
 		},
 		"crosslane": false,
 		"quick": false,
@@ -16976,7 +17583,7 @@
 		"miniimage": "11058_0",
 		"cost": 2,
 		"text": {
-			"english": " /n Choose Caster. When taking damage this round, reflect damage back, stun its source until its next combat, then purge enemy effects from this unit."
+			"english": " /n Choose caster. When taking damage this round, reflect damage back, stun its source until its next combat, then purge enemy effects from this unit."
 		},
 		"crosslane": false,
 		"quick": false,
@@ -17074,6 +17681,24 @@
 		"cost": 3,
 		"text": {
 			"english": "/n Enchant Tower /n /n [TG]Aura: [ET] Whenever an allied unit dies, give a random enemy +1 decay until their next combat."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-09-24",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Plague Hex"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "B",
+		"image": "11060_0",
+		"miniimage": "11060_0",
+		"cost": 3,
+		"text": {
+			"english": "/n Enchant Tower /n /n [TG]Aura: [ET] Whenever an allied unit dies, give a random enemy +1 decay until they die."
 		},
 		"crosslane": false,
 		"quick": false
@@ -17416,6 +18041,27 @@
 		"cost": 2,
 		"text": {
 			"english": "/nWhenever an ally other than a Rumusque Choir is healed, give Rumusque Choir +1[ATT]/+1[HP] permanently."
+		},
+		"attack": 1,
+		"armour": 0,
+		"hp": 1,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-09-24",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Rumusque Choir"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "G",
+		"image": "11085_0",
+		"miniimage": "11085_0",
+		"cost": 3,
+		"text": {
+			"english": "/nWhenever another ally is healed or gains health for the first time in a round, give Rumusque Choir +1[ATT]/+1[HP] permanently."
 		},
 		"attack": 1,
 		"armour": 0,

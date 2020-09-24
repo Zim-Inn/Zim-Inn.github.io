@@ -1276,6 +1276,18 @@
                 "text":{
                     "english":"[TG]Active 4[AC], 1 Mana:[ET] Move up to range 5. Stun and deal 1 damage to the new adjacent enemies. /n [TG]Cross Lane[ET]"
                 }
+            },{
+                "release_date":"2020-09-24",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Burrowstrike"
+                 },
+                "cooldown": 3,
+                "image": "210049_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Move up to range 5. Stun and deal 1 damage to the new adjacent enemies. /n [TG]Cross Lane[ET]"
+                }
             }
         ]
     },
@@ -1751,6 +1763,19 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] Deal 2 damage to a unit and disarm it."
+                }
+            },
+            {
+                "release_date":"2020-09-24",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Laser"
+                 },
+                "cooldown": 3,
+                "image": "210067_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Deal 1 piercing damage to a unit and disarm it. Give it -2[AR] for two rounds."
                 }
             }
         ]
@@ -2608,6 +2633,18 @@
                 "text":{
                     "english":"When your opponent plays a non-item card from this lane, deal 1 piercing damage to their tower and burn 1 of their mana. 1 round cooldown."
                 }
+            },{
+                "release_date":"2020-09-24",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Nether Ward"
+                 },
+                "cooldown": 0,
+                "image": "10444_0",
+                "cost": 0,
+                "text":{
+                    "english":"When your opponent plays a non-item card from this lane, deal 1 piercing damage to their tower and burn 1 of their mana."
+                }
             }
         ]
     },
@@ -2626,6 +2663,18 @@
                 "cost": 0,
                 "text":{
                     "english":"Storm Spirit has +1[ATT] per charge. After you play a spell or enchantment from any lane, add a charge until Storm Spirit attacks in a battle."
+                }
+            },{
+                "release_date":"2020-09-24",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Overload"
+                 },
+                "cooldown": 1,
+                "image": "11068_0",
+                "cost": 0,
+                "text":{
+                    "english":"Storm Spirit has +1[ATT] per charge. After you play a spell or enchantment from this lane, add a charge until Storm Spirit attacks in a battle."
                 }
             }
         ]
