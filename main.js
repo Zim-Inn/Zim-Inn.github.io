@@ -144,17 +144,9 @@ function ParseCardList(JSONFileData) {
                 return;
             } 
             
-            // Use the previous version as the basis
-
+            // Use the previous version as the basis, paste new data over it
             Object.keys(version).forEach(dataLabel => {
-                // Check if the key is the same and warn in console. 
-                // This is unecessary, I just want to spot issues.
-                if((currentLatestCard[dataLabel] === version[dataLabel])){
-                    console.log("Key ", dataLabel, "in card version", index, "was the same as previous version. Value: ", version[dataLabel]);
-                }
                 currentLatestCard[dataLabel] = version[dataLabel];
-            
-                
             });
             newEntry.versions.push(Object.assign({}, currentLatestCard));
         })
