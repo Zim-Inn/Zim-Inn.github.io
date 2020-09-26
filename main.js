@@ -163,8 +163,6 @@ function ParseCardList(JSONFileData) {
         result.push(newEntry);
     });
 
-    console.log(result)
-
     return result;
 }
 
