@@ -28,7 +28,8 @@ const getURLParams = function (url) {
 const InitialisePage = function(Page) {
     let p1 = new Promise(function(resolve, reject) {
         var req = new XMLHttpRequest();
-        req.open("GET", 'json/Cards.json', true);
+        // req.open("GET", 'json/Cards.json', true);
+        req.open("GET", 'json/Cards_NewFormat.json', true);
         req.onreadystatechange = function() {
            if (req.readyState == XMLHttpRequest.DONE ) {
               if (req.status == 200) {
@@ -82,27 +83,13 @@ const InitialisePage = function(Page) {
         };
         req.send();
     });
-    let p5 = new Promise(function(resolve, reject) {
-        var req = new XMLHttpRequest();
-        req.open("GET", 'json/Cards_ChangesFormat.json', true);
-        req.onreadystatechange = function() {
-           if (req.readyState == XMLHttpRequest.DONE ) {
-              if (req.status == 200) {
-                  resolve(req.response);
-              } else {
-                  reject(Error(req.statusText));    
-              }
-           }
-        };
-        req.send();
-    });
 
-    Promise.all([p1,p2,p3,p4,p5]).then(responses => {
-        CardJSON = JSON.parse(responses[0]);
+    Promise.all([p1,p2,p3,p4]).then(responses => {
+        // CardJSON = JSON.parse(responses[0]);
+        CardJSON = ParseCardList(responses[0]);
         AbilityJSON = JSON.parse(responses[1]);
         KeywordsJSON = JSON.parse(responses[2]);
         DeckCodesJSON = JSON.parse(responses[3]);
-        CardJSON_ChangesFormat = ParseCardList(responses[4]);
 
         if (Page == "CardBrowser") {
             GenerateCardListCardBrowser();
@@ -152,7 +139,7 @@ function ParseCardList(JSONFileData) {
         card.versions.forEach((version, index) => {
             // Just copy the first one
             if(index === 0){
-                currentLatestCard = version;
+                currentLatestCard = Object.assign({}, version);
                 newEntry.versions.push(version);
                 return;
             } 
@@ -169,12 +156,14 @@ function ParseCardList(JSONFileData) {
             
                 
             });
-            newEntry.versions.push(currentLatestCard);
+            newEntry.versions.push(Object.assign({}, currentLatestCard));
         })
 
         // Store the new card
         result.push(newEntry);
     });
+
+    console.log(result)
 
     return result;
 }
