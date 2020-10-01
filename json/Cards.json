@@ -2366,6 +2366,24 @@
 		"abilities": ["210019_2", "210037_2"],
 		"related_cards": ["10723_2"],
 		"signature": ["10724_0"]
+	},{
+		"release_date": "2020-10-01",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Phantom Lancer"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "R",
+		"image": "10721_0",
+		"miniimage": "10721_0",
+		"icon": "10721_0",
+		"attack": 4,
+		"armour": 0,
+		"hp": 4,
+		"abilities": ["210019_2", "210037_2"],
+		"related_cards": ["10723_2"],
+		"signature": ["10724_0"]
 	}]
 }, {
 	"card_id": 10724,
@@ -5034,6 +5052,23 @@
 		"hp": 4,
 		"abilities": ["210042_0"],
 		"signature": ["10757_1"]
+	}, {
+		"release_date": "2020-10-01",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Outworld Devourer"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "G",
+		"image": "10755_0",
+		"miniimage": "10755_0",
+		"icon": "10755_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 4,
+		"abilities": ["210042_0"],
+		"signature": ["10757_2"]
 	}]
 }, {
 	"card_id": 10757,
@@ -5065,6 +5100,24 @@
 		"rarity": 5,
 		"colour": "G",
 		"cost": 4,
+		"image": "10757_0",
+		"miniimage": "10757_0",
+		"text": {
+			"english": " Stun a unit and give it Damage Immunity until the start of next round. /n When this effect expires, deal 1 damage to adjacent enemies."
+		},
+		"crosslane": false,
+		"quick": false,
+		"is_signature": "10755_1"
+	}, {
+		"release_date": "2020-10-01",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Astral Imprisonment"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "G",
+		"cost": 2,
 		"image": "10757_0",
 		"miniimage": "10757_0",
 		"text": {
@@ -8078,6 +8131,7 @@
 	}]
 }, {
 	"card_id": 10216,
+	"hide_from_card_list": "Removed",
 	"versions": [{
 		"release_date": "2020-05-25",
 		"card_type": "Item",
@@ -8122,10 +8176,31 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-10-01",
+		"card_type": "Item",
+		"card_subtype": "Consumable",
+		"card_name": {
+			"english": "Golden Ticket"
+		},
+		"set": 1,
+		"rarity": 2,
+		"image": "10216_0",
+		"miniimage": "10216_0",
+		"cost": 1,
+		"gcost": 15,
+		"text": {
+			"english": "/nREMOVED FROM THE GAME"
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10967,
-	"hide_from_card_list": "Removed",
 	"versions": [{
 		"release_date": "2020-05-25",
 		"card_type": "Item",
@@ -8164,6 +8239,29 @@
 		"gcost": 10,
 		"text": {
 			"english": " /n TEMPORARILY REMOVED FROM THE GAME."
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10966_0", "10960_2", "10961_1", "10965_0", "10964_1", "10959_1", "10958_2", "10963_0", "10962_2"]
+	},{
+		"release_date": "2020-10-01",
+		"card_type": "Item",
+		"card_subtype": "Consumable",
+		"card_name": {
+			"english": "Greevil Egg"
+		},
+		"set": 1,
+		"rarity": 1,
+		"image": "10967_0",
+		"miniimage": "10967_0",
+		"cost": 1,
+		"gcost": 10,
+		"text": {
+			"english": " /n /n Summon a random Greevil."
 		},
 		"attack": 0,
 		"armour": 0,
@@ -9406,6 +9504,28 @@
 			"english": " /n [TG]Aura:[ET] Equipped hero and its neighbors have +3[ATT] and +3 Regeneration."
 		},
 		"attack": 3,
+		"armour": 0,
+		"hp": 6,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-10-01",
+		"card_type": "Item",
+		"card_subtype": "Weapon",
+		"card_name": {
+			"english": "Wingfall Hammer"
+		},
+		"set": 1,
+		"rarity": 1,
+		"image": "10226_0",
+		"miniimage": "10226_0",
+		"cost": 1,
+		"gcost": 20,
+		"text": {
+			"english": " /n [TG]Aura:[ET] Equipped hero and its neighbors have +4[ATT] and +4 Regeneration."
+		},
+		"attack": 4,
 		"armour": 0,
 		"hp": 6,
 		"abilities": [],
@@ -11231,7 +11351,29 @@
 		},
 		"attack": 3,
 		"armour": 1,
-		"hp": 1,
+		"hp": 2,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["11045_0"]
+	}, {
+		"release_date": "2020-10-01",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Stonehall Elite"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "R",
+		"image": "10131_0",
+		"miniimage": "10131_0",
+		"cost": 4,
+		"text": {
+			"english": "/n Transform into Stonehall Paragon after killing two enemy units."
+		},
+		"attack": 3,
+		"armour": 1,
+		"hp": 3,
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
@@ -11296,6 +11438,27 @@
 		"image": "10132_0",
 		"miniimage": "10132_0",
 		"cost": 5,
+		"text": {
+			"english": " Pillager, Trample /n After damaging a tower, Summon a Red Mist Pillager into the closest slot."
+		},
+		"attack": 3,
+		"armour": 0,
+		"hp": 2,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	}, {
+		"release_date": "2020-10-01",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Red Mist Pillager"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "R",
+		"image": "10132_0",
+		"miniimage": "10132_0",
+		"cost": 4,
 		"text": {
 			"english": " Pillager, Trample /n After damaging a tower, Summon a Red Mist Pillager into the closest slot."
 		},
@@ -12686,6 +12849,27 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-10-01",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Infernal Ally"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "B",
+		"image": "10619_0",
+		"miniimage": "10619_0",
+		"cost": 2,
+		"text": {
+			"english": " /n /n [TG]Play Effect:[ET] Trigger neighbor Death Effects twice."
+		},
+		"attack": 2,
+		"armour": 0,
+		"hp": 2,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10310,
@@ -12725,6 +12909,27 @@
 		"image": "10128_0",
 		"miniimage": "10128_0",
 		"cost": 2,
+		"text": {
+			"english": ""
+		},
+		"attack": 3,
+		"armour": 0,
+		"hp": 1,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	}, {
+		"release_date": "2020-10-01",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Untested Grunt"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "B",
+		"image": "10128_0",
+		"miniimage": "10128_0",
+		"cost": 1,
 		"text": {
 			"english": ""
 		},
@@ -17210,6 +17415,23 @@
 		"image": "10326_0",
 		"miniimage": "10326_0",
 		"cost": 2,
+		"text": {
+			"english": " /n Proceed to the combat phase in this lane."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-10-01",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "No Hesitation"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "R",
+		"image": "10326_0",
+		"miniimage": "10326_0",
+		"cost": 3,
 		"text": {
 			"english": " /n Proceed to the combat phase in this lane."
 		},
