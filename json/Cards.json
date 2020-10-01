@@ -12856,6 +12856,27 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-10-01",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Berserker of the Abyssm"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "B",
+		"image": "10600_0",
+		"miniimage": "10600_0",
+		"cost": 5,
+		"text": {
+			"english": "Devour /n [TG]Play Effect:[ET] Berserker of the Abyssm attacks the unit blocking it for battle damage equal to Berserker of the Abyssm's health."
+		},
+		"attack": 3,
+		"armour": 0,
+		"hp": 2,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10115,
@@ -14550,7 +14571,6 @@
 	}]
 }, {
 	"card_id": 10149,
-	"hide_from_card_list": "Removed",
 	"versions": [{
 		"release_date": "2020-05-25",
 		"card_type": "Improvement",
@@ -14584,6 +14604,24 @@
 		"cost": 2,
 		"text": {
 			"english": "/n TEMPORARILY REMOVED FROM THE GAME"
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-10-01",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Unearthed Secrets"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "G",
+		"image": "10149_0",
+		"miniimage": "10149_0",
+		"cost": 2,
+		"text": {
+			"english": "Enchant Tower/n/nWhen you play another non-item card from this lane, it has Mulch. If you have a black hero, gain 5 gold./n/n1 round cooldown."
 		},
 		"crosslane": false,
 		"quick": false
@@ -15338,6 +15376,24 @@
 		"cost": 3,
 		"text": {
 			"english": " /n Enchant Enemy /n Scheme: Take 1 damage."
+		},
+		"crosslane": false,
+		"quick": false
+	},
+	{
+		"release_date": "2020-10-01",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "A Thousand Cuts"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "B",
+		"image": "10803_0",
+		"miniimage": "10803_0",
+		"cost": 3,
+		"text": {
+			"english": " /n Enchant Enemy /n Scheme:  Enchanted unit deals 1 damage to itself"
 		},
 		"crosslane": false,
 		"quick": false

@@ -28,8 +28,8 @@ const getURLParams = function (url) {
 const InitialisePage = function(Page) {
     let p1 = new Promise(function(resolve, reject) {
         var req = new XMLHttpRequest();
-        // req.open("GET", 'json/Cards.json', true);
-        req.open("GET", 'json/Cards_NewFormat.json', true);
+        req.open("GET", 'json/Cards.json', true);
+        // req.open("GET", 'json/Cards_NewFormat.json', true);
         req.onreadystatechange = function() {
            if (req.readyState == XMLHttpRequest.DONE ) {
               if (req.status == 200) {
@@ -85,8 +85,8 @@ const InitialisePage = function(Page) {
     });
 
     Promise.all([p1,p2,p3,p4]).then(responses => {
-        // CardJSON = JSON.parse(responses[0]);
-        CardJSON = ParseCardList(responses[0]);
+        CardJSON = JSON.parse(responses[0]);
+        // CardJSON = ParseCardList(responses[0]);
         AbilityJSON = JSON.parse(responses[1]);
         KeywordsJSON = JSON.parse(responses[2]);
         DeckCodesJSON = JSON.parse(responses[3]);
