@@ -4332,6 +4332,28 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	}, {
+		"release_date": "2020-10-01",
+		"card_type": "Item",
+		"card_subtype": "Armor",
+		"card_name": {
+			"english": "Ring of Basilius"
+		},
+		"set": 1,
+		"rarity": 1,
+		"image": "10943_0",
+		"miniimage": "10943_0",
+		"cost": 1,
+		"gcost": 10,
+		"text": {
+			"english": " /n +1[TG][AR][ET] /n [TG]Aura:[ET] Your creeps have +1[TG][AR][ET] and -1 Bounty."
+		},
+		"attack": 0,
+		"armour": 1,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10723,
@@ -8721,6 +8743,28 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	},{
+		"release_date": "2020-10-01",
+		"card_type": "Item",
+		"card_subtype": "Weapon",
+		"card_name": {
+			"english": "Mjollnir"
+		},
+		"set": 1,
+		"rarity": 3,
+		"image": "11013_0",
+		"miniimage": "11013_0",
+		"cost": 1,
+		"gcost": 25,
+		"text": {
+			"english": "/n +5[ATT]/n When equipped hero attacks a unit and survives, deal 3 damage to that unit. Repeat 3 more times: [RP] Jump left or right and deal 3 damage."
+		},
+		"attack": 5,
+		"armour": 0,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}
 ]
 }, {
@@ -8991,6 +9035,28 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
+	}, {
+		"release_date": "2020-10-01",
+		"card_type": "Item",
+		"card_subtype": "Weapon",
+		"card_name": {
+			"english": "Silver Edge"
+		},
+		"set": 1,
+		"rarity": 4,
+		"image": "11014_0",
+		"miniimage": "11014_0",
+		"cost": 1,
+		"gcost": 25,
+		"text": {
+			"english": "/n +5[ATT] /n /n [TG]Active 2[AC], 1 Mana:[ET] Disable native abilities on an enemy in any lane. Battle that enemy. /n [TG]Cross Lane[ET]"
+		},
+		"attack": 5,
+		"armour": 0,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
 	}]
 }, {
 	"card_id": 10790,
@@ -9150,6 +9216,28 @@
 		"gcost": 20,
 		"text": {
 			"english": " /n +5[AR], +3[HP], +3 Regeneration"
+		},
+		"attack": 0,
+		"armour": 5,
+		"hp": 3,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-10-01",
+		"card_type": "Item",
+		"card_subtype": "Armor",
+		"card_name": {
+			"english": "Vanguard"
+		},
+		"set": 1,
+		"rarity": 2,
+		"image": "11029_1",
+		"miniimage": "11029_1",
+		"cost": 1,
+		"gcost": 20,
+		"text": {
+			"english": " /n +4[AR], +4[HP], +4 Regeneration"
 		},
 		"attack": 0,
 		"armour": 5,
@@ -9744,6 +9832,24 @@
 		"armour": 0,
 		"hp": 7,
 		"abilities": ["210073_0", "210074_0"],
+		"signature": ["10908_0"],
+		"related_cards": ["10909_1"]
+	}, {
+		"release_date": "2020-05-25",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Kanna"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "U",
+		"image": "10906_0",
+		"miniimage": "10906_0",
+		"icon": "10906_0",
+		"attack": 1,
+		"armour": 0,
+		"hp": 7,
+		"abilities": ["210073_0", "210074_1"],
 		"signature": ["10908_0"],
 		"related_cards": ["10909_1"]
 	}]
@@ -17742,6 +17848,24 @@
 		"quick": false
 	},{
 		"release_date": "2020-09-24",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Plague Hex"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "B",
+		"image": "11060_0",
+		"miniimage": "11060_0",
+		"cost": 3,
+		"text": {
+			"english": "/n Enchant Tower /n /n [TG]Aura: [ET] Whenever an allied unit dies, give a random enemy +1 decay they die."
+		},
+		"crosslane": false,
+		"quick": false
+	},{
+		"release_date": "2020-10-01",
 		"card_type": "Improvement",
 		"improvement_type": "Passive",
 		"card_name": {

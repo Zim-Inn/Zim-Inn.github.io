@@ -1997,6 +1997,18 @@
                 "text":{
                     "english":"Whenever a creep enters this lane under your control, summon a Hound of War to devour it."
                 }
+            }, {
+                "release_date":"2020-10-01",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Prey on the Weak"
+                 },
+                "cooldown": 0,
+                "image": "210074_0",
+                "cost": 0,
+                "text":{
+                    "english":"Before your turn, summon a Hound of War to devour each allied non-Hound creep."
+                }
             }
         ]
     },
