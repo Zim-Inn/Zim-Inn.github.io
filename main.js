@@ -28,7 +28,8 @@ const getURLParams = function (url) {
 const InitialisePage = function(Page) {
     let p1 = new Promise(function(resolve, reject) {
         var req = new XMLHttpRequest();
-        req.open("GET", 'json/Cards.json', true);
+        // req.open("GET", 'json/Cards.json', true);
+        req.open("GET", 'json/Cards_NewFormat.json', true);
         req.onreadystatechange = function() {
            if (req.readyState == XMLHttpRequest.DONE ) {
               if (req.status == 200) {
@@ -84,7 +85,8 @@ const InitialisePage = function(Page) {
     });
 
     Promise.all([p1,p2,p3,p4]).then(responses => {
-        CardJSON = JSON.parse(responses[0]);
+        // CardJSON = JSON.parse(responses[0]);
+        CardJSON = ParseCardList(responses[0]);
         AbilityJSON = JSON.parse(responses[1]);
         KeywordsJSON = JSON.parse(responses[2]);
         DeckCodesJSON = JSON.parse(responses[3]);
@@ -114,6 +116,46 @@ const InitialisePage = function(Page) {
             InitialiseKeywordsPage();
         }
     })
+}
+
+function ParseCardList(JSONFileData) {
+    const parsed = JSON.parse(JSONFileData);
+    const result = [];
+
+    parsed.forEach((card) => {
+        const newEntry = {};
+
+        // Preserve root level keys (except versions)
+        Object.keys(card).forEach(key => {
+            if(key === "versions"){
+                newEntry.versions = [];
+            } else {
+                newEntry[key] = card[key];
+            }
+        });
+
+        // Process every version and build it based on the previous
+        let currentLatestCard;
+        card.versions.forEach((version, index) => {
+            // Just copy the first one
+            if(index === 0){
+                currentLatestCard = Object.assign({}, version);
+                newEntry.versions.push(version);
+                return;
+            } 
+            
+            // Use the previous version as the basis, paste new data over it
+            Object.keys(version).forEach(dataLabel => {
+                currentLatestCard[dataLabel] = version[dataLabel];
+            });
+            newEntry.versions.push(Object.assign({}, currentLatestCard));
+        })
+
+        // Store the new card
+        result.push(newEntry);
+    });
+
+    return result;
 }
 
 function CVChangeViewStyle(View) {
