@@ -6792,6 +6792,7 @@
         "related_cards": [ "10909_1" ]
       },
       {
+        "release_date": "2020-10-01",
         "abilities": [ "210073_0", "210074_1" ]
       }
     ]
@@ -6816,7 +6817,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10906_0"
+        "is_signature": "10906_1"
       }
     ]
   },
@@ -6849,7 +6850,8 @@
       },
       {
         "release_date": "2020-07-09",
-        "colour": "U"
+        "colour": "U",
+        "related_cards": [ "10906_1" ]
       }
     ]
   },
@@ -10538,6 +10540,7 @@
       },
       {
         "release_date": "2020-10-01",
+        "cost": 3,
         "text": {
           "english": "Enchant Tower/n/nWhen you play another non-item card from this lane, it has Mulch. If you have a black hero, gain 5 gold./n/n1 round cooldown."
         }
@@ -13867,7 +13870,7 @@
         },
         "set": 1,
         "rarity": 1,
-        "colour": "B",
+        "colour": "U",
         "image": "11094_0",
         "miniimage": "11094_0",
         "cost": 3,
