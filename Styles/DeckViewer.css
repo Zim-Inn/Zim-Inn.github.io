@@ -539,21 +539,20 @@
 .CardList_ManaCost {
     background-image: url('../Images/Styles/ManaIconCL.png');
     background-size: 100%;
-    font-family: 'Domine', sans-serif;
+    font-family: 'Artifact2Numbers', sans-serif;
 }
 .CardList_GoldCost {
     background-image: url('../Images/Styles/GC.png');
     background-size: 100%;
-    font-family: 'Radiance', sans-serif;
+    font-family: 'Artifact2Numbers', sans-serif;
     letter-spacing: -0.1em;
 }
 .CardList_Cost {
-    font-size: 21pt;
+    font-size: 22pt;
     text-align: center;
     width: 36px;
     margin:4px 0 0 2px;
-    padding-top: 2px;
-    height: 34px;
+    height: 36px;
     float: left;
     color: #eee;
     text-shadow: 1px 1px 2px black;

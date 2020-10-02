@@ -10,8 +10,20 @@
 	font-style: normal;
 }
 @font-face {
+	font-family: 'Radiance1.0'; /* For the filled-in Armour icon on Heroes and Creeps */
+	src: url('fonts/Radiance-Regular-1.0.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
 	font-family: 'RadianceCon';
 	src: url('fonts/radiance-regularcondensed-fixed.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Artifact2Numbers';
+	src: url('fonts/artifact-numbers-bold.otf') format('opentype');
 	font-weight: normal;
 	font-style: normal;
 }

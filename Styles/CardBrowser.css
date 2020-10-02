@@ -101,11 +101,11 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 110%;
-    font-family: 'Domine', sans-serif;
+    font-family: 'Artifact2Numbers', sans-serif;
     margin-top: 13px;
-    padding-top: 3px;
-    height: 42px;
+    height: 45px;
     width: 42px;
+    letter-spacing: -0.08em;
     float: left;
     text-align: center;
     color: #eee;
@@ -116,15 +116,15 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    font-family: 'Domine', sans-serif;
+    font-family: 'Artifact2Numbers', sans-serif;
     margin-top: 11px;
-    padding-top: 5px;
-    height: 40px;
+    height: 45px;
     width: 42px;
+    letter-spacing: -0.08em;
     float: left;
     text-align: center;
     color: #eee;
-    font-size: 24pt;
+    font-size: 26pt;
 }
 .CardViewerPageAbilityTopText {
     float: left;
@@ -326,21 +326,20 @@
 .CardList_ManaCost {
     background-image: url('../Images/Styles/ManaCrystal.png');
     background-size: 130%;
-    font-family: 'Domine', sans-serif;
+    font-family: 'Artifact2Numbers', sans-serif;
 }
 .CardList_GoldCost {
     background-image: url('../Images/Styles/GC.png');
     background-size: 100%;
-    font-family: 'Domine', sans-serif;
+    font-family: 'Artifact2Numbers', sans-serif;
     letter-spacing: -0.1em;
 }
 .CardList_Cost {
-    font-size: 20pt;
+    font-size: 22pt;
     text-align: center;
     width: 36px;
     margin:4px 0 0 2px;
-    padding-top: 4px;
-    height: 33px;
+    height: 37px;
     float: left;
     color: #eee;
     text-shadow: 1px 1px 2px black;
@@ -592,22 +591,22 @@
     background-image: url('../Images/Styles/ManaCrystal.png');
     background-size: 130%;
     background-position: center;
-    font-family: 'Domine', sans-serif;
-    padding-top: 4px;
-    height: 26px;
+    font-family: 'Artifact2Numbers', sans-serif;
+    height: 30px;
     text-align: center;
-    font-size: 16pt;
+    font-size: 18pt;
+    letter-spacing: -0.07em;
     color: #eee;
 }
 .CVCCardListingCardCostGold {
     background-image: url('../Images/Styles/GC.png');
     background-size: 100%;
-    font-family: 'Domine', sans-serif;
+    font-family: 'Artifact2Numbers', sans-serif;
     text-shadow: 1px 1px 2px #000;
-    padding-top: 4px;
-    height: 26px;
+    height: 30px;
     text-align: center;
-    font-size: 16pt;
+    font-size: 18pt;
+    letter-spacing: -0.07em;
     color: #eee;
 }
 .CVCCardListingCardName {

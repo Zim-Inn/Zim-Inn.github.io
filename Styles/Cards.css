@@ -63,15 +63,15 @@
 }
 .CardHeaderLeftPer {
     width: 22.5%;
-    margin-top: -3.5%;
+    margin-top: -4.5%;
     text-align: center;
     float: left;
     padding-top: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 2.5%;
 }
 .CardHeaderLeftPer_ManaCost {
-    font-family: 'Domine', sans-serif;
-    font-size: 1.5em;
+    font-family: 'Artifact2Numbers', sans-serif;
+    font-size: 1.6em;
     background-image: url('../Images/Cards/Styling/ManaCrystal.png');
     background-size: 100%;
     background-position: center;
@@ -88,13 +88,13 @@
     background-size: 62%;
 }
 .CardHeaderLeftPer_CrossLane {
-    font-family: 'Domine', sans-serif;
+    font-family: 'Artifact2Numbers', sans-serif;
     font-size: 1.6em;
     background-image: url('../Images/Cards/Styling/ManaCrystal_CrossLane.png');
     background-size: 95%;
 }
 .CardHeaderLeftPer_Quick {
-    font-family: 'Domine', sans-serif;
+    font-family: 'Artifact2Numbers', sans-serif;
     font-size: 1.6em;
     background-image: url('../Images/Cards/Styling/ManaCrystal_Quick.png');
     background-size: 95%;
@@ -263,21 +263,6 @@
     background-size: 100%;
 }
 .CardStatInnerPer {
-    font-family: 'Ubuntu', sans-serif;
-    color: #ddd;
-    font-size: 1.5em;
-    font-weight: 500;
-    text-shadow: 2px 2px 2px black;
-    width: 18%;
-    padding-left: 15%;
-    height: 100%;
-    float: left;
-    background-position: 25% 50%;
-    background-repeat: no-repeat;
-    background-size: 25%;
-}
-.CardStatInnerPerRad {
-    font-family: 'Radiance', sans-serif;
     color: #ddd;
     font-size: 1.5em;
     font-weight: 500;
@@ -289,6 +274,12 @@
     background-position: 25% 50%;
     background-repeat: no-repeat;
     background-size: 25%;
+}
+.RadianceFont {
+    font-family: 'Radiance', sans-serif;
+}
+.Radiance1Font {
+    font-family: 'Radiance1.0', sans-serif;
 }
 .CardStatAttackA {
     background-image: url('../Images/Cards/Styling/Att.png');
@@ -320,18 +311,18 @@
     background-size: auto 99%;
     background-position: left;
     background-repeat: no-repeat;
-    font-family: 'Domine', sans-serif;
+    font-family: 'Artifact2Numbers', sans-serif;
     text-shadow: 1px 1px 1px black;
-    letter-spacing: -0.05em;
+    letter-spacing: -0.07em;
     text-align: center;
     color: #ddd;
-    width: 18%;
-    padding: 2% 1.5%;
-    font-size: 1.1em;
+    width: 23%;
+    padding: 0.5% 0.5% 1% 0%;
+    font-size: 1.3em;
     position: relative;
-    margin-top: -6.5%;
-    margin-bottom: -9%;
-    left: 40%;
+    margin-top: -7%;
+    margin-bottom: -9.5%;
+    left: 38%;
 }
 .CardImprovementTypeShell {
     background-size: auto 100%;

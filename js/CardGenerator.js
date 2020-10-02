@@ -100,9 +100,9 @@ const GenerateCard = function(Container,CardIDV) {
                         </div> \
                         <div class="CardBottomSetIconContainerPer '+CardColourStyle+' '+CardSetIconStyle+'"></div> \
                         <div class="CardStatsPer '+CardColourStyle+'"> \
-                            <div class="CardStatInnerPerRad">'+CardAttack+'</div> \
-                            <div class="CardStatInnerPerRad">'+CardArmour+'</div> \
-                            <div class="CardStatInnerPerRad">'+CardHP+'</div> \
+                            <div class="CardStatInnerPer RadianceFont">'+CardAttack+'</div> \
+                            <div class="CardStatInnerPer Radiance1Font">'+CardArmour+'</div> \
+                            <div class="CardStatInnerPer RadianceFont">'+CardHP+'</div> \
                             <div class="clear"></div> \
                         </div> \
                         <div class="CardEndPer '+CardColourStyle+'"></div>';
@@ -143,9 +143,9 @@ const GenerateCard = function(Container,CardIDV) {
                         </div> \
                         <div class="CardBottomSetIconContainerPer '+CardColourStyle+' '+CardSetIconStyle+'"></div> \
                         <div class="CardStatsPer '+CardColourStyle+'"> \
-                            <div class="CardStatInnerPerRad">'+CardAttack+'</div> \
-                            <div class="CardStatInnerPerRad">'+CardArmour+'</div> \
-                            <div class="CardStatInnerPerRad">'+CardHP+'</div> \
+                            <div class="CardStatInnerPer RadianceFont">'+CardAttack+'</div> \
+                            <div class="CardStatInnerPer Radiance1Font">'+CardArmour+'</div> \
+                            <div class="CardStatInnerPer RadianceFont">'+CardHP+'</div> \
                             <div class="clear"></div> \
                         </div> \
                         <div class="CardEndPer '+CardColourStyle+'"></div>';
@@ -192,9 +192,9 @@ const GenerateCard = function(Container,CardIDV) {
                         </div> \
                         <div class="CardBottomSetIconContainerPer '+CardColourStyle+' '+CardSetIconStyle+'"></div> \
                         <div class="CardStatsPer '+CardColourStyle+'"> \
-                            <div class="CardStatInnerPerRad">'+CardAttack+'</div> \
-                            <div class="CardStatInnerPerRad">'+CardArmour+'</div> \
-                            <div class="CardStatInnerPerRad">'+CardHP+'</div> \
+                            <div class="CardStatInnerPer RadianceFont">'+CardAttack+'</div> \
+                            <div class="CardStatInnerPer Radiance1Font">'+CardArmour+'</div> \
+                            <div class="CardStatInnerPer RadianceFont">'+CardHP+'</div> \
                             <div class="clear"></div> \
                         </div> \
                         <div class="CardEndPer '+CardColourStyle+'"></div>';
