@@ -7889,7 +7889,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"related_cards": ["10628_0", "10090_0"]
+		"related_cards": ["10628_0", "10090_0", "11097_0"]
 	}]
 }, {
 	"card_id": 11023,
@@ -18532,7 +18532,7 @@
 		"miniimage": "11092_0",
 		"cost": 3,
 		"text": {
-			"english": "+1 Retaliate/n [TG]Play Effect:[ET]: Taunt. /n [TG]Death Effect:[ET]: If you have a green hero, Spirit Guardian becomes a tower enchantment."
+			"english": "+1 Retaliate/n [TG]Play Effect:[ET] Taunt. /n [TG]Death Effect:[ET] If you have a green hero, Spirit Guardian becomes a tower enchantment."
 		},
 		"attack": 2,
 		"armour": 1,
@@ -18564,6 +18564,95 @@
 		"crosslane": false,
 		"quick": false,
 		"related_cards": ["11092_0"]
+	}]
+},{
+	"card_id": 11095,
+	"versions": [{
+		"release_date": "2020-10-01",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Fungal Horror"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "B",
+		"image": "11095_0",
+		"miniimage": "11095_0",
+		"cost": 4,
+		"text": {
+			"english": "Devour./n/nIf you have a green hero, Fungal Horror has +2[ATT] and its adjacent enemies have rooted"
+		},
+		"attack": 3,
+		"armour": 0,
+		"hp": 2,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	}]
+}, {
+	"card_id": 11097,
+	"versions": [{
+		"release_date": "2020-10-01",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Corpse Horde"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "U",
+		"image": "11097_0",
+		"miniimage": "11097_0",
+		"cost": 3,
+		"text": {
+			"english": "Enchant Caster./n/n[TG]Round Start:[ET] Summon a Zombie. If the lane is full, it devours a random allied creep with the lowest health./nIf you have a green hero, allies have trample."
+		},
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["1009_0"]
+	}]
+}, {
+	"card_id": 11086,
+	"versions": [{
+		"release_date": "2020-10-01",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Shock Trooper"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "R",
+		"image": "11086_0",
+		"miniimage": "11086_0",
+		"cost": 2,
+		"text": {
+			"english": "/n[TG][QU]Quickcast[ET]/n[TG]Play Effect:[ET] If you have a blue hero, deal 2 damage to the unit blocking Shock Trooper"
+		},
+		"attack": 2	,
+		"armour": 0,
+		"hp": 2,
+		"abilities": [],
+		"crosslane": false,
+		"quick": true
+	}]
+}, {
+	"card_id": 11087,
+	"versions": [{
+		"release_date": "2020-10-01",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Burning Lesions"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "B",
+		"image": "11087_0",
+		"miniimage": "11087_0",
+		"cost": 2,
+		"text": {
+			"english": "/nGive enemies +2 Decay. If you have a blue hero, deal piercing damage to each enemy equal to their Decay."
+		},
+		"crosslane": false,
+		"quick": false
 	}]
 }
 ]
