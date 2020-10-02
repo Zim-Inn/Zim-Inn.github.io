@@ -1501,6 +1501,10 @@
       {
         "release_date": "2020-07-16",
         "abilities": [ "210019_2", "210037_2" ]
+      },
+      {
+        "release_date": "2020-10-01",
+        "hp": 4
       }
     ]
   },
@@ -2733,6 +2737,12 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-10-01",
+        "text": {
+          "english": " /n +1[TG][AR][ET] /n [TG]Aura:[ET] Your creeps have +1[TG][AR][ET] and -1 Bounty."
+        }
       }
     ]
   },
@@ -3262,6 +3272,10 @@
         "release_date": "2020-06-26",
         "rarity": 5,
         "signature": [ "10757_1" ]
+      },
+      {
+        "release_date": "2020-10-01",
+        "signature": [ "10757_2" ]
       }
     ]
   },
@@ -3294,6 +3308,10 @@
           "english": " Stun a unit and give it Damage Immunity until the start of next round. /n When this effect expires, deal 1 damage to adjacent enemies."
         },
         "is_signature": "10755_1"
+      },
+      {
+        "release_date": "2020-10-01",
+        "cost": 2
       }
     ]
   },
@@ -3358,7 +3376,7 @@
         "colour": "U",
         "image": "10658_0",
         "miniimage": "10658_0",
-        "icon": "PH",
+        "icon": "10658_0",
         "attack": 1,
         "armour": 0,
         "hp": 6,
@@ -5225,7 +5243,7 @@
         "abilities": [],
         "crosslane": false,
         "quick": false,
-        "related_cards": [ "10628_0", "10090_0" ]
+        "related_cards": [ "10628_0", "10090_0", "11097_0" ]
       }
     ]
   },
@@ -5426,6 +5444,7 @@
   },
   {
     "card_id": 10216,
+    "hide_from_card_list": "Removed",
     "versions": [
       {
         "release_date": "2020-05-25",
@@ -5455,12 +5474,17 @@
         "text": {
           "english": "/n /n Get a random item at your shop level. It costs 0 Mana."
         }
+      },
+      {
+        "release_date": "2020-10-01",
+        "text": {
+          "english": "/nREMOVED FROM THE GAME"
+        }
       }
     ]
   },
   {
     "card_id": 10967,
-    "hide_from_card_list": "Removed",
     "versions": [
       {
         "release_date": "2020-05-25",
@@ -5500,6 +5524,12 @@
         "release_date": "2020-09-07",
         "text": {
           "english": " /n TEMPORARILY REMOVED FROM THE GAME."
+        }
+      },
+      {
+        "release_date": "2020-10-01",
+        "text": {
+          "english": " /n /n Summon a random Greevil."
         }
       }
     ]
@@ -5941,6 +5971,12 @@
         "text": {
           "english": "/n +5[ATT]/n When equipped hero attacks a unit in battle and survives, deal 3 damage to that unit. Repeat 3 more times: [RP] Jump left or right and deal 3 damage."
         }
+      },
+      {
+        "release_date": "2020-10-01",
+        "text": {
+          "english": "/n +5[ATT]/n When equipped hero attacks a unit and survives, deal 3 damage to that unit. Repeat 3 more times: [RP] Jump left or right and deal 3 damage."
+        }
       }
     ]
   },
@@ -6206,6 +6242,12 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-10-01",
+        "text": {
+          "english": "/n +5[ATT] /n /n [TG]Active 2[AC], 1 Mana:[ET] Disable native abilities on an enemy in any lane. Battle that enemy. /n [TG]Cross Lane[ET]"
+        }
       }
     ]
   },
@@ -6335,6 +6377,12 @@
         "release_date": "2020-06-02",
         "image": "11029_1",
         "miniimage": "11029_1"
+      },
+      {
+        "release_date": "2020-10-01",
+        "text": {
+          "english": " /n +4[AR], +4[HP], +4 Regeneration"
+        }
       }
     ]
   },
@@ -6464,6 +6512,13 @@
         "text": {
           "english": " /n [TG]Aura:[ET] Equipped hero and its neighbors have +3[ATT] and +3 Regeneration."
         }
+      },
+      {
+        "release_date": "2020-10-01",
+        "text": {
+          "english": " /n [TG]Aura:[ET] Equipped hero and its neighbors have +4[ATT] and +4 Regeneration."
+        },
+        "attack": 4
       }
     ]
   },
@@ -6735,6 +6790,9 @@
         "abilities": [ "210073_0", "210074_0" ],
         "signature": [ "10908_0" ],
         "related_cards": [ "10909_1" ]
+      },
+      {
+        "abilities": [ "210073_0", "210074_1" ]
       }
     ]
   },
@@ -7764,11 +7822,15 @@
         },
         "attack": 3,
         "armour": 1,
-        "hp": 1,
+        "hp": 2,
         "abilities": [],
         "crosslane": false,
         "quick": false,
         "related_cards": [ "11045_0" ]
+      },
+      {
+        "release_date": "2020-10-01",
+        "hp": 3
       }
     ]
   },
@@ -7829,6 +7891,10 @@
         "text": {
           "english": " Pillager, Trample /n After damaging a tower, Summon a Red Mist Pillager into the closest slot."
         }
+      },
+      {
+        "release_date": "2020-10-01",
+        "cost": 4
       }
     ]
   },
@@ -8830,6 +8896,9 @@
         "text": {
           "english": " /n /n [TG]Play Effect:[ET] Trigger neighbor Death Effects twice."
         }
+      },
+      {
+        "release_date": "2020-10-01"
       }
     ]
   },
@@ -8884,6 +8953,10 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-10-01",
+        "cost": 1
       }
     ]
   },
@@ -9047,6 +9120,12 @@
         "release_date": "2020-08-21",
         "text": {
           "english": "Devour /n [TG]Play Effect:[ET] Berserker of the Abyssm attacks the unit blocking it for battle damage equal to its health."
+        }
+      },
+      {
+        "release_date": "2020-10-01",
+        "text": {
+          "english": "Devour /n [TG]Play Effect:[ET] Berserker of the Abyssm attacks the unit blocking it for battle damage equal to Berserker of the Abyssm's health."
         }
       }
     ]
@@ -10431,7 +10510,6 @@
   },
   {
     "card_id": 10149,
-    "hide_from_card_list": "Removed",
     "versions": [
       {
         "release_date": "2020-05-25",
@@ -10456,6 +10534,12 @@
         "release_date": "2020-06-05",
         "text": {
           "english": "/n TEMPORARILY REMOVED FROM THE GAME"
+        }
+      },
+      {
+        "release_date": "2020-10-01",
+        "text": {
+          "english": "Enchant Tower/n/nWhen you play another non-item card from this lane, it has Mulch. If you have a black hero, gain 5 gold./n/n1 round cooldown."
         }
       }
     ]
@@ -11138,6 +11222,12 @@
         },
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-10-01",
+        "text": {
+          "english": " /n Enchant Enemy /n Scheme:  Enchanted unit deals 1 damage to itself"
+        }
       }
     ]
   },
@@ -12648,6 +12738,10 @@
         },
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-10-01",
+        "cost": 3
       }
     ]
   },
@@ -13090,6 +13184,12 @@
       {
         "release_date": "2020-09-24",
         "text": {
+          "english": "/n Enchant Tower /n /n [TG]Aura: [ET] Whenever an allied unit dies, give a random enemy +1 decay they die."
+        }
+      },
+      {
+        "release_date": "2020-10-01",
+        "text": {
           "english": "/n Enchant Tower /n /n [TG]Aura: [ET] Whenever an allied unit dies, give a random enemy +1 decay until they die."
         }
       }
@@ -13470,6 +13570,312 @@
         "text": {
           "english": "/nWhenever another ally is healed or gains health for the first time in a round, give Rumusque Choir +1[ATT]/+1[HP] permanently."
         }
+      }
+    ]
+  },
+  {
+    "card_id": 11096,
+    "versions": [
+      {
+        "release_date": "2020-10-01",
+        "card_type": "Creep",
+        "card_name": {
+          "english": "Gold-Plated Golem"
+        },
+        "set": 1,
+        "rarity": 3,
+        "colour": "U",
+        "image": "11096_0",
+        "miniimage": "11096_0",
+        "cost": 3,
+        "text": {
+          "english": "You gain Gold-Plated Golem's bounty instead of your opponent.\n\n Gold-Plated Golem has 5Bounty. If you have a black hero, it has another +5 Bounty."
+        },
+        "attack": 1,
+        "armour": 0,
+        "hp": 4,
+        "abilities": [],
+        "crosslane": false,
+        "quick": false
+      }
+    ]
+  },
+  {
+    "card_id": 11091,
+    "versions": [
+      {
+        "release_date": "2020-10-01",
+        "card_type": "Spell",
+        "card_name": {
+          "english": "Pincer"
+        },
+        "set": 1,
+        "rarity": 3,
+        "colour": "R",
+        "image": "11091_0",
+        "miniimage": "11091_0",
+        "cost": 4,
+        "text": {
+          "english": "/nCaster battles an adjacent enemy./nA random allied black hero with the highest Attack attacks that enemy."
+        },
+        "crosslane": false,
+        "quick": false
+      }
+    ]
+  },
+  {
+    "card_id": 11092,
+    "versions": [
+      {
+        "release_date": "2020-10-01",
+        "card_type": "Creep",
+        "card_name": {
+          "english": "Spirit Guardian"
+        },
+        "set": 1,
+        "rarity": 3,
+        "colour": "R",
+        "image": "11092_0",
+        "miniimage": "11092_0",
+        "cost": 3,
+        "text": {
+          "english": "+1 Retaliate/n [TG]Play Effect:[ET] Taunt. /n [TG]Death Effect:[ET] If you have a green hero, Spirit Guardian becomes a tower enchantment."
+        },
+        "attack": 2,
+        "armour": 1,
+        "hp": 2,
+        "abilities": [],
+        "crosslane": false,
+        "quick": false,
+        "related_cards": [ "11093_0" ]
+      }
+    ]
+  },
+  {
+    "card_id": 11093,
+    "hide_from_card_list": "Uncollectable",
+    "versions": [
+      {
+        "release_date": "2020-10-01",
+        "card_type": "Improvement",
+        "improvement_type": "Passive",
+        "card_name": {
+          "english": "Spirit Guardian"
+        },
+        "set": 1,
+        "rarity": 1,
+        "colour": "R",
+        "image": "11093_0",
+        "miniimage": "11093_0",
+        "cost": 3,
+        "text": {
+          "english": "/n/n Enchant Tower /n +1[AR], +1 Retaliate"
+        },
+        "crosslane": false,
+        "quick": false,
+        "related_cards": [ "11092_0" ]
+      }
+    ]
+  },
+  {
+    "card_id": 11095,
+    "versions": [
+      {
+        "release_date": "2020-10-01",
+        "card_type": "Creep",
+        "card_name": {
+          "english": "Fungal Horror"
+        },
+        "set": 1,
+        "rarity": 3,
+        "colour": "B",
+        "image": "11095_0",
+        "miniimage": "11095_0",
+        "cost": 4,
+        "text": {
+          "english": "Devour./n/nIf you have a green hero, Fungal Horror has +2[ATT] and its adjacent enemies have rooted"
+        },
+        "attack": 3,
+        "armour": 0,
+        "hp": 2,
+        "abilities": [],
+        "crosslane": false,
+        "quick": false
+      }
+    ]
+  },
+  {
+    "card_id": 11097,
+    "versions": [
+      {
+        "release_date": "2020-10-01",
+        "card_type": "Spell",
+        "card_name": {
+          "english": "Corpse Horde"
+        },
+        "set": 1,
+        "rarity": 3,
+        "colour": "U",
+        "image": "11097_0",
+        "miniimage": "11097_0",
+        "cost": 3,
+        "text": {
+          "english": "Enchant Caster./n/n[TG]Round Start:[ET] Summon a Zombie. If the lane is full, it devours a random allied creep with the lowest health./nIf you have a green hero, allies have trample."
+        },
+        "crosslane": false,
+        "quick": false,
+        "related_cards": [ "1009_0" ]
+      }
+    ]
+  },
+  {
+    "card_id": 11086,
+    "versions": [
+      {
+        "release_date": "2020-10-01",
+        "card_type": "Creep",
+        "card_name": {
+          "english": "Shock Trooper"
+        },
+        "set": 1,
+        "rarity": 3,
+        "colour": "R",
+        "image": "11086_0",
+        "miniimage": "11086_0",
+        "cost": 2,
+        "text": {
+          "english": "/n[TG][QU]Quickcast[ET]/n[TG]Play Effect:[ET] If you have a blue hero, deal 2 damage to the unit blocking Shock Trooper"
+        },
+        "attack": 2,
+        "armour": 0,
+        "hp": 2,
+        "abilities": [],
+        "crosslane": false,
+        "quick": true
+      }
+    ]
+  },
+  {
+    "card_id": 11087,
+    "versions": [
+      {
+        "release_date": "2020-10-01",
+        "card_type": "Spell",
+        "card_name": {
+          "english": "Burning Lesions"
+        },
+        "set": 1,
+        "rarity": 3,
+        "colour": "B",
+        "image": "11087_0",
+        "miniimage": "11087_0",
+        "cost": 2,
+        "text": {
+          "english": "/nGive enemies +2 Decay. If you have a blue hero, deal piercing damage to each enemy equal to their Decay."
+        },
+        "crosslane": false,
+        "quick": false
+      }
+    ]
+  },
+  {
+    "card_id": 11088,
+    "versions": [
+      {
+        "release_date": "2020-10-01",
+        "card_type": "Creep",
+        "card_name": {
+          "english": "Birds of Paradox"
+        },
+        "set": 1,
+        "rarity": 3,
+        "colour": "G",
+        "image": "11088_0",
+        "miniimage": "11088_0",
+        "cost": 2,
+        "text": {
+          "english": "[TG]Round Start:[ET] +1 Max Mana./n[TG]Play Effect:[ET] If you have a blue hero, trigger allied Round Start effects."
+        },
+        "attack": 0,
+        "armour": 0,
+        "hp": 1,
+        "abilities": [],
+        "crosslane": false,
+        "quick": true
+      }
+    ]
+  },
+  {
+    "card_id": 11089,
+    "versions": [
+      {
+        "release_date": "2020-10-01",
+        "card_type": "Creep",
+        "card_name": {
+          "english": "Captured Thunderhide"
+        },
+        "set": 1,
+        "rarity": 3,
+        "colour": "G",
+        "image": "11089_0",
+        "miniimage": "11089_0",
+        "cost": 6,
+        "text": {
+          "english": "[TG]Play Effect:[ET] If you have a red hero, Captured Thunderhide battles its adjacent enemies."
+        },
+        "attack": 6,
+        "armour": 0,
+        "hp": 6,
+        "abilities": [],
+        "crosslane": false,
+        "quick": true
+      }
+    ]
+  },
+  {
+    "card_id": 11090,
+    "versions": [
+      {
+        "release_date": "2020-10-01",
+        "card_type": "Spell",
+        "card_name": {
+          "english": "Raid"
+        },
+        "set": 1,
+        "rarity": 3,
+        "colour": "B",
+        "image": "11090_0",
+        "miniimage": "11090_0",
+        "cost": 4,
+        "text": {
+          "english": "/nGive allies Pillager and +1 Siege./nIf you have a red hero, proceed to the combat phase in this lane."
+        },
+        "crosslane": false,
+        "quick": false
+      }
+    ]
+  },
+  {
+    "card_id": 11094,
+    "versions": [
+      {
+        "release_date": "2020-10-01",
+        "card_type": "Improvement",
+        "improvement_type": "Passive",
+        "card_name": {
+          "english": "Archer's Parapet"
+        },
+        "set": 1,
+        "rarity": 1,
+        "colour": "B",
+        "image": "11094_0",
+        "miniimage": "11094_0",
+        "cost": 3,
+        "text": {
+          "english": "/n[TG]Round Start:[ET] Each aly deals 1 damage to the unit blocking it./nIf you have a red hero, allied units have +1[AR]."
+        },
+        "crosslane": false,
+        "quick": false
       }
     ]
   }
