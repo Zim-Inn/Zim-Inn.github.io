@@ -13875,7 +13875,7 @@
         "miniimage": "11094_0",
         "cost": 3,
         "text": {
-          "english": "/n[TG]Round Start:[ET] Each aly deals 1 damage to the unit blocking it./nIf you have a red hero, allied units have +1[AR]."
+          "english": "/n[TG]Round Start:[ET] Each ally deals 1 damage to the unit blocking it./nIf you have a red hero, allied units have +1[AR]."
         },
         "crosslane": false,
         "quick": false
