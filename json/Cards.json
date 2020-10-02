@@ -18654,5 +18654,94 @@
 		"crosslane": false,
 		"quick": false
 	}]
+}, {
+	"card_id": 11088,
+	"versions": [{
+		"release_date": "2020-10-01",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Birds of Paradox"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "G",
+		"image": "11088_0",
+		"miniimage": "11088_0",
+		"cost": 2,
+		"text": {
+			"english": "[TG]Round Start:[ET] +1 Max Mana./n[TG]Play Effect:[ET] If you have a blue hero, trigger allied Round Start effects."
+		},
+		"attack": 0	,
+		"armour": 0,
+		"hp": 1,
+		"abilities": [],
+		"crosslane": false,
+		"quick": true
+	}]
+}, {
+	"card_id": 11089,
+	"versions": [{
+		"release_date": "2020-10-01",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Captured Thunderhide"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "G",
+		"image": "11089_0",
+		"miniimage": "11089_0",
+		"cost": 6,
+		"text": {
+			"english": "[TG]Play Effect:[ET] If you have a red hero, Captured Thunderhide battles its adjacent enemies."
+		},
+		"attack": 6,
+		"armour": 0,
+		"hp": 6,
+		"abilities": [],
+		"crosslane": false,
+		"quick": true
+	}]
+}, {
+	"card_id": 11090,
+	"versions": [{
+		"release_date": "2020-10-01",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Raid"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "B",
+		"image": "11090_0",
+		"miniimage": "11090_0",
+		"cost": 4,
+		"text": {
+			"english": "/nGive allies Pillager and +1 Siege./nIf you have a red hero, proceed to the combat phase in this lane."
+		},
+		"crosslane": false,
+		"quick": false
+	}]
+}, {
+	"card_id": 11094,
+	"versions": [{
+		"release_date": "2020-10-01",
+		"card_type": "Improvement",
+		"improvement_type": "Passive",
+		"card_name": {
+			"english": "Archer's Parapet"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "B",
+		"image": "11094_0",
+		"miniimage": "11094_0",
+		"cost": 3,
+		"text": {
+			"english": "/n[TG]Round Start:[ET] Each aly deals 1 damage to the unit blocking it./nIf you have a red hero, allied units have +1[AR]."
+		},
+		"crosslane": false,
+		"quick": false
+	}]
 }
 ]
