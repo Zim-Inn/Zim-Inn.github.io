@@ -70,7 +70,40 @@
     background-color: rgba(29, 31, 44, 0.4);
     box-shadow: 0 2px 4px black;
     padding: 2.5%;
+
+    /* This 1.5s timer is important, as it is used in DeckViewer.js to time a fade animation */
+    transition: opacity 1.5s ease-in-out;
 }
+#DeckExamplesOuterContainer .swapExamples {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#DeckExamplesOuterContainer .swapExamplesButton {
+    width: 30px;
+    height: 30px;
+    box-shadow: 0 0 4px 1px black;
+    cursor: pointer;
+
+    /* background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 4px 1px black;
+    background-color: #333749;
+    background-image: url('../Images/Styles/WeaponFilter.png'); */
+}
+#DeckExamplesOuterContainer .toValve{
+    background-color: #7b1918;
+}
+#DeckExamplesOuterContainer .toCommunity{
+    background-color: #1f5e7f;
+
+    /* background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 4px 1px black;
+    background-color: #333749;
+    background-image: url('../Images/Styles/WeaponFilter.png'); */
+}
+
 #DeckExamplesOuterContainer h2 {
     text-align: center;
     margin-top: 0;
@@ -243,6 +276,11 @@
 
 }
 .DeckExampleGeneralInfo .DeckCreditLine .DeckCreditText{
+    margin-right: 15px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.DeckExampleGeneralInfo .DeckCreditLine .DeckDateText{
     margin-right: 15px;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;

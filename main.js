@@ -83,13 +83,29 @@ const InitialisePage = function(Page) {
         };
         req.send();
     });
+    let p5 = new Promise(function(resolve, reject) {
+        var req = new XMLHttpRequest();
+        req.open("GET", 'json/ValveDeckCodes.json', true);
+        req.onreadystatechange = function() {
+           if (req.readyState == XMLHttpRequest.DONE ) {
+              if (req.status == 200) {
+                  resolve(req.response);
+              } else {
+                  reject(Error(req.statusText));    
+              }
+           }
+        };
+        req.send();
+    });
+    
 
-    Promise.all([p1,p2,p3,p4]).then(responses => {
+    Promise.all([p1,p2,p3,p4, p5]).then(responses => {
         // CardJSON = JSON.parse(responses[0]);
         CardJSON = ParseCardList(responses[0]);
         AbilityJSON = JSON.parse(responses[1]);
         KeywordsJSON = JSON.parse(responses[2]);
         DeckCodesJSON = JSON.parse(responses[3]);
+        ValveDeckCodesJSON = JSON.parse(responses[4]);
 
         if (Page == "CardBrowser") {
             GenerateCardListCardBrowser();
