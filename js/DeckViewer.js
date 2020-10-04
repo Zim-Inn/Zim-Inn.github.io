@@ -732,7 +732,7 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
 
 let _deckTypeSelection = "community";
 const LoadDeckExamples = () => {
-    const containerHTML = document.getElementById("DeckExamplesOuterContainer");
+    const containerHTML = document.getElementById("DeckExamplesInnerContainer");
     containerHTML.innerHTML = "";
     if (_deckTypeSelection === "community") {
         DV_LoadCommunityDecks(containerHTML);
@@ -747,16 +747,7 @@ const DV_LoadCommunityDecks = (containerHTML) => {
     }
 
     // Add in button and unique header
-    let DeckExamplesInnerHTML = `
-        <div class="swapExamples">
-            <div class="swapExamplesButton toValve" 
-                onmouseup="DV_ChangeExamplesToTypeWithFade('valve');"
-                onmousemove="ShowTextTooltip(1, 'Swap to Deck Examples made by Valve');" 
-                onmouseout="ShowTextTooltip(0,0);"
-            ></div> 
-        </div>
-        <h2>Community Decks</h2>
-    `;
+    let DeckExamplesInnerHTML = `<h2>Community Decks</h2>`;
 
     // Produce the actual example list by iterating through the data
     DeckCodesJSON.forEach((entry, index) => {
@@ -793,16 +784,7 @@ const DV_LoadValveDecks = (containerHTML) => {
     }
 
     // Add in button and unique header
-    let DeckExamplesInnerHTML = `
-        <div class="swapExamples">
-            <div class="swapExamplesButton toCommunity" 
-                onmouseup="DV_ChangeExamplesToTypeWithFade('community');"
-                onmousemove="ShowTextTooltip(1, 'Swap to Deck Examples made by the Community');" 
-                onmouseout="ShowTextTooltip(0,0);"
-            ></div> 
-        </div>
-        <h2>Valve Decks</h2>
-    `;
+    let DeckExamplesInnerHTML = `<h2>Valve Decks</h2>`;
     ValveDeckCodesJSON.forEach((entry, index) => {
         // fetch all required data from the deck
         const DecodedDeck = getDecodedDeckFromCode(
@@ -838,13 +820,30 @@ const DV_ChangeExamplesToTypeWithFade = (newSelection) => {
     ) {
         return;
     }
+    // Avoid calling this function if the target is the same as current flag as well. Why animate no change?
+    if (_deckTypeSelection === newSelection) {
+        return;
+    }
+
     _deckTypeSelection = "";
 
+    //Change the selected tabs
+    const communityTab = document.getElementById("exampleTabCommunity");
+    const valveTab = document.getElementById("exampleTabValve");
+    if(newSelection === "community"){
+        communityTab.classList.add("selected");
+        valveTab.classList.remove("selected");
+    } else {
+        communityTab.classList.remove("selected");
+        valveTab.classList.add("selected");
+    }
+
+
     // Fade out the current examples container element
-    const containerHTML = document.getElementById("DeckExamplesOuterContainer");
+    const containerHTML = document.getElementById("DeckExamplesInnerContainer");
     containerHTML.style.opacity = 0;
 
-    // Timeout is 1.5s. This value MUST be the same as the transition timing on the CSS file for #DeckExamplesOuterContainer
+    // Timeout is 1.5s. This value MUST be the same as the transition timing on the CSS file for #DeckExamplesInnerContainer
     setTimeout(() => {
         // Set its display as non and performs changes to the content
         containerHTML.style.display = "none"

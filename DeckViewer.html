@@ -73,9 +73,21 @@
                         <button type="button" class="ArtifactButtonSmall" id="LoadDeckButton" onmouseup="LoadDeckFunc();">LOAD DECK</button>
                     </div>
                 </div>
-
-                
-                <div id="DeckExamplesOuterContainer"></div>
+                <div id="DeckExampleTabsContainer">
+                    <div id="exampleTabCommunity" class="changeExampleTab selected" 
+                        onmouseup="DV_ChangeExamplesToTypeWithFade('community');"
+                    >
+                        <p>Community</p>
+                    </div> 
+                    <div id="exampleTabValve" class="changeExampleTab" 
+                        onmouseup="DV_ChangeExamplesToTypeWithFade('valve');"
+                    >
+                        <p>Valve</p>
+                    </div> 
+                </div>
+                <div id="DeckExamplesOuterContainer">
+                    <div id="DeckExamplesInnerContainer"></div>
+                </div>
 
                 <div id="DeckViewerDeckOuterContainer">
                     <div id="DeckViewerOptions">

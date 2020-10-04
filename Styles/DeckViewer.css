@@ -65,46 +65,54 @@
     padding: 0 0.5%;
 }
 
-#DeckExamplesOuterContainer {
+#DeckExampleTabsContainer{
     margin-top: 12px;
-    background-color: rgba(29, 31, 44, 0.4);
-    box-shadow: 0 2px 4px black;
-    padding: 2.5%;
-
-    /* This 1.5s timer is important, as it is used in DeckViewer.js to time a fade animation */
-    transition: opacity 0.5s ease-in-out;
-}
-#DeckExamplesOuterContainer .swapExamples {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
-#DeckExamplesOuterContainer .swapExamplesButton {
-    width: 30px;
-    height: 30px;
-    box-shadow: 0 0 4px 1px black;
+#DeckExampleTabsContainer .changeExampleTab {
     cursor: pointer;
+    margin-left: 10px;
+    background-color: rgba(29, 31, 44, 0.4);
+    box-shadow: inset -4px 0px 12px black;
+    border: rgb(25, 10, 46) solid 2px;
+    border-bottom: 0;
+    transition: all 0.50s ease-in-out;
 
-    /* background-position: center;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 4px 1px black;
-    background-color: #333749;
-    background-image: url('../Images/Styles/WeaponFilter.png'); */
+    
+    /* border-radius: 100% 30% 0 10%; */
 }
-#DeckExamplesOuterContainer .toValve{
-    background-color: #7b1918;
-}
-#DeckExamplesOuterContainer .toCommunity{
-    background-color: #1f5e7f;
-
-    /* background-position: center;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 4px 1px black;
-    background-color: #333749;
-    background-image: url('../Images/Styles/WeaponFilter.png'); */
+#DeckExampleTabsContainer .changeExampleTab.selected {
+    background-color: rgba(71, 47, 99, 0.4);
+    border: rgb(33, 13, 59) solid 2px;    
+    border-bottom: 0;
+    box-shadow: inset 6px 6px 6px black;
 }
 
-#DeckExamplesOuterContainer h2 {
+#DeckExampleTabsContainer .changeExampleTab p {
+    font-style: italic;
+    margin: 12px 25px 0px;
+    /* margin: 12px 25px 0px 35px; */
+
+    position: relative;
+    left: 0px;
+    transition: left 0.50s ease-in-out;
+}
+#DeckExampleTabsContainer .changeExampleTab.selected p {
+    left: 6px;
+}
+
+#DeckExamplesOuterContainer {
+    background-color: rgba(29, 31, 44, 0.4);
+    box-shadow: 0 2px 4px black;
+    padding: 2.5%;
+}
+#DeckExamplesInnerContainer {
+    /* This 1.5s timer is important, as it is used in DeckViewer.js to time a fade animation */
+    transition: opacity 0.5s ease-in-out;
+}
+#DeckExamplesInnerContainer h2 {
     text-align: center;
     margin-top: 0;
 }
