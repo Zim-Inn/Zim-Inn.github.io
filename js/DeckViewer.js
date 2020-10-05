@@ -856,7 +856,7 @@ const DV_ChangeExamplesToTypeWithFade = (newSelection) => {
         // Finally, fade in the new examples container
         containerHTML.style.display = "block"
         containerHTML.style.opacity = 1;
-    }, 500);
+    }, 300);
 };
 const ShareDeckExample = (deckCode) => {
     const shareURL = document.location.href.split("?")[0] + "?d=" + deckCode;
