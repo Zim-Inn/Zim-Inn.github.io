@@ -75,22 +75,16 @@
     cursor: pointer;
     margin-left: -2px;
     background-color: rgba(19, 21, 34, 0.4);
-    /*box-shadow: inset -4px 0px 12px black;*/
-    /*border: rgb(25, 10, 46) solid 2px;*/
     border: rgb(61, 55, 70) solid 2px;
     border-bottom: 0;
     transition: all 0.25s ease-in-out;
     
-    /* border-radius: 100% 30% 0 10%; */
 }
 #DeckExampleTabsContainer .changeExampleTab.selected {
     background-color: rgba(71, 47, 99, 0.4);
-    /*background-color: rgba(49, 51, 64, 0.8);*/
-    /*border: rgb(33, 13, 59) solid 2px;    */
     border: rgb(61, 55, 70) solid 2px;
     border-bottom: 0;
     box-shadow: inset 0 -3px 2px rgb(66, 45, 97);
-    /*box-shadow: inset 3px 3px 3px black;*/
 }
 #exampleTabCommunity.selected, #exampleTabValve.selected{
     border-radius: 5px 5px 0 0;
@@ -113,7 +107,7 @@
 #DeckExampleTabsContainer .changeExampleTab p {
     font-style: italic;
     margin: 12px 25px 0px;
-    /* margin: 12px 25px 0px 35px; */
+    user-select: none;
 
     position: relative;
     transition: left 0.25s ease-in-out;
