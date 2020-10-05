@@ -8,6 +8,9 @@ const onEnterSubmit = (event, submitFunction) => {
 
 const ViewDiffDeckButton = function () {
     document.getElementById("DeckCodeInputContainer").style.display = "block";
+    document.getElementById("DeckExampleTabsContainer").style.display = "flex";
+    document.getElementById("DeckExamplesOuterContainer").style.display = "block";
+    document.getElementById("DeckViewerDeckOuterContainer").style.display = "none";
 };
 
 // ---------
@@ -250,8 +253,8 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
         "block";
     document.getElementById("DeckCodeInputContainer").style.display = "none";
     document.getElementById("DeckCodeErrorContainer").style.display = "none";
-    document.getElementById("DeckExamplesOuterContainer").style.display =
-        "none";
+    document.getElementById("DeckExamplesOuterContainer").style.display = "none";
+    document.getElementById("DeckExampleTabsContainer").style.display = "none";
 
     const DecodedDeck = getDecodedDeckFromCode(
         DeckCodeToLoad,
