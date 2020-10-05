@@ -73,8 +73,21 @@
                         <button type="button" class="ArtifactButtonSmall" id="LoadDeckButton" onmouseup="LoadDeckFunc();">LOAD DECK</button>
                     </div>
                 </div>
-
-                <div id="DeckExamplesOuterContainer"></div>
+                <div id="DeckExampleTabsContainer">
+                    <div id="exampleTabCommunity" class="DeckExamplesTabsRoundTopLeft changeExampleTab selected" 
+                        onmouseup="DV_ChangeExamplesToTypeWithFade('community');"
+                    >
+                        <p>Community</p>
+                    </div> 
+                    <div id="exampleTabValve" class="DeckExamplesTabsRoundTopRight changeExampleTab" 
+                        onmouseup="DV_ChangeExamplesToTypeWithFade('valve');"
+                    >
+                        <p>Valve</p>
+                    </div> 
+                </div>
+                <div id="DeckExamplesOuterContainer">
+                    <div id="DeckExamplesInnerContainer"></div>
+                </div>
 
                 <div id="DeckViewerDeckOuterContainer">
                     <div id="DeckViewerOptions">
@@ -253,7 +266,9 @@
         <script src="js/CardGenerator.js"></script>
         <script src="js/DeckViewer.js"></script>
         <script src="js/OrderCardList.js"></script>
+        <script src="js/HTMLgenerators/GeneratorHelpers.js"></script>
         <script src="js/HTMLgenerators/DeckExampleGenerator.js"></script>
+        <script src="js/HTMLgenerators/DeckExampleValveGenerator.js"></script>
         <script src="js/Decoder.js"></script>
         <script>InitialisePage("DeckViewer");</script>
     </body>

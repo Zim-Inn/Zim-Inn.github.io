@@ -65,13 +65,64 @@
     padding: 0 0.5%;
 }
 
+#DeckExampleTabsContainer{
+    margin-top: -15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#DeckExampleTabsContainer .changeExampleTab {
+    cursor: pointer;
+    margin-left: -2px;
+    background-color: rgba(19, 21, 34, 0.4);
+    border: rgb(61, 55, 70) solid 2px;
+    border-bottom: 0;
+    transition: all 0.25s ease-in-out;
+    
+}
+#DeckExampleTabsContainer .changeExampleTab.selected {
+    background-color: rgba(71, 47, 99, 0.4);
+    border: rgb(61, 55, 70) solid 2px;
+    border-bottom: 0;
+    box-shadow: inset 0 -3px 2px rgb(66, 45, 97);
+}
+#exampleTabCommunity.selected, #exampleTabValve.selected{
+    border-radius: 5px 5px 0 0;
+}
+.DeckExamplesTabsRoundTopLeft {
+    border-radius: 5px 0 0 0;
+}
+.DeckExamplesTabsRoundTopRight {
+    border-radius: 0 5px 0 0;
+}
+.changeExampleTab {
+    margin-top: 10px;
+    padding-bottom: 0;
+}
+.changeExampleTab.selected {
+    margin-top: 0;
+    padding-bottom: 10px;
+}
+
+#DeckExampleTabsContainer .changeExampleTab p {
+    font-style: italic;
+    margin: 12px 25px 0px;
+    user-select: none;
+
+    position: relative;
+    transition: left 0.25s ease-in-out;
+}
+
 #DeckExamplesOuterContainer {
-    margin-top: 12px;
     background-color: rgba(29, 31, 44, 0.4);
     box-shadow: 0 2px 4px black;
     padding: 2.5%;
 }
-#DeckExamplesOuterContainer h2 {
+#DeckExamplesInnerContainer {
+    /* This timer is important, as it is used in DeckViewer.js to time a fade animation */
+    transition: opacity 0.25s ease-in-out;
+}
+#DeckExamplesInnerContainer h2 {
     text-align: center;
     margin-top: 0;
 }
@@ -243,6 +294,11 @@
 
 }
 .DeckExampleGeneralInfo .DeckCreditLine .DeckCreditText{
+    margin-right: 15px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.DeckExampleGeneralInfo .DeckCreditLine .DeckDateText{
     margin-right: 15px;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;

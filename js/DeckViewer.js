@@ -8,6 +8,9 @@ const onEnterSubmit = (event, submitFunction) => {
 
 const ViewDiffDeckButton = function () {
     document.getElementById("DeckCodeInputContainer").style.display = "block";
+    document.getElementById("DeckExampleTabsContainer").style.display = "flex";
+    document.getElementById("DeckExamplesOuterContainer").style.display = "block";
+    document.getElementById("DeckViewerDeckOuterContainer").style.display = "none";
 };
 
 // ---------
@@ -63,7 +66,12 @@ const getCardDataFromDecoded = (decodedDeck) => {
                 ] || "";
             let SigIDV = "";
 
-            cardData.HeroDeck.push({ id: CardJSON[CardArrayIndex]["card_id"], colour: CardJSON[CardArrayIndex]["versions"][LatestHeroVersion].colour });
+            cardData.HeroDeck.push({
+                id: CardJSON[CardArrayIndex]["card_id"],
+                colour:
+                    CardJSON[CardArrayIndex]["versions"][LatestHeroVersion]
+                        .colour,
+            });
 
             if (
                 CardJSON[CardArrayIndex]["versions"][LatestHeroVersion][
@@ -223,7 +231,7 @@ const getDeckStats = (cardData) => {
                     1
             ]++;
             deckStats.TotalCards++;
-            if(latestVersion.cost > 7){
+            if (latestVersion.cost > 7) {
                 deckStats.TotalByMana[7]++;
             } else {
                 deckStats.TotalByMana[latestVersion.cost - 1]++;
@@ -245,8 +253,8 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
         "block";
     document.getElementById("DeckCodeInputContainer").style.display = "none";
     document.getElementById("DeckCodeErrorContainer").style.display = "none";
-    document.getElementById("DeckExamplesOuterContainer").style.display =
-        "none";
+    document.getElementById("DeckExamplesOuterContainer").style.display = "none";
+    document.getElementById("DeckExampleTabsContainer").style.display = "none";
 
     const DecodedDeck = getDecodedDeckFromCode(
         DeckCodeToLoad,
@@ -635,15 +643,16 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
                 BlackBarHeight -
                 GreenBarHeight -
                 ColourlessBarHeight;
-            document.getElementById("DeckViewerCardManaColourChartBar" + (bg + 1)).innerHTML =
-                `
+            document.getElementById(
+                "DeckViewerCardManaColourChartBar" + (bg + 1)
+            ).innerHTML = `
                     <div class="DeckViewerCardManaColouringPadding" style="height: ${PaddingBarHeight}px;"></div>
                     <div class="DeckViewerCardManaColouringR" style="height: ${RedBarHeight}px;" onmousemove="ShowTextTooltip(1,'${CardColourCounts["R"][bg]} Red Cards');" onmouseout="ShowTextTooltip(0,0);"></div>
                     <div class="DeckViewerCardManaColouringU" style="height: ${BlueBarHeight}px;" onmousemove="ShowTextTooltip(1,'${CardColourCounts["U"][bg]} Blue Cards');" onmouseout="ShowTextTooltip(0,0);"></div>
                     <div class="DeckViewerCardManaColouringB" style="height: ${BlackBarHeight}px;" onmousemove="ShowTextTooltip(1,'${CardColourCounts["B"][bg]} Black Cards');" onmouseout="ShowTextTooltip(0,0);"></div>
                     <div class="DeckViewerCardManaColouringG" style="height: ${GreenBarHeight}px;" onmousemove="ShowTextTooltip(1,'${CardColourCounts["G"][bg]} Green Cards');" onmouseout="ShowTextTooltip(0,0);"></div>
                     <div class="DeckViewerCardManaColouringC" style="height: ${ColourlessBarHeight}px;" onmousemove="ShowTextTooltip(1,'${CardColourCounts["C"][bg]} Colourless Cards');" onmouseout="ShowTextTooltip(0,0);"></div>
-                `
+                `;
         }
 
         document.getElementById("DeckViewerBoxChartR").outerHTML = `
@@ -652,29 +661,29 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
                 onmouseout="ShowTextTooltip(0,0);" >
                     ${TotalR}
                 </div>
-            `
+            `;
         document.getElementById("DeckViewerBoxChartU").outerHTML = `
                 <div id="DeckViewerBoxChartU" class="DeckViewerCardColourBoxChartInner DeckViewerCardManaColouringU"  
                 onmousemove="ShowTextTooltip(1, '${TotalU}  Blue Cards');" 
                 onmouseout="ShowTextTooltip(0,0);" >
                     ${TotalU}
                 </div>
-            `
+            `;
         document.getElementById("DeckViewerBoxChartB").outerHTML = `
                 <div id="DeckViewerBoxChartB" class="DeckViewerCardColourBoxChartInner DeckViewerCardManaColouringB"  
                 onmousemove="ShowTextTooltip(1, '${TotalB}  Black Cards');" 
                 onmouseout="ShowTextTooltip(0,0);" >
                     ${TotalB}
                 </div>
-            `
+            `;
         document.getElementById("DeckViewerBoxChartG").outerHTML = `
                 <div id="DeckViewerBoxChartG" class="DeckViewerCardColourBoxChartInner DeckViewerCardManaColouringG"  
                 onmousemove="ShowTextTooltip(1, '${TotalG}  Green Cards');" 
                 onmouseout="ShowTextTooltip(0,0);" >
                     ${TotalG}
                 </div>
-            `
-        
+            `;
+
         let TotalItemCards =
             CardTypeCounts["Weapon"] +
             CardTypeCounts["Armor"] +
@@ -724,15 +733,26 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
     }
 };
 
+let _deckTypeSelection = "community";
 const LoadDeckExamples = () => {
-    const containerHTML = document.getElementById("DeckExamplesOuterContainer");
+    const containerHTML = document.getElementById("DeckExamplesInnerContainer");
     containerHTML.innerHTML = "";
-
+    if (_deckTypeSelection === "community") {
+        DV_LoadCommunityDecks(containerHTML);
+    } else {
+        DV_LoadValveDecks(containerHTML);
+    }
+};
+const DV_LoadCommunityDecks = (containerHTML) => {
+    // If we don't have deck code data, then something has gone horribly wrong.
     if (!DeckCodesJSON || !DeckCodesJSON.length) {
         containerHTML.style.display = "none";
     }
 
-    let DeckExamplesInnerHTML = "<h2>Example Decks</h2>";
+    // Add in button and unique header
+    let DeckExamplesInnerHTML = `<h2>Community Decks</h2>`;
+
+    // Produce the actual example list by iterating through the data
     DeckCodesJSON.forEach((entry, index) => {
         // fetch all required data from the deck
         const DecodedDeck = getDecodedDeckFromCode(
@@ -760,7 +780,84 @@ const LoadDeckExamples = () => {
     });
     containerHTML.innerHTML = DeckExamplesInnerHTML;
 };
+const DV_LoadValveDecks = (containerHTML) => {
+    // If we don't have valve's deck code data, then something has gone horribly wrong.
+    if (!ValveDeckCodesJSON || !ValveDeckCodesJSON.length) {
+        containerHTML.style.display = "none";
+    }
 
+    // Add in button and unique header
+    let DeckExamplesInnerHTML = `<h2>Valve Decks</h2>`;
+    ValveDeckCodesJSON.forEach((entry, index) => {
+        // fetch all required data from the deck
+        const DecodedDeck = getDecodedDeckFromCode(
+            entry.code,
+            "Bad example deck code on index " + index + " with Error: "
+        );
+        if (!DecodedDeck) {
+            return;
+        }
+
+        const CardData = getCardDataFromDecoded(DecodedDeck);
+        const DeckStats = getDeckStats(CardData);
+
+        // Render
+        DeckExamplesInnerHTML += generateValveDeckExampleHTML(
+            CardData.DeckName,
+            entry.code,
+            entry.description,
+            entry.added,
+            entry.removed,
+            entry.updateLink,
+            CardData.HeroDeck,
+            DeckStats,
+        );
+    });
+    containerHTML.innerHTML = DeckExamplesInnerHTML;
+};
+const DV_ChangeExamplesToTypeWithFade = (newSelection) => {
+    // Avoid double calling this function by using empty string as a "waiting for animation end" flag
+    // It is set with a new value by the time the initial button is gone
+    if (
+        !(_deckTypeSelection === "community" || _deckTypeSelection === "valve")
+    ) {
+        return;
+    }
+    // Avoid calling this function if the target is the same as current flag as well. Why animate no change?
+    if (_deckTypeSelection === newSelection) {
+        return;
+    }
+
+    _deckTypeSelection = "";
+
+    //Change the selected tabs
+    const communityTab = document.getElementById("exampleTabCommunity");
+    const valveTab = document.getElementById("exampleTabValve");
+    if(newSelection === "community"){
+        communityTab.classList.add("selected");
+        valveTab.classList.remove("selected");
+    } else {
+        communityTab.classList.remove("selected");
+        valveTab.classList.add("selected");
+    }
+
+
+    // Fade out the current examples container element
+    const containerHTML = document.getElementById("DeckExamplesInnerContainer");
+    containerHTML.style.opacity = 0;
+
+    // Timeout is 1.5s. This value MUST be the same as the transition timing on the CSS file for #DeckExamplesInnerContainer
+    setTimeout(() => {
+        // Set its display as non and performs changes to the content
+        containerHTML.style.display = "none"
+        _deckTypeSelection = newSelection;
+        LoadDeckExamples();
+
+        // Finally, fade in the new examples container
+        containerHTML.style.display = "block"
+        containerHTML.style.opacity = 1;
+    }, 300);
+};
 const ShareDeckExample = (deckCode) => {
     const shareURL = document.location.href.split("?")[0] + "?d=" + deckCode;
     const copyText = document.getElementById("hiddenClipboard");

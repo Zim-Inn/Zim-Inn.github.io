@@ -105,25 +105,5 @@
             "twitch": "https://www.twitch.tv/videos/685591675?t=0h49m53s"
         }
 
-    },
-    {
-        "code": "RTFACTJaARNLgCQIDABMAFqrsCrwGUkpWHgxBCgUW1ArcCiYGMawZDYgxNT29wcyEgQWxsIE1lZXBvcy4_",
-        "description": "A jokey and non-standard deck with 5 meepos seen in a single player challenge",
-        "creator": "Valve",
-        "submitter": "",
-        "media": {
-            "youtube": "",
-            "twitch": "",
-            "link": ""
-        }
-    },
-    {
-        "code": "RTFACTJVgRvrgCwwVnAcwEOxyguwKbhIK4AZdLiQ2jAbEDKBI3Ao9NZWRkbGVzb21lIEdyZWVucw__",
-        "description": "A mono-green deck seen in a single player challenge",
-        "creator": "Valve",
-        "submitter": "",
-        "media": {
-            "twitch": ""
-        }
     }
 ]
