@@ -1145,7 +1145,7 @@
         "text": {
           "english": "/n/n [TG]After Combat:[ET] Bounce this hero. /n/n [TG]Active 3[AC], 1 Mana:[ET] Bounce the unit blocking equipped hero."
         },
-        "hp": 3
+        "hp": 0
       },
       {
         "release_date": "2020-08-07",
