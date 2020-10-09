@@ -3499,7 +3499,7 @@
         "release_date": "2020-08-21",
         "colour": "B",
         "text": {
-          "english": " /n /n Deal 3 damage to an enemy and an ally +3 temporary Health."
+          "english": " /n /n Deal 3 damage to an enemy and give an ally +3 temporary Health."
         },
         "is_signature": "10048_4"
       }
