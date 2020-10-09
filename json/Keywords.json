@@ -64,7 +64,7 @@
     },{
         "keyword": "Disarm",
         "match": "Disarm",
-        "desc": "Disarmed units do not attack their target during battles.",
+        "desc": "Disarmed units do not strike their target in battles or in the combat phase.",
         "example": ["10277","10155"]
     },{
         "keyword": "Dispel",
@@ -89,7 +89,7 @@
     },{
         "keyword": "Feeble",
         "match": "Feeble",
-        "desc": "Excess Attack damage dealt to this unit is dealt to the tower.",
+        "desc": "Excess Attack damage dealt to this unit is dealt to the tower in the combat phase.",
         "example": ["11007","10789"]
     },{
         "keyword": "Fountain",
@@ -134,7 +134,7 @@
         "example": ["10270","10007"]
     },{
         "keyword": "Pillager",
-        "match": "Pillager",
+        "match": "Pillager(?! damaged)(?! into)",
         "desc": "This unit steals 2 gold from the opponent whenever it damages their tower.",
         "example": ["10092","10132"]
     },{
@@ -170,7 +170,7 @@
     },{
         "keyword": "Retaliate",
         "match": "Retaliate",
-        "desc": "When attacked during a battle (even outside of the combat phase), deal this much extra damage to the attackers.",
+        "desc": "When a unit strikes another unit with Retaliate, the striking unit takes Retaliate damage as battle damage.",
         "example": ["10174","10281"]
     },{
         "keyword": "Root",
@@ -191,7 +191,7 @@
     },{
         "keyword": "Siege",
         "match": "Siege",
-        "desc": "During the combat phase, deal Siege damage to the enemy tower.",
+        "desc": "During the combat phase, deal Siege damage to the enemy tower as battle damage.",
         "example": ["10310","10223"]
     },{
         "hide_from_keyword_page": true,
@@ -202,13 +202,13 @@
     },{
         "keyword": "Stun",
         "match": "(Stun)(?!ned)",
-        "desc": "Stunned units can't be casters and can't use their active abilities or active abilities of their items. Stunned units do not attack in battles. When attacked, stunned units still deal rataliate damage.",
+        "desc": "Stunned units can't be casters and can't use their active abilities or active abilities of their items. Stunned units can't strike in battles or in the combat phase.",
         "example": ["11033","10657"]
     },{
         "hide_from_keyword_page": true,
         "keyword": "Stunned",
         "match": "Stunned",
-        "desc": "Stunned units can't be casters and can't use their active abilities or active abilities of their items. Stunned units do not attack in battles. When attacked, stunned units still deal rataliate damage.",
+        "desc": "Stunned units can't be casters and can't use their active abilities or active abilities of their items. Stunned units can't strike in battles or in the combat phase.",
         "example": ["11033","10657"]
     },{
         "keyword": "Swap",
@@ -223,7 +223,7 @@
     },{
         "keyword": "Trample",
         "match": "Trample",
-        "desc": "Excess Attack damage by this unit is dealt to the enemy tower.",
+        "desc": "Excess Attack damage by this unit is dealt to the enemy tower in the combat phase.",
         "example": ["10102","10758"]
     },{
         "keyword": "Untargetable",
@@ -325,5 +325,16 @@
         "match": "Repeatable",
         "desc": "Repeatable cards may be cast multiple times in one round. Abilities with triggers ignore Repeated cards.",
         "example": ["10288","10538"]
+    },{
+        "keyword": "Strike",
+        "match": "Strike",
+        "desc": "When a unit strikes another unit, it deals its Attack ▣ to that unit as battle damage, unless a different amount is specified. Disarmed units and stunned units cannot strike.",
+        "example": ["10774","10418"]
+    },{
+        "hide_from_keyword_page": true,
+        "keyword": "Striking",
+        "match": "Striking",
+        "desc": "When a unit strikes another unit, it deals its Attack ▣ to that unit as battle damage, unless a different amount is specified. Disarmed units and stunned units cannot strike.",
+        "example": ["10774","10418"]
     }
 ]

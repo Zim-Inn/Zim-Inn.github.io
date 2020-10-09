@@ -436,6 +436,18 @@
                 "text":{
                     "english":"Bounty Hunter deals +3 damage when attacking tracked heroes. /n [TG]Deploy:[ET] Track Bounty Hunter's target if it's a hero. Tracked units have +5 Bounty."
                 }
+            },{
+                "release_date":"2020-10-09",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Track"
+                 },
+                "cooldown": 0,
+                "image": "210017_0",
+                "cost": 0,
+                "text":{
+                    "english":"Bounty Hunter deals +3 damage when striking tracked heroes. /n [TG]Deploy:[ET] Track Bounty Hunter's target if it's a hero. Tracked units have +5 Bounty."
+                }
             }
         ]
     },
@@ -508,7 +520,19 @@
                 "image": "210020_0",
                 "cost": 0,
                 "text":{
-                    "english":"Double Phatnom Assassin's damage when attacking a hero."
+                    "english":"Double Phantom Assassin's damage when attacking a hero."
+                }
+            },{
+                "release_date":"2020-10-09",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Efficient Killer"
+                 },
+                "cooldown": 0,
+                "image": "210020_0",
+                "cost": 0,
+                "text":{
+                    "english":"Double Phantom Assassin's damage when striking a hero."
                 }
             }
         ]
@@ -590,6 +614,18 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 3, 1 Mana:[ET] Move up to range 5. Anti-Mage attacks the new unit blocking it for 1 battle damage. [TG]Cross Lane[ET]."
+                }
+            },{
+                "release_date":"2020-10-09",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Blink Strike"
+                 },
+                "cooldown": 3,
+                "image": "210024_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3, 1 Mana:[ET] Move up to range 5. Anti-Mage strikes the new unit blocking it for 1 battle damage. [TG]Cross Lane[ET]."
                 }
             }
         ]
@@ -829,6 +865,19 @@
                 "cost": 0,
                 "text":{
                     "english":"Whenever Legion Commander attacks a unit in battle and survives, heal Legion Commander 3."
+                }
+            },
+            {
+                "release_date":"2020-10-09",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Moment of Courage"
+                 },
+                "cooldown": 0,
+                "image": "210032_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever Legion Commander strikes a unit in battle and survives, heal Legion Commander 3."
                 }
             }
         ]
@@ -1701,6 +1750,18 @@
                 "text":{
                     "english":"Pillager. /n +2 damage when attacking a tower."
                 }
+            },{
+                "release_date":"2020-10-09",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Warmonger"
+                 },
+                "cooldown": 0,
+                "image": "210065_0",
+                "cost": 0,
+                "text":{
+                    "english":"Pillager. /n +2 damage when striking a tower."
+                }
             }
         ]
     },
@@ -2391,6 +2452,18 @@
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] Choose an enemy in any lane and move Nyx Assassin across from it. Nyx Assassin attacks the new unit blocking it with +3[ATT]./n[TG]Cross Lane[ET]"
                 }
+            }, {
+                "release_date":"2020-10-09",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Vendetta"
+                 },
+                "cooldown": 3,
+                "image": "210084_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Choose an enemy in any lane and move Nyx Assassin across from it. Nyx Assassin strikes the new unit blocking it with +3[ATT]./n[TG]Cross Lane[ET]"
+                }
             }
         ]
     },
@@ -2545,6 +2618,18 @@
                 "text":{
                     "english":"When you play a non-item card, Tidehunter attacks its adjacent enemies for 1 battle damage and gives them -1[ATT]. If there are none, attack the enemy tower for 1 battle damage. 1 round cooldown."
                 }
+            },{
+                "release_date":"2020-10-09",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Anchor Smash"
+                 },
+                "cooldown": 1,
+                "image": "11065_0",
+                "cost": 0,
+                "text":{
+                    "english":"When you play a non-item card, Tidehunter strikes its adjacent enemies for 1 battle damage and gives them -1[ATT]. If there are none, strike the enemy tower for 1 battle damage. 1 round cooldown."
+                }
             }
         ]
     },
@@ -2688,6 +2773,18 @@
                 "text":{
                     "english":"Storm Spirit has +1[ATT] per charge. After you play a spell or enchantment from this lane, add a charge until Storm Spirit attacks in a battle."
                 }
+            },{
+                "release_date":"2020-10-09",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Overload"
+                 },
+                "cooldown": 1,
+                "image": "11068_0",
+                "cost": 0,
+                "text":{
+                    "english":"After you play a spell or enchantment from Storm Spirit's lane, give Storm Spirit +1[ATT] this round."
+                }
             }
         ]
     },
@@ -2706,6 +2803,18 @@
                 "cost": 0,
                 "text":{
                     "english":"When Troll Warlord attacks a new target, set charges to 1. Whenever Troll Warlord attacks that target again, add a charge. /n Troll Warlord deals +1 damage per charge when attacking that target. /n Death Effect: Remove all charges."
+                }
+            },{
+                "release_date":"2020-10-09",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Fervor"
+                 },
+                "cooldown": 0,
+                "image": "11040_0",
+                "cost": 0,
+                "text":{
+                    "english":"When Troll Warlord strikes a new target, set charges to 1. Whenever Troll Warlord strikes that target again, add a charge. /n Troll Warlord deals +1 damage per charge when striking that target. /n Death Effect: Remove all charges."
                 }
             }
         ]
@@ -2726,6 +2835,18 @@
                 "text":{
                     "english":"Round Start: Troll Warlord attacks its combat target for 1 battle damage."
                 }
+            },{
+                "release_date":"2020-10-09",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Whirling Axes"
+                 },
+                "cooldown": 0,
+                "image": "11084_0",
+                "cost": 0,
+                "text":{
+                    "english":"Round Start: Troll Warlord strikes its combat target for 1 battle damage."
+                }
             }
         ]
     },
@@ -2744,6 +2865,18 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] When Abaddon is dealt damage this round, heal that much instead."
+                }
+            },{
+                "release_date":"2020-10-09",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Borrowed Time"
+                 },
+                "cooldown": 2,
+                "image": "10431_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Purge opponent's effects. When Abaddon is dealt damage this round, heal that much instead. May be used when stunned or silenced."
                 }
             }
         ]

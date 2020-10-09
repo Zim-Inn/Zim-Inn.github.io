@@ -430,6 +430,10 @@
       {
         "release_date": "2020-09-24",
         "signature": [ "10785_2" ]
+      },
+      {
+        "release_date": "2020-10-09",
+        "abilities": [ "210018_1" ]
       }
     ]
   },
@@ -468,7 +472,7 @@
           "english": "/n Give caster Untargetable./n /n Bounce caster if they survive combat. /n /n [TG][QU]Quickcast[ET]"
         },
         "quick": true,
-        "is_signature": "10783_2"
+        "is_signature": "10783_3"
       }
     ]
   },
@@ -1153,6 +1157,11 @@
         "text": {
           "english": "/n/n [TG]After Combat:[ET] Bounce this hero. /n/n 2 round cooldown."
         }
+      },{
+        "release_date": "2020-10-09",
+        "text": {
+          "english": "/n+2[HP]/n/n [TG]After Combat:[ET] Bounce this hero. /n/n 2 round cooldown."
+        }
       }
     ]
   },
@@ -1572,6 +1581,10 @@
         "release_date": "2020-06-26",
         "abilities": [ "210020_1" ],
         "signature": [ "10308_1" ]
+      },
+      {
+        "release_date": "2020-10-09",
+        "abilities": [ "210020_2" ]
       }
     ]
   },
@@ -1610,7 +1623,7 @@
         "text": {
           "english": "/n Discard a random non-item card. /n Slay a hero."
         },
-        "is_signature": "10047_2"
+        "is_signature": "10047_3"
       }
     ]
   },
@@ -1777,6 +1790,10 @@
       {
         "release_date": "2020-09-18",
         "abilities": [ "210024_2", "210025_1" ]
+      },
+      {
+        "release_date": "2020-10-09",
+        "abilities": [ "210024_3", "210025_1" ]
       }
     ]
   },
@@ -2297,6 +2314,10 @@
       {
         "release_date": "2020-07-31",
         "abilities": [ "210032_3" ]
+      },
+      {
+        "release_date": "2020-10-09",
+        "abilities": [ "210032_4" ]
       }
     ]
   },
@@ -2333,7 +2354,7 @@
       {
         "release_date": "2020-06-15",
         "rarity": 1,
-        "is_signature": "10069_4"
+        "is_signature": "10069_5"
       }
     ]
   },
@@ -2601,6 +2622,12 @@
         "release_date": "2020-08-21",
         "text": {
           "english": " +2 damage when attacking a tower. /n [TG]Active 1[AC], 1 Mana:[ET] Move to an empty slot. Horde Stryder attacks its new combat target for 2 battle damage."
+        }
+      },
+      {
+        "release_date": "2020-10-09",
+        "text": {
+          "english": " +2 damage when striking a tower. /n [TG]Active 1[AC], 1 Mana:[ET] Move to an empty slot. Horde Stryder strikes its new combat target for 2 battle damage."
         }
       }
     ]
@@ -2946,6 +2973,11 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },{
+        "release_date": "2020-10-09",
+        "text": {
+          "english": " /n Wild Boar deals +2 damage when striking a unit."
+        }
       }
     ]
   },
@@ -3534,6 +3566,10 @@
       {
         "release_date": "2020-07-31",
         "signature": [ "10666_1" ]
+      },
+      {
+        "release_date": "2020-10-09",
+        "signature": [ "10666_2" ]
       }
     ]
   },
@@ -3566,6 +3602,13 @@
           "english": "/n Enchant Tower /n /n [TG]Active 2[AC], Mana 1:[ET] Choose an ally. It battles the enemy tower. Slay that ally."
         },
         "is_signature": "10663_2"
+      },
+      {
+        "release_date": "2020-10-09",
+        "text": {
+          "english": "/n Enchant Tower /n /n [TG]Active 2[AC], Mana 1:[ET] Choose an ally. It strikes the enemy tower. Slay that ally."
+        },
+        "is_signature": "10663_3"
       }
     ]
   },
@@ -3805,7 +3848,12 @@
         "abilities": [ "210051_1" ]
       },
       {
+        "release_date": "2020-08-21",
         "signature": [ "10282_2" ]
+      },
+      {
+        "release_date": "2020-10-09",
+        "signature": [ "10282_3" ]
       }
     ]
   },
@@ -3842,6 +3890,13 @@
           "english": " /n /n Repeat two times: [RP] Caster attacks the unit blocking it for 2 battle damage. "
         },
         "is_signature": "10070_3"
+      },
+      {
+        "release_date": "2020-10-09",
+        "text": {
+          "english": " /n /n Repeat two times: [RP] Caster strikes the unit blocking it for 2 battle damage. "
+        },
+        "is_signature": "10070_4"
       }
     ]
   },
@@ -4117,6 +4172,10 @@
       {
         "release_date": "2020-09-18",
         "signature": [ "10975_1" ]
+      },
+      {
+        "release_date": "2020-10-09",
+        "abilities": [ "11065_2", "210056_1" ]
       }
     ]
   },
@@ -4147,7 +4206,7 @@
         "text": {
           "english": " /n /n Deal 2 damage to a unit and give it -2[AR] this round."
         },
-        "is_signature": "10024_4"
+        "is_signature": "10024_5"
       }
     ]
   },
@@ -4326,7 +4385,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10646_3"
+        "is_signature": "10646_4"
       }
     ]
   },
@@ -4622,6 +4681,10 @@
         "hp": 4,
         "abilities": [ "210065_0" ],
         "signature": [ "10177_0" ]
+      },{
+        "release_date": "2020-10-09",
+        "abilities": [ "210065_1" ],
+        "signature": [ "10177_1" ]
       }
     ]
   },
@@ -4647,6 +4710,12 @@
         "crosslane": false,
         "quick": false,
         "is_signature": "10058_0"
+      },{
+        "release_date": "2020-10-09",
+        "text": {
+          "english": "/n Enchant Tower /n [TG]Aura:[ET] Enemy units with 3 or less health are feeble. /n [TG]Aura:[ET] Allies deal +1 damage when striking a tower."
+        },
+        "is_signature": "10058_1"
       }
     ]
   },
@@ -4696,6 +4765,10 @@
       {
         "release_date": "2020-09-24",
         "abilities": [ "210066_1", "11068_1" ]
+      },
+      {
+        "release_date": "2020-10-09",
+        "abilities": [ "210066_1", "11068_2" ]
       }
     ]
   },
@@ -4742,7 +4815,7 @@
         "text": {
           "english": " /n Move up to range 5. /n Repeatable this round. /n [TG][QU]Quickcast[ET] if the slot was empty. /n /n [TG]Cross Lane[ET] /n "
         },
-        "is_signature": "10536_5"
+        "is_signature": "10536_6"
       }
     ]
   },
@@ -4791,7 +4864,7 @@
         "text": {
           "english": " Feeble /n [TG]After Combat:[ET] Slay Static Remnant. /n [TG]Death Effect:[ET] Deal 2 piercing damage to Static Remnant's adjacent enemies."
         },
-        "related_cards": [ "10536_4" ]
+        "related_cards": [ "10536_6" ]
       }
     ]
   },
@@ -4882,6 +4955,10 @@
       {
         "release_date": "2020-09-24",
         "signature": [ "10011_1" ]
+      },
+      {
+        "release_date": "2020-10-09",
+        "signature": [ "10011_2" ]
       }
     ]
   },
@@ -4911,6 +4988,12 @@
         "release_date": "2020-09-24",
         "cost": 4,
         "is_signature": "10010_2"
+      },{
+        "release_date": "2020-10-09",
+        "text": {
+          "english": " /n Stun an enemy. It's allied neighbors strike it."
+        },
+        "is_signature": "10010_3"
       }
     ]
   },
@@ -5244,7 +5327,7 @@
         "abilities": [],
         "crosslane": false,
         "quick": false,
-        "related_cards": [ "10628_0", "10090_0", "11097_0" ]
+        "related_cards": [ "10628_1", "10090_1", "11097_1" ]
       }
     ]
   },
@@ -5374,6 +5457,12 @@
         "release_date": "2020-09-18",
         "text": {
           "english": " /n /n +4 damage when attacking a tower."
+        }
+      },
+      {
+        "release_date": "2020-10-09",
+        "text": {
+          "english": " /n /n +4 damage when striking a tower."
         }
       }
     ]
@@ -5977,6 +6066,12 @@
         "release_date": "2020-10-01",
         "text": {
           "english": "/n +5[ATT]/n When equipped hero attacks a unit and survives, deal 3 damage to that unit. Repeat 3 more times: [RP] Jump left or right and deal 3 damage."
+        }
+      },
+      {
+        "release_date": "2020-10-09",
+        "text": {
+          "english": "/n +5[ATT]/n When equipped hero strikes a unit and survives, deal 3 damage to that unit. Repeat 3 more times: [RP] Jump left or right and deal 3 damage."
         }
       }
     ]
@@ -7356,6 +7451,12 @@
         "text": {
           "english": "/n [TG]Round Start:[ET] Stonehall Paragon attacks the unit blocking it for 2 battle damage."
         }
+      },
+      {
+        "release_date": "2020-10-09",
+        "text": {
+          "english": "/n [TG]Round Start:[ET] Stonehall Paragon strikes the unit blocking it for 2 battle damage."
+        }
       }
     ]
   },
@@ -7829,11 +7930,7 @@
         "abilities": [],
         "crosslane": false,
         "quick": false,
-        "related_cards": [ "11045_0" ]
-      },
-      {
-        "release_date": "2020-10-01",
-        "hp": 3
+        "related_cards": [ "11045_2" ]
       }
     ]
   },
@@ -7898,6 +7995,11 @@
       {
         "release_date": "2020-10-01",
         "cost": 4
+      },{
+        "release_date": "2020-10-09",
+        "text": {
+          "english": " Pillager, Trample /n/n [TG]After Combat:[ET] If Red Mist Pillager damaged a tower, summon a Red Mist Pillager into the closest slot."
+        }
       }
     ]
   },
@@ -9052,7 +9154,7 @@
       {
         "release_date": "2020-06-26",
         "text": {
-          "english": "Whenever  an ally dies, Summon an Eidolon and remove a charge. /n /n [TG]Charges: 5[ET]"
+          "english": "Whenever an ally dies, Summon an Eidolon and remove a charge. /n /n [TG]Charges: 5[ET]"
         }
       },
       {
@@ -9130,6 +9232,12 @@
         "text": {
           "english": "Devour /n [TG]Play Effect:[ET] Berserker of the Abyssm attacks the unit blocking it for battle damage equal to Berserker of the Abyssm's health."
         }
+      },
+      {
+        "release_date": "2020-10-09",
+        "text": {
+          "english": "Devour /n [TG]Play Effect:[ET] Berserker of the Abyssm strikes the unit blocking it for battle damage equal to Berserker of the Abyssm's health."
+        }
       }
     ]
   },
@@ -9195,6 +9303,12 @@
         "release_date": "2020-08-21",
         "text": {
           "english": "/n [TG]Play Effect:[ET] Abyssm Flesh Render attacks adjacent units on both teams for 1 battle damage."
+        }
+      },
+      {
+        "release_date": "2020-10-09",
+        "text": {
+          "english": "/n [TG]Play Effect:[ET] Abyssm Flesh Render strikes adjacent units on both teams for 1 battle damage."
         }
       }
     ]
@@ -11180,6 +11294,12 @@
         "text": {
           "english": " /n Move caster to an unopposed enemy in another lane./n[RP] Caster attacks it for 2 battle damage./n/n[TG]Cross Lane[ET]"
         }
+      },
+      {
+        "release_date": "2020-10-09",
+        "text": {
+          "english": " /n Move caster to an unopposed enemy in another lane./n[RP] Caster strikes it for 2 battle damage./n/n[TG]Cross Lane[ET]"
+        }
       }
     ]
   },
@@ -11589,6 +11709,12 @@
         "release_date": "2020-08-21",
         "text": {
           "english": " /n Choose unit. It taunts, then each unit pointing at it attacks it for 1 battle damage."
+        }
+      },
+      {
+        "release_date": "2020-10-09",
+        "text": {
+          "english": " /n Choose unit. It taunts, then each unit pointing at it strikes it for 1 battle damage."
         }
       }
     ]
@@ -13083,7 +13209,12 @@
         "abilities": [ "210084_4" ]
       },
       {
+        "release_date": "2020-09-03",
         "signature": [ "11058_2" ]
+      },
+      {
+        "release_date": "2020-10-09",
+        "abilities": [ "210084_5" ]
       }
     ]
   },
@@ -13119,7 +13250,7 @@
         "text": {
           "english": " /n Choose caster. When taking damage this round, reflect damage back, stun its source until its next combat, then purge enemy effects from this unit."
         },
-        "is_signature": "11056_6"
+        "is_signature": "11056_7"
       }
     ]
   },
@@ -13281,6 +13412,9 @@
         "hp": 6,
         "abilities": [ "11040_0", "11084_0" ],
         "signature": [ "11041_0" ]
+      },{
+        "release_date": "2020-10-09",
+        "abilities": [ "11040_1", "11084_1" ]
       }
     ]
   },
@@ -13304,7 +13438,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "11039_0"
+        "is_signature": "11039_1"
       }
     ]
   },
@@ -13328,6 +13462,12 @@
         "hp": 6,
         "abilities": [ "10431_0" ],
         "signature": [ "11074_0" ]
+      },{
+        "release_date": "2020-10-09",
+        "attack": 2,
+        "hp": 8,
+        "abilities": [ "10431_1" ],
+        "signature": [ "11074_1" ]
       }
     ]
   },
@@ -13352,6 +13492,12 @@
         "crosslane": false,
         "quick": false,
         "is_signature": "10016_0"
+      },{
+        "release_date": "2020-10-09",
+        "text": {
+          "english": " /n Deal 2 damage to the caster. It cannot die from this spell. /n Heal and ally 3 or deal 3 damage to an enemy."
+        },
+        "is_signature": "10016_1"
       }
     ]
   },
@@ -13624,6 +13770,11 @@
         },
         "crosslane": false,
         "quick": false
+      },{
+        "release_date": "2020-10-09",
+        "text": {
+          "english": "/nCaster battles an adjacent enemy./nA random allied black hero with the highest Attack strikes that enemy."
+        }
       }
     ]
   },
@@ -13697,7 +13848,7 @@
         "miniimage": "11095_0",
         "cost": 4,
         "text": {
-          "english": "Devour./n/nIf you have a green hero, Fungal Horror has +2[ATT] and its adjacent enemies have rooted"
+          "english": "Devour./n/nIf you have a green hero, Fungal Horror has +2[ATT] and its adjacent enemies have rooted."
         },
         "attack": 3,
         "armour": 0,
@@ -13705,6 +13856,11 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },{
+        "release_date": "2020-10-09",
+        "text": {
+          "english": "Devour./n/nIf you have a green hero, Fungal Horror has +2[ATT] and its adjacent enemies are rooted."
+        }
       }
     ]
   },
@@ -13729,6 +13885,11 @@
         "crosslane": false,
         "quick": false,
         "related_cards": [ "1009_0" ]
+      },{
+        "release_date": "2020-10-09",
+        "text": {
+          "english": "Enchant Caster./n/n[TG]After Combat:[ET] [RP] Summon a Zombie. If the lane is full, it devours a random allied creep with the lowest health./nIf you have a green hero, allies have trample."
+        }
       }
     ]
   },
