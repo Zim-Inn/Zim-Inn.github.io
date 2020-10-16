@@ -4183,6 +4183,10 @@
         "release_date": "2020-07-31",
         "attack": 2,
         "abilities": [ "210054_2" ]
+      },
+      {
+        "release_date": "2020-07-31",
+        "signature": [ "10278_1" ]
       }
     ]
   },
@@ -4207,6 +4211,11 @@
         "crosslane": false,
         "quick": false,
         "is_signature": "10065_2"
+      },
+      {
+        "release_date": "2020-10-16",
+        "cost": 5,
+        "is_signature": "10065_3"
       }
     ]
   },
@@ -6990,6 +6999,10 @@
       {
         "release_date": "2020-10-01",
         "abilities": [ "210073_0", "210074_1" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "hp": 9
       }
     ]
   },
@@ -7013,7 +7026,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10906_1"
+        "is_signature": "10906_2"
       }
     ]
   },
@@ -13051,6 +13064,10 @@
       {
         "release_date": "2020-10-01",
         "cost": 3
+      },
+      {
+        "release_date": "2020-10-16",
+        "cost": 2
       }
     ]
   },
