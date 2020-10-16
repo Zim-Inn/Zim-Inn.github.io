@@ -1220,6 +1220,11 @@
         "related_cards": [],
         "crosslane": false,
         "quick": false
+      }, {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": "/n +1[AR] /n [TG]Active 1[AC], 1 Mana: [ET] /n Reduce adjacent enemies to 1 [HP]. They are stunned, rooted, and feeble."
+        }
       }
     ]
   },
@@ -1402,7 +1407,7 @@
       {
         "release_date": "2020-10-16",
         "text": {
-          "english": "/n Slay a damaged enemy unit with 3 or less Health and Stun other enemies for 1 action. /n /n Repeatable this round when you slay an hero"
+          "english": "/n Slay a damaged enemy unit with 3 or less [HP] and Stun other enemies for 1 action. /n /n Repeatable this round when you slay an hero"
         },
         "is_signature": "10020_2"
       }
@@ -1866,6 +1871,10 @@
         "release_date": "2020-06-15",
         "rarity": 2,
         "signature": [ "10330_1" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "abilities": [ "210026_1" ]
       }
     ]
   },
@@ -1903,7 +1912,7 @@
         "release_date": "2020-06-15",
         "rarity": 2,
         "cost": 3,
-        "is_signature": "10054_1"
+        "is_signature": "10054_2"
       }
     ]
   },
@@ -2101,6 +2110,11 @@
         "attack": 3,
         "hp": 5,
         "signature": [ "10289_2" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "abilities": [ "210029_2" ],
+        "signature": [ "10289_3" ]
       }
     ]
   },
@@ -2137,6 +2151,13 @@
         "release_date": "2020-09-18",
         "cost": 3,
         "is_signature": "10018_3"
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " /n Choose caster. Choose an enemy unit, reduce it to 3 [HP] and give caster temporary [HP] equal to the amount removed."
+        },
+        "is_signature": "10018_4"
       }
     ]
   },
@@ -2509,6 +2530,10 @@
       {
         "release_date": "2020-08-28",
         "abilities": [ "210034_2", "11069_1" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "abilities": [ "210034_2", "11069_2" ]
       }
     ]
   },
@@ -2543,7 +2568,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10014_3"
+        "is_signature": "10014_4"
       }
     ]
   },
@@ -3302,6 +3327,10 @@
       {
         "release_date": "2020-07-16",
         "abilities": [ "210041_1", "11063_1" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "abilities": [ "210041_1", "11063_2" ]
       }
     ]
   },
@@ -3325,7 +3354,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10021_4"
+        "is_signature": "10021_5"
       }
     ]
   },
@@ -3565,6 +3594,10 @@
       {
         "release_date": "2020-09-24",
         "abilities": [ "10444_2" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "signature": [ "10821_2" ]
       }
     ]
   },
@@ -3597,6 +3630,14 @@
           "english": " /n /n Deal 3 damage to an enemy and give an ally +3 temporary Health."
         },
         "is_signature": "10048_4"
+      },
+      {
+        "release_date": "2020-10-16",
+        "colour": "B",
+        "text": {
+          "english": " /n /n Deal 3 damage to an enemy and give an ally +3 temporary [HP]."
+        },
+        "is_signature": "10048_5"
       }
     ]
   },
@@ -3968,7 +4009,7 @@
       {
         "release_date": "2020-10-16",
         "text": {
-          "english": " /n /n Repeat two times: [RP] Caster strikes the unit blocking it for 2 physical damage. "
+          "english": " /n /n Repeat two times: [RP] Caster strikes the unit blocking it for 2 [ATT]. "
         },
         "is_signature": "10070_5"
       }
@@ -4399,6 +4440,10 @@
         "release_date": "2020-05-25",
         "hp": 6,
         "signature": [ "10676_1" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "abilities": [ "210058_1" ]
       }
     ]
   },
@@ -4430,7 +4475,8 @@
         "rarity": 5,
         "text": {
           "english": " /n Push an enemy and Deal 1 damage to it. Summon an Ice Shard in its place."
-        }
+        },
+        "is_signature": "10674_2"
       }
     ]
   },
@@ -4668,6 +4714,10 @@
       {
         "release_date": "2020-06-26",
         "abilities": [ "210061_1", "210062_0" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "abilities": [ "210061_1", "210062_1" ]
       }
     ]
   },
@@ -4691,7 +4741,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10059_1"
+        "is_signature": "10059_2"
       }
     ]
   },
@@ -5764,6 +5814,12 @@
         "text": {
           "english": "/n +4 [AR]/n [TG]Play Effect:[ET] Activate./n [TG]Active 2[AC], 1 Mana:[ET] Purge your opponent's effects from equipped hero. Give each ally +4 temporary Health."
         }
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": "/n +4 [AR]/n [TG]Play Effect:[ET] Activate./n [TG]Active 2[AC], 1 Mana:[ET] Purge your opponent's effects from equipped hero. Give each ally +4 temporary [HP]."
+        }
       }
     ]
   },
@@ -5803,6 +5859,13 @@
         "release_date": "2020-07-31",
         "text": {
           "english": " [TG]Play Effect:[ET] Reduce Shattered Terrapin to 3 health. /n When healed, transform Shattered Terrapin into Terrapin Greatshell."
+        },
+        "related_cards": [ "11055_1" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " [TG]Play Effect:[ET] Reduce Shattered Terrapin to 3 [HP]. /n When healed, transform Shattered Terrapin into Terrapin Greatshell."
         },
         "related_cards": [ "11055_1" ]
       }
@@ -6549,6 +6612,12 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      }, {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " /n +3[HP] /n [TG]After Combat:[ET] Increase [HP] by 1."
+        }
+
       }
     ]
   },
@@ -7002,7 +7071,8 @@
       },
       {
         "release_date": "2020-10-16",
-        "hp": 9
+        "hp": 9,
+        "signature": [ "10908_1" ]
       }
     ]
   },
@@ -7026,6 +7096,12 @@
         },
         "crosslane": false,
         "quick": false,
+        "is_signature": "10906_1"
+      }, {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " /n Give caster Trample. Disarm your creeps and give their [ATT] to the caster."
+        },
         "is_signature": "10906_2"
       }
     ]
@@ -7343,6 +7419,11 @@
         "signature": [ "10706_0" ]
       },
       {
+        "release_date": "2020-07-16",
+        "abilities": [ "210079_1" ]
+      },
+      {
+        "release_date": "2020-10-16",
         "abilities": [ "210079_1" ]
       }
     ]
@@ -7368,7 +7449,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10704_1"
+        "is_signature": "10704_2"
       }
     ]
   },
@@ -7589,7 +7670,7 @@
       {
         "release_date": "2020-10-16",
         "text": {
-          "english": "/n [TG]Round Start:[ET] Stonehall Paragon strikes the unit blocking it for 2 physical damage."
+          "english": "/n [TG]Round Start:[ET] Stonehall Paragon strikes the unit blocking it for 2 [ATT]."
         }
       }
     ]
@@ -8447,6 +8528,12 @@
         },
         "text": {
           "english": "Replace an allied unit. Bounce and gain the unit's attack and health. If the bounced unit is a creep, give it +1 Lock. /n Homunculus which replace heroes can cast spells."
+        }
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": "Replace an allied unit. Bounce and gain the unit's [ATT] and [HP]. If the bounced unit is a creep, give it +1 Lock. /n Homunculus which replace heroes can cast spells."
         }
       }
     ]
@@ -9633,6 +9720,12 @@
         "release_date": "2020-06-26",
         "text": {
           "english": "/n [TG]Play Effect:[ET] Give neighbors Regeneration equal to their current Health."
+        }
+      },
+      {
+        "release_date": "2020-10-26",
+        "text": {
+          "english": "/n [TG]Play Effect:[ET] Give neighbors Regeneration equal to their current [HP]."
         }
       }
     ]
@@ -11070,6 +11163,11 @@
         },
         "crosslane": false,
         "quick": false
+      }, {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " /n Repeat three times: [RP] Deal 1 damage to a random enemy with the least [HP]."
+        }
       }
     ]
   },
@@ -11093,6 +11191,11 @@
         },
         "crosslane": false,
         "quick": false
+      }, {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " /n Enchant Caster /n Caster has +1[ATT] per missing [HP]."
+        }
       }
     ]
   },
@@ -11479,7 +11582,7 @@
       {
         "release_date": "2020-10-16",
         "text": {
-          "english": " /n Move caster to an unopposed enemy in another lane./n[RP] Caster strikes it for 2 physical damage./n/n[TG]Cross Lane[ET]"
+          "english": " /n Move caster to an unopposed enemy in another lane./n[RP] Caster strikes it for 2 [ATT]./n/n[TG]Cross Lane[ET]"
         }
       }
     ]
@@ -11901,7 +12004,7 @@
       {
         "release_date": "2020-10-16",
         "text": {
-          "english": " /n Choose unit. It taunts, then each unit pointing at it strikes it for 1 physical damage."
+          "english": " /n Choose unit. It taunts, then each unit pointing at it strikes it for 1 [ATT]."
         }
       }
     ]
@@ -12177,7 +12280,7 @@
       {
         "release_date": "2020-10-16",
         "text": {
-          "english": " /n Enchant Caster/nIf there are no adjacent enemies, this hero has +Attack equal to its health."
+          "english": " /n Enchant Caster/nIf there are no adjacent enemies, this hero has +[ATT] equal to its [HP]."
         }
       }
     ]
@@ -13042,7 +13145,13 @@
       {
         "release_date": "2020-06-26",
         "text": {
-          "english": "/n REMOVED FROM THE GAME."
+          "english": "/n REMOVED FROM THE GAME. /n/n Give a unit -Armor equal to its current Armor value permanently."
+        }
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": "/n REMOVED FROM THE GAME. /n/n Give a unit -[AR] equal to its current [AR] value permanently."
         }
       }
     ]
@@ -13488,6 +13597,12 @@
       {
         "release_date": "2020-07-31",
         "cost": 3
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " /n Enchant Tower. /n Mulch. /n /n [TG]Round Start: [ET] Give allied units +1 temporary [HP]."
+        }
       }
     ]
   },
@@ -13990,6 +14105,11 @@
         "release_date": "2020-10-09",
         "text": {
           "english": "/nCaster battles an adjacent enemy./nA random allied black hero with the highest Attack strikes that enemy."
+        }
+      },{
+        "release_date": "2020-10-16",
+        "text": {
+          "english": "/nCaster battles an adjacent enemy./nA random allied black hero with the highest [ATT] strikes that enemy."
         }
       }
     ]
