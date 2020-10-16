@@ -5814,6 +5814,12 @@
         "text": {
           "english": "/n +4 [AR]/n [TG]Play Effect:[ET] Activate./n [TG]Active 2[AC], 1 Mana:[ET] Purge your opponent's effects from equipped hero. Give each ally +4 temporary Health."
         }
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": "/n +4 [AR]/n [TG]Play Effect:[ET] Activate./n [TG]Active 2[AC], 1 Mana:[ET] Purge your opponent's effects from equipped hero. Give each ally +4 temporary [HP]."
+        }
       }
     ]
   },
@@ -5853,6 +5859,13 @@
         "release_date": "2020-07-31",
         "text": {
           "english": " [TG]Play Effect:[ET] Reduce Shattered Terrapin to 3 health. /n When healed, transform Shattered Terrapin into Terrapin Greatshell."
+        },
+        "related_cards": [ "11055_1" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " [TG]Play Effect:[ET] Reduce Shattered Terrapin to 3 [HP]. /n When healed, transform Shattered Terrapin into Terrapin Greatshell."
         },
         "related_cards": [ "11055_1" ]
       }
@@ -7657,7 +7670,7 @@
       {
         "release_date": "2020-10-16",
         "text": {
-          "english": "/n [TG]Round Start:[ET] Stonehall Paragon strikes the unit blocking it for 2 physical damage."
+          "english": "/n [TG]Round Start:[ET] Stonehall Paragon strikes the unit blocking it for 2 [ATT]."
         }
       }
     ]
@@ -13584,6 +13597,12 @@
       {
         "release_date": "2020-07-31",
         "cost": 3
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " /n Enchant Tower. /n Mulch. /n /n [TG]Round Start: [ET] Give allied units +1 temporary [HP]."
+        }
       }
     ]
   },
@@ -14086,6 +14105,11 @@
         "release_date": "2020-10-09",
         "text": {
           "english": "/nCaster battles an adjacent enemy./nA random allied black hero with the highest Attack strikes that enemy."
+        }
+      },{
+        "release_date": "2020-10-16",
+        "text": {
+          "english": "/nCaster battles an adjacent enemy./nA random allied black hero with the highest [ATT] strikes that enemy."
         }
       }
     ]
