@@ -105,6 +105,19 @@
                 "text":{
                     "english":"Whenever Bristleback takes non-battle damage, reduce that damage to 1, then activate Quill Spray."
                 }
+            },
+            {
+                "release_date":"2020-10-16",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Bristleback"
+                 },
+                "cooldown": 0,
+                "image": "210003_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever Bristleback takes non-physical damage, reduce that damage to 1, then activate Quill Spray."
+                }
             }
         ]
     },
@@ -627,6 +640,18 @@
                 "text":{
                     "english":"[TG]Active 3, 1 Mana:[ET] Move up to range 5. Anti-Mage strikes the new unit blocking it for 1 battle damage. [TG]Cross Lane[ET]."
                 }
+            },{
+                "release_date":"2020-10-16",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Blink Strike"
+                 },
+                "cooldown": 3,
+                "image": "210024_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3, 1 Mana:[ET] Move up to range 5. Anti-Mage strikes the new unit blocking it for 1 physical damage. [TG]Cross Lane[ET]."
+                }
             }
         ]
     },
@@ -879,6 +904,19 @@
                 "text":{
                     "english":"Whenever Legion Commander strikes a unit in battle and survives, heal Legion Commander 3."
                 }
+            },
+            {
+                "release_date":"2020-10-16",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Moment of Courage"
+                 },
+                "cooldown": 0,
+                "image": "210032_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever Legion Commander strikes a unit and survives, heal Legion Commander 3."
+                }
             }
         ]
     },
@@ -1034,6 +1072,19 @@
                 "cost": 0,
                 "text":{
                     "english":"Whenever a unit deals battle damage to Enchantress, it is disarmed for the next combat. When Deployed: Disarm the enemy blocking Enchantress for the next combat."
+                }
+            },
+            {
+                "release_date":"2020-10-16",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Untouchable"
+                 },
+                "cooldown": 0,
+                "image": "210038_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever a unit deals physical damage to Enchantress, it is disarmed for the next combat. When Deployed: Disarm the enemy blocking Enchantress for the next combat."
                 }
             }
         ]
@@ -1386,6 +1437,18 @@
                 "cost": 0,
                 "text":{
                     "english":"Whenever Ursa deals battle damage to a unit, give it -1[AR] permanently."
+                }
+            },{
+                "release_date":"2020-10-16",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Fury Swipes"
+                 },
+                "cooldown": 0,
+                "image": "210051_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever Ursa deals physical damage to a unit, give it -1[AR] permanently."
                 }
             }
         ]
@@ -2199,6 +2262,18 @@
                 "text":{
                     "english":"[TG]Active 2[AC], 1 Mana:[ET] Move Meepo to an empty slot in any allied Meepo's lane. May also stay in place. Deal 2 damage to the new adjacent enemies. /n [TG]Cross Lane[ET] /n [TG][QU]Quickcast[ET]"
                 }
+            },{
+                "release_date":"2020-10-16",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Poof"
+                 },
+                "cooldown": 2,
+                "image": "210077_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Move Meepo to a slot in any allied Meepo's lane. Deal 2 damage to the new adjacent enemies. /n [TG]Cross Lane[ET] /n [TG][QU]Quickcast[ET]"
+                }
             }
         ]
     },
@@ -2629,6 +2704,18 @@
                 "cost": 0,
                 "text":{
                     "english":"When you play a non-item card, Tidehunter strikes its adjacent enemies for 1 battle damage and gives them -1[ATT]. If there are none, strike the enemy tower for 1 battle damage. 1 round cooldown."
+                }
+            },{
+                "release_date":"2020-10-16",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Anchor Smash"
+                 },
+                "cooldown": 1,
+                "image": "11065_0",
+                "cost": 0,
+                "text":{
+                    "english":"When you play a non-item card, Tidehunter strikes its adjacent enemies for 1 physical damage and gives them -1[ATT]. If there are none, strike the enemy tower for 1 physical damage. 1 round cooldown."
                 }
             }
         ]

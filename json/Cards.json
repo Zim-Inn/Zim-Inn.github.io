@@ -282,6 +282,10 @@
       {
         "release_date": "2020-06-26",
         "abilities": [ "210004_2", "210005_1" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "abilities": [ "210004_3", "210005_1" ]
       }
     ]
   },
@@ -313,7 +317,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10030_2"
+        "is_signature": "10030_3"
       }
     ]
   },
@@ -959,6 +963,12 @@
         "text": {
           "english": "/n +2[ATT] /n /n Adjacent enemy creeps are rooted and have -2[ATT], -2[AR] and +2 Bounty."
         }
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": "/n +2[ATT] /n /n Adjacent enemy creeps are rooted and have -2[ATT], -2[AR] and +1 Bounty."
+        }
       }
     ]
   },
@@ -1342,6 +1352,10 @@
       {
         "release_date": "2020-07-16",
         "signature": [ "10288_1" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "signature": [ "10288_2" ]
       }
     ]
   },
@@ -1373,6 +1387,13 @@
           "english": "/n Slay a damaged enemy unit with 3 or less Health. /n /n If you slay a hero, Culling Blade is repeatable this round."
         },
         "is_signature": "10020_1"
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": "/n Slay a damaged enemy unit with 3 or less Health and Stun other enemies for 1 action. /n /n Repeatable this round when you slay an hero"
+        },
+        "is_signature": "10020_2"
       }
     ]
   },
@@ -1794,6 +1815,10 @@
       {
         "release_date": "2020-10-09",
         "abilities": [ "210024_3", "210025_1" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "abilities": [ "210024_4", "210025_1" ]
       }
     ]
   },
@@ -2318,6 +2343,10 @@
       {
         "release_date": "2020-10-09",
         "abilities": [ "210032_4" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "abilities": [ "210032_5" ]
       }
     ]
   },
@@ -2354,7 +2383,7 @@
       {
         "release_date": "2020-06-15",
         "rarity": 1,
-        "is_signature": "10069_5"
+        "is_signature": "10069_6"
       }
     ]
   },
@@ -2398,6 +2427,34 @@
       {
         "release_date": "2020-09-18",
         "hp": 5
+      },
+      {
+        "release_date": "2020-10-16",
+        "abilities": [ "210038_2" ]
+      }
+    ]
+  },
+  {
+    "card_id": 10193,
+    "versions": [
+      {
+        "release_date": "2020-05-25",
+        "card_type": "Spell",
+        "card_name": {
+          "english": "Enchant"
+        },
+        "set": 1,
+        "rarity": 2,
+        "colour": "G",
+        "image": "10193_0",
+        "miniimage": "10193_0",
+        "cost": 4,
+        "text": {
+          "english": " /n Choose a creep and another enemy. They battle each other. Allied creeps used this way deal +2 damage."
+        },
+        "crosslane": false,
+        "quick": false,
+        "is_signature": "10036_4"
       }
     ]
   },
@@ -2628,6 +2685,12 @@
         "release_date": "2020-10-09",
         "text": {
           "english": " +2 damage when striking a tower. /n [TG]Active 1[AC], 1 Mana:[ET] Move to an empty slot. Horde Stryder strikes its new combat target for 2 battle damage."
+        }
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " +2 damage when striking a tower. /n [TG]Active 1[AC], 1 Mana:[ET] Move to an empty slot. Horde Stryder strikes its new combat target for 2 [ATT]."
         }
       }
     ]
@@ -3101,30 +3164,6 @@
     ]
   },
   {
-    "card_id": 10193,
-    "versions": [
-      {
-        "release_date": "2020-05-25",
-        "card_type": "Spell",
-        "card_name": {
-          "english": "Enchant"
-        },
-        "set": 1,
-        "rarity": 2,
-        "colour": "G",
-        "image": "10193_0",
-        "miniimage": "10193_0",
-        "cost": 4,
-        "text": {
-          "english": " /n Choose a creep and another enemy. They battle each other. Allied creeps used this way deal +2 damage."
-        },
-        "crosslane": false,
-        "quick": false,
-        "is_signature": "10036_3"
-      }
-    ]
-  },
-  {
     "card_id": 10029,
     "searchterm": "bm",
     "versions": [
@@ -3419,7 +3458,8 @@
       {
         "release_date": "2020-06-22",
         "rarity": 2,
-        "abilities": [ "210044_0", "11061_0" ]
+        "abilities": [ "210044_0", "11061_0" ],
+        "signature": [ "10662_1" ]
       },
       {
         "release_date": "2020-07-31",
@@ -3429,6 +3469,10 @@
       {
         "release_date": "2020-09-18",
         "abilities": [ "210044_1", "11061_1" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "signature": [ "10662_0" ]
       }
     ]
   },
@@ -3461,7 +3505,14 @@
       {
         "release_date": "2020-06-22",
         "rarity": 2,
-        "is_signature": "10658_2"
+        "is_signature": "10658_1"
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " /n Pierce. /n Sapphire Archon has -1 Mana cost per revealed non-item card in opponent's hand."
+        },
+        "is_signature": "10658_3"
       }
     ]
   },
@@ -3854,6 +3905,11 @@
       {
         "release_date": "2020-10-09",
         "signature": [ "10282_3" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "abilities": [ "210051_2" ],
+        "signature": [ "10282_4" ]
       }
     ]
   },
@@ -3897,6 +3953,13 @@
           "english": " /n /n Repeat two times: [RP] Caster strikes the unit blocking it for 2 battle damage. "
         },
         "is_signature": "10070_4"
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " /n /n Repeat two times: [RP] Caster strikes the unit blocking it for 2 physical damage. "
+        },
+        "is_signature": "10070_5"
       }
     ]
   },
@@ -4176,6 +4239,10 @@
       {
         "release_date": "2020-10-09",
         "abilities": [ "11065_2", "210056_1" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "abilities": [ "11065_3", "210056_1" ]
       }
     ]
   },
@@ -4206,7 +4273,7 @@
         "text": {
           "english": " /n /n Deal 2 damage to a unit and give it -2[AR] this round."
         },
-        "is_signature": "10024_5"
+        "is_signature": "10024_6"
       }
     ]
   },
@@ -5417,6 +5484,12 @@
         "release_date": "2020-06-26",
         "text": {
           "english": " /n +2[ATT] /n /n Whenever equipped hero deals battle damage to a tower, dispel a random tower enchantment"
+        }
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " /n +2[ATT] /n /n Whenever equipped hero deals physical damage to a tower, dispel a random tower enchantment"
         }
       }
     ]
@@ -7104,6 +7177,10 @@
       {
         "release_date": "2020-08-21",
         "abilities": [ "210076_2", "210077_2" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "abilities": [ "210076_2", "210077_3" ]
       }
     ]
   },
@@ -7127,7 +7204,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10004_3"
+        "is_signature": "10004_4"
       }
     ]
   },
@@ -7719,6 +7796,12 @@
         "text": {
           "english": "Whenever Marrowfell Brawler deals battle damage to a unit, give it -1[ATT] permanently. /n [TG]Play Effect:[ET] Marrowfell Brawler battles the enemy blocking it."
         }
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": "Whenever Marrowfell Brawler deals physical damage to a unit, give it -1[ATT] permanently. /n [TG]Play Effect:[ET] Marrowfell Brawler battles the enemy blocking it."
+        }
       }
     ]
   },
@@ -7753,6 +7836,12 @@
         "text": {
           "english": "Whenever Hellbear Crippler deals battle damage to a unit, give it -1[AR] permanently. /n [TG]Play Effect:[ET] Hellbear Crippler battles the enemy blocking it."
         }
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": "Whenever Hellbear Crippler deals physical damage to a unit, give it -1 [AR] permanently. /n [TG]Play Effect:[ET] Hellbear Crippler battles the enemy blocking it."
+        }
       }
     ]
   },
@@ -7785,6 +7874,12 @@
         "release_date": "2020-06-26",
         "text": {
           "english": "/n Whenever one of your units deals battle damage to an enemy, give it +1[ATT] permanently."
+        }
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": "/n Whenever one of your units deals physical damage to an enemy, give it +1[ATT] permanently."
         }
       }
     ]
@@ -9238,6 +9333,12 @@
         "text": {
           "english": "Devour /n [TG]Play Effect:[ET] Berserker of the Abyssm strikes the unit blocking it for battle damage equal to Berserker of the Abyssm's health."
         }
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": "Devour /n/n [TG]Play Effect:[ET] Berserker of the Abyssm strikes the unit blocking it using Berserker of the Abyssm's [HP] instead of [ATT]."
+        }
       }
     ]
   },
@@ -9309,6 +9410,12 @@
         "release_date": "2020-10-09",
         "text": {
           "english": "/n [TG]Play Effect:[ET] Abyssm Flesh Render strikes adjacent units on both teams for 1 battle damage."
+        }
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": "/n [TG]Play Effect:[ET] Abyssm Flesh Render strikes adjacent units on both teams for 1 [ATT]."
         }
       }
     ]
@@ -11010,6 +11117,11 @@
         },
         "crosslane": false,
         "quick": false
+      }, {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": "/n Enchant Caster/n[TG]Aura: [ET] Caster and neighbors ignore incoming damage of two or less."
+        },
       }
     ]
   },
@@ -11037,6 +11149,12 @@
       {
         "release_date": "2020-08-28",
         "cost": 5
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " /n Give caster +3 Cleave./nGive your units Lethal to Heroes."
+        }
       }
     ]
   },
@@ -11715,6 +11833,12 @@
         "release_date": "2020-10-09",
         "text": {
           "english": " /n Choose unit. It taunts, then each unit pointing at it strikes it for 1 battle damage."
+        }
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " /n Choose unit. It taunts, then each unit pointing at it strikes it for 1 physical damage."
         }
       }
     ]
