@@ -3594,6 +3594,10 @@
       {
         "release_date": "2020-09-24",
         "abilities": [ "10444_2" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "signature": [ "10821_2" ]
       }
     ]
   },
@@ -3626,6 +3630,14 @@
           "english": " /n /n Deal 3 damage to an enemy and give an ally +3 temporary Health."
         },
         "is_signature": "10048_4"
+      },
+      {
+        "release_date": "2020-10-16",
+        "colour": "B",
+        "text": {
+          "english": " /n /n Deal 3 damage to an enemy and give an ally +3 temporary [HP]."
+        },
+        "is_signature": "10048_5"
       }
     ]
   },
@@ -7046,7 +7058,8 @@
       },
       {
         "release_date": "2020-10-16",
-        "hp": 9
+        "hp": 9,
+        "signature": [ "10908_1" ]
       }
     ]
   },
@@ -7070,6 +7083,12 @@
         },
         "crosslane": false,
         "quick": false,
+        "is_signature": "10906_1"
+      }, {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " /n Give caster Trample. Disarm your creeps and give their [ATT] to the caster."
+        },
         "is_signature": "10906_2"
       }
     ]
@@ -12248,7 +12267,7 @@
       {
         "release_date": "2020-10-16",
         "text": {
-          "english": " /n Enchant Caster/nIf there are no adjacent enemies, this hero has +Attack equal to its health."
+          "english": " /n Enchant Caster/nIf there are no adjacent enemies, this hero has +[ATT] equal to its [HP]."
         }
       }
     ]
