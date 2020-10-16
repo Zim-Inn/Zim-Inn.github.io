@@ -105,6 +105,19 @@
                 "text":{
                     "english":"Whenever Bristleback takes non-battle damage, reduce that damage to 1, then activate Quill Spray."
                 }
+            },
+            {
+                "release_date":"2020-10-15",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Bristleback"
+                 },
+                "cooldown": 0,
+                "image": "210003_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever Bristleback takes non-physical damage, reduce that damage to 1, then activate Quill Spray."
+                }
             }
         ]
     },
@@ -627,6 +640,18 @@
                 "text":{
                     "english":"[TG]Active 3, 1 Mana:[ET] Move up to range 5. Anti-Mage strikes the new unit blocking it for 1 battle damage. [TG]Cross Lane[ET]."
                 }
+            },{
+                "release_date":"2020-10-15",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Blink Strike"
+                 },
+                "cooldown": 3,
+                "image": "210024_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3, 1 Mana:[ET] Move up to range 5. Anti-Mage strikes the new unit blocking it for 1 [ATT]. [TG]Cross Lane[ET]."
+                }
             }
         ]
     },
@@ -658,6 +683,18 @@
                 "text":{
                     "english": "Whenever Anti-Mage deals battle damage to an enemy hero before combat, burn 1 mana."
                 }
+            },{
+                "release_date":"2020-10-15",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Mana Break"
+                 },
+                "cooldown": 0,
+                "image": "210025_0",
+                "cost": 0,
+                "text":{
+                    "english": "Whenever Anti-Mage deals physical damage to an enemy hero before combat, burn 1 mana."
+                }
             }
         ]
     },
@@ -676,6 +713,18 @@
                 "cost": 0,
                 "text":{
                     "english":"Sven's attack counts as Cleave in the combat phase. /n Sven still hits the tower if unblocked."
+                }
+            },{
+                "release_date":"2020-10-15",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Great Cleave"
+                 },
+                "cooldown": 0,
+                "image": "210026_0",
+                "cost": 0,
+                "text":{
+                    "english":"Sven's [ATT] counts as Cleave in the combat phase. /n Sven still hits the tower if unblocked."
                 }
             }
         ]
@@ -757,6 +806,18 @@
                 "cost": 0,
                 "text":{
                     "english":"Bloodseeker has +[ATT] equal to the highest missing Health from an enemy hero in any lane. Does not decrease if the hero dies. /n Cross Lane"
+                }
+            },{
+                "release_date":"2020-10-15",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Thirst"
+                 },
+                "cooldown": 0,
+                "image": "210029_0",
+                "cost": 0,
+                "text":{
+                    "english":"Bloodseeker has +[ATT] equal to the highest missing [HP] from an enemy hero in any lane. Does not decrease if the hero dies. /n Cross Lane"
                 }
             }
         ]
@@ -878,6 +939,19 @@
                 "cost": 0,
                 "text":{
                     "english":"Whenever Legion Commander strikes a unit in battle and survives, heal Legion Commander 3."
+                }
+            },
+            {
+                "release_date":"2020-10-15",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Moment of Courage"
+                 },
+                "cooldown": 0,
+                "image": "210032_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever Legion Commander strikes a unit and survives, heal Legion Commander 3."
                 }
             }
         ]
@@ -1034,6 +1108,19 @@
                 "cost": 0,
                 "text":{
                     "english":"Whenever a unit deals battle damage to Enchantress, it is disarmed for the next combat. When Deployed: Disarm the enemy blocking Enchantress for the next combat."
+                }
+            },
+            {
+                "release_date":"2020-10-15",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Untouchable"
+                 },
+                "cooldown": 0,
+                "image": "210038_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever a unit deals physical damage to Enchantress, it is disarmed for the next combat. When Deployed: Disarm the enemy blocking Enchantress for the next combat."
                 }
             }
         ]
@@ -1387,6 +1474,18 @@
                 "text":{
                     "english":"Whenever Ursa deals battle damage to a unit, give it -1[AR] permanently."
                 }
+            },{
+                "release_date":"2020-10-15",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Fury Swipes"
+                 },
+                "cooldown": 0,
+                "image": "210051_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever Ursa deals physical damage to a unit, give it -1[AR] permanently."
+                }
             }
         ]
     },
@@ -1593,6 +1692,18 @@
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] Double Tusk's Attack this round."
                 }
+            },{
+                "release_date":"2020-10-15",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Walrus Punch"
+                 },
+                "cooldown": 3,
+                "image": "210058_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Double Tusk's [ATT] this round."
+                }
             }
         ]
     },
@@ -1680,6 +1791,18 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 2[AC], 1 Mana:[ET] Deal damage to a unit equal to its missing Health."
+                }
+            },{
+                "release_date":"2020-10-15",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Reaper's Scythe"
+                 },
+                "cooldown": 2,
+                "image": "210062_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Deal damage to a unit equal to its missing [HP]."
                 }
             }
         ]
@@ -2199,6 +2322,18 @@
                 "text":{
                     "english":"[TG]Active 2[AC], 1 Mana:[ET] Move Meepo to an empty slot in any allied Meepo's lane. May also stay in place. Deal 2 damage to the new adjacent enemies. /n [TG]Cross Lane[ET] /n [TG][QU]Quickcast[ET]"
                 }
+            },{
+                "release_date":"2020-10-15",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Poof"
+                 },
+                "cooldown": 2,
+                "image": "210077_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Move Meepo to a slot in any allied Meepo's lane. Deal 2 damage to the new adjacent enemies. /n [TG]Cross Lane[ET] /n [TG][QU]Quickcast[ET]"
+                }
             }
         ]
     },
@@ -2261,6 +2396,18 @@
                 "text":{
                     "english":"[TG]Active 2[AC], 1 Mana:[ET] Repeat 4 times: [RP] Give an ally +1 temporary health and deal 1 damage to its closest adjacent enemy. Jump left or right to the ally with the least health."
                 }
+            },{
+                "release_date":"2020-10-15",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Shadow Wave"
+                 },
+                "cooldown": 2,
+                "image": "210079_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Repeat 4 times: [RP] Give an ally +1 temporary [HP] and deal 1 damage to its closest adjacent enemy. Jump left or right to the ally with the least [HP]."
+                }
             }
         ]
     },
@@ -2315,6 +2462,18 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] Transform to a Dragon for two rounds. /n While in Dragon form, Dragon Knight has +2[ATT], +2 Cleave, deals +2 damage to towers, and the first time it deals battle damage to each tower or unit, gives them +2 Decay for two rounds. /n This effect cannot be purged."
+                }
+            },{
+                "release_date":"2020-10-15",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Dragon Form"
+                 },
+                "cooldown": 3,
+                "image": "210080_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Transform to a Dragon for two rounds. /n While in Dragon form, Dragon Knight has +2[ATT], +2 Cleave, deals +2 damage to towers, and the first time it deals physical damage to each tower or unit, gives them +2 Decay for two rounds. /n This effect cannot be purged."
                 }
             }
         ]
@@ -2545,6 +2704,18 @@
                 "text":{
                     "english":"Centaur Warrunner ignores negative Attack, Armor, and Health effects."
                 }
+            },{
+                "release_date":"2020-10-15",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Great Fortitude"
+                 },
+                "cooldown": 0,
+                "image": "11063_0",
+                "cost": 0,
+                "text":{
+                    "english":"Centaur Warrunner ignores negative [ATT], [AR], and [HP] effects."
+                }
             }
         ]
     },
@@ -2630,6 +2801,18 @@
                 "text":{
                     "english":"When you play a non-item card, Tidehunter strikes its adjacent enemies for 1 battle damage and gives them -1[ATT]. If there are none, strike the enemy tower for 1 battle damage. 1 round cooldown."
                 }
+            },{
+                "release_date":"2020-10-15",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Anchor Smash"
+                 },
+                "cooldown": 1,
+                "image": "11065_0",
+                "cost": 0,
+                "text":{
+                    "english":"When you play a non-item card, Tidehunter strikes its adjacent enemies for 1 [ATT] and gives them -1[ATT]. If there are none, strike the enemy tower for 1 [ATT]. 1 round cooldown."
+                }
             }
         ]
     },
@@ -2679,6 +2862,18 @@
                 "cost": 0,
                 "text":{
                     "english":"If the combined Attack of your creeps in this lane is 15 or more, Lycan has +3[ATT] and your creeps within range 2 have an extra +1[ATT]."
+                }
+            },{
+                "release_date":"2020-10-15",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Pack Leadership"
+                 },
+                "cooldown": 0,
+                "image": "11069_0",
+                "cost": 0,
+                "text":{
+                    "english":"If the combined [ATT] of your creeps in this lane is 15 or more, Lycan has +3[ATT] and your creeps within range 2 have an extra +1[ATT]."
                 }
             }
         ]
@@ -2847,6 +3042,18 @@
                 "text":{
                     "english":"Round Start: Troll Warlord strikes its combat target for 1 battle damage."
                 }
+            },{
+                "release_date":"2020-10-15",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Whirling Axes"
+                 },
+                "cooldown": 0,
+                "image": "11084_0",
+                "cost": 0,
+                "text":{
+                    "english":"Round Start: Troll Warlord strikes its combat target for 1 [ATT]."
+                }
             }
         ]
     },
@@ -2896,6 +3103,19 @@
                 "cost": 0,
                 "text":{
                     "english":"Equipping Mazzie does not require item slots. /n Mazzie has +1[ATT], +1[AR], and +1[HP] for each equipped item."
+                }
+            },
+            {
+                "release_date":"2020-10-15",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Gear Head"
+                 },
+                "cooldown": 0,
+                "image": "10179_0",
+                "cost": 0,
+                "text":{
+                    "english":"Mazzie may equip any number of unique items. /n Mazzie has +1[ATT], +1[AR], and +1[HP] for each equipped item."
                 }
             }
         ]

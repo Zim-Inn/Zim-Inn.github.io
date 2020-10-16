@@ -65,7 +65,6 @@ const getCardDataFromDecoded = (decodedDeck) => {
                     "icon"
                 ] || "";
             let SigIDV = "";
-
             cardData.HeroDeck.push({
                 id: CardJSON[CardArrayIndex]["card_id"],
                 colour:
@@ -90,7 +89,7 @@ const getCardDataFromDecoded = (decodedDeck) => {
                     heroicon: HeroIconForSignature,
                 });
             } else {
-                // Lina, right?
+                // Lina and Mazzie
                 for (
                     let sc = 0;
                     sc <
@@ -335,6 +334,10 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
                             ]["signature"][sc];
                         SigIDV = SigIDV.split("_");
                         SigID = SigIDV[0];
+                        HeroIconForSignature =
+                        CardJSON[CardArrayIndex]["versions"][LatestHeroVersion][
+                            "icon"
+                        ];
                         DecodedDeck["cards"].push({
                             id: SigID,
                             count: 1,
