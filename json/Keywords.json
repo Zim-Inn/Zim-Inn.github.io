@@ -54,12 +54,12 @@
     },{
         "keyword": "Decay",
         "match": "Decay",
-        "desc": "This unit will take extra damage in combat. Ignores armor entirely.",
+        "desc": "This unit will take extra damage in combat. Ignores Armor ▤ entirely.",
         "example": ["10993","11044"]
     },{
         "keyword": "Devour",
         "match": "Devour",
-        "desc": "When this unit is placed on top of another unit, it gains that unit's Attack and Health.",
+        "desc": "When this unit is placed on top of another unit, it gains that unit's Attack ▣ and Health ▥.",
         "example": ["10732","10116"]
     },{
         "keyword": "Disarm",
@@ -89,7 +89,7 @@
     },{
         "keyword": "Feeble",
         "match": "Feeble",
-        "desc": "Excess Attack damage dealt to this unit is dealt to the tower in the combat phase.",
+        "desc": "Excess Attack ▣ damage to this unit is dealt to your tower in the combat phase.",
         "example": ["11007","10789"]
     },{
         "keyword": "Fountain",
@@ -104,7 +104,7 @@
     },{
         "keyword": "Lifesteal",
         "match": "Lifesteal",
-        "desc": "This unit heals equal to its Attack if it survives a combat in which it damaged another unit.",
+        "desc": "This unit heals equal to its Attack ▣ if it survives a combat in which it damaged another unit.",
         "example": ["11017"]
     },{
         "keyword": "Lock",
@@ -223,7 +223,7 @@
     },{
         "keyword": "Trample",
         "match": "Trample",
-        "desc": "Excess Attack damage by this unit is dealt to the enemy tower in the combat phase.",
+        "desc": "Excess Attack ▣ damage by this unit is dealt to the enemy tower in the combat phase.",
         "example": ["10102","10758"]
     },{
         "keyword": "Untargetable",
@@ -278,7 +278,7 @@
     },{
         "keyword": "Armor",
         "match": "Armor(?!:)(?!,)",
-        "desc": "Armor absorbs this much incoming damage each round. If negative, amplify the first source of incoming damage by this amount.",
+        "desc": "Armor ▤ absorbs this much incoming damage each round. If negative, amplify the first source of incoming damage by this amount.",
         "example": ["10419","10079"]
     },{
         "keyword": "Death Shield",
