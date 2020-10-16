@@ -818,6 +818,10 @@
       {
         "release_date": "2020-09-10",
         "signature": [ "11010_3" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "signature": [ "11010_4" ]
       }
     ]
   },
@@ -863,6 +867,13 @@
           "english": " /n Extend an enemy's cooldowns by 3 or reduce an ally's cooldowns by 3. Does not affect passive abilities."
         },
         "is_signature": "11008_4"
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " /n Extend an enemy's cooldowns by 3 or reduce an ally's cooldowns by 3."
+        },
+        "is_signature": "11008_5"
       }
     ]
   },
@@ -1818,7 +1829,7 @@
       },
       {
         "release_date": "2020-10-16",
-        "abilities": [ "210024_4", "210025_1" ]
+        "abilities": [ "210024_4", "210025_2" ]
       }
     ]
   },
@@ -4309,6 +4320,10 @@
       {
         "release_date": "2020-07-31",
         "abilities": [ "210057_1" ]
+      },
+      {
+        "release_date": "2020-06-26",
+        "signature": [ "10942_2" ]
       }
     ]
   },
@@ -4340,6 +4355,13 @@
           "english": " Choose caster. Move another unit to an empty slot within range 5 from the caster. /n Deal 1 damage to the new neighbors your opponent controls. /n [TG]Cross Lane[ET]"
         },
         "is_signature": "10940_3"
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " Choose caster. Move another unit to a slot within range 5 from the caster. /n Deal 1 damage to the new neighbors your opponent controls. /n [TG]Cross Lane[ET]"
+        },
+        "is_signature": "10940_4"
       }
     ]
   },
@@ -5602,6 +5624,11 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      }, {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " /n +6[HP] /n [TG]Active 1[AC], 1 Mana:[ET] Give a unit immunity to physical damage, other damage it takes is doubled."
+        }
       }
     ]
   },
@@ -7373,6 +7400,10 @@
         "attack": 3,
         "hp": 5,
         "abilities": [ "210080_3", "210081_0" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "abilities": [ "210080_4", "210081_0" ]
       }
     ]
   },
@@ -7533,6 +7564,12 @@
         "release_date": "2020-10-09",
         "text": {
           "english": "/n [TG]Round Start:[ET] Stonehall Paragon strikes the unit blocking it for 2 battle damage."
+        }
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": "/n [TG]Round Start:[ET] Stonehall Paragon strikes the unit blocking it for 2 physical damage."
         }
       }
     ]
@@ -11121,7 +11158,7 @@
         "release_date": "2020-10-16",
         "text": {
           "english": "/n Enchant Caster/n[TG]Aura: [ET] Caster and neighbors ignore incoming damage of two or less."
-        },
+        }
       }
     ]
   },
@@ -11417,6 +11454,12 @@
         "release_date": "2020-10-09",
         "text": {
           "english": " /n Move caster to an unopposed enemy in another lane./n[RP] Caster strikes it for 2 battle damage./n/n[TG]Cross Lane[ET]"
+        }
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " /n Move caster to an unopposed enemy in another lane./n[RP] Caster strikes it for 2 physical damage./n/n[TG]Cross Lane[ET]"
         }
       }
     ]
@@ -12109,6 +12152,12 @@
         "release_date": "2020-07-31",
         "text": {
           "english": " /n Enchant Caster/nIf there are no adjacent enemies, this hero has +Attack equal to its Max health."
+        }
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " /n Enchant Caster/nIf there are no adjacent enemies, this hero has +Attack equal to its health."
         }
       }
     ]
@@ -12939,6 +12988,12 @@
         "text": {
           "english": " /n [TG]Aura:[ET] Whenever an allied unit deal battle damage to another unit and survives, give that ally +1[ATT], [AR] or [HP] permanently"
         }
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " /n [TG]Aura:[ET] Whenever an allied unit deal physical damage to another unit and survives, give that ally +1[ATT], [AR] or [HP] permanently"
+        }
       }
     ]
   },
@@ -13539,6 +13594,10 @@
       },{
         "release_date": "2020-10-09",
         "abilities": [ "11040_1", "11084_1" ]
+      },{
+        "release_date": "2020-10-16",
+        "signature": [ "11041_1" ],
+        "abilities": [ "11040_1", "11084_2" ]
       }
     ]
   },
@@ -13563,6 +13622,12 @@
         "crosslane": false,
         "quick": false,
         "is_signature": "11039_1"
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " /n Give caster immunity to physical damage and Untargetable /n /n It battles an adjacent enemy."
+        }
       }
     ]
   },
@@ -13645,6 +13710,9 @@
         "hp": 4,
         "abilities": [ "10179_0" ],
         "signature": [ "11075_0", "11077_0", "11079_0" ]
+      }, {
+        "release_date": "2020-10-16",
+        "abilities": [ "10179_1" ]
       }
     ]
   },
@@ -13668,7 +13736,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10052_0",
+        "is_signature": "10052_1",
         "related_cards": [ "11076_0" ]
       }
     ]
@@ -13723,7 +13791,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10052_0",
+        "is_signature": "10052_1",
         "related_cards": [ "11078_0" ]
       }
     ]
@@ -13778,7 +13846,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10052_0",
+        "is_signature": "10052_1",
         "related_cards": [ "11080_0" ]
       }
     ]
@@ -14013,6 +14081,11 @@
         "release_date": "2020-10-09",
         "text": {
           "english": "Enchant Caster./n/n[TG]After Combat:[ET] [RP] Summon a Zombie. If the lane is full, it devours a random allied creep with the lowest health./nIf you have a green hero, allies have trample."
+        }
+      },{
+        "release_date": "2020-10-16",
+        "text": {
+          "english": "Enchant Caster./n/n[TG]After Combat:[ET] Summon a Zombie. If the lane is full, it devours a random allied creep with the lowest [HP]./nIf you have a green hero, allies have Trample and +1 Regeneration."
         }
       }
     ]

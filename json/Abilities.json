@@ -683,6 +683,18 @@
                 "text":{
                     "english": "Whenever Anti-Mage deals battle damage to an enemy hero before combat, burn 1 mana."
                 }
+            },{
+                "release_date":"2020-10-16",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Mana Break"
+                 },
+                "cooldown": 0,
+                "image": "210025_0",
+                "cost": 0,
+                "text":{
+                    "english": "Whenever Anti-Mage deals physical damage to an enemy hero before combat, burn 1 mana."
+                }
             }
         ]
     },
@@ -2391,6 +2403,18 @@
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] Transform to a Dragon for two rounds. /n While in Dragon form, Dragon Knight has +2[ATT], +2 Cleave, deals +2 damage to towers, and the first time it deals battle damage to each tower or unit, gives them +2 Decay for two rounds. /n This effect cannot be purged."
                 }
+            },{
+                "release_date":"2020-10-16",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Dragon Form"
+                 },
+                "cooldown": 3,
+                "image": "210080_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Transform to a Dragon for two rounds. /n While in Dragon form, Dragon Knight has +2[ATT], +2 Cleave, deals +2 damage to towers, and the first time it deals physical damage to each tower or unit, gives them +2 Decay for two rounds. /n This effect cannot be purged."
+                }
             }
         ]
     },
@@ -2934,6 +2958,18 @@
                 "text":{
                     "english":"Round Start: Troll Warlord strikes its combat target for 1 battle damage."
                 }
+            },{
+                "release_date":"2020-10-16",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Whirling Axes"
+                 },
+                "cooldown": 0,
+                "image": "11084_0",
+                "cost": 0,
+                "text":{
+                    "english":"Round Start: Troll Warlord strikes its combat target for 1 [ATT]."
+                }
             }
         ]
     },
@@ -2983,6 +3019,19 @@
                 "cost": 0,
                 "text":{
                     "english":"Equipping Mazzie does not require item slots. /n Mazzie has +1[ATT], +1[AR], and +1[HP] for each equipped item."
+                }
+            },
+            {
+                "release_date":"2020-10-16",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Gear Head"
+                 },
+                "cooldown": 0,
+                "image": "10179_0",
+                "cost": 0,
+                "text":{
+                    "english":"Mazzie may equip any number of unique items. /n Mazzie has +1[ATT], +1[AR], and +1[HP] for each equipped item."
                 }
             }
         ]
