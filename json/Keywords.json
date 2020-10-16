@@ -8,13 +8,13 @@
         "hide_from_keyword_page": true,
         "keyword": "Lethal To Heroes",
         "match": "Lethal To Heroes",
-        "desc": "Slay each hero this unit deals battle damage to.",
+        "desc": "Slay each hero this unit deals physical damage to.",
         "example": ["10344"]
     },{
         "hide_from_keyword_page": true,
         "keyword": "Lethal To Creeps",
         "match": "Lethal To Creeps",
-        "desc": "Slay each creep this unit deals battle damage to.",
+        "desc": "Slay each creep this unit deals physical damage to.",
         "example": ["10344"]
     },{
         "keyword": "Aura",
@@ -170,7 +170,7 @@
     },{
         "keyword": "Retaliate",
         "match": "Retaliate",
-        "desc": "When a unit strikes another unit with Retaliate, the striking unit takes Retaliate damage as battle damage.",
+        "desc": "When a unit strikes another unit with Retaliate, the striking unit takes Retaliate damage as physical damage.",
         "example": ["10174","10281"]
     },{
         "keyword": "Root",
@@ -191,7 +191,7 @@
     },{
         "keyword": "Siege",
         "match": "Siege",
-        "desc": "During the combat phase, deal Siege damage to the enemy tower as battle damage.",
+        "desc": "During the combat phase, deal Siege damage to the enemy tower as physical damage.",
         "example": ["10310","10223"]
     },{
         "hide_from_keyword_page": true,
@@ -236,9 +236,9 @@
         "desc": "The unit heals this amount during the combat phase. Regeneration is applied before checking for death.",
         "example": ["10617","10220"]
     },{
-        "keyword": "Battle Damage",
-        "match": "Battle Damage",
-        "desc": "Damage dealt when a unit attacks another unit, either in the combat phase or a forced battle. Cleave, siege, retaliate, and attack damage are all instances of battle damage.",
+        "keyword": "Physical Damage",
+        "match": "Physical Damage",
+        "desc": "Attack ▣, Cleave, Siege, and Retaliate, are physical damage.",
         "example": ["10282","10076"]
     },{
         "keyword": "Hero",
@@ -328,13 +328,13 @@
     },{
         "keyword": "Strike",
         "match": "Strike",
-        "desc": "When a unit strikes another unit, it deals its Attack ▣ to that unit as battle damage, unless a different amount is specified. Disarmed units and stunned units cannot strike.",
+        "desc": "When a unit strikes another unit, it deals its Attack ▣ to that unit as physical damage, unless a different amount is specified. Disarmed units and stunned units cannot strike.",
         "example": ["10774","10418"]
     },{
         "hide_from_keyword_page": true,
         "keyword": "Striking",
         "match": "Striking",
-        "desc": "When a unit strikes another unit, it deals its Attack ▣ to that unit as battle damage, unless a different amount is specified. Disarmed units and stunned units cannot strike.",
+        "desc": "When a unit strikes another unit, it deals its Attack ▣ to that unit as physical damage, unless a different amount is specified. Disarmed units and stunned units cannot strike.",
         "example": ["10774","10418"]
     }
 ]
