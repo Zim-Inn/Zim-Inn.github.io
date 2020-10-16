@@ -714,6 +714,18 @@
                 "text":{
                     "english":"Sven's attack counts as Cleave in the combat phase. /n Sven still hits the tower if unblocked."
                 }
+            },{
+                "release_date":"2020-10-16",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Great Cleave"
+                 },
+                "cooldown": 0,
+                "image": "210026_0",
+                "cost": 0,
+                "text":{
+                    "english":"Sven's [ATT] counts as Cleave in the combat phase. /n Sven still hits the tower if unblocked."
+                }
             }
         ]
     },
@@ -794,6 +806,18 @@
                 "cost": 0,
                 "text":{
                     "english":"Bloodseeker has +[ATT] equal to the highest missing Health from an enemy hero in any lane. Does not decrease if the hero dies. /n Cross Lane"
+                }
+            },{
+                "release_date":"2020-10-16",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Thirst"
+                 },
+                "cooldown": 0,
+                "image": "210029_0",
+                "cost": 0,
+                "text":{
+                    "english":"Bloodseeker has +[ATT] equal to the highest missing [HP] from an enemy hero in any lane. Does not decrease if the hero dies. /n Cross Lane"
                 }
             }
         ]
@@ -1756,6 +1780,18 @@
                 "text":{
                     "english":"[TG]Active 2[AC], 1 Mana:[ET] Deal damage to a unit equal to its missing Health."
                 }
+            },{
+                "release_date":"2020-10-16",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Reaper's Scythe"
+                 },
+                "cooldown": 2,
+                "image": "210062_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Deal damage to a unit equal to its missing [HP]."
+                }
             }
         ]
     },
@@ -2644,6 +2680,18 @@
                 "text":{
                     "english":"Centaur Warrunner ignores negative Attack, Armor, and Health effects."
                 }
+            },{
+                "release_date":"2020-10-16",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Great Fortitude"
+                 },
+                "cooldown": 0,
+                "image": "11063_0",
+                "cost": 0,
+                "text":{
+                    "english":"Centaur Warrunner ignores negative [ATT], [AR], and [HP] effects."
+                }
             }
         ]
     },
@@ -2739,7 +2787,7 @@
                 "image": "11065_0",
                 "cost": 0,
                 "text":{
-                    "english":"When you play a non-item card, Tidehunter strikes its adjacent enemies for 1 physical damage and gives them -1[ATT]. If there are none, strike the enemy tower for 1 physical damage. 1 round cooldown."
+                    "english":"When you play a non-item card, Tidehunter strikes its adjacent enemies for 1 [ATT] and gives them -1[ATT]. If there are none, strike the enemy tower for 1 [ATT]. 1 round cooldown."
                 }
             }
         ]
@@ -2790,6 +2838,18 @@
                 "cost": 0,
                 "text":{
                     "english":"If the combined Attack of your creeps in this lane is 15 or more, Lycan has +3[ATT] and your creeps within range 2 have an extra +1[ATT]."
+                }
+            },{
+                "release_date":"2020-10-16",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Pack Leadership"
+                 },
+                "cooldown": 0,
+                "image": "11069_0",
+                "cost": 0,
+                "text":{
+                    "english":"If the combined [ATT] of your creeps in this lane is 15 or more, Lycan has +3[ATT] and your creeps within range 2 have an extra +1[ATT]."
                 }
             }
         ]

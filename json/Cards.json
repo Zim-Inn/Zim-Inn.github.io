@@ -1220,6 +1220,11 @@
         "related_cards": [],
         "crosslane": false,
         "quick": false
+      }, {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": "/n +1[AR] /n [TG]Active 1[AC], 1 Mana: [ET] /n Reduce adjacent enemies to 1 [HP]. They are stunned, rooted, and feeble."
+        }
       }
     ]
   },
@@ -1402,7 +1407,7 @@
       {
         "release_date": "2020-10-16",
         "text": {
-          "english": "/n Slay a damaged enemy unit with 3 or less Health and Stun other enemies for 1 action. /n /n Repeatable this round when you slay an hero"
+          "english": "/n Slay a damaged enemy unit with 3 or less [HP] and Stun other enemies for 1 action. /n /n Repeatable this round when you slay an hero"
         },
         "is_signature": "10020_2"
       }
@@ -1866,6 +1871,10 @@
         "release_date": "2020-06-15",
         "rarity": 2,
         "signature": [ "10330_1" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "abilities": [ "210026_1" ]
       }
     ]
   },
@@ -1903,7 +1912,7 @@
         "release_date": "2020-06-15",
         "rarity": 2,
         "cost": 3,
-        "is_signature": "10054_1"
+        "is_signature": "10054_2"
       }
     ]
   },
@@ -2101,6 +2110,10 @@
         "attack": 3,
         "hp": 5,
         "signature": [ "10289_2" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "abilities": [ "210029_2" ]
       }
     ]
   },
@@ -2137,6 +2150,13 @@
         "release_date": "2020-09-18",
         "cost": 3,
         "is_signature": "10018_3"
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " /n Choose caster. Choose an enemy unit, reduce it to 3 [HP] and give caster temporary [HP] equal to the amount removed."
+        },
+        "is_signature": "10018_4"
       }
     ]
   },
@@ -2509,6 +2529,10 @@
       {
         "release_date": "2020-08-28",
         "abilities": [ "210034_2", "11069_1" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "abilities": [ "210034_2", "11069_2" ]
       }
     ]
   },
@@ -2543,7 +2567,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10014_3"
+        "is_signature": "10014_4"
       }
     ]
   },
@@ -3302,6 +3326,10 @@
       {
         "release_date": "2020-07-16",
         "abilities": [ "210041_1", "11063_1" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "abilities": [ "210041_1", "11063_2" ]
       }
     ]
   },
@@ -3325,7 +3353,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10021_4"
+        "is_signature": "10021_5"
       }
     ]
   },
@@ -3968,7 +3996,7 @@
       {
         "release_date": "2020-10-16",
         "text": {
-          "english": " /n /n Repeat two times: [RP] Caster strikes the unit blocking it for 2 physical damage. "
+          "english": " /n /n Repeat two times: [RP] Caster strikes the unit blocking it for 2 [ATT]. "
         },
         "is_signature": "10070_5"
       }
@@ -4668,6 +4696,10 @@
       {
         "release_date": "2020-06-26",
         "abilities": [ "210061_1", "210062_0" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "abilities": [ "210061_1", "210062_1" ]
       }
     ]
   },
@@ -4691,7 +4723,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10059_1"
+        "is_signature": "10059_2"
       }
     ]
   },
@@ -6549,6 +6581,12 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      }, {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " /n +3[HP] /n [TG]After Combat:[ET] Increase [HP] by 1."
+        }
+
       }
     ]
   },
