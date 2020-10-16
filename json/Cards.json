@@ -7494,7 +7494,8 @@
         "rarity": 2,
         "attack": 3,
         "hp": 5,
-        "abilities": [ "210080_3", "210081_0" ]
+        "abilities": [ "210080_3", "210081_0" ],
+        "signature": [ "11033_1" ]
       },
       {
         "release_date": "2020-10-15",
@@ -7534,7 +7535,7 @@
       {
         "release_date": "2020-08-07",
         "rarity": 2,
-        "is_signature": "10982_4"
+        "is_signature": "10982_5"
       }
     ]
   },
