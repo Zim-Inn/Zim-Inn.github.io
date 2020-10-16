@@ -4428,6 +4428,10 @@
         "release_date": "2020-05-25",
         "hp": 6,
         "signature": [ "10676_1" ]
+      },
+      {
+        "release_date": "2020-10-16",
+        "abilities": [ "210058_1" ]
       }
     ]
   },
@@ -4459,7 +4463,8 @@
         "rarity": 5,
         "text": {
           "english": " /n Push an enemy and Deal 1 damage to it. Summon an Ice Shard in its place."
-        }
+        },
+        "is_signature": "10674_2"
       }
     ]
   },
@@ -7382,6 +7387,11 @@
         "signature": [ "10706_0" ]
       },
       {
+        "release_date": "2020-07-16",
+        "abilities": [ "210079_1" ]
+      },
+      {
+        "release_date": "2020-10-16",
         "abilities": [ "210079_1" ]
       }
     ]
@@ -7407,7 +7417,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10704_1"
+        "is_signature": "10704_2"
       }
     ]
   },
@@ -8486,6 +8496,12 @@
         },
         "text": {
           "english": "Replace an allied unit. Bounce and gain the unit's attack and health. If the bounced unit is a creep, give it +1 Lock. /n Homunculus which replace heroes can cast spells."
+        }
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": "Replace an allied unit. Bounce and gain the unit's [ATT] and [HP]. If the bounced unit is a creep, give it +1 Lock. /n Homunculus which replace heroes can cast spells."
         }
       }
     ]
@@ -9672,6 +9688,12 @@
         "release_date": "2020-06-26",
         "text": {
           "english": "/n [TG]Play Effect:[ET] Give neighbors Regeneration equal to their current Health."
+        }
+      },
+      {
+        "release_date": "2020-10-26",
+        "text": {
+          "english": "/n [TG]Play Effect:[ET] Give neighbors Regeneration equal to their current [HP]."
         }
       }
     ]
@@ -11109,6 +11131,11 @@
         },
         "crosslane": false,
         "quick": false
+      }, {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " /n Repeat three times: [RP] Deal 1 damage to a random enemy with the least [HP]."
+        }
       }
     ]
   },
@@ -11132,6 +11159,11 @@
         },
         "crosslane": false,
         "quick": false
+      }, {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": " /n Enchant Caster /n Caster has +1[ATT] per missing [HP]."
+        }
       }
     ]
   },
@@ -11518,7 +11550,7 @@
       {
         "release_date": "2020-10-16",
         "text": {
-          "english": " /n Move caster to an unopposed enemy in another lane./n[RP] Caster strikes it for 2 physical damage./n/n[TG]Cross Lane[ET]"
+          "english": " /n Move caster to an unopposed enemy in another lane./n[RP] Caster strikes it for 2 [ATT]./n/n[TG]Cross Lane[ET]"
         }
       }
     ]
@@ -11940,7 +11972,7 @@
       {
         "release_date": "2020-10-16",
         "text": {
-          "english": " /n Choose unit. It taunts, then each unit pointing at it strikes it for 1 physical damage."
+          "english": " /n Choose unit. It taunts, then each unit pointing at it strikes it for 1 [ATT]."
         }
       }
     ]
@@ -13081,7 +13113,13 @@
       {
         "release_date": "2020-06-26",
         "text": {
-          "english": "/n REMOVED FROM THE GAME."
+          "english": "/n REMOVED FROM THE GAME. /n/n Give a unit -Armor equal to its current Armor value permanently."
+        }
+      },
+      {
+        "release_date": "2020-10-16",
+        "text": {
+          "english": "/n REMOVED FROM THE GAME. /n/n Give a unit -[AR] equal to its current [AR] value permanently."
         }
       }
     ]

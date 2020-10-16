@@ -650,7 +650,7 @@
                 "image": "210024_0",
                 "cost": 1,
                 "text":{
-                    "english":"[TG]Active 3, 1 Mana:[ET] Move up to range 5. Anti-Mage strikes the new unit blocking it for 1 physical damage. [TG]Cross Lane[ET]."
+                    "english":"[TG]Active 3, 1 Mana:[ET] Move up to range 5. Anti-Mage strikes the new unit blocking it for 1 [ATT]. [TG]Cross Lane[ET]."
                 }
             }
         ]
@@ -1692,6 +1692,18 @@
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] Double Tusk's Attack this round."
                 }
+            },{
+                "release_date":"2020-10-16",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Walrus Punch"
+                 },
+                "cooldown": 3,
+                "image": "210058_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Double Tusk's [ATT] this round."
+                }
             }
         ]
     },
@@ -2383,6 +2395,18 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 2[AC], 1 Mana:[ET] Repeat 4 times: [RP] Give an ally +1 temporary health and deal 1 damage to its closest adjacent enemy. Jump left or right to the ally with the least health."
+                }
+            },{
+                "release_date":"2020-10-16",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Shadow Wave"
+                 },
+                "cooldown": 2,
+                "image": "210079_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Repeat 4 times: [RP] Give an ally +1 temporary [HP] and deal 1 damage to its closest adjacent enemy. Jump left or right to the ally with the least [HP]."
                 }
             }
         ]
