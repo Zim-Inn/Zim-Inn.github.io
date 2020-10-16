@@ -1,5 +1,12 @@
 [
     {
+    "code": "RTFACTJa8SZbkCA9wE6BMFtAp0vAKoAVgHAxIcvAJjCaUEmiYEAjUCB6ACiIJSZWQvQmx1ZSBFcXVpcG1lbnQ_",
+    "added": "15th October 2020",
+    "removed": "",
+    "updateLink": "https://steamcommunity.com/games/1269260/announcements/detail/4711287564960104807",
+    "description": "Red/Blue Equipment - Additional playtest deck added to showcase Mazzie, following Mazzie's inclusion to Constructed Matchmaking."
+    },
+    {
         "code": "RTFACTJVsLv7kCC0vBBPoeBay7AqgBZwIDFKYDKQkKbgJ3AYa4BXcBUrsBgVBsYXl0ZXN0IEJS",
         "added": "1st October 2020",
         "removed": "",
@@ -42,4 +49,5 @@
         "description": "Red/Blue Nukem - One of six decks added to playtest the initial implementation of the new dual-color deck support mechanics."
     }
 ]
+
 
