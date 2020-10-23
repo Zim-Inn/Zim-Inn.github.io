@@ -213,12 +213,18 @@ const GetVersionChangesHTML = function(CardID) {
                         //Card Mini-image
                         if (CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['miniimage'] != CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['miniimage']) {
                             CardHistoryHTML += '<li>Card mini-image changed. </li>';
-                            CardHistoryHTML += '<div class="CardViewerPage_CardHistoryMiniImageContainer"><img src="Images/Cards/MiniImage/'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['miniimage']+'.jpg"></div><div class="CardViewerPage_CardHistoryMiniImageChangeIndicator"></div><div class="CardViewerPage_CardHistoryMiniImageContainer"><img src="Images/Cards/MiniImage/'+CardJSON[CardArrayIndex]['versions'][UpdatedSignatureV2]['image']+'.jpg"></div><div class="clear"></div>';
+                            CardHistoryHTML += '<div class="CardViewerPage_CardHistoryMiniImageContainer"><img src="Images/Cards/MiniImage/'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['miniimage']+'.jpg"></div><div class="CardViewerPage_CardHistoryMiniImageChangeIndicator"></div><div class="CardViewerPage_CardHistoryMiniImageContainer"><img src="Images/Cards/MiniImage/'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['image']+'.jpg"></div><div class="clear"></div>';
                         }
                         //Card Type
                         if (CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['card_type'] != CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['card_type']) {
                             CardHistoryHTML += '<div class="CardViewerPage_CardHistoryAbilityTextUpdate">Card Type changed from '+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['card_type']+ ' to '+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['card_type']+'.</div>';
                         }
+                        //Card Colour
+                        if ("colour" in CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]) {
+                            if (CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['colour'] != CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['colour']) {
+                                CardHistoryHTML += '<div class="CardViewerPage_CardHistoryAbilityTextUpdate">Card color changed from '+CardHistory_ColourLetterToWord(CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['colour'])+ ' to '+CardHistory_ColourLetterToWord(CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['colour'])+'. </div>';
+                            }
+                        } 
                         //Card Rarity
                         if (CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['rarity'] != CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['rarity']) {
                             CardHistoryHTML += '<div class="CardViewerPage_CardHistoryAbilityTextUpdate">Card Rarity changed from '+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['rarity']+'<span class=CardViewerPage_CardHistoryRarityIconSignature><img src="Images/SetIcons/'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['set']+'-'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['rarity']+'.png"></span> to '+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['rarity']+'<span class=CardViewerPage_CardHistoryRarityIconSignature><img src="Images/SetIcons/'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['set']+'-'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['rarity']+'.png"></span> </div>';

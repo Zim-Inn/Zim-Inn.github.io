@@ -243,6 +243,10 @@
         "text": {
           "english": " /n +5[ATT] /n /n [TG]Active 2[AC], 1 Mana:[ET] Hex an enemy for two rounds."
         }
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 40
       }
     ]
   },
@@ -667,6 +671,11 @@
       {
         "release_date": "2020-08-21",
         "abilities": [ "210011_2" ]
+      },
+      {
+        "release_date": "2020-10-22",
+        "abilities": [ "210011_3" ],
+        "signature": [ "11004_2" ]
       }
     ]
   },
@@ -698,6 +707,13 @@
           "english": " /n Swap caster to a neighboring slot. It taunts. /n [TG][QU] Quickcast[ET]"
         },
         "is_signature": "11003_2"
+      },
+      {
+        "release_date": "2020-10-22",
+        "text": {
+          "english": " /n Swap caster up to range 1. It taunts. /n [TG][QU] Quickcast[ET]"
+        },
+        "is_signature": "11003_3"
       }
     ]
   },
@@ -980,6 +996,10 @@
         "text": {
           "english": "/n +2[ATT] /n /n Adjacent enemy creeps are rooted and have -2[ATT], -2[AR] and +1 Bounty."
         }
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 15
       }
     ]
   },
@@ -1073,6 +1093,10 @@
         "related_cards": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 25
       }
     ]
   },
@@ -1116,6 +1140,10 @@
         "text": {
           "english": "/n +3[HP] /n /n [TG]Active 2[AC], 1 Mana: [ET] /n Swap this hero to another slot."
         }
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 15
       }
     ]
   },
@@ -1220,11 +1248,17 @@
         "related_cards": [],
         "crosslane": false,
         "quick": false
-      }, {
+      },
+      {
         "release_date": "2020-10-15",
         "text": {
-          "english": "/n +1[AR] /n [TG]Active 1[AC], 1 Mana: [ET] /n Reduce adjacent enemies to 1 [HP]. They are stunned, rooted, and feeble."
+          "english": "/n +1[TG][AR] /n Active 1[AC], 1 Mana: [ET] /n Reduce adjacent enemies to 1 [TG][HP][ET]. They are stunned, rooted, and feeble."
         }
+      },
+      {
+        "release_date": "2020-10-22",
+        "cost": 2,
+        "gcost": 50
       }
     ]
   },
@@ -1692,6 +1726,11 @@
         "hp": 7,
         "abilities": [ "210022_0" ],
         "signature": [ "10281_0" ]
+      },
+      {
+        "release_date": "2020-10-22",
+        "colour": "R",
+        "signature": [ "10281_1" ]
       }
     ]
   },
@@ -1724,6 +1763,11 @@
         "crosslane": false,
         "quick": false,
         "is_signature": "10068_0"
+      },
+      {
+        "release_date": "2020-10-22",
+        "colour": "R",
+        "is_signature": "10068_1"
       }
     ]
   },
@@ -2764,6 +2808,10 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 35
       }
     ]
   },
@@ -2943,7 +2991,7 @@
         "attack": 8,
         "armour": 0,
         "hp": 8,
-        "related_cards": [ "10260_0" ],
+        "related_cards": [ "10260_1" ],
         "abilities": [],
         "crosslane": false,
         "quick": false
@@ -2976,15 +3024,19 @@
         "cost": 1,
         "gcost": 25,
         "text": {
-          "english": " /n +3[HP]. /n /n [TG]Active [AC]2:[ET] Summon a Thunderhide Pack."
+          "english": " /n +3[HP]. /n /n [TG]Active 2[AC], 1 Mana:[ET] Summon a Thunderhide Pack."
         },
         "attack": 0,
         "armour": 0,
-        "hp": 4,
+        "hp": 3,
         "abilities": [],
         "crosslane": false,
         "quick": false,
         "related_cards": [ "10102_0" ]
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 40
       }
     ]
   },
@@ -4374,6 +4426,12 @@
       {
         "release_date": "2020-06-26",
         "signature": [ "10942_2" ]
+      },
+      {
+        "release_date": "2020-10-22",
+        "colour": "G",
+        "signature": [ "10942_3" ],
+        "image": "10940_5"
       }
     ]
   },
@@ -4412,6 +4470,13 @@
           "english": " Choose caster. Move another unit to a slot within range 5 from the caster. /n Deal 1 damage to the new neighbors your opponent controls. /n [TG]Cross Lane[ET]"
         },
         "is_signature": "10940_4"
+      },
+      {
+        "release_date": "2020-10-22",
+        "colour": "G",
+        "is_signature": "10940_5",
+        "image": "10942_3",
+        "miniimage": "10942_3"
       }
     ]
   },
@@ -5162,7 +5227,7 @@
         "cost": 1,
         "gcost": 30,
         "text": {
-          "english": "/n [TG]+6[ATT]/n Active 1[AC], 1 Mana:[ET] Slay combat target and destroy all of their items.\n Dispel all enemy tower enchantments"
+          "english": "/n+6 [TG][ATT]/n/n Active 1[AC], 1 Mana:[ET] Slay combat target and destroy all of their items.\n Dispel all enemy tower enchantments"
         },
         "attack": 6,
         "armour": 0,
@@ -5170,6 +5235,11 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-10-22",
+        "cost": 2,
+        "gcost": 50
       }
     ]
   },
@@ -5199,6 +5269,10 @@
         "crosslane": false,
         "quick": false,
         "related_cards": [ "10641_1" ]
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 20
       }
     ]
   },
@@ -5228,7 +5302,7 @@
         "abilities": [],
         "crosslane": false,
         "quick": false,
-        "related_cards": [ "10629_0" ]
+        "related_cards": [ "10629_1" ]
       },
       {
         "text": {
@@ -5296,6 +5370,10 @@
         "text": {
           "english": "/n +2[ATT]/n [TG]Active 2[AC], 1 Mana:[ET] /n Move this hero to a slot in an adjacent lane."
         }
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 25
       }
     ]
   },
@@ -5445,7 +5523,7 @@
       {
         "release_date": "2020-06-26",
         "text": {
-          "english": "/n [TG]+2[AR]/n After Combat:[ET] Summon a Zombie into the closest slot"
+          "english": "/n +2 [TG][AR]/n/n After Combat:[ET] Summon a Zombie into the closest slot"
         }
       }
     ]
@@ -5496,7 +5574,7 @@
         "cost": 1,
         "gcost": 30,
         "text": {
-          "english": "/n [TG]+9[HP]/n Active 1[AC], 1 Mana:[ET] Deal 12 piercing damage to a unit"
+          "english": "/n +9 [TG][HP]/n/n Active 1[AC], 1 Mana:[ET] Deal 12 piercing damage to a unit"
         },
         "attack": 0,
         "armour": 0,
@@ -5504,6 +5582,11 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-10-22",
+        "cost": 2,
+        "gcost": 50
       }
     ]
   },
@@ -5524,7 +5607,7 @@
         "cost": 1,
         "gcost": 30,
         "text": {
-          "english": "/n +7[AR] /n [TG]Aura:[ET] Enemy units have -7[AR]"
+          "english": "/n +7 [TG][AR] /n /n Aura:[ET] Enemy units have -7[AR]"
         },
         "attack": 0,
         "armour": 7,
@@ -5532,6 +5615,11 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-10-22",
+        "cost": 2,
+        "gcost": 50
       }
     ]
   },
@@ -5618,6 +5706,10 @@
         "text": {
           "english": " /n /n +4 damage when striking a tower."
         }
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 15
       }
     ]
   },
@@ -5651,10 +5743,11 @@
         "release_date": "2020-06-26",
         "card_name": {
           "english": "Gem of True Sight"
-        },
-        "text": {
-          "english": "/n +6[HP] /n /n [TG]Round Start:[ET] Reveal opponent's hand."
         }
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 30
       }
     ]
   },
@@ -5683,11 +5776,16 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
-      }, {
+      },
+      {
         "release_date": "2020-10-15",
         "text": {
           "english": " /n +6[HP] /n [TG]Active 1[AC], 1 Mana:[ET] Give a unit immunity to physical damage, other damage it takes is doubled."
         }
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 30
       }
     ]
   },
@@ -5820,6 +5918,10 @@
         "text": {
           "english": "/n +4 [AR]/n [TG]Play Effect:[ET] Activate./n [TG]Active 2[AC], 1 Mana:[ET] Purge your opponent's effects from equipped hero. Give each ally +4 temporary [HP]."
         }
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 35
       }
     ]
   },
@@ -5955,7 +6057,7 @@
         "cost": 1,
         "gcost": 10,
         "text": {
-          "english": "/n [TG]+2[ATT]/n /n Play Effect:[ET] Heal 4"
+          "english": "/n +2[TG][ATT]/n /n Play Effect:[ET] Heal 4"
         },
         "attack": 2,
         "armour": 0,
@@ -5983,7 +6085,7 @@
         "cost": 1,
         "gcost": 20,
         "text": {
-          "english": "/n [TG]+2[AR]/n Active 2[AC], 1 Mana:[ET] Steal an enemy creep."
+          "english": "/n +2 [TG][AR]/n Active 2[AC], 1 Mana:[ET] Steal an enemy creep."
         },
         "attack": 0,
         "armour": 2,
@@ -5995,6 +6097,10 @@
       {
         "release_date": "2020-06-26",
         "gcost": 25
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 35
       }
     ]
   },
@@ -6015,7 +6121,7 @@
         "cost": 1,
         "gcost": 20,
         "text": {
-          "english": "/n /n[TG]+12[HP]"
+          "english": "/n /n+12 [TG][HP][ET]"
         },
         "attack": 0,
         "armour": 0,
@@ -6023,6 +6129,10 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 30
       }
     ]
   },
@@ -6057,6 +6167,10 @@
         "text": {
           "english": "/n +9[HP]/n Whenever an enemy plays an ability or card from this lane, restore 1 Mana./n[TG]Aura:[ET] Allies have doubled Healing and Regeneration."
         }
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 35
       }
     ]
   },
@@ -6085,6 +6199,10 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 20
       }
     ]
   },
@@ -6105,7 +6223,7 @@
         "cost": 1,
         "gcost": 15,
         "text": {
-          "english": "/n +2[ATT], Pierce/n[TG]Play Effect:[ET] Purge your opponent's effects from equipped hero."
+          "english": "/n +2[ATT], Pierce/n/n[TG]Play Effect:[ET] Purge your opponent's effects from equipped hero."
         },
         "attack": 2,
         "armour": 0,
@@ -6113,6 +6231,10 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 25
       }
     ]
   },
@@ -6150,6 +6272,10 @@
         },
         "attack": 0,
         "armour": 2
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 20
       }
     ]
   },
@@ -6245,6 +6371,10 @@
         "text": {
           "english": "/n +5[ATT]/n When equipped hero strikes a unit and survives, deal 3 damage to that unit. Repeat 3 more times: [RP] Jump left or right and deal 3 damage."
         }
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 45
       }
     ]
   },
@@ -6280,6 +6410,10 @@
           "english": "/n /n +5[ATT], Quickstrike"
         },
         "attack": 5
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 30
       }
     ]
   },
@@ -6308,6 +6442,10 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 30
       }
     ]
   },
@@ -6328,7 +6466,7 @@
         "cost": 1,
         "gcost": 15,
         "text": {
-          "english": "/n +2[AR]/n[TG]Active 3[AC], 1 Mana:[ET] Silence an enemy and give it -3[AR]."
+          "english": "/n +2[AR]/n/n[TG]Active 3[AC], 1 Mana:[ET] Silence an enemy and give it -3[AR]."
         },
         "attack": 0,
         "armour": 2,
@@ -6336,6 +6474,10 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 20
       }
     ]
   },
@@ -6368,8 +6510,13 @@
       {
         "release_date": "2020-08-21",
         "text": {
-          "english": "/n +10[ATT]/n /n Before your turn, deal 1 piercing damage to each enemy."
+          "english": "/n +10 [TG][ATT][ET]/n /n Before your turn, deal 1 piercing damage to each enemy."
         }
+      },
+      {
+        "release_date": "2020-10-22",
+        "cost": 2,
+        "gcost": 50
       }
     ]
   },
@@ -6398,6 +6545,10 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 20
       }
     ]
   },
@@ -6418,7 +6569,7 @@
         "cost": 1,
         "gcost": 30,
         "text": {
-          "english": "/n +6[HP] /n [TG]Active 2[AC], 1 Mana:[ET] Refresh all cooldowns on equipped hero. Draw a card. Restore 3 mana."
+          "english": "/n +6 [TG][HP] /n/n Active 2[AC], 1 Mana:[ET] Refresh all cooldowns on equipped hero. Draw a card. Restore 3 mana."
         },
         "attack": 0,
         "armour": 0,
@@ -6426,6 +6577,11 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-10-22",
+        "cost": 2,
+        "gcost": 50
       }
     ]
   },
@@ -6482,6 +6638,10 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 25
       }
     ]
   },
@@ -6516,6 +6676,10 @@
         "text": {
           "english": "/n +5[ATT] /n /n [TG]Active 2[AC], 1 Mana:[ET] Disable native abilities on an enemy in any lane. Battle that enemy. /n [TG]Cross Lane[ET]"
         }
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 45
       }
     ]
   },
@@ -6544,6 +6708,10 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 35
       }
     ]
   },
@@ -6564,7 +6732,7 @@
         "cost": 1,
         "gcost": 25,
         "text": {
-          "english": " /n +9[HP], +1 Mana /n After a hero dies, add a charge. /n /n [TG]Active 0[AC], 1 Mana[ET]: Spend a charge. Give an enemy +4 Decay or an ally +4 Regeneration."
+          "english": " +9[HP], +1 Mana /n After a hero dies, add a charge. /n /n [TG]Active 0[AC], 1 Mana[ET]: Spend a charge. Give an enemy +4 Decay or an ally +4 Regeneration."
         },
         "attack": 0,
         "armour": 0,
@@ -6576,14 +6744,18 @@
       {
         "release_date": "2020-06-26",
         "text": {
-          "english": " /n +9[HP], +1 Mana /n Whenever a hero dies, add a charge. /n /n [TG]Active 0[AC], 1 Mana[ET]: Spend a charge. Give an enemy +4 Decay or an ally +4 Regeneration."
+          "english": " +9[HP], +1 Mana /n Whenever a hero dies, add a charge. /n /n [TG]Active 0[AC], 1 Mana[ET]: Spend a charge. Give an enemy +4 Decay or an ally +4 Regeneration."
         }
       },
       {
         "release_date": "2020-07-31",
         "text": {
-          "english": " /n +9[HP], +2 Mana /n Whenever a hero dies, add a charge. /n /n [TG]Active 0[AC], 1 Mana[ET]: Spend a charge. Give an enemy +4 Decay or an ally +4 Regeneration."
+          "english": " +9[HP], +2 Mana /n Whenever a hero dies, add a charge. /n /n [TG]Active 0[AC], 1 Mana[ET]: Spend a charge. Give an enemy +4 Decay or an ally +4 Regeneration."
         }
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 45
       }
     ]
   },
@@ -6657,6 +6829,10 @@
         "text": {
           "english": " /n +4[AR], +4[HP], +4 Regeneration"
         }
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 25
       }
     ]
   },
@@ -6689,6 +6865,10 @@
       {
         "release_date": "2020-07-31",
         "gcost": 25
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 40
       }
     ]
   },
@@ -6717,6 +6897,10 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 35
       }
     ]
   },
@@ -6737,7 +6921,7 @@
         "cost": 1,
         "gcost": 15,
         "text": {
-          "english": " /n +6[HP] /n [TG]Play Effect:[ET] Give allies +2[ATT]."
+          "english": " /n +6 [TG][HP] /n /n Play Effect:[ET] Give allies +2[ATT]."
         },
         "attack": 0,
         "armour": 0,
@@ -6745,6 +6929,10 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 25
       }
     ]
   },
@@ -6793,6 +6981,10 @@
           "english": " /n [TG]Aura:[ET] Equipped hero and its neighbors have +4[ATT] and +4 Regeneration."
         },
         "attack": 4
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 35
       }
     ]
   },
@@ -12486,6 +12678,12 @@
         },
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-10-22",
+        "text": {
+          "english": " /n Each unit on both teams strikes itself."
+        }
       }
     ]
   },
@@ -13708,6 +13906,10 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-10-22",
+        "gcost": 15
       }
     ]
   },
@@ -14383,6 +14585,62 @@
         },
         "crosslane": false,
         "quick": false
+      }
+    ]
+  },
+  {
+    "card_id": 10067,
+    "searchterm": "Magnoceros",
+    "versions": [
+      {
+        "release_date": "2020-10-22",
+        "card_type": "Hero",
+        "card_name": {
+          "english": "Magnus"
+        },
+        "lore": {
+          "text": {
+            "english": "I'm no stranger to man's lust for conquest. To be seen not as a person but as a commodity... and I refuse to stand idly by while the Vhoul are subjugated. It's too late for my people... but it might not be too late for theirs."
+          },
+          "tag": {
+            "english": "Magnus, Endangered Protector"
+          }
+        },
+        "set": 1,
+        "rarity": 2,
+        "colour": "R",
+        "image": "10067_0",
+        "miniimage": "10067_0",
+        "icon": "10067_0",
+        "attack": 2,
+        "armour": 1,
+        "hp": 6,
+        "abilities": [ "11098_0" ],
+        "signature": [ "10280_0" ]
+      }
+    ]
+  },
+  {
+    "card_id": 10280,
+    "versions": [
+      {
+        "release_date": "2020-10-22",
+        "card_type": "Spell",
+        "card_name": {
+          "english": "Shockwave"
+        },
+        "set": 1,
+        "rarity": 1,
+        "colour": "R",
+        "image": "10280_0",
+        "miniimage": "10280_0",
+        "cost": 2,
+        "text": {
+          "english": " /n Choose caster and an enemy. /n Deal 1 damage to enemies between them, then pull them towards the caster."
+        },
+        "crosslane": false,
+        "quick": false,
+        "is_signature": "10067_0"
       }
     ]
   }
