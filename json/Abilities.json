@@ -274,6 +274,18 @@
                 "text":{
                     "english":"Active [AC]3, 1 Mana: Each unit with Keefe the Bold as their combat target battles itself with +2[ATT]."
                 }
+            },{
+                "release_date":"2020-10-22",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Stop Hittin' Yourself"
+                 },
+                "cooldown": 0,
+                "image": "210011_0",
+                "cost": 0,
+                "text":{
+                    "english":"Active [AC]3, 1 Mana: Each unit with Keefe the Bold as their combat target strikes itself with +2[ATT]."
+                }
             }
         ]
     },
@@ -3094,7 +3106,7 @@
         "versions":[
             {
                 "release_date":"2020-09-03",
-                "ability_type":"Active",
+                "ability_type":"Reactive Ability",
                 "ability_name":{
                     "english":"Gear Head"
                  },
@@ -3107,7 +3119,7 @@
             },
             {
                 "release_date":"2020-10-15",
-                "ability_type":"Active",
+                "ability_type":"Reactive Ability",
                 "ability_name":{
                     "english":"Gear Head"
                  },
@@ -3116,6 +3128,25 @@
                 "cost": 0,
                 "text":{
                     "english":"Mazzie may equip any number of unique items. /n Mazzie has +1[ATT], +1[AR], and +1[HP] for each equipped item."
+                }
+            }
+        ]
+    },
+    {
+        "card_id":11098,
+        "card_type":"Ability",
+        "versions":[
+            {
+                "release_date":"2020-10-22",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Skewer"
+                 },
+                "cooldown": 2,
+                "image": "11098_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Choose an unopposed slot within range 5. Magnus strikes the closest hero in that direction for 2 [ATT] and moves it to the closest available slot. Move Magnus to it. Cross Lane"
                 }
             }
         ]

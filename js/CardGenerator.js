@@ -33,6 +33,7 @@ const GenerateCard = function(Container,CardIDV) {
     let CardText = "";
     let TextBackgroundStyle = "";
     let CardTextStyle = "CardCentreSplitBotText";
+    let CardVersionReleaseDate_DateFormat = new Date(Card['release_date']);
    
     switch(CardType) {
 
@@ -215,20 +216,34 @@ const GenerateCard = function(Container,CardIDV) {
             CardSetIconStyle = "CardBottomIconSet"+Card['set']+"-"+Card['rarity'];
             //TextBackgroundStyle = "";
 
+            //let CardTierChangeDate1 = new Date('2020-10-22');
+            
             switch (CardGoldCost) {
                 case 10:
                     TextBackgroundStyle = "CardCentreSplitBotBG4";
                     break;
                 case 15:
-                    TextBackgroundStyle = "CardCentreSplitBotBG5";
+                    TextBackgroundStyle = "CardCentreSplitBotBG4";
                     break;
                 case 20:
-                    TextBackgroundStyle = "CardCentreSplitBotBG6";
+                    TextBackgroundStyle = "CardCentreSplitBotBG5";
                     break;
                 case 25:
-                    TextBackgroundStyle = "CardCentreSplitBotBG7";
+                    TextBackgroundStyle = "CardCentreSplitBotBG5";
                     break;
                 case 30:
+                    TextBackgroundStyle = "CardCentreSplitBotBG6";
+                    break;
+                case 35:
+                    TextBackgroundStyle = "CardCentreSplitBotBG6";
+                    break;
+                case 40:
+                    TextBackgroundStyle = "CardCentreSplitBotBG7";
+                    break;
+                case 45:
+                    TextBackgroundStyle = "CardCentreSplitBotBG7";
+                    break;
+                case 50:
                     TextBackgroundStyle = "CardCentreSplitBotBG8";
                     break;
                 default:
