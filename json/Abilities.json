@@ -1381,6 +1381,19 @@
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] Choose an enemy within range 3. Swap them to a new slot within range 3. Stun them and their new neigbors. /n [TG]Cross Lane[ET]"
                 }
+            },
+            {
+                "release_date":"2020-10-29",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Telekinesis"
+                 },
+                "cooldown": 2,
+                "image": "210048_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Choose an enemy within range 3. Swap them to a new slot within range 3. Stun their new neigbors. /n [TG]Cross Lane[ET]"
+                }
             }
         ]
     },
@@ -1454,6 +1467,18 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] Move all your heroes in this lane to another lane."
+                }
+            },{
+                "release_date":"2020-10-29",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Dark Rift"
+                 },
+                "cooldown": 3,
+                "image": "210050_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Move Underlord and the closest allied heroes to another lane."
                 }
             }
         ]
@@ -1783,7 +1808,19 @@
                 "image": "210061_0",
                 "cost": 0,
                 "text":{
-                    "english":"Whenever Necrophos kills a unit, restore 1 mana"
+                    "english":"Whenever Necrophos kills a unit, restore 1 mana."
+                }
+            },{
+                "release_date":"2020-10-29",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Sadist"
+                 },
+                "cooldown": 0,
+                "image": "210061_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever an enemy unit dies, restore 1 mana."
                 }
             }
         ]
@@ -2842,7 +2879,19 @@
                 "image": "11067_0",
                 "cost": 1,
                 "text":{
-                    "english":"When Venomancer and allied Plague Wards deal damage to a unit or tower, give it +1 Decay until its next combat phase"
+                    "english":"When Venomancer and allied Plague Wards deal damage to a unit or tower, give it +1 Decay until its next combat phase."
+                }
+            },{
+                "release_date":"2020-10-29",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Poison Sting"
+                 },
+                "cooldown": 2,
+                "image": "11067_0",
+                "cost": 1,
+                "text":{
+                    "english":"When Venomancer and allied Plague Wards deal physical damage to a unit or tower, give it +1 Decay until its next combat phase."
                 }
             }
         ]
@@ -3147,6 +3196,19 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 2[AC], 1 Mana:[ET] Choose an unopposed slot within range 5. Magnus strikes the closest hero in that direction for 2 [ATT] and moves it to the closest available slot. Move Magnus to it. Cross Lane"
+                }
+            },
+            {
+                "release_date":"2020-10-29",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Skewer"
+                 },
+                "cooldown": 2,
+                "image": "11098_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Move Magnus to a slot within range 5. Pull the first enemy hero in that direction through other units towards Magnus new slot. Magnus strikes it for 2 [ATT]. Cross Lane"
                 }
             }
         ]
