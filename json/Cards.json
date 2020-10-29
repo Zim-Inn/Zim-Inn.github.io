@@ -290,6 +290,11 @@
       {
         "release_date": "2020-10-15",
         "abilities": [ "210004_3", "210005_1" ]
+      },
+      {
+        "release_date": "2020-10-29",
+        "armour": 1,
+        "hp": 4
       }
     ]
   },
@@ -321,7 +326,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10030_3"
+        "is_signature": "10030_4"
       }
     ]
   },
@@ -1035,6 +1040,13 @@
         "text": {
           "english": "/n +6[HP] /n /n Summon Demonic Archers instead of Melee Creeps."
         }
+      },
+      {
+        "release_date": "2020-10-29",
+        "text": {
+          "english": "/n +3[HP] /n /n Summon Demonic Archers instead of Melee Creeps."
+        },
+        "hp": 3
       }
     ]
   },
@@ -1061,7 +1073,7 @@
         "armour": 0,
         "hp": 2,
         "abilities": [],
-        "related_cards": [ "10944_1" ],
+        "related_cards": [ "10944_2" ],
         "crosslane": false,
         "quick": false
       }
@@ -1097,6 +1109,12 @@
       {
         "release_date": "2020-10-22",
         "gcost": 25
+      },
+      {
+        "release_date": "2020-10-29",
+        "text": {
+          "english": "/n +2[AR] /n /n [TG]Aura: [ET] Adjacent enemies are rooted and have +4 decay."
+        }
       }
     ]
   },
@@ -1300,6 +1318,11 @@
         "release_date": "2020-06-12",
         "abilities": [ "210014_1" ],
         "related_cards": [ "10990_1" ]
+      },
+      {
+        "release_date": "2020-10-29",
+        "signature": [ "10055_1" ],
+        "related_cards": [ "10990_2" ]
       }
     ]
   },
@@ -1333,6 +1356,13 @@
         "crosslane": false,
         "quick": false,
         "is_signature": "10053_2"
+      },
+      {
+        "release_date": "2020-10-29",
+        "text": {
+          "english": "/n [TG]After Combat:[ET] Add a charge. /n /n Before your turn, if you have an enemy slot, remove a charge and summon a Melee Creep."
+        },
+        "is_signature": "10053_3"
       }
     ]
   },
@@ -1367,6 +1397,11 @@
         "release_date": "2020-09-24",
         "attack": 3,
         "related_cards": [ "10053_2" ]
+      },
+      {
+        "release_date": "2020-10-29",
+        "attack": 2,
+        "related_cards": [ "10053_3" ]
       }
     ]
   },
@@ -2991,7 +3026,7 @@
         "attack": 8,
         "armour": 0,
         "hp": 8,
-        "related_cards": [ "10260_1" ],
+        "related_cards": [ "10260_2" ],
         "abilities": [],
         "crosslane": false,
         "quick": false
@@ -3037,6 +3072,13 @@
       {
         "release_date": "2020-10-22",
         "gcost": 40
+      },
+      {
+        "release_date": "2020-10-29",
+        "text": {
+          "english": " /n +6[HP]. /n /n [TG]Active 2[AC], 1 Mana:[ET] Summon a Thunderhide Pack."
+        },
+        "hp": 6
       }
     ]
   },
@@ -3725,6 +3767,11 @@
       {
         "release_date": "2020-10-09",
         "signature": [ "10666_2" ]
+      },
+      {
+        "release_date": "2020-10-29",
+        "colour": "B",
+        "signature": [ "10666_3" ]
       }
     ]
   },
@@ -3764,6 +3811,11 @@
           "english": "/n Enchant Tower /n /n [TG]Active 2[AC], Mana 1:[ET] Choose an ally. It strikes the enemy tower. Slay that ally."
         },
         "is_signature": "10663_3"
+      },
+      {
+        "release_date": "2020-10-29",
+        "colour": "B",
+        "is_signature": "10663_4"
       }
     ]
   },
@@ -3804,6 +3856,10 @@
       {
         "release_date": "2020-09-18",
         "signature": [ "10670_2" ]
+      },
+      {
+        "release_date": "2020-10-29",
+        "abilities": [ "210048_4" ]
       }
     ]
   },
@@ -3842,7 +3898,7 @@
         "text": {
           "english": "/nPut a copy of the last non-item card your opponent played into your hand. That card is blue and costs 1 less. /n/n [TG][QU]Quickcast[ET]"
         },
-        "is_signature": "10668_3"
+        "is_signature": "10668_5"
       }
     ]
   },
@@ -3938,6 +3994,10 @@
       {
         "release_date": "2020-06-26",
         "signature": [ "10700_1" ]
+      },
+      {
+        "release_date": "2020-10-29",
+        "abilities": [ "210050_1" ]
       }
     ]
   },
@@ -3968,7 +4028,7 @@
         "text": {
           "english": " /n Enchant Unit /n [TG]Aura:[ET] Enemies in this lane within range 2 have -1[ATT]. Whenever one dies gain +1[ATT] permanently."
         },
-        "is_signature": "10678_1"
+        "is_signature": "10678_2"
       }
     ]
   },
@@ -4183,6 +4243,11 @@
       {
         "release_date": "2020-07-31",
         "abilities": [ "210053_1", "11067_0" ]
+      },
+      {
+        "release_date": "2020-10-29",
+        "abilities": [ "210053_1", "11067_1" ],
+        "related_cards": [ "10789_2" ]
       }
     ]
   },
@@ -4206,8 +4271,8 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10786_2",
-        "related_cards": [ "10789_1" ]
+        "is_signature": "10786_3",
+        "related_cards": [ "10789_2" ]
       }
     ]
   },
@@ -4244,6 +4309,13 @@
           "english": " Feeble. /n [TG]Round Start:[ET] Deal 2 piercing damage to a random adjacent enemy. If there are none, deal 2 piercing damage to the enemy tower instead.                     "
         },
         "related_cards": [ "10786_2", "10788_0" ]
+      },
+      {
+        "release_date": "2020-10-29",
+        "text": {
+          "english": " Feeble. /n [TG]Round Start:[ET] Strike a random adjacent enemy for 2 [ATT]. If there are none, strike enemy tower instead for 2 [ATT] instead."
+        },
+        "related_cards": [ "10786_3", "10788_0" ]
       }
     ]
   },
@@ -4356,6 +4428,10 @@
       {
         "release_date": "2020-10-15",
         "abilities": [ "11065_3", "210056_1" ]
+      },
+      {
+        "release_date": "2020-10-29",
+        "hp": 9
       }
     ]
   },
@@ -4386,7 +4462,7 @@
         "text": {
           "english": " /n /n Deal 2 damage to a unit and give it -2[AR] this round."
         },
-        "is_signature": "10024_6"
+        "is_signature": "10024_7"
       }
     ]
   },
@@ -4783,6 +4859,10 @@
       {
         "release_date": "2020-10-15",
         "abilities": [ "210061_1", "210062_1" ]
+      },
+      {
+        "release_date": "2020-10-29",
+        "abilities": [ "210061_2", "210062_1" ]
       }
     ]
   },
@@ -4806,7 +4886,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10059_2"
+        "is_signature": "10059_3"
       }
     ]
   },
@@ -5268,7 +5348,7 @@
         "abilities": [],
         "crosslane": false,
         "quick": false,
-        "related_cards": [ "10641_1" ]
+        "related_cards": [ "10641_2" ]
       },
       {
         "release_date": "2020-10-22",
@@ -5305,9 +5385,14 @@
         "related_cards": [ "10629_1" ]
       },
       {
+        "release_date": "2020-05-29",
         "text": {
           "english": "/n [TG]Death Effect:[ET] Put a locked Artificer's Mail card into your hand."
         }
+      },
+      {
+        "release_date": "2020-10-29",
+        "cost": 1
       }
     ]
   },
@@ -5449,6 +5534,10 @@
           "english": "/n +6[ATT]"
         },
         "attack": 6
+      },
+      {
+        "release_date": "2020-10-29",
+        "gcost": 20
       }
     ]
   },
@@ -6101,6 +6190,10 @@
       {
         "release_date": "2020-10-22",
         "gcost": 35
+      },
+      {
+        "release_date": "2020-10-29",
+        "gcost": 30
       }
     ]
   },
@@ -6642,6 +6735,10 @@
       {
         "release_date": "2020-10-22",
         "gcost": 25
+      },
+      {
+        "release_date": "2020-10-29",
+        "gcost": 20
       }
     ]
   },
@@ -6712,6 +6809,10 @@
       {
         "release_date": "2020-10-22",
         "gcost": 35
+      },
+      {
+        "release_date": "2020-10-29",
+        "gcost": 30
       }
     ]
   },
@@ -6756,6 +6857,10 @@
       {
         "release_date": "2020-10-22",
         "gcost": 45
+      },
+      {
+        "release_date": "2020-10-29",
+        "gcost": 40
       }
     ]
   },
@@ -6933,6 +7038,10 @@
       {
         "release_date": "2020-10-22",
         "gcost": 25
+      },
+      {
+        "release_date": "2020-10-29",
+        "gcost": 20
       }
     ]
   },
@@ -8212,6 +8321,10 @@
         "text": {
           "english": "/n Whenever one of your units deals physical damage to an enemy, give it +1[ATT] permanently."
         }
+      },
+      {
+        "release_date": "2020-10-29",
+        "hp": 2
       }
     ]
   },
@@ -10029,6 +10142,11 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-10-29",
+        "colour": "R",
+        "hp": 2
       }
     ]
   },
@@ -12445,6 +12563,7 @@
   },
   {
     "card_id": 10805,
+    "hide_from_card_list": "Removed",
     "versions": [
       {
         "release_date": "2020-05-25",
@@ -12474,6 +12593,12 @@
         "release_date": "2020-10-15",
         "text": {
           "english": " /n Enchant Caster/nIf there are no adjacent enemies, this hero has +[ATT] equal to its [HP]."
+        }
+      },
+      {
+        "release_date": "2020-10-29",
+        "text": {
+          "english": " /n TEMPORARILY REMOVED FROM THE GAME, FOR DURATION OF THE <a href=\"https://steamcommunity.com/games/1269260/announcements/detail/2959388481797802731\">MULTICOLOR EXPERIMENT</a>."
         }
       }
     ]
@@ -13296,25 +13421,31 @@
       {
         "release_date": "2020-06-26",
         "text": {
-          "english": " /n [TG]Aura:[ET] Whenever allied units deal battle damage, give them +1[ATT], [AR] or [HP] permanently"
+          "english": " /n [TG]Aura:[ET] Whenever allied units deal battle damage, give them +1[ATT], [AR] or [HP] permanently."
         }
       },
       {
         "release_date": "2020-07-31",
         "text": {
-          "english": " /n [TG]Aura:[ET] Whenever an allied unit deal battle damage to another unit, give that ally +1[ATT], [AR] or [HP] permanently"
+          "english": " /n [TG]Aura:[ET] Whenever an allied unit deal battle damage to another unit, give that ally +1[ATT], [AR] or [HP] permanently."
         }
       },
       {
         "release_date": "2020-09-18",
         "text": {
-          "english": " /n [TG]Aura:[ET] Whenever an allied unit deal battle damage to another unit and survives, give that ally +1[ATT], [AR] or [HP] permanently"
+          "english": " /n [TG]Aura:[ET] Whenever an allied unit deal battle damage to another unit and survives, give that ally +1[ATT], [AR] or [HP] permanently."
         }
       },
       {
         "release_date": "2020-10-15",
         "text": {
-          "english": " /n [TG]Aura:[ET] Whenever an allied unit deal physical damage to another unit and survives, give that ally +1[ATT], [AR] or [HP] permanently"
+          "english": " /n [TG]Aura:[ET] Whenever an allied unit deal physical damage to another unit and survives, give that ally +1[ATT], [AR] or [HP] permanently."
+        }
+      },
+      {
+        "release_date": "2020-10-29",
+        "text": {
+          "english": " Enchant Tower /n/n [TG]Aura:[ET] Whenever an allied unit from this lane deals physical damage to another unit and survives, give that ally +1[ATT], [AR] or [HP] permanently."
         }
       }
     ]
@@ -14052,9 +14183,14 @@
         "hp": 4,
         "abilities": [ "10179_0" ],
         "signature": [ "11075_0", "11077_0", "11079_0" ]
-      }, {
+      },
+      {
         "release_date": "2020-10-15",
         "abilities": [ "10179_1" ]
+      },
+      {
+        "release_date": "2020-10-29",
+        "signature": [ "11075_0", "11077_0", "11079_1" ]
       }
     ]
   },
@@ -14078,7 +14214,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10052_1",
+        "is_signature": "10052_2",
         "related_cards": [ "11076_0" ]
       }
     ]
@@ -14109,7 +14245,7 @@
         "abilities": [],
         "crosslane": false,
         "quick": false,
-        "related_cards": [ "10052_1", "11075_0" ]
+        "related_cards": [ "10052_2", "11075_0" ]
       }
     ]
   },
@@ -14133,7 +14269,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10052_1",
+        "is_signature": "10052_2",
         "related_cards": [ "11078_0" ]
       }
     ]
@@ -14164,7 +14300,7 @@
         "abilities": [],
         "crosslane": false,
         "quick": false,
-        "related_cards": [ "10052_1", "11077_0" ]
+        "related_cards": [ "10052_2", "11077_0" ]
       }
     ]
   },
@@ -14190,6 +14326,14 @@
         "quick": false,
         "is_signature": "10052_1",
         "related_cards": [ "11080_0" ]
+      },
+      {
+        "release_date": "2020-10-29",
+        "text": {
+          "english": " /n Equip a Sproink Springers Mk.23: /n +2[HP] /n [TG]Active 3[AC], 1 Mana:[ET] Move this hero to another position. It may stay in place. It taunts."
+        },
+        "is_signature": "10052_2",
+        "related_cards": [ "11080_1" ]
       }
     ]
   },
@@ -14220,6 +14364,13 @@
         "crosslane": false,
         "quick": false,
         "related_cards": [ "10052_1", "11079_0" ]
+      },
+      {
+        "release_date": "2020-10-29",
+        "text": {
+          "english": " /n +2[HP] /n [TG]Active 3[AC], 1 Mana:[ET] Move this hero to another position. It may stay in place. It taunts."
+        },
+        "related_cards": [ "10052_2", "11079_1" ]
       }
     ]
   },
@@ -14617,6 +14768,10 @@
         "hp": 6,
         "abilities": [ "11098_0" ],
         "signature": [ "10280_0" ]
+      },{
+        "release_date": "2020-10-29",
+        "attack": 3,
+        "abilities": [ "11098_1" ]
       }
     ]
   },
@@ -14640,7 +14795,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10067_0"
+        "is_signature": "10067_1"
       }
     ]
   }
