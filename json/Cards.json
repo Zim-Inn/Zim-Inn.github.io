@@ -1362,6 +1362,7 @@
         "text": {
           "english": "/n [TG]After Combat:[ET] Add a charge. /n /n Before your turn, if you have an enemy slot, remove a charge and summon a Melee Creep."
         },
+        "cost": 2,
         "is_signature": "10053_3"
       }
     ]
