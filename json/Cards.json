@@ -247,6 +247,10 @@
       {
         "release_date": "2020-10-22",
         "gcost": 40
+      },
+      {
+        "release_date": "2020-11-06",
+        "gcost": 35
       }
     ]
   },
@@ -1005,6 +1009,12 @@
       {
         "release_date": "2020-10-22",
         "gcost": 15
+      },
+      {
+        "release_date": "2020-11-06",
+        "text": {
+          "english": "/n +2[ATT] /n /n [TG]Aura:[ET] Adjacent enemy creeps are rooted and have -2[ATT], -2[AR] and +1 Bounty."
+        }
       }
     ]
   },
@@ -1277,6 +1287,10 @@
         "release_date": "2020-10-22",
         "cost": 2,
         "gcost": 50
+      },
+      {
+        "release_date": "2020-11-06",
+        "gcost": 45
       }
     ]
   },
@@ -1622,6 +1636,10 @@
       {
         "release_date": "2020-10-01",
         "hp": 4
+      },
+      {
+        "release_date": "2020-11-06",
+        "signature": [ "10724_1" ]
       }
     ]
   },
@@ -1647,6 +1665,12 @@
         "quick": false,
         "is_signature": "10721_3",
         "related_cards": [ "10723_2" ]
+      },{
+        "release_date": "2020-11-06",
+        "text": {
+          "english": "/n Move caster to another slot. Replace it with a Lancer Illusion."
+        },
+        "is_signature": "10721_5"
       }
     ]
   },
@@ -2614,6 +2638,10 @@
       {
         "release_date": "2020-10-15",
         "abilities": [ "210034_2", "11069_2" ]
+      },
+      {
+        "release_date": "2020-11-06",
+        "abilities": [ "210034_2", "11069_3" ]
       }
     ]
   },
@@ -2648,7 +2676,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10014_4"
+        "is_signature": "10014_5"
       }
     ]
   },
@@ -2680,6 +2708,9 @@
         "hp": 3,
         "abilities": [ "210035_0" ],
         "signature": [ "10420_0" ]
+      },{
+        "release_date": "2020-11-06",
+        "abilities": [ "210035_1" ]
       }
     ]
   },
@@ -2711,7 +2742,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10026_0"
+        "is_signature": "10026_1"
       }
     ]
   },
@@ -2848,6 +2879,10 @@
       {
         "release_date": "2020-10-22",
         "gcost": 35
+      },
+      {
+        "release_date": "2020-11-06",
+        "gcost": 30
       }
     ]
   },
@@ -2993,7 +3028,8 @@
       },
       {
         "release_date": "2020-07-09",
-        "related_cards": [ "10721_3", "10724_0" ]
+        "is_signature": "",
+        "related_cards": [ "10721_5", "10724_1" ]
       }
     ]
   },
@@ -3112,6 +3148,12 @@
         "release_date": "2020-06-26",
         "text": {
           "english": " [TG]Minion:[ET] Honor Guard has +1[ATT] and +1[AR] per neighboring hero. /n [TG]Play Effect:[ET] Taunt."
+        }
+      },
+      {
+        "release_date": "2020-11-06",
+        "text": {
+          "english": " [TG]Minion:[ET] Honor Guard has +2[ATT] and +2[AR] per neighboring hero. /n [TG]Play Effect:[ET] Taunt."
         }
       }
     ]
@@ -3773,6 +3815,10 @@
         "release_date": "2020-10-29",
         "colour": "B",
         "signature": [ "10666_3" ]
+      },
+      {
+        "release_date": "2020-11-06",
+        "abilities": [ "210046_0", "210047_2" ]
       }
     ]
   },
@@ -3816,7 +3862,7 @@
       {
         "release_date": "2020-10-29",
         "colour": "B",
-        "is_signature": "10663_4"
+        "is_signature": "10663_5"
       }
     ]
   },
@@ -5858,7 +5904,7 @@
         "cost": 1,
         "gcost": 20,
         "text": {
-          "english": " /n +6[HP] /n [TG]Active 1[AC], 1 Mana:[ET] Give a unit immunity to battle damage, other damage it takes is doubled."
+          "english": " /n +6[HP] /n [TG]Active 1 [AC], 1 Mana:[ET] Give a unit immunity to battle damage, other damage it takes is doubled."
         },
         "attack": 0,
         "armour": 0,
@@ -5870,12 +5916,18 @@
       {
         "release_date": "2020-10-15",
         "text": {
-          "english": " /n +6[HP] /n [TG]Active 1[AC], 1 Mana:[ET] Give a unit immunity to physical damage, other damage it takes is doubled."
+          "english": " /n +6[HP] /n [TG]Active 1 [AC], 1 Mana:[ET] Give a unit immunity to physical damage, other damage it takes is doubled."
         }
       },
       {
         "release_date": "2020-10-22",
         "gcost": 30
+      },
+      {
+        "release_date": "2020-11-06",
+        "text": {
+          "english": " +6 [TG][HP] Play Effect: [ET]Activate targeting self. /n /n [TG]Active 1 [AC], 1 Mana:[ET] Give a unit immunity to physical damage, other damage it takes is doubled."
+        }
       }
     ]
   },
@@ -6012,6 +6064,10 @@
       {
         "release_date": "2020-10-22",
         "gcost": 35
+      },
+      {
+        "release_date": "2020-11-06",
+        "gcost": 30
       }
     ]
   },
@@ -6227,6 +6283,12 @@
       {
         "release_date": "2020-10-22",
         "gcost": 30
+      },
+      {
+        "release_date": "2020-11-06",
+        "text": {
+          "english": "/n /n+12 [TG][HP] /n /n Play Effect:[ET] Fully heal equipped hero."
+        }
       }
     ]
   },
@@ -6508,6 +6570,12 @@
       {
         "release_date": "2020-10-22",
         "gcost": 30
+      },
+      {
+        "release_date": "2020-11-06",
+        "text": {
+          "english": "/n +5[ATT], Quickstrike /n /n [TG]Play Effect:[ET] Equipped hero battles the unit blocking it."
+        }
       }
     ]
   },
@@ -6540,6 +6608,12 @@
       {
         "release_date": "2020-10-22",
         "gcost": 30
+      },
+      {
+        "release_date": "2020-11-06",
+        "text": {
+          "english": "/n +2[AR], +2 Regeneration /n /n [TG]Active 3[AC], 1 Mana:[ET] Purge opponent's effects from a unit."
+        }
       }
     ]
   },
@@ -6798,7 +6872,7 @@
         "cost": 1,
         "gcost": 20,
         "text": {
-          "english": " /n +2[ATT], +2 Siege /n Scheme: +2[ATT] and +2 Siege."
+          "english": " /n /n +2[ATT], +2 Siege /n /n Scheme: +2[ATT] and +2 Siege."
         },
         "attack": 2,
         "armour": 0,
@@ -6814,6 +6888,12 @@
       {
         "release_date": "2020-10-29",
         "gcost": 30
+      },
+      {
+        "release_date": "2020-11-06",
+        "text": {
+          "english": " /n /n +2[ATT], +2 Siege, Pierce /n /n Scheme: +2[ATT] and +2 Siege."
+        }
       }
     ]
   },
@@ -7897,6 +7977,10 @@
       {
         "release_date": "2020-06-26",
         "signature": [ "10654_1" ]
+      },
+      {
+        "release_date": "2020-11-06",
+        "abilities": [ "210082_1" ]
       }
     ]
   },
@@ -7927,7 +8011,7 @@
         "text": {
           "english": " /n Slay caster. /n [RP] Deploy heroes currently in your fountain to the first empty slots in this lane."
         },
-        "is_signature": "10652_1"
+        "is_signature": "10652_2"
       }
     ]
   },
@@ -8204,6 +8288,9 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },{
+        "release_date": "2020-11-06",
+        "hp": 2
       }
     ]
   },
@@ -8242,6 +8329,13 @@
         "release_date": "2020-10-15",
         "text": {
           "english": "Whenever Marrowfell Brawler deals physical damage to a unit, give it -1[ATT] permanently. /n [TG]Play Effect:[ET] Marrowfell Brawler battles the enemy blocking it."
+        }
+      },
+      {
+        "release_date": "2020-11-06",
+        "hp": 9,
+        "text": {
+          "english": "Whenever Marrowfell Brawler deals physical damage to a unit, give it -1[ATT] until it dies. /n [TG]Play Effect:[ET] Marrowfell Brawler battles the enemy blocking it twice."
         }
       }
     ]
@@ -8353,6 +8447,11 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },{
+        "release_date": "2020-11-06",
+        "text": {
+          "english": " [TG]After Combat:[ET] Slay Cursed Satyr. /n /n [TG]Active 0[AC], 1 Mana:[ET] Choose a blocked unit. It battles the unit blocking it."
+        }
       }
     ]
   },
@@ -8498,6 +8597,9 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },{
+        "release_date": "2020-11-06",
+        "armour": 2
       }
     ]
   },
@@ -10148,6 +10250,12 @@
         "release_date": "2020-10-29",
         "colour": "R",
         "hp": 2
+      },
+      {
+        "release_date": "2020-10-29",
+        "text": {
+          "english": "/n Whenever an ally enters this lane, give it +1 [TG][AR][ET] permanently."
+        }
       }
     ]
   },
@@ -14192,11 +14300,16 @@
       {
         "release_date": "2020-10-29",
         "signature": [ "11075_0", "11077_0", "11079_1" ]
+      },
+      {
+        "release_date": "2020-11-06",
+        "signature": [ "11076_1", "11078_1", "11080_2" ]
       }
     ]
   },
   {
     "card_id": 11075,
+    "hide_from_card_list": "Removed",
     "versions": [
       {
         "release_date": "2020-09-03",
@@ -14217,12 +14330,16 @@
         "quick": false,
         "is_signature": "10052_2",
         "related_cards": [ "11076_0" ]
+      },{
+        "release_date": "2020-11-06",
+        "text": {
+          "english": " /n Removed from the game. /n This card previously granted the item <a href=\"?id=11076_0\">Mazer Beam MK-179</a> to the caster."
+        }
       }
     ]
   },
   {
     "card_id": 11076,
-    "hide_from_card_list": "Uncollectable",
     "versions": [
       {
         "release_date": "2020-09-03",
@@ -14247,11 +14364,16 @@
         "crosslane": false,
         "quick": false,
         "related_cards": [ "10052_2", "11075_0" ]
+      },{
+        "release_date": "2020-11-06",
+        "related_cards": [""],
+        "is_signature": "10052_3"
       }
     ]
   },
   {
     "card_id": 11077,
+    "hide_from_card_list": "Removed",
     "versions": [
       {
         "release_date": "2020-09-03",
@@ -14272,12 +14394,16 @@
         "quick": false,
         "is_signature": "10052_2",
         "related_cards": [ "11078_0" ]
+      },{
+        "release_date": "2020-11-06",
+        "text": {
+          "english": " /n Removed from the game. /n This card previously granted the item <a href=\"?id=11078_0\">Type XLII Kineto-Zap Harmor</a> to the caster."
+        }
       }
     ]
   },
   {
     "card_id": 11078,
-    "hide_from_card_list": "Uncollectable",
     "versions": [
       {
         "release_date": "2020-09-03",
@@ -14302,11 +14428,16 @@
         "crosslane": false,
         "quick": false,
         "related_cards": [ "10052_2", "11077_0" ]
+      },{
+        "release_date": "2020-11-06",
+        "related_cards": [""],
+        "is_signature": "10052_3"
       }
     ]
   },
   {
     "card_id": 11079,
+    "hide_from_card_list": "Removed",
     "versions": [
       {
         "release_date": "2020-09-03",
@@ -14335,12 +14466,16 @@
         },
         "is_signature": "10052_2",
         "related_cards": [ "11080_1" ]
+      },{
+        "release_date": "2020-11-06",
+        "text": {
+          "english": " /n Removed from the game. /n This card previously granted the item <a href=\"?id=11076_0\">Mazer Beam MK-179</a> to the caster."
+        }
       }
     ]
   },
   {
     "card_id": 11080,
-    "hide_from_card_list": "Uncollectable",
     "versions": [
       {
         "release_date": "2020-09-03",
@@ -14372,6 +14507,10 @@
           "english": " /n +2[HP] /n [TG]Active 3[AC], 1 Mana:[ET] Move this hero to another position. It may stay in place. It taunts."
         },
         "related_cards": [ "10052_2", "11079_1" ]
+      },{
+        "release_date": "2020-11-06",
+        "related_cards": [""],
+        "is_signature": "10052_3"
       }
     ]
   },
@@ -14465,6 +14604,11 @@
         "release_date": "2020-10-15",
         "text": {
           "english": "/nCaster battles an adjacent enemy./nA random allied black hero with the highest [ATT] strikes that enemy."
+        }
+      },{
+        "release_date": "2020-11-06",
+        "text": {
+          "english": "/n An allied red hero battles an adjacent enemy./n A random allied black hero with the highest [ATT] strikes that enemy."
         }
       }
     ]

@@ -1027,6 +1027,18 @@
                 "text":{
                     "english":"Rapid deployment. /n [TG]Death Effect:[ET] Gain +1[ATT] permanently."
                 }
+            },{
+                "release_date":"2020-11-06",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Relentless Rebel"
+                 },
+                "cooldown": 0,
+                "image": "210035_0",
+                "cost": 0,
+                "text":{
+                    "english":"[TG]Death Effect:[ET] Gain +2[ATT] permanently. Give Rix Rapid Deployment. 2 round cooldown."
+                }
             }
         ]
     },
@@ -1321,7 +1333,20 @@
                 "image": "210047_0",
                 "cost": 0,
                 "text":{
-                    "english":"Rapid Deployment. /n"
+                    "english":"Rapid Deployment."
+                }
+            },
+            {
+                "release_date":"2020-11-06",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Assault"
+                 },
+                "cooldown": 0,
+                "image": "210047_0",
+                "cost": 0,
+                "text":{
+                    "english":"[TG]Death Effect:[ET] Ready Rix, Oathbound for deployment. 2 round cooldown."
                 }
             }
         ]
@@ -2562,6 +2587,18 @@
                 "text":{
                     "english":"Rapid Deployment. /n [TG]Death Effect:[ET] Give your allies +2[HP] permanently."
                 }
+            },{
+                "release_date":"2020-11-06",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Devoted Disciple"
+                 },
+                "cooldown": 0,
+                "image": "210082_0",
+                "cost": 0,
+                "text":{
+                    "english":"Rapid Deployment. /n [TG]Death Effect:[ET] Give your allies +2[HP] permanently and give Lady Anshu Rapid Deployment. 2 round cooldown."
+                }
             }
         ]
     },
@@ -2935,6 +2972,18 @@
                 "cost": 0,
                 "text":{
                     "english":"If the combined [ATT] of your creeps in this lane is 15 or more, Lycan has +3[ATT] and your creeps within range 2 have an extra +1[ATT]."
+                }
+            },{
+                "release_date":"2020-11-06",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Pack Leadership"
+                 },
+                "cooldown": 0,
+                "image": "11069_0",
+                "cost": 0,
+                "text":{
+                    "english":"If the combined [ATT] of your creeps in Lycan's lane reaches 15 or more, Lycan has +3[ATT] and your creeps within range 2 have an extra +1[ATT]. /n /n This effect lasts until Lycan dies and cannot be purged."
                 }
             }
         ]
