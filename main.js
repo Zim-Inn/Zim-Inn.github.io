@@ -641,7 +641,12 @@ function CardViewer_SelectCard(CardIDV, skipHistory) {
                 SigCardName = CardJSON[SigCardArrayIndex]['versions'][SigCardVersion]['card_name']['english'];
                 SigCardType = CardJSON[SigCardArrayIndex]['versions'][SigCardVersion]['card_type'];
                 SigCardText = CardViewer_AbilityTextFormatting(CardJSON[SigCardArrayIndex]['versions'][SigCardVersion]['text']['english']);
-                SigCardColour = CardJSON[SigCardArrayIndex]['versions'][SigCardVersion]['colour'];
+
+                if ('colour' in CardJSON[SigCardArrayIndex]['versions'][SigCardVersion]) {
+                    SigCardColour = CardJSON[SigCardArrayIndex]['versions'][SigCardVersion]['colour'];
+                } else {
+                    SigCardColour = "I";
+                }
 
                 if (SigCardType != "Item") {
                     SigCardCost = CardJSON[SigCardArrayIndex]['versions'][SigCardVersion]['cost'];
@@ -671,33 +676,37 @@ function CardViewer_SelectCard(CardIDV, skipHistory) {
 
     //SHOW HERO DETAILS IF THIS CARD IS A SIGNATURE CARD
     if ("is_signature" in ThisCard) {
-        HeroCardIDV = ThisCard['is_signature'];
-        HeroCardIDV = HeroCardIDV.split("_");
-        HeroCardID = HeroCardIDV[0];
-        HeroCardVersion = HeroCardIDV[1];
-        HeroCardArrayIndex = "";
-        for (h = 0; h < CardJSON.length; h++) {
-            if ((CardJSON[h]['card_id']) == HeroCardID) {
-                HeroCardArrayIndex = h;
-                break;
+        if (ThisCard["is_signature"] !== "") {
+            HeroCardIDV = ThisCard['is_signature'];
+            HeroCardIDV = HeroCardIDV.split("_");
+            HeroCardID = HeroCardIDV[0];
+            HeroCardVersion = HeroCardIDV[1];
+            HeroCardArrayIndex = "";
+            for (h = 0; h < CardJSON.length; h++) {
+                if ((CardJSON[h]['card_id']) == HeroCardID) {
+                    HeroCardArrayIndex = h;
+                    break;
+                }
             }
-        }
-        HeroCardMiniImage = CardJSON[HeroCardArrayIndex]['versions'][HeroCardVersion]['miniimage'];
-        HeroCardName = CardJSON[HeroCardArrayIndex]['versions'][HeroCardVersion]['card_name']['english'];
-        HeroCardType = CardJSON[HeroCardArrayIndex]['versions'][HeroCardVersion]['card_type'];
-        HeroCardColour = CardJSON[HeroCardArrayIndex]['versions'][HeroCardVersion]['colour'];
-
-        HTMLHeroCardLeftPanel = '<div class="CursorPointer CardViewerPageSingleAbilityContainer CardViewerPageSignatureContainer'+HeroCardColour+'" onmousemove="CardViewerCardPreviewTooltip(\''+HeroCardID+'_'+HeroCardVersion+'\',1);" onmouseout="CardViewerCardPreviewTooltip(0,0);" onmouseup="CardViewer_SelectCard(\''+HeroCardID+'_'+HeroCardVersion+'\')"> \
-                                        <div class="CardViewerPageAbilityTop"> \
-                                            <div class="CardViewerPageAbilityIcon"><img src="Images/Cards/MiniImage/'+HeroCardMiniImage+'.jpg"></div> \
-                                            <div class="CardViewerPageAbilityTopText"> \
-                                                <div class="CardViewerPageAbilityName">'+HeroCardName.toUpperCase()+'</div> \
-                                                <div class="CardViewerPageSigCardText CardViewerPageSigCardText'+HeroCardColour+'">SIGNATURE CARD FOR '+HeroCardName.toUpperCase()+'</div> \
+            HeroCardMiniImage = CardJSON[HeroCardArrayIndex]['versions'][HeroCardVersion]['miniimage'];
+            HeroCardName = CardJSON[HeroCardArrayIndex]['versions'][HeroCardVersion]['card_name']['english'];
+            HeroCardType = CardJSON[HeroCardArrayIndex]['versions'][HeroCardVersion]['card_type'];
+            HeroCardColour = CardJSON[HeroCardArrayIndex]['versions'][HeroCardVersion]['colour'];
+    
+            HTMLHeroCardLeftPanel = '<div class="CursorPointer CardViewerPageSingleAbilityContainer CardViewerPageSignatureContainer'+HeroCardColour+'" onmousemove="CardViewerCardPreviewTooltip(\''+HeroCardID+'_'+HeroCardVersion+'\',1);" onmouseout="CardViewerCardPreviewTooltip(0,0);" onmouseup="CardViewer_SelectCard(\''+HeroCardID+'_'+HeroCardVersion+'\')"> \
+                                            <div class="CardViewerPageAbilityTop"> \
+                                                <div class="CardViewerPageAbilityIcon"><img src="Images/Cards/MiniImage/'+HeroCardMiniImage+'.jpg"></div> \
+                                                <div class="CardViewerPageAbilityTopText"> \
+                                                    <div class="CardViewerPageAbilityName">'+HeroCardName.toUpperCase()+'</div> \
+                                                    <div class="CardViewerPageSigCardText CardViewerPageSigCardText'+HeroCardColour+'">SIGNATURE CARD FOR '+HeroCardName.toUpperCase()+'</div> \
+                                                </div> \
+                                                <div class="clear"></div> \
                                             </div> \
-                                            <div class="clear"></div> \
-                                        </div> \
-                                        <div class="CardViewerPageAbilityText"></div>\
-                                    </div>';
+                                            <div class="CardViewerPageAbilityText"></div>\
+                                        </div>';
+        } else {
+            HTMLHeroCardLeftPanel = "";
+        }
     } else {
         HTMLHeroCardLeftPanel = "";
     }
