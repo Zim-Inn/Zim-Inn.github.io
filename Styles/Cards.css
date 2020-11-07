@@ -62,16 +62,19 @@
     padding-bottom: 15%;
 }
 .CardHeaderLeftPer {
-    width: 22.5%;
-    margin-top: -4.5%;
+    width: 21.5%;
+    margin-top: -6.5%;
     text-align: center;
     float: left;
     padding-top: 3%;
+    padding-right: 1%;
     padding-bottom: 2.5%;
 }
 .CardHeaderLeftPer_ManaCost {
     font-family: 'Artifact2Numbers', sans-serif;
     font-size: 1.6em;
+    line-height: 1.6em;
+    letter-spacing: -0.1em;
     background-image: url('../Images/Cards/Styling/ManaCrystal.png');
     background-size: 100%;
     background-position: center;
@@ -323,6 +326,7 @@
     margin-top: -7%;
     margin-bottom: -9.5%;
     left: 38%;
+    line-height: 1.3em;
 }
 .CardImprovementTypeShell {
     background-size: auto 100%;

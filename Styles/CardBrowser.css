@@ -103,13 +103,16 @@
     background-size: 110%;
     font-family: 'Artifact2Numbers', sans-serif;
     margin-top: 13px;
-    height: 45px;
-    width: 42px;
-    letter-spacing: -0.08em;
+    height: 40px;
+    width: 39px;
+    padding-right: 3px;
+    padding-top:5px;
+    letter-spacing: -0.05em;
     float: left;
     text-align: center;
     color: #eee;
     font-size: 26pt;
+    line-height: 26pt;
 }
 .CardViewerSigRelatedCardGoldCost {
     background-image: url('../Images/Styles/GC.png');
@@ -118,13 +121,16 @@
     background-size: 100%;
     font-family: 'Artifact2Numbers', sans-serif;
     margin-top: 11px;
-    height: 45px;
-    width: 42px;
-    letter-spacing: -0.08em;
+    height: 39px;
+    width: 39px;
+    padding-right: 3px;
+    padding-top:6px;
+    letter-spacing: -0.05em;
     float: left;
     text-align: center;
     color: #eee;
     font-size: 26pt;
+    line-height: 26pt;
 }
 .CardViewerPageAbilityTopText {
     float: left;
@@ -326,20 +332,30 @@
 .CardList_ManaCost {
     background-image: url('../Images/Styles/ManaCrystal.png');
     background-size: 130%;
-    font-family: 'Artifact2Numbers', sans-serif;
+    text-shadow: 2px 2px 2px rgb(13, 5, 54);
+    height: 33px;
+    padding-top: 4px;
+    letter-spacing: -0.1em;
+    width: 32px !important;
+    padding-right: 4px;
 }
 .CardList_GoldCost {
     background-image: url('../Images/Styles/GC.png');
     background-size: 100%;
-    font-family: 'Artifact2Numbers', sans-serif;
-    letter-spacing: -0.1em;
+    letter-spacing: -0.05em;
+    text-shadow: 2px 2px 2px rgb(49, 34, 2);
+    height: 32px;
+    padding-top: 5px;
+    width: 34px !important;
+    padding-right: 2px;
 }
 .CardList_Cost {
     font-size: 22pt;
+    line-height: 22pt;
     text-align: center;
     width: 36px;
     margin:4px 0 0 2px;
-    height: 37px;
+    font-family: 'Artifact2Numbers', sans-serif;
     float: left;
     color: #eee;
     text-shadow: 1px 1px 2px black;
@@ -592,9 +608,11 @@
     background-size: 130%;
     background-position: center;
     font-family: 'Artifact2Numbers', sans-serif;
-    height: 30px;
+    height: 27px;
+    padding-top: 3px;
     text-align: center;
     font-size: 18pt;
+    line-height: 18pt;
     letter-spacing: -0.07em;
     color: #eee;
 }
@@ -603,9 +621,11 @@
     background-size: 100%;
     font-family: 'Artifact2Numbers', sans-serif;
     text-shadow: 1px 1px 2px #000;
-    height: 30px;
+    height: 27px;
+    padding-top: 3px;
     text-align: center;
     font-size: 18pt;
+    line-height: 18pt;
     letter-spacing: -0.07em;
     color: #eee;
 }

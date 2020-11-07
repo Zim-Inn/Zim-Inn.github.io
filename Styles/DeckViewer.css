@@ -595,23 +595,29 @@
 .CardList_ManaCost {
     background-image: url('../Images/Styles/ManaIconCL.png');
     background-size: 100%;
-    font-family: 'Artifact2Numbers', sans-serif;
+    text-shadow: 2px 2px 2px rgb(13, 5, 54);
+    letter-spacing: -0.1em;
+    width: 32px;
+    padding-right: 4px;
 }
 .CardList_GoldCost {
     background-image: url('../Images/Styles/GC.png');
     background-size: 100%;
-    font-family: 'Artifact2Numbers', sans-serif;
-    letter-spacing: -0.1em;
+    letter-spacing: -0.05em;
+    text-shadow: 2px 2px 2px rgb(49, 34, 2);
+    width: 34px;
+    padding-right: 2px;
 }
 .CardList_Cost {
     font-size: 22pt;
+    line-height: 22pt;
     text-align: center;
-    width: 36px;
+    height: 33px;
+    padding-top: 3px;
     margin:4px 0 0 2px;
-    height: 36px;
     float: left;
     color: #eee;
-    text-shadow: 1px 1px 2px black;
+    font-family: 'Artifact2Numbers', sans-serif;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -632,6 +638,7 @@
     font-size: 18pt;
     color: #ddd;
     float: left;
+    letter-spacing: -0.07em;
 }
 .CardList_HeroIcon {
     width: 41px;
