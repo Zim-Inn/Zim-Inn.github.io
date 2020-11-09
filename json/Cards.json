@@ -1374,7 +1374,7 @@
       {
         "release_date": "2020-10-29",
         "text": {
-          "english": "/n [TG]After Combat:[ET] Add a charge. /n /n Before your turn, if you have an enemy slot, remove a charge and summon a Melee Creep."
+          "english": "/n [TG]After Combat:[ET] Add a charge. /n /n Before your turn, if you have an empty slot, remove a charge and summon a Melee Creep."
         },
         "cost": 2,
         "is_signature": "10053_3"
@@ -13818,7 +13818,7 @@
         "cost": 1,
         "gcost": 0,
         "text": {
-          "english": " /n /n Cursed. -1 Decay"
+          "english": " /n /n Cursed. +1 Decay"
         },
         "attack": 0,
         "armour": 0,
