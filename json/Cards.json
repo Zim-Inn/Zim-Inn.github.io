@@ -10747,7 +10747,7 @@
           "english": "/n Enchant Tower /n [TG]Active 1[AC], 1 Mana:[ET] Equip an allied hero with basic items."
         },
         "crosslane": false,
-        "related_cards": [ "3002_0" ],
+        "related_cards": [ "3000_0", "3001_0", "3002_0" ],
         "quick": false
       },
       {
@@ -13906,13 +13906,73 @@
         "cost": 1,
         "gcost": 5,
         "text": {
-          "english": " /n /n +2[ATT]"
+          "english": " /n /n +2 [TG][ATT][ET]"
         },
         "attack": 2,
         "armour": 0,
         "hp": 0,
         "abilities": [],
-        "related_cards": [ "10794_0", "10172_0" ],
+        "related_cards": [ "10794_0", "10172_1" ],
+        "crosslane": false,
+        "quick": false
+      }
+    ]
+  },
+  {
+    "card_id": 3001,
+    "hide_from_card_list": "Uncollectable",
+    "versions": [
+      {
+        "release_date": "2020-05-25",
+        "card_type": "Item",
+        "card_subtype": "Armor",
+        "card_name": {
+          "english": "Leather Armor"
+        },
+        "set": 0,
+        "rarity": 0,
+        "image": "3001_0",
+        "miniimage": "3001_0",
+        "cost": 1,
+        "gcost": 5,
+        "text": {
+          "english": " /n /n +1 [TG][AR][ET]"
+        },
+        "attack": 0,
+        "armour": 1,
+        "hp": 0,
+        "abilities": [],
+        "related_cards": [ "10172_1" ],
+        "crosslane": false,
+        "quick": false
+      }
+    ]
+  },
+  {
+    "card_id": 3000,
+    "hide_from_card_list": "Uncollectable",
+    "versions": [
+      {
+        "release_date": "2020-05-25",
+        "card_type": "Item",
+        "card_subtype": "Accessory",
+        "card_name": {
+          "english": "Traveler's Cloak"
+        },
+        "set": 0,
+        "rarity": 0,
+        "image": "3000_0",
+        "miniimage": "3000_0",
+        "cost": 1,
+        "gcost": 5,
+        "text": {
+          "english": " /n /n +3 [TG][HP][ET]"
+        },
+        "attack": 0,
+        "armour": 0,
+        "hp": 3,
+        "abilities": [],
+        "related_cards": [ "10172_1" ],
         "crosslane": false,
         "quick": false
       }
