@@ -1348,6 +1348,19 @@
                 "text":{
                     "english":"[TG]Death Effect:[ET] Ready Rix, Oathbound for deployment. 2 round cooldown."
                 }
+            },
+            {
+                "release_date":"2020-11-13",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Assault"
+                 },
+                "cooldown": 0,
+                "image": "210047_0",
+                "cost": 0,
+                "text":{
+                    "english":"[TG]Death Effect:[ET] Give Rix, Oathbound Rapid Deployment. 2 round cooldown."
+                }
             }
         ]
     },

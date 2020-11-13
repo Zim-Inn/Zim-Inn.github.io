@@ -375,7 +375,9 @@ const CardTextFormatting = function(CardText) {
 
     for (let kw = 0; kw < KeywordsJSON.length; kw++) {
         let keywordregex = new RegExp(KeywordsJSON[kw]['match'], "ig");
-        CardText = CardText.replace(keywordregex,"<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,"+kw+");\" onmouseout=\"ShowKeywordTooltip(0,0);\">"+KeywordsJSON[kw]['keyword']+"</span>");
+        CardText = CardText.replace(keywordregex, function(x) {
+            return "<span class=\"CardCentreKeyWordText\" onmousemove=\"ShowKeywordTooltip(1,"+kw+");\" onmouseout=\"ShowKeywordTooltip(0,0);\">"+x+"</span>";
+        });
     }
     return CardText;
 }

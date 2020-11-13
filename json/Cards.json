@@ -3819,6 +3819,10 @@
       {
         "release_date": "2020-11-06",
         "abilities": [ "210046_0", "210047_2" ]
+      },
+      {
+        "release_date": "2020-11-06",
+        "abilities": [ "210046_0", "210047_3" ]
       }
     ]
   },
@@ -3862,7 +3866,7 @@
       {
         "release_date": "2020-10-29",
         "colour": "B",
-        "is_signature": "10663_5"
+        "is_signature": "10663_6"
       }
     ]
   },
@@ -6153,7 +6157,7 @@
         },
         "attack": 4,
         "armour": 2,
-        "related_cards": [ "11054_2" ]
+        "related_cards": [ "11054_3" ]
       }
     ]
   },
@@ -8943,6 +8947,12 @@
         "release_date": "2020-10-15",
         "text": {
           "english": "Replace an allied unit. Bounce and gain the unit's [ATT] and [HP]. If the bounced unit is a creep, give it +1 Lock. /n Homunculus which replace heroes can cast spells."
+        }
+      },
+      {
+        "release_date": "2020-11-13",
+        "text": {
+          "english": " Devour. /n/n If Homunculus would devour a hero, it bounces it instead, then Homunculus becomes a caster of that hero's color."
         }
       }
     ]
@@ -12476,7 +12486,7 @@
         },
         "crosslane": true,
         "quick": false,
-        "related_cards": [ "10935_2" ]
+        "related_cards": [ "10935_3" ]
       }
     ]
   },
@@ -13741,6 +13751,12 @@
       {
         "release_date": "2020-07-16",
         "armour": 1
+      },
+      {
+        "release_date": "2020-11-13",
+        "text": {
+          "english": "/n Can cast spells as a blue hero. /n /n Whenever Terrapin Channeler enters a lane, disarm it."
+        }
       }
     ]
   },
