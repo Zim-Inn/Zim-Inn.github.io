@@ -9058,7 +9058,7 @@
         "miniimage": "10612_0",
         "cost": 3,
         "text": {
-          "english": "/n /n [TG]Active 1[AC], 1 Mana:[ET] Disarm a unit."
+          "english": "/n [TG]Active 1[AC], 1 Mana:[ET] Disarm a unit."
         },
         "attack": 1,
         "armour": 0,
@@ -9068,9 +9068,13 @@
         "quick": false
       },
       {
+        "release_date": "2020-08-21",
+        "cost": 2,
+      },
+      {
         "release_date": "2020-09-24",
         "text": {
-          "english": "/n /n [TG]Active 1[AC], 1 Mana:[ET] Disarm a unit. Give Fell Spirit +2[ATT]."
+          "english": "/n [TG]Active 1[AC], 1 Mana:[ET] Disarm a unit. Give Fell Spirit +2[ATT]."
         }
       }
     ]
