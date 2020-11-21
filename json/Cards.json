@@ -1764,6 +1764,10 @@
       {
         "release_date": "2020-10-09",
         "abilities": [ "210020_2" ]
+      },
+      {
+        "release_date": "2020-11-21",
+        "faction": "Veiled Sisterhood"
       }
     ]
   },
@@ -1802,7 +1806,7 @@
         "text": {
           "english": "/n Discard a random non-item card. /n Slay a hero."
         },
-        "is_signature": "10047_3"
+        "is_signature": "10047_4"
       }
     ]
   },
