@@ -8681,6 +8681,16 @@
         "text": {
           "english": " Pillager, Trample /n/n [TG]After Combat:[ET] If Red Mist Pillager damaged a tower, summon a Red Mist Pillager into the closest slot."
         }
+      },{
+        "release_date": "2020-11-21",
+        "colour": "B",
+        "text": {
+          "english": "/nPillager, Trample"
+        },
+        "cost": 4,
+        "attack": 4,
+        "armour": 0,
+        "hp": 2
       }
     ]
   },
