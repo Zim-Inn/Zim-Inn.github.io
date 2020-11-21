@@ -155,7 +155,12 @@
         "crosslane": false,
         "quick": false,
         "related_cards": [ "10967_0" ]
+      },
+      {
+        "release_date": "2020-11-21",
+        "faction": "Greevil"
       }
+      
     ]
   },
   {
@@ -6059,6 +6064,12 @@
         "text": {
           "english": " /n /n Summon a random Greevil."
         }
+      },
+      {
+        "release_date": "2020-11-21",
+        "text": {
+          "english": " /n /n Summon a random [Faction]Greevil[/Faction]."
+        }
       }
     ]
   },
@@ -8226,6 +8237,9 @@
         "crosslane": false,
         "quick": false,
         "related_cards": [ "10967_0" ]
+      }, {
+        "release_date": "2020-11-21",
+        "faction": "Greevil"
       }
     ]
   },
@@ -8266,6 +8280,13 @@
         "text": {
           "english": " /n [TG]Aura:[ET] Your Greevils in all lanes have +1 Cleave. /n /n [TG]Cross Lane[ET]"
         }
+      },
+      {
+        "release_date": "2020-11-21",
+        "faction": "Greevil",
+        "text": {
+          "english": "[TG]Aura:[ET] Your [Faction]Greevils[/Faction] in all lanes have +1 Cleave. /n /n [TG]Cross Lane[ET]"
+        }
       }
     ]
   },
@@ -8305,6 +8326,13 @@
         "release_date": "2020-09-18",
         "text": {
           "english": " /n [TG]Play Effect:[ET] Shuffle 3 random Greevils into your deck then draw a greevil from it."
+        }
+      },
+      {
+        "release_date": "2020-11-21",
+        "faction": "Greevil",
+        "text": {
+          "english": " /n [TG]Play Effect:[ET] Shuffle 3 random [Faction]Greevils[/Faction] into your deck then draw a greevil from it."
         }
       }
     ]
@@ -8819,6 +8847,9 @@
         "crosslane": false,
         "quick": false,
         "related_cards": [ "10967_0" ]
+      }, {
+        "release_date": "2020-11-21",
+        "faction": "Greevil"
       }
     ]
   },
@@ -8852,6 +8883,13 @@
         "release_date": "2020-06-19",
         "text": {
           "english": " [TG]Play Effect:[ET] Your Greevils in all lanes deal 1 damage to their combat targets. /n /n [TG]Cross Lane[ET]"
+        }
+      },
+      {
+        "release_date": "2020-11-21",
+        "faction": "Greevil",
+        "text": {
+          "english": " [TG]Play Effect:[ET] Your [Faction]Greevils[/Faction] in all lanes deal 1 damage to their combat targets. /n /n [TG]Cross Lane[ET]"
         }
       }
     ]
@@ -9487,6 +9525,10 @@
         "text": {
           "english": "/n [TG]Death Effect:[ET] Deal 1 damage to adjacent enemies."
         }
+      },
+      {
+        "release_date": "2020-11-21",
+        "faction": "Greevil"
       }
     ]
   },
@@ -9559,6 +9601,13 @@
         "release_date": "2020-06-26",
         "text": {
           "english": " /n [TG]Aura:[ET] Your Greevils in all lanes have Pillager. /n /n [TG]Cross Lane[ET]"
+        }
+      },
+      {
+        "release_date": "2020-11-21",
+        "faction": "Greevil",
+        "text": {
+          "english": " /n [TG]Aura:[ET] Your [Faction]Greevils[/Faction] in all lanes have Pillager. /n /n [TG]Cross Lane[ET]"
         }
       }
     ]
@@ -10107,6 +10156,13 @@
         "release_date": "2020-06-26",
         "text": {
           "english": " [TG]Aura:[ET] Your Greevils in all lanes have +1 Regeneration. /n /n [TG]Cross Lane[ET]"
+        }
+      },
+      {
+        "faction": "Greevil",
+        "release_date": "2020-11-21",
+        "text": {
+          "english": " [TG]Aura:[ET] Your [Faction]Greevils[/Faction] in all lanes have +1 Regeneration. /n /n [TG]Cross Lane[ET]"
         }
       }
     ]

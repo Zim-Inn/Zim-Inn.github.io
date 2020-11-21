@@ -372,6 +372,8 @@ const CardTextFormatting = function(CardText) {
     CardText = CardText.replace(/(\[TG\])/g,"<span class=\"TextColour_Golden\">");
     CardText = CardText.replace(/(\[TRed\])/g,"<span class=\"TextColour_Red\">");
     CardText = CardText.replace(/(\[ET\])/g,"</span>");
+    CardText = CardText.replace(/(\[Faction\])/g,"<span class=\"TextColour_Faction\">");
+    CardText = CardText.replace(/(\[\/Faction\])/g,"</span>");
 
     for (let kw = 0; kw < KeywordsJSON.length; kw++) {
         let keywordregex = new RegExp(KeywordsJSON[kw]['match'], "ig");
