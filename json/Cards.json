@@ -569,6 +569,10 @@
       {
         "release_date": "2020-07-31",
         "hp": 6
+      },
+      {
+        "release_date": "2020-11-21",
+        "faction": "The S.O.L.K."
       }
     ]
   },
@@ -600,7 +604,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10022_2"
+        "is_signature": "10022_3"
       }
     ]
   },
@@ -2422,6 +2426,10 @@
       {
         "release_date": "2020-09-24",
         "signature": [ "10272_2" ]
+      },
+      {
+        "release_date": "2020-11-21",
+        "faction": "The S.O.L.K."
       }
     ]
   },
@@ -2467,7 +2475,7 @@
         "text": {
           "english": " /n Choose caster. Slay a unit in any lane. /n Costs 2 less for each time you've passed this round. /n [TG]Cross Lane[ET]"
         },
-        "is_signature": "10050_3"
+        "is_signature": "10050_4"
       }
     ]
   },
@@ -5316,6 +5324,10 @@
       {
         "release_date": "2020-09-24",
         "abilities": [ "210067_2" ]
+      },
+      {
+        "release_date": "2020-11-21",
+        "faction": "The S.O.L.K."
       }
     ]
   },
@@ -5341,7 +5353,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10025_1"
+        "is_signature": "10025_3"
       }
     ]
   },
@@ -14563,6 +14575,10 @@
       {
         "release_date": "2020-11-06",
         "signature": [ "11076_1", "11078_1", "11080_2" ]
+      },
+      {
+        "release_date": "2020-11-21",
+        "faction": "The S.O.L.K."
       }
     ]
   },
@@ -14626,7 +14642,7 @@
       },{
         "release_date": "2020-11-06",
         "related_cards": [""],
-        "is_signature": "10052_3"
+        "is_signature": "10052_4"
       }
     ]
   },
@@ -14690,7 +14706,7 @@
       },{
         "release_date": "2020-11-06",
         "related_cards": [""],
-        "is_signature": "10052_3"
+        "is_signature": "10052_4"
       }
     ]
   },
@@ -14769,7 +14785,7 @@
       },{
         "release_date": "2020-11-06",
         "related_cards": [""],
-        "is_signature": "10052_3"
+        "is_signature": "10052_4"
       }
     ]
   },
