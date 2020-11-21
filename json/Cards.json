@@ -1377,6 +1377,10 @@
         "release_date": "2020-10-29",
         "signature": [ "10055_1" ],
         "related_cards": [ "10990_2" ]
+      },
+      {
+        "release_date": "2020-11-21",
+        "faction": "Keeper of the Ancients"
       }
     ]
   },
@@ -1417,7 +1421,7 @@
           "english": "/n [TG]After Combat:[ET] Add a charge. /n /n Before your turn, if you have an empty slot, remove a charge and summon a Melee Creep."
         },
         "cost": 2,
-        "is_signature": "10053_3"
+        "is_signature": "10053_4"
       }
     ]
   },
@@ -1456,7 +1460,7 @@
       {
         "release_date": "2020-10-29",
         "attack": 2,
-        "related_cards": [ "10053_3" ]
+        "related_cards": [ "10053_4" ]
       }
     ]
   },
@@ -7535,6 +7539,10 @@
         "release_date": "2020-10-15",
         "hp": 9,
         "signature": [ "10908_1" ]
+      },
+      {
+        "release_date": "2020-11-21",
+        "faction": "Keeper of the Ancients"
       }
     ]
   },
@@ -7564,7 +7572,7 @@
         "text": {
           "english": " /n Give caster Trample. Disarm your creeps and give their [ATT] to the caster."
         },
-        "is_signature": "10906_2"
+        "is_signature": "10906_3"
       }
     ]
   },
@@ -7598,7 +7606,7 @@
       {
         "release_date": "2020-07-09",
         "colour": "U",
-        "related_cards": [ "10906_1" ]
+        "related_cards": [ "10906_3" ]
       }
     ]
   },
