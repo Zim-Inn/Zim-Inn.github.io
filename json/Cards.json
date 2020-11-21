@@ -5101,6 +5101,9 @@
         "release_date": "2020-10-09",
         "abilities": [ "210065_1" ],
         "signature": [ "10177_1" ]
+      },{
+        "release_date": "2020-11-21",
+        "faction": "Red Mist"
       }
     ]
   },
@@ -5131,7 +5134,7 @@
         "text": {
           "english": "/n Enchant Tower /n [TG]Aura:[ET] Enemy units with 3 or less health are feeble. /n [TG]Aura:[ET] Allies deal +1 damage when striking a tower."
         },
-        "is_signature": "10058_1"
+        "is_signature": "10058_2"
       }
     ]
   },
