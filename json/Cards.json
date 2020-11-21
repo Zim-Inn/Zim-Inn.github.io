@@ -3524,6 +3524,10 @@
       {
         "release_date": "2020-10-15",
         "abilities": [ "210041_1", "11063_2" ]
+      },
+      {
+        "release_date": "2020-11-21",
+        "faction": "Marrowfell Hunters"
       }
     ]
   },
@@ -3547,7 +3551,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10021_5"
+        "is_signature": "10021_6"
       }
     ]
   },
