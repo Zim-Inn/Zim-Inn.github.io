@@ -15145,8 +15145,8 @@
         "set": 1,
         "rarity": 5,
         "colour": "R",
-        "image": "PH1",
-        "miniimage": "PH",
+        "image": "10970_0",
+        "miniimage": "10970_0",
         "cost": 5,
         "text": {
           "english": "/n[TG]Round Start:[ET] Shuffle a Bronze Legionnaire into your deck and draw a [Faction]Bronze Legion[/Faction] creep."
@@ -15173,8 +15173,8 @@
         "set": 1,
         "rarity": 5,
         "colour": "R",
-        "image": "PH1",
-        "miniimage": "PH",
+        "image": "10973_0",
+        "miniimage": "10973_0",
         "cost": 4,
         "text": {
           "english": "/n[TG]Play Effect:[ET] Modify allied [Faction]Bronze Legion[/Faction] units everywhere with +1[ATT] and +1[AR]"
