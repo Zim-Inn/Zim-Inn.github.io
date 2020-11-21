@@ -2523,6 +2523,10 @@
       {
         "release_date": "2020-10-15",
         "abilities": [ "210032_5" ]
+      }, 
+      {
+        "release_date": "2020-11-21",
+        "faction": "Bronze Legion"
       }
     ]
   },
@@ -2559,7 +2563,7 @@
       {
         "release_date": "2020-06-15",
         "rarity": 1,
-        "is_signature": "10069_6"
+        "is_signature": "10069_7"
       }
     ]
   },
@@ -3195,6 +3199,10 @@
         "text": {
           "english": " [TG]Minion:[ET] Honor Guard has +2[ATT] and +2[AR] per neighboring hero. /n [TG]Play Effect:[ET] Taunt."
         }
+      }, 
+      {
+        "release_date": "2020-11-21",
+        "faction": "Bronze Legion"
       }
     ]
   },
@@ -3289,6 +3297,10 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      }, 
+      {
+        "release_date": "2020-11-21",
+        "faction": "Bronze Legion"
       }
     ]
   },
@@ -8115,6 +8127,11 @@
         "text": {
           "english": "/n [TG]Round Start:[ET] Stonehall Paragon strikes the unit blocking it for 2 [ATT]."
         }
+      }, 
+      {
+        "release_date": "2020-11-21",
+        "faction": "Bronze Legion",
+        "related_cards": [ "10131_1" ]
       }
     ]
   },
@@ -8364,6 +8381,10 @@
       },{
         "release_date": "2020-11-06",
         "hp": 2
+      }, 
+      {
+        "release_date": "2020-11-21",
+        "faction": "Bronze Legion"
       }
     ]
   },
@@ -8662,6 +8683,11 @@
         "crosslane": false,
         "quick": false,
         "related_cards": [ "11045_2" ]
+      }, 
+      {
+        "release_date": "2020-11-21",
+        "faction": "Bronze Legion",
+        "related_cards": [ "11045_4" ]
       }
     ]
   },
@@ -8692,6 +8718,10 @@
       },{
         "release_date": "2020-11-06",
         "armour": 2
+      }, 
+      {
+        "release_date": "2020-11-21",
+        "faction": "Bronze Legion"  
       }
     ]
   },
@@ -8777,6 +8807,10 @@
         "text": {
           "english": "/n Whenever Stonehall Conscriptor battles a unit, draw the next creep card from your deck. That card has +1[AR] and costs 2 less."
         }
+      }, 
+      {
+        "release_date": "2020-11-21",
+        "faction": "Bronze Legion"  
       }
     ]
   },
@@ -8804,6 +8838,10 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      }, 
+      {
+        "release_date": "2020-11-21",
+        "faction": "Bronze Legion"  
       }
     ]
   },
@@ -14946,6 +14984,10 @@
         "abilities": [],
         "crosslane": false,
         "quick": true
+      }, 
+      {
+        "release_date": "2020-11-21",
+        "faction": "Bronze Legion"
       }
     ]
   },
@@ -15138,6 +15180,7 @@
     "versions": [
        {
         "release_date": "2020-11-21",
+        "faction":"Bronze Legion",
         "card_type": "Creep",
         "card_name": {
           "english": "Legion Scouting Party"
@@ -15157,7 +15200,7 @@
         "abilities": [],
         "crosslane": false,
         "quick": false,
-        "related_cards":  [ "10104_1" ]
+        "related_cards":  [ "10104_2" ]
       }
     ]
   },
@@ -15166,6 +15209,7 @@
     "versions": [
        {
         "release_date": "2020-11-21",
+        "faction":"Bronze Legion",
         "card_type": "Creep",
         "card_name": {
           "english": "Imperial Herald"
