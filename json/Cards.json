@@ -15132,5 +15132,60 @@
         "is_signature": "10067_1"
       }
     ]
+  },
+  {
+    "card_id": 10970,
+    "versions": [
+       {
+        "release_date": "2020-11-21",
+        "card_type": "Creep",
+        "card_name": {
+          "english": "Legion Scouting Party"
+        },
+        "set": 1,
+        "rarity": 5,
+        "colour": "R",
+        "image": "PH1",
+        "miniimage": "PH",
+        "cost": 5,
+        "text": {
+          "english": "/n[TG]Round Start:[ET] Shuffle a Bronze Legionnaire into your deck and draw a [Faction]Bronze Legion[/Faction] creep."
+        },
+        "attack": 2,
+        "armour": 1,
+        "hp": 1,
+        "abilities": [],
+        "crosslane": false,
+        "quick": false,
+        "related_cards":  [ "10104_1" ]
+      }
+    ]
+  },
+  {
+    "card_id": 10973,
+    "versions": [
+       {
+        "release_date": "2020-11-21",
+        "card_type": "Creep",
+        "card_name": {
+          "english": "Imperial Herald"
+        },
+        "set": 1,
+        "rarity": 5,
+        "colour": "R",
+        "image": "PH1",
+        "miniimage": "PH",
+        "cost": 4,
+        "text": {
+          "english": "/n[TG]Play Effect:[ET] Modify allied [Faction]Bronze Legion[/Faction] units everywhere with +1[ATT] and +1[AR]"
+        },
+        "attack": 2,
+        "armour": 1,
+        "hp": 1,
+        "abilities": [],
+        "crosslane": false,
+        "quick": false
+      }
+    ]
   }
 ]
