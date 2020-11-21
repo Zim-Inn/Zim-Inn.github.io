@@ -181,6 +181,18 @@
                 "text":{
                     "english":"Aura: Treant Protector's allies in this lane within range 2 have +2[AR]."
                 }
+            },{
+                "release_date":"2020-11-19",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Branches of Iron"
+                 },
+                "cooldown": 0,
+                "image": "210006_0",
+                "cost": 0,
+                "text":{
+                    "english":"Aura: Treant Protector's allies in this lane within range 2 have +2 Regeneration."
+                }
             }
         ]
     },

@@ -370,6 +370,38 @@
       {
         "release_date": "2020-06-26",
         "abilities": [ "210006_1" ]
+      },
+      {
+        "release_date": "2020-11-21",
+        "abilities": [ "210006_2" ],
+        "signature": [ "10773_1" ]
+      }
+    ]
+  },
+  {
+    "card_id": 10773,
+    "versions": [
+      {
+        "release_date": "2020-05-25",
+        "card_type": "Spell",
+        "card_name": {
+          "english": "Leech Seed"
+        },
+        "set": 1,
+        "rarity": 5,
+        "colour": "G",
+        "image": "10773_0",
+        "miniimage": "10773_0",
+        "cost": 4,
+        "text": {
+          "english": " /n Mulch /n Root an enemy and give it +4 Decay. Your units adjacent to it gain +4 Regeneration."
+        },
+        "crosslane": false,
+        "quick": false
+      }, {
+        "release_date": "2020-11-21",
+        "rarity": 1,
+        "is_signature": "10056_3"
       }
     ]
   },
@@ -406,6 +438,9 @@
         "crosslane": false,
         "quick": false,
         "is_signature": "10056_2"
+      }, {
+        "cost": 1,
+        "is_signature": "false"
       }
     ]
   },
@@ -13317,29 +13352,6 @@
         "cost": 4,
         "text": {
           "english": " /n Give allies Damage Immunity."
-        },
-        "crosslane": false,
-        "quick": false
-      }
-    ]
-  },
-  {
-    "card_id": 10773,
-    "versions": [
-      {
-        "release_date": "2020-05-25",
-        "card_type": "Spell",
-        "card_name": {
-          "english": "Leech Seed"
-        },
-        "set": 1,
-        "rarity": 5,
-        "colour": "G",
-        "image": "10773_0",
-        "miniimage": "10773_0",
-        "cost": 4,
-        "text": {
-          "english": " /n Mulch /n Root an enemy and give it +4 Decay. Your units adjacent to it gain +4 Regeneration."
         },
         "crosslane": false,
         "quick": false
