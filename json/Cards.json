@@ -6570,6 +6570,12 @@
       {
         "release_date": "2020-10-22",
         "gcost": 45
+      },
+      {
+        "release_date": "2020-11-21",
+        "text": {
+          "english": "/n +5[ATT]/n When equipped hero strikes any number of units and survives, deal 3 damage to one of those unit. Repeat 3 more times: [RP] Jump left or right and deal 3 damage."
+        }
       }
     ]
   },
