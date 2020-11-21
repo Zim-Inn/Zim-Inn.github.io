@@ -3875,6 +3875,10 @@
       {
         "release_date": "2020-11-06",
         "abilities": [ "210046_0", "210047_3" ]
+      },
+      {
+        "release_date": "2020-11-21",
+        "faction": "Court of Ristul"
       }
     ]
   },
@@ -3918,7 +3922,7 @@
       {
         "release_date": "2020-10-29",
         "colour": "B",
-        "is_signature": "10663_6"
+        "is_signature": "10663_7"
       }
     ]
   },
@@ -4101,6 +4105,10 @@
       {
         "release_date": "2020-10-29",
         "abilities": [ "210050_1" ]
+      },
+      {
+        "release_date": "2020-11-21",
+        "faction": "Court of Ristul"
       }
     ]
   },
@@ -4131,7 +4139,7 @@
         "text": {
           "english": " /n Enchant Unit /n [TG]Aura:[ET] Enemies in this lane within range 2 have -1[ATT]. Whenever one dies gain +1[ATT] permanently."
         },
-        "is_signature": "10678_2"
+        "is_signature": "10678_3"
       }
     ]
   },
@@ -5024,6 +5032,10 @@
         "rarity": 3,
         "abilities": [ "210063_0", "210064_1" ],
         "signature": [ "10673_1" ]
+      },
+      {
+        "release_date": "2020-11-21",
+        "faction": "Court of Ristul"
       }
     ]
   },
@@ -5052,7 +5064,7 @@
       {
         "release_date": "2020-06-26",
         "rarity": 3,
-        "is_signature": "10671_2"
+        "is_signature": "10671_3"
       }
     ]
   },
