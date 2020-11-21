@@ -2771,6 +2771,9 @@
       },{
         "release_date": "2020-11-06",
         "abilities": [ "210035_1" ]
+      },{
+        "release_date": "2020-11-21",
+        "faction": "Vhoul Rebellion"
       }
     ]
   },
@@ -2802,7 +2805,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10026_1"
+        "is_signature": "10026_2"
       }
     ]
   },
@@ -8631,6 +8634,7 @@
       },
       {
         "release_date": "2020-11-21",
+        "faction": "Vhoul Rebellion",
         "text": {
           "english": "/n Whenever Rebel Rabble Rouser kills a unit, put a Roused Rabble card into your hand."
         },
@@ -10296,6 +10300,9 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },{
+        "release_date": "2020-11-21",
+        "faction": "Vhoul Rebellion"
       }
     ]
   },
@@ -10323,6 +10330,10 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-11-21",
+        "faction": "Vhoul Rebellion"
       }
     ]
   },
