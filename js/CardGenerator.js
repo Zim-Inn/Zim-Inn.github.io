@@ -395,5 +395,7 @@ function CardViewer_AbilityTextFormatting(Text) {
     Text = Text.replace(/(\[TG\])/g,"");
     Text = Text.replace(/(\[TRed\])/g,"");
     Text = Text.replace(/(\[ET\])/g,"");
+    Text = Text.replace(/(\[Faction\])/g,"");
+    Text = Text.replace(/(\[\/Faction\])/g,"");
     return Text;
 }

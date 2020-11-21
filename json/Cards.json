@@ -8559,6 +8559,17 @@
         "text": {
           "english": "/n Whenever Rebel Rabble Rouser kills a unit, put a Roused Rabble card into your hand."
         }
+      },
+      {
+        "release_date": "2020-11-21",
+        "text": {
+          "english": "/n Whenever Rebel Rabble Rouser kills a unit, put a Roused Rabble card into your hand."
+        },
+        "attack": 2,
+        "armour": 0,
+        "hp": 3,
+        "colour": "G",
+        "related_cards": [ "10936_1" ]
       }
     ]
   },
@@ -8588,6 +8599,14 @@
         "crosslane": false,
         "quick": false,
         "related_cards": [ "10779_1" ]
+      },
+      {
+        "release_date": "2020-11-21",
+        "colour": "G",
+        "text": {
+          "english": "Roused Rabble has +1 [ATT] and +1 [HP] for each allied [Faction]Vhoul Rebellion[/Faction] unit."
+        },
+        "related_cards": [ "10779_2" ]
       }
     ]
   },
