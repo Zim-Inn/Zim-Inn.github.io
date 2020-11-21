@@ -8076,6 +8076,11 @@
       {
         "release_date": "2020-11-06",
         "abilities": [ "210082_1" ]
+      
+      },
+      {
+        "release_date": "2020-11-21",
+        "faction": "Rumusque Faithful"
       }
     ]
   },
@@ -8106,7 +8111,7 @@
         "text": {
           "english": " /n Slay caster. /n [RP] Deploy heroes currently in your fountain to the first empty slots in this lane."
         },
-        "is_signature": "10652_2"
+        "is_signature": "10652_3"
       }
     ]
   },
