@@ -148,6 +148,14 @@ body {
     -webkit-text-fill-color: transparent; 
     text-shadow: none;
 }
+.TextColour_Faction {
+    /* Based on textColorFaction */
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(102,166,166,1) 30%, rgba(51,153,153,1) 80%, rgba(51,153,153,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    text-shadow: none;
+}
 .TextColour_Red {
     color: rgb(211, 8, 8);
 }

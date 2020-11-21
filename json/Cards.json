@@ -155,7 +155,12 @@
         "crosslane": false,
         "quick": false,
         "related_cards": [ "10967_0" ]
+      },
+      {
+        "release_date": "2020-11-21",
+        "faction": "Greevil"
       }
+      
     ]
   },
   {
@@ -370,6 +375,38 @@
       {
         "release_date": "2020-06-26",
         "abilities": [ "210006_1" ]
+      },
+      {
+        "release_date": "2020-11-21",
+        "abilities": [ "210006_2" ],
+        "signature": [ "10773_1" ]
+      }
+    ]
+  },
+  {
+    "card_id": 10773,
+    "versions": [
+      {
+        "release_date": "2020-05-25",
+        "card_type": "Spell",
+        "card_name": {
+          "english": "Leech Seed"
+        },
+        "set": 1,
+        "rarity": 5,
+        "colour": "G",
+        "image": "10773_0",
+        "miniimage": "10773_0",
+        "cost": 4,
+        "text": {
+          "english": " /n Mulch /n Root an enemy and give it +4 Decay. Your units adjacent to it gain +4 Regeneration."
+        },
+        "crosslane": false,
+        "quick": false
+      }, {
+        "release_date": "2020-11-21",
+        "rarity": 1,
+        "is_signature": "10056_3"
       }
     ]
   },
@@ -406,6 +443,9 @@
         "crosslane": false,
         "quick": false,
         "is_signature": "10056_2"
+      }, {
+        "cost": 1,
+        "is_signature": "false"
       }
     ]
   },
@@ -6024,6 +6064,12 @@
         "text": {
           "english": " /n /n Summon a random Greevil."
         }
+      },
+      {
+        "release_date": "2020-11-21",
+        "text": {
+          "english": " /n /n Summon a random [Faction]Greevil[/Faction]."
+        }
       }
     ]
   },
@@ -6535,6 +6581,12 @@
       {
         "release_date": "2020-10-22",
         "gcost": 45
+      },
+      {
+        "release_date": "2020-11-21",
+        "text": {
+          "english": "/n +5[ATT]/n When equipped hero strikes any number of units and survives, deal 3 damage to one of those unit. Repeat 3 more times: [RP] Jump left or right and deal 3 damage."
+        }
       }
     ]
   },
@@ -8185,6 +8237,9 @@
         "crosslane": false,
         "quick": false,
         "related_cards": [ "10967_0" ]
+      }, {
+        "release_date": "2020-11-21",
+        "faction": "Greevil"
       }
     ]
   },
@@ -8225,6 +8280,13 @@
         "text": {
           "english": " /n [TG]Aura:[ET] Your Greevils in all lanes have +1 Cleave. /n /n [TG]Cross Lane[ET]"
         }
+      },
+      {
+        "release_date": "2020-11-21",
+        "faction": "Greevil",
+        "text": {
+          "english": "[TG]Aura:[ET] Your [Faction]Greevils[/Faction] in all lanes have +1 Cleave. /n /n [TG]Cross Lane[ET]"
+        }
       }
     ]
   },
@@ -8264,6 +8326,13 @@
         "release_date": "2020-09-18",
         "text": {
           "english": " /n [TG]Play Effect:[ET] Shuffle 3 random Greevils into your deck then draw a greevil from it."
+        }
+      },
+      {
+        "release_date": "2020-11-21",
+        "faction": "Greevil",
+        "text": {
+          "english": " /n [TG]Play Effect:[ET] Shuffle 3 random [Faction]Greevils[/Faction] into your deck then draw a greevil from it."
         }
       }
     ]
@@ -8490,6 +8559,17 @@
         "text": {
           "english": "/n Whenever Rebel Rabble Rouser kills a unit, put a Roused Rabble card into your hand."
         }
+      },
+      {
+        "release_date": "2020-11-21",
+        "text": {
+          "english": "/n Whenever Rebel Rabble Rouser kills a unit, put a Roused Rabble card into your hand."
+        },
+        "attack": 2,
+        "armour": 0,
+        "hp": 3,
+        "colour": "G",
+        "related_cards": [ "10936_1" ]
       }
     ]
   },
@@ -8519,6 +8599,14 @@
         "crosslane": false,
         "quick": false,
         "related_cards": [ "10779_1" ]
+      },
+      {
+        "release_date": "2020-11-21",
+        "colour": "G",
+        "text": {
+          "english": "Roused Rabble has +1 [ATT] and +1 [HP] for each allied [Faction]Vhoul Rebellion[/Faction] unit."
+        },
+        "related_cards": [ "10779_2" ]
       }
     ]
   },
@@ -8646,6 +8734,16 @@
         "text": {
           "english": " Pillager, Trample /n/n [TG]After Combat:[ET] If Red Mist Pillager damaged a tower, summon a Red Mist Pillager into the closest slot."
         }
+      },{
+        "release_date": "2020-11-21",
+        "colour": "B",
+        "text": {
+          "english": "/nPillager, Trample"
+        },
+        "cost": 4,
+        "attack": 4,
+        "armour": 0,
+        "hp": 2
       }
     ]
   },
@@ -8768,6 +8866,9 @@
         "crosslane": false,
         "quick": false,
         "related_cards": [ "10967_0" ]
+      }, {
+        "release_date": "2020-11-21",
+        "faction": "Greevil"
       }
     ]
   },
@@ -8801,6 +8902,13 @@
         "release_date": "2020-06-19",
         "text": {
           "english": " [TG]Play Effect:[ET] Your Greevils in all lanes deal 1 damage to their combat targets. /n /n [TG]Cross Lane[ET]"
+        }
+      },
+      {
+        "release_date": "2020-11-21",
+        "faction": "Greevil",
+        "text": {
+          "english": " [TG]Play Effect:[ET] Your [Faction]Greevils[/Faction] in all lanes deal 1 damage to their combat targets. /n /n [TG]Cross Lane[ET]"
         }
       }
     ]
@@ -9436,6 +9544,10 @@
         "text": {
           "english": "/n [TG]Death Effect:[ET] Deal 1 damage to adjacent enemies."
         }
+      },
+      {
+        "release_date": "2020-11-21",
+        "faction": "Greevil"
       }
     ]
   },
@@ -9508,6 +9620,13 @@
         "release_date": "2020-06-26",
         "text": {
           "english": " /n [TG]Aura:[ET] Your Greevils in all lanes have Pillager. /n /n [TG]Cross Lane[ET]"
+        }
+      },
+      {
+        "release_date": "2020-11-21",
+        "faction": "Greevil",
+        "text": {
+          "english": " /n [TG]Aura:[ET] Your [Faction]Greevils[/Faction] in all lanes have Pillager. /n /n [TG]Cross Lane[ET]"
         }
       }
     ]
@@ -10056,6 +10175,13 @@
         "release_date": "2020-06-26",
         "text": {
           "english": " [TG]Aura:[ET] Your Greevils in all lanes have +1 Regeneration. /n /n [TG]Cross Lane[ET]"
+        }
+      },
+      {
+        "faction": "Greevil",
+        "release_date": "2020-11-21",
+        "text": {
+          "english": " [TG]Aura:[ET] Your [Faction]Greevils[/Faction] in all lanes have +1 Regeneration. /n /n [TG]Cross Lane[ET]"
         }
       }
     ]
@@ -13059,6 +13185,12 @@
         },
         "crosslane": false,
         "quick": true
+      }, 
+      {
+        "release_date": "2020-11-21",
+        "text": {
+          "english": " /n Swap an ally into an adjacent slot./n [TG][QU] Quickcast[ET]"
+        }
       }
     ]
   },
@@ -13317,29 +13449,6 @@
         "cost": 4,
         "text": {
           "english": " /n Give allies Damage Immunity."
-        },
-        "crosslane": false,
-        "quick": false
-      }
-    ]
-  },
-  {
-    "card_id": 10773,
-    "versions": [
-      {
-        "release_date": "2020-05-25",
-        "card_type": "Spell",
-        "card_name": {
-          "english": "Leech Seed"
-        },
-        "set": 1,
-        "rarity": 5,
-        "colour": "G",
-        "image": "10773_0",
-        "miniimage": "10773_0",
-        "cost": 4,
-        "text": {
-          "english": " /n Mulch /n Root an enemy and give it +4 Decay. Your units adjacent to it gain +4 Regeneration."
         },
         "crosslane": false,
         "quick": false
@@ -15021,6 +15130,61 @@
         "crosslane": false,
         "quick": false,
         "is_signature": "10067_1"
+      }
+    ]
+  },
+  {
+    "card_id": 10970,
+    "versions": [
+       {
+        "release_date": "2020-11-21",
+        "card_type": "Creep",
+        "card_name": {
+          "english": "Legion Scouting Party"
+        },
+        "set": 1,
+        "rarity": 5,
+        "colour": "R",
+        "image": "10970_0",
+        "miniimage": "10970_0",
+        "cost": 5,
+        "text": {
+          "english": "/n[TG]Round Start:[ET] Shuffle a Bronze Legionnaire into your deck and draw a [Faction]Bronze Legion[/Faction] creep."
+        },
+        "attack": 2,
+        "armour": 1,
+        "hp": 1,
+        "abilities": [],
+        "crosslane": false,
+        "quick": false,
+        "related_cards":  [ "10104_1" ]
+      }
+    ]
+  },
+  {
+    "card_id": 10973,
+    "versions": [
+       {
+        "release_date": "2020-11-21",
+        "card_type": "Creep",
+        "card_name": {
+          "english": "Imperial Herald"
+        },
+        "set": 1,
+        "rarity": 5,
+        "colour": "R",
+        "image": "10973_0",
+        "miniimage": "10973_0",
+        "cost": 4,
+        "text": {
+          "english": "/n[TG]Play Effect:[ET] Modify allied [Faction]Bronze Legion[/Faction] units everywhere with +1[ATT] and +1[AR]"
+        },
+        "attack": 2,
+        "armour": 1,
+        "hp": 1,
+        "abilities": [],
+        "crosslane": false,
+        "quick": false
       }
     ]
   }
