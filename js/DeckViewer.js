@@ -694,10 +694,10 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
             CardTypeCounts["Consumable"];
         if (TotalItemCards == 1) {
             document.getElementById("TotalNumberItems").innerHTML =
-                TotalItemCards + " Card";
+                TotalItemCards + " Item";
         } else {
             document.getElementById("TotalNumberItems").innerHTML =
-                TotalItemCards + " Cards";
+                TotalItemCards + " Items";
         }
         let TotalNonHeroNonItemCards =
             CardTypeCounts["Creep"] +
