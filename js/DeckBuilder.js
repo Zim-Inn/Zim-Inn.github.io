@@ -761,9 +761,9 @@ const UpdateDeckListDetails = function() {
 
     let TotalItemCards = CardTypeCounts['Weapon']+CardTypeCounts['Armor']+CardTypeCounts['Accessory']+CardTypeCounts['Consumable'];
     if (TotalItemCards == 1) {
-        document.getElementById('TotalNumberItems').innerHTML = TotalItemCards+" Card";
+        document.getElementById('TotalNumberItems').innerHTML = TotalItemCards+" Item";
     } else {
-        document.getElementById('TotalNumberItems').innerHTML = TotalItemCards+" Cards";
+        document.getElementById('TotalNumberItems').innerHTML = TotalItemCards+" Items";
     }
     let TotalNonHeroNonItemCards = CardTypeCounts['Creep']+CardTypeCounts['Spell']+CardTypeCounts['Improvement'];
     if (TotalNonHeroNonItemCards == 1) {
