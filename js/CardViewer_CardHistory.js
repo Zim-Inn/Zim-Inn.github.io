@@ -20,6 +20,16 @@ const GetVersionChangesHTML = function(CardID) {
             if (CardJSON[CardArrayIndex]['versions'][counter-1]['card_name']['english'] != CardJSON[CardArrayIndex]['versions'][counter]['card_name']['english']) {
                 CardHistoryHTML += '<li>Card renamed from '+CardJSON[CardArrayIndex]['versions'][counter-1]['card_name']['english']+ ' to '+CardJSON[CardArrayIndex]['versions'][counter]['card_name']['english']+'. </li>';
             }
+            //Faction
+            if ("faction" in CardJSON[CardArrayIndex]['versions'][counter]) {
+                if (!("faction" in CardJSON[CardArrayIndex]['versions'][counter-1])) {
+                    CardHistoryHTML += '<li>Faction added to card: '+CardJSON[CardArrayIndex]['versions'][counter]['faction']+'. </li>';
+                } else if ("faction" in CardJSON[CardArrayIndex]['versions'][counter-1]) {
+                    if (CardJSON[CardArrayIndex]['versions'][counter]['faction'] != CardJSON[CardArrayIndex]['versions'][counter-1]['faction']) {
+                        CardHistoryHTML += '<li>Card faction changed from '+CardJSON[CardArrayIndex]['versions'][counter-1]['faction']+ ' to '+CardJSON[CardArrayIndex]['versions'][counter]['faction']+'. </li>';
+                    }
+                }
+            } 
             //CardArt
             if (CardJSON[CardArrayIndex]['versions'][counter-1]['image'] != CardJSON[CardArrayIndex]['versions'][counter]['image']) {
                 let CardArtChangeIndicatorStyle = "CardViewerPage_CardHistoryCardArtHalfHeightChangeIndicator";
@@ -57,7 +67,7 @@ const GetVersionChangesHTML = function(CardID) {
             //HP, Armour and Attack Values
             if ("hp" in CardJSON[CardArrayIndex]['versions'][counter-1] && "hp" in CardJSON[CardArrayIndex]['versions'][counter] && CardJSON[CardArrayIndex]['versions'][counter]["card_type"] != "Item") {
                 if ((CardJSON[CardArrayIndex]['versions'][counter-1]["hp"] != CardJSON[CardArrayIndex]['versions'][counter]["hp"]) || (CardJSON[CardArrayIndex]['versions'][counter-1]["armour"] != CardJSON[CardArrayIndex]['versions'][counter]["armour"]) || (CardJSON[CardArrayIndex]['versions'][counter-1]["attack"] != CardJSON[CardArrayIndex]['versions'][counter]["attack"]))
-                CardHistoryHTML+='<li> Card stats changed from ▣'+CardJSON[CardArrayIndex]['versions'][counter-1]["attack"]+' ▤'+CardJSON[CardArrayIndex]['versions'][counter-1]["armour"]+' ▥'+CardJSON[CardArrayIndex]['versions'][counter-1]["hp"]+' to ▣'+CardJSON[CardArrayIndex]['versions'][counter]["attack"]+' ▤'+CardJSON[CardArrayIndex]['versions'][counter]["armour"]+' ▥'+CardJSON[CardArrayIndex]['versions'][counter]["hp"]+' </li>';
+                CardHistoryHTML+='<li> Card stats changed from ▣'+CardJSON[CardArrayIndex]['versions'][counter-1]["attack"]+' <span class="Radiance1Font">▤</span>'+CardJSON[CardArrayIndex]['versions'][counter-1]["armour"]+' ▥'+CardJSON[CardArrayIndex]['versions'][counter-1]["hp"]+' to ▣'+CardJSON[CardArrayIndex]['versions'][counter]["attack"]+' <span class="Radiance1Font">▤</span>'+CardJSON[CardArrayIndex]['versions'][counter]["armour"]+' ▥'+CardJSON[CardArrayIndex]['versions'][counter]["hp"]+' </li>';
             }
             //Mana Cost
             if (CardJSON[CardArrayIndex]['versions'][counter-1]['cost'] != CardJSON[CardArrayIndex]['versions'][counter]['cost']) {
@@ -236,7 +246,7 @@ const GetVersionChangesHTML = function(CardID) {
                         //HP, Armour and Attack Values
                         if ("hp" in CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1] && "hp" in CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]) {
                             if ((CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]["hp"] != CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]["hp"]) || (CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]["armour"] != CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]["armour"]) || (CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]["attack"] != CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]["attack"]))
-                            CardHistoryHTML+='<div class="CardViewerPage_CardHistoryAbilityTextUpdate">Card stats changed from ▣'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]["attack"]+' ▤'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]["armour"]+' ▥'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]["hp"]+' to ▣'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]["attack"]+' ▤'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]["armour"]+' ▥'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]["hp"]+'</div>';
+                            CardHistoryHTML+='<div class="CardViewerPage_CardHistoryAbilityTextUpdate">Card stats changed from ▣'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]["attack"]+' <span class="Radiance1Font">▤</span>'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]["armour"]+' ▥'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]["hp"]+' to ▣'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]["attack"]+' <span class="Radiance1Font">▤</span>'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]["armour"]+' ▥'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]["hp"]+'</div>';
                         }
                         //Mana Cost
                         if (CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['cost'] != CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['cost']) {
