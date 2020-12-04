@@ -15543,7 +15543,7 @@
         "set": 1,
         "rarity": 5,
         "colour": "G",
-        "image": "PH1",
+        "image": "10968_0",
         "miniimage": "10968_0",
         "cost": 3,
         "text": {
@@ -15571,7 +15571,7 @@
         "set": 1,
         "rarity": 3,
         "colour": "B",
-        "image": "PH1",
+        "image": "11099_0",
         "miniimage": "11099_0",
         "cost": 3,
         "text": {
@@ -15598,7 +15598,7 @@
         "set": 1,
         "rarity": 3,
         "colour": "G",
-        "image": "PH1",
+        "image": "11100_0",
         "miniimage": "11100_0",
         "cost": 2,
         "text": {
@@ -15628,15 +15628,15 @@
         "set": 1,
         "rarity": 1,
         "colour": "G",
-        "image": "PH1",
+        "image": "11101_0",
         "miniimage": "11101_0",
         "cost": 2,
         "text": {
           "english": "/n /n Trample."
         },
-        "attack": 0,
+        "attack": 4,
         "armour": 0,
-        "hp": 2,
+        "hp": 4,
         "abilities": [],
         "crosslane": false,
         "quick": false,
@@ -15657,7 +15657,7 @@
         "set": 1,
         "rarity": 3,
         "colour": "B",
-        "image": "PH2",
+        "image": "11102_0",
         "miniimage": "11102_0",
         "cost": 2,
         "text": {
@@ -15683,7 +15683,7 @@
         "set": 1,
         "rarity": 1,
         "colour": "B",
-        "image": "PH1",
+        "image": "11103_0",
         "miniimage": "11103_0",
         "cost": 2,
         "text": {
@@ -15712,7 +15712,7 @@
         "set": 1,
         "rarity": 3,
         "colour": "G",
-        "image": "PH1",
+        "image": "11104_0",
         "miniimage": "11104_0",
         "cost": 4,
         "text": {
