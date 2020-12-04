@@ -20,6 +20,16 @@ const GetVersionChangesHTML = function(CardID) {
             if (CardJSON[CardArrayIndex]['versions'][counter-1]['card_name']['english'] != CardJSON[CardArrayIndex]['versions'][counter]['card_name']['english']) {
                 CardHistoryHTML += '<li>Card renamed from '+CardJSON[CardArrayIndex]['versions'][counter-1]['card_name']['english']+ ' to '+CardJSON[CardArrayIndex]['versions'][counter]['card_name']['english']+'. </li>';
             }
+            //Faction
+            if ("faction" in CardJSON[CardArrayIndex]['versions'][counter]) {
+                if (!("faction" in CardJSON[CardArrayIndex]['versions'][counter-1])) {
+                    CardHistoryHTML += '<li>Faction added to card: '+CardJSON[CardArrayIndex]['versions'][counter]['faction']+'. </li>';
+                } else if ("faction" in CardJSON[CardArrayIndex]['versions'][counter-1]) {
+                    if (CardJSON[CardArrayIndex]['versions'][counter]['faction'] != CardJSON[CardArrayIndex]['versions'][counter-1]['faction']) {
+                        CardHistoryHTML += '<li>Card faction changed from '+CardJSON[CardArrayIndex]['versions'][counter-1]['faction']+ ' to '+CardJSON[CardArrayIndex]['versions'][counter]['faction']+'. </li>';
+                    }
+                }
+            } 
             //CardArt
             if (CardJSON[CardArrayIndex]['versions'][counter-1]['image'] != CardJSON[CardArrayIndex]['versions'][counter]['image']) {
                 let CardArtChangeIndicatorStyle = "CardViewerPage_CardHistoryCardArtHalfHeightChangeIndicator";

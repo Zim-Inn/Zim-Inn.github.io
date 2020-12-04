@@ -2188,6 +2188,9 @@
         "hp": 5,
         "abilities": [ "210028_0" ],
         "signature": [ "10339_0" ]
+      },{
+        "release_date": "2020-12-03",
+        "signature": [ "10339_1" ]
       }
     ]
   },
@@ -2220,6 +2223,12 @@
         "crosslane": false,
         "quick": false,
         "is_signature": "10032_0"
+      },{
+        "release_date": "2020-12-03",
+        "text": {
+          "english": " /n Choose an enemy slot. /n Silence any enemy units within range 1 of it."
+        },
+        "is_signature": "10032_1"
       }
     ]
   },
@@ -2774,6 +2783,9 @@
       },{
         "release_date": "2020-11-21",
         "faction": "Vhoul Rebellion"
+      },{
+        "release_date": "2020-12-03",
+        "signature": [ "10420_1" ]
       }
     ]
   },
@@ -2806,6 +2818,13 @@
         "crosslane": false,
         "quick": false,
         "is_signature": "10026_2"
+      },{
+        "release_date": "2020-12-03",
+        "faction":"Vhoul Rebellion",
+        "text": {
+          "english": " /n Silence an enemy hero for two rounds and silence its allies of the same color for this round."
+        },
+        "is_signature": "10026_3"
       }
     ]
   },
@@ -7310,6 +7329,9 @@
         "abilities": [ "210069_0" ],
         "signature": [ "11049_0" ],
         "related_cards": [ "11071_1" ]
+      },{
+        "release_date": "2020-12-03",
+        "signature": [ "11049_1" ]
       }
     ]
   },
@@ -7338,6 +7360,12 @@
         "crosslane": false,
         "quick": false,
         "is_signature": "11046_0"
+      },{
+        "release_date": "2020-12-03",
+        "text": {
+          "english": " If Spark Wraith has any adjacent enemies before your turn, disarm and deal 3 damage to the cloest one, then slay Spark Wraith."
+        },
+        "is_signature": "11046_1"
       }
     ]
   },
@@ -14396,7 +14424,7 @@
         "armour": 0,
         "hp": 4,
         "abilities": [],
-        "related_cards": [ "11046_0" ],
+        "related_cards": [ "11046_1" ],
         "crosslane": false,
         "quick": false
       },
@@ -15289,6 +15317,209 @@
         "attack": 2,
         "armour": 1,
         "hp": 1,
+        "abilities": [],
+        "crosslane": false,
+        "quick": false
+      },{
+        "release_date": "2020-12-03",
+        "text": {
+          "english": "/n[TG]Play Effect:[ET] Give allied [Faction]Bronze Legion[/Faction] units everywhere with +1[ATT] and +1[AR] permanently."
+        },
+        "hp": 2
+      }
+    ]
+  },
+  {
+    "card_id": 10968,
+    "versions": [
+       {
+        "release_date": "2020-12-03",
+        "faction":"Vhoul Rebellion",
+        "card_type": "Creep",
+        "card_name": {
+          "english": "Rebel Recruiter"
+        },
+        "set": 1,
+        "rarity": 5,
+        "colour": "G",
+        "image": "PH1",
+        "miniimage": "10968_0",
+        "cost": 3,
+        "text": {
+          "english": "When a [Faction]Vhoul Rebellion[/Faction] ally takes damage: Steal, draw, and reveal a creep from your opponent's deck as a [Faction]Vhoul Rebellion[/Faction] green creep. /n 1 round cooldown."
+        },
+        "attack": 2,
+        "armour": 0,
+        "hp": 4,
+        "abilities": [],
+        "crosslane": false,
+        "quick": false
+      }
+    ]
+  },
+  {
+    "card_id": 11099,
+    "versions": [
+       {
+        "release_date": "2020-12-03",
+        "faction":"Vhoul Rebellion",
+        "card_type": "Creep",
+        "card_name": {
+          "english": "Canid Bushwacker"
+        },
+        "set": 1,
+        "rarity": 3,
+        "colour": "B",
+        "image": "PH1",
+        "miniimage": "11099_0",
+        "cost": 3,
+        "text": {
+          "english": "/n [TG]Play Effect:[ET] Canid Bushwacker strikes the unit blocking it."
+        },
+        "attack": 3,
+        "armour": 0,
+        "hp": 1,
+        "abilities": [],
+        "crosslane": false,
+        "quick": false
+      }
+    ]
+  },
+  {
+    "card_id": 11100,
+    "versions": [
+       {
+        "release_date": "2020-12-03",
+        "card_type": "Creep",
+        "card_name": {
+          "english": "Roseleaf Villagers"
+        },
+        "set": 1,
+        "rarity": 3,
+        "colour": "G",
+        "image": "PH1",
+        "miniimage": "11100_0",
+        "cost": 2,
+        "text": {
+          "english": "/n Feeble. /n [TG]Death Effect:[ET] Summon an Angry Mob."
+        },
+        "attack": 0,
+        "armour": 0,
+        "hp": 2,
+        "abilities": [],
+        "crosslane": false,
+        "quick": false,
+        "related_cards": ["11101_0"]
+      }
+    ]
+  },
+  {
+    "card_id": 11101,
+    "hide_from_card_list": "Uncollectable",
+    "versions": [
+       {
+        "release_date": "2020-12-03",
+        "faction":"Vhoul Rebellion",
+        "card_type": "Creep",
+        "card_name": {
+          "english": "Angry Mob"
+        },
+        "set": 1,
+        "rarity": 1,
+        "colour": "G",
+        "image": "PH1",
+        "miniimage": "11101_0",
+        "cost": 2,
+        "text": {
+          "english": "/n /n Trample."
+        },
+        "attack": 0,
+        "armour": 0,
+        "hp": 2,
+        "abilities": [],
+        "crosslane": false,
+        "quick": false,
+        "related_cards": ["11100_0"]
+      }
+    ]
+  },
+  {
+    "card_id": 11102,
+    "versions": [
+       {
+        "release_date": "2020-12-03",
+        "faction": "Vhoul Rebellion",
+        "card_type": "Spell",
+        "card_name": {
+          "english": "Lying in Bait"
+        },
+        "set": 1,
+        "rarity": 3,
+        "colour": "B",
+        "image": "PH2",
+        "miniimage": "11102_0",
+        "cost": 2,
+        "text": {
+          "english": "/n Bounce a non-rooted ally and summon a Commando Pack into its slot."
+        },
+        "crosslane": false,
+        "quick": false,
+        "related_cards": ["11103_0"]
+      }
+    ]
+  },
+  {
+    "card_id": 11103,
+    "hide_from_card_list": "Uncollectable",
+    "versions": [
+       {
+        "release_date": "2020-12-03",
+        "faction":"Vhoul Rebellion",
+        "card_type": "Creep",
+        "card_name": {
+          "english": "Commando Pack"
+        },
+        "set": 1,
+        "rarity": 1,
+        "colour": "B",
+        "image": "PH1",
+        "miniimage": "11103_0",
+        "cost": 2,
+        "text": {
+          "english": "/n /n Quickstrike."
+        },
+        "attack": 4,
+        "armour": 0,
+        "hp": 2,
+        "abilities": [],
+        "crosslane": false,
+        "quick": false,
+        "related_cards": ["11102_0"]
+      }
+    ]
+  },
+  {
+    "card_id": 11104,
+    "versions": [
+       {
+        "release_date": "2020-12-03",
+        "faction": "Vhoul Rebellion",
+        "card_type": "Creep",
+        "card_name": {
+          "english": "Vhoul Elder"
+        },
+        "set": 1,
+        "rarity": 3,
+        "colour": "G",
+        "image": "PH1",
+        "miniimage": "11104_0",
+        "cost": 4,
+        "text": {
+          "english": "Whenever an allied [Faction]Vhoul Rebellion[ET] unit takes damage, reduce the cost of a random [Faction]Vhoul Rebellion[ET] card in your hand by 1. If it's a creep, give it +1[ATT]/+1[HP] permanently."
+        },
+        "attack": 2,
+        "armour": 0,
+        "hp": 6,
         "abilities": [],
         "crosslane": false,
         "quick": false

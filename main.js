@@ -600,13 +600,19 @@ function CardViewer_SelectCard(CardIDV, skipHistory) {
 
     document.getElementById('CardDetailsPanelCardTitle').innerHTML = ThisCard['card_name']['english'];
     document.getElementById('ShareButton').onclick = () => CardShareToClipboard(CardID+"_"+CardVersion);
+
+    if ('faction' in ThisCard) {
+        document.getElementById('CardDetailsPanelCardType').innerHTML = '<span class="TextColour_Faction">'+ThisCard['faction'] + "</span> ";
+    } else {
+        document.getElementById('CardDetailsPanelCardType').innerHTML = "";
+    }
     
     if (ThisCard['card_type'] == "Item") {
-        document.getElementById('CardDetailsPanelCardType').innerHTML = ThisCard['card_type']+' - '+ThisCard['card_subtype'];
+        document.getElementById('CardDetailsPanelCardType').innerHTML += ThisCard['card_type']+' - '+ThisCard['card_subtype'];
     } else if (ThisCard['card_type'] == "Improvement") {
-        document.getElementById('CardDetailsPanelCardType').innerHTML = "Tower Enchantment";
+        document.getElementById('CardDetailsPanelCardType').innerHTML += "Tower Enchantment";
     } else {
-        document.getElementById('CardDetailsPanelCardType').innerHTML = ThisCard['card_type'];
+        document.getElementById('CardDetailsPanelCardType').innerHTML += ThisCard['card_type'];
     }
 
     //SHOW SIGNATURE CARD DETAILS ON LEFT
