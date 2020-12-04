@@ -1158,6 +1158,19 @@
                 "text":{
                     "english":"Whenever a unit deals physical damage to Enchantress, it is disarmed for the next combat. When Deployed: Disarm the enemy blocking Enchantress for the next combat."
                 }
+            },
+            {
+                "release_date":"2020-10-15",
+                "ability_type":"Passive",
+                "ability_name":{
+                    "english":"Untouchable"
+                 },
+                "cooldown": 0,
+                "image": "210038_0",
+                "cost": 0,
+                "text":{
+                    "english":"Whenever a unit deals physical damage to Enchantress, disarm it for the next combat. Deploy: Disarm the enemy blocking Enchantress for the next combat."
+                }
             }
         ]
     },

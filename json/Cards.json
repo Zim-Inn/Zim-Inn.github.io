@@ -1324,7 +1324,7 @@
       {
         "release_date": "2020-10-15",
         "text": {
-          "english": "/n +1[TG][AR] /n Active 1[AC], 1 Mana: [ET] /n Reduce adjacent enemies to 1 [TG][HP][ET]. They are stunned, rooted, and feeble."
+          "english": "/n +1[TG][AR] /n Active 1[AC], 1 Mana: [ET] /n Reduce adjacent enemies to 1[TG][HP][ET]. They are stunned, rooted, and feeble."
         }
       },
       {
@@ -1335,6 +1335,11 @@
       {
         "release_date": "2020-11-06",
         "gcost": 45
+      },{
+        "release_date": "2020-12-03",
+        "text": {
+          "english": "/n +1[TG][AR] /n Active 1[AC], 1 Mana: [ET] /n Reduce adjacent enemies to 1[TG][HP][ET]. Stun, Root and Enfeeble them."
+        }
       }
     ]
   },
@@ -2636,6 +2641,10 @@
       {
         "release_date": "2020-10-15",
         "abilities": [ "210038_2" ]
+      },
+      {
+        "release_date": "2020-12-03",
+        "abilities": [ "210038_3" ]
       }
     ]
   },
@@ -2659,7 +2668,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "is_signature": "10036_4"
+        "is_signature": "10036_5"
       }
     ]
   },
@@ -2871,6 +2880,10 @@
         "release_date": "2020-09-24",
         "cost": 3,
         "hp": 4
+      },
+      {
+        "release_date": "2020-12-03",
+        "hp": 5
       }
     ]
   },
@@ -3300,6 +3313,9 @@
         "text": {
           "english": " /n Wild Boar deals +2 damage when striking a unit."
         }
+      },{
+        "release_date": "2020-12-03",
+        "attack": 3
       }
     ]
   },
@@ -4362,7 +4378,7 @@
         "abilities": [],
         "crosslane": false,
         "quick": false,
-        "related_cards": [ "10703_0", "10077_2" ]
+        "related_cards": [ "10703_0", "10077_3" ]
       }
     ]
   },
@@ -4768,7 +4784,7 @@
         "release_date": "2020-05-25",
         "rarity": 5,
         "text": {
-          "english": " /n Push an enemy and Deal 1 damage to it. Summon an Ice Shard in its place."
+          "english": " /n Push an enemy and deal 1 damage to it. Summon an Ice Shard in its place."
         },
         "is_signature": "10674_2"
       }
@@ -4909,6 +4925,12 @@
         "crosslane": false,
         "quick": false,
         "related_cards": [ "10720_0" ]
+      },{
+        "release_date": "2020-12-03",
+        "text": {
+          "english": " /n /n Put two Destroyed from Within cards into your opponent's hand."
+        },
+        "related_cards": [ "10720_1" ]
       }
     ]
   },
@@ -4934,6 +4956,10 @@
         "crosslane": false,
         "quick": false,
         "related_cards": [ "10719_0" ]
+      },{
+        "release_date": "2020-12-03",
+        "cost": 1,
+        "related_cards": [ "10719_1" ]
       }
     ]
   },
@@ -5045,7 +5071,7 @@
   },
   {
     "card_id": 10671,
-    "searchterm": "sf",
+    "searchterm": "sf nevermore",
     "versions": [
       {
         "release_date": "2020-05-21",
@@ -7363,7 +7389,7 @@
       },{
         "release_date": "2020-12-03",
         "text": {
-          "english": " If Spark Wraith has any adjacent enemies before your turn, disarm and deal 3 damage to the cloest one, then slay Spark Wraith."
+          "english": " If Spark Wraith has any adjacent enemies before your turn, disarm and deal 3 damage to the closest one, then slay Spark Wraith."
         },
         "is_signature": "11046_1"
       }
@@ -8211,6 +8237,11 @@
         "release_date": "2020-11-21",
         "faction": "Bronze Legion",
         "related_cards": [ "10131_1" ]
+      }, 
+      {
+        "release_date": "2020-12-03",
+        "armour": 2,
+        "related_cards": [ "10131_2" ]
       }
     ]
   },
@@ -8275,7 +8306,7 @@
         "text": {
           "english": "Whenever Wildwing enters any lane, remove a charge from Wildwing Bait."
         },
-        "related_cards": [ "10611_3" ]
+        "related_cards": [ "10611_4" ]
       }
     ]
   },
@@ -8305,6 +8336,10 @@
         "crosslane": false,
         "quick": false,
         "related_cards": [ "10759_0" ]
+      },{
+        "release_date": "2020-12-03",
+        "attack": 3,
+        "related_cards": [ "10759_2" ]
       }
     ]
   },
@@ -8463,7 +8498,8 @@
       }, 
       {
         "release_date": "2020-11-21",
-        "faction": "Bronze Legion"
+        "faction": "Bronze Legion",
+        "related_cards": ["10970_1"]
       }
     ]
   },
@@ -8550,6 +8586,10 @@
         "text": {
           "english": "Whenever Hellbear Crippler deals physical damage to a unit, give it -1 [AR] permanently. /n [TG]Play Effect:[ET] Hellbear Crippler battles the enemy blocking it."
         }
+      },
+      {
+        "release_date": "2020-12-03",
+        "hp": 4
       }
     ]
   },
@@ -8593,6 +8633,10 @@
       {
         "release_date": "2020-10-29",
         "hp": 2
+      },
+      {
+        "release_date": "2020-12-03",
+        "attack": 3
       }
     ]
   },
@@ -8768,6 +8812,11 @@
         "release_date": "2020-11-21",
         "faction": "Bronze Legion",
         "related_cards": [ "11045_4" ]
+      }, 
+      {
+        "release_date": "2020-12-03",
+        "armour": 2,
+        "related_cards": [ "11045_5" ]
       }
     ]
   },
@@ -8922,6 +8971,11 @@
       {
         "release_date": "2020-11-21",
         "faction": "Bronze Legion"  
+      },{
+        "release_date": "2020-12-03",
+        "text": {
+          "english": " [TG]Minion:[ET] Slumbering Brute is stunned unless it neighbors a hero. /n [TG]Round Start:[ET] Taunt."
+        }
       }
     ]
   },
@@ -9208,6 +9262,9 @@
         "related_cards": [ "3002_0" ],
         "crosslane": false,
         "quick": false
+      },{
+        "release_date": "2020-12-03",
+        "cost": 1
       }
     ]
   },
@@ -9371,6 +9428,10 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },{
+        "release_date": "2020-12-03",
+        "attack": 2,
+        "hp": 2
       }
     ]
   },
@@ -9417,6 +9478,11 @@
           "english": "/n Summon Wildwings instead of Melee Creeps. /n Dispel when out of charges. /n /n [TG]Charges: 3[ET]"
         },
         "related_cards": [ "10638_1" ]
+      },{
+        "release_date": "2020-12-03",
+        "text": {
+          "english": "Enchant Tower /n/n Summon Wildwings instead of Melee Creeps. /n Dispel when out of charges. /n /n [TG]Charges: 3[ET]"
+        }
       }
     ]
   },
@@ -9460,6 +9526,12 @@
       {
         "release_date": "2020-07-16",
         "armour": 1
+      },
+      {
+        "release_date": "2020-12-03",
+        "text": {
+          "english": " Summon Resonant Constructs instead of Melee Creeps. /n Whenever you play a spell or enchantment in any lane, gain +2[ATT]."
+        }
       }
     ]
   },
@@ -9592,6 +9664,9 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },{
+        "release_date": "2020-12-03",
+        "attack": 2
       }
     ]
   },
@@ -9780,6 +9855,11 @@
         "text": {
           "english": "Feeble, Pierce /n [TG]Active 1[AC], 1 Mana:[ET] Bounce Arclight Elemental. Summon an Arc Remnant into this slot."
         }
+      },
+      {
+        "release_date": "2020-12-03",
+        "attack": 3,
+        "related_cards": [ "10761_1" ]
       }
     ]
   },
@@ -9813,6 +9893,10 @@
         "text": {
           "english": "/n /n Quickstrike."
         }
+      },
+      {
+        "release_date": "2020-12-03",
+        "attack": 3
       }
     ]
   },
@@ -9840,6 +9924,10 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },{
+        "release_date": "2020-12-03",
+        "faction": "Vhoul Rebellion",
+        "attack": 3
       }
     ]
   },
@@ -9867,6 +9955,9 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },{
+        "release_date": "2020-12-03",
+        "attack": 4
       }
     ]
   },
@@ -9988,6 +10079,9 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },{
+        "release_date": "2020-12-03",
+        "cost": 2
       }
     ]
   },
@@ -10019,7 +10113,13 @@
       {
         "release_date": "2020-06-26",
         "text": {
-          "english": "/n Whenever a neighbor dies, Gain +3[ATT] permanently. "
+          "english": "/n Whenever a neighbor dies, gain +3[ATT] permanently. "
+        }
+      },
+      {
+        "release_date": "2020-12-03",
+        "text": {
+          "english": " Devour /n/n Whenever a neighbor dies, gain +3[ATT] permanently. "
         }
       }
     ]
@@ -10059,6 +10159,10 @@
       {
         "release_date": "2020-09-24",
         "cost": 3
+      },
+      {
+        "release_date": "2020-12-03",
+        "cost": 2
       }
     ]
   },
@@ -10092,6 +10196,10 @@
         "text": {
           "english": "/n Whenever opponent plays a card from this lane, burn 1 of their remaining Mana."
         }
+      },
+      {
+        "release_date": "2020-12-03",
+        "attack": 2
       }
     ]
   },
@@ -10221,6 +10329,12 @@
         "text": {
           "english": "/n [TG]Play Effect:[ET] Abyssm Flesh Render strikes adjacent units on both teams for 1 [ATT]."
         }
+      },
+      {
+        "release_date": "2020-12-03",
+        "text": {
+          "english": "Devour /n/n [TG]Play Effect:[ET] Abyssm Flesh Render strikes adjacent units on both teams for 1 [ATT]."
+        }
       }
     ]
   },
@@ -10254,6 +10368,11 @@
         "text": {
           "english": " /n /n Quickstrike."
         }
+      },
+      {
+        "release_date": "2020-12-03",
+        "cost": 5,
+        "hp": 4
       }
     ]
   },
@@ -10401,6 +10520,11 @@
         "text": {
           "english": "/n [TG]Play Effect:[ET] Give neighbors Regeneration equal to their current [HP]."
         }
+      },
+      {
+        "release_date": "2020-12-03",
+        "cost": 2,
+        "hp": 3
       }
     ]
   },
@@ -10429,6 +10553,9 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },{
+        "release_date": "2020-12-03",
+        "hp": 3
       }
     ]
   },
@@ -10567,7 +10694,7 @@
         "miniimage": "10744_0",
         "cost": 4,
         "text": {
-          "english": "/n Trample /n [TG]Play Effect:[ET] Give neighbors trample."
+          "english": "/n Trample /n [TG]Play Effect:[ET] Give neighbors Trample."
         },
         "attack": 3,
         "armour": 0,
@@ -10575,6 +10702,13 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },{
+        "release_date": "2020-12-03",
+        "cost": 3,
+        "text": {
+          "english": "/n Fey Wayfinder and its neighbors have Trample."
+        },
+        "hp": 3
       }
     ]
   },
@@ -10602,6 +10736,9 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },{
+        "release_date": "2020-12-03",
+        "cost": 3
       }
     ]
   },
@@ -10629,6 +10766,9 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },{
+        "release_date": "2020-12-03",
+        "cost": 3
       }
     ]
   },
@@ -10689,6 +10829,10 @@
         "text": {
           "english": "Lashvine Creeper and its combat target are rooted. /n [TG]Round Start:[ET] If Lashvine Creeper is unblocked, move the closest enemy to block it."
         }
+      },
+      {
+        "release_date": "2020-12-03",
+        "hp": 7
       }
     ]
   },
@@ -10782,6 +10926,11 @@
         "text": {
           "english": "/n [TG]Active 1[AC], 1 Mana:[ET] Give other allies +2[ATT]/+2[HP] permanently."
         }
+      },
+      {
+        "release_date": "2020-12-03",
+        "attack": 2,
+        "hp": 8
       }
     ]
   },
@@ -10811,14 +10960,15 @@
         "quick": false
       },
       {
-        "text": {
-          "english": "/n Revtel Convoy has +Attack equal to half your gold."
-        }
-      },
-      {
         "release_date": "2020-08-21",
         "text": {
           "english": "/n Revtel Convoy has +[ATT] equal to half your gold."
+        }
+      },
+      {
+        "release_date": "2020-12-03",
+        "text": {
+          "english": "Revtel Convoy has +[ATT] equal to half your gold. /n/n [TG]After Combat:[ET] Move Revtel Convoy to the next lane."
         }
       }
     ]
@@ -10881,6 +11031,10 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },{
+        "release_date": "2020-12-03",
+        "attack": 20,
+        "hp": 20
       }
     ]
   },
@@ -11673,6 +11827,9 @@
         },
         "crosslane": false,
         "quick": false
+      },{
+        "release_date": "2020-12-03",
+        "faction":"Vhoul Rebellion"
       }
     ]
   },
@@ -11697,7 +11854,7 @@
         },
         "crosslane": false,
         "quick": false,
-        "related_cards": [ "10637_0" ]
+        "related_cards": [ "10637_1" ]
       }
     ]
   },
@@ -11778,6 +11935,12 @@
         "release_date": "2020-06-26",
         "text": {
           "english": "/n Choose an allied hero. It taunts. Pick its combat target."
+        }
+      },
+      {
+        "release_date": "2020-12-03",
+        "text": {
+          "english": "/n Choose an allied hero. It taunts. Choose its combat target."
         }
       }
     ]
@@ -12094,7 +12257,7 @@
         "miniimage": "10618_0",
         "cost": 5,
         "text": {
-          "english": " /n Deploy one of your heroes at random from the fountain to the first empty position."
+          "english": " /n Deploy one of your heroes at random from the Fountain to the first empty position."
         },
         "crosslane": false,
         "quick": false
@@ -12102,7 +12265,7 @@
       {
         "release_date": "2020-06-26",
         "text": {
-          "english": " /n Deploy one of your heroes at random from the fountain to the first empty slot."
+          "english": " /n Deploy one of your heroes at random from the Fountain to the first empty slot."
         }
       }
     ]
@@ -13408,6 +13571,9 @@
         },
         "crosslane": false,
         "quick": false
+      },{
+        "release_date": "2020-12-03",
+        "faction": "Vhoul Rebellion"
       }
     ]
   },
@@ -13432,11 +13598,16 @@
         "crosslane": false,
         "quick": false
       },
-      {},
       {
         "release_date": "2020-06-26",
         "text": {
           "english": " /n Enchant Enemy /n This hero is stunned until it equips an item."
+        }
+      },
+      {
+        "release_date": "2020-12-03",
+        "text": {
+          "english": " /n Stun an enemy hero until it equips an item."
         }
       }
     ]
@@ -13629,6 +13800,9 @@
         },
         "crosslane": false,
         "quick": false
+      },{
+        "release_date": "2020-12-03",
+        "faction":"Vhoul Rebellion"
       }
     ]
   },
@@ -14139,6 +14313,11 @@
         "related_cards": [ "10604_0" ],
         "crosslane": false,
         "quick": false
+      },{
+        "release_date": "2020-12-03",
+        "text": {
+          "english": "/n/nTrample."
+        }
       }
     ]
   },
@@ -14166,7 +14345,7 @@
         "armour": 0,
         "hp": 0,
         "abilities": [],
-        "related_cards": [ "10794_0", "10172_1" ],
+        "related_cards": [ "10794_1", "10172_1" ],
         "crosslane": false,
         "quick": false
       }
@@ -14863,6 +15042,11 @@
         "text": {
           "english": "/nWhenever another ally is healed or gains health for the first time in a round, give Rumusque Choir +1[ATT]/+1[HP] permanently."
         }
+      },
+      {
+        "release_date": "2020-12-03",
+        "attack": 2,
+        "hp": 2
       }
     ]
   },
@@ -14890,6 +15074,9 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },{
+        "release_date": "2020-12-03",
+        "attack": 2
       }
     ]
   },
@@ -15014,6 +15201,9 @@
         "text": {
           "english": "Devour./n/nIf you have a green hero, Fungal Horror has +2[ATT] and its adjacent enemies are rooted."
         }
+      },{
+        "release_date": "2020-12-03",
+        "hp": 3
       }
     ]
   },
@@ -15129,6 +15319,9 @@
         "abilities": [],
         "crosslane": false,
         "quick": true
+      },{
+        "release_date": "2020-12-03",
+        "hp": 2
       }
     ]
   },
@@ -15203,6 +15396,11 @@
         },
         "crosslane": false,
         "quick": false
+      },{
+        "release_date": "2020-12-03",
+        "text": {
+          "english": "Enchant Tower. /n/n[TG]Round Start:[ET] Each ally deals 1 damage to the unit blocking it./nIf you have a red hero, allied units have +1[AR]."
+        }
       }
     ]
   },
@@ -15292,6 +15490,9 @@
         "crosslane": false,
         "quick": false,
         "related_cards":  [ "10104_2" ]
+      },{
+        "release_date": "2020-12-03",
+        "attack": 3
       }
     ]
   },
