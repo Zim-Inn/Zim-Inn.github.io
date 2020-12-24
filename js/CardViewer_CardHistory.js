@@ -44,6 +44,14 @@ const GetVersionChangesHTML = function(CardID) {
                 CardHistoryHTML += '<li>Card mini-image changed. </li>';
                 CardHistoryHTML += '<div class="CardViewerPage_CardHistoryMiniImageContainer"><img src="Images/Cards/MiniImage/'+CardJSON[CardArrayIndex]['versions'][counter-1]['miniimage']+'.jpg"></div><div class="CardViewerPage_CardHistoryMiniImageChangeIndicator"></div><div class="CardViewerPage_CardHistoryMiniImageContainer"><img src="Images/Cards/MiniImage/'+CardJSON[CardArrayIndex]['versions'][counter]['image']+'.jpg"></div><div class="clear"></div>';
             }
+            //Card Hero Icon
+            if ("icon" in CardJSON[CardArrayIndex]['versions'][counter]) {
+                let CardArtChangeIndicatorStyle = "CardViewerPage_CardHistoryCardArtHalfHeightChangeIndicator";
+                if (CardJSON[CardArrayIndex]['versions'][counter-1]['icon'] != CardJSON[CardArrayIndex]['versions'][counter]['icon']) {
+                    CardHistoryHTML += '<li>Hero icon changed. </li>';
+                    CardHistoryHTML += '<div class="CardViewerPage_CardHistoryHeroIconContainer"><img src="Images/HeroIcons/'+CardJSON[CardArrayIndex]['versions'][counter-1]['icon']+'.png"></div><div class="CardViewerPage_CardHistoryMiniImageChangeIndicator"></div><div class="CardViewerPage_CardHistoryHeroIconContainer"><img src="Images/HeroIcons/'+CardJSON[CardArrayIndex]['versions'][counter]['icon']+'.png"></div><div class="clear"></div>';
+                }
+            }
             //Card Type
             if (CardJSON[CardArrayIndex]['versions'][counter-1]['card_type'] != CardJSON[CardArrayIndex]['versions'][counter]['card_type']) {
                 CardHistoryHTML += '<li>Card Type changed from '+CardJSON[CardArrayIndex]['versions'][counter-1]['card_type']+ ' to '+CardJSON[CardArrayIndex]['versions'][counter]['card_type']+'. </li>';
@@ -217,12 +225,12 @@ const GetVersionChangesHTML = function(CardID) {
                             if (CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['card_type'] == "Hero" || CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['card_type'] == "Creep") {
                                 CardArtChangeIndicatorStyle = "CardViewerPage_CardHistoryCardArtFullHeightChangeIndicator";
                             }
-                            CardHistoryHTML += '<li>Card art changed. </li>';
+                            CardHistoryHTML += '<div class="CardViewerPage_CardHistoryAbilityTextUpdate">Card art changed.</div>';
                             CardHistoryHTML += '<div class="CardViewerPage_CardHistoryCardArtContainer"><img src="Images/Cards/CardArt/'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['image']+'.jpg"></div><div class="'+CardArtChangeIndicatorStyle+'"></div><div class="CardViewerPage_CardHistoryCardArtContainer"><img src="Images/Cards/CardArt/'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['image']+'.jpg"></div><div class="clear"></div>';
                         }
                         //Card Mini-image
                         if (CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['miniimage'] != CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['miniimage']) {
-                            CardHistoryHTML += '<li>Card mini-image changed. </li>';
+                            CardHistoryHTML += '<div class="CardViewerPage_CardHistoryAbilityTextUpdate">Card mini-image changed.</div>';
                             CardHistoryHTML += '<div class="CardViewerPage_CardHistoryMiniImageContainer"><img src="Images/Cards/MiniImage/'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV1]['miniimage']+'.jpg"></div><div class="CardViewerPage_CardHistoryMiniImageChangeIndicator"></div><div class="CardViewerPage_CardHistoryMiniImageContainer"><img src="Images/Cards/MiniImage/'+CardJSON[UpdatedSignatureArrayIndex]['versions'][UpdatedSignatureV2]['image']+'.jpg"></div><div class="clear"></div>';
                         }
                         //Card Type

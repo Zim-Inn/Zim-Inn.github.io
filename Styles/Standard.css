@@ -139,6 +139,12 @@ body {
     font-weight: 700;
     text-shadow: 2px 2px 5px black;
 }
+#PageHeaderSubtitle a:link {
+    color: inherit;
+}
+#PageHeaderSubtitle a:visited {
+    color: inherit;
+}
 .CursorPointer {
     cursor: pointer;
 }

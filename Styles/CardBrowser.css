@@ -758,6 +758,16 @@
     width: 100%;
     display:block;
 }
+.CardViewerPage_CardHistoryHeroIconContainer {
+    width: 64px;
+    min-height: 64px;
+    float: left;
+    padding: 5px;
+}
+.CardViewerPage_CardHistoryHeroIconContainer img {
+    width: 100%;
+    display:block;
+}
 .CardViewerPage_CardHistoryMiniImageChangeIndicator, .CardViewerPage_CardHistoryCardArtFullHeightChangeIndicator, .CardViewerPage_CardHistoryCardArtHalfHeightChangeIndicator {
     background-image: url('../Images/Styles/CardHistory_ImageChangeArrow.png');
     background-position: center;
