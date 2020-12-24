@@ -1605,6 +1605,19 @@
                 "text":{
                     "english":"[TG]Active 2[AC], 1 Mana:[ET] Reduce the Mana cost of two random cards in your hand by 1. Change their color to blue. /n [TG][QU]Quickcast[ET]"
                 }
+            },
+            {
+                "release_date":"2020-12-23",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Versatile Occultist"
+                 },
+                "cooldown": 2,
+                "image": "10702_1",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 2[AC], 1 Mana:[ET] Reduce the Mana cost of two random cards in your hand by 1. Change their color to blue. /n [TG][QU]Quickcast[ET]"
+                }
             }
         ]
     },
@@ -1800,6 +1813,18 @@
                  },
                 "cooldown": 3,
                 "image": "210058_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Double Tusk's [ATT] this round."
+                }
+            },{
+                "release_date":"2020-12-23",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Walrus Punch"
+                 },
+                "cooldown": 3,
+                "image": "10675_2",
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] Double Tusk's [ATT] this round."
@@ -2747,6 +2772,18 @@
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] Choose an enemy in any lane and move Nyx Assassin across from it. Nyx Assassin strikes the new unit blocking it with +3[ATT]./n[TG]Cross Lane[ET]"
                 }
+            }, {
+                "release_date":"2020-12-23",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Vendetta"
+                 },
+                "cooldown": 3,
+                "image": "11057_6",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Choose an enemy in any lane and move Nyx Assassin across from it. Nyx Assassin strikes the new unit blocking it with +3[ATT]./n[TG]Cross Lane[ET]"
+                }
             }
         ]
     },
@@ -2793,6 +2830,19 @@
                  },
                 "cooldown": 0,
                 "image": "11062_0",
+                "cost": 0,
+                "text":{
+                    "english":"Equipped items give Vanessa +1 to the relevant attribute. /n Items equipped by Vanessa have a maximum of 1 cooldown."
+                }
+            },
+            {
+                "release_date":"2020-12-23",
+                "ability_type":"Continuous Effect",
+                "ability_name":{
+                    "english":"Overcharged Artificer"
+                 },
+                "cooldown": 0,
+                "image": "11062_1",
                 "cost": 0,
                 "text":{
                     "english":"Equipped items give Vanessa +1 to the relevant attribute. /n Items equipped by Vanessa have a maximum of 1 cooldown."
@@ -3264,6 +3314,19 @@
                 "cost": 0,
                 "text":{
                     "english":"Mazzie may equip any number of unique items. /n Mazzie has +1[ATT], +1[AR], and +1[HP] for each equipped item."
+                }
+            },
+            {
+                "release_date":"2020-12-23",
+                "ability_type":"Reactive Ability",
+                "ability_name":{
+                    "english":"Gear Head"
+                 },
+                "cooldown": 0,
+                "image": "10179_0",
+                "cost": 0,
+                "text":{
+                    "english":"Mazzie has infinite item slots. /n Mazzie has +1[ATT], +1[AR], and +1[HP] for each equipped item."
                 }
             }
         ]

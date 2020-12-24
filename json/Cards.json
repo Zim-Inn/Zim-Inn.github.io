@@ -158,7 +158,8 @@
       },
       {
         "release_date": "2020-11-21",
-        "faction": "Greevil"
+        "faction": "Greevil",
+        "related_cards": [ "10967_3" ]
       }
       
     ]
@@ -187,6 +188,11 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-12-23",
+        "image": "10750_1",
+        "miniimage": "10750_1"
       }
     ]
   },
@@ -1693,6 +1699,12 @@
       {
         "release_date": "2020-11-06",
         "signature": [ "10724_1" ]
+      },
+      {
+        "release_date": "2020-12-23",
+        "image": "10721_6",
+        "signature": [ "10724_2" ],
+        "related_cards": [ "10723_3" ]
       }
     ]
   },
@@ -1724,6 +1736,11 @@
           "english": "/n Move caster to another slot. Replace it with a Lancer Illusion."
         },
         "is_signature": "10721_5"
+      },{
+        "release_date": "2020-12-23",
+        "image": "10724_2",
+        "is_signature": "10721_6",
+        "related_cards": [ "10723_3" ]
       }
     ]
   },
@@ -3125,6 +3142,11 @@
         "release_date": "2020-07-09",
         "is_signature": "",
         "related_cards": [ "10721_5", "10724_1" ]
+      },
+      {
+        "release_date": "2020-12-23",
+        "image": "10723_3",
+        "related_cards": [ "10721_6", "10724_2" ]
       }
     ]
   },
@@ -3281,6 +3303,10 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-12-23",
+        "image": "10743_1"
       }
     ]
   },
@@ -3390,6 +3416,13 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-12-23",
+        "faction": "Red Mist",
+        "text": {
+          "english": " Pillager /n /n [TG]Play Effect:[ET] Each [Faction]Red Mist[ET] ally deals 1 damage to the enemy tower."
+        }
       }
     ]
   },
@@ -3635,6 +3668,12 @@
       {
         "release_date": "2020-10-01",
         "signature": [ "10757_2" ]
+      },
+      {
+        "release_date": "2020-12-23",
+        "card_name": {
+          "english": "Outworld Destroyer"
+        }
       }
     ]
   },
@@ -3666,11 +3705,12 @@
         "text": {
           "english": " Stun a unit and give it Damage Immunity until the start of next round. /n When this effect expires, deal 1 damage to adjacent enemies."
         },
-        "is_signature": "10755_1"
+        "is_signature": "10755_2"
       },
       {
         "release_date": "2020-10-01",
-        "cost": 2
+        "cost": 2,
+        "is_signature": "10755_3"
       }
     ]
   },
@@ -4025,6 +4065,11 @@
       {
         "release_date": "2020-10-29",
         "abilities": [ "210048_4" ]
+      },
+      {
+        "release_date": "2020-12-23",
+        "image": "10668_6",
+        "signature": [ "10670_3" ]
       }
     ]
   },
@@ -4064,6 +4109,11 @@
           "english": "/nPut a copy of the last non-item card your opponent played into your hand. That card is blue and costs 1 less. /n/n [TG][QU]Quickcast[ET]"
         },
         "is_signature": "10668_5"
+      },
+      {
+        "release_date": "2020-12-23",
+        "image": "10670_3",
+        "is_signature": "10668_6"
       }
     ]
   },
@@ -4325,6 +4375,13 @@
       {
         "release_date": "2020-07-31",
         "attack": 2
+      },
+      {
+        "release_date": "2020-12-23",
+        "image": "10701_3",
+        "icon": "10701_3",
+        "signature": [ "10703_1" ],
+        "abilities": [ "210052_1", "11062_1" ]
       }
     ]
   },
@@ -4350,6 +4407,12 @@
         "quick": false,
         "is_signature": "10701_2",
         "related_cards": [ "10735_0" ]
+      },
+      {
+        "release_date": "2020-12-23",
+        "image": "10703_1",
+        "is_signature": "10701_3",
+        "related_cards": [ "10735_1" ]
       }
     ]
   },
@@ -4379,6 +4442,11 @@
         "crosslane": false,
         "quick": false,
         "related_cards": [ "10703_0", "10077_3" ]
+      },
+      {
+        "release_date": "2020-12-23",
+        "image": "10735_1",
+        "related_cards": [ "10703_1", "10077_3" ]
       }
     ]
   },
@@ -4677,6 +4745,11 @@
         "colour": "G",
         "signature": [ "10942_3" ],
         "image": "10940_5"
+      },
+      {
+        "release_date": "2020-12-23",
+        "signature": [ "10942_4" ],
+        "image": "10940_6"
       }
     ]
   },
@@ -4722,6 +4795,11 @@
         "is_signature": "10940_5",
         "image": "10942_3",
         "miniimage": "10942_3"
+      },
+      {
+        "release_date": "2020-12-23",
+        "is_signature": "10940_6",
+        "image": "10942_4"
       }
     ]
   },
@@ -4754,6 +4832,11 @@
       {
         "release_date": "2020-10-15",
         "abilities": [ "210058_1" ]
+      },
+      {
+        "release_date": "2020-12-23",
+        "image": "10674_3",
+        "abilities": [ "210058_2" ]
       }
     ]
   },
@@ -4786,7 +4869,7 @@
         "text": {
           "english": " /n Push an enemy and deal 1 damage to it. Summon an Ice Shard in its place."
         },
-        "is_signature": "10674_2"
+        "is_signature": "10674_3"
       }
     ]
   },
@@ -4813,7 +4896,7 @@
         "armour": 0,
         "hp": 1,
         "abilities": [],
-        "related_cards": [ "10674_1", "10676_1" ],
+        "related_cards": [ "10674_3", "10676_1" ],
         "crosslane": false,
         "quick": false
       }
@@ -4872,6 +4955,11 @@
       {
         "release_date": "2020-07-16",
         "signature": [ "10651_1" ]
+      },
+      {
+        "release_date": "2020-12-23",
+        "image": "10649_3",
+        "signature": [ "10651_2" ]
       }
     ]
   },
@@ -4901,6 +4989,11 @@
         "release_date": "2020-07-16",
         "cost": 8,
         "is_signature": "10649_2"
+      },
+      {
+        "release_date": "2020-12-23",
+        "image": "10651_2",
+        "is_signature": "10649_3"
       }
     ]
   },
@@ -6141,15 +6234,15 @@
         "crosslane": false,
         "quick": false,
         "related_cards": [
-          "10966_0",
-          "10960_2",
-          "10961_1",
-          "10965_0",
-          "10964_1",
-          "10959_1",
-          "10958_2",
-          "10963_0",
-          "10962_2"
+          "10966_1",
+          "10960_4",
+          "10961_4",
+          "10965_1",
+          "10964_3",
+          "10959_2",
+          "10958_4",
+          "10963_1",
+          "10962_4"
         ]
       },
       {
@@ -6581,6 +6674,15 @@
       {
         "release_date": "2020-10-22",
         "gcost": 20
+      },
+      {
+        "release_date": "2020-12-23",
+        "card_subtype": "Armor",
+        "text": {
+          "english": "/n +2[AR]/n/nEquipped hero has +4[ATT] if they have an empty item slot."
+        },
+        "attack": 0,
+        "armour": 2
       }
     ]
   },
@@ -7540,6 +7642,11 @@
       {
         "release_date": "2020-08-07",
         "abilities": [ "210072_2", "11064_2" ]
+      },
+      {
+        "release_date": "2020-12-23",
+        "image": "10730_6",
+        "signature": [ "10732_4" ]
       }
     ]
   },
@@ -7586,6 +7693,13 @@
       {
         "release_date": "2020-07-16",
         "rarity": 3
+      },
+      {
+        "release_date": "2020-12-23",
+        "image": "10732_4",
+        "is_signature": "10730_6",
+        "attack": 1,
+        "hp": 3
       }
     ]
   },
@@ -7975,6 +8089,11 @@
       {
         "release_date": "2020-10-15",
         "abilities": [ "210079_1" ]
+      },
+      {
+        "release_date": "2020-12-23",
+        "image": "10704_3",
+        "signature": [ "10706_1" ]
       }
     ]
   },
@@ -8000,6 +8119,11 @@
         "crosslane": false,
         "quick": false,
         "is_signature": "10704_2"
+      },
+      {
+        "release_date": "2020-12-23",
+        "image": "10706_1",
+        "is_signature": "10704_3"
       }
     ]
   },
@@ -8370,7 +8494,8 @@
         "related_cards": [ "10967_0" ]
       }, {
         "release_date": "2020-11-21",
-        "faction": "Greevil"
+        "faction": "Greevil",
+        "related_cards": [ "10967_3" ]
       }
     ]
   },
@@ -8417,6 +8542,13 @@
         "faction": "Greevil",
         "text": {
           "english": "[TG]Aura:[ET] Your [Faction]Greevils[/Faction] in all lanes have +1 Cleave. /n /n [TG]Cross Lane[ET]"
+        },
+        "related_cards": [ "10967_3" ]
+      },
+      {
+        "release_date": "2020-12-23",
+        "text": {
+          "english": "[TG]Aura:[ET] Your [Faction]Greevil[/Faction] units in all lanes have +1 Cleave. /n /n [TG]Cross Lane[ET]"
         }
       }
     ]
@@ -8464,6 +8596,13 @@
         "faction": "Greevil",
         "text": {
           "english": " /n [TG]Play Effect:[ET] Shuffle 3 random [Faction]Greevils[/Faction] into your deck then draw a greevil from it."
+        },
+        "related_cards": [ "10967_3" ]
+      },
+      {
+        "release_date": "2020-12-23",
+        "text": {
+          "english": " /n [TG]Play Effect:[ET] Shuffle 3 random [Faction]Greevils[/Faction] into your deck then draw one with [Faction]Greevil[/Faction] as its faction."
         }
       }
     ]
@@ -8499,7 +8638,7 @@
       {
         "release_date": "2020-11-21",
         "faction": "Bronze Legion",
-        "related_cards": ["10970_1"]
+        "related_cards": ["10970_2"]
       }
     ]
   },
@@ -8715,6 +8854,13 @@
         "hp": 3,
         "colour": "G",
         "related_cards": [ "10936_1" ]
+      },
+      {
+        "release_date": "2020-12-23",
+        "text": {
+          "english": " Whenever Rebel Rabble Rouser kills a unit, put a Roused Rabble card into your hand. Change it to Rebel Rabble Rouser's color and faction."
+        },
+        "related_cards": [ "10936_2" ]
       }
     ]
   },
@@ -8749,9 +8895,14 @@
         "release_date": "2020-11-21",
         "colour": "G",
         "text": {
-          "english": "Roused Rabble has +1 [ATT] and +1 [HP] for each allied [Faction]Vhoul Rebellion[/Faction] unit."
+          "english": " /n Roused Rabble has +1 [ATT] and +1 [HP] for each allied [Faction]Vhoul Rebellion[/Faction] unit."
         },
-        "related_cards": [ "10779_2" ]
+        "related_cards": [ "10779_3" ]
+      },
+      {
+        "release_date": "2020-12-23",
+        "faction":"Vhoul Rebellion",
+        "related_cards": [ "10779_3" ]
       }
     ]
   },
@@ -8976,6 +9127,11 @@
         "text": {
           "english": " [TG]Minion:[ET] Slumbering Brute is stunned unless it neighbors a hero. /n [TG]Round Start:[ET] Taunt."
         }
+      }, 
+      {
+        "release_date": "2020-12-23",
+        "image": "10605_3",
+        "miniimage": "10605_3"
       }
     ]
   },
@@ -9040,7 +9196,8 @@
         "related_cards": [ "10967_0" ]
       }, {
         "release_date": "2020-11-21",
-        "faction": "Greevil"
+        "faction": "Greevil",
+        "related_cards": [ "10967_3" ]
       }
     ]
   },
@@ -9081,6 +9238,13 @@
         "faction": "Greevil",
         "text": {
           "english": " [TG]Play Effect:[ET] Your [Faction]Greevils[/Faction] in all lanes deal 1 damage to their combat targets. /n /n [TG]Cross Lane[ET]"
+        },
+        "related_cards": [ "10967_3" ]
+      },
+      {
+        "release_date": "2020-12-23",
+        "text": {
+          "english": " [TG]Play Effect:[ET] Your [Faction]Greevil[/Faction] units in all lanes deal 1 damage to their combat targets. /n /n [TG]Cross Lane[ET]"
         }
       }
     ]
@@ -9740,7 +9904,8 @@
       },
       {
         "release_date": "2020-11-21",
-        "faction": "Greevil"
+        "faction": "Greevil",
+        "related_cards": [ "10967_3" ]
       }
     ]
   },
@@ -9820,6 +9985,13 @@
         "faction": "Greevil",
         "text": {
           "english": " /n [TG]Aura:[ET] Your [Faction]Greevils[/Faction] in all lanes have Pillager. /n /n [TG]Cross Lane[ET]"
+        },
+        "related_cards": [ "10967_3" ]
+      },
+      {
+        "release_date": "2020-12-23",
+        "text": {
+          "english": " /n [TG]Aura:[ET] Your [Faction]Greevil[/Faction] units in all lanes have Pillager. /n /n [TG]Cross Lane[ET]"
         }
       }
     ]
@@ -10162,7 +10334,8 @@
       },
       {
         "release_date": "2020-12-03",
-        "cost": 2
+        "cost": 2,
+        "related_cards": [ "10735_1" ]
       }
     ]
   },
@@ -10251,6 +10424,11 @@
         "text": {
           "english": "Devour /n/n [TG]Play Effect:[ET] Berserker of the Abyssm strikes the unit blocking it using Berserker of the Abyssm's [HP] instead of [ATT]."
         }
+      },
+      {
+        "release_date": "2020-12-23",
+        "image": "10600_5",
+        "miniimage": "10600_5"
       }
     ]
   },
@@ -10419,6 +10597,13 @@
         "release_date": "2020-11-21",
         "text": {
           "english": " [TG]Aura:[ET] Your [Faction]Greevils[/Faction] in all lanes have +1 Regeneration. /n /n [TG]Cross Lane[ET]"
+        },
+        "related_cards": [ "10967_3" ]
+      },
+      {
+        "release_date": "2020-12-23",
+        "text": {
+          "english": " [TG]Aura:[ET] Your [Faction]Greevil[/Faction] units in all lanes have +1 Regeneration. /n /n [TG]Cross Lane[ET]"
         }
       }
     ]
@@ -11173,6 +11358,12 @@
         "release_date": "2020-09-18",
         "text": {
           "english": "/n Enchant Tower /n [TG]Active 1[AC], 1 Mana:[ET] Equip an allied hero with a basic item of each equipment type they don't have."
+        }
+      },
+      {
+        "release_date": "2020-12-23",
+        "text": {
+          "english": "/n Enchant Tower /n [TG]Active 1[AC], 1 Mana:[ET] Equip an allied hero's empty item slots with random basic items."
         }
       }
     ]
@@ -12901,6 +13092,13 @@
         "crosslane": true,
         "quick": false,
         "related_cards": [ "10935_3" ]
+      },
+      {
+        "release_date": "2020-12-23",
+        "text": {
+          "english": " /n Choose caster. Summon a Terrapin Channeler to any lane and change its color to the casters' color. /n [TG]Cross Lane[ET]"
+        },
+        "related_cards": [ "10935_4" ]
       }
     ]
   },
@@ -13702,6 +13900,12 @@
         "text": {
           "english": " /n Bounce each item from a hero and give them +1 Lock. Equip that hero with cursed items."
         }
+      },
+      {
+        "release_date": "2020-12-23",
+        "text": {
+          "english": " /n Bounce each item from a hero and give them +1 Lock. Equip that hero with random cursed items."
+        }
       }
     ]
   },
@@ -13831,6 +14035,12 @@
         "release_date": "2020-07-09",
         "text": {
           "english": " /n Swap one of your creeps with an enemy creep. Swap their colors."
+        }
+      },
+      {
+        "release_date": "2020-12-23",
+        "text": {
+          "english": " /n Swap one of your creeps with an enemy creep. Swap their colors and factions."
         }
       }
     ]
@@ -14165,6 +14375,13 @@
         "text": {
           "english": "/n Can cast spells as a blue hero. /n /n Whenever Terrapin Channeler enters a lane, disarm it."
         }
+      },
+      {
+        "release_date": "2020-12-23",
+        "text": {
+          "english": "/n Terrapin Channeler is a caster. /n Whenever Terrapin Channeler enters a lane, disarm it."
+        },
+        "related_cards": [ "10336_1" ]
       }
     ]
   },
@@ -14194,7 +14411,7 @@
         "abilities": [],
         "crosslane": false,
         "quick": false,
-        "related_cards": [ "10770_1" ]
+        "related_cards": [ "10770_2" ]
       }
     ]
   },
@@ -14224,7 +14441,7 @@
         "abilities": [],
         "crosslane": false,
         "quick": false,
-        "related_cards": [ "10770_1" ]
+        "related_cards": [ "10770_2" ]
       }
     ]
   },
@@ -14254,7 +14471,7 @@
         "abilities": [],
         "crosslane": false,
         "quick": false,
-        "related_cards": [ "10770_1" ]
+        "related_cards": [ "10770_2" ]
       }
     ]
   },
@@ -14345,7 +14562,7 @@
         "armour": 0,
         "hp": 0,
         "abilities": [],
-        "related_cards": [ "10794_1", "10172_1" ],
+        "related_cards": [ "10794_1", "10172_2" ],
         "crosslane": false,
         "quick": false
       }
@@ -14375,7 +14592,7 @@
         "armour": 1,
         "hp": 0,
         "abilities": [],
-        "related_cards": [ "10172_1" ],
+        "related_cards": [ "10172_2" ],
         "crosslane": false,
         "quick": false
       }
@@ -14405,7 +14622,7 @@
         "armour": 0,
         "hp": 3,
         "abilities": [],
-        "related_cards": [ "10172_1" ],
+        "related_cards": [ "10172_2" ],
         "crosslane": false,
         "quick": false
       }
@@ -14459,6 +14676,12 @@
       {
         "release_date": "2020-10-09",
         "abilities": [ "210084_5" ]
+      },
+      {
+        "release_date": "2020-12-23",
+        "image": "11056_8",
+        "signature": [ "11058_3" ],
+        "abilities": [ "210084_6" ]
       }
     ]
   },
@@ -14495,6 +14718,11 @@
           "english": " /n Choose caster. When taking damage this round, reflect damage back, stun its source until its next combat, then purge enemy effects from this unit."
         },
         "is_signature": "11056_7"
+      },
+      {
+        "release_date": "2020-12-23",
+        "image": "11058_3",
+        "is_signature": "11056_8"
       }
     ]
   },
@@ -14801,6 +15029,10 @@
       {
         "release_date": "2020-11-21",
         "faction": "The S.O.L.K."
+      },
+      {
+        "release_date": "2020-12-23",
+        "abilities": [ "10179_2" ]
       }
     ]
   },
@@ -14864,7 +15096,7 @@
       },{
         "release_date": "2020-11-06",
         "related_cards": [""],
-        "is_signature": "10052_4"
+        "is_signature": "10052_5"
       }
     ]
   },
@@ -14928,7 +15160,7 @@
       },{
         "release_date": "2020-11-06",
         "related_cards": [""],
-        "is_signature": "10052_4"
+        "is_signature": "10052_5"
       }
     ]
   },
@@ -15007,7 +15239,7 @@
       },{
         "release_date": "2020-11-06",
         "related_cards": [""],
-        "is_signature": "10052_4"
+        "is_signature": "10052_5"
       }
     ]
   },
@@ -15493,6 +15725,11 @@
       },{
         "release_date": "2020-12-03",
         "attack": 3
+      },{
+        "release_date": "2020-12-23",
+        "text": {
+          "english": "[TG]Round Start:[ET] Shuffle a Bronze Legionnaire into your deck, change it to Legion Scouting Party's faction and color, and draw a [Faction]Bronze Legion[/Faction] creep."
+        }
       }
     ]
   },
@@ -15555,6 +15792,12 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-12-23",
+        "text": {
+          "english": "When a faction ally takes damage, draw and reveal a creep from your opponent's deck. Change it to Rebel Recruiter's faction and color. /n 1 round cooldown."
+        }
       }
     ]
   },
@@ -15724,6 +15967,12 @@
         "abilities": [],
         "crosslane": false,
         "quick": false
+      },
+      {
+        "release_date": "2020-12-23",
+        "text": {
+          "english": "Whenever a faction ally takes damage, reduce the cost of a random [Faction]Vhoul Rebellion[ET] card in your hand by 1. If it's a creep, give it +1[ATT]/+1[HP] permanently."
+        }
       }
     ]
   }
