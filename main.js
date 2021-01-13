@@ -100,7 +100,7 @@ const InitialisePage = function(Page) {
 
     Promise.all([p1,p2,p3,p4, p5]).then(responses => {
         CardJSON = ParseCardList(responses[0]);
-        AbilityJSON = JSON.parse(responses[1]);
+        AbilityJSON = ParseCardList(responses[1]);
         KeywordsJSON = JSON.parse(responses[2]);
         DeckCodesJSON = JSON.parse(responses[3]);
         ValveDeckCodesJSON = JSON.parse(responses[4]);
