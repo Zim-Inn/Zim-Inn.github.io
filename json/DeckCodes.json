@@ -1,5 +1,36 @@
 [
     {
+        "code": "RTFACTJW4Y5LkCBHEBoRMtAvYFBXC7Aku9AU1LTQEEdAOjAygGBUVqAkR0AYcSA1JHIC0gUmFtcCBUb3QgdGVzdCB2Mi4xNQ",
+        "creator": "Pseudo",
+        "description": "",
+        "submitter": ""        
+    },
+    {
+        "code": "RTFACTJXod-rgCBF6OPRLIBWO7AiEBoQEMD5BNBWYMWUIDqAOKHoEafAQgAjQBQmx1ZSBQb3dlciBWYW4gLUJHIERFVk8tVHJhbXA_",
+        "creator": "Blue Power Van",
+        "description": "",
+        "submitter": ""        
+    },
+    {
+        "code": "RTFACTJdQf4bkCBU+MDPQSBGe8AheNjpdNQRBevwOpDFKnBUsvAWcBR3JlZW4gLSBKTWF1bGVyIHYyLjEgLSBOZXcgU2hvcA",
+        "creator": "JMauler",
+        "description": "",
+        "submitter": ""        
+    },
+    {
+        "code": "RTFACTJWoS-rgCBJLBBVQ1Gmq7ApEnAxCtA2wBoQGnBlBILwKnAWUBOQQBjSwEg0dyZWVuL0JsdWUgLSBTd2FybQ",
+        "creator": "Delrake",
+        "description": "",
+        "submitter": ""        
+    },
+    {
+        "code": "RTFACTJaQZ8bkCBYrKBAtyFnS+AkkBBKEDSFRRsgGKdwZIrQROR6gFXyAtIG1vbm9ibHVlIHByZWxsZXggKHBwKQ",
+        "creator": "perroperro",
+        "description": "A mono-blue deck featuring Prellex created by perroperro and tweaked by underscore.",
+        "submitter": ""        
+    },
+    {
+        "hidefromdecklist": true,
         "code": "RTFACTJXQT4bkCBc8ETIw0Eqe8AheNpQEObgG-A3gHsQRSpwV5AQaiAZ9KbWF1bGVyIC0gMXN0IFBsYWNl",
         "creator": "JMauler",
         "description": "Winner of NineArmada's 3rd Beta Tournament, built and driven by the mono-green master himself. Extremely fast at building a wall of creeps and keeping it alive and blocking the path.",
@@ -76,6 +107,7 @@
 
     },
     {
+        "hidefromdecklist": true,
         "code": "RTFACTJaUTtLgCQvgBBP4SBS8Efr4CYAGqAqgBpwGLlqYGBUOyBJWIJQdCbHVlIE1lZXBvIEFnZ3JvID00",
         "description": "A deck proficient at clearing a path to land tower damage in. Takes advantage of meepos mobility and constructed shop rules to get Claymore to hit more reliably late game.",
         "creator": "=4",
@@ -86,6 +118,7 @@
 
     },
     {
+        "hidefromdecklist": true,
         "code": "RTFACTJV4QZLkCgeIUBMsFLwGnuwK1Ap+jAbELgUJhBJqCogZ1AUhNLiBPbmUgUHVuY2ggTWFu",
         "description": "Deck centered around the synnergy between Tusk's Walrus Punch and Centaur's Stampede to one shot towers",
         "creator": "Swellzong",
@@ -97,6 +130,7 @@
 
     },
     {
+        "hidefromdecklist": true,
         "code": "RTFACTJesQ8LkCBEyMNBLaBTy7AoupAg5QAkENaQKkApF5BkSKtwKzB1tHXSBDcmVlcCBLaWxsZXI_",
         "description": "Get melee creep advantage and move enemy units to unfavorable spots to slowly win the game",
         "creator": "Jmauler",
