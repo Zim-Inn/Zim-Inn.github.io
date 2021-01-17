@@ -24,7 +24,7 @@
         ]
     },
     {
-        "card_id":210002,
+        "card_id":10992,
         "card_type":"Ability",
         "versions": [
             {
@@ -34,11 +34,14 @@
                     "english":"Reincarnation"
                 },
                 "cooldown": 0,
-                "image": "210002_0",
+                "image": "10992_0",
                 "cost": 0,
                 "text":{
                     "english":"When Wraith King uses a death shield, heal to full and give enemies -2[ATT] for their next combat. /n [TG]Deploy:[ET] Gain a death shield."
                 }
+            },{
+                "release_date":"2020-05-25",
+                "image": "10992_1"
             },{
                 "release_date":"2020-06-26",
                 "text":{

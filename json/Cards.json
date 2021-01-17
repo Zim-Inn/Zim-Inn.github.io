@@ -82,17 +82,18 @@
         "attack": 4,
         "armour": 0,
         "hp": 3,
-        "abilities": [ "210002_0" ],
+        "abilities": [ "10992_0" ],
         "signature": [ "10993_0" ]
       },
       {
         "release_date": "2020-05-25",
         "rarity": 3,
+        "abilities": [ "10992_1" ],
         "signature": [ "10993_1" ]
       },
       {
         "release_date": "2020-06-26",
-        "abilities": [ "210002_1" ]
+        "abilities": [ "10992_2" ]
       }
     ]
   },
@@ -14930,7 +14931,8 @@
         "release_date": "2020-10-15",
         "text": {
           "english": " /n Give caster immunity to physical damage and Untargetable /n /n It battles an adjacent enemy."
-        }
+        },
+        "is_signature": "11039_2"
       }
     ]
   },
