@@ -1069,13 +1069,13 @@
                 "release_date":"2020-08-21",
                 "cooldown": 3,
                 "text":{
-                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Choose an enemy within range 3. Swap them to a new slot within range 3. Stun them and their new neigbors. /n [TG]Cross Lane[ET]"
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Choose an enemy within range 3. Swap them to a new slot within range 3. Stun them and their new neighbors. /n [TG]Cross Lane[ET]"
                 }
             },
             {
                 "release_date":"2020-10-29",
                 "text":{
-                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Choose an enemy within range 3. Swap them to a new slot within range 3. Stun their new neigbors. /n [TG]Cross Lane[ET]"
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Choose an enemy within range 3. Swap them to a new slot within range 3. Stun their new neighbors. /n [TG]Cross Lane[ET]"
                 }
             }
         ]
