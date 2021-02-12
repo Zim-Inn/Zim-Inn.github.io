@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168054076-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-168054076-1');
+        </script>
+
+        <meta charset="utf-8" />
+        <title>Artifact 2 Card Viewer</title>
+        <link rel="preload" href="Styles/Standard.css" as="style">
+        <link rel="preload" href="Styles/Cards.css" as="style">
+        <link rel="preload" href="Styles/CardBrowser.css" as="style">
+        <link rel="stylesheet" href="Styles/Standard.css">
+        <link rel="stylesheet" href="Styles/Cards.css">
+        <link rel="stylesheet" href="Styles/CardBrowser.css">
+        <link rel="icon" href="favicon.ico">
+    </head>
+    <body>
+        <div id="SiteHeader">
+            <div id="SiteHeaderBackground">
+                <video preload="preload" id="header_video" autoplay loop muted>
+                    <source src="Images/Styles/144px.mp4" type="video/mp4">
+                </video> 
+            </div>
+            <div id="SiteHeaderInner">
+                <div class="SiteHeaderButton SiteHeaderButtonSelected">
+                    <div class="SiteHeaderButtonText">CARD BROWSER</div>
+                </div>
+                <a href="DeckBuilder.html">
+                    <div class="SiteHeaderButton SiteHeaderButtonUnselected">
+                        <div class="SiteHeaderButtonText">DECK BUILDER</div>
+                    </div>
+                </a>
+                <a href="DeckViewer.html">
+                    <div class="SiteHeaderButton SiteHeaderButtonUnselected">
+                        <div class="SiteHeaderButtonText">DECK VIEWER</div>
+                    </div>
+                </a>
+                <a href="Keywords.html">
+                    <div class="SiteHeaderButton SiteHeaderButtonUnselected">
+                        <div class="SiteHeaderButtonText">GLOSSARY</div>
+                    </div>
+                </a>
+                <a href="ReportError.html">
+                    <div class="SiteHeaderButton SiteHeaderButtonUnselected">
+                        <div class="SiteHeaderButtonText">REPORT ERROR</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div id="PageHeader">
+            <div id="PageHeaderTitle" class="RestrictWidth">All Artifact 2.0 Cards</div>
+            <div id="PageHeaderSubtitle" class="RestrictWidth">Updated to 23rd December 2020 <a href="https://www.youtube.com/watch?v=cFqCl_GvHe0" target="_blank">Art Update 1</a> Beta Patch</div>
+        </div>
+        <div id="CVOptions">
+            <div class="RestrictWidth">
+                <div class="CVOptionContainer float">
+                    <div class="CVOptionName">LAYOUT</div>
+                    <div id="CVOptionLayout1" class="CVOptionButton CVOptionButtonSelected" onmouseup="history.pushState({}, 'Artifact 2 Card Viewer', `?&l=false`); CVChangeViewStyle(0);"></div>
+                    <div id="CVOptionLayout2" class="CVOptionButton CVOptionButtonUnselected" onmouseup="history.pushState({}, 'Artifact 2 Card Viewer', `?&l=true`); CVChangeViewStyle(1);"></div>
+                    <div class="clear"></div>
+                </div>
+                <div class="CVOptionContainer float" id="ColourFilterContainer">
+                    <div class="CVOptionName">COLOUR FILTER</div>
+                    <div id="ColourFilterR" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowTextTooltip(1, 'Red')"; onmouseout="ShowTextTooltip(0,0)"; onmouseup="ToggleFilter('R');"></div>
+                    <div id="ColourFilterU" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowTextTooltip(1, 'Blue')"; onmouseout="ShowTextTooltip(0,0)"; onmouseup="ToggleFilter('U');"></div>
+                    <div id="ColourFilterB" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowTextTooltip(1, 'Black')"; onmouseout="ShowTextTooltip(0,0)"; onmouseup="ToggleFilter('B');"></div>
+                    <div id="ColourFilterG" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowTextTooltip(1, 'Green')"; onmouseout="ShowTextTooltip(0,0)"; onmouseup="ToggleFilter('G');"></div>
+                    <div id="ColourFilterC" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowTextTooltip(1, 'Colourless')"; onmouseout="ShowTextTooltip(0,0)"; onmouseup="ToggleFilter('C');"></div>
+                    <div class="clear"></div>
+                </div>
+                <div class="CVOptionContainer float" id="ItemFilterContainer">
+                    <div class="CVOptionName">ITEM FILTER</div>
+                    <div id="ItemFilterWeapon" class="CVOptionButton CVOptionButtonSelected ItemFilter" onmousemove="ShowTextTooltip(1, 'Weapons');"  onmouseout="ShowTextTooltip(0,0);" onmouseup="ToggleFilter('Weapon');"></div>
+                    <div id="ItemFilterArmor" class="CVOptionButton CVOptionButtonSelected ItemFilter" onmousemove="ShowTextTooltip(1, 'Armor');" onmouseout="ShowTextTooltip(0,0);" onmouseup="ToggleFilter('Armor');"></div>
+                    <div id="ItemFilterAccessory" class="CVOptionButton CVOptionButtonSelected ItemFilter" onmousemove="ShowTextTooltip(1, 'Accessories');" onmouseout="ShowTextTooltip(0,0);" onmouseup="ToggleFilter('Accessory');"></div>
+                    <div id="ItemFilterConsumable" class="CVOptionButton CVOptionButtonSelected ItemFilter" onmousemove="ShowTextTooltip(1, 'Consumables');" onmouseout="ShowTextTooltip(0,0);" onmouseup="ToggleFilter('Consumable');"></div>
+                    <div class="clear"></div>
+                </div>
+                <div class="CVOptionContainer float">
+                    <div class="CVOptionName">ADDITIONAL FILTERS</div>
+                    <div id="HiddenFilterUncollectable" class="CVOptionButton CVOptionButtonUnselected" onmousemove="ShowTextTooltip(1, 'Show or Hide Uncollectable Cards')"; onmouseout="ShowTextTooltip(0,0)"; onmouseup="ToggleFilter('uncollectable');"></div>
+                    <div id="HiddenFilterSignature" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowTextTooltip(1, 'Show or Hide Signature Cards')"; onmouseout="ShowTextTooltip(0,0)"; onmouseup="ToggleFilter('signature');"></div>
+                    <div class="clear"></div>
+                </div>
+                <div class="CVOptionContainer floatr">
+                    <div class="CVOptionName">CARD NAME AND TEXT SEARCH</div>
+                    <input type="text" id="CardTextFilter" value="" onkeyup="GenerateCardListCardBrowser(CardViewerFilter);">
+                    <div class="clear"></div>
+                </div>
+                <div class="CVOptionContainer floatr">
+                    <div class="CVOptionName">&nbsp;</div>
+                    <div id="FilterIncludeAbilityText" class="CVOptionButton CVOptionButtonSelected" onmousemove="ShowTextTooltip(1, 'Include text from card abiltiies in the text search')"; onmouseout="ShowTextTooltip(0,0)"; onmouseup="ToggleFilter('abilitytext');"></div>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div id="PageContainer" class="RestrictWidth">
+            <div id="CVLView">
+                <div id="CardViewerPage_CVLUpper">
+                    <div id="CardViewerPage_Left">
+                        <div id="CardViewerCurrentCardTitleContainer">
+                            <div class="CardDetailsPanel">
+                                <div id="CardDetailsPanelCardTitle">&nbsp;</div>
+                                <div id="CardDetailsPanelCardType">&nbsp;</div>
+                                <div id="CardDetailsPanelBottomText"></div>
+                            </div>
+                        </div> 
+                        <div id="SigAbilityRelated_Container"></div>
+                        <div id="CardViewerPageCardLore"></div>
+                    </div>
+                    <div id="CardViewerPage_Centre">
+                        <div id="CardContainer">
+                            <div id="CardContainerCardBrowser" onmousemove="skewcard(this,1);" onmouseout="skewcard(this,0);">
+                                <div class="CardContainer_LoadingPlaceholder">
+                                    <div class="LoadingCardThrobberContainer">
+                                        <img src="Images/Styles/throbber20px.gif">
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <button id="ShareButton" class="ArtifactButtonSmall" type="button" onmousemove="ShowTextTooltip(1, 'Copies the URL for this card to the clipboard');" onmouseout="ShowTextTooltip(0,0);" onclick="CardShareToClipboard('200115_0')">Share This Card</button> 
+                    </div>
+                    <div class="clear OnlyMobile"></div>
+                    <div id="CardViewerPageCardLoreMobile">
+                        <div id="CardViewerPageCardLoreTextBody">&nbsp;</div>
+                        <div id="CardViewerPageCardLoreTextTag">&nbsp;</div>
+                    </div>
+                    <div id="CardViewerPage_Right">
+                        <div id="CardViewerPageCardList">
+                            <div class="LoadingCardList">
+                                Loading card list...<br>
+                                <img src="Images/Styles/RetrieveCardList.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div id="CardViewerPage_CardHistoryContainer">
+                    <div id="CardViewerPage_CardHistoryHeader">
+                        Card History
+                    </div>
+                    <div id="CardViewerPage_CardHistoryChangeContainer">&nbsp;</div>
+                </div>
+            </div>
+            <div id="CVCView">
+                <div class="CVCHeader">▧ Heroes</div>
+                <div class="CVCHeader">▨ Creeps</div>
+                <div class="CVCHeader">▪ Spells</div>
+                <div class="CVCHeader">▩ Enchantments</div>
+                <div class="CVCHeader">▣ Weapons</div>
+                <div class="clear"></div>
+                <div class="CVCOuterContainer80">
+                    <div id="CVCOuterContainerR">
+                        <div id="CVCRedHeroes" class="CVCInnerContainer"></div>
+                        <div id="CVCRedCreeps" class="CVCInnerContainer"></div>
+                        <div id="CVCRedSpells" class="CVCInnerContainer"></div>
+                        <div id="CVCRedImp" class="CVCInnerContainer"></div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="CVCOuterContainerU">
+                        <div id="CVCBlueHeroes" class="CVCInnerContainer"></div>
+                        <div id="CVCBlueCreeps" class="CVCInnerContainer"></div>
+                        <div id="CVCBlueSpells" class="CVCInnerContainer"></div>
+                        <div id="CVCBlueImp" class="CVCInnerContainer"></div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="CVCOuterContainerB">
+                        <div id="CVCBlackHeroes" class="CVCInnerContainer"></div>
+                        <div id="CVCBlackCreeps" class="CVCInnerContainer"></div>
+                        <div id="CVCBlackSpells" class="CVCInnerContainer"></div>
+                        <div id="CVCBlackImp" class="CVCInnerContainer"></div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="CVCOuterContainerG">
+                        <div id="CVCGreenHeroes" class="CVCInnerContainer"></div>
+                        <div id="CVCGreenCreeps" class="CVCInnerContainer"></div>
+                        <div id="CVCGreenSpells" class="CVCInnerContainer"></div>
+                        <div id="CVCGreenImp" class="CVCInnerContainer"></div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="CVCOuterContainerC">
+                        <div id="CVCColourlessHeroes" class="CVCInnerContainer"></div>
+                        <div id="CVCColourlessCreeps" class="CVCInnerContainer"></div>
+                        <div id="CVCColourlessSpells" class="CVCInnerContainer"></div>
+                        <div id="CVCColourlessImp" class="CVCInnerContainer"></div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="CVCOuterContainer20">
+                    <div id="CVCWeapons" class="CVCInnerContainerItems"></div>
+                    <div class="CVCHeaderItems">▤ Armor</div>
+                    <div id="CVCArmor" class="CVCInnerContainerItems"></div>
+                    <div class="CVCHeaderItems">▥ Accessories</div>
+                    <div id="CVCAcc" class="CVCInnerContainerItems"></div>
+                    <div class="CVCHeaderItems">▦ Consumables</div>
+                    <div id="CVCCon" class="CVCInnerContainerItems"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div id="CardPreviewTooltip" class="CardContainerMiniPreview">&nbsp;</div>
+            <div id="SpecialTextTooltip">
+                <div id="SpecialTextTitle">Title</div>
+                <div id="SpecialTextDesc">Desc</div>
+            </div>
+            <input type="text" value="200115_0" id="hiddenClipboard">
+        </div>
+        <script src="main.js"></script>
+        <script src="js/CardGenerator.js"></script>
+        <script src="js/OrderCardList.js"></script>
+        <script src="js/CardViewer_CardHistory.js"></script>
+        <script>InitialisePage("CardBrowser");</script>
+    </body>
+</html>
