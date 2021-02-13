@@ -260,3 +260,49 @@ body {
 .clear {
     clear: both;
 }
+
+/*.MovedContainer {
+    width: calc(100% - 260px);
+    height: 200px;
+    padding: 10px 250px 10px 10px;
+    background-image: url('../Images/Styles/RetrieveCardList.png');
+    background-position: center right;
+    background-repeat: no-repeat;
+    font-size: 18pt;
+    color: #eee;
+    font-family: 'radiance', sans-serif;
+}*/
+.MovedContainerWrapper {
+    background-color: rgba(27, 60, 77, 0.3);
+    padding: 5px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 2px;
+    /*background: linear-gradient(90deg, rgba(27, 60, 77, 0.2) 30%, rgba(27, 60, 77, 0) 80%);*/
+}
+.MovedContainerInner {
+    font-family: 'Radiance', sans-serif;
+    font-size: 18pt;
+    color: #eee;
+    border-radius: 2px;
+    width: calc(100% - 260px);
+    height: 200px;
+    padding: 10px 250px 10px 10px;
+    box-shadow: inset 2px 2px 4px black;
+    background-color: rgba(0,0,0,0.3);
+    background-image: url('../Images/Styles/RetrieveCardList.png');
+    background-position: center right;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.MovedContainerInner h1 {
+    font-size: 32pt;
+    margin: 0 0 20px 0;
+}
+.MovedContainerInner a {
+    color: inherit;
+    font-weight: bold;
+}
+.MovedContainerInner a:hover {
+    text-shadow: 0 0 1px white;
+}

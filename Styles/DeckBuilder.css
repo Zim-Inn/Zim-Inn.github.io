@@ -288,7 +288,7 @@
     min-height: 50px;
     margin-bottom: 10px;
     top:0;
-    background-color: rgba(26,24,29,0.7);
+    /*background-color: rgba(26,24,29,0.7);*/
     border-bottom: 2px solid black;
 }
 .CVOptionContainer {
