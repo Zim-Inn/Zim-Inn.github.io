@@ -1,37 +1,44 @@
-@import url('https://fonts.googleapis.com/css?family=Aladin'); /* Card Mana */
-@import url('https://fonts.googleapis.com/css2?family=Domine'); /* Card Mana */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500'); /* Card Stats and Gold */
+@import url('https://fonts.googleapis.com/css?family=Aladin');
+/* Card Mana */
+@import url('https://fonts.googleapis.com/css2?family=Domine');
+/* Card Mana */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500');
+/* Card Stats and Gold */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans');
 
 @font-face {
-	font-family: 'Radiance';
-	src: url('fonts/Radiance-Regular.otf') format('opentype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Radiance';
+    src: url('fonts/Radiance-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
+
 @font-face {
-	font-family: 'Radiance1.0'; /* For the filled-in Armour icon on Heroes and Creeps */
-	src: url('fonts/Radiance-Regular-1.0.otf') format('opentype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Radiance1.0'; /* For the filled-in Armour icon on Heroes and Creeps */
+    src: url('fonts/Radiance-Regular-1.0.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
+
 @font-face {
-	font-family: 'RadianceCon';
-	src: url('fonts/radiance-regularcondensed-fixed.otf') format('opentype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'RadianceCon';
+    src: url('fonts/radiance-regularcondensed-fixed.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
+
 @font-face {
-	font-family: 'Artifact2Numbers';
-	src: url('fonts/artifact-numbers-bold.otf') format('opentype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Artifact2Numbers';
+    src: url('fonts/artifact-numbers-bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 html, body {
     margin: 0;
     padding: 0;
 }
+
 body {
     background-image: url('../Images/Styles/PageBG.jpg');
     background-position: top center;
@@ -41,6 +48,7 @@ body {
     background-color: #0e0c10;
     background-attachment: fixed;
 }
+
 #SiteHeader {
     position: relative;
     width: 100%;
@@ -50,6 +58,7 @@ body {
     z-index: 1;
     border-bottom: 2px solid black;
 }
+
 #SiteHeaderBackground {
     position: relative;
     z-index: -1;
@@ -58,6 +67,7 @@ body {
     text-align: center;
     overflow: hidden;
 }
+
 #SiteHeaderInner {
     position: relative;
     margin: 0 auto;
@@ -70,12 +80,13 @@ body {
     background-repeat: no-repeat;
     color: white;
 }
+
 .SiteHeaderButton {
     height: 37px;
     width: 175px;
     border-right: 2px solid black;
     float: left;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #ddd;
     font-size: 14pt;
     padding-top: 13px;
@@ -83,13 +94,16 @@ body {
     transform: skew(-30deg);
     cursor: pointer;
 }
+
 .SiteHeaderButtonUnselected {
-    background-color: rgba(150,43,222,0.05);
+    background-color: rgba(150, 43, 222, 0.05);
 }
+
 .SiteHeaderButtonUnselected:hover {
-    background-color: rgba(150,43,222,0.05);
+    background-color: rgba(150, 43, 222, 0.05);
     text-shadow: 0 0 20px rgb(35, 100, 240);
 }
+
 .SiteHeaderButtonSelected {
     background-color: rgba(65, 46, 77, 0.45);
     background-image: url('../Images/Styles/SiteHeaderButtonActive_175px.jpg');
@@ -97,15 +111,18 @@ body {
     height: 37px;
     padding-top: 13px;
 }
+
 .SiteHeaderButtonText {
     transform: skew(30deg);
     user-select: none;
 }
+
 .RestrictWidth {
     margin: 0 auto;
     max-width: 1150px;
     min-width: 975px;
 }
+
 #backgroundcontainer {
     position: fixed;
     top: 0px;
@@ -114,63 +131,75 @@ body {
     height: 100%;
     text-align: center;
 }
+
 #backgroundcontainer video {
     height: 100%;
 }
+
 #PageContainer {
     min-height: 500px;
 }
+
 #PageHeader {
     font-family: 'Radiance', sans-serif;
     padding-top: 10px;
     margin-bottom: 10px;
-    background-color: rgba(255,255,255,0.1);
-    box-shadow: 0 5px 10px rgba(255,255,255,0.2);
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
 }
+
 #PageHeaderTitle {
     color: #eee;
     font-size: 32pt;
     font-weight: 700;
     text-shadow: 2px 2px 5px black;
 }
+
 #PageHeaderSubtitle {
     color: #eee;
     font-size: 18pt;
     font-weight: 700;
     text-shadow: 2px 2px 5px black;
 }
+
 #PageHeaderSubtitle a:link {
     color: inherit;
 }
+
 #PageHeaderSubtitle a:visited {
     color: inherit;
 }
+
 .CursorPointer {
     cursor: pointer;
 }
+
 .TextColour_Golden {
     background: -webkit-linear-gradient(#d0b6ac, #a2928c);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
     text-shadow: none;
 }
+
 .TextColour_Faction {
     /* Based on textColorFaction */
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(102,166,166,1) 30%, rgba(51,153,153,1) 80%, rgba(51,153,153,1) 100%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(102, 166, 166, 1) 30%, rgba(51, 153, 153, 1) 80%, rgba(51, 153, 153, 1) 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
     text-shadow: none;
 }
+
 .TextColour_Red {
     color: rgb(211, 8, 8);
 }
+
 #SpecialTextTooltip {
     position: absolute;
     z-index: 3;
     max-width: 320px;
     border-radius: 3px;
-    background-color: rgba(40,40,40,0.8);
+    background-color: rgba(40, 40, 40, 0.8);
     background-image: url("../Images/Styles/SpecialTextTooltip.jpg");
     font-family: "Radiance", sans-serif;
     padding: 5px 7px;
@@ -178,17 +207,20 @@ body {
     border: 1px solid black;
     display: none;
 }
+
 #SpecialTextTitle {
     color: #ddd;
     text-decoration-line: underline;
     text-decoration-style: dashed;
     font-size: 14pt;
 }
+
 #SpecialTextDesc {
     color: #ccc;
     font-size: 12pt;
     padding: 3px 0;
 }
+
 .ArtifactButtonSmall {
     font-family: 'Radiance', sans-serif;
     font-size: 14pt;
@@ -201,62 +233,76 @@ body {
     cursor: pointer;
     transition: color 0.15s ease-out;
 }
+
 .ArtifactButtonSmall:hover {
     color: #ddd;
     text-shadow: 0 0 10px #438994;
     background: linear-gradient(170deg, #36434e 20%, #373953);
 }
+
 .OnlyMobile {
-    display:none;
+    display: none;
 }
+
 @media (max-width: 1090px) {
     .CardList_CardName {
         letter-spacing: -0.05em;
     }
 }
+
 @media (max-width: 1040px) {
     .CardList_CardName {
         letter-spacing: -0.1em;
     }
 }
-@media (pointer:coarse) {
+
+@media (pointer: coarse) {
     .OnlyMobile {
-        display:block;
+        display: block;
     }
-    
+
 }
-@media (pointer:coarse) and (max-width: 1100px){
-    #SiteHeaderInner{
+
+@media (pointer: coarse) and (max-width: 1100px) {
+    #SiteHeaderInner {
         width: unset;
     }
+
     #SiteHeader {
         height: 75px;
     }
+
     #SiteHeaderBackground {
         height: 75px;
     }
+
     #SiteHeaderInner {
         padding-left: 150px;
         width: calc(100% - 150px);
         height: 75px;
         margin-top: -75px;
     }
+
     .SiteHeaderButton {
         height: 72px;
         width: 150px;
         font-size: 20pt;
         padding-top: 3px;
     }
+
     .SiteHeaderButtonSelected {
         background-image: url('../Images/Styles/SiteHeaderButtonActive_150-75.jpg');
     }
 }
+
 .float {
     float: left;
 }
+
 .floatr {
     float: right;
 }
+
 .clear {
     clear: both;
 }
@@ -280,29 +326,32 @@ body {
     border-radius: 2px;
     /*background: linear-gradient(90deg, rgba(27, 60, 77, 0.2) 30%, rgba(27, 60, 77, 0) 80%);*/
 }
+
 .MovedContainerInner {
     font-family: 'Radiance', sans-serif;
     font-size: 18pt;
     color: #eee;
     border-radius: 2px;
     width: calc(100% - 260px);
-    height: 200px;
     padding: 10px 250px 10px 10px;
     box-shadow: inset 2px 2px 4px black;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     background-image: url('../Images/Styles/RetrieveCardList.png');
     background-position: center right;
     background-repeat: no-repeat;
     text-align: center;
 }
+
 .MovedContainerInner h1 {
     font-size: 32pt;
     margin: 0 0 20px 0;
 }
+
 .MovedContainerInner a {
     color: inherit;
     font-weight: bold;
 }
+
 .MovedContainerInner a:hover {
     text-shadow: 0 0 1px white;
 }

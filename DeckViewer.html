@@ -1,285 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168054076-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'UA-168054076-1');
-            window.location = "https://thinkartifact.com/Decks";
-        </script>
-        <meta charset="utf-8" />
-        <title>Artifact 2 Deck Viewer</title>
-        <link rel="stylesheet" href="Styles/Standard.css">
-        <link rel="stylesheet" href="Styles/DeckViewer.css">
-        <link rel="stylesheet" href="Styles/Cards.css">
-        <link rel="icon" href="favicon.ico">
-    </head>
-    <body>
-        <div id="SiteHeader">
-            <div id="SiteHeaderBackground">
-                <video preload="preload" id="header_video" autoplay loop muted>
-                    <source src="Images/Styles/144px.mp4" type="video/mp4">
-                </video>
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168054076-1"></script>
+    <meta charset="utf-8"/>
+    <title>Artifact 2 Deck Viewer</title>
+    <link rel="stylesheet" href="Styles/Standard.css">
+    <link rel="stylesheet" href="Styles/DeckViewer.css">
+    <link rel="stylesheet" href="Styles/Cards.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+<div id="SiteHeader">
+    <div id="SiteHeaderBackground">
+        <video preload="preload" id="header_video" autoplay loop muted>
+            <source src="Images/Styles/144px.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div id="SiteHeaderInner">
+        <a href="index.html">
+            <div class="SiteHeaderButton SiteHeaderButtonUnselected">
+                <div class="SiteHeaderButtonText">CARD BROWSER</div>
             </div>
-            <div id="SiteHeaderInner">
-                <a href="index.html"><div class="SiteHeaderButton SiteHeaderButtonUnselected">
-                    <div class="SiteHeaderButtonText">CARD BROWSER</div>
-                </div></a>
-                <a href="DeckBuilder.html">
-                    <div class="SiteHeaderButton SiteHeaderButtonUnselected">
-                        <div class="SiteHeaderButtonText">DECK BUILDER</div>
-                    </div>
-                </a>
-                <a href="DeckViewer.html">
-                    <div class="SiteHeaderButton SiteHeaderButtonSelected">
-                        <div class="SiteHeaderButtonText">DECK VIEWER</div>
-                    </div>
-                </a>
-                <a href="Keywords.html">
-                    <div class="SiteHeaderButton SiteHeaderButtonUnselected">
-                        <div class="SiteHeaderButtonText">GLOSSARY</div>
-                    </div>
-                </a>
-                <a href="ReportError.html"><div class="SiteHeaderButton SiteHeaderButtonUnselected">
-                    <div class="SiteHeaderButtonText">REPORT ERROR</div>
-                </div></a>
+        </a>
+        <a href="DeckBuilder.html">
+            <div class="SiteHeaderButton SiteHeaderButtonUnselected">
+                <div class="SiteHeaderButtonText">DECK BUILDER</div>
+            </div>
+        </a>
+        <a href="DeckViewer.html">
+            <div class="SiteHeaderButton SiteHeaderButtonSelected">
+                <div class="SiteHeaderButtonText">DECK VIEWER</div>
+            </div>
+        </a>
+        <a href="Keywords.html">
+            <div class="SiteHeaderButton SiteHeaderButtonUnselected">
+                <div class="SiteHeaderButtonText">GLOSSARY</div>
+            </div>
+        </a>
+        <a href="ReportError.html">
+            <div class="SiteHeaderButton SiteHeaderButtonUnselected">
+                <div class="SiteHeaderButtonText">REPORT ERROR</div>
+            </div>
+        </a>
+    </div>
+</div>
+<div class="clear"></div>
+<div id="PageHeader">
+    <div id="PageHeaderTitle" class="RestrictWidth">Deck Viewer</div>
+</div>
+<div class="RestrictWidth MovedContainerWrapper">
+    <div class="MovedContainerInner">
+        <h1>致谢!</h1>
+        感谢@Kollieflower的项目<a href="https://thinkartifact.com">https://thinkartifact.com</a><br><br>
+        本页面直接引用该作者的牌组解码及展示工具
+    </div>
+
+    <div class="MovedContainerInner">
+        <h1>BO1快速赛:</h1>
+        随机抽选四套卡组(只包含主牌组),双方约定或掷骰子选出一人作为主动方<br>
+        由主动方玩家在四套卡组中选择一套作为比赛卡组<br>
+        主牌组选定后,由被动方玩家决定对局开始时的先后手<br>
+        然后,双方同时构筑物品牌组,确认完毕后开始对局<br>
+
+        <h1>BO N快速赛</h1>
+        <h2>初阵:</h2>
+        随机抽选四套卡组(只包含主牌组),双方约定或掷骰子选出一人作为主动方<br>
+        由主动方玩家在四套卡组中选择两套作为比赛卡组<br>
+        然后由被动方玩家为双方分配这两套比赛卡组<br>
+        卡组分配完毕后,由被动方玩家率先构筑物品卡组并向对方展示<br>
+        然后由主动方玩家构筑物品卡组并展示<br>
+        主动方玩家决定对局的先后手,比赛开始<br>
+        <br>
+        <h2>再阵:</h2>
+        若初阵局由主动方玩家获胜,则上局失利的玩家可选择从两项中选择其一:<br>
+        1.重新随机抽选四套卡组,自己作为主动方玩家,执行和初阵一样流程;<br>
+        2.双方不换卡组,由被动方玩家指定一个不大于3的数字,双方可以更改主牌组中不大于这个数字数量的牌张,被动方玩家额外可以更换物品牌组中的两张牌<br>
+        若初阵局由被动方玩家获胜,则仍保留初阵抽选出的四套卡组,但是由这次由上局胜利的玩家作为主动防重复初阵流程.<br>
+        <br>
+        双方重复初阵和再阵流程直至某一方在赛点局落败或者双方同时拿到赛点则进入终阵<br>
+
+        <h2>终阵:</h2>
+        若有终阵,双方进行BO1快速赛
+    </div>
+    <div align="center">
+        <button type="button" class="ArtifactButtonSmall" id="draftButton" onmouseup="Draft4Decks();">重新抽取
+        </button>
+    </div>
+</div>
+
+<div id="PageContainer" class="RestrictWidth">
+    <div id="DeckViewerPage">
+        <div id="DeckCodeInputContainer">
+            <div id="DeckCodeInputTitle">
+                Enter the Deck Code in the box below and then press the Load Deck button.
+            </div>
+            <div>
+                <input type="text" id="DeckCodeInputField" value="" onkeypress="onEnterSubmit(event, LoadDeckFunc);">
+            </div>
+            <div id="DeckCodeErrorContainer">
+                <div class="DeckCodeErrorImg">
+                    <img src="Images/Styles/CardErr.png">
+                </div>
+                <div id="DeckCodeErrorMsg">
+                    This deck code is not valid. Please make sure the code is correct.
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div>
+                <button type="button" class="ArtifactButtonSmall" id="LoadDeckButton" onmouseup="LoadDeckFunc();">LOAD
+                    DECK
+                </button>
             </div>
         </div>
-        <div class="clear"></div>
-        <div id="PageHeader">
-            <div id="PageHeaderTitle" class="RestrictWidth">Deck Viewer</div>
-        </div>
-
-        <div class="RestrictWidth MovedContainerWrapper">
-            <div class="MovedContainerInner">
-                <h1>We've Moved!</h1>
-                This site has moved to <a href="https://thinkartifact.com">https://thinkartifact.com</a><br><br>
-                This version of the site is no longer being updated - please visit <a href="https://thinkartifact.com">Think Artifact</a> for the most up to date version.
+        <div id="DeckExampleTabsContainer">
+            <div id="exampleTabCommunity" class="DeckExamplesTabsRoundTopLeft changeExampleTab selected"
+                 onmouseup="DV_ChangeExamplesToTypeWithFade('community');"
+            >
+                <p>Community</p>
+            </div>
+            <div id="exampleTabValve" class="DeckExamplesTabsRoundTopRight changeExampleTab"
+                 onmouseup="DV_ChangeExamplesToTypeWithFade('valve');"
+            >
+                <p>Valve</p>
             </div>
         </div>
+        <div id="DeckExamplesOuterContainer">
+            <div id="DeckExamplesInnerContainer"></div>
+        </div>
 
-        <div id="PageContainer" class="RestrictWidth">
-            <div id="DeckViewerPage">
-                <div id="DeckCodeInputContainer">
-                    <div id="DeckCodeInputTitle">
-                        Enter the Deck Code in the box below and then press the Load Deck button.
-                    </div>
-                    <div>
-                        <input type="text" id="DeckCodeInputField" value="" onkeypress="onEnterSubmit(event, LoadDeckFunc);">
-                    </div>
-                    <div id="DeckCodeErrorContainer">
-                        <div class="DeckCodeErrorImg">
-                            <img src="Images/Styles/CardErr.png">
-                        </div>
-                        <div id="DeckCodeErrorMsg">
-                            This deck code is not valid. Please make sure the code is correct.
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                    <div>
-                        <button type="button" class="ArtifactButtonSmall" id="LoadDeckButton" onmouseup="LoadDeckFunc();">LOAD DECK</button>
-                    </div>
+        <div id="DeckViewerDeckOuterContainer">
+            <div id="DeckViewerOptions">
+                <div id="LoadNewDeckButton">
+                    <button type="button" class="ArtifactButtonSmall" onmouseup="ViewDiffDeckButton();">VIEW DIFFERENT
+                        DECK
+                    </button>
                 </div>
-                <div id="DeckExampleTabsContainer">
-                    <div id="exampleTabCommunity" class="DeckExamplesTabsRoundTopLeft changeExampleTab selected" 
-                        onmouseup="DV_ChangeExamplesToTypeWithFade('community');"
-                    >
-                        <p>Community</p>
-                    </div> 
-                    <div id="exampleTabValve" class="DeckExamplesTabsRoundTopRight changeExampleTab" 
-                        onmouseup="DV_ChangeExamplesToTypeWithFade('valve');"
-                    >
-                        <p>Valve</p>
-                    </div> 
+                <div id="ShareCurrentDeckButton">
+                    <button type="button" class="ArtifactButtonSmall"
+                            onmousemove="ShowTextTooltip(1, 'Copies the URL for this deck to the clipboard');"
+                            onmouseout="ShowTextTooltip(0,0);" onmouseup="DeckCodeShareToClipboard();">SHARE DECK
+                    </button>
                 </div>
-                <div id="DeckExamplesOuterContainer">
-                    <div id="DeckExamplesInnerContainer"></div>
+                <div id="OpenDeckInBuilderButton"></div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+            <div id="DeckViewerTitleContainer">
+                <div id="DeckViewerDeckTitle">
+                    Deck Title
                 </div>
+            </div>
 
-                <div id="DeckViewerDeckOuterContainer">
-                    <div id="DeckViewerOptions">
-                        <div id="LoadNewDeckButton">
-                            <button type="button" class="ArtifactButtonSmall" onmouseup="ViewDiffDeckButton();">VIEW DIFFERENT DECK</button>
-                        </div>
-                        <div id="ShareCurrentDeckButton">
-                            <button type="button" class="ArtifactButtonSmall" onmousemove="ShowTextTooltip(1, 'Copies the URL for this deck to the clipboard');" onmouseout="ShowTextTooltip(0,0);" onmouseup="DeckCodeShareToClipboard();">SHARE DECK</button>
-                        </div>
-                        <div id="OpenDeckInBuilderButton"></div>
-                        <div class="clear"></div>
-                    </div>
-                    <div class="clear"></div>
-                    <div id="DeckViewerTitleContainer">
-                        <div id="DeckViewerDeckTitle">
-                            Deck Title
-                        </div>
-                    </div>
-
-                    <div id="DeckViewerHeroesContainer">
-                        <div class="DeckViewer_HeroCard" id="DeckViewer_HeroCard1">
-                            &nbsp;
-                        </div>
-                        <div class="DeckViewer_HeroCard" id="DeckViewer_HeroCard2">
-                            &nbsp;
-                        </div>
-                        <div class="DeckViewer_HeroCard" id="DeckViewer_HeroCard3">
-                            &nbsp;
-                        </div>
-                        <div class="DeckViewer_HeroCard" id="DeckViewer_HeroCard4">
-                            &nbsp;
-                        </div>
-                        <div class="DeckViewer_HeroCard" id="DeckViewer_HeroCard5">
-                            &nbsp;
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                    <div id="DeckViewerCardsAndStats">
-                        <div id="DeckViewerCardsAndStats_L">
-                            <div id="DeckViewerStats">
-                                <div id="DeckViewerCardTypeStats">
-                                    <div id="TotalNumberCards" class="DeckViewerCardAndItemTypeStatsHeader">
-                                        ## Cards
-                                    </div>
-                                    <div class="DeckViewerCardTypeContainer">
-                                        <div class="DeckViewerCardTypeSymbol">
-                                            ▨
-                                        </div>
-                                        <div id="NumberOfCreeps" class="DeckViewerCardTypeAmount">
-                                            0
-                                        </div>
-                                    </div>
-                                    <div class="DeckViewerCardTypeContainer">
-                                        <div class="DeckViewerCardTypeSymbol">
-                                            ▪
-                                        </div>
-                                        <div id="NumberOfSpells" class="DeckViewerCardTypeAmount">
-                                            0
-                                        </div>
-                                    </div>
-                                    <div class="DeckViewerCardTypeContainer">
-                                        <div class="DeckViewerCardTypeSymbol">
-                                            ▩
-                                        </div>
-                                        <div id="NumberOfTE" class="DeckViewerCardTypeAmount">
-                                            0
-                                        </div>
-                                    </div>
-                                    <div class="clear"></div>
+            <div id="DeckViewerHeroesContainer">
+                <div class="DeckViewer_HeroCard" id="DeckViewer_HeroCard1">
+                    &nbsp;
+                </div>
+                <div class="DeckViewer_HeroCard" id="DeckViewer_HeroCard2">
+                    &nbsp;
+                </div>
+                <div class="DeckViewer_HeroCard" id="DeckViewer_HeroCard3">
+                    &nbsp;
+                </div>
+                <div class="DeckViewer_HeroCard" id="DeckViewer_HeroCard4">
+                    &nbsp;
+                </div>
+                <div class="DeckViewer_HeroCard" id="DeckViewer_HeroCard5">
+                    &nbsp;
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div id="DeckViewerCardsAndStats">
+                <div id="DeckViewerCardsAndStats_L">
+                    <div id="DeckViewerStats">
+                        <div id="DeckViewerCardTypeStats">
+                            <div id="TotalNumberCards" class="DeckViewerCardAndItemTypeStatsHeader">
+                                ## Cards
+                            </div>
+                            <div class="DeckViewerCardTypeContainer">
+                                <div class="DeckViewerCardTypeSymbol">
+                                    ▨
                                 </div>
-                                <div id="DeckViewerItemTypeStats">
-                                    <div id="TotalNumberItems" class="DeckViewerCardAndItemTypeStatsHeader">
-                                        ## Items
-                                    </div>
-                                    <div class="DeckViewerItemTypeContainer">
-                                        <div class="DeckViewerCardTypeSymbol">
-                                            ▣
-                                        </div>
-                                        <div id="NumberOfWeapons" class="DeckViewerCardTypeAmount">
-                                            0
-                                        </div>
-                                    </div>
-                                    <div class="DeckViewerItemTypeContainer">
-                                        <div class="DeckViewerCardTypeSymbol">
-                                            ▤
-                                        </div>
-                                        <div id="NumberOfArmour" class="DeckViewerCardTypeAmount">
-                                            0
-                                        </div>
-                                    </div>
-                                    <div class="DeckViewerItemTypeContainer">
-                                        <div class="DeckViewerCardTypeSymbol">
-                                            ▥
-                                        </div>
-                                        <div id="NumberOfAccessories" class="DeckViewerCardTypeAmount">
-                                            0
-                                        </div>
-                                    </div>
-                                    <div class="DeckViewerItemTypeContainer">
-                                        <div class="DeckViewerCardTypeSymbol">
-                                            ▦
-                                        </div>
-                                        <div id="NumberOfConsumables" class="DeckViewerCardTypeAmount">
-                                            0
-                                        </div>
-                                    </div>
-                                    <div class="clear"></div>
+                                <div id="NumberOfCreeps" class="DeckViewerCardTypeAmount">
+                                    0
+                                </div>
+                            </div>
+                            <div class="DeckViewerCardTypeContainer">
+                                <div class="DeckViewerCardTypeSymbol">
+                                    ▪
+                                </div>
+                                <div id="NumberOfSpells" class="DeckViewerCardTypeAmount">
+                                    0
+                                </div>
+                            </div>
+                            <div class="DeckViewerCardTypeContainer">
+                                <div class="DeckViewerCardTypeSymbol">
+                                    ▩
+                                </div>
+                                <div id="NumberOfTE" class="DeckViewerCardTypeAmount">
+                                    0
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div id="DeckViewerItemTypeStats">
+                            <div id="TotalNumberItems" class="DeckViewerCardAndItemTypeStatsHeader">
+                                ## Items
+                            </div>
+                            <div class="DeckViewerItemTypeContainer">
+                                <div class="DeckViewerCardTypeSymbol">
+                                    ▣
+                                </div>
+                                <div id="NumberOfWeapons" class="DeckViewerCardTypeAmount">
+                                    0
+                                </div>
+                            </div>
+                            <div class="DeckViewerItemTypeContainer">
+                                <div class="DeckViewerCardTypeSymbol">
+                                    ▤
+                                </div>
+                                <div id="NumberOfArmour" class="DeckViewerCardTypeAmount">
+                                    0
+                                </div>
+                            </div>
+                            <div class="DeckViewerItemTypeContainer">
+                                <div class="DeckViewerCardTypeSymbol">
+                                    ▥
+                                </div>
+                                <div id="NumberOfAccessories" class="DeckViewerCardTypeAmount">
+                                    0
+                                </div>
+                            </div>
+                            <div class="DeckViewerItemTypeContainer">
+                                <div class="DeckViewerCardTypeSymbol">
+                                    ▦
+                                </div>
+                                <div id="NumberOfConsumables" class="DeckViewerCardTypeAmount">
+                                    0
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="clear"></div>
+                        <div id="DeckViewerCardManaColourStats">
+                            <div id="DeckViewerCardManaColourGraphContainer">
+                                <div class="DeckViewerCardManaColourChartBarContainer">
+                                    <div id="DeckViewerCardManaColourChartBar1"
+                                         class="DeckViewerCardManaColourChartBarOuter"></div>
+                                    <div class="DeckViewerCardManaColourChartNumber">1</div>
+                                </div>
+                                <div class="DeckViewerCardManaColourChartBarContainer">
+                                    <div id="DeckViewerCardManaColourChartBar2"
+                                         class="DeckViewerCardManaColourChartBarOuter"></div>
+                                    <div class="DeckViewerCardManaColourChartNumber">2</div>
+                                </div>
+                                <div class="DeckViewerCardManaColourChartBarContainer">
+                                    <div id="DeckViewerCardManaColourChartBar3"
+                                         class="DeckViewerCardManaColourChartBarOuter"></div>
+                                    <div class="DeckViewerCardManaColourChartNumber">3</div>
+                                </div>
+                                <div class="DeckViewerCardManaColourChartBarContainer">
+                                    <div id="DeckViewerCardManaColourChartBar4"
+                                         class="DeckViewerCardManaColourChartBarOuter"></div>
+                                    <div class="DeckViewerCardManaColourChartNumber">4</div>
+                                </div>
+                                <div class="DeckViewerCardManaColourChartBarContainer">
+                                    <div id="DeckViewerCardManaColourChartBar5"
+                                         class="DeckViewerCardManaColourChartBarOuter"></div>
+                                    <div class="DeckViewerCardManaColourChartNumber">5</div>
+                                </div>
+                                <div class="DeckViewerCardManaColourChartBarContainer">
+                                    <div id="DeckViewerCardManaColourChartBar6"
+                                         class="DeckViewerCardManaColourChartBarOuter"></div>
+                                    <div class="DeckViewerCardManaColourChartNumber">6</div>
+                                </div>
+                                <div class="DeckViewerCardManaColourChartBarContainer">
+                                    <div id="DeckViewerCardManaColourChartBar7"
+                                         class="DeckViewerCardManaColourChartBarOuter"></div>
+                                    <div class="DeckViewerCardManaColourChartNumber">7</div>
+                                </div>
+                                <div class="DeckViewerCardManaColourChartBarContainer">
+                                    <div id="DeckViewerCardManaColourChartBar8"
+                                         class="DeckViewerCardManaColourChartBarOuter"></div>
+                                    <div class="DeckViewerCardManaColourChartNumber">8+</div>
                                 </div>
                                 <div class="clear"></div>
-                                <div id="DeckViewerCardManaColourStats">
-                                    <div id="DeckViewerCardManaColourGraphContainer">
-                                        <div class="DeckViewerCardManaColourChartBarContainer">
-                                            <div id="DeckViewerCardManaColourChartBar1" class="DeckViewerCardManaColourChartBarOuter"></div>                      
-                                            <div class="DeckViewerCardManaColourChartNumber">1</div>
-                                        </div>
-                                        <div class="DeckViewerCardManaColourChartBarContainer">
-                                            <div id="DeckViewerCardManaColourChartBar2" class="DeckViewerCardManaColourChartBarOuter"></div>                      
-                                            <div class="DeckViewerCardManaColourChartNumber">2</div>
-                                        </div>
-                                        <div class="DeckViewerCardManaColourChartBarContainer">
-                                            <div id="DeckViewerCardManaColourChartBar3" class="DeckViewerCardManaColourChartBarOuter"></div>                      
-                                            <div class="DeckViewerCardManaColourChartNumber">3</div>
-                                        </div>
-                                        <div class="DeckViewerCardManaColourChartBarContainer">
-                                            <div id="DeckViewerCardManaColourChartBar4" class="DeckViewerCardManaColourChartBarOuter"></div>                      
-                                            <div class="DeckViewerCardManaColourChartNumber">4</div>
-                                        </div>
-                                        <div class="DeckViewerCardManaColourChartBarContainer">
-                                            <div id="DeckViewerCardManaColourChartBar5" class="DeckViewerCardManaColourChartBarOuter"></div>                      
-                                            <div class="DeckViewerCardManaColourChartNumber">5</div>
-                                        </div>
-                                        <div class="DeckViewerCardManaColourChartBarContainer">
-                                            <div id="DeckViewerCardManaColourChartBar6" class="DeckViewerCardManaColourChartBarOuter"></div>                      
-                                            <div class="DeckViewerCardManaColourChartNumber">6</div>
-                                        </div>
-                                        <div class="DeckViewerCardManaColourChartBarContainer">
-                                            <div id="DeckViewerCardManaColourChartBar7" class="DeckViewerCardManaColourChartBarOuter"></div>                      
-                                            <div class="DeckViewerCardManaColourChartNumber">7</div>
-                                        </div>
-                                        <div class="DeckViewerCardManaColourChartBarContainer">
-                                            <div id="DeckViewerCardManaColourChartBar8" class="DeckViewerCardManaColourChartBarOuter"></div>                      
-                                            <div class="DeckViewerCardManaColourChartNumber">8+</div>
-                                        </div>
-                                        <div class="clear"></div>
-                                    </div>
-                                    <div id="DeckViewerCardColourBoxChartContainer">
-                                        <div id="DeckViewerBoxChartR" class="DeckViewerCardColourBoxChartInner DeckViewerCardManaColouringR">0</div>
-                                        <div id="DeckViewerBoxChartG" class="DeckViewerCardColourBoxChartInner DeckViewerCardManaColouringG">0</div>
-                                        <div id="DeckViewerBoxChartU" class="DeckViewerCardColourBoxChartInner DeckViewerCardManaColouringU">0</div>
-                                        <div id="DeckViewerBoxChartB" class="DeckViewerCardColourBoxChartInner DeckViewerCardManaColouringB">0</div>
-                                        <div class="clear"></div>
-                                    </div>
-                                    <div class="clear"></div>
+                            </div>
+                            <div id="DeckViewerCardColourBoxChartContainer">
+                                <div id="DeckViewerBoxChartR"
+                                     class="DeckViewerCardColourBoxChartInner DeckViewerCardManaColouringR">0
                                 </div>
-                            </div> <!-- Deck Viewer Stats -->
-                            <div id="ItemCardListContainer">
-                                Item Card List Container
+                                <div id="DeckViewerBoxChartG"
+                                     class="DeckViewerCardColourBoxChartInner DeckViewerCardManaColouringG">0
+                                </div>
+                                <div id="DeckViewerBoxChartU"
+                                     class="DeckViewerCardColourBoxChartInner DeckViewerCardManaColouringU">0
+                                </div>
+                                <div id="DeckViewerBoxChartB"
+                                     class="DeckViewerCardColourBoxChartInner DeckViewerCardManaColouringB">0
+                                </div>
+                                <div class="clear"></div>
                             </div>
-                        </div> <!-- DeckViewerCardsAndStats_L -->
-                        <div id="DeckViewerCardsAndStats_R">
-                            <div id="NonHeroNonItemCardListContainer">
-                            </div>
+                            <div class="clear"></div>
                         </div>
-                        <div class="clear"></div>
+                    </div> <!-- Deck Viewer Stats -->
+                    <div id="ItemCardListContainer">
+                        Item Card List Container
+                    </div>
+                </div> <!-- DeckViewerCardsAndStats_L -->
+                <div id="DeckViewerCardsAndStats_R">
+                    <div id="NonHeroNonItemCardListContainer">
                     </div>
                 </div>
-            </div>
-            <div id="CardPreviewTooltip" class="CardContainerMiniPreview">&nbsp;</div>
-            <div id="SpecialTextTooltip">
-                <div id="SpecialTextTitle">Title</div>
-                <div id="SpecialTextDesc">Desc</div>
+                <div class="clear"></div>
             </div>
         </div>
-        <input type="text" value="" id="hiddenClipboard">
-        <script src="main.js"></script>
-        <script src="js/CardGenerator.js"></script>
-        <script src="js/DeckViewer.js"></script>
-        <script src="js/OrderCardList.js"></script>
-        <script src="js/HTMLgenerators/GeneratorHelpers.js"></script>
-        <script src="js/HTMLgenerators/DeckExampleGenerator.js"></script>
-        <script src="js/HTMLgenerators/DeckExampleValveGenerator.js"></script>
-        <script src="js/Decoder.js"></script>
-        <script>InitialisePage("DeckViewer");</script>
-    </body>
+    </div>
+    <div id="CardPreviewTooltip" class="CardContainerMiniPreview">&nbsp;</div>
+    <div id="SpecialTextTooltip">
+        <div id="SpecialTextTitle">Title</div>
+        <div id="SpecialTextDesc">Desc</div>
+    </div>
+</div>
+<input type="text" value="" id="hiddenClipboard">
+<script src="main.js"></script>
+<script src="js/CardGenerator.js"></script>
+<script src="js/DeckViewer.js"></script>
+<script src="js/OrderCardList.js"></script>
+<script src="js/HTMLgenerators/GeneratorHelpers.js"></script>
+<script src="js/HTMLgenerators/DeckExampleGenerator.js"></script>
+<script src="js/HTMLgenerators/DeckExampleValveGenerator.js"></script>
+<script src="js/Decoder.js"></script>
+<script>InitialisePage("DeckViewer");</script>
+</body>
 </html>

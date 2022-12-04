@@ -1,7 +1,7 @@
 // Listener for Enter key to be used on text inputs - I will use it on DeckCodeInputField
 const onEnterSubmit = (event, submitFunction) => {
     // 13 is Enter
-    if (event && event.keyCode == 13) {
+    if (event && event.keyCode === 13) {
         submitFunction();
     }
 };
@@ -20,7 +20,7 @@ const ViewDiffDeckButton = function () {
 const findCardJSONIndexFromID = (cardID) => {
     // The amount of times this is run on this code is scaring me
     for (let index = 0; index < CardJSON.length; index++) {
-        if (CardJSON[index]["card_id"] == cardID) {
+        if (CardJSON[index]["card_id"] === cardID) {
             return index;
         }
     }
@@ -31,8 +31,7 @@ const getDecodedDeckFromCode = (deckCode, errorMsg) => {
         if (!deckCode) {
             throw "No Code Provided";
         }
-        const DecodedDeck = CArtifactDeckDecoder.ParseDeck(deckCode);
-        return DecodedDeck;
+        return CArtifactDeckDecoder.ParseDeck(deckCode);
     } catch (error) {
         console.error(errorMsg, error);
         return false;
@@ -44,9 +43,9 @@ const getCardDataFromDecoded = (decodedDeck) => {
             decodedDeck["name"].charAt(0) === "%"
                 ? "Unnamed Deck"
                 : decodedDeck["name"],
-        HeroDeck: new Array(),
-        ItemDeck: new Array(),
-        MainDeck: new Array(),
+        HeroDeck: [],
+        ItemDeck: [],
+        MainDeck: [],
     };
 
     // Add Signatures to base data
@@ -57,30 +56,30 @@ const getCardDataFromDecoded = (decodedDeck) => {
         const HeroID = SortedHeroes[ch]["id"];
         const CardArrayIndex = findCardJSONIndexFromID(HeroID);
 
-        if (CardArrayIndex != -1) {
+        if (CardArrayIndex !== -1) {
             const LatestHeroVersion =
                 CardJSON[CardArrayIndex]["versions"].length - 1;
             const HeroIconForSignature =
                 CardJSON[CardArrayIndex]["versions"][LatestHeroVersion][
                     "icon"
-                ] || "";
+                    ] || "";
             let SigIDV = "";
             cardData.HeroDeck.push({
                 id: CardJSON[CardArrayIndex]["card_id"],
                 colour:
-                    CardJSON[CardArrayIndex]["versions"][LatestHeroVersion]
-                        .colour,
+                CardJSON[CardArrayIndex]["versions"][LatestHeroVersion]
+                    .colour,
             });
 
             if (
                 CardJSON[CardArrayIndex]["versions"][LatestHeroVersion][
                     "signature"
-                ].length == 1
+                    ].length === 1
             ) {
                 SigIDV =
                     CardJSON[CardArrayIndex]["versions"][LatestHeroVersion][
                         "signature"
-                    ][0];
+                        ][0];
                 SigIDV = SigIDV.split("_");
                 SigID = SigIDV[0];
                 decodedDeck["cards"].push({
@@ -95,13 +94,13 @@ const getCardDataFromDecoded = (decodedDeck) => {
                     sc <
                     CardJSON[CardArrayIndex]["versions"][LatestHeroVersion][
                         "signature"
-                    ].length;
+                        ].length;
                     sc++
                 ) {
                     SigIDV =
                         CardJSON[CardArrayIndex]["versions"][LatestHeroVersion][
                             "signature"
-                        ][sc];
+                            ][sc];
                     SigIDV = SigIDV.split("_");
                     SigID = SigIDV[0];
                     decodedDeck["cards"].push({
@@ -125,30 +124,30 @@ const getCardDataFromDecoded = (decodedDeck) => {
 
         const CardArrayIndex = findCardJSONIndexFromID(DDCardID);
 
-        if (CardArrayIndex != -1) {
+        if (CardArrayIndex !== -1) {
             const LatestCardVersion =
                 CardJSON[CardArrayIndex]["versions"].length - 1;
             const CardType =
                 CardJSON[CardArrayIndex]["versions"][LatestCardVersion][
                     "card_type"
-                ];
-            if (CardType == "Item") {
+                    ];
+            if (CardType === "Item") {
                 cardData.ItemDeck.push(CardJSON[CardArrayIndex]);
                 cardData.ItemDeck[cardData.ItemDeck.length - 1][
                     "count"
-                ] = DDCardCount;
+                    ] = DDCardCount;
             } else {
                 cardData.MainDeck.push(CardJSON[CardArrayIndex]);
                 cardData.MainDeck[cardData.MainDeck.length - 1][
                     "count"
-                ] = DDCardCount;
+                    ] = DDCardCount;
                 if (
                     "is_signature" in
                     CardJSON[CardArrayIndex]["versions"][LatestCardVersion]
                 ) {
                     cardData.MainDeck[cardData.MainDeck.length - 1][
                         "heroicon"
-                    ] = DDHeroIcon;
+                        ] = DDHeroIcon;
                 }
             }
         } else {
@@ -226,9 +225,9 @@ const getDeckStats = (cardData) => {
         for (let i = 0; i < card.count; i++) {
             deckStats.CardTypeCounts[latestVersion.card_type]++;
             deckStats.CardColourCounts[latestVersion.colour][
-                (latestVersion.cost > 7 ? 8 : Math.max(1, latestVersion.cost)) -
-                    1
-            ]++;
+            (latestVersion.cost > 7 ? 8 : Math.max(1, latestVersion.cost)) -
+            1
+                ]++;
             deckStats.TotalCards++;
             if (latestVersion.cost > 7) {
                 deckStats.TotalByMana[7]++;
@@ -240,6 +239,17 @@ const getDeckStats = (cardData) => {
 
     return deckStats;
 };
+
+const Draft4Decks = function () {
+    const containerHTML = document.getElementById("DeckExamplesInnerContainer");
+    containerHTML.innerHTML = "";
+    if (_deckTypeSelection === "community") {
+        DV_LoadCommunityDecks(containerHTML);
+    } else {
+        DV_LoadValveDecks(containerHTML);
+    }
+}
+
 
 // ---------
 // Webpage Functions
@@ -270,29 +280,27 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
         }
 
         // Required for copy paste
-        const shareURL =
-            document.location.href.split("?")[0] + "?d=" + DeckCodeToLoad;
-        document.getElementById("hiddenClipboard").value = shareURL;
+        document.getElementById("hiddenClipboard").value = document.location.href.split("?")[0] + "?d=" + DeckCodeToLoad;
 
         let DeckName = DecodedDeck["name"];
-        if (DeckName.charAt(0) == "%") {
+        if (DeckName.charAt(0) === "%") {
             DeckName = "Unnamed Deck";
         }
         const DV_SortedHeroes = DV_OrderHeroesByTurn(DecodedDeck["heroes"]);
 
-        let HeroCards = new Array();
+        let HeroCards = [];
         let CardArrayIndex = -1;
         for (let ch = 0; ch < DV_SortedHeroes.length; ch++) {
             CardArrayIndex = -1;
             // OH GOD, HOW MANY TIMES DO WE RUN THIS AGAIN???
             for (let cj = 0; cj < CardJSON.length; cj++) {
-                if (CardJSON[cj]["card_id"] == DV_SortedHeroes[ch]["id"]) {
+                if (CardJSON[cj]["card_id"] === DV_SortedHeroes[ch]["id"]) {
                     CardArrayIndex = cj;
                     break;
                 }
             }
-            if (CardArrayIndex != -1) {
-                HeroCards.push({ id: CardJSON[CardArrayIndex]["card_id"] });
+            if (CardArrayIndex !== -1) {
+                HeroCards.push({id: CardJSON[CardArrayIndex]["card_id"]});
 
                 //Push Signatures to the CardDeck
                 let LatestHeroVersion =
@@ -302,18 +310,18 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
                 if (
                     CardJSON[CardArrayIndex]["versions"][LatestHeroVersion][
                         "signature"
-                    ].length == 1
+                        ].length === 1
                 ) {
                     SigIDV =
                         CardJSON[CardArrayIndex]["versions"][LatestHeroVersion][
                             "signature"
-                        ][0];
+                            ][0];
                     SigIDV = SigIDV.split("_");
                     SigID = SigIDV[0];
                     HeroIconForSignature =
                         CardJSON[CardArrayIndex]["versions"][LatestHeroVersion][
                             "icon"
-                        ];
+                            ];
                     DecodedDeck["cards"].push({
                         id: SigID,
                         count: 3,
@@ -325,19 +333,19 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
                         sc <
                         CardJSON[CardArrayIndex]["versions"][LatestHeroVersion][
                             "signature"
-                        ].length;
+                            ].length;
                         sc++
                     ) {
                         SigIDV =
                             CardJSON[CardArrayIndex]["versions"][
                                 LatestHeroVersion
-                            ]["signature"][sc];
+                                ]["signature"][sc];
                         SigIDV = SigIDV.split("_");
                         SigID = SigIDV[0];
                         HeroIconForSignature =
-                        CardJSON[CardArrayIndex]["versions"][LatestHeroVersion][
-                            "icon"
-                        ];
+                            CardJSON[CardArrayIndex]["versions"][LatestHeroVersion][
+                                "icon"
+                                ];
                         DecodedDeck["cards"].push({
                             id: SigID,
                             count: 1,
@@ -362,9 +370,9 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
         for (i = 0; i < CardJSON.length; i++) {
             LatestCardVersion = CardJSON[i]["versions"].length - 1;
         }
-        let NonHeroNonItemCards = new Array();
+        let NonHeroNonItemCards = [];
         let NonHeroNonItemCardCounter = 0;
-        let ItemCards = new Array();
+        let ItemCards = [];
         let ItemCardCounter = 0;
 
         for (let i = 0; i < DecodedDeck["cards"].length; i++) {
@@ -378,19 +386,19 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
             CardArrayIndex = -1;
             // AAAAAAAAAAAAAAAAAAAAAAAa
             for (let cj = 0; cj < CardJSON.length; cj++) {
-                if (CardJSON[cj]["card_id"] == DDCardID) {
+                if (CardJSON[cj]["card_id"] === DDCardID) {
                     CardArrayIndex = cj;
                     break;
                 }
             }
-            if (CardArrayIndex != -1) {
+            if (CardArrayIndex !== -1) {
                 let LatestCardVersion =
                     CardJSON[CardArrayIndex]["versions"].length - 1;
                 let CardType =
                     CardJSON[CardArrayIndex]["versions"][LatestCardVersion][
                         "card_type"
-                    ];
-                if (CardType == "Item") {
+                        ];
+                if (CardType === "Item") {
                     ItemCards.push(CardJSON[CardArrayIndex]);
                     ItemCards[ItemCardCounter]["count"] = DDCardCount;
                     ItemCardCounter++;
@@ -398,14 +406,14 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
                     NonHeroNonItemCards.push(CardJSON[CardArrayIndex]);
                     NonHeroNonItemCards[NonHeroNonItemCardCounter][
                         "count"
-                    ] = DDCardCount;
+                        ] = DDCardCount;
                     if (
                         "is_signature" in
                         CardJSON[CardArrayIndex]["versions"][LatestCardVersion]
                     ) {
                         NonHeroNonItemCards[NonHeroNonItemCardCounter][
                             "heroicon"
-                        ] = DDHeroIcon;
+                            ] = DDHeroIcon;
                     }
                     NonHeroNonItemCardCounter++;
                 }
@@ -419,7 +427,7 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
         ItemCards = OrderCardList(0, 0, ItemCards);
 
         let DV_NonHeroNonItemCardListHTML = "";
-        let CardTypeCounts = new Array();
+        let CardTypeCounts = [];
         CardTypeCounts["Creep"] = 0;
         CardTypeCounts["Spell"] = 0;
         CardTypeCounts["Improvement"] = 0;
@@ -428,7 +436,7 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
         CardTypeCounts["Accessory"] = 0;
         CardTypeCounts["Consumable"] = 0;
 
-        let CardColourCounts = new Array();
+        let CardColourCounts = [];
         let ColourForLoop = "";
         for (let cc = 0; cc < 5; cc++) {
             switch (cc) {
@@ -448,7 +456,7 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
                     ColourForLoop = "C";
                     break;
             }
-            CardColourCounts[ColourForLoop] = new Array();
+            CardColourCounts[ColourForLoop] = [];
             for (let mc = 0; mc < 8; mc++) {
                 CardColourCounts[ColourForLoop][mc] = 0;
             }
@@ -468,16 +476,16 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
             let CardName =
                 NonHeroNonItemCards[i]["versions"][LatestCardVersion][
                     "card_name"
-                ]["english"];
+                    ]["english"];
             let CardCount = NonHeroNonItemCards[i]["count"];
             let CardMiniImage =
                 NonHeroNonItemCards[i]["versions"][LatestCardVersion][
                     "miniimage"
-                ];
+                    ];
             let CardType =
                 NonHeroNonItemCards[i]["versions"][LatestCardVersion][
                     "card_type"
-                ];
+                    ];
             let CardListCardTypeIconStyle = "CardList_CardTypeIcon" + CardType;
             let CardCost =
                 NonHeroNonItemCards[i]["versions"][LatestCardVersion]["cost"];
@@ -528,7 +536,7 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
             let CardName =
                 ItemCards[i]["versions"][LatestCardVersion]["card_name"][
                     "english"
-                ];
+                    ];
             let CardCount = ItemCards[i]["count"];
             let CardMiniImage =
                 ItemCards[i]["versions"][LatestCardVersion]["miniimage"];
@@ -611,7 +619,7 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
                     break;
             }
         }
-        let TotalByMana = new Array();
+        let TotalByMana = [];
         for (let mc = 0; mc < 8; mc++) {
             TotalByMana[mc] =
                 CardColourCounts["R"][mc] +
@@ -692,7 +700,7 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
             CardTypeCounts["Armor"] +
             CardTypeCounts["Accessory"] +
             CardTypeCounts["Consumable"];
-        if (TotalItemCards == 1) {
+        if (TotalItemCards === 1) {
             document.getElementById("TotalNumberItems").innerHTML =
                 TotalItemCards + " Item";
         } else {
@@ -703,7 +711,7 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
             CardTypeCounts["Creep"] +
             CardTypeCounts["Spell"] +
             CardTypeCounts["Improvement"];
-        if (TotalNonHeroNonItemCards == 1) {
+        if (TotalNonHeroNonItemCards === 1) {
             document.getElementById("TotalNumberCards").innerHTML =
                 TotalNonHeroNonItemCards + " Card";
         } else {
@@ -734,7 +742,21 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
         document.getElementById("DeckViewerDeckOuterContainer").style.display =
             "none";
     }
+    const newDeckToSave = {
+        "code": deckCode,
+        "description": "没有描述",
+        "creator": "未知",
+        "submitter": "本地提交者"
+    };
+    DeckCodesJSON.push(newDeckToSave);
+    fs.writeFile("json/DeckCodes.json", JSON.stringify(DeckCodesJSON), {flag: "w"}, function (err) {
+        if (!err) {
+            console.log("写入成功！");
+        }
+    })
+
 };
+
 
 let _deckTypeSelection = "community";
 const LoadDeckExamples = () => {
@@ -747,45 +769,61 @@ const LoadDeckExamples = () => {
     }
 };
 const DV_LoadCommunityDecks = (containerHTML) => {
-    // If we don't have deck code data, then something has gone horribly wrong.
-    if (!DeckCodesJSON || !DeckCodesJSON.length) {
-        containerHTML.style.display = "none";
-    }
-
-    // Add in button and unique header
-    let DeckExamplesInnerHTML = `<h2>Community Decks</h2>`;
-
-    // Produce the actual example list by iterating through the data
-    DeckCodesJSON.forEach((entry, index) => {
-        // fetch all required data from the deck
-        const DecodedDeck = getDecodedDeckFromCode(
-            entry.code,
-            "Bad example deck code on index " + index + " with Error: "
-        );
-        if (!DecodedDeck) {
-            return;
+        let i;
+// If we don't have deck code data, then something has gone horribly wrong.
+        if (!DeckCodesJSON || !DeckCodesJSON.length) {
+            containerHTML.style.display = "none";
         }
 
-        const CardData = getCardDataFromDecoded(DecodedDeck);
-        const DeckStats = getDeckStats(CardData);
+        // Add in button and unique header
+        let DeckExamplesInnerHTML = `<h2>随机4套</h2>`;
 
-        // Render
-        if (!("hidefromdecklist" in entry)) {
-            DeckExamplesInnerHTML += generateDeckExampleHTML(
-                CardData.DeckName,
-                entry.code,
-                entry.description,
-                entry.creator,
-                entry.submitter,
-                entry.media,
-                CardData.HeroDeck,
-                DeckStats
-            );
-        } 
+        // Produce the actual example list by iterating through the data
+//原始数组
+        let original = [];
+        //给原始数组original赋值
+        for (let j = 0; j < DeckCodesJSON.length; j++) {
+            original[j] = j;
+        }
+        //排序
+        original.sort(function () {
+            return 0.5 - Math.random();
+        });
+        original = original.slice(0, 4);
+        //输出
+        DeckCodesJSON.forEach((entry, index) => {
+                if (original.includes(index)) {
+                    // fetch all required data from the deck
+                    const DecodedDeck = getDecodedDeckFromCode(
+                        entry.code,
+                        "Bad example deck code on index " + i + " with Error: "
+                    );
+                    if (!DecodedDeck) {
+                        return;
+                    }
 
-    });
-    containerHTML.innerHTML = DeckExamplesInnerHTML;
-};
+                    const CardData = getCardDataFromDecoded(DecodedDeck);
+                    const DeckStats = getDeckStats(CardData);
+
+                    // Render
+                    if (!("hidefromdecklist" in entry)) {
+                        DeckExamplesInnerHTML += generateDeckExampleHTML(
+                            CardData.DeckName,
+                            entry.code,
+                            entry.description,
+                            entry.creator,
+                            entry.submitter,
+                            entry.media,
+                            CardData.HeroDeck,
+                            DeckStats
+                        );
+                    }
+                }
+            }
+        );
+        containerHTML.innerHTML = DeckExamplesInnerHTML;
+    }
+;
 const DV_LoadValveDecks = (containerHTML) => {
     // If we don't have valve's deck code data, then something has gone horribly wrong.
     if (!ValveDeckCodesJSON || !ValveDeckCodesJSON.length) {
@@ -839,7 +877,7 @@ const DV_ChangeExamplesToTypeWithFade = (newSelection) => {
     //Change the selected tabs
     const communityTab = document.getElementById("exampleTabCommunity");
     const valveTab = document.getElementById("exampleTabValve");
-    if(newSelection === "community"){
+    if (newSelection === "community") {
         communityTab.classList.add("selected");
         valveTab.classList.remove("selected");
     } else {
