@@ -742,19 +742,6 @@ const LoadDeckFunc = function (skipHistory, deckCode) {
         document.getElementById("DeckViewerDeckOuterContainer").style.display =
             "none";
     }
-    const newDeckToSave = {
-        "code": deckCode,
-        "description": "没有描述",
-        "creator": "未知",
-        "submitter": "本地提交者"
-    };
-    DeckCodesJSON.push(newDeckToSave);
-    fs.writeFile("json/DeckCodes.json", JSON.stringify(DeckCodesJSON), {flag: "w"}, function (err) {
-        if (!err) {
-            console.log("写入成功！");
-        }
-    })
-
 };
 
 
@@ -903,7 +890,7 @@ const DV_ChangeExamplesToTypeWithFade = (newSelection) => {
     }, 300);
 };
 const ShareDeckExample = (deckCode) => {
-    const shareURL = document.location.href.split("?")[0] + "?d=" + deckCode;
+    const shareURL = deckCode;
     const copyText = document.getElementById("hiddenClipboard");
     copyText.value = shareURL;
     copyText.select();

@@ -13,7 +13,7 @@ const generateDeckExampleHTML = (name, code, description, creator, submitter, me
                         onmouseup="ShareDeckExample('${code}')"
                         type="button" 
                     >
-                        SHARE
+                        复制代码
                     </button>
                     <button 
                         class="ArtifactButtonSmall" 
@@ -22,7 +22,7 @@ const generateDeckExampleHTML = (name, code, description, creator, submitter, me
                         onmouseup="LoadDeckFunc(false, '${code}')"
                         type="button" 
                     >
-                        VIEW
+                        查看详情
                     </button>
                 </div>
             </div>

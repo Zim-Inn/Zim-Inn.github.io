@@ -2,7 +2,7 @@ CArtifactDeckDecoder = (() => {
     const DeckCodePrefix = "RTFACT";
     const VersionToMatch = 2;
 
-    const ContinuousVars = new Array();
+    const ContinuousVars = [];
 
     const ParseDeck = (FullDeckCode) => {
         const DeckBytes = GetDeckBytes(FullDeckCode);
@@ -15,13 +15,13 @@ CArtifactDeckDecoder = (() => {
 
     const GetDeckBytes = (FullDeckCode) => {
         if (FullDeckCode.substring(0, DeckCodePrefix.length) === DeckCodePrefix) {
-                let DeckCodeNoPrefix = FullDeckCode.substring(
+            let DeckCodeNoPrefix = FullDeckCode.substring(
                 DeckCodePrefix.length
             );
             DeckCodeNoPrefix = DeckCodeNoPrefix.replace(/_/g, "=");
             DeckCodeNoPrefix = DeckCodeNoPrefix.replace(/-/g, "/");
             const DecodedDeckCode = atob(DeckCodeNoPrefix);
-            const DeckBytesArray = new Array();
+            const DeckBytesArray = [];
             for (let i = 0; i < DecodedDeckCode.length; i++) {
                 DeckBytesArray.push(DecodedDeckCode.charCodeAt(i));
             }
@@ -36,7 +36,7 @@ CArtifactDeckDecoder = (() => {
         let TotalBytes = DeckBytes.length;
         const VersionAndHeroes = DeckBytes[ContinuousVars["CurrentByteIndex"]++];
         const VersionFromDeckCode = VersionAndHeroes >> 4;
-        if (VersionToMatch != VersionFromDeckCode && VersionFromDeckCode != 1) {
+        if (VersionToMatch !== VersionFromDeckCode && VersionFromDeckCode !== 1) {
             return false;
         }
         const Checksum = DeckBytes[ContinuousVars["CurrentByteIndex"]++];
@@ -50,7 +50,7 @@ CArtifactDeckDecoder = (() => {
             ComputedChecksum += DeckBytes[cs];
         }
         const Masked = ComputedChecksum & 0xff;
-        if (Checksum != Masked) {
+        if (Checksum !== Masked) {
             return false;
         }
 
@@ -59,7 +59,7 @@ CArtifactDeckDecoder = (() => {
         if (!ReadUint32(VersionAndHeroes, 3, DeckBytes, "CurrentByteIndex", TotalCardBytes, "NumHeroes")) {
             return false;
         }
-        const HeroesArray = new Array();
+        const HeroesArray = [];
         ContinuousVars["PrevCardBase"] = 0;
 
         for (let CurrentHero = 0; CurrentHero < ContinuousVars["NumHeroes"]; CurrentHero++) {
@@ -70,7 +70,7 @@ CArtifactDeckDecoder = (() => {
             }
             HeroesArray.push({id: ContinuousVars["HeroCardID"], turn: ContinuousVars["HeroTurn"]});
         }
-        const CardsArray = new Array();
+        const CardsArray = [];
         ContinuousVars["PrevCardBase"] = 0;
 
         while (ContinuousVars["CurrentByteIndex"] < TotalCardBytes) {
@@ -79,16 +79,15 @@ CArtifactDeckDecoder = (() => {
             if (!ReadSerialisedCard(DeckBytes, "CurrentByteIndex", TotalCardBytes, "PrevCardBase", "CardCount", "CardID")) {
                 return false;
             }
-            CardsArray.push({id: ContinuousVars["CardID"],count: ContinuousVars["CardCount"]});
+            CardsArray.push({id: ContinuousVars["CardID"], count: ContinuousVars["CardCount"]});
         }
-        let DeckName = "";
+        let DeckName = '';
         if (ContinuousVars["CurrentByteIndex"] <= TotalBytes) {
             const bytes = DeckBytes.slice(-1 * StringLength);
             for (let bc = 0; bc < bytes.length; bc++) {
-                DeckName += String.fromCharCode(bytes[bc]);
+                DeckName += '%' + bytes[bc].toString(16);
             }
-            const FullDeckArray = {heroes: HeroesArray, cards: CardsArray, name: DeckName};
-            return FullDeckArray;
+            return {heroes: HeroesArray, cards: CardsArray, name: decodeURIComponent(DeckName)};
         }
     };
 //                                    &                     &             &         &
@@ -98,7 +97,7 @@ CArtifactDeckDecoder = (() => {
         }
         const Header = Data[ContinuousVars[IndexStart]];
         ContinuousVars[IndexStart]++;
-        const HasExtendedCount = Header >> 6 == 0x03;
+        const HasExtendedCount = Header >> 6 === 0x03;
 
         if (!ReadUint32(Header, 5, Data, IndexStart, IndexEnd, "CardDelta")) {
             return false;
@@ -122,7 +121,7 @@ CArtifactDeckDecoder = (() => {
         ContinuousVars[RU32OutValue] = 0;
         let DeltaShift = 0;
 
-        if (BaseBits == 0 || ReadBitsChunk(BaseValue, BaseBits, DeltaShift, RU32OutValue)
+        if (BaseBits === 0 || ReadBitsChunk(BaseValue, BaseBits, DeltaShift, RU32OutValue)
         ) {
             DeltaShift = BaseBits;
             while (true) {
@@ -145,8 +144,8 @@ CArtifactDeckDecoder = (() => {
         const ContinueBit = 1 << NumBits;
         const NewBits = Chunk & (ContinueBit - 1);
         ContinuousVars[OutBits] |= NewBits << CurrShift;
-        return (Chunk & ContinueBit) != 0;
+        return (Chunk & ContinueBit) !== 0;
     };
 
-    return { ParseDeck };
+    return {ParseDeck};
 })();

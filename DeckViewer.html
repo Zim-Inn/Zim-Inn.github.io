@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168054076-1"></script>
     <meta charset="utf-8"/>
     <title>Artifact 2 Deck Viewer</title>
     <link rel="stylesheet" href="Styles/Standard.css">
@@ -12,7 +11,7 @@
 <body>
 <div id="SiteHeader">
     <div id="SiteHeaderBackground">
-        <video preload="preload" id="header_video" autoplay loop muted>
+        <video preload="auto" id="header_video" autoplay loop muted>
             <source src="Images/Styles/144px.mp4" type="video/mp4">
         </video>
     </div>
@@ -99,7 +98,7 @@
             </div>
             <div id="DeckCodeErrorContainer">
                 <div class="DeckCodeErrorImg">
-                    <img src="Images/Styles/CardErr.png">
+                    <img src="Images/Styles/CardErr.png" alt="">
                 </div>
                 <div id="DeckCodeErrorMsg">
                     This deck code is not valid. Please make sure the code is correct.
@@ -114,14 +113,8 @@
         </div>
         <div id="DeckExampleTabsContainer">
             <div id="exampleTabCommunity" class="DeckExamplesTabsRoundTopLeft changeExampleTab selected"
-                 onmouseup="DV_ChangeExamplesToTypeWithFade('community');"
-            >
+                 onmouseup="DV_ChangeExamplesToTypeWithFade('community');">
                 <p>Community</p>
-            </div>
-            <div id="exampleTabValve" class="DeckExamplesTabsRoundTopRight changeExampleTab"
-                 onmouseup="DV_ChangeExamplesToTypeWithFade('valve');"
-            >
-                <p>Valve</p>
             </div>
         </div>
         <div id="DeckExamplesOuterContainer">
