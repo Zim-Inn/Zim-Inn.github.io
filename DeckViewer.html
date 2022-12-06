@@ -61,7 +61,17 @@
         主牌组选定后,由被动方玩家决定对局开始时的先后手<br>
         然后,双方同时构筑物品牌组,确认完毕后开始对局<br>
 
-        <h1>BO N快速赛</h1>
+        <h1>BO1 Quick Match:</h1>
+        You and your opponent decide which one to be the ACTIVE PLAYER(AP) at game,
+        you may flip a coin to reach agreement.
+        Get 4 random decks from the database, and then let AP choose one deck for game.<br>
+        You will use its main deck to conduct game1, and the PASSIVE PLAYER(PP) decide which player get the initiative
+        at the game beginning.<br>
+        Finally, both player should construct his item deck and game will be start when the whole deck of both are
+        ready.<br>
+        <br>
+
+        <h1>BO(2n+1)快速赛</h1>
         <h2>初阵:</h2>
         随机抽选四套卡组(只包含主牌组),双方约定或掷骰子选出一人作为主动方<br>
         由主动方玩家在四套卡组中选择两套作为比赛卡组<br>
@@ -69,17 +79,53 @@
         卡组分配完毕后,由被动方玩家率先构筑物品卡组并向对方展示<br>
         然后由主动方玩家构筑物品卡组并展示<br>
         主动方玩家决定对局的先后手,比赛开始<br>
+
+        <br>
+        <h1>BO(2n+1) Quick Match:</h1>
+        <h2>Game1*n:</h2>
+        You and your opponent decide which one to be the AP at game,
+        you may flip a coin to reach agreement.
+        Get 4 random decks from the database, and then let AP choose two decks for game1*n.<br>
+        You will use their main decks to conduct game1*n, and PP can choose his main deck from two first.<br>
+        Then, PP should construct his item deck first and show it to opponent.<br>
+        AP should construct his item deck after he has read the item deck of PP.<br>
+        Finally, let AP decide which player get the initiative at the game beginning and then start the game1*n.<br>
+
         <br>
         <h2>再阵:</h2>
         若初阵局由主动方玩家获胜,则上局失利的玩家可选择从两项中选择其一:<br>
         1.重新随机抽选四套卡组,自己作为主动方玩家,执行和初阵一样流程;<br>
-        2.双方不换卡组,由被动方玩家指定一个不大于3的数字,双方可以更改主牌组中不大于这个数字数量的牌张,被动方玩家额外可以更换物品牌组中的两张牌<br>
+        2.双方不换卡组,由被动方玩家指定一个不大于3的数字,双方可以更改主牌组中不大于这个数字数量的牌张,被动方玩家额外可以更换物品牌组中的两张牌.按照初阵决定的先后手顺序开始再阵<br>
+        <br>
         若初阵局由被动方玩家获胜,则仍保留初阵抽选出的四套卡组,但是由这次由上局胜利的玩家作为主动防重复初阵流程.<br>
         <br>
         双方重复初阵和再阵流程直至某一方在赛点局落败或者双方同时拿到赛点则进入终阵<br>
+        <h2>Game2*n:</h2>
+        <h3>If AP won the game1*n</h3>
+        Then old PP one can choose a road from below:<br>
+        <h4>1.</h4>
+        Refresh 4 random decks, but he become new AP at game2*n(his opponent become PP),<br>
+        other things work same as game1*n<br>
+        <h4>2.</h4>
+        Both players keep his whole deck to game2*n.<br>
+        The old PP can assign an integer x which is not greater than 3,<br>
+        both can change no more than x cards in his main deck, and old PP can change no more than 2 item card
+        additionally.
+        <br>
+        Conduct game as game1*n decided.
+        <br>
+        <br>
+        <h3>If AP won the game1*n</h3>
+        Then the 4 decks should be keep, and change the AP PP role at game2*n,<br>
+        other things work same as game1*n<br>
+        <br>
+        Repeat the game1*n and game2*n until one lose the match. Or when both player get the match point, then they do
+        Final Game 1<br>
 
         <h2>终阵:</h2>
         若有终阵,双方进行BO1快速赛
+        <h2>Final Game 1:</h2>
+        If you enter Final Game, do it as BO1 Quick Match.
     </div>
     <div align="center">
         <button type="button" class="ArtifactButtonSmall" id="draftButton" onmouseup="Draft4Decks();">重新抽取

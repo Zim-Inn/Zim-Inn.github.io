@@ -339,7 +339,7 @@ body {
     background-image: url('../Images/Styles/RetrieveCardList.png');
     background-position: center right;
     background-repeat: no-repeat;
-    text-align: center;
+    text-align: left;
 }
 
 .MovedContainerInner h1 {
