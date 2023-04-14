@@ -250,6 +250,55 @@ const Draft4Decks = function () {
     }
 }
 
+const SearchDeckFunc = function (deckName) {
+    const keyWord = deckName || document.getElementById("DeckCodeInputField").value || "";
+    const containerHTML = document.getElementById("DeckExamplesInnerContainer");
+    containerHTML.innerHTML = "";
+    SearchDeckByDeckCodeData(containerHTML,keyWord);
+}
+
+const SearchDeckByDeckCodeData = (containerHTML,keyWord) => {
+// If we don't have deck code data, then something has gone horribly wrong.
+        if (!DeckCodesJSON || !DeckCodesJSON.length) {
+            containerHTML.style.display = "none";
+        }
+
+        // Add in button and unique header
+        let DeckExamplesInnerHTML = `<h2>搜索结果</h2>`;
+
+        // Produce the actual example list by iterating through the data
+        //输出
+        DeckCodesJSON.forEach((entry, index) => {
+                    // fetch all required data from the deck
+                    const DecodedDeck = getDecodedDeckFromCode(
+                        entry.code,
+                        "Bad example deck code on index " + index + " with Error: "
+                    );
+                    if (!DecodedDeck) {
+                        return;
+                    }
+
+                    const CardData = getCardDataFromDecoded(DecodedDeck);
+                    const DeckStats = getDeckStats(CardData);
+
+                    // Render
+                    if (CardData.DeckName.indexOf(keyWord) != -1) {
+                        DeckExamplesInnerHTML += generateDeckExampleHTML(
+                            CardData.DeckName,
+                            entry.code,
+                            entry.description,
+                            entry.creator,
+                            entry.submitter,
+                            entry.media,
+                            CardData.HeroDeck,
+                            DeckStats
+                        );
+                    }
+            }
+        );
+        containerHTML.innerHTML = DeckExamplesInnerHTML;
+    }
+;
 
 // ---------
 // Webpage Functions

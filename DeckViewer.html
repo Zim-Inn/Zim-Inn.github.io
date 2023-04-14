@@ -137,7 +137,7 @@
     <div id="DeckViewerPage">
         <div id="DeckCodeInputContainer">
             <div id="DeckCodeInputTitle">
-                Enter the Deck Code in the box below and then press the Load Deck button.
+                根据卡组名称模糊搜索卡组列表,为空时查询全部
             </div>
             <div>
                 <input type="text" id="DeckCodeInputField" value="" onkeypress="onEnterSubmit(event, LoadDeckFunc);">
@@ -152,8 +152,8 @@
                 <div class="clear"></div>
             </div>
             <div>
-                <button type="button" class="ArtifactButtonSmall" id="LoadDeckButton" onmouseup="LoadDeckFunc();">LOAD
-                    DECK
+                <button type="button" class="ArtifactButtonSmall" id="LoadDeckButton" onmouseup="SearchDeckFunc();">
+                    Search By Deck Names
                 </button>
             </div>
         </div>
